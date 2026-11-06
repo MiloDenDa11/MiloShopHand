@@ -1,0 +1,929 @@
+{
+  "label": "tickets-speed-before",
+  "timestamp": "2026-11-06T10:09:40.007Z",
+  "conditions": {
+    "base": "http://localhost:3100",
+    "production": true,
+    "browser": "Chromium headless",
+    "platform": "win32",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12450HX",
+    "logicalCpuCount": 12,
+    "passes": 3,
+    "network": "local loopback; unthrottled",
+    "cpuThrottling": "none",
+    "reducedMotion": true,
+    "observationWindowMs": 700,
+    "usableDefinition": "time until route content and document fonts are visible; not a browser INP measurement",
+    "optionResponseDefinition": "product-size click event until two animation frames after the selected state commits; additional metric with no historical baseline",
+    "database": "same local Docker PostgreSQL and Redis"
+  },
+  "clientNavigationMs": 473.35779999999795,
+  "results": [
+    {
+      "device": "desktop",
+      "page": "home",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 826.5504999999998,
+      "ttfbMs": 18.199999999254942,
+      "domContentLoadedMs": 223.89999999850988,
+      "lcpMs": 1196,
+      "cls": 0.0002685180061246142,
+      "resourceCount": 44,
+      "transferBytes": 896339,
+      "jsTransferBytes": 195013,
+      "loadedProductImages": 10,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1573.2131999999997,
+      "settledLcpMs": 1196,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "home",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 223.63590000000022,
+      "ttfbMs": 15.300000000745058,
+      "domContentLoadedMs": 104.69999999925494,
+      "lcpMs": 164,
+      "cls": 0,
+      "resourceCount": 44,
+      "transferBytes": 13156,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 10,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 953.0230000000001,
+      "settledLcpMs": 164,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "home",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 202.97209999999995,
+      "ttfbMs": 11,
+      "domContentLoadedMs": 73.60000000149012,
+      "lcpMs": 152,
+      "cls": 0,
+      "resourceCount": 44,
+      "transferBytes": 13156,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 10,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 925.4467000000004,
+      "settledLcpMs": 152,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "catalog",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 379.65010000000075,
+      "ttfbMs": 13.899999998509884,
+      "domContentLoadedMs": 153.30000000074506,
+      "lcpMs": 248,
+      "cls": 0.0003061342592592593,
+      "resourceCount": 54,
+      "transferBytes": 968878,
+      "jsTransferBytes": 195023,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1107.6696000000002,
+      "settledLcpMs": 248,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "catalog",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 218.3732999999993,
+      "ttfbMs": 11.199999999254942,
+      "domContentLoadedMs": 96.89999999850988,
+      "lcpMs": 152,
+      "cls": 0,
+      "resourceCount": 54,
+      "transferBytes": 16023,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 956.6700000000001,
+      "settledLcpMs": 152,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "catalog",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 183.96199999999953,
+      "ttfbMs": 10.699999999254942,
+      "domContentLoadedMs": 75,
+      "lcpMs": 148,
+      "cls": 0,
+      "resourceCount": 54,
+      "transferBytes": 16026,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 908.8923999999988,
+      "settledLcpMs": 148,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "search",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 342.5717999999997,
+      "ttfbMs": 8.800000000745058,
+      "domContentLoadedMs": 159.80000000074506,
+      "lcpMs": 312,
+      "cls": 0.00014809244791666668,
+      "resourceCount": 40,
+      "transferBytes": 782763,
+      "jsTransferBytes": 195023,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1062.8068999999996,
+      "settledLcpMs": 312,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "search",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 125.97270000000026,
+      "ttfbMs": 22.900000002235174,
+      "domContentLoadedMs": 52.600000001490116,
+      "lcpMs": 84,
+      "cls": 0,
+      "resourceCount": 40,
+      "transferBytes": 13687,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 854.8306999999986,
+      "settledLcpMs": 84,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "search",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 130.94490000000042,
+      "ttfbMs": 14.399999998509884,
+      "domContentLoadedMs": 56.600000001490116,
+      "lcpMs": 100,
+      "cls": 0,
+      "resourceCount": 40,
+      "transferBytes": 13680,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 848.7703000000001,
+      "settledLcpMs": 100,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "detail",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 420.0460000000003,
+      "ttfbMs": 8.600000001490116,
+      "domContentLoadedMs": 149.39999999850988,
+      "lcpMs": 404,
+      "cls": 0.00014809244791666668,
+      "resourceCount": 48,
+      "transferBytes": 939350,
+      "jsTransferBytes": 196241,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1139.6285000000007,
+      "settledLcpMs": 404,
+      "optionResponseMs": 10.800000000745058,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "detail",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 167.53350000000137,
+      "ttfbMs": 11.5,
+      "domContentLoadedMs": 73.30000000074506,
+      "lcpMs": 152,
+      "cls": 0,
+      "resourceCount": 48,
+      "transferBytes": 14492,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 888.0997000000007,
+      "settledLcpMs": 152,
+      "optionResponseMs": 22.399999998509884,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "detail",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 173.183500000001,
+      "ttfbMs": 6.399999998509884,
+      "domContentLoadedMs": 99.60000000149012,
+      "lcpMs": 168,
+      "cls": 0,
+      "resourceCount": 47,
+      "transferBytes": 13992,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 903.8930999999993,
+      "settledLcpMs": 168,
+      "optionResponseMs": 24.800000000745058,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "cart",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 228.46590000000106,
+      "ttfbMs": 23.199999999254942,
+      "domContentLoadedMs": 49,
+      "lcpMs": 144,
+      "cls": 0.00024033203125,
+      "resourceCount": 40,
+      "transferBytes": 775744,
+      "jsTransferBytes": 200565,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 956.5519000000004,
+      "settledLcpMs": 144,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "cart",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 80.15480000000025,
+      "ttfbMs": 1.800000000745058,
+      "domContentLoadedMs": 23.899999998509884,
+      "lcpMs": 60,
+      "cls": 0,
+      "resourceCount": 40,
+      "transferBytes": 12904,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 815.5580999999984,
+      "settledLcpMs": 60,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "desktop",
+      "page": "cart",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 82.94629999999961,
+      "ttfbMs": 3.5,
+      "domContentLoadedMs": 28.899999998509884,
+      "lcpMs": 60,
+      "cls": 0,
+      "resourceCount": 40,
+      "transferBytes": 12905,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 824.7279999999992,
+      "settledLcpMs": 60,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "home",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 433.1939999999995,
+      "ttfbMs": 14.5,
+      "domContentLoadedMs": 175.89999999850988,
+      "lcpMs": 192,
+      "cls": 0.0003476216243962083,
+      "resourceCount": 37,
+      "transferBytes": 823638,
+      "jsTransferBytes": 194516,
+      "loadedProductImages": 8,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1170.3096000000005,
+      "settledLcpMs": 192,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "home",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 122.77130000000034,
+      "ttfbMs": 9.5,
+      "domContentLoadedMs": 65.10000000149012,
+      "lcpMs": 76,
+      "cls": 0,
+      "resourceCount": 37,
+      "transferBytes": 7439,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 10,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 846.7296999999999,
+      "settledLcpMs": 76,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "home",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 151.6887999999999,
+      "ttfbMs": 8.199999999254942,
+      "domContentLoadedMs": 56.80000000074506,
+      "lcpMs": 112,
+      "cls": 0,
+      "resourceCount": 37,
+      "transferBytes": 7439,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 10,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 878.4555,
+      "settledLcpMs": 112,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "catalog",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 392.8381999999983,
+      "ttfbMs": 13.099999997764826,
+      "domContentLoadedMs": 134.20000000298023,
+      "lcpMs": 208,
+      "cls": 0.0003476216243962083,
+      "resourceCount": 44,
+      "transferBytes": 890402,
+      "jsTransferBytes": 189403,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1110.2688999999991,
+      "settledLcpMs": 208,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "catalog",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 133.13720000000103,
+      "ttfbMs": 7.800000000745058,
+      "domContentLoadedMs": 59.899999998509884,
+      "lcpMs": 56,
+      "cls": 0,
+      "resourceCount": 44,
+      "transferBytes": 8385,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 860.0840000000026,
+      "settledLcpMs": 56,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "catalog",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 168.1262999999999,
+      "ttfbMs": 7.600000001490116,
+      "domContentLoadedMs": 59.69999999925494,
+      "lcpMs": 108,
+      "cls": 0,
+      "resourceCount": 44,
+      "transferBytes": 8391,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 13,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 897.5449000000008,
+      "settledLcpMs": 108,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "search",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 274.09969999999885,
+      "ttfbMs": 7.400000002235174,
+      "domContentLoadedMs": 38.19999999925494,
+      "lcpMs": 160,
+      "cls": 0.0006322929742100962,
+      "resourceCount": 31,
+      "transferBytes": 767995,
+      "jsTransferBytes": 189403,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1004.3536999999997,
+      "settledLcpMs": 160,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "search",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 120.8179999999993,
+      "ttfbMs": 6,
+      "domContentLoadedMs": 38,
+      "lcpMs": 108,
+      "cls": 0,
+      "resourceCount": 31,
+      "transferBytes": 6688,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 852.2860000000001,
+      "settledLcpMs": 108,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "search",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 109.13409999999931,
+      "ttfbMs": 9.599999997764826,
+      "domContentLoadedMs": 54.399999998509884,
+      "lcpMs": 92,
+      "cls": 0,
+      "resourceCount": 31,
+      "transferBytes": 6694,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 2,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 848.0067000000017,
+      "settledLcpMs": 92,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "detail",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 286.64589999999953,
+      "ttfbMs": 7.300000000745058,
+      "domContentLoadedMs": 43.899999998509884,
+      "lcpMs": 156,
+      "cls": 0.0003476216243962083,
+      "resourceCount": 39,
+      "transferBytes": 860003,
+      "jsTransferBytes": 190621,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 1012.2448000000004,
+      "settledLcpMs": 156,
+      "optionResponseMs": 19.900000002235174,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "detail",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 123.05710000000181,
+      "ttfbMs": 6.699999999254942,
+      "domContentLoadedMs": 49.899999998509884,
+      "lcpMs": 96,
+      "cls": 0,
+      "resourceCount": 38,
+      "transferBytes": 7009,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 843.1161000000029,
+      "settledLcpMs": 96,
+      "optionResponseMs": 22.300000000745058,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "detail",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 146.6810000000005,
+      "ttfbMs": 8,
+      "domContentLoadedMs": 75.10000000149012,
+      "lcpMs": 116,
+      "cls": 0,
+      "resourceCount": 38,
+      "transferBytes": 7005,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 9,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 874.7947000000022,
+      "settledLcpMs": 116,
+      "optionResponseMs": 23.699999999254942,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "cart",
+      "pass": 0,
+      "cache": "cold-browser",
+      "usableMs": 171.82779999999912,
+      "ttfbMs": 3.100000001490116,
+      "domContentLoadedMs": 26.800000000745058,
+      "lcpMs": 104,
+      "cls": 0.0010794440867972705,
+      "resourceCount": 31,
+      "transferBytes": 763715,
+      "jsTransferBytes": 194945,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 916.4521999999997,
+      "settledLcpMs": 104,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "cart",
+      "pass": 1,
+      "cache": "warm-browser",
+      "usableMs": 70.33260000000155,
+      "ttfbMs": 2.099999997764826,
+      "domContentLoadedMs": 19,
+      "lcpMs": 56,
+      "cls": 0,
+      "resourceCount": 31,
+      "transferBytes": 6497,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 796.2348999999995,
+      "settledLcpMs": 56,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    },
+    {
+      "device": "mobile",
+      "page": "cart",
+      "pass": 2,
+      "cache": "warm-browser",
+      "usableMs": 71.3721000000005,
+      "ttfbMs": 1.9000000022351742,
+      "domContentLoadedMs": 18.5,
+      "lcpMs": 40,
+      "cls": 0,
+      "resourceCount": 31,
+      "transferBytes": 6497,
+      "jsTransferBytes": 0,
+      "loadedProductImages": 0,
+      "visibleImagesReady": true,
+      "imagesSettledMs": 817.9066999999959,
+      "settledLcpMs": 40,
+      "apiRequests": [
+        {
+          "path": "/api/v1/me",
+          "status": 401
+        },
+        {
+          "path": "/api/v1/config",
+          "status": 200
+        }
+      ],
+      "duplicateApiRequests": [],
+      "errors": []
+    }
+  ]
+}

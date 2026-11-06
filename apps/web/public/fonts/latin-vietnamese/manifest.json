@@ -1,0 +1,29 @@
+[
+  {
+    "source": "InterVariable.woff2",
+    "family": "MiloSans",
+    "sourceSha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+    "sourceBytes": 352240,
+    "deliveredBytes": 199412,
+    "glyphs": 1002,
+    "vietnameseVerified": true
+  },
+  {
+    "source": "Lora-Variable.woff2",
+    "family": "MiloEditorial",
+    "sourceSha256": "e4359fb64060d178a1a2d14e56e6dcba97a79361328e0492b67891e7a454e1e3",
+    "sourceBytes": 84272,
+    "deliveredBytes": 51200,
+    "glyphs": 496,
+    "vietnameseVerified": true
+  },
+  {
+    "source": "Lora-VariableItalic.woff2",
+    "family": "MiloEditorial",
+    "sourceSha256": "5b9c73c0ee6be6d1bc32f866cd69f71b9d37604d9b0277938b2cdb26f1f87190",
+    "sourceBytes": 92248,
+    "deliveredBytes": 54668,
+    "glyphs": 496,
+    "vietnameseVerified": true
+  }
+]

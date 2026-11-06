@@ -1,8 +1,8 @@
 import localFont from "next/font/local";
 
-// Complete upstream files include Vietnamese. Italics use a real italic face.
+// Local Latin/Vietnamese delivery subsets retain combining marks and all weights.
 export const bodyFont = localFont({
-  src: "../public/fonts/InterVariable.woff2",
+  src: "../public/fonts/latin-vietnamese/InterVariable.woff2",
   weight: "100 900",
   style: "normal",
   variable: "--font-milo-body",
@@ -11,8 +11,8 @@ export const bodyFont = localFont({
 });
 export const displayFont = localFont({
   src: [
-    { path: "../public/fonts/Lora-Variable.woff2", weight: "400 700", style: "normal" },
-    { path: "../public/fonts/Lora-VariableItalic.woff2", weight: "400 700", style: "italic" },
+    { path: "../public/fonts/latin-vietnamese/Lora-Variable.woff2", weight: "400 700", style: "normal" },
+    { path: "../public/fonts/latin-vietnamese/Lora-VariableItalic.woff2", weight: "400 700", style: "italic" },
   ],
   variable: "--font-milo-display",
   display: "swap",

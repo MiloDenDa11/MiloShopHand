@@ -1,0 +1,26 @@
+{
+  "at": "2026-11-06T11:23:11.602Z",
+  "products": {
+    "count": 90,
+    "unchanged": true
+  },
+  "variants": {
+    "count": 1520,
+    "unchanged": true
+  },
+  "inventory": {
+    "count": 1520,
+    "unchanged": true
+  },
+  "orders": {
+    "count": 4,
+    "unchanged": true
+  },
+  "users": {
+    "count": 9,
+    "priorCount": 8,
+    "allPriorIdsRetained": true,
+    "newAccounts": 1
+  },
+  "result": "PASS"
+}

@@ -1,4 +1,5 @@
 import {test,expect} from "@playwright/test";
+import {spinDelivery,spinHash} from './spin-assets';
 
 const productPath="/san-pham/ml-tee-everyday-crew";
 const viewer=(page:any)=>page.locator(".photo-spin-viewer");
@@ -23,13 +24,12 @@ test("bấm ảnh mở 24 góc thật, chỉ kéo ngang quanh Oy và không tả
   const models:string[]=[],atlases:string[]=[],errors:string[]=[];
   page.on("request",r=>{
     if(r.url().includes(".glb"))models.push(r.url());
-    if(r.url().includes("/_next/image")&&new URL(r.url()).searchParams.get("w")==="1920"&&decodeURIComponent(r.url()).includes("/collection-spin/"))atlases.push(r.url());
+    if(/\/product-media\/.*-spin-detail\.webp$/.test(r.url()))atlases.push(r.url());
   });
   page.on("pageerror",e=>errors.push(e.message));
   await page.goto(productPath);
-  // The front/back gallery can share two optimized atlas files with 360.
-  // The complete four-atlas set must wait for the explicit open action.
-  expect(new Set(atlases).size).toBeLessThan(4);
+  // Single-view gallery files must not eagerly load any full spin atlas.
+  expect(new Set(atlases).size).toBe(0);
   await page.locator("#main .detail-image-zoom").click();
   await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
   await expect(viewer(page)).toHaveAttribute("data-axis","y");
@@ -97,9 +97,8 @@ test("360px, vuốt cảm ứng, reduced motion và WebGL tắt vẫn xoay ảnh
 
 test("ảnh tải lỗi có thông báo, gallery còn dùng được và thử lại thành công",async({page})=>{
   let fail=true;
-  await page.route("**/_next/image?**",route=>{
-    const url=new URL(route.request().url());
-    return fail&&url.searchParams.get("w")==="1920"&&url.searchParams.get("url")?.startsWith("/collection-spin/")?route.fulfill({status:503,body:"unavailable"}):route.continue();
+  await page.route("**/product-media/*-spin-detail.webp",route=>{
+    return fail?route.fulfill({status:503,body:"unavailable"}):route.continue();
   });
   await page.goto(productPath);
   await page.getByRole("button",{name:"Khám phá thiết kế 360°",exact:true}).click();
@@ -119,19 +118,20 @@ test("đổi màu giữ góc sau, đúng bộ ảnh trắng/đen và giỏ đún
   await dialog.getByRole("button",{name:"Đen",exact:true}).click();
   await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
   await expect(stage(page)).toHaveAttribute("data-frame","12");
-  await expect(page.locator(".photo-spin-sheet")).toHaveAttribute("style",/black/);
+  await expect(page.locator(".photo-spin-sheet")).toHaveAttribute("style",new RegExp(spinDelivery('ml-tee-everyday-crew','#151515',2,'detail').replaceAll('.','\\.')));
   await dialog.getByRole("button",{name:"Trắng",exact:true}).click();
   await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
   await expect(stage(page)).toHaveAttribute("data-frame","12");
-  await expect(page.locator(".photo-spin-sheet")).toHaveAttribute("style",/white/);
+  await expect(page.locator(".photo-spin-sheet")).toHaveAttribute("style",new RegExp(spinDelivery('ml-tee-everyday-crew','#f8f7f2',2,'detail').replaceAll('.','\\.')));
   await dialog.getByRole("button",{name:"Đen",exact:true}).click();
   await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
   await page.keyboard.press("Escape");
-  await expect(page.locator(".detail-main img")).toHaveAttribute("src",/black/);
+  const blackPhoto=new RegExp(`/product-media/${spinHash('ml-tee-everyday-crew','#151515',0)}-v1-cell-`);
+  await expect(page.locator(".detail-main img")).toHaveAttribute("src",blackPhoto);
   await page.getByRole("button",{name:"M",exact:true}).click();
   await page.getByRole("button",{name:"Thêm vào giỏ hàng",exact:true}).click();
   await expect(page.locator(".cart-line").first()).toContainText("Đen");
-  await expect(page.locator(".cart-line img").first()).toHaveAttribute("src",/black/);
+  await expect(page.locator(".cart-line img").first()).toHaveAttribute("src",blackPhoto);
 });
 
 test("màu chưa có ảnh không mượn bộ 360 của màu khác",async({page})=>{

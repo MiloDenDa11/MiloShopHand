@@ -17,6 +17,7 @@ cd C:\Users\LOQ\OneDrive\Desktop\MiloShopHand
 npm ci
 npm run setup
 npm run infra:up
+npm run infra:configure-local
 npm run db:generate
 npm run db:migrate
 # Chỉ seed khi dựng database mới. Bản đã chuyển từ ổ D không cần seed lại.
@@ -35,6 +36,8 @@ PostgreSQL 18.6 và Redis 7.4.11 chạy nền trong Docker; API/web/worker chạ
 - API trực tiếp: <http://localhost:4000/api/v1>
 
 `npm run setup` tạo `.env` bỏ qua Git với secret ngẫu nhiên. Không dùng secret phát triển cho production. Thiếu Redis ở development: API giới hạn tần suất trong bộ nhớ; worker dùng outbox PostgreSQL bền vững. Production bắt buộc Redis và cấm mock adapters.
+
+`infra:configure-local` sao lưu `.env` riêng tư rồi đổi địa chỉ PostgreSQL/Redis local từ `localhost` sang `127.0.0.1`, khớp cổng Docker. Lệnh giữ nguyên mật khẩu, port, tên database và Redis DB; không sửa host dịch vụ trong Compose hoặc host từ xa. Trên máy Windows này, phép đo kết nối PostgreSQL mới giảm từ khoảng 2.065 ms xuống 18 ms. `npm run dev` dùng Turbopack; asset mới đăng ký bằng `npm run assets:photos`, còn production build tự chuẩn bị ảnh WebP. Xem [đo tốc độ và kiểm tra](docs/PERFORMANCE-TICKETS-COMPARISON.md).
 
 ## Email và tài khoản
 

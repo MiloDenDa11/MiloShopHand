@@ -32,13 +32,14 @@ try{
     const adminUrl=new URL(database);adminUrl.pathname='/postgres';const client=new pg.Client({connectionString:adminUrl.toString()});await client.connect();const exists=await client.query("SELECT 1 FROM pg_database WHERE datname='milo_redesign_test'");if(!exists.rowCount)await client.query("CREATE DATABASE milo_redesign_test ENCODING 'UTF8' TEMPLATE template0 LC_COLLATE 'C' LC_CTYPE 'C'");await client.end();
     await run('node_modules/prisma/build/index.js',['migrate','deploy']);
     await run('node_modules/tsx/dist/cli.mjs',['prisma/seed.ts']);
+    await run('scripts/build-product-media.mjs');
     launch('node_modules/tsx/dist/cli.mjs',['--tsconfig','apps/api/tsconfig.json','apps/api/src/main.ts']);
     launch('node_modules/tsx/dist/cli.mjs',['--tsconfig','apps/worker/tsconfig.json','apps/worker/src/main.ts']);
     if(production&&!process.argv.includes('--reuse-build'))await new Promise((yes,no)=>{
       const build=launch('node_modules/next/dist/bin/next',['build','--webpack'],resolve(root,'apps/web'),webEnv);
       build.on('error',no);build.on('exit',code=>code===0?yes():no(new Error(`Production web build exited ${code}`)));
     });
-    launch('node_modules/next/dist/bin/next',production?['start','--port','3100']:['dev','--webpack','--port','3100'],resolve(root,'apps/web'),webEnv);
+    launch('node_modules/next/dist/bin/next',production?['start','--port','3100']:['dev','--turbopack','--port','3100'],resolve(root,'apps/web'),webEnv);
     await ready('http://localhost:4100/api/v1/config');await ready(env.APP_URL);
     console.log(`REDESIGN QA READY: http://localhost:3100 | ${production?'production build':'development'} | Docker PostgreSQL / milo_redesign_test | Redis DB 2`);
     if(process.argv.includes('--test'))await run('node_modules/@playwright/test/cli.js',['test',...testArguments]);

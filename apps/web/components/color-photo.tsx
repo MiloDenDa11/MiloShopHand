@@ -3,7 +3,7 @@ import {useEffect,useRef,useState} from "react";
 import * as THREE from "three";
 import {garmentPhotoMask,paintGarmentFallback,srgbToLinear} from "../lib/garment-photo-mask";
 
-type Media={src:string;view:string|null;atlas?:{columns:number;rows:number;frame:number;aspect:number}};
+type Media={src:string;view:string|null;back?:boolean;optimized?:boolean;atlas?:{columns:number;rows:number;frame:number;aspect:number}};
 export default function ColorPhoto({media,preview,name}:{media:Media;preview:{targetHex:string;sourceHex:string};name:string}){
   const host=useRef<HTMLSpanElement>(null);
   const [visible,setVisible]=useState(false),[state,setState]=useState("loading"),[engine,setEngine]=useState("");
@@ -17,7 +17,7 @@ export default function ColorPhoto({media,preview,name}:{media:Media;preview:{ta
     const reduced=matchMedia("(prefers-reduced-motion: reduce)");
     async function load(){
       try{
-        image.src=/\.svg(?:[?#]|$)/i.test(media.src)||!media.src.startsWith("/")?media.src:`/_next/image?url=${encodeURIComponent(media.src)}&w=1920&q=75`;
+        image.src=media.optimized||/\.svg(?:[?#]|$)/i.test(media.src)||!media.src.startsWith("/")?media.src:`/_next/image?url=${encodeURIComponent(media.src)}&w=1920&q=75`;
         await image.decode();if(disposed)return;
         let columns=1,rows=1,column=0,row=0;
         if(media.view){columns=2;column=media.view==="back"?1:0;}
@@ -27,7 +27,7 @@ export default function ColorPhoto({media,preview,name}:{media:Media;preview:{ta
         const context=crop.getContext("2d",{willReadFrequently:true});if(!context)throw new Error("canvas-unavailable");
         context.drawImage(image,column*sw,row*sh,sw,sh,0,0,crop.width,crop.height);
         const pixels=context.getImageData(0,0,crop.width,crop.height);
-        const back=media.view==="back"||/part-2\.png|-[1]\.svg/.test(media.src);
+        const back=media.back??(media.view==="back"||/part-2\.png|-[1]\.svg/.test(media.src));
         const mask=garmentPhotoMask(pixels.data,crop.width,crop.height,preview.sourceHex,back);
         if(mask.coverage<.025||mask.coverage>.92)throw new Error("mask-unavailable");
         const fallback=()=>{
@@ -66,6 +66,6 @@ export default function ColorPhoto({media,preview,name}:{media:Media;preview:{ta
     }
     let visibilityCleanup=()=>{};void load();
     return()=>{disposed=true;cancelAnimationFrame(animation);resize?.disconnect();visibilityCleanup();texture?.dispose();maskTexture?.dispose();material?.dispose();geometry?.dispose();renderer?.dispose();renderer?.forceContextLoss();el.replaceChildren();};
-  },[visible,media.src,media.view,preview.targetHex,preview.sourceHex]);
+  },[visible,media.src,media.view,media.back,media.optimized,preview.targetHex,preview.sourceHex]);
   return <span ref={host} className="color-photo-stage" data-state={state} data-color={preview.targetHex} data-engine={engine} aria-label={`Milo Design — phối màu ${preview.targetHex}`}>{state==="error"&&<span className="color-photo-error" role="status">Chưa tải được phối màu. Vui lòng chọn lại màu.</span>}</span>;
 }

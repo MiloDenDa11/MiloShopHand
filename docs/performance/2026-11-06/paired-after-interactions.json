@@ -1,0 +1,1044 @@
+{
+  "label": "paired-after",
+  "base": "http://localhost:3100",
+  "at": "2026-11-06T11:41:13.405Z",
+  "conditions": "production; local loopback; Chromium; desktop 1440x1000; no CPU/network throttle; fresh browser per route",
+  "routes": [
+    {
+      "route": "/",
+      "resources": [
+        {
+          "url": "http://localhost:3100/_next/static/media/85e1ff8525bf84e0-s.p.woff2",
+          "bytes": 199412,
+          "transfer": 199712,
+          "ms": 59.899999998509884,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/1968-f019bad0472750bd.js",
+          "bytes": 67290,
+          "transfer": 67590,
+          "ms": 68.29999999701977,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/87c73c54-94dfd33dd614faf8.js",
+          "bytes": 64056,
+          "transfer": 64356,
+          "ms": 67.39999999850988,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/d4e34500e9dc7cf7-s.p.woff2",
+          "bytes": 54668,
+          "transfer": 54968,
+          "ms": 58.5,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/8d2a2608ee54f14c-s.p.woff2",
+          "bytes": 51200,
+          "transfer": 51500,
+          "ms": 57.900000002235174,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2269-ef5ab6d705df29a4.js",
+          "bytes": 18528,
+          "transfer": 18828,
+          "ms": 68.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/8fffe2768a6b-v1-front-768.webp",
+          "bytes": 15680,
+          "transfer": 15980,
+          "ms": 9.900000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 26.800000000745058,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/d93773d96bfb-v1-cell-512.webp",
+          "bytes": 12878,
+          "transfer": 13178,
+          "ms": 9.899999998509884,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/07aafc666a1c-v1-cell-512.webp",
+          "bytes": 11898,
+          "transfer": 12198,
+          "ms": 5.5,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6860-84a0a375721c3d15.js",
+          "bytes": 11809,
+          "transfer": 12109,
+          "ms": 5.100000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/326036f8b9e1d3ce.css",
+          "bytes": 11300,
+          "transfer": 11600,
+          "ms": 14.199999999254942,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6503-067323ed831982bc.js",
+          "bytes": 10641,
+          "transfer": 10941,
+          "ms": 54.80000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/5226-e43ae964850d4109.js",
+          "bytes": 10061,
+          "transfer": 10361,
+          "ms": 7.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/8fffe2768a6b-v1-back-512.webp",
+          "bytes": 9652,
+          "transfer": 9952,
+          "ms": 5.600000001490116,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/product-media/8fffe2768a6b-v1-front-512.webp",
+          "bytes": 9136,
+          "transfer": 9436,
+          "ms": 8.599999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/61e89dc1c98e-v1-cell-512.webp",
+          "bytes": 8660,
+          "transfer": 8960,
+          "ms": 5.199999999254942,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/62-01f1ddaf44abed11.js",
+          "bytes": 7442,
+          "transfer": 7742,
+          "ms": 6.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2670-bbb02d9476ffc277.js",
+          "bytes": 4347,
+          "transfer": 4647,
+          "ms": 19.800000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/webpack-b1d0a5302e3b4baf.js",
+          "bytes": 1889,
+          "transfer": 2189,
+          "ms": 40.30000000074506,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=-6R115g2-1IZRxU7",
+          "bytes": 1622,
+          "transfer": 1922,
+          "ms": 11.899999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=PMvTVcj1Y67-bYpH",
+          "bytes": 1590,
+          "transfer": 1890,
+          "ms": 28.300000000745058,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=j-0NePW_mbcSb7Rm",
+          "bytes": 1579,
+          "transfer": 1879,
+          "ms": 16.800000000745058,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 22.400000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 27.399999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/page-69656703c6846ab3.js",
+          "bytes": 918,
+          "transfer": 1218,
+          "ms": 3.900000002235174,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 31.399999998509884,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?category=ao-hoodie&_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 795,
+          "transfer": 1095,
+          "ms": 22,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?sort=newest&_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 788,
+          "transfer": 1088,
+          "ms": 40.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 777,
+          "transfer": 1077,
+          "ms": 41.80000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/main-app-f4b193285b0295df.js",
+          "bytes": 511,
+          "transfer": 811,
+          "ms": 50.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/error-6d78471911fd5924.js",
+          "bytes": 456,
+          "transfer": 756,
+          "ms": 65.19999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/b42f796b76992455.css",
+          "bytes": 404,
+          "transfer": 704,
+          "ms": 13.900000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 13,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=5CB68i4pnAekjehf",
+          "bytes": 245,
+          "transfer": 545,
+          "ms": 34.80000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=5CB68i4pnAekjehf",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 20.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=5CB68i4pnAekjehf",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 20.400000002235174,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/tai-khoan/page-f227c1c7ccd47fc3.js",
+          "bytes": 208,
+          "transfer": 508,
+          "ms": 5.599999997764826,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/bo-suu-tap/page-416c4a3726a767fb.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 18.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/phong-cach/page-cb9c406f02de2b55.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 4.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/loading-26320729204b2f27.js",
+          "bytes": 192,
+          "transfer": 492,
+          "ms": 64.69999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?sort=newest&_rsc=5CB68i4pnAekjehf",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 20.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?_rsc=5CB68i4pnAekjehf",
+          "bytes": 180,
+          "transfer": 480,
+          "ms": 19.699999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 25.899999998509884,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/san-pham",
+      "resources": [
+        {
+          "url": "http://localhost:3100/_next/static/media/85e1ff8525bf84e0-s.p.woff2",
+          "bytes": 199412,
+          "transfer": 199712,
+          "ms": 109.89999999850988,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/1968-f019bad0472750bd.js",
+          "bytes": 67290,
+          "transfer": 67590,
+          "ms": 170.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/87c73c54-94dfd33dd614faf8.js",
+          "bytes": 64056,
+          "transfer": 64356,
+          "ms": 141.39999999850988,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/d4e34500e9dc7cf7-s.p.woff2",
+          "bytes": 54668,
+          "transfer": 54968,
+          "ms": 114.40000000223517,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/8d2a2608ee54f14c-s.p.woff2",
+          "bytes": 51200,
+          "transfer": 51500,
+          "ms": 110.89999999850988,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/product-media/e5cdb347e0ae-v1-front-512.webp",
+          "bytes": 21652,
+          "transfer": 21952,
+          "ms": 114,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2269-ef5ab6d705df29a4.js",
+          "bytes": 18528,
+          "transfer": 18828,
+          "ms": 128.70000000298023,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/796f419ad790-v1-front-512.webp",
+          "bytes": 14034,
+          "transfer": 14334,
+          "ms": 123.69999999925494,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 68.10000000149012,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/d93773d96bfb-v1-cell-512.webp",
+          "bytes": 12878,
+          "transfer": 13178,
+          "ms": 36.30000000074506,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/15de47d0366d-v1-front-512.webp",
+          "bytes": 12722,
+          "transfer": 13022,
+          "ms": 123.70000000298023,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/product-media/07aafc666a1c-v1-cell-512.webp",
+          "bytes": 11898,
+          "transfer": 12198,
+          "ms": 95.29999999701977,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6860-84a0a375721c3d15.js",
+          "bytes": 11809,
+          "transfer": 12109,
+          "ms": 134.10000000149012,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/a16415a86995-v1-front-512.webp",
+          "bytes": 11694,
+          "transfer": 11994,
+          "ms": 123.89999999850988,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/product-media/eec04b9f8d92-v1-front-512.webp",
+          "bytes": 11596,
+          "transfer": 11896,
+          "ms": 98,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/326036f8b9e1d3ce.css",
+          "bytes": 11300,
+          "transfer": 11600,
+          "ms": 20.899999998509884,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/62fd33955bfa-v1-front-512.webp",
+          "bytes": 10780,
+          "transfer": 11080,
+          "ms": 136,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/product-media/94c918e85ace-v1-front-512.webp",
+          "bytes": 10682,
+          "transfer": 10982,
+          "ms": 105.69999999925494,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6503-067323ed831982bc.js",
+          "bytes": 10641,
+          "transfer": 10941,
+          "ms": 116.90000000223517,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/4fc7e25c1e46-v1-front-512.webp",
+          "bytes": 10420,
+          "transfer": 10720,
+          "ms": 130.10000000149012,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/5226-e43ae964850d4109.js",
+          "bytes": 10061,
+          "transfer": 10361,
+          "ms": 7.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/product-media/8fffe2768a6b-v1-back-512.webp",
+          "bytes": 9652,
+          "transfer": 9952,
+          "ms": 90.30000000074506,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/product-media/8fffe2768a6b-v1-front-512.webp",
+          "bytes": 9136,
+          "transfer": 9436,
+          "ms": 36.19999999925494,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/product-media/61e89dc1c98e-v1-cell-512.webp",
+          "bytes": 8660,
+          "transfer": 8960,
+          "ms": 95.10000000149012,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/62-01f1ddaf44abed11.js",
+          "bytes": 7442,
+          "transfer": 7742,
+          "ms": 7.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2670-bbb02d9476ffc277.js",
+          "bytes": 4347,
+          "transfer": 4647,
+          "ms": 26.100000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/webpack-b1d0a5302e3b4baf.js",
+          "bytes": 1889,
+          "transfer": 2189,
+          "ms": 66.39999999850988,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=xYA7IpiB34gr2n3z",
+          "bytes": 1622,
+          "transfer": 1922,
+          "ms": 20.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=4DsjFiaTZIA7Nk-_",
+          "bytes": 1590,
+          "transfer": 1890,
+          "ms": 12.800000000745058,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=yauFTxD8wYyCXer9",
+          "bytes": 1579,
+          "transfer": 1879,
+          "ms": 14.900000002235174,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 40.900000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 174.59999999776483,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/san-pham/page-76bbe818abceecf8.js",
+          "bytes": 928,
+          "transfer": 1228,
+          "ms": 145.29999999701977,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 95.80000000074506,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-minimal-no-pocket?_rsc=nSN_06OWhakx_h56",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 53.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-rib-side-hood?_rsc=nSN_06OWhakx_h56",
+          "bytes": 901,
+          "transfer": 1201,
+          "ms": 70.69999999925494,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-longline-hood?_rsc=nSN_06OWhakx_h56",
+          "bytes": 898,
+          "transfer": 1198,
+          "ms": 107.90000000223517,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?sort=newest&_rsc=nSN_06OWhakx_h56",
+          "bytes": 786,
+          "transfer": 1086,
+          "ms": 21.899999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/?_rsc=nSN_06OWhakx_h56",
+          "bytes": 717,
+          "transfer": 1017,
+          "ms": 115.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/main-app-f4b193285b0295df.js",
+          "bytes": 511,
+          "transfer": 811,
+          "ms": 77.80000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/error-6d78471911fd5924.js",
+          "bytes": 456,
+          "transfer": 756,
+          "ms": 158.29999999701977,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/b42f796b76992455.css",
+          "bytes": 404,
+          "transfer": 704,
+          "ms": 40.5,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 40.100000001490116,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 245,
+          "transfer": 545,
+          "ms": 181.69999999925494,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 181.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 181.60000000149012,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-minimal-no-pocket?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 230,
+          "transfer": 530,
+          "ms": 109.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-rib-side-hood?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 225,
+          "transfer": 525,
+          "ms": 97.90000000223517,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham/ml-hoodie-longline-hood?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 224,
+          "transfer": 524,
+          "ms": 92.09999999776483,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/tai-khoan/page-f227c1c7ccd47fc3.js",
+          "bytes": 208,
+          "transfer": 508,
+          "ms": 12.699999999254942,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/bo-suu-tap/page-416c4a3726a767fb.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 25.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/phong-cach/page-cb9c406f02de2b55.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 22,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/loading-26320729204b2f27.js",
+          "bytes": 192,
+          "transfer": 492,
+          "ms": 12.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 164,
+          "transfer": 464,
+          "ms": 181.19999999925494,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 174.80000000074506,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/gio-hang",
+      "resources": [
+        {
+          "url": "http://localhost:3100/_next/static/media/85e1ff8525bf84e0-s.p.woff2",
+          "bytes": 199412,
+          "transfer": 199712,
+          "ms": 60.80000000074506,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/1968-f019bad0472750bd.js",
+          "bytes": 67290,
+          "transfer": 67590,
+          "ms": 56.19999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/87c73c54-94dfd33dd614faf8.js",
+          "bytes": 64056,
+          "transfer": 64356,
+          "ms": 55.69999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/d4e34500e9dc7cf7-s.p.woff2",
+          "bytes": 54668,
+          "transfer": 54968,
+          "ms": 55.399999998509884,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/media/8d2a2608ee54f14c-s.p.woff2",
+          "bytes": 51200,
+          "transfer": 51500,
+          "ms": 57.30000000074506,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2269-ef5ab6d705df29a4.js",
+          "bytes": 18528,
+          "transfer": 18828,
+          "ms": 53.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 20.300000000745058,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6860-84a0a375721c3d15.js",
+          "bytes": 11809,
+          "transfer": 12109,
+          "ms": 40.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/326036f8b9e1d3ce.css",
+          "bytes": 11300,
+          "transfer": 11600,
+          "ms": 15.299999997019768,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6503-067323ed831982bc.js",
+          "bytes": 10641,
+          "transfer": 10941,
+          "ms": 43,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/5226-e43ae964850d4109.js",
+          "bytes": 10061,
+          "transfer": 10361,
+          "ms": 40.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/62-01f1ddaf44abed11.js",
+          "bytes": 7442,
+          "transfer": 7742,
+          "ms": 36.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/6265-708a04b71c84c2b9.js",
+          "bytes": 5975,
+          "transfer": 6275,
+          "ms": 59.20000000298023,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/2670-bbb02d9476ffc277.js",
+          "bytes": 4347,
+          "transfer": 4647,
+          "ms": 30.400000002235174,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/webpack-b1d0a5302e3b4baf.js",
+          "bytes": 1889,
+          "transfer": 2189,
+          "ms": 22.800000000745058,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=cGC4kSSxlojJTAAQ",
+          "bytes": 1622,
+          "transfer": 1922,
+          "ms": 29,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=4x7nImxU7x_QeCqR",
+          "bytes": 1590,
+          "transfer": 1890,
+          "ms": 54.600000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=lxLSMQ6ylKADH_cC",
+          "bytes": 1579,
+          "transfer": 1879,
+          "ms": 29,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 60.899999998509884,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 58.099999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 20.199999999254942,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?sort=newest&_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 787,
+          "transfer": 1087,
+          "ms": 71.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 779,
+          "transfer": 1079,
+          "ms": 86.90000000223517,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/?_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 719,
+          "transfer": 1019,
+          "ms": 86.29999999701977,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/main-app-f4b193285b0295df.js",
+          "bytes": 511,
+          "transfer": 811,
+          "ms": 39,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/error-6d78471911fd5924.js",
+          "bytes": 456,
+          "transfer": 756,
+          "ms": 51.400000002235174,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/b42f796b76992455.css",
+          "bytes": 404,
+          "transfer": 704,
+          "ms": 22.099999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 21,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3100/tai-khoan?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 245,
+          "transfer": 545,
+          "ms": 44.099999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/bo-suu-tap?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 49.600000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/phong-cach?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 41,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/tai-khoan/page-f227c1c7ccd47fc3.js",
+          "bytes": 208,
+          "transfer": 508,
+          "ms": 40,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/bo-suu-tap/page-416c4a3726a767fb.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 21.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/phong-cach/page-cb9c406f02de2b55.js",
+          "bytes": 197,
+          "transfer": 497,
+          "ms": 26.100000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/gio-hang/page-5e3b46c3aead2c40.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 56.70000000298023,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/_next/static/chunks/app/loading-26320729204b2f27.js",
+          "bytes": 192,
+          "transfer": 492,
+          "ms": 44,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?sort=newest&_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 50.400000002235174,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/san-pham?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 180,
+          "transfer": 480,
+          "ms": 50.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 164,
+          "transfer": 464,
+          "ms": 50.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 59.5,
+          "type": "fetch"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "sort": "price-asc",
+      "urlMs": 66.30000000074506,
+      "resultsMs": 167.80000000074506,
+      "requests": [
+        "http://localhost:3100/api/v1/products?sort=price-asc",
+        "http://localhost:3100/san-pham/mono-boxy-tee?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3100/san-pham/sunday-club-tee?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3100/san-pham/everyday-essential-tee?_rsc=nSN_06OWhakx_h56"
+      ]
+    },
+    {
+      "sort": "price-desc",
+      "urlMs": 41.5,
+      "resultsMs": 140.59999999776483,
+      "requests": [
+        "http://localhost:3100/api/v1/products?sort=price-desc",
+        "http://localhost:3100/san-pham/downtown-bomber?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3100/san-pham/retro-sport-bomber?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3100/san-pham/varsity-club-bomber?_rsc=nSN_06OWhakx_h56"
+      ]
+    },
+    {
+      "sort": "bestseller",
+      "urlMs": 28.800000000745058,
+      "resultsMs": 130.69999999925494,
+      "requests": [
+        "http://localhost:3100/api/v1/products?sort=bestseller"
+      ]
+    },
+    {
+      "sort": "rating",
+      "urlMs": 15,
+      "resultsMs": 123,
+      "requests": [
+        "http://localhost:3100/api/v1/products?sort=rating"
+      ]
+    },
+    {
+      "sort": "newest",
+      "urlMs": 23.199999999254942,
+      "resultsMs": 156.5,
+      "requests": [
+        "http://localhost:3100/api/v1/products?sort=newest"
+      ]
+    }
+  ]
+}

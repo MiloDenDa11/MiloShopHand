@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, FormEvent } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { ArrowRight, SlidersHorizontal, X } from "lucide-react";
 import { ProductCard, Skeleton, ErrorBox, Empty } from "./client";
 import { useResource } from "../hooks/use-resource";
@@ -10,8 +10,7 @@ export { useResource } from "../hooks/use-resource";
 export { FashionHome as Home } from "./fashion-home";
 export { FashionProductDetail as ProductDetail } from "./fashion-product";
 export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?: any; initialTaxonomy?: any }) {
-  const params = useSearchParams(),
-    router = useRouter();
+  const params = useSearchParams();
   const query = params.toString();
   const products = useResource(`/products?${query}`, initialProducts);
   const metadata = useResource("/catalog", initialTaxonomy);
@@ -28,7 +27,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
     if (value) next.set(key, value);
     else next.delete(key);
     if (key !== "page") next.delete("page");
-    router.push(`/san-pham?${next}`);
+    window.history.pushState(null, "", `/san-pham${next.size ? `?${next}` : ""}`);
   }
   function filters(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -36,7 +35,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
     new FormData(e.currentTarget).forEach((value, key) => {
       if (value) next.set(key, String(value));
     });
-    router.push(`/san-pham?${next}`);
+    window.history.pushState(null, "", `/san-pham${next.size ? `?${next}` : ""}`);
   }
   return (
     <div className="container catalog-page">
@@ -218,7 +217,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
             </form>
           </details>
         </aside>
-        <section>
+        <section aria-busy={products.loading}>
           <div className="catalog-toolbar">
             <span>{products.data?.total ?? "…"} thiết kế cho bạn</span>
             <label>

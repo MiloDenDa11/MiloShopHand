@@ -8,6 +8,8 @@ const base = process.env.BENCHMARK_URL || "http://localhost:3200";
 const label = process.argv[2] || "latest";
 const output = path.resolve(process.env.BENCHMARK_OUTPUT || ".local/performance", `${label}.json`);
 const passes = Number(process.env.BENCHMARK_PASSES || 3);
+const readiness=await fetch(`${base}/api/v1/config`,{signal:AbortSignal.timeout(5000)});
+if(!readiness.ok)throw new Error('API is not ready. Wait for the preview ready message before benchmarking.');
 const routes = [
   ["home", "/", ".product-card"],
   ["catalog", "/san-pham", ".product-card"],
@@ -36,7 +38,9 @@ try {
         page.on("pageerror", error);
         const start = performance.now();
         await page.goto(base + route, { waitUntil: "domcontentloaded", timeout: 30000 });
+        const documentReadyMs = performance.now() - start;
         await page.locator(readySelector).first().waitFor({ state: "visible", timeout: 20000 });
+        const contentVisibleMs = performance.now() - start;
         await page.evaluate(() => document.fonts.ready);
         const usableMs = performance.now() - start;
         // A fixed observation window is applied identically before and after.
@@ -47,6 +51,7 @@ try {
           return {
             ttfbMs: navigation.responseStart - navigation.requestStart,
             domContentLoadedMs: navigation.domContentLoadedEventEnd,
+            responseEndMs: navigation.responseEnd,
             lcpMs: window.__bench.lcp,
             cls: window.__bench.cls,
             resourceCount: resources.length,
@@ -81,7 +86,7 @@ try {
           await page.waitForFunction(() => window.__bench.optionResponseMs !== null);
           extra.optionResponseMs = await page.evaluate(() => window.__bench.optionResponseMs);
         }
-        results.push({ device, page: name, pass, cache: pass === 0 ? "cold-browser" : "warm-browser", usableMs, ...metrics, ...extra, apiRequests: requests, duplicateApiRequests: Object.entries(counts).filter(([, count]) => count > 1), errors });
+        results.push({ device, page: name, pass, cache: pass === 0 ? "cold-browser" : "warm-browser", documentReadyMs, contentVisibleMs, fontsWaitMs: usableMs-contentVisibleMs, usableMs, ...metrics, ...extra, apiRequests: requests, duplicateApiRequests: Object.entries(counts).filter(([, count]) => count > 1), errors });
         page.off("response", receive);
         page.off("pageerror", error);
         if (pass === 0) {

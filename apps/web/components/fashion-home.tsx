@@ -58,8 +58,6 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
   const bestsellers = useResource("/products?sort=bestseller&limit=4", initialBestsellers);
   const taxonomy = useResource("/catalog", initialTaxonomy);
   const { config } = useShop();
-  const coverProduct = products.data?.items?.[0];
-  const coverImage = coverProduct?.images?.find((image: any) => isRealPhoto(image));
   const bannerPhoto = config?.banners?.find((b: any) => isRealPhoto(b.image));
   const hero =
     editorialAssets.hero ||
@@ -70,9 +68,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
           caption: bannerPhoto.title,
           href: bannerPhoto.href,
         }
-      : coverImage
-        ? { src: coverImage.url, alt: coverImage.alt || coverProduct.name, caption: `Milo Design · ${coverProduct.name}`, href: `/san-pham/${coverProduct.slug}` }
-        : null);
+      : { src: "/collection-ai/ml-hoodie-minimal-no-pocket.png?view=front", alt: "ML Minimal No Pocket Hoodie — Milo Design", caption: "Milo Design · ML Minimal No Pocket Hoodie", href: "/san-pham?category=ao-hoodie" });
   const lookbook = editorialAssets.lookbook.filter((p) => isRealPhoto(p.src));
   const community = editorialAssets.community.filter((p) => isRealPhoto(p.src));
   return (

@@ -1,5 +1,7 @@
 # Hiệu năng production — 05/11/2026
 
+> Đo và tối ưu mới ngày 06/11/2026: [đối chiếu Tikets Platform, kết nối Docker, phản hồi bộ lọc, font và ảnh](PERFORMANCE-TICKETS-COMPARISON.md). Số liệu dưới đây là lịch sử; giá và tồn kho tiếp tục được lấy mới trên server cho lượt mở trang và trên client khi đổi bộ lọc.
+
 > Giao diện hiện đã chuyển sang ảnh xoay quanh Oy. Xem số đo và phạm vi mới nhất tại [PHOTO-SPIN.md](PHOTO-SPIN.md). Các số đo GLB/logo trước đó và báo cáo bên dưới là lịch sử.
 
 Máy Windows, Intel i5-12450HX/12 logical CPU, Chromium headless, loopback không throttle mạng/CPU, reduced motion. Next production trước thay đổi ở cổng 3200, bản sau ở cổng 3000; cùng PostgreSQL/Redis Docker. Desktop 1440×1000 và mobile 390×844, ba lượt mỗi trang trên mỗi thiết bị (một cold browser, hai warm browser). Bảng là median của sáu mẫu/trang.

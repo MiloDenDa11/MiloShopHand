@@ -1,4 +1,5 @@
 import {test,expect} from "@playwright/test";
+import {spinDelivery} from './spin-assets';
 
 const dropPath="/san-pham?q=Drop%20Shoulder%20Hood";
 const preview=(page:any)=>page.locator("#main .product-card-preview").first();
@@ -6,7 +7,7 @@ const preview=(page:any)=>page.locator("#main .product-card-preview").first();
 test("di chuột ngay trên thẻ áo xoay đủ24 ảnh quanh Oy, tải theo nhu cầu và bấm mở chi tiết",async({page})=>{
   await page.emulateMedia({reducedMotion:"reduce"});
   const requests:string[]=[],errors:string[]=[];
-  page.on("request",r=>{if(r.url().includes("/_next/image")&&new URL(r.url()).searchParams.get("w")==="1920"&&decodeURIComponent(r.url()).includes("/collection-spin/"))requests.push(r.url());});
+  page.on("request",r=>{if(/\/product-media\/.*-spin-card\.webp$/.test(r.url()))requests.push(r.url());});
   page.on("pageerror",e=>errors.push(e.message));
   await page.goto(dropPath);
   const image=preview(page);
@@ -41,14 +42,14 @@ test("di chuột ngay trên thẻ áo xoay đủ24 ảnh quanh Oy, tải theo nh
 test("thẻ đổi đúng ảnh xoay theo màu, màu chưa có bộ riêng vẫn hiện ảnh tĩnh",async({page})=>{
   await page.goto("/san-pham?q=Everyday%20Crew");
   const card=page.locator("#main .product-card").first();
-  for(const [color,key] of [["Đen","black"],["Trắng","white"],["Đỏ mận","burgundy"]]){
+  for(const [color,hex] of [["Đen","#151515"],["Trắng","#f8f7f2"],["Đỏ mận","#722f37"]]){
     await card.getByRole("button",{name:`Xem màu ${color}`,exact:true}).click();
     const image=card.locator(".product-card-preview");await image.hover();
     await expect(image).toHaveAttribute("data-spin-status","ready");
     const box=(await image.boundingBox())!;
     await page.mouse.move(box.x+box.width*.52,box.y+box.height*.5);
     await expect(image).toHaveAttribute("data-frame","12");
-    await expect(image.locator(".photo-spin-sheet")).toHaveAttribute("style",new RegExp(key));
+    await expect(image.locator(".photo-spin-sheet")).toHaveAttribute("style",new RegExp(spinDelivery('ml-tee-everyday-crew',hex,2,'card').replaceAll('.','\\.')));
   }
   await page.goto("/san-pham?q=Heavy%20Box");
   const pending=page.locator("#main .product-card").first();
@@ -82,9 +83,8 @@ test("360px vuốt trên ảnh thẻ để xoay, giữ cuộn dọc và không m
 
 test("lỗi ảnh xoay giữ ảnh tĩnh, rê chuột lại tải được",async({page})=>{
   let fail=true;
-  await page.route("**/_next/image?**",route=>{
-    const url=new URL(route.request().url());
-    return fail&&url.searchParams.get("w")==="1920"&&url.searchParams.get("url")?.includes("/collection-spin/")?route.fulfill({status:503,body:"unavailable"}):route.continue();
+  await page.route("**/product-media/*-spin-card.webp",route=>{
+    return fail?route.fulfill({status:503,body:"unavailable"}):route.continue();
   });
   await page.goto(dropPath);const image=preview(page);await image.hover();
   await expect(image).toHaveAttribute("data-spin-status","error");

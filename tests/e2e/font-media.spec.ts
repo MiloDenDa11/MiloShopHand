@@ -15,7 +15,7 @@ test("editorial Vietnamese uses the local italic face for all accented glyphs", 
   const { nodeId } = await session.send("DOM.querySelector", { nodeId: root.nodeId, selector: "#main .editorial-title em" });
   const { fonts } = await session.send("CSS.getPlatformFontsForNode", { nodeId });
   expect(fonts.length).toBeGreaterThan(0);
-  expect(fonts.every(font => font.isCustomFont && /Lora/i.test(font.familyName))).toBe(true);
+  expect(fonts.every(font => font.isCustomFont && /MiloEditorial/i.test(font.familyName))).toBe(true);
   for (const width of [360, 768, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

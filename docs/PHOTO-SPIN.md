@@ -1,5 +1,7 @@
 # Xoay ảnh quanh Oy — 06/11/2026
 
+> Phạm vi đã xác minh mới nhất: **61 bộ màu / 49 sản phẩm, 1.464 góc, 244 atlas PNG gốc**. Cả 90 sản phẩm có ảnh gallery; còn 17/60 thiết kế ban đầu và 24/30 sản phẩm cũ chưa có bộ xoay màu gốc. Web hiện dùng ảnh WebP theo góc cho gallery và atlas WebP riêng cho thẻ/chi tiết, giữ nguyên ảnh nguồn; xem [báo cáo hiệu năng](PERFORMANCE-TICKETS-COMPARISON.md). Các mốc ít hơn và tên áo còn thiếu trong phần lịch sử bên dưới không còn thể hiện đầy đủ phạm vi hiện tại.
+
 > UI mới nhất: [Milo Design, nút bo tròn, nền hoa lá và preview đổi màu](MILO-DESIGN-UI.md). Màu thiếu ảnh riêng nay có lớp phối màu xem trước; số bộ ảnh 24 góc gốc bên dưới giữ nguyên. Các mô tả nhãn “AI” trong báo cáo này ghi nguồn gốc asset, không phải nhãn hiện trên giao diện.
 
 Theo yêu cầu mới, giao diện sản phẩm đã trở lại ảnh AI gốc. Cửa sổ 360° hiện dùng bộ ảnh nhiều góc, thay cho GLB dựng hình. Các báo cáo GLB trước đây là lịch sử, không mô tả giao diện hiện tại.

@@ -1,0 +1,1037 @@
+{
+  "label": "paired-before",
+  "base": "http://localhost:3102",
+  "at": "2026-11-06T11:40:02.548Z",
+  "conditions": "production; local loopback; Chromium; desktop 1440x1000; no CPU/network throttle; fresh browser per route",
+  "routes": [
+    {
+      "route": "/",
+      "resources": [
+        {
+          "url": "http://localhost:3102/_next/static/media/0336a89fb4e7fc1d-s.p.woff2",
+          "bytes": 352240,
+          "transfer": 352540,
+          "ms": 147.39999999850988,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/9fa3572cc8eee47e-s.p.woff2",
+          "bytes": 92248,
+          "transfer": 92548,
+          "ms": 146.69999999925494,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/2484d6e3e49a2c7c-s.p.woff2",
+          "bytes": 84272,
+          "transfer": 84572,
+          "ms": 140.10000000149012,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3598-d2f68b352baa6217.js",
+          "bytes": 67160,
+          "transfer": 67460,
+          "ms": 171.59999999776483,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/45bb6821-b09456cdffc137fc.js",
+          "bytes": 64058,
+          "transfer": 64358,
+          "ms": 167.10000000149012,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-minimal-no-pocket.png&w=1920&q=75",
+          "bytes": 32388,
+          "transfer": 32688,
+          "ms": 26.800000000745058,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-rib-side-hood%2Foriginal%2Fpart-0.png%3Fv%3Dd93773d96bfb&w=1080&q=75",
+          "bytes": 29404,
+          "transfer": 29704,
+          "ms": 28.899999998509884,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-zip-pocket-hood%2Foriginal%2Fpart-0.png%3Fv%3D07aafc666a1c&w=1080&q=75",
+          "bytes": 27634,
+          "transfer": 27934,
+          "ms": 7.800000000745058,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-longline-hood%2Foriginal%2Fpart-0.png%3Fv%3D61e89dc1c98e&w=1080&q=75",
+          "bytes": 24444,
+          "transfer": 24744,
+          "ms": 7.199999999254942,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 37.30000000074506,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3054-d5ec326921b8c72a.js",
+          "bytes": 12290,
+          "transfer": 12590,
+          "ms": 157.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/0fd694d2249fc767.css",
+          "bytes": 12052,
+          "transfer": 12352,
+          "ms": 29.200000002980232,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/200-9c7e8d16e4329445.js",
+          "bytes": 11781,
+          "transfer": 12081,
+          "ms": 25.699999999254942,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7938-e32069f3b7e845e8.js",
+          "bytes": 10685,
+          "transfer": 10985,
+          "ms": 90.40000000223517,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-minimal-no-pocket.png&w=750&q=75",
+          "bytes": 10528,
+          "transfer": 10828,
+          "ms": 28.399999998509884,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7787-4f101d051c9bbdb4.js",
+          "bytes": 10093,
+          "transfer": 10393,
+          "ms": 17.699999999254942,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/1433-c4a76371c7631de3.js",
+          "bytes": 7456,
+          "transfer": 7756,
+          "ms": 5.699999999254942,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/2510-a093141839606e32.js",
+          "bytes": 4327,
+          "transfer": 4627,
+          "ms": 39.19999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/webpack-63a3dab7ff5f2b34.js",
+          "bytes": 1884,
+          "transfer": 2184,
+          "ms": 63.100000001490116,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=-6R115g2-1IZRxU7",
+          "bytes": 1626,
+          "transfer": 1926,
+          "ms": 22.399999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=PMvTVcj1Y67-bYpH",
+          "bytes": 1592,
+          "transfer": 1892,
+          "ms": 41.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=j-0NePW_mbcSb7Rm",
+          "bytes": 1583,
+          "transfer": 1883,
+          "ms": 36.79999999701977,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 34.5,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 39.70000000298023,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/page-6a666fc9e3b03acd.js",
+          "bytes": 924,
+          "transfer": 1224,
+          "ms": 42.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-minimal-no-pocket?_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 911,
+          "transfer": 1211,
+          "ms": 113,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 126.89999999850988,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?sort=newest&_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 788,
+          "transfer": 1088,
+          "ms": 53.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?_rsc=tXyZJ52UQVBCVsD3",
+          "bytes": 777,
+          "transfer": 1077,
+          "ms": 64.60000000149012,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/main-app-cbcf8f308c6b892b.js",
+          "bytes": 515,
+          "transfer": 815,
+          "ms": 70.79999999701977,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/error-ab3a83299263df8b.js",
+          "bytes": 455,
+          "transfer": 755,
+          "ms": 191.59999999776483,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/d81dceb0aa6aef61.css",
+          "bytes": 405,
+          "transfer": 705,
+          "ms": 36.19999999925494,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 25.299999997019768,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=5CB68i4pnAekjehf",
+          "bytes": 244,
+          "transfer": 544,
+          "ms": 31.099999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=5CB68i4pnAekjehf",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 36.599999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=5CB68i4pnAekjehf",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 37,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-minimal-no-pocket?_rsc=5CB68i4pnAekjehf",
+          "bytes": 228,
+          "transfer": 528,
+          "ms": 33.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/tai-khoan/page-0b34e69ad2689637.js",
+          "bytes": 210,
+          "transfer": 510,
+          "ms": 4.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/bo-suu-tap/page-1384f1d8ec356a99.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 26.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/phong-cach/page-98286e800046fc5a.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 8.299999997019768,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/loading-f16abd97eb229453.js",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 156.69999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?sort=newest&_rsc=5CB68i4pnAekjehf",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 32.399999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?_rsc=5CB68i4pnAekjehf",
+          "bytes": 180,
+          "transfer": 480,
+          "ms": 32.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 26.399999998509884,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/san-pham",
+      "resources": [
+        {
+          "url": "http://localhost:3102/_next/static/media/0336a89fb4e7fc1d-s.p.woff2",
+          "bytes": 352240,
+          "transfer": 352540,
+          "ms": 107.5,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/9fa3572cc8eee47e-s.p.woff2",
+          "bytes": 92248,
+          "transfer": 92548,
+          "ms": 104.60000000149012,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/2484d6e3e49a2c7c-s.p.woff2",
+          "bytes": 84272,
+          "transfer": 84572,
+          "ms": 104.39999999850988,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3598-d2f68b352baa6217.js",
+          "bytes": 67160,
+          "transfer": 67460,
+          "ms": 133.19999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/45bb6821-b09456cdffc137fc.js",
+          "bytes": 64058,
+          "transfer": 64358,
+          "ms": 118.10000000149012,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-rib-side-hood%2Foriginal%2Fpart-0.png%3Fv%3Dd93773d96bfb&w=1080&q=75",
+          "bytes": 29404,
+          "transfer": 29704,
+          "ms": 58.599999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-zip-pocket-hood%2Foriginal%2Fpart-0.png%3Fv%3D07aafc666a1c&w=1080&q=75",
+          "bytes": 27634,
+          "transfer": 27934,
+          "ms": 47.599999997764826,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-spin%2Fml-hoodie-longline-hood%2Foriginal%2Fpart-0.png%3Fv%3D61e89dc1c98e&w=1080&q=75",
+          "bytes": 24444,
+          "transfer": 24744,
+          "ms": 46.5,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-waffle-layer.png&w=750&q=75",
+          "bytes": 15380,
+          "transfer": 15680,
+          "ms": 51.899999998509884,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 27.5,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-side-zip.png&w=750&q=75",
+          "bytes": 13266,
+          "transfer": 13566,
+          "ms": 52.600000001490116,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-raw-edge.png&w=750&q=75",
+          "bytes": 12806,
+          "transfer": 13106,
+          "ms": 111.90000000223517,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-drop-shoulder-hood.png&w=750&q=75",
+          "bytes": 12294,
+          "transfer": 12594,
+          "ms": 50.5,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3054-d5ec326921b8c72a.js",
+          "bytes": 12290,
+          "transfer": 12590,
+          "ms": 78.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/0fd694d2249fc767.css",
+          "bytes": 12052,
+          "transfer": 12352,
+          "ms": 14.099999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-panel-hood.png&w=750&q=75",
+          "bytes": 11922,
+          "transfer": 12222,
+          "ms": 109,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-double-hood.png&w=750&q=75",
+          "bytes": 11844,
+          "transfer": 12144,
+          "ms": 47.599999997764826,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/200-9c7e8d16e4329445.js",
+          "bytes": 11781,
+          "transfer": 12081,
+          "ms": 99.59999999776483,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-raglan-comfort.png&w=750&q=75",
+          "bytes": 11430,
+          "transfer": 11730,
+          "ms": 112.80000000074506,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-half-zip-studio.png&w=750&q=75",
+          "bytes": 11004,
+          "transfer": 11304,
+          "ms": 112.60000000149012,
+          "type": "img"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7938-e32069f3b7e845e8.js",
+          "bytes": 10685,
+          "transfer": 10985,
+          "ms": 63.19999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Fcollection-ai%2Fml-hoodie-minimal-no-pocket.png&w=750&q=75",
+          "bytes": 10528,
+          "transfer": 10828,
+          "ms": 55.5,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7787-4f101d051c9bbdb4.js",
+          "bytes": 10093,
+          "transfer": 10393,
+          "ms": 12.600000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/1433-c4a76371c7631de3.js",
+          "bytes": 7456,
+          "transfer": 7756,
+          "ms": 12.299999997019768,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/2510-a093141839606e32.js",
+          "bytes": 4327,
+          "transfer": 4627,
+          "ms": 20.600000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/webpack-63a3dab7ff5f2b34.js",
+          "bytes": 1884,
+          "transfer": 2184,
+          "ms": 32.5,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=xYA7IpiB34gr2n3z",
+          "bytes": 1626,
+          "transfer": 1926,
+          "ms": 19.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=4DsjFiaTZIA7Nk-_",
+          "bytes": 1592,
+          "transfer": 1892,
+          "ms": 13.199999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=yauFTxD8wYyCXer9",
+          "bytes": 1583,
+          "transfer": 1883,
+          "ms": 14.699999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 26.100000001490116,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 26.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/san-pham/page-f0ed5f7cfbf47711.js",
+          "bytes": 933,
+          "transfer": 1233,
+          "ms": 101.59999999776483,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 98.60000000149012,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-minimal-no-pocket?_rsc=nSN_06OWhakx_h56",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 84.19999999925494,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-rib-side-hood?_rsc=nSN_06OWhakx_h56",
+          "bytes": 901,
+          "transfer": 1201,
+          "ms": 107.39999999850988,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-longline-hood?_rsc=nSN_06OWhakx_h56",
+          "bytes": 896,
+          "transfer": 1196,
+          "ms": 78.19999999925494,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?sort=newest&_rsc=nSN_06OWhakx_h56",
+          "bytes": 788,
+          "transfer": 1088,
+          "ms": 12.199999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/?_rsc=nSN_06OWhakx_h56",
+          "bytes": 719,
+          "transfer": 1019,
+          "ms": 143,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/main-app-cbcf8f308c6b892b.js",
+          "bytes": 515,
+          "transfer": 815,
+          "ms": 60.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/error-ab3a83299263df8b.js",
+          "bytes": 455,
+          "transfer": 755,
+          "ms": 120.89999999850988,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/d81dceb0aa6aef61.css",
+          "bytes": 405,
+          "transfer": 705,
+          "ms": 20.900000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 16,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 244,
+          "transfer": 544,
+          "ms": 17.899999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 17.600000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 17.699999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-minimal-no-pocket?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 228,
+          "transfer": 528,
+          "ms": 69.59999999776483,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-rib-side-hood?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 224,
+          "transfer": 524,
+          "ms": 69.39999999850988,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham/ml-hoodie-longline-hood?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 223,
+          "transfer": 523,
+          "ms": 118.80000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/tai-khoan/page-0b34e69ad2689637.js",
+          "bytes": 210,
+          "transfer": 510,
+          "ms": 13,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/bo-suu-tap/page-1384f1d8ec356a99.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 18.800000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/phong-cach/page-98286e800046fc5a.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 23.800000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/loading-f16abd97eb229453.js",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 18.400000002235174,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/?_rsc=SROXMnfFGOk0v2dp",
+          "bytes": 164,
+          "transfer": 464,
+          "ms": 17.400000002235174,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 19.899999998509884,
+          "type": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/gio-hang",
+      "resources": [
+        {
+          "url": "http://localhost:3102/_next/static/media/0336a89fb4e7fc1d-s.p.woff2",
+          "bytes": 352240,
+          "transfer": 352540,
+          "ms": 72.20000000298023,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/9fa3572cc8eee47e-s.p.woff2",
+          "bytes": 92248,
+          "transfer": 92548,
+          "ms": 54.69999999925494,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/media/2484d6e3e49a2c7c-s.p.woff2",
+          "bytes": 84272,
+          "transfer": 84572,
+          "ms": 59.19999999925494,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3598-d2f68b352baa6217.js",
+          "bytes": 67160,
+          "transfer": 67460,
+          "ms": 48.099999997764826,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/45bb6821-b09456cdffc137fc.js",
+          "bytes": 64058,
+          "transfer": 64358,
+          "ms": 44.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/4fe4617d765d84b3.css",
+          "bytes": 13979,
+          "transfer": 14279,
+          "ms": 27,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/3054-d5ec326921b8c72a.js",
+          "bytes": 12290,
+          "transfer": 12590,
+          "ms": 39.5,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/0fd694d2249fc767.css",
+          "bytes": 12052,
+          "transfer": 12352,
+          "ms": 15.600000001490116,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/200-9c7e8d16e4329445.js",
+          "bytes": 11781,
+          "transfer": 12081,
+          "ms": 18.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7938-e32069f3b7e845e8.js",
+          "bytes": 10685,
+          "transfer": 10985,
+          "ms": 41.600000001490116,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7787-4f101d051c9bbdb4.js",
+          "bytes": 10093,
+          "transfer": 10393,
+          "ms": 17.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/1433-c4a76371c7631de3.js",
+          "bytes": 7456,
+          "transfer": 7756,
+          "ms": 17.800000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/7987-c2a9b5c87b9e5383.js",
+          "bytes": 5982,
+          "transfer": 6282,
+          "ms": 52.69999999925494,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/2510-a093141839606e32.js",
+          "bytes": 4327,
+          "transfer": 4627,
+          "ms": 20.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/webpack-63a3dab7ff5f2b34.js",
+          "bytes": 1884,
+          "transfer": 2184,
+          "ms": 25.099999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=cGC4kSSxlojJTAAQ",
+          "bytes": 1626,
+          "transfer": 1926,
+          "ms": 14,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=4x7nImxU7x_QeCqR",
+          "bytes": 1592,
+          "transfer": 1892,
+          "ms": 24.699999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=lxLSMQ6ylKADH_cC",
+          "bytes": 1583,
+          "transfer": 1883,
+          "ms": 14.599999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/a293c2ec242b7f74.css",
+          "bytes": 1097,
+          "transfer": 1397,
+          "ms": 26.099999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/config",
+          "bytes": 944,
+          "transfer": 1244,
+          "ms": 26.699999999254942,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/brand/milo-garden.svg",
+          "bytes": 910,
+          "transfer": 1210,
+          "ms": 11.799999997019768,
+          "type": "css"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?sort=newest&_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 789,
+          "transfer": 1089,
+          "ms": 36.599999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 777,
+          "transfer": 1077,
+          "ms": 52.099999997764826,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/?_rsc=9AgLbqCULESIV0ZQ",
+          "bytes": 720,
+          "transfer": 1020,
+          "ms": 52.899999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/main-app-cbcf8f308c6b892b.js",
+          "bytes": 515,
+          "transfer": 815,
+          "ms": 32.899999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/error-ab3a83299263df8b.js",
+          "bytes": 455,
+          "transfer": 755,
+          "ms": 44.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/d81dceb0aa6aef61.css",
+          "bytes": 405,
+          "transfer": 705,
+          "ms": 24.900000002235174,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/css/ff9229377d2fd359.css",
+          "bytes": 293,
+          "transfer": 593,
+          "ms": 14.599999997764826,
+          "type": "link"
+        },
+        {
+          "url": "http://localhost:3102/tai-khoan?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 244,
+          "transfer": 544,
+          "ms": 30.800000000745058,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/bo-suu-tap?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 33.30000000074506,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/phong-cach?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 233,
+          "transfer": 533,
+          "ms": 31.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/tai-khoan/page-0b34e69ad2689637.js",
+          "bytes": 210,
+          "transfer": 510,
+          "ms": 12.300000000745058,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/gio-hang/page-093c89ec4595a010.js",
+          "bytes": 196,
+          "transfer": 496,
+          "ms": 52.399999998509884,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/bo-suu-tap/page-1384f1d8ec356a99.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 14.599999997764826,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/phong-cach/page-98286e800046fc5a.js",
+          "bytes": 195,
+          "transfer": 495,
+          "ms": 11.199999999254942,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/_next/static/chunks/app/loading-f16abd97eb229453.js",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 41.30000000074506,
+          "type": "script"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?sort=newest&_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 191,
+          "transfer": 491,
+          "ms": 33.5,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/san-pham?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 180,
+          "transfer": 480,
+          "ms": 33.100000001490116,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/?_rsc=ZNhdXEBHHK6sLHKm",
+          "bytes": 164,
+          "transfer": 464,
+          "ms": 32.899999998509884,
+          "type": "fetch"
+        },
+        {
+          "url": "http://localhost:3102/api/v1/me",
+          "bytes": 102,
+          "transfer": 402,
+          "ms": 12.699999999254942,
+          "type": "fetch"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "sort": "price-asc",
+      "urlMs": 156.09999999776483,
+      "resultsMs": 194.5,
+      "requests": [
+        "http://localhost:3102/san-pham?sort=price-asc&_rsc=7DZPko1pkeUrmDdC",
+        "http://localhost:3102/san-pham/mono-boxy-tee?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3102/san-pham/sunday-club-tee?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3102/san-pham/everyday-essential-tee?_rsc=nSN_06OWhakx_h56"
+      ]
+    },
+    {
+      "sort": "price-desc",
+      "urlMs": 250.69999999925494,
+      "resultsMs": 295.19999999925494,
+      "requests": [
+        "http://localhost:3102/san-pham?sort=price-desc&_rsc=7DZPko1pkeUrmDdC",
+        "http://localhost:3102/san-pham/downtown-bomber?_rsc=nSN_06OWhakx_h56"
+      ]
+    },
+    {
+      "sort": "bestseller",
+      "urlMs": 1143.8999999985099,
+      "resultsMs": 1175.5,
+      "requests": [
+        "http://localhost:3102/san-pham?sort=bestseller&_rsc=7DZPko1pkeUrmDdC",
+        "http://localhost:3102/san-pham/retro-sport-bomber?_rsc=nSN_06OWhakx_h56",
+        "http://localhost:3102/san-pham/varsity-club-bomber?_rsc=nSN_06OWhakx_h56"
+      ]
+    },
+    {
+      "sort": "rating",
+      "urlMs": 99.69999999925494,
+      "resultsMs": 132.29999999701977,
+      "requests": [
+        "http://localhost:3102/san-pham?sort=rating&_rsc=7DZPko1pkeUrmDdC"
+      ]
+    },
+    {
+      "sort": "newest",
+      "urlMs": 113.80000000074506,
+      "resultsMs": 148,
+      "requests": [
+        "http://localhost:3102/san-pham?sort=newest&_rsc=7DZPko1pkeUrmDdC"
+      ]
+    }
+  ]
+}

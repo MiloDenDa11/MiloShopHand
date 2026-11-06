@@ -4,6 +4,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { miloDesignText } from "../lib/milo-design";
 import { designPhotoUrl } from "../../../packages/shared/src/design-photo";
+import { preparedPhoto } from "../lib/prepared-media";
 const ColorPhoto=dynamic(()=>import("./color-photo"),{ssr:false});
 
 export function isRealPhoto(
@@ -75,6 +76,7 @@ export function ProductPhoto({
   useEffect(() => setFailed(false), [src]);
   if (!src || !isRealPhoto(src)) return null;
   const media = productPhotoSource(src);
+  const prepared = preparedPhoto(media);
   // A two-panel plate must supply twice the displayed panel width. Both views
   // still request the same optimized source URL, sharing the browser cache.
   const multiplier=media.view?2:media.atlas?.columns||1;
@@ -90,7 +92,7 @@ export function ProductPhoto({
     );
   return (
     <span className={`product-photo-frame ${className}`} data-product-view={media.view || "full"} onClick={onClick}>
-    {media.atlas ? <span className="product-atlas-viewport" style={{position:"absolute",width:"100%",aspectRatio:String(media.atlas.aspect),top:"50%",transform:"translateY(-50%)",overflow:"hidden"}}>
+    {prepared ? <img className="product-photo-image" src={prepared.src} srcSet={prepared.srcSet} sizes={sizes} width={prepared.width} height={prepared.height} alt={alt} loading={loading} fetchPriority={loading === "eager" ? "high" : "auto"} decoding="async" onError={()=>setFailed(true)} style={{width:"100%",height:"100%",objectFit:"contain"}}/> : media.atlas ? <span className="product-atlas-viewport" style={{position:"absolute",width:"100%",aspectRatio:String(media.atlas.aspect),top:"50%",transform:"translateY(-50%)",overflow:"hidden"}}>
       <Image src={media.src} alt={alt} width={media.atlas.columns*512} height={Math.round(media.atlas.rows*512/media.atlas.aspect)} sizes={sourceSizes} loading={loading} decoding="async" onError={()=>setFailed(true)} style={{position:"absolute",width:`${media.atlas.columns*100}%`,height:`${media.atlas.rows*100}%`,left:`-${media.atlas.frame%media.atlas.columns*100}%`,top:`-${Math.floor(media.atlas.frame/media.atlas.columns)*100}%`,maxWidth:"none",maxHeight:"none"}}/>
     </span> :
     <Image
@@ -107,7 +109,7 @@ export function ProductPhoto({
       onError={() => setFailed(true)}
       style={media.view ? { position: "absolute", left: media.view === "back" ? "-100%" : 0, top: "50%", transform: "translateY(-50%)", width: "200%", height: "auto", aspectRatio: "2 / 1", maxWidth: "none", maxHeight: "none", objectFit: "contain" } : { width: "100%", height: "100%", objectFit: "contain" }}
     />}
-    {media.colorPreview&&<ColorPhoto media={media} preview={media.colorPreview} name={alt}/>}
+    {media.colorPreview&&<ColorPhoto media={prepared?{src:prepared.src,view:null,back:prepared.back,optimized:true}:media} preview={media.colorPreview} name={alt}/>}
     </span>
   );
 }

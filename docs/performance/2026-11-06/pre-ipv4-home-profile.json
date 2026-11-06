@@ -1,0 +1,404 @@
+[
+  {
+    "n": 0,
+    "dom": 372.13530000000014,
+    "products": 2840.8693999999996,
+    "api": [
+      {
+        "url": "http://localhost:3100/api/v1/me",
+        "start": 460.42599999999993,
+        "response": 528.5489,
+        "status": 401
+      },
+      {
+        "url": "http://localhost:3100/api/v1/config",
+        "start": 460.65239999999994,
+        "response": 2551.5287,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+        "start": 530.1700000000001,
+        "response": 2658.5194,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+        "start": 531.0163,
+        "response": 2637.5215,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/catalog",
+        "start": 531.0491,
+        "response": 2624.2201000000005,
+        "status": 200
+      }
+    ],
+    "browser": {
+      "long": [],
+      "nav": [
+        {
+          "end": 266.80000000074506,
+          "dcl": 346.19999999925494
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "start": 431.6000000014901,
+          "duration": 15.399999998509884,
+          "bytes": 102
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "start": 431.80000000074506,
+          "duration": 2094.199999999255,
+          "bytes": 944
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+          "start": 501.9000000022352,
+          "duration": 2117.599999997765,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+          "start": 502.19999999925494,
+          "duration": 2108.2000000029802,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/catalog",
+          "start": 502.5,
+          "duration": 2095.900000002235,
+          "bytes": 649
+        }
+      ],
+      "cards": [
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        }
+      ]
+    }
+  },
+  {
+    "n": 1,
+    "dom": 94.94939999999997,
+    "products": 402.37469999999985,
+    "api": [
+      {
+        "url": "http://localhost:3100/api/v1/me",
+        "start": 196.05290000000014,
+        "response": 206.49109999999973,
+        "status": 401
+      },
+      {
+        "url": "http://localhost:3100/api/v1/config",
+        "start": 196.31039999999985,
+        "response": 206.86959999999954,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+        "start": 221.19439999999986,
+        "response": 297.30529999999953,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+        "start": 221.23270000000002,
+        "response": 297.24710000000005,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/catalog",
+        "start": 221.25579999999945,
+        "response": 296.63489999999956,
+        "status": 200
+      }
+    ],
+    "browser": {
+      "long": [
+        {
+          "start": 29.699999999254942,
+          "duration": 50
+        }
+      ],
+      "nav": [
+        {
+          "end": 5.300000000745058,
+          "dcl": 88.10000000149012
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "start": 186.69999999925494,
+          "duration": 5.199999999254942,
+          "bytes": 102
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "start": 187,
+          "duration": 9.699999999254942,
+          "bytes": 944
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+          "start": 213,
+          "duration": 48.5,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+          "start": 213.30000000074506,
+          "duration": 33.19999999925494,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/catalog",
+          "start": 213.60000000149012,
+          "duration": 17.799999997019768,
+          "bytes": 649
+        }
+      ],
+      "cards": [
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        }
+      ]
+    }
+  },
+  {
+    "n": 2,
+    "dom": 37.35579999999936,
+    "products": 439.08889999999974,
+    "api": [
+      {
+        "url": "http://localhost:3100/api/v1/me",
+        "start": 332.96669999999995,
+        "response": 336.47310000000016,
+        "status": 401
+      },
+      {
+        "url": "http://localhost:3100/api/v1/config",
+        "start": 335.35539999999946,
+        "response": 342.3615,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+        "start": 335.3833999999997,
+        "response": 374.3852999999999,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+        "start": 335.40169999999944,
+        "response": 376.85039999999935,
+        "status": 200
+      },
+      {
+        "url": "http://localhost:3100/api/v1/catalog",
+        "start": 336.3887999999997,
+        "response": 349.8208999999997,
+        "status": 200
+      }
+    ],
+    "browser": {
+      "long": [
+        {
+          "start": 37.899999998509884,
+          "duration": 96
+        },
+        {
+          "start": 148.5,
+          "duration": 51
+        },
+        {
+          "start": 201.69999999925494,
+          "duration": 73
+        }
+      ],
+      "nav": [
+        {
+          "end": 4.599999997764826,
+          "dcl": 30.099999997764826
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://localhost:3100/api/v1/me",
+          "start": 313.5,
+          "duration": 8.699999999254942,
+          "bytes": 102
+        },
+        {
+          "url": "http://localhost:3100/api/v1/config",
+          "start": 313.79999999701977,
+          "duration": 18.5,
+          "bytes": 944
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=newest&limit=4",
+          "start": 327.8999999985099,
+          "duration": 32.399999998509884,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/products?sort=bestseller&limit=4",
+          "start": 328.3999999985099,
+          "duration": 41.80000000074506,
+          "bytes": 4919
+        },
+        {
+          "url": "http://localhost:3100/api/v1/catalog",
+          "start": 328.69999999925494,
+          "duration": 9.599999997764826,
+          "bytes": 649
+        }
+      ],
+      "cards": [
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 676.109375,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        },
+        {
+          "main": true,
+          "w": 306.0625,
+          "h": 640.71875,
+          "hidden": false
+        }
+      ]
+    }
+  }
+]

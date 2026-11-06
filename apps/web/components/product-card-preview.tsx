@@ -27,7 +27,7 @@ export function ProductCardPreview({href,name,spin,children}:{href:string;name:s
     if(!spin||!attempt||status==="ready")return;
     let live=true;const images:HTMLImageElement[]=[];setStatus("loading");
     Promise.all(spin.atlases.map(atlas=>new Promise<void>((resolve,reject)=>{
-      const image=new Image();images.push(image);image.onload=()=>resolve();image.onerror=()=>reject(new Error("image-unavailable"));image.src=photoSpinImageSource(atlas.src);
+      const image=new Image();images.push(image);image.onload=()=>resolve();image.onerror=()=>reject(new Error("image-unavailable"));image.src=photoSpinImageSource(atlas.src,'card');
     }))).then(()=>{if(live)setStatus("ready");}).catch(()=>{if(live)setStatus("error");});
     return()=>{live=false;for(const image of images){image.onload=null;image.onerror=null;}};
     // A colour change remounts this component. Retry only on a new intent.
@@ -57,7 +57,7 @@ export function ProductCardPreview({href,name,spin,children}:{href:string;name:s
     onClickCapture={event=>{if(Date.now()<suppressClickUntil.current){event.preventDefault();event.stopPropagation();}}}
     onKeyDown={spin?event=>{if(!["ArrowLeft","ArrowRight","Home"].includes(event.key))return;event.preventDefault();activate();setFrame(current=>event.key==="Home"?0:normalizedFrame(current+(event.key==="ArrowRight"?1:-1),spin.frameCount));}:undefined}>
     <div className="product-card-static" aria-hidden={active&&status==="ready"?true:undefined}>{children}</div>
-    {spin&&active&&status==="ready"&&<div className="product-card-spin-stage"><PhotoSpinFrame spin={spin} frame={displayFrame} bounds={bounds} name={name}/></div>}
+    {spin&&active&&status==="ready"&&<div className="product-card-spin-stage"><PhotoSpinFrame spin={spin} frame={displayFrame} bounds={bounds} name={name} profile="card"/></div>}
     <span className="product-card-spin-hint" role={active&&status!=="ready"?"status":undefined}>{spin?(active&&status==="loading"?"Đang tải ảnh xoay…":active&&status==="error"?"Chưa tải được · Rê chuột lại để thử":"360° · Di chuột / vuốt ngang") : "Ảnh xoay đang cập nhật"}</span>
     {spin&&<span id={hint} className="sr-only">Di chuột ngang hoặc vuốt để xoay áo. Dùng phím mũi tên trái/phải để xoay, Home để xem trước, Enter để mở chi tiết.</span>}
   </Link>;

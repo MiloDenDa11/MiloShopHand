@@ -5,6 +5,7 @@ node_modules/
 .next-redesign/
 .next-redesign-production/
 .next-benchmark/
+.next-performance-*/
 dist/
 coverage/
 test-results/

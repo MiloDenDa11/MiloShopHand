@@ -1,0 +1,430 @@
+{
+  "at": "2026-11-06T10:43:27.848Z",
+  "conditions": "same current source; isolated Next build directories; API preview on 4100; HTTP document response, not browser usability; alternating engine order; first route compilation followed by 3 warm requests",
+  "runs": [
+    {
+      "round": "a",
+      "engine": "webpack",
+      "routes": [
+        {
+          "route": "/",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 27766.3589,
+              "totalMs": 30117.3082
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 285.22190000000046,
+              "totalMs": 293.0542999999998
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 323.50670000000173,
+              "totalMs": 333.34020000000237
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 350.64890000000014,
+              "totalMs": 366.1909999999989
+            }
+          ]
+        },
+        {
+          "route": "/san-pham",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 5463.572100000001,
+              "totalMs": 5692.060099999999
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 119.90359999999782,
+              "totalMs": 330.7430999999997
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 129.09240000000136,
+              "totalMs": 240.37449999999808
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 127.2722999999969,
+              "totalMs": 250.274599999997
+            }
+          ]
+        },
+        {
+          "route": "/san-pham/everyday-essential-tee",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 2687.3778999999995,
+              "totalMs": 2693.3152999999947
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 200.54720000000088,
+              "totalMs": 209.1617000000042
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 254.69019999999728,
+              "totalMs": 260.93999999999505
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 200.7885000000024,
+              "totalMs": 206.08849999999802
+            }
+          ]
+        },
+        {
+          "route": "/gio-hang",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 1287.3727999999974,
+              "totalMs": 1290.8409000000029
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 122.5969000000041,
+              "totalMs": 125.282100000004
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 102.46749999999884,
+              "totalMs": 106.59799999999814
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 124.58179999999993,
+              "totalMs": 132.04089999999997
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "a",
+      "engine": "turbopack",
+      "routes": [
+        {
+          "route": "/",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 12851.864199999996,
+              "totalMs": 13092.438999999998
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 373.35289999999804,
+              "totalMs": 381.34769999999844
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 326.3604999999952,
+              "totalMs": 340.1929999999993
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 267.0367999999944,
+              "totalMs": 274.4406999999992
+            }
+          ]
+        },
+        {
+          "route": "/san-pham",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 1030.8633000000045,
+              "totalMs": 1188.193100000004
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 194.17689999999857,
+              "totalMs": 330.68819999999687
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 230.20130000000063,
+              "totalMs": 353.8945999999996
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 225.35669999999664,
+              "totalMs": 339.2699999999968
+            }
+          ]
+        },
+        {
+          "route": "/san-pham/everyday-essential-tee",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 2208.8275000000067,
+              "totalMs": 2235.4303
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 510.424199999994,
+              "totalMs": 536.0782999999938
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 404.93910000000324,
+              "totalMs": 419.18640000000596
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 420.77150000000256,
+              "totalMs": 437.96119999999064
+            }
+          ]
+        },
+        {
+          "route": "/gio-hang",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 1312.9815999999992,
+              "totalMs": 1319.2893999999942
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 177.97439999999187,
+              "totalMs": 181.3518999999942
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 100.72140000000945,
+              "totalMs": 103.3862999999983
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 120.25140000000829,
+              "totalMs": 124.10740000000806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "b",
+      "engine": "turbopack",
+      "routes": [
+        {
+          "route": "/",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 11738.474000000002,
+              "totalMs": 11924.878100000002
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 305.03549999999814,
+              "totalMs": 322.8417000000045
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 307.5031999999919,
+              "totalMs": 314.1453000000038
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 297.396900000007,
+              "totalMs": 305.5308999999979
+            }
+          ]
+        },
+        {
+          "route": "/san-pham",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 950.5639999999985,
+              "totalMs": 1172.2899000000034
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 228.0688999999984,
+              "totalMs": 357.8116000000009
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 165.00290000000678,
+              "totalMs": 407.7077000000136
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 223.18180000000575,
+              "totalMs": 375.73510000000533
+            }
+          ]
+        },
+        {
+          "route": "/san-pham/everyday-essential-tee",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 2404.13440000001,
+              "totalMs": 2414.5132000000012
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 336.0416000000114,
+              "totalMs": 344.0768000000098
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 363.48309999999765,
+              "totalMs": 370.9753000000055
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 303.42290000000503,
+              "totalMs": 313.11320000000705
+            }
+          ]
+        },
+        {
+          "route": "/gio-hang",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 1109.7301000000007,
+              "totalMs": 1113.8479999999981
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 182.4586999999883,
+              "totalMs": 189.50340000000142
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 211.4777000000031,
+              "totalMs": 215.35139999999956
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 108.1201000000001,
+              "totalMs": 111.29670000000624
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": "b",
+      "engine": "webpack",
+      "routes": [
+        {
+          "route": "/",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 27475.588799999998,
+              "totalMs": 28150.814899999998
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 395.8277999999991,
+              "totalMs": 404.1281000000017
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 244.47520000000077,
+              "totalMs": 260.26720000000205
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 298.12489999999525,
+              "totalMs": 307.97819999999774
+            }
+          ]
+        },
+        {
+          "route": "/san-pham",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 6702.372099999993,
+              "totalMs": 6846.197999999989
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 108.8810999999987,
+              "totalMs": 258.6210999999894
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 115.67209999999614,
+              "totalMs": 230.0222000000067
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 110.46799999999348,
+              "totalMs": 233.59449999997742
+            }
+          ]
+        },
+        {
+          "route": "/san-pham/everyday-essential-tee",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 2597.064799999993,
+              "totalMs": 2614.8826999999874
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 300.5271000000066,
+              "totalMs": 311.7301999999909
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 306.6223999999929,
+              "totalMs": 320.136599999998
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 226.01050000000396,
+              "totalMs": 232.3451000000059
+            }
+          ]
+        },
+        {
+          "route": "/gio-hang",
+          "samples": [
+            {
+              "pass": 0,
+              "ttfbMs": 1568.2460999999894,
+              "totalMs": 1576.4204000000027
+            },
+            {
+              "pass": 1,
+              "ttfbMs": 214.21400000000722,
+              "totalMs": 221.20810000001802
+            },
+            {
+              "pass": 2,
+              "ttfbMs": 97.71450000000186,
+              "totalMs": 103.85949999999139
+            },
+            {
+              "pass": 3,
+              "ttfbMs": 137.97320000000764,
+              "totalMs": 150.73519999999553
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

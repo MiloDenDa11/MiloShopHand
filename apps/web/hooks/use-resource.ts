@@ -41,6 +41,7 @@ export function useResource(path: string, initialData?: any) {
   const [data, setData] = useState<any>(initialData ?? null),
     [error, setError] = useState(""),
     [loading, setLoading] = useState(initialData === undefined),
+    [settledPath, setSettledPath] = useState(initialData === undefined ? "" : path),
     [attempt, setAttempt] = useState(0);
   useEffect(() => {
     if (path !== initialPath.current) navigated.current = true;
@@ -56,9 +57,9 @@ export function useResource(path: string, initialData?: any) {
         if (active && e.name !== "AbortError") setError(e.message);
       })
       .finally(() => {
-        if (active) setLoading(false);
+        if (active) { setSettledPath(path); setLoading(false); }
       });
     return () => { active = false; request.release(); };
   }, [path, attempt]);
-  return { data, error, loading, retry: () => setAttempt((n) => n + 1) };
+  return { data, error, loading: loading || settledPath !== path, retry: () => setAttempt((n) => n + 1) };
 }

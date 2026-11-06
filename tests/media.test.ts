@@ -4,6 +4,8 @@ import { isRealPhoto, productPhotoSource, realProductImages, productImagesForCol
 import { designPhotoUrl } from "../packages/shared/src/design-photo";
 import { miloDesignText } from "../apps/web/lib/milo-design";
 import { garmentPhotoMask } from "../apps/web/lib/garment-photo-mask";
+import { preparedPhoto, preparedSpinSource } from "../apps/web/lib/prepared-media";
+import preparedSources from "../apps/web/content/prepared-media.json";
 
 test("catalog displays valid illustrations and AI mockups without allowing executable URLs", () => {
   assert.equal(isRealPhoto({ url: "/products/tee.svg", alt: "Minh họa thiết kế" }), true);
@@ -36,6 +38,22 @@ test("front and back plate views share a source URL while preserving view identi
   assert.deepEqual(productPhotoSource("/collection-ai/tee.webp?view=back"), { src: "/collection-ai/tee.webp", view: "back" });
   assert.deepEqual(productPhotoSource("/collection-ai/tee.webp?view=front&v=2"), { src: "/collection-ai/tee.webp?v=2", view: "front" });
   assert.deepEqual(productPhotoSource("https://assets.example.test/product.webp?signature=keep"), { src: "https://assets.example.test/product.webp?signature=keep", view: null });
+});
+
+test("delivery photos keep front/back distinct and never reuse an unknown source version",()=>{
+  const [plate,entry]=Object.entries(preparedSources).find(([,value])=>value[3]==="p")!;
+  const front=preparedPhoto(productPhotoSource(`${plate}?view=front`))!;
+  const back=preparedPhoto(productPhotoSource(`${plate}?view=back`))!;
+  assert(front.src.startsWith(`/product-media/${entry[0]}-v1-front-`));
+  assert(back.src.startsWith(`/product-media/${entry[0]}-v1-back-`));
+  assert.notEqual(front.src,back.src);assert.equal(back.back,true);
+  assert.equal(preparedPhoto(productPhotoSource(`${plate}?view=front&v=unknown`)),undefined);
+  assert.equal(preparedPhoto({src:`https://external.test${plate}`,view:"front"}),undefined);
+  assert.equal(preparedPhoto({src:`//external.test${plate}`,view:"front"}),undefined);
+  const [atlas,spin]=Object.entries(preparedSources).find(([,value])=>value[3]==="a")!;
+  assert.equal(preparedSpinSource(`${atlas}?v=${spin[0]}`,"card"),`/product-media/${spin[0]}-v1-spin-card.webp`);
+  assert.notEqual(preparedSpinSource(atlas,"card"),preparedSpinSource(atlas,"detail"));
+  assert.equal(preparedSpinSource(`${atlas}?v=unknown`),undefined);
 });
 
 test("missing colour photos carry a reversible display recipe, exact photos retain identity",()=>{

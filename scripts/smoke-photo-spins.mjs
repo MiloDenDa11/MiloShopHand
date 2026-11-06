@@ -7,6 +7,11 @@ import {chromium} from "@playwright/test";
 const base=process.env.SMOKE_URL||"http://localhost:3100";
 const selected=process.env.SMOKE_SLUGS?.split(',').filter(Boolean);
 const entries=JSON.parse(fs.readFileSync("apps/web/content/photo-spins.json","utf8")).filter(entry=>!selected||selected.includes(entry.slug));
+const prepared=JSON.parse(fs.readFileSync('apps/web/content/prepared-media.json','utf8'));
+const deliveredSource=src=>{
+  const url=new URL(src,base),entry=prepared[url.pathname];
+  return entry&&entry[0]===url.searchParams.get('v')?`/product-media/${entry[0]}-v1-spin-detail.webp`:`/_next/image?url=${encodeURIComponent(src)}&w=1920&q=75`;
+};
 if(selected?.some(slug=>!entries.some(entry=>entry.slug===slug)))throw new Error('Unknown smoke-test product selection');
 const output=path.resolve(".local/photo-spin/production");fs.mkdirSync(output,{recursive:true});
 const browser=await chromium.launch({headless:true});
@@ -25,7 +30,8 @@ try{
     const requests=[];
     // Recommendations can legitimately display another product's atlas as a
     // gallery thumbnail. Only this product's heavy frames belong to its viewer.
-    const receive=r=>{if(r.url().includes(".glb")||r.url().includes("/_next/image")&&new URL(r.url()).searchParams.get("w")==="1920"&&decodeURIComponent(r.url()).includes(`/collection-spin/${slug}/`))requests.push(r.url());};
+    const expectedSources=spin.atlases.map(a=>new URL(deliveredSource(a.src),base).href);
+    const receive=r=>{if(r.url().includes(".glb")||expectedSources.includes(r.url()))requests.push(r.url());};
     page.on("request",receive);
     const response=await page.goto(`${base}/san-pham/${slug}`,{waitUntil:"domcontentloaded"});
     assert(response.ok(),`Product page HTTP ${response.status()}: ${slug}`);
@@ -46,12 +52,11 @@ try{
     assert.equal(await page.locator("canvas").count(),0);
     const stage=page.locator(".photo-spin-stage");
     assert.equal(await viewer.getAttribute("data-axis"),"y");
-    const expectedSources=spin.atlases.map(a=>a.src);
     const frames=new Set();await stage.focus();
     for(let n=0;n<24;n++){
       frames.add(await stage.getAttribute("data-frame"));
       const background=await viewer.locator(".photo-spin-sheet").evaluate(el=>getComputedStyle(el).backgroundImage);
-      const displayed=new URL(background.match(/^url\(["']?(.+?)["']?\)$/)[1],base).searchParams.get("url");
+      const displayed=new URL(background.match(/^url\(["']?(.+?)["']?\)$/)[1],base).href;
       assert.equal(displayed,expectedSources[Math.floor(n/6)],`Wrong colour/design/frame ${slug}/${variant.color}/${n}`);
       await page.keyboard.press("ArrowRight");
       await page.waitForFunction(n=>document.querySelector(".photo-spin-stage")?.dataset.frame===String(n),(n+1)%24);
@@ -63,7 +68,7 @@ try{
     assert.equal(await stage.getAttribute("data-frame"),"12");
     await viewer.screenshot({path:path.join(output,`${key}-back.png`)});
     assert(await page.getByRole("dialog").evaluate(el=>el.scrollWidth<=el.clientWidth));
-    const resources=await page.evaluate(sources=>performance.getEntriesByType("resource").filter(r=>r.name.includes("/_next/image")&&new URL(r.name).searchParams.get("w")==="1920"&&sources.includes(new URL(r.name).searchParams.get("url"))).map(r=>({url:r.name,transferBytes:r.transferSize,encodedBytes:r.encodedBodySize,durationMs:r.duration})),expectedSources);
+    const resources=await page.evaluate(sources=>performance.getEntriesByType("resource").filter(r=>sources.includes(r.name)).map(r=>({url:r.name,transferBytes:r.transferSize,encodedBytes:r.encodedBodySize,durationMs:r.duration})),expectedSources);
     await page.keyboard.press("Escape");
     assert.equal(await page.locator(".photo-spin-viewer").count(),0);
     assert(!requests.some(url=>url.includes(".glb")));
