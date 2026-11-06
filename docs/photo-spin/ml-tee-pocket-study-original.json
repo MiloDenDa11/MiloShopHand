@@ -1,0 +1,255 @@
+{
+  "slug": "ml-tee-pocket-study",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-pocket-study.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:48:41.626Z",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-1cf30421-53e0-4f8b-a503-b41bbdcca261.png",
+    "prompt": "Use case: product-mockup. Create photographic 24-view turntable pose guide of EXACT Pocket Study Basic Tee in reference1: warm brown body #8e6a52, cotton twill texture, ivory #efe5cb crew neck and sleevebands, relaxed dropped shoulder short sleeves, straight hem. Distinct front LEFT CHEST PATCH POCKET with ivory interwoven ML centered on pocket. Keep pocket only on front, same side and size in every view. Reference2 is ONLY floral M + exact MiloShopHand wordmark to print ivory contrasting upper BACK, replacing old plain script. Ignore burgundy background.\nEXACT 6columns×4rows, 24 distinct continuous poses rowmajor 0..345 in15degree increments. Row1 0,15,30,45,60,75 front progressively toward left profile; row2 90,105,120,135,150,165 left profile progressively back; row3 180,195,210,225,240,255 back progressively opposite right profile; row4 270,285,300,315,330,345 right profile progressively front. Frame0front,6leftside,12back,18rightside. NO backprint before90; no pocket onback; logo letters never mirrored. Fixed level camera and vertical Y rotation only, NO tilt/roll. Same sleeve pose, folds, seam placement, proportions, color, scale, ground across all views. Photoreal cloth as original, no plastic/faceted3D appearance. Pale ivory studio background, soft light, fullyvisible margins, no person/mannequin/hanger/gutters/borders/labels/numbers. Exact text MiloShopHand capital M S H. Sequence consistency priority."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-pocket-study/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b99e028b-54f2-422f-b2bf-cc8849825fe1.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW1 of reference1 as high-detail3columns×2rows nativePNG contact sheet. Reference1 full24 guide; extract0,15,30,45,60,75degrees rowmajor fromfront toleftprofile, do NOTadvanceback; no backprint. Reference2 is exact PocketStudyBasicTee garment: warmbrown #8e6a52 cotton twill, ivory #efe5cb crewneck&sleevebands, relaxed droppedshoulder shortsleeves, straighthem, FRONTLEFTCHESTPATCHPOCKET with smallivoryinterwovenML onpocket. Pocketplacement/size/seams constant allposes, samearm/folds/shape/colour. Fixedlevelcamera,strictverticalY,nopitchroll, constantgarmentscaleandground, fullyvisiblemargins ineachcell. Ivorybackgroundsoftstudio, photorealclothquality likeoriginal, notplastic/faceted3D. Canvasaspect6:5 native>=1374×1145, eachcell>=458×572. No gutters,borders,labels,numbers,person/mannequin/hanger,extratext.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 34,
+          "y": 37,
+          "width": 414,
+          "height": 455
+        },
+        {
+          "x": 42,
+          "y": 35,
+          "width": 388,
+          "height": 456
+        },
+        {
+          "x": 64,
+          "y": 32,
+          "width": 326,
+          "height": 462
+        },
+        {
+          "x": 121,
+          "y": 29.5,
+          "width": 254,
+          "height": 465
+        },
+        {
+          "x": 124,
+          "y": 24.5,
+          "width": 221,
+          "height": 470
+        },
+        {
+          "x": 115,
+          "y": 24.5,
+          "width": 208,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-pocket-study/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-a9978052-6325-48d4-848c-e44f6cd3b0c9.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW2 of reference1 as high-detail3columns×2rows nativePNG contact sheet. Reference1full24guide; extract90,105,120,135,150,165degrees rowmajor: trueleftprofilefirst graduallyturntoBACKlast. Backprintemerges, nofrontviews. Reference2 exactPocketStudyBasicTee warmbrown #8e6a52 cotton twill,ivory #efe5cb crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem. FrontLEFTCHESTPATCHPOCKET ML onlyfront; do notputpocketonback. Reference3 fullfloral M+exactMiloShopHand wordmark forIVORYupperbackprint,ignoreburgundybackground. Samegarmentshape/armposition/folds/seams/pocketlocation/colourallviews. Fixedlevelcamera,strictverticalY,nopitchroll,constantgarmentscale/ground,fullyvisiblemarginsineachcell. Photorealclothlikeoriginalnotplastic/faceted3D,neutralivorybackgroundsoftstudio. Canvasaspect6:5native>=1374×1145,eachcell>=458×572. No gutters/borders/labels/numbers/people/mannequin/hanger/extratext;exactMiloShopHandcapitalM S H,noreversedletters. Followguideangles,notfull360in6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 152,
+          "y": 28,
+          "width": 189,
+          "height": 474
+        },
+        {
+          "x": 118,
+          "y": 28,
+          "width": 215,
+          "height": 474
+        },
+        {
+          "x": 79,
+          "y": 28,
+          "width": 266,
+          "height": 474
+        },
+        {
+          "x": 85,
+          "y": 25.5,
+          "width": 313,
+          "height": 485
+        },
+        {
+          "x": 32,
+          "y": 25.5,
+          "width": 373,
+          "height": 486
+        },
+        {
+          "x": 8,
+          "y": 25.5,
+          "width": 413,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-d9528ec2-8c6d-40ae-bd5f-7c48c01578ca.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 is ONLY SIXPOSE orientation guide for180BACK,195,210,225,240,255nearlyRIGHTprofile. CopyeachposeanddirectionEXACTLY, replacingcharcoaltee with PocketStudyTshirt reference2: warmbrown #8e6a52 cotton twill,ivory #efe5cb crewneck+sleevebands, relaxedshortsleeves+straighthem,frontchestpocketonFRONTonly NEVER visiblefromrear. Reference3 ivoryfullfloral M+EXACTMiloShopHand logo, printupperback matchingreference1position. Firstcelltrueback,right/leftsleevesbalanced. EachnextposebackprintvisiblyNARROWSandMOVESTOTHELEFTsideofimageasgarmentrotatestowardRIGHTprofile, lastcellmainnearsleeveonRIGHTsideofimageandbackprintonlythinleftrearportion. Do NOT reverse finalposeordrawrearlogoonrightedge; followreference1orientation.\nLAYOUTexact3columns×2rows,allcellsidenticaldimensions.Nativecanvas1374×1145orsame6:5aspectlarger. Eachgarmententirelyinsideitsown458×572cellwithminimum35pxclearivorymarginALLsides,garmentheight440pxsamebothrows. No overlappingcellbounds,nooversizedtoprow,nocroppedlowerrowneck. VerticalYrotationonly,levelcamera,nopitchroll,samepose/folds/shape/colour,seamsandprintsize.Photorrealclothnotfaceted3D,neutralivorybackgroundsoftlight,nogutters/borders/labels/numbers/person/mannequin/hanger. TextMiloShopHandexactnomirroring.",
+      "layoutPrompt": "Use case: precise-object-edit. Edit this six-photo contact sheet ONLY to correct cell spacing. Preserve all six T-shirts, their exact view angles, shape, brown cotton color, ivory trim, floral M+MiloShopHand print, lighting/background, and garment size. KEEP TOP ROW unchanged. MOVE ENTIRE BOTTOM ROW DOWN65pixels within samecanvas1374×1145. Bottomrowcollarscurrentlynear y560 muststartat y625orso; bottomrowhemsmustendnear y1080 with65pxbottommargin. Verticalmidline y572 musthaveonlyblankivorybackground for atleast45pixelsaboveandbelow. Threecolumnsremain samecenters. Keepgarmentscompletelyinside6equalcells, no part crosses cellboundary. DO NOT crop clothing, create masks, rotate/flip/swap angles, enlarge garments, change text/style/texture orintroduce borders/labels. This is a layout positioning fix only. Exact3columns×2rows,nativeaspect6:5.",
+      "layoutEdit": "Bottomrow shifted65px down with ImageGen; originaldetail/anglesunchanged, fullyinsidecells.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 35,
+          "y": 39,
+          "width": 413,
+          "height": 439
+        },
+        {
+          "x": 40,
+          "y": 39,
+          "width": 391,
+          "height": 439
+        },
+        {
+          "x": 63,
+          "y": 36,
+          "width": 337,
+          "height": 443
+        },
+        {
+          "x": 106,
+          "y": 50.5,
+          "width": 299,
+          "height": 459
+        },
+        {
+          "x": 125,
+          "y": 50.5,
+          "width": 234,
+          "height": 460
+        },
+        {
+          "x": 114,
+          "y": 50.5,
+          "width": 224,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-pocket-study/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-958efa6c-ca1f-493a-ab07-5916abdb92d3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW4 of reference1 as high-detail3columns×2rows nativePNG contact sheet. Reference1full24guide; extract270,285,300,315,330,345degrees rowmajor trueRIGHTprofilefirst to nearlyFRONTlast. Reference2exactPocketStudyBasicTee warmbrown #8e6a52 cotton twill,ivory #efe5cb crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem,frontLEFTCHESTPATCHPOCKET withivoryML. Reference3 ONLYcorrectPOSEGUIDE foropposite-side returnangles,copytheseanglesandnear/farsleevepositions. NearsleeveopeningfacesLEFTsideofimage, notright; first2views frontpocket&MLhiddenfarside, pocketappearsatRIGHTsideofgarmentimageasfrontreturns. No pocket/backprintswaps. No mirroredlogos. Samegarmentshape/armposition/folds/seams/colourallviews. Fixedlevelcamera,strictverticalY,nopitchroll,constantgarmentscale/ground,fullyvisiblemargins. Photorealclothlikeoriginalnotplastic/faceted3D,neutralivorybackgroundsoftstudio. Canvasaspect6:5native>=1374×1145,eachcell>=458×572. No gutters/borders/labels/numbers/people/mannequin/hanger/extratext. Followoppositesidereturnsequence,not0to75frontquadrantandnotfull360within6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 134,
+          "y": 27,
+          "width": 211,
+          "height": 479
+        },
+        {
+          "x": 106,
+          "y": 26,
+          "width": 245,
+          "height": 480
+        },
+        {
+          "x": 85,
+          "y": 28,
+          "width": 265,
+          "height": 478
+        },
+        {
+          "x": 73,
+          "y": 31.5,
+          "width": 322,
+          "height": 475
+        },
+        {
+          "x": 41,
+          "y": 32.5,
+          "width": 367,
+          "height": 474
+        },
+        {
+          "x": 18,
+          "y": 34.5,
+          "width": 416,
+          "height": 471
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 native views inspected, brown twill/ivorytrim consistent, frontleftchest pocket remains front-only with ML, floral M+exactMiloShopHand rear print contrasting ivory. Full upright clockwise Y turn, lastquadrant uses accepted opposite-side pose reference. Part2 early layouts rejected for rowboundarynearneck and incorrectlastprofile; finalpart2correctorientation and all collars/hem fullyinsidecell after built-in ImageGen layoutfix.",
+    "limitations": "AI nominal view angles, not calibrated camera measurements."
+  }
+}

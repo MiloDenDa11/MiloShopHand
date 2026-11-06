@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "varsity-club-bomber",
+    "kind": "bomber",
+    "colorHex": "#b6a4d4"
+  },
+  {
+    "slug": "after-hours-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#78846a"
+  },
+  {
+    "slug": "airy-cotton-tee",
+    "kind": "tee",
+    "colorHex": "#34465b"
+  },
+  {
+    "slug": "campus-club-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#a3a5aa"
+  },
+  {
+    "slug": "chill-out-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#242426"
+  },
+  {
+    "slug": "city-runner-jacket",
+    "kind": "jacket",
+    "colorHex": "#b6a4d4"
+  },
+  {
+    "slug": "daily-utility-jacket",
+    "kind": "jacket",
+    "colorHex": "#a3a5aa"
+  },
+  {
+    "slug": "daylight-pocket-tee",
+    "kind": "tee",
+    "colorHex": "#b6a4d4"
+  },
+  {
+    "slug": "everyday-essential-tee",
+    "kind": "tee",
+    "colorHex": "#242426"
+  },
+  {
+    "slug": "explorer-zip-jacket",
+    "kind": "jacket",
+    "colorHex": "#e8dfcd"
+  },
+  {
+    "slug": "heavyweight-zip-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#34465b"
+  },
+  {
+    "slug": "light-shell-jacket",
+    "kind": "jacket",
+    "colorHex": "#242426"
+  },
+  {
+    "slug": "milo-signature-tee",
+    "kind": "tee",
+    "colorHex": "#e8dfcd"
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "kind": "tee",
+    "colorHex": "#242426"
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "kind": "tee",
+    "colorHex": "#a3a5aa"
+  },
+  {
+    "slug": "outline-logo-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#e8dfcd"
+  },
+  {
+    "slug": "purple-haze-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#78846a"
+  },
+  {
+    "slug": "rain-ready-jacket",
+    "kind": "jacket",
+    "colorHex": "#a3a5aa"
+  },
+  {
+    "slug": "soft-cloud-hoodie",
+    "kind": "hoodie",
+    "colorHex": "#b6a4d4"
+  },
+  {
+    "slug": "sport-division-tee",
+    "kind": "tee",
+    "colorHex": "#e8dfcd"
+  },
+  {
+    "slug": "sunday-club-tee",
+    "kind": "tee",
+    "colorHex": "#78846a"
+  },
+  {
+    "slug": "urban-motion-tee",
+    "kind": "tee",
+    "colorHex": "#b6a4d4"
+  },
+  {
+    "slug": "weekend-coach-jacket",
+    "kind": "jacket",
+    "colorHex": "#34465b"
+  },
+  {
+    "slug": "wind-breaker-jacket",
+    "kind": "jacket",
+    "colorHex": "#78846a"
+  }
+]

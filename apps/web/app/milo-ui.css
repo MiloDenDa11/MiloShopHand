@@ -1,0 +1,36 @@
+/* Milo Design — soft controls and a quiet botanical paper backdrop. */
+:root{--milo-radius:999px;--milo-ease:cubic-bezier(.22,.68,0,1.02);--milo-sage:#6c7654}
+#main{background-image:url('/brand/milo-garden.svg');background-repeat:repeat-y;background-position:center top;background-size:max(100%,1200px) auto}
+body :is(button,.button,[role=button],input[type=submit],input[type=button]){border-radius:var(--milo-radius)!important;transition:background-color 220ms ease,color 220ms ease,border-color 220ms ease,box-shadow 260ms ease,transform 260ms var(--milo-ease)}
+body :is(button,.button,[role=button]):not(:disabled):active{transform:scale(.975)}
+body .button{padding-inline:28px;box-shadow:0 3px 0 #25252205}
+body .button:hover{box-shadow:0 7px 20px #39472d14}
+body .button.secondary:hover{background:#e6e9dd}
+body :is(input:not([type=checkbox]):not([type=radio]),select,textarea){border-radius:14px;transition:border-color 180ms ease,box-shadow 180ms ease}
+body :is(input,select,textarea):focus{box-shadow:0 0 0 4px #7b8b6614}
+body :is(.quantity,.variant-switcher,.product-card-spin-hint){border-radius:999px;overflow:hidden}
+body :is(dialog,.admin-dialog){border-radius:26px;box-shadow:0 24px 90px #25252226}
+body :is(.product-visual,.edition-hero-photo,.collection-directory article>a:first-of-type){border-radius:22px;isolation:isolate}
+body .product-card-preview{border-radius:22px;overflow:hidden}
+body .detail-image-zoom{border-radius:22px!important}
+body .detail-image-zoom>span:not(.product-photo-frame){border-radius:999px}
+body .thumbnails button{border-radius:12px!important}
+body .product-card-spin-hint{font-size:10px;padding:6px 11px;max-width:calc(100% - 20px);backdrop-filter:blur(8px)}
+body .product-media-caption{font-size:11px;letter-spacing:.055em;color:var(--olive-ink)}
+body .wish:hover,body .header-actions button:hover{background:#87956d16}
+body .color-choices button,body .product-360-colors button{padding-inline:13px;gap:9px}
+body .color-choices button[aria-pressed=true],body .product-360-colors button[aria-pressed=true]{background:#e7eadd;border-color:#89916b}
+body .swatches button{box-shadow:0 0 0 3px var(--paper);transition:transform 220ms var(--milo-ease),box-shadow 220ms ease}
+body .swatches button:hover{transform:translateY(-2px);box-shadow:0 0 0 3px var(--paper),0 4px 12px #25252224}
+body .swatches button.selected{outline:1px solid var(--olive-ink);outline-offset:3px}
+body .edition-footer{background-color:#e9e7dc;background-image:url('/brand/milo-garden.svg');background-size:cover;background-position:center bottom}
+.color-photo-stage{position:absolute;inset:0;display:block;pointer-events:none;opacity:0;transition:opacity 260ms ease}
+.color-photo-stage[data-state=ready]{opacity:1}
+.color-photo-stage[data-state=error]{opacity:1}
+.color-photo-error{position:absolute;bottom:12px;left:12px;right:12px;padding:7px 10px;border-radius:14px;background:var(--paper);color:var(--ink);font-size:11px;line-height:1.5;text-align:center}
+.color-photo-stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;display:block;object-fit:contain}
+.product-photo-frame{animation:milo-photo-in 320ms var(--milo-ease)}
+@keyframes milo-photo-in{from{opacity:.5;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:760px){#main{background-size:1120px auto;background-position:center 30px}body .button{padding-inline:20px}body :is(.product-visual,.product-card-preview){border-radius:17px}body .product-card-spin-hint{font-size:9px;left:7px;bottom:7px;padding:5px 8px}}
+@media(prefers-reduced-motion:reduce){body :is(button,.button,[role=button],input,select,textarea),.color-photo-stage{transition:none}.product-photo-frame{animation:none}}
+@media print{#main,.edition-footer{background-image:none!important}}

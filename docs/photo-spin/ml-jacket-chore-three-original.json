@@ -1,0 +1,223 @@
+{
+  "product": "ml-jacket-chore-three",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-chore-three.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-chore-three/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-66005e04-56c1-42d4-9d6a-dc23402ca580.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup. Ref1originalgarment identity ML ChoreThreeJacket: warmtan caramelbrowncottoncanvas, lightcream pointedcollar andbuttoncuffbands, beigeplasticcenterbuttons, ONEwearerleftchestpatchpocket+TWOlargeLOWpatchpockets beigeedgeboundtops, backyokeseam, neutralrelaxedsleeves. Ref2ONLYPOSEGUIDE six0..75frontquarterturn fromdifferentjacket, donotcopyitsdenimcolouror4pockets. MakeexactChoreThreefromref1 in6photorealviews angles0,15,30 /45,60,75;3columns x2rows. FirstsymmetricFRONT;frontbuttonlineprogressivelymovesIMAGERIGHT withnearestblank sleeveIMAGELEFT,lastnearLEFTPROFILEfrontstillvisible. SmallNEARBLACKinterwovenMLaboveleftchestpocket forcontrast,no backprintvisible. SAMEcottoncanvas/folds/seams/shape/colour/scale/groundeveryview. No mannequin/human/hanger/plastic3D;fixedlevelcamera uprightYonly nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. Onlyfrontquarterturn, preserve3pocketsNOT4.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 57,
+          "y": 18,
+          "width": 431,
+          "height": 449
+        },
+        {
+          "x": 59,
+          "y": 17,
+          "width": 386,
+          "height": 454
+        },
+        {
+          "x": 53,
+          "y": 16,
+          "width": 358,
+          "height": 456
+        },
+        {
+          "x": 113,
+          "y": 4,
+          "width": 313,
+          "height": 472
+        },
+        {
+          "x": 113,
+          "y": 8,
+          "width": 264,
+          "height": 472
+        },
+        {
+          "x": 111,
+          "y": 9,
+          "width": 228,
+          "height": 471
+        }
+      ],
+      "sha256": "a552c34aff57f70d5e2feb221af308be931afb3bb4950e4f3263f9970fa818c8",
+      "bytes": 2015308
+    },
+    {
+      "url": "/collection-spin/ml-jacket-chore-three/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-17b6ed44-b568-4339-9fa8-7727199e89b4.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Ref1firstquadrant0..75 atlas garmentidentity,ref2originalphoto,ref3ONLYfloralM+exactMiloShopHandlogoignorebg. CreateNEXT6angles90,105,120 /135,150,165 in3columns x2rows. FirsttrueLEFTPROFILE frontbuttonedgeonIMAGERIGHT; thenbackpanel/printprogressivelyemergesIMAGELEFTofnearestblank sleeve; lastalmostBACK15short. ExactChoreThreeJacketwarmtan caramelbrowncottoncanvas, cream pointedcollar/buttoncuffbands, beigeplasticbuttons,3frontpatchpockets hiddenexceptprofileedge, backyokeseam. Samecloth/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundeveryview. AddHIGHcontrastNEARBLACKfloralMplus exactMiloShopHand upperbackBELOWyokeseam SAMEprint/placement/sizeallviews,naturallyforeshortened,notmirrored. Photorealoriginalqualityfloatingemptygarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtowardBACK, sixdistinctsmallsteps, backpanelLEFTofnearestsleeve.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 166,
+          "y": 39,
+          "width": 181,
+          "height": 450
+        },
+        {
+          "x": 153,
+          "y": 38,
+          "width": 194,
+          "height": 451
+        },
+        {
+          "x": 135,
+          "y": 39,
+          "width": 215,
+          "height": 450
+        },
+        {
+          "x": 133,
+          "y": 38,
+          "width": 264,
+          "height": 449
+        },
+        {
+          "x": 103,
+          "y": 38,
+          "width": 304,
+          "height": 449
+        },
+        {
+          "x": 55,
+          "y": 38,
+          "width": 372,
+          "height": 446
+        }
+      ],
+      "sha256": "bc72f4d7f3a3727852fb90081f87e34a8afa887fe1b4df1635d894bfbbecd56f",
+      "bytes": 1769274
+    },
+    {
+      "url": "/collection-spin/ml-jacket-chore-three/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-aa2d2a94-6233-4b75-a1b1-e365f1e7dae9.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Preciseedit reference1 sixviewatlas. Fixonlyrotationdirection inTOPMIDDLE,TOPRIGHT,BOTTOMLEFT cells; theycurrentlypointwrongway. MIRRORgarmentPOSE inthose3cells, REDRAWbackbrandnormallyreadable nevermirrorletters. KeepTOPLEFTperfectBACK andBOTTOMMIDDLE/BOTTOMRIGHToppositeside unchanged. Requiredrowmajor180,195,210 /225,240,255. InALL5obliqueviews nearestBLANKSLEEVE must be IMAGELEFT, backpanel+floralMiloShopHand onIMAGERIGHT. Topmiddlejust15degreebackturnwithleftshouldercloser;topright30degreeleftsleeveforeground;bottomleft45degreeLEFTblanknearestsleeveandRIGHTprintedback. Mustnotreversehalfway. ExacttanbrowncanvasChoreThreeJacket cream pointedcollar/cuffbands, samefolds/seams/material/shape/colour/scale/ground. NearblackfloralM+exactMiloShopHand backbelowyoke samelogo/sizeplacement, legible whenvisible. Originalphotorealqualitynohuman/mannequin/hanger/plastic. UprightYonlyfixedlevelcamera no pitch/roll. Exact1536x1024 3x2 equalcelllayoutivorybgwholegarmentmarginno gutters/borders/numbers/labels.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 78,
+          "y": 35,
+          "width": 387,
+          "height": 445
+        },
+        {
+          "x": 86,
+          "y": 34,
+          "width": 335,
+          "height": 445
+        },
+        {
+          "x": 86,
+          "y": 34,
+          "width": 291,
+          "height": 451
+        },
+        {
+          "x": 131,
+          "y": 30,
+          "width": 270,
+          "height": 463
+        },
+        {
+          "x": 135,
+          "y": 29,
+          "width": 238,
+          "height": 464
+        },
+        {
+          "x": 134,
+          "y": 30,
+          "width": 208,
+          "height": 463
+        }
+      ],
+      "sha256": "7f7979efa7a34e4516375f238292edcb62b05b32f5c324ba3d0e9d6e687520a0",
+      "bytes": 1892627
+    },
+    {
+      "url": "/collection-spin/ml-jacket-chore-three/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-a7bc2e4d-36fe-4dfc-892b-24e0e429526e.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 finalquarter. Ref1firstfront0..75atlas garmentidentity,ref2originalphoto. Create OPPOSITE FRONT SIDE sixviews270,285,300 /315,330,345 in3columns x2rows. FirsttrueRIGHTPROFILEfrontbuttonedgeonIMAGELEFT; FRONT PANEL appears onIMAGELEFT ofbroadnearestsleeveonIMAGERIGHT. CENTERBUTTONLINE MUST beLEFT OFGARMENTCENTER inallobliqueviews, returncenternearfront. Notreverseplayback/ref1orientation, physicaloppositesidepose. SmallnearBLACKinterwovenMLABOVEwearerleftchestpocket legible notmirrored. Exactwarmtan caramelbrowncottoncanvasChoreThreeJacket cream pointedcollar/buttoncuffbands, beigeplasticcenterbuttons,3patchpockets ONEleftchest+TWOlow pockets beigeedgeboundtops; no extra4thpocket. Samecloth/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6,no backprint. Photorealoriginalqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. OnlyRIGHTPROFILEthroughalmostFRONT,sixdistinctsmallsteps, buttonlineLEFTnotRIGHT.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 173,
+          "y": 37,
+          "width": 178,
+          "height": 448
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 208,
+          "height": 468
+        },
+        {
+          "x": 108,
+          "y": 15,
+          "width": 260,
+          "height": 467
+        },
+        {
+          "x": 104,
+          "y": 10,
+          "width": 320,
+          "height": 468
+        },
+        {
+          "x": 73,
+          "y": 10,
+          "width": 353,
+          "height": 466
+        },
+        {
+          "x": 45,
+          "y": 10,
+          "width": 387,
+          "height": 465
+        }
+      ],
+      "sha256": "0d6ed22a6067f7bc3bb3bcdebe00a9022dc4fd3af1f901be2b9db2219a179b94",
+      "bytes": 1926405
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T12:14:01.375Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Near-black highcontrast ML front and floral M + exact MiloShopHand upperback on tanbrown canvas; visually reviewed. Thirdquadrantrepaired toconsistentoppositeside poses.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

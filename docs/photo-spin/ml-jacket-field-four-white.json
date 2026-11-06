@@ -1,0 +1,223 @@
+{
+  "slug": "ml-jacket-field-four",
+  "colorKey": "white",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T16:57:07.669Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/white/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-27ea0962-ad04-43db-893b-36078706d145.png",
+      "prompt": "Use case: precise-object-edit. EditONLYgarmentCOLOURS inthis exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanCLOTH includingbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomescleansoft WHITE #f8f7f2. Neutralcoolwhitefabric with naturalsubtlegrayshadows/folds andclearsilhouette againstUNCHANGEDwarmivorybackground; do notwashoutedges. Metalbuttons/zip remain mutedbrass. FrontinterwovenML logo nearBLACK #202020 exactoriginalsize/layout/placement forstrongcontrast. Preserveeachof sixposesONE-TO-ONE frames0..5 FRONT0,15,30,45,60,75, exactsilhouette/pocket/seamlocations/folds/scaleground/light/camera. No redesign/newhood/ribcuffs/noperson/mannequin/hanger/no3Dplasticmesh. EXACT3columns2rows no gutters/lines/labels, native1536x1024orlarger3:2ratio >=450pxcellwidth. UprightfixedlevelYrotationnopitchroll. NO backbrandingonfront.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1912018,
+      "sha256": "2c397d99eedbfc5c11c21331e317d27108614187af67a932e0e69ca7d4ccd665",
+      "frames": [
+        {
+          "x": 50,
+          "y": 18,
+          "width": 415,
+          "height": 456
+        },
+        {
+          "x": 58,
+          "y": 18,
+          "width": 396,
+          "height": 456
+        },
+        {
+          "x": 77,
+          "y": 17,
+          "width": 356,
+          "height": 459
+        },
+        {
+          "x": 121,
+          "y": 13,
+          "width": 289,
+          "height": 466
+        },
+        {
+          "x": 138,
+          "y": 14,
+          "width": 229,
+          "height": 467
+        },
+        {
+          "x": 160,
+          "y": 14,
+          "width": 201,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/white/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-66fb2136-693a-4e84-b282-640ca73e461b.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pockets/flaps/piping/shouldertabs becomesneutralsoftWHITE #f8f7f2, matchingImage2whitefrontquadrant. Preservewhiteclothtexture/subtlegrayshadows/clearsilhouetteagainstUNCHANGEDwarmivorybg; metalsremainmutedbrass. BackfloralM+EXACT\"MiloShopHand\" andfrontMLlogosnearBLACK #202020, identicalsize/typeface/layout/placement/occlusion. PreserveeachImage1poseONE-TO-ONE frames6..11 90LEFTprofile,105,120,135,150,165nearlyback, no changescamera/cut/seams/folds/proportions/scaleground/light/background. UprightfixedlevelYnopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmeshlook, no omittedbackfloralemblem.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1915741,
+      "sha256": "dbb72a15c78e1d55c593c36eeca57120f554f4bca310c4605d6de169cb78809c",
+      "frames": [
+        {
+          "x": 175,
+          "y": 15,
+          "width": 180,
+          "height": 464
+        },
+        {
+          "x": 149,
+          "y": 17,
+          "width": 218,
+          "height": 462
+        },
+        {
+          "x": 137,
+          "y": 17,
+          "width": 245,
+          "height": 462
+        },
+        {
+          "x": 122,
+          "y": 16,
+          "width": 294,
+          "height": 462
+        },
+        {
+          "x": 81,
+          "y": 17,
+          "width": 352,
+          "height": 460
+        },
+        {
+          "x": 51,
+          "y": 16,
+          "width": 405,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/white/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-73e01223-9b13-496f-b725-cc28fc7b7422.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomesneutralsoftWHITE #f8f7f2, matchingImage2whiterearquadrant. Retainwhiteclothtexture/subtlegrayshadows/clearsilhouetteagainstUNCHANGEDwarmivorybg, metalsmutedbrass. BackfloralM+EXACT\"MiloShopHand\" andfrontMLlogosnearBLACK #202020 sameoriginalsize/typeface/layout/placement/occlusion. PreserveImage1sixposesONE-TO-ONE frames12..17 BACK180,195,210,225,240,255; no angle/cut/sleeve/seam/fold/scaleground/lighting/background/camerachanges. UprightfixedlevelYnopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmesh.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1846164,
+      "sha256": "c0f0703f197a5063b6797e83cf49b33a24577411900f61fdae7b96a68523c3b2",
+      "frames": [
+        {
+          "x": 71,
+          "y": 20,
+          "width": 392,
+          "height": 446
+        },
+        {
+          "x": 85,
+          "y": 20,
+          "width": 353,
+          "height": 446
+        },
+        {
+          "x": 103,
+          "y": 20,
+          "width": 290,
+          "height": 447
+        },
+        {
+          "x": 150,
+          "y": 19,
+          "width": 256,
+          "height": 451
+        },
+        {
+          "x": 154,
+          "y": 20,
+          "width": 204,
+          "height": 450
+        },
+        {
+          "x": 153,
+          "y": 18,
+          "width": 184,
+          "height": 453
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/white/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-f8bdb6ee-3017-4228-a689-4a89d939905a.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pockets/flaps/piping/shouldertabs becomesneutralsoftWHITE #f8f7f2, matchingImage2whitefrontquadrant. Preservewhitefabrictexture/subtlegrayshadows/clearsilhouetteagainstUNCHANGEDwarmivorybg, metalsmutedbrass. ChestML logo nearBLACK #202020, sameoriginalsize/typeface/placement, nevermirror. PreserveeachImage1poseONE-TO-ONE finalquadrantframes18..23 RIGHTprofile270,285,300,315,330,345nearfront. DO NOTmirror/reversetheside or changecamera/cut/sleeves/seams/folds/scaleground/light/background. UprightfixedlevelYnopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmesh, backfloralbrandonlywherealreadyvisibleatprofile neveronfront.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1815455,
+      "sha256": "725d01036049c3b8448d7084c5efcd2588bbe16f1144dd5d56bdc45932cef7ad",
+      "frames": [
+        {
+          "x": 175,
+          "y": 16,
+          "width": 180,
+          "height": 466
+        },
+        {
+          "x": 150,
+          "y": 17,
+          "width": 196,
+          "height": 465
+        },
+        {
+          "x": 107,
+          "y": 17,
+          "width": 293,
+          "height": 462
+        },
+        {
+          "x": 89,
+          "y": 15,
+          "width": 351,
+          "height": 464
+        },
+        {
+          "x": 62,
+          "y": 15,
+          "width": 388,
+          "height": 465
+        },
+        {
+          "x": 43,
+          "y": 15,
+          "width": 415,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24views andfourquarterjoins visuallyreviewed. Whiteclothfullyrecolouredincludingpiping/collar/cuffs, originalposes/details retained. NearblackfrontMLandfloralM+exactMiloShopHandback highcontrast; metalsbrass, warmivorybg preserved. Whitebounds require reviewagainstnativevisibleedge; no bitmapediting.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "whiteBoundsReview": "Manually reviewed all24native cells. Read-only auto-estimation missed faintwhitecollars in five frames; corrected per-cell upper bounds to visible collar tops: atlas1 frames2/4/5 Y17/17/16; atlas2 frames0/1 Y20/20. Lower bounds unchanged. Fullcollarsincluded, no bitmapediting."
+  }
+}

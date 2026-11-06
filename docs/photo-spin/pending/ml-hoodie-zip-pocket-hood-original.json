@@ -1,0 +1,44 @@
+{
+  "product": "ml-hoodie-zip-pocket-hood",
+  "color": "original cocoa/cream",
+  "colorHex": "#8e715d",
+  "tool": "built-in image_gen",
+  "status": "incomplete",
+  "axis": "y",
+  "nominalAngles": true,
+  "completedFrameCount": 6,
+  "requiredFrameCount": 24,
+  "pendingReason": "Shared ImageGen quota reached; root and two agents confirmed429usage_limit_reached. Stop requested byroot; no further generation attempted.",
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-zip-pocket-hood.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a5e6fa64-14f1-4509-b255-3c51906ddc05.png",
+    "assetPath": ".local/photo-spin/pending/ml-hoodie-zip-pocket-hood/guide.png",
+    "prompt": "Use case: product-mockup. Full24view photographicturntableGUIDE ofEXACTgarmentref1:warmcocoa brown #8e715d technical cotton hoodie with FULL-length cream #dfd5bd CENTERZIP, two angledcreamZIPPOCKETS onlowerfront (NO kangaroopouch), straightbrownhemwithout ribband, creamribcuffs/hoodbinding, NOdrawcords, diagonalseam shoulders andsleevepanels, creamMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Preservefullcenterzip+twoseparateangledzippockets, cloth/cut/colour/pose. Ref2ONLYfloralM+exact\"MiloShopHand\" backbrandindark espresso #1f1914forstrongcontrastagainstbrown,ignoreburgundybg. EXACT6columns4rows equalcellsnogutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseuprightverticalY fixedlevelcamera no pitchroll. Sameclothfolds/scalegroundall24 uniformivorybgsoftstudio light. Noduplicates/reverse/mirroredlogos ormisspelledtext. Realsoftcloth not3Dplasticmesh no person/mannequin/hanger.",
+    "purpose": "Low-resolution24viewposeguide only; not production24view set.",
+    "bytes": 1949395,
+    "sha256": "c38f7a47cdb863eb6553c3085539a8c1e0a560bc4342e596d7ac1a5d719c47c8"
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-34e7be48-5593-4a2d-97e4-458826b7adc7.png",
+      "assetPath": ".local/photo-spin/pending/ml-hoodie-zip-pocket-hood/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide extract/redrawONLYROW1frames0..5intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile, distinctsmallclockwisesteps. Ref2original:warmcocoa brown #8e715d technical cotton hoodie with FULL-length cream #dfd5bd CENTERZIP, two angledcreamZIPPOCKETS onlowerfront (NO kangaroopouch), straightbrownhemwithout ribband, creamribcuffs/hoodbinding, NOdrawcords, diagonalseam shoulders andsleevepanels, creamMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Preservefullcenterzip+TWOseparateangledzippockets, straightnoribhem, nodrawcords, originalseams/cloth/cut/colour/scalegroundallcells. CreamMLfrontnaturallyforeshortenednotmirrored; no backbrandvisibleyet. Fixedlevelcamera uprightverticalY no pitchroll, uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,exact3x2equalgrid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger orplastic3Dmesh, realsoftcloth.",
+      "bytes": 1820079,
+      "sha256": "07aafc666a1c108426fea7f4a926f7c145781d152311c00bd4f0dd5ab4fd5c3b"
+    }
+  ],
+  "missingParts": [
+    1,
+    2,
+    3
+  ],
+  "qa": {
+    "part0VisuallyReviewed": true,
+    "notReadyForIntegration": true
+  }
+}

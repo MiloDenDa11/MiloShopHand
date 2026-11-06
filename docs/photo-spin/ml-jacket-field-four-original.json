@@ -1,0 +1,276 @@
+{
+  "product": "ml-jacket-field-four",
+  "color": "original",
+  "source": "built-in image_gen",
+  "axis": "Y",
+  "camera": "fixed level",
+  "status": "ready",
+  "reference": "apps/web/public/collection-ai/ml-jacket-field-four.png",
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-field-four/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-87b97443-3764-47e7-a306-9f82e84d5b36.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 0,
+      "frames": [
+        {
+          "x": 48,
+          "y": 15,
+          "width": 418,
+          "height": 461,
+          "angle": 0
+        },
+        {
+          "x": 56,
+          "y": 16,
+          "width": 400,
+          "height": 460,
+          "angle": 15
+        },
+        {
+          "x": 75,
+          "y": 14,
+          "width": 359,
+          "height": 464,
+          "angle": 30
+        },
+        {
+          "x": 120,
+          "y": 11,
+          "width": 293,
+          "height": 471,
+          "angle": 45
+        },
+        {
+          "x": 138,
+          "y": 11,
+          "width": 231,
+          "height": 471,
+          "angle": 60
+        },
+        {
+          "x": 159,
+          "y": 11,
+          "width": 204,
+          "height": 471,
+          "angle": 75
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "prompt": "Use case: product-mockup. Identity-preserving image-based 360 garment photography.\nReference image 1 is the exact garment: MiloShopHand ML Field Four Jacket, olive cotton-canvas #677054, tan edge piping #d9c9a8 on the stand collar and four flap pockets, brass center zipper, brass snaps, shoulder epaulettes, relaxed fit, long hanging sleeves and cuff tabs. Preserve the same cotton weave, cloth drape, seam construction, sleeve pose, pocket positions, proportions and color. Small interwoven ML chest monogram above the image-right chest pocket, unobscured by a pocket flap. Reference image 2 supplies ONLY the back artwork: floral M and exact MiloShopHand wordmark in contrasting light cream ink; ignore the burgundy background.\nCreate ONE precise 3-column x 2-row sprite atlas with EXACTLY SIX photographic views of THIS SAME jacket. Uniform ivory studio backdrop, identical lighting, same scale, same bottom hem baseline and center in every equal-sized cell. Garment fully visible with generous 8% margins, no clipping. Output a high-resolution portrait-cell contact sheet, target 1536x1280 or larger, at least 450 pixels per cell width. No grid lines, borders, gutters, labels, angle numbers, watermark, props, hanger, mannequin, person or text outside garment.\nThe ONLY change between cells is rotation of the garment around its perfectly vertical Y/Oy axis. Fixed level camera at garment center, no pitch, roll, camera elevation changes, perspective warp or garment deformation. Keep the photographic fabric detail of reference 1, NOT a smooth plastic, flat, low-poly or procedural 3D render.\nSix sequential angles in row-major order: top-left 0 degrees FRONT; top-middle 15 degrees; top-right 30 degrees; bottom-left 45 degrees; bottom-middle 60 degrees; bottom-right 75 degrees toward the first side. These must be genuinely distinct 15-degree steps, never three repeated fronts. This is part A of a 24-frame turntable. 90 degrees in the next part will be the first true side silhouette; 180 will be BACK. Preserve everything except viewing angle. Do not add another jacket design, hood, extra pockets, straps or graphics.",
+      "qa": "Six distinct continuous front-to-side views. Same olive cotton-canvas jacket, four tan-edged flap pockets, upright; no clipped hem/sleeves. Angles approximate AI interpretations, not calibrated photographic measurements.",
+      "frameCount": 6
+    },
+    {
+      "url": "/collection-spin/ml-jacket-field-four/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-59604843-84e0-4697-8baa-deacc2758c1f.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 6,
+      "frames": [
+        {
+          "x": 174,
+          "y": 11,
+          "width": 182,
+          "height": 470,
+          "angle": 90
+        },
+        {
+          "x": 147,
+          "y": 13,
+          "width": 221,
+          "height": 468,
+          "angle": 105
+        },
+        {
+          "x": 134,
+          "y": 13,
+          "width": 251,
+          "height": 468,
+          "angle": 120
+        },
+        {
+          "x": 121,
+          "y": 13,
+          "width": 296,
+          "height": 467,
+          "angle": 135
+        },
+        {
+          "x": 79,
+          "y": 13,
+          "width": 356,
+          "height": 467,
+          "angle": 150
+        },
+        {
+          "x": 49,
+          "y": 13,
+          "width": 408,
+          "height": 467,
+          "angle": 165
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "prompt": "Use case: product-mockup. Identity-preserving turntable garment photography, part B.\nImage 1 gives garment identity (olive cotton-canvas ML Field Four Jacket with stand collar, brass zipper/snaps/epaulettes, four tan-piped flap pockets, relaxed hanging sleeve pose). Image 2 is the approved six-frame part A: exactly preserve its photographic appearance, scale, cloth folds, sleeve pose, olive color, framing and ivory backdrop. Image 3 is ONLY the exact floral M + MiloShopHand back print reference: ignore burgundy backdrop, use its logo as light cream ink on the upper back.\nCreate ONE 3-column x 2-row atlas with EXACTLY SIX equal SQUARE cells, target1536x1024px or larger,512x512 percell. Every garment is centered at the identical scale and baseline as approved part A, fully visible, no clipped sleeves or hem, 7% clear margin. No gridlines/gutters/borders/numbers/labels/watermark/person/mannequin/props.\nContinue the turntable directly from part A's final75-degree view. Fixed LEVEL camera and lighting, garment remains perfectly upright verticalY, no roll/pitch/elevationchange or distortion. Only rigid viewing angle changes. Each cell shows the SAME photographic jacket, not a different product or procedural plastic3Drender.\nAngles in row-major order: top-left90 degrees true first SIDE, zipper just around the left silhouette and side sleeve centered; top-middle105 degrees rearward three-quarter; top-right120; bottom-left135; bottom-middle150; bottom-right165, almost straight back. Distinct small sequential15degree increments. Do NOT repeat front views. 180degree fullBACK will follow in nextsheet. The floral back logo must naturally emerge progressively as the back rotates into view. Place the floralM emblem and exact wordmark MiloShopHand high on the back, centered between shoulderblade seams, same lightcream print in every visible rear view. Front stays small original interwovenML. Keep exact original4-pocket front, buttons, collar, pocket piping and cuffs; never add pockets on the back. No other lettering.",
+      "qa": "Side to rear views progress in order; floral MiloShopHand spelling visible. Angles are AI approximations and need final seam review with all24frames.",
+      "frameCount": 6
+    },
+    {
+      "url": "/collection-spin/ml-jacket-field-four/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-5134fe91-e695-4931-94df-015812f87166.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 12,
+      "frames": [
+        {
+          "x": 68,
+          "y": 15,
+          "width": 400,
+          "height": 453,
+          "angle": 180
+        },
+        {
+          "x": 82,
+          "y": 15,
+          "width": 358,
+          "height": 453,
+          "angle": 195
+        },
+        {
+          "x": 100,
+          "y": 15,
+          "width": 295,
+          "height": 454,
+          "angle": 210
+        },
+        {
+          "x": 149,
+          "y": 14,
+          "width": 260,
+          "height": 458,
+          "angle": 225
+        },
+        {
+          "x": 152,
+          "y": 14,
+          "width": 209,
+          "height": 459,
+          "angle": 240
+        },
+        {
+          "x": 152,
+          "y": 13,
+          "width": 187,
+          "height": 461,
+          "angle": 255
+        }
+      ],
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "prompt": "Use case: product-mockup. Identity-preserving 360 garment photography, third six-frame sheet, strictly the REAR HALF turning toward the opposite SIDE.\nReference1 is part B (90,105,120,135,150,165degree views) of the SAME olive cotton-canvas MiloShopHand Field Four Jacket. Continue immediately after its final almost-back view. Preserve that exact garment, scale, olive tone, hanging sleeve pose/folds, collar, shoulder epaulettes, cuff tabs, seams and photographic lighting/ivory backdrop. Reference2 is original front/back garment identity and fabric quality. Reference3 is ONLY the floral M with exact MiloShopHand back print, in light cream ink; ignore burgundy background.\nProduce exactly SIX views in a 3-column×2-row atlas,1536×1024 or larger with equal square512px cells, no gutters/lines/borders/numbers/textoutsidegarment. Fixed level camera, body upright along verticalOy with no tilt/roll/deformation, consistent center, baseline and scale in all cells. Full garment visible with safe clear margins.\nAngles ROW-MAJOR: top-left180degrees FULL STRAIGHT BACK (balanced left/right shoulders/sleeves; NO front pockets or zipper showing); top-middle195degrees slightly past rear; top-right210degrees rearthree-quarter from the OPPOSITE side; bottom-left225degrees stronger oppositerear quarter; bottom-middle240degrees close to opposite side but still BACK visible; bottom-right255degrees almost the opposite SIDE. By255 the front of the jacket points to the RIGHT of the image, and the floral back print is foreshortened toward the LEFT garment edge. This must not reverse the earlier rotation and must not show FRONT views: the four flap pockets and chestML remain out of view until rotating farther in the next sheet. 270degrees will be opposite true side in the next sheet, with zipper facing to the right.\nSame brass hardware, tan standcollar edging and cufftabs as references. Upper back floralM plus EXACT wordmark MiloShopHand, samecream ink, size, placement and artwork as partB; logo naturally narrows with angle and becomes occluded at the side. Never mirror any text. Original back has no pockets. Keep premium realistic cottoncanvas weave, seams, wrinkles and clothdrape, not plastic or low-poly3D. All six angularsteps15degrees must be distinct and in sequence, not repeatedbacks. No people/mannequins/hangers/extra objects.",
+      "qa": "Full rear continues progressively toward opposite side. Floral MiloShopHand readable when face-on; small framing and angle variations remain typical of AI-generated viewpoints.",
+      "frameCount": 6
+    },
+    {
+      "url": "/collection-spin/ml-jacket-field-four/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-a3ab34df-6fd2-4ac8-b995-f927ab399ab6.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 18,
+      "frameCount": 6,
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "prompt": "Use case: product-mockup. Identity-preserving photographic image360, final six-frame segment270→345degrees.\nReference1 is the preceding REAR-to-oppositeSIDE part C for this exact olive MiloShopHand Field Four Jacket. Reference2 is approved FRONT-to-firstSIDE part A. Reference3 is original front/back plate with highresolution fabricdetail. Continue the rotation from partC's final255degree pose and arrive smoothly back near partA's first0degree FRONT. No reverse rotation or mirrored pockets/logos.\nGenerate ONE exact3column×2row sixcell atlas,1536×1024px or larger, equal512×512squarecells, no gutters/grid/borders/labels/numbers. Fixed warm ivory studio background and lighting. Precisely the same camera height, garment scale/center/hem baseline and hanging sleeve pose in everycell. Fully visible collar, hem, sleeves and cuffs with clear margins. Garment upright along verticalOy; no roll/pitch/elevationchange, deformation or smoothplastic3Dlook. Preserve cottoncanvas weave and folds like originals.\nROW-MAJOR angles: top-left270degrees TRUE OPPOSITE SIDE, front zipper faces RIGHT and back is LEFT; top-middle285degrees slight FRONT quarter with pocketflaps beginning to emerge on the right; top-right300degrees frontthreequarter from this side; bottom-left315degrees strongerfrontquarter; bottom-middle330degrees almostfront; bottom-right345degrees nearlystraightFRONT, compatible with the0degree view in partA. Each15degree step must be distinct and progressive. From270onward front pockets and brass centerzipper gradually reappear, NOT another sequence of backviews. UpperbackfloralM+MiloShopHand lightcream print naturally disappears aroundleftside; nevermirrortext. Frontmonogram is the same small interwovenML on jacket's wearerLEFT chest above the chestpocket (imageRIGHT in straightfront). Exactlyfour tan-piped flapfrontpockets, no backpockets, standcollar with2brasssnaps, epaulettes, brass zip, cufftabs, no hood and no added designfeatures.\nThe objective is six consistent photographs of onephysicaljacket rotating from rightsideprofile to nearfront, not six differentgarments.",
+      "qa": "Opposite side continues toward front, no reversed sequence or mirrored front monogram.",
+      "frames": [
+        {
+          "x": 172,
+          "y": 13,
+          "width": 185,
+          "height": 471,
+          "angle": 270
+        },
+        {
+          "x": 149,
+          "y": 14,
+          "width": 199,
+          "height": 470,
+          "angle": 285
+        },
+        {
+          "x": 106,
+          "y": 14,
+          "width": 295,
+          "height": 467,
+          "angle": 300
+        },
+        {
+          "x": 87,
+          "y": 11,
+          "width": 355,
+          "height": 469,
+          "angle": 315
+        },
+        {
+          "x": 61,
+          "y": 12,
+          "width": 391,
+          "height": 469,
+          "angle": 330
+        },
+        {
+          "x": 41,
+          "y": 12,
+          "width": 419,
+          "height": 469,
+          "angle": 345
+        }
+      ]
+    }
+  ],
+  "frameCount": 24,
+  "qa": {
+    "reviewedAt": "2026-11-05T08:08:27.950Z",
+    "grid": "Four sheets, each3columns×2rows;512×512cells,1536×1024atlas",
+    "brand": "MiloShopHand spelling visually checked on face-on rear frames; front ML retained",
+    "sequence": "front→firstside→back→oppositeside→front, no pitch or roll",
+    "limitations": "Generated angle values are approximate, not calibrated camera measurements. Small framing/scale variation remains; per-frame garment bounds supplied for uniform-height/ground display normalization.",
+    "bboxMethod": "Read-only segmentation of dark olive/tan garment against ivory backdrop;2px safety padding. Bounds are relative to each cell. Original PNG bytes unchanged."
+  }
+}

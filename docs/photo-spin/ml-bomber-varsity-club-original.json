@@ -1,0 +1,227 @@
+{
+  "product": "ml-bomber-varsity-club",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-bomber-varsity-club.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Reference1 exact ML Varsity Club Bomber: darkforestcharcoal woolcotton body/sleeves, beige striped ribneck/cuffs/hem, beige snaps, beige weltpockets, raglan beige shoulder piping, littleinterwovenMLchest. Reference2 ONLY floralM+exact MiloShopHand brand,ignoreburgundybackground. Make FULL24photographic turntable poseguide, exactsamebombergenesis realisticcloth nohuman/mannequin/hanger/plastic. Add contrasting ivoryfloralM+MiloShopHand upperback fromref2; frontML unchanged. EXACT6columns x4rows equalcells, no gutters/dividers/numbers/labels, canvas6:5. Samegarmentpose/size/ground/light/bg all24; floatingupright withrelaxedsleeves onlyYverticalrotation, fixedlevelcamera no pitch/roll. Rowmajor clockwiseangles0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345. Frame0frontsymmetrical,6leftprofile,12backsymmetrical,18rightprofile. Row1 graduallynarrowingfront only,no backlogo before90; row2leftprofiletoback;row3backtooppositeprofile;row4rightprofiletofront. Distinctsmoothsteps,no duplicatefrontback,no reversed/mirroredsequence,no garmentchanges. Ivorysoftstudiobg,fullgarmentclearwithmargin eachcell. Thisis onlyguide for consistent360rotation.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-273aff29-ac31-4313-937b-9b3e249c0389.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-bomber-varsity-club/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-a5b0d479-cd17-4ba7-989f-e3b83f047122.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1 full24photographicturntable POSEGUIDE,ref2 highdetailoriginalgarment,ref3 brand. Redraw/upscale ONLY FIRST ROW global0..5 ofref1 as six equalcells3columns x2rows, angles0,15,30 then45,60,75. First symmetricFRONT, last nearleftprofile FRONTstillvisible, NO backprint before90. ExactVarsityClubBomber darkforestcharcoal woolcotton body/sleeves, beige striped ribneck/cuffs/hem, beige snaps/weltpockets, thinbeige raglanshoulderpiping, ivory littleinterwovenMLleftchest. Samefrontdetails/material/neutralrelaxedsleevepose/folds/scale/groundall6; no redesign. Preserve originalphotorealclothquality; emptyfloatinggarment no person/mannequin/hanger/plastic3D. Fixedlevelcamera verticalYlocked upright no pitch/roll. Canvas1536x1024,512squarecells withgenerousmargin entiregarment; ivorysoftstudiobackdrop no gutters/borders/numbers/labels. Do not rotate entireturn in6cells, onlyfrontquadrant0through75. Do not mirrorlogo.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 77,
+          "y": 28,
+          "width": 399,
+          "height": 408
+        },
+        {
+          "x": 75,
+          "y": 27,
+          "width": 366,
+          "height": 416
+        },
+        {
+          "x": 76,
+          "y": 27,
+          "width": 323,
+          "height": 422
+        },
+        {
+          "x": 140,
+          "y": 24,
+          "width": 294,
+          "height": 438
+        },
+        {
+          "x": 138,
+          "y": 24,
+          "width": 255,
+          "height": 440
+        },
+        {
+          "x": 141,
+          "y": 23,
+          "width": 209,
+          "height": 443
+        }
+      ],
+      "sha256": "7f2bf745d787d9b40ec1d69481e2aeb1d0ab70de0478adb989eb5f6da6d2cda2",
+      "bytes": 1971153
+    },
+    {
+      "url": "/collection-spin/ml-bomber-varsity-club/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-0a7b4903-24db-4afe-851b-3ce7d0346434.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1 full24phototurntable guide,ref2originalvarsityclubphoto,ref3floralMbrand. Redraw ONLY SECOND ROW global6..11 ref1, as3columns x2rows equalcells512square canvas1536x1024. Angles90,105,120 then135,150,165: first TRUELEFTSIDE PROFILE narrow, graduallyturntoback, lastalmostBACK15short. Same darkforestcharcoal woolcotton VarsityClubBomber beige stripedribneck/cuffs/hem, beige snaps/weltpockets, raglanbeigepiping. Same neutral sleevepose/folds/colour/scale/ground all6. Contrasting ivoryfloralM + exact MiloShopHand upperbackprint graduallyemerges; samebranding/placement/size, no mirroring. No frontchest ML except naturallyhidden atprofile. Photoreal clothoriginalquality no plastic3D/person/mannequin/hanger; upright verticalYrotation fixedlevelcamera no pitch/roll. Ivorybackdropsoftstudio, entiregarmentwithmargin, no gutters/borders/numbers/captions. Do not completefullturnin6frames or startfront; onlyLEFTPROFILEthroughnearlyBACK.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 207,
+          "y": 25,
+          "width": 185,
+          "height": 449
+        },
+        {
+          "x": 145,
+          "y": 26,
+          "width": 212,
+          "height": 448
+        },
+        {
+          "x": 83,
+          "y": 28,
+          "width": 264,
+          "height": 446
+        },
+        {
+          "x": 112,
+          "y": 27,
+          "width": 310,
+          "height": 451
+        },
+        {
+          "x": 64,
+          "y": 26,
+          "width": 349,
+          "height": 450
+        },
+        {
+          "x": 18,
+          "y": 25,
+          "width": 394,
+          "height": 446
+        }
+      ],
+      "sha256": "679cea43ec58c2f89788013a5da1420b1a501559b2b7ae10b64a87a5645e140a",
+      "bytes": 1938439
+    },
+    {
+      "url": "/collection-spin/ml-bomber-varsity-club/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-a33f08ea-ac90-422a-9b62-f6d2e7df9433.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1 FULL24turntable poseguide,ref2 originalhighdetail VarsityClubBomber,ref3 brand. Redraw ONLY THIRD ROW global12..17 ofref1 as3columns x2rows highdetailnative atlas. Angles180,195,210 then225,240,255: first perfectlysymmetricalBACK, graduallyrotateclockwise towardOPPOSITE/rightprofile, lastnearrightprofilebackstillvisible. EXACTsame darkforestcharcoal woolcotton bomber, beige-stripedribneck/cuffs/hem, thinbeigeraglanpiping; originalmaterial/seams/folds/relaxedsleevepose/colour/scale/ground sameall6. Upperback contrasting ivoryfloralM above exact MiloShopHand wordmark, SAMEprintplacement/size/allviews, naturallyforeshortened, notmirrored. No frontchestlogo orsnapfrontvisible inthese6. Originalphotorealclothquality no3Dplastic/human/mannequin/hanger. Fixedlevelcamera, verticalYaxislocked upright no pitch/roll. Canvas1536x1024,512squarecells,ivorysoftstudiobg,fullgarmentwithgenerousmargin, no gutters/dividers/captions/numbers. Do not repeatfrontorleftprofile; sequenceBACKtowardOPPOSITEside.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 63,
+          "y": 28,
+          "width": 401,
+          "height": 422
+        },
+        {
+          "x": 67,
+          "y": 27,
+          "width": 381,
+          "height": 430
+        },
+        {
+          "x": 94,
+          "y": 27,
+          "width": 330,
+          "height": 436
+        },
+        {
+          "x": 133,
+          "y": 23,
+          "width": 289,
+          "height": 444
+        },
+        {
+          "x": 138,
+          "y": 20,
+          "width": 250,
+          "height": 450
+        },
+        {
+          "x": 141,
+          "y": 21,
+          "width": 213,
+          "height": 453
+        }
+      ],
+      "sha256": "b3d440d68687f461b8f82d7fb2d210829a40621c27d952f3b6854d81b9f509bb",
+      "bytes": 1948209
+    },
+    {
+      "url": "/collection-spin/ml-bomber-varsity-club/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-68bf71f8-9bb8-4d6d-9d2d-91ec5d1fbba0.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntable POSEGUIDE,ref2originalVarsityClubphotogarment,ref3brand. Redraw ONLY FOURTH/LAST ROW global18..23 ref1 into3columns x2rows nativehighdetail atlas. Angles270,285,300 then315,330,345. FirsttrueRIGHTSIDE profile OPPOSITE90view, thenfront progressivelyappears onLEFT sideofimage, lastnearlyFRONT15degrees short. MUSTmatchlastrowguide direction, sleeveclosestonRIGHT. Exactdarkforestcharcoal woolcotton VarsityClubBomber beige stripedribneck/cuffs/hem, beige snaps/weltpockets, thinbeigeraglanpiping, littleivoryMLleftchest emerges naturally. No backprint visible. Same pose/shape/folds/seams/scale/ground/lightall6, originalphotorealclothqualityno plastic3D/person/mannequin/hanger. UprightverticalYonly rotation fixedlevelcamera no pitch/roll. Canvas1536x1024 eachcell512square withgenerousmarginentiregarment,ivorysoftstudio, no gutters/borders/numbers/labels. SequenceRIGHTPROFILEtothenFRONT, no reverse/no mirroredletters/no complete360in6cells.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 182,
+          "y": 22,
+          "width": 171,
+          "height": 462
+        },
+        {
+          "x": 173,
+          "y": 22,
+          "width": 180,
+          "height": 462
+        },
+        {
+          "x": 145,
+          "y": 21,
+          "width": 223,
+          "height": 459
+        },
+        {
+          "x": 134,
+          "y": 22,
+          "width": 286,
+          "height": 453
+        },
+        {
+          "x": 96,
+          "y": 23,
+          "width": 333,
+          "height": 449
+        },
+        {
+          "x": 65,
+          "y": 23,
+          "width": 374,
+          "height": 444
+        }
+      ],
+      "sha256": "d63276681f6623e8f78f42c59f1612b98d692d1353bf2465d224de38fd731590",
+      "bytes": 1897063
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T11:31:10.536Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "slug": "ml-tee-everyday-crew",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-everyday-crew.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T08:13:05.738Z",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-cb2f228c-e47d-4302-af91-40cb845687af.png",
+    "prompt": "Use case: product-mockup. Make a precise FULL 24-frame photographic turntable guide of the EXACT cream-and-olive MiloShopHand T-shirt from reference 1, matching realistic cloth appearance and small ML chestlogo. Reference2 is a validated FRONT-quadrant sixframe atlas showing the correct garment identity and how it turns; reference3 is ONLY the floral M + exact MiloShopHand wordmark which should be contrasting dark olive upper-back print (ignore burgundybackground). Keep relaxed cottontee, olive crewneck+olive sleevebands, seamdetails, proportions, sleevepose and folds completely consistent. No newgarmentdesign, plastic/lowpolylook or mannequin.\nEXACT GRID6columns×4rows, allcellsidentical size, NO gutters/borders/numbers/text labels, same ivorybackdrop/softlight, samegarmentscale/ground, fullyvisible withclear margins. Canvas intendedaspect6:5. Only rotate around strictlyverticalY, fixedlevelcamera, nopitch/roll.\nStrict clockwise sequence lefttoright thennextrow: row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345. Frame0perfectFRONT;6perfectLEFTSIDE;12perfectBACK;18perfectRIGHTSIDE. Row1 onlyfrontpartgraduallynarrows, NO backprint;row2 fromtrueleftprofiletowardbackwithbackprintemerging;row3startsperfectsymmetricalbackthenrearoppositesidetowardrightprofile;row4startsrightprofileandreturnstowardfront. Do NOT repeatfront/backviews, skipangles, reverseordirection midsequence, mirror logos, change pose, or show backprint before90. Each consecutive view a clear distinctsmall15degreestep. BacktextMiloShopHandcorrectcapitalization/spelling and floralMprintconsistentwherevisible. Thisimage is a pose guide for image-based360, geometricconsistency takespriority over decorativevariation."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-082e2b21-dbdf-4307-a77c-93ebad0fda94.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 29,
+          "y": 35,
+          "width": 411,
+          "height": 480
+        },
+        {
+          "x": 50,
+          "y": 31,
+          "width": 372,
+          "height": 485
+        },
+        {
+          "x": 85,
+          "y": 29,
+          "width": 297,
+          "height": 488
+        },
+        {
+          "x": 131,
+          "y": 27.5,
+          "width": 232,
+          "height": 497
+        },
+        {
+          "x": 134,
+          "y": 25.5,
+          "width": 191,
+          "height": 499
+        },
+        {
+          "x": 137,
+          "y": 23.5,
+          "width": 171,
+          "height": 502
+        }
+      ],
+      "prompt": "Use case: product-mockup, identity-preserving photographic product turntable.\nCreate ONE high-resolution SIX-frame sprite atlas for the MiloShopHand Everyday Crew basic T-shirt from input image 1. Input 1 is the garment identity: exact cream cotton jersey, olive green ribbed round neckline, olive sleeve edging, relaxed proportions, short sleeves angled slightly down, natural seams and same cloth folds. Preserve its photographic fabric and drape, not a smooth plastic or low-poly 3D reconstruction. Input 2 supplies ONLY the floral M emblem and exact MiloShopHand back wordmark; ignore its burgundy background. Front remains small dark olive interwoven ML on left chest. Back has floral M plus wordmark MiloShopHand in dark olive on upper center; this remains the same on every rear-visible angle.\n\nLAYOUT: exactly THREE columns by TWO rows, edge-to-edge equal portrait cells, no gutters, grid lines, numbers, labels or borders. Canvas aspect 6:5, intended resolution at least 1374x1145, each cell at least 458x572. Exactly one entire T-shirt centered per cell. Same scale and baseline, fixed soft ivory backdrop and light, 8% margins around garment, no mannequin/person/hanger/support or text outside garment.\n\nTHIS SHEET IS FRAMES 0–5 OF A 24-FRAME 360 SPIN. Strict row-major angles: top row 0°,15°,30°; bottom row 45°,60°,75°. 0° is exactly FRONT. Gradually turn the whole rigidly posed garment toward its LEFT PROFILE; at 75° it is nearly a thin left-side silhouette. These must be six DISTINCT regularly stepped views, not duplicated front views. Camera remains level at garment center and static; Y/Oy axis perfectly vertical. No pitch/roll/upward camera tilt, no changing sleeve pose, no changing garment shape. No fake flat-image skew. Show physically correct side thickness and occlusion while preserving all cotton folds, trim widths and branding placement. High quality original AI catalog photography style.",
+      "retryPrompt": "Use case: precise-object-edit, product spin sequence. Edit the supplied six-frame T-shirt atlas. Preserve its exact cream cotton jersey garment, olive ribbed collar and sleeve edging, small dark olive ML chest logo, realistic cloth folds, camera height, scale, uniform ivory background, equal 3-column by2-row grid and photographic quality.\n\nFix ONLY the viewing angles. This is the FRONT quadrant of a turntable, NOT a complete rotation. There must be NO visible back print anywhere in this sheet. All six images must still show some part of the FRONT chest, gradually narrowing as the tee turns toward the same side. Ordered angles top row 0,15,30 degrees; bottom row45,60,75 degrees. The current bottom middle/right images are rotated too far and show the back logo; replace them with front-side views. Frame0 perfectfront with both sleeves symmetric; frame1 subtle15degree; frame2 clear30degree; frame3 front45degree; frame4 front60degree; frame5 front75degree just before a perfect side, chest appears narrow and front monogram is strongly foreshortened. No back logo can be seen before90degrees. Keep the same sleevepose and geometry allframes.\n\nDo not shift or rotate the grid, no gutters/lines/text. Canvas1374x1145 or larger, exact3×2 equal cells. Every garment upright about verticalOy, no roll/pitch/camera motion. Do not turn any frame backward past90. Do not show back print, rearcenter, or six complete-turn angles. Six DIFFERENT front quadrant views only."
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-521a6568-73fd-4fd6-ae08-73b8b90d8022.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 142,
+          "y": 27,
+          "width": 187,
+          "height": 483
+        },
+        {
+          "x": 115,
+          "y": 27,
+          "width": 200,
+          "height": 483
+        },
+        {
+          "x": 100,
+          "y": 27,
+          "width": 253,
+          "height": 483
+        },
+        {
+          "x": 95,
+          "y": 23.5,
+          "width": 295,
+          "height": 489
+        },
+        {
+          "x": 55,
+          "y": 23.5,
+          "width": 336,
+          "height": 488
+        },
+        {
+          "x": 32,
+          "y": 23.5,
+          "width": 373,
+          "height": 489
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, high-resolution photographic product atlas. Input 1 is a validated 6-column by4-row turntable GUIDE of ONE MiloShopHand cream cotton tee. Input2 is the original garment for crisp cotton texture, olive ribbed crewneck and olive sleeve edging, relaxed drape, seams and frontML. Input3 is the validated high-resolution first6frames for exact scale, background and fabric finish. Input4 supplies ONLY the floralM and exact MiloShopHand upper-back print; ignore burgundybackground.\nTASK: Extract and redraw ONLY the specified row of six guide poses into a NEW atlas arranged THREE columns by TWO rows. This is not a new rotation interpretation. Preserve the EXACT viewing direction/pose of each specified guide cell; use original garment only to restore fabric detail. Same creamcolor/oliveedging, identical sleevepose/folds and physical T-shirt. Backbranding exactMiloShopHand and floralM, darkolive contrasting ink, stays fixed on garment. Small ML leftchest only visible when the guide showsfront. No mirrored text.\nOutput exactly3×2 equal portrait cells, canvasaspect6:5, at least1374x1145 (458x572percell). Same ivorybackdrop, fixedlight and levelcamera, verticalOy throughout. Same fullgarment scale and baseline as input3, withclear margins. No cellborders, gutters, labels, numbers, people/mannequins or cutoffs. Do not make alternate designs, change garment scales or camera pitch. Keep physical occlusion, especially side profiles.\nSOURCE ROW: guide SECOND ROW (row index1), six cells LEFT TO RIGHT. Copy these six existing poses in this exact order: 90,105,120,135,150,165degrees. Destination top row = guide row2 cols1,2,3; destination bottomrow = guide row2 cols4,5,6. Firstframe MUST remain a true thin LEFT SIDE PROFILE (only garment side, no full front/back). Gradually reveal the back print until the lastframe is nearly fullback with slightleftview. Never replacefirstframe withfront or fullback."
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-67de2dfa-a071-4468-aa85-015f985c4ac1.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 40,
+          "y": 35,
+          "width": 402,
+          "height": 477
+        },
+        {
+          "x": 52,
+          "y": 37,
+          "width": 373,
+          "height": 475
+        },
+        {
+          "x": 81,
+          "y": 37,
+          "width": 297,
+          "height": 474
+        },
+        {
+          "x": 133,
+          "y": 33.5,
+          "width": 242,
+          "height": 476
+        },
+        {
+          "x": 124,
+          "y": 31.5,
+          "width": 228,
+          "height": 479
+        },
+        {
+          "x": 128,
+          "y": 31.5,
+          "width": 208,
+          "height": 479
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, high-resolution photographic product atlas. Input 1 is a validated 6-column by4-row turntable GUIDE of ONE MiloShopHand cream cotton tee. Input2 is the original garment for crisp cotton texture, olive ribbed crewneck and olive sleeve edging, relaxed drape, seams and frontML. Input3 is the validated high-resolution first6frames for exact scale, background and fabric finish. Input4 supplies ONLY the floralM and exact MiloShopHand upper-back print; ignore burgundybackground.\nTASK: Extract and redraw ONLY the specified row of six guide poses into a NEW atlas arranged THREE columns by TWO rows. This is not a new rotation interpretation. Preserve the EXACT viewing direction/pose of each specified guide cell; use original garment only to restore fabric detail. Same creamcolor/oliveedging, identical sleevepose/folds and physical T-shirt. Backbranding exactMiloShopHand and floralM, darkolive contrasting ink, stays fixed on garment. Small ML leftchest only visible when the guide showsfront. No mirrored text.\nOutput exactly3×2 equal portrait cells, canvasaspect6:5, at least1374x1145 (458x572percell). Same ivorybackdrop, fixedlight and levelcamera, verticalOy throughout. Same fullgarment scale and baseline as input3, withclear margins. No cellborders, gutters, labels, numbers, people/mannequins or cutoffs. Do not make alternate designs, change garment scales or camera pitch. Keep physical occlusion, especially side profiles.\nSOURCE ROW: guide THIRD ROW (row index2), six cells LEFT TO RIGHT. Copy these six existing poses in this exact order:180,195,210,225,240,255degrees. Destination toprow = guide row3 cols1,2,3; destination bottomrow = guide row3 cols4,5,6. Firstframe MUST be perfectly symmetric BACK with floralM+MiloShopHand correctly spelled; then turn consistently toward the OPPOSITE SIDE from the previousrow, progressively hidingthebackprint. Lastframe is nearly RIGHT SIDE PROFILE, notfullback. Do not reverse direction or repeat sixfullbacks."
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-23b05876-3a11-4df6-9518-f5c459882fb5.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 117,
+          "y": 27,
+          "width": 210,
+          "height": 500
+        },
+        {
+          "x": 113,
+          "y": 27,
+          "width": 225,
+          "height": 500
+        },
+        {
+          "x": 86,
+          "y": 29,
+          "width": 276,
+          "height": 498
+        },
+        {
+          "x": 59,
+          "y": 26.5,
+          "width": 337,
+          "height": 486
+        },
+        {
+          "x": 33,
+          "y": 27.5,
+          "width": 389,
+          "height": 484
+        },
+        {
+          "x": 26,
+          "y": 27.5,
+          "width": 410,
+          "height": 482
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, high-resolution photographic product atlas. Input1 is a 6columns×4rows full24view turntable GUIDE of exactlyone creamcotton MiloShopHand EverydayCrew Tee. Input2 is original teeidentity: creamcottonjersey, olivecrewneckandsleevebands, relaxedfit, frontML logo. Input3 is the validatedhighresolution frames0–5 for exactphotoquality, scale and background. Input4 is validatedframes12–17 for accuratebackbranding and samefolds.\nExtract and REDRAW ONLY the SIX poses from guide FOURTH/BOTTOM ROW, lefttoright, into a new3COLUMN×2ROW atlas, equalportraitcells. Strictsourceposes are270,285,300,315,330,345degrees. Top destinationrow=guidebottomrowcols1,2,3;bottomdestinationrow=guidebottomrowcols4,5,6. Do NOT reinterpret these angles, preserveguideviewingdirections. Firstframe is trueoppositeRIGHTSIDEPROFILE, nofullfront/back; progresssmoothlytofront3/4 andfinallynearlyfullfront slightlybefore0. FrontML becomes visiblewhereguideindicates, correctlyonwearer'sLEFTCHEST (viewer-right atfullfront). Backprint disappearsnaturally; nevermoveittothefront or mirrorlettering. No duplicatefrontframes,no reversed rotation. Same physicalshirt, sleevepose/folds, roundneckandolivebands everycell, no inventedgarmentdetails.\nMatchexactphotographiccreamfabric ofinputs2/3, sharpdetail ratherthanplastic3D. Fixedlevelcameraandlight; perfectverticalOy withnopitch/roll, samegarmentscale/groundallframes. Ivorybackground,clear garmentmargins, no labels/gridlines/gutters/numbers/mannequin or externaltext. Canvas6:5aspect, at least1374x1145 for458x572cells. This is onlyoppositesidetoFRONT quadrant, notanotherfullrotation."
+    }
+  ],
+  "verification": {
+    "sameGarment": "Cream cotton relaxed tee, olive round neckline and sleeve edging; consistent sleeve pose across four photographic sheets.",
+    "rotation": "24 distinct views in clockwise order; fronts, both side profiles and back. Only vertical Y rotation; no deliberate pitch/roll.",
+    "brand": "ML chest mark; floral M and readable MiloShopHand on rear. Correct spelling checked in near-back frames.",
+    "resolution": "1374x1145 per atlas, 458x572.5 per frame; all four final PNGs copied unchanged.",
+    "bbox": "Read-only RGB difference analysis against per-row local border background; coordinates are source pixel bounds relative to each cell. Use uniform CSS scale/translation for height/ground normalization; do not normalize frame width.",
+    "limitations": "AI mockup, not measured physical turntable photography. Listed angles are nominal 15-degree steps; small fold/print/scale variations remain. Frame heights 474–502px before CSS normalization. Original first attempt overshot front quadrant and was rejected.",
+    "bitmapEditing": "None. Generated PNGs copied unchanged; all bbox analysis read-only."
+  }
+}

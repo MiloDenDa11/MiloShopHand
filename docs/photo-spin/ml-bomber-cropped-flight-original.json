@@ -1,0 +1,223 @@
+{
+  "product": "ml-bomber-cropped-flight",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-bomber-cropped-flight.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "parts": [
+    {
+      "url": "/collection-spin/ml-bomber-cropped-flight/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-38533530-1aa0-4fce-8114-7b64909a6b07.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup. Ref1 EXACT originalgarment identity ML CroppedFlightBomber: sandchampagnebeige softshiny nylon, DARKOLIVEribcollar/cuffs/hem, silverfullcenterzip, TWOangledweltwaistpockets, SHORTCROPPEDbody withLONGrelaxedsleeves. Ref2ONLYsix0..75POSEGUIDE fromdifferentbomber, DO NOTcopyolivequilting/pockets/material. Createexactref1 in3columns x2rows6photorealviews0,15,30 /45,60,75. FirstsymmetricFRONT; frontzipmovesIMAGERIGHTwithnearestblanksleeveIMAGELEFT,lastnearLEFTPROFILEfrontstillvisible, no backprint. SmalldarkoliveinterwovenMLleftchestsharpcontrast. Sameoriginalnylonfolds/seams/shortcroppedshape/colour/scale/groundall6 no redesign. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024 each512squarecellivorysoftstudio entiregarmentmarginincludinglongsleeves,no gutters/borders/numbers/labels. Onlyfrontquarterturnnotfull360; preserveCROPPEDbodyandsmoothUNQUILTEDfabric.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 44,
+          "y": 23,
+          "width": 434,
+          "height": 443
+        },
+        {
+          "x": 46,
+          "y": 21,
+          "width": 416,
+          "height": 452
+        },
+        {
+          "x": 59,
+          "y": 21,
+          "width": 378,
+          "height": 456
+        },
+        {
+          "x": 84,
+          "y": 15,
+          "width": 342,
+          "height": 469
+        },
+        {
+          "x": 103,
+          "y": 14,
+          "width": 296,
+          "height": 473
+        },
+        {
+          "x": 118,
+          "y": 14,
+          "width": 247,
+          "height": 476
+        }
+      ],
+      "sha256": "102df5df6e561e9d70ade65781c03893cbdcb3caf26d4301a39109cedc07082f",
+      "bytes": 1819419
+    },
+    {
+      "url": "/collection-spin/ml-bomber-cropped-flight/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-955dd5c0-5200-4077-8c8b-f5c3dc9be3f4.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Ref1first0..75atlasidentity,ref2originalCroppedFlightphoto,ref3floralbrandonlyignorebg. CreateNEXT6angles90,105,120 /135,150,165 in3columns x2rows. FirsttrueLEFTPROFILEfrontzipedgeonIMAGERIGHT; backpanel/printemergesIMAGELEFTofnearestsleeve; lastalmostBACK15short. Same sandchampagnebeige smoothsoftshiny nylonCroppedFlightBomber darkoliveribcollar/cuffs/hem silverzip/2angledweltpocketsfront hiddenatback, SHORTCROPPEDbody+LONGrelaxedsleeves. Adddarkolive/nearBLACKfloralM+exactMiloShopHand upperback highcontrast, SAMEprintplacement/sizeeveryview naturallyforeshortenednotmirrored. Sameoriginalnylonfolds/seams/neutralpose/shape/colour/scale/groundall6; do not lengthenbody. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmarginincllongsleeves,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtonearlyBACK, backplaneLEFTofnearestsleeve, no reversedirection.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 171,
+          "y": 13,
+          "width": 182,
+          "height": 477
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 203,
+          "height": 476
+        },
+        {
+          "x": 118,
+          "y": 13,
+          "width": 228,
+          "height": 476
+        },
+        {
+          "x": 120,
+          "y": 12,
+          "width": 287,
+          "height": 476
+        },
+        {
+          "x": 87,
+          "y": 12,
+          "width": 335,
+          "height": 476
+        },
+        {
+          "x": 53,
+          "y": 12,
+          "width": 393,
+          "height": 475
+        }
+      ],
+      "sha256": "ebaeeb421b7e25975f7298d7088a36b3a7e0460c2551999cc85860fae10e248a",
+      "bytes": 1770300
+    },
+    {
+      "url": "/collection-spin/ml-bomber-cropped-flight/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-2e00d92e-9bc7-4fdf-85fd-e6f8e62e972b.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Ref1previousrearleft90..165atlas actualgarmentidentity,ref2originalCroppedFlightphoto,ref3 ONLYdesiredPOSES180..255 fromdifferentgarmentdenim,donotcopyitsfabric/shape. CreateNEXT6angles180,195,210 /225,240,255 in3columns x2rows, matchref3POSEDIRECTION: firstperfectBACK; thenblanknearestsleeve IMAGELEFT andBACKPLANE/LOGO IMAGERIGHTofthatsleeve; lastnearoppositeRIGHTPROFILEbacklogoRIGHTedge. Exactref1sandchampagnebeige smoothsoftshinynylonCroppedFlightBomber darkoliveribcollar/cuffs/hem, SHORTCROPPEDbody+LONGrelaxedsleeves, nofrontpocketsvisible. SAMEdarkolivefloralM+exactMiloShopHand upperback SAMEprintplacement/size,fabric/folds/seams/shape/colour/scale/ground asref1,notmirrored. Do not lengthenbody orcopydenim. Originalphotorealclothqualityfloatingemptygarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholemarginincludinglongsleeves,no gutters/borders/numbers/labels. OnlyBACKtowardOPPOSITERIGHTPROFILE; nearestblanksleeveLEFT inall5obliques, notRIGHT.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 58,
+          "y": 15,
+          "width": 419,
+          "height": 467
+        },
+        {
+          "x": 60,
+          "y": 15,
+          "width": 385,
+          "height": 471
+        },
+        {
+          "x": 71,
+          "y": 15,
+          "width": 342,
+          "height": 475
+        },
+        {
+          "x": 108,
+          "y": 12,
+          "width": 292,
+          "height": 484
+        },
+        {
+          "x": 134,
+          "y": 12,
+          "width": 241,
+          "height": 484
+        },
+        {
+          "x": 153,
+          "y": 12,
+          "width": 201,
+          "height": 484
+        }
+      ],
+      "sha256": "147febd746235bde64f6278012e246268df1a8411e18ea307e08dd4594cb7fc3",
+      "bytes": 1788825
+    },
+    {
+      "url": "/collection-spin/ml-bomber-cropped-flight/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-91cb37d6-1b3b-4142-ac9c-945eb3f9549b.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 finalquarter. Ref1firstfront0..75atlas garmentidentity,ref2originalCroppedFlightphoto,ref3ONLY desiredPOSES270..345 fromdifferentdenimjacket DO NOTcopydenimshape/material. CreateOPPOSITEFRONTSIDE6angles270,285,300 /315,330,345 in3columns x2rows, matchref3POSEDIRECTION. FirsttrueRIGHTPROFILEfrontzipedgeonIMAGELEFT; frontpanelIMAGELEFTofbroadnearestsleeveIMAGERIGHT; centralzipLEFT OFGARMENTCENTERinallobliquesreturncenternearfront. Exactsandchampagnebeige softshinysmoothnylonCroppedFlightBomber DARKOLIVEribcollar/cuffs/hem silverzip/2angledweltwaistpockets, SHORTCROPPEDbody+LONGrelaxedsleeves; littleoliveMLleftchestlegiblenotmirrored. No backprint. Sameoriginalnylonfolds/seams/neutralpose/shape/colour/scale/groundall6; no lengtheningbody. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmarginincllongsleeves,no gutters/borders/numbers/labels. OnlyRIGHTPROFILEthroughalmostFRONT, sixdistinctsmallsteps, zipLEFTnotRIGHT.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 153,
+          "y": 18,
+          "width": 176,
+          "height": 466
+        },
+        {
+          "x": 144,
+          "y": 18,
+          "width": 199,
+          "height": 466
+        },
+        {
+          "x": 119,
+          "y": 17,
+          "width": 247,
+          "height": 468
+        },
+        {
+          "x": 98,
+          "y": 15,
+          "width": 307,
+          "height": 474
+        },
+        {
+          "x": 71,
+          "y": 15,
+          "width": 341,
+          "height": 474
+        },
+        {
+          "x": 39,
+          "y": 17,
+          "width": 392,
+          "height": 472
+        }
+      ],
+      "sha256": "0196bc31c8d70f5141ef4e952f3269d1410bbf31df072c979abc43e4722a0bbb",
+      "bytes": 1672888
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T12:22:07.583Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Dark olive highcontrast ML front and floral M + exact MiloShopHand upperback on champagnebeige nylon; visually reviewed. Shortcroppedbody/longsleeves retained.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

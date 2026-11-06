@@ -1,0 +1,222 @@
+{
+  "slug": "midnight-flight-bomber",
+  "colorKey": "original",
+  "colorHex": "#78846a",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:19:57.022Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-a1a85d11-be76-4e80-8589-2347ab8902f5.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Midnight Flight Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: muted olive nylon, charcoal rib collar/cuffs/hem, silver center zip, two slanted welt hand pockets, ONE small zipped utility pocket on wearerLEFT upper sleeve, relaxed fit, ivory ML and rear print. Primary color #78846a. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY six CAMERA POSES and layout, NOT its navy garment/color. Make rowmajor0,15,30 /45,60,75degrees, first symmetric FRONT. As yaw increases front zip/center moves IMAGE RIGHT, nearest sleeve IMAGE LEFT, last near LEFTPROFILE with narrow front visible RIGHT. No rearprint visible in this quarter. Keep FRONT ML to RIGHT of centerzip in every visiblefront, same wearer'sLEFT chest. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast. One utilityzip pocket exists ONLY on wearerLEFT upperarm, imageRIGHT sleeve at front, imageLEFT at back. Never duplicate it onto other sleeve.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1956562,
+      "sha256": "300cb87a839b2f8ba821d0373a13667f7a3557a1cd0765af9c08009754ef005e",
+      "frames": [
+        {
+          "x": 34,
+          "y": 36,
+          "width": 443,
+          "height": 439
+        },
+        {
+          "x": 39,
+          "y": 34,
+          "width": 427,
+          "height": 448
+        },
+        {
+          "x": 63,
+          "y": 32,
+          "width": 379,
+          "height": 453
+        },
+        {
+          "x": 87,
+          "y": 27,
+          "width": 323,
+          "height": 464
+        },
+        {
+          "x": 116,
+          "y": 28,
+          "width": 274,
+          "height": 464
+        },
+        {
+          "x": 144,
+          "y": 28,
+          "width": 212,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-ccc5d0df-c761-43f7-9d2f-f10daa97cd49.png",
+      "prompt": "Use case: product-mockup. IMAGE1 is strict CAMERA POSE GUIDE, 6 navy jackets, do NOT copy navy color orpockets. IMAGE2 is exact garment identity MidnightFlightBomber: olive #78846a nylon body/sleeves, dark charcoal low ribcollar/cuffs/hem, silverfrontzip/two slantedweltpockets, ivory ML wearerLEFTchest, ONE zipped utilitypocket ONLY wearerLEFT upperarm. IMAGE3 is this garment's0..75 quarter. RECREATE EXACT SIX YAW POSES AND LEFT/RIGHT DIRECTION FROM IMAGE1 using garment in IMAGE2, continue from IMAGE3. Native1536x1024, 3columns x2rows SIX512squarecells. Rowmajor90,105,120 /135,150,165. First profile FRONT zipper EDGE ON IMAGE RIGHT, BACK EDGE ON IMAGE LEFT. Nearest visible broad sleeve has NO utilitypocket and stays clean in ALL sixcells. Backpanel with ivory floralM+EXACT MiloShopHand logo emerges on IMAGE LEFT of nearersleeve, then lastalmostback sleeve remainsIMAGE RIGHT, backpanel/print IMAGELEFT. Utilityzip pocket belongs on FAR arm, largely hidden at90..135 and only appears on far IMAGELEFT arm near150..165/back, never on NEAR sleeve. This is NOT the utility-pocket-side profile. Keep floralM/wordmark fromIMAGE2 upperback, natural foreshortening, nonmirrored, matching size/placement. Back has no zipper or pockets. Same cloth texture/seams/folds/relaxedpose/scale/hembaseline/warmivorybackdrop/softlight asIMAGE3; wholeuncroppedgarments. Locked absolutelyuprightY/Oy withfixedlevelcamera, yawonly no roll/pitch/zoom, no labels/borders/gutters/human/mannequin/hanger/plastic3D. Crucial: firstprofile frontzipRIGHT, nearestsleeve blank; everybackprint imageLEFT, not imageRIGHT like incorrect reversedposes.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1798942,
+      "sha256": "417137956541daf09940ddf0f8e23b2a4b1c1f7279023c4f4a9ef4ebaed76315",
+      "frames": [
+        {
+          "x": 150,
+          "y": 26,
+          "width": 206,
+          "height": 466
+        },
+        {
+          "x": 127,
+          "y": 26,
+          "width": 221,
+          "height": 466
+        },
+        {
+          "x": 103,
+          "y": 27,
+          "width": 248,
+          "height": 465
+        },
+        {
+          "x": 104,
+          "y": 25,
+          "width": 312,
+          "height": 466
+        },
+        {
+          "x": 79,
+          "y": 25,
+          "width": 347,
+          "height": 466
+        },
+        {
+          "x": 43,
+          "y": 25,
+          "width": 400,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-b8131859-3681-400a-ba40-a49823c0c00a.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Midnight Flight Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: muted olive nylon, charcoal rib collar/cuffs/hem, silver center zip, two slanted welt hand pockets, ONE small zipped utility pocket on wearerLEFT upper sleeve, relaxed fit, ivory ML and rear print. Primary color #78846a. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 is preceding90..165 atlas of samegarment. IMAGE3 supplies ONLY back-to-oppositeside poses. Continue180,195,210 /225,240,255degrees. First perfectly symmetric BACK, then backpanel+logo move IMAGE RIGHT with nearest sleeve IMAGE LEFT; last near opposite RIGHTPROFILE with narrow back on RIGHTedge. Frontzip/pockets/chestML hidden thisquarter. Backlogo remains correctorientation, no pockets on back. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast. One utilityzip pocket exists ONLY on wearerLEFT upperarm, imageRIGHT sleeve at front, imageLEFT at back. Never duplicate it onto other sleeve.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1863735,
+      "sha256": "77e08724f92e035ff37499b810a54f229bf40fbfbbeff7952afc786b09049d29",
+      "frames": [
+        {
+          "x": 57,
+          "y": 24,
+          "width": 426,
+          "height": 453
+        },
+        {
+          "x": 61,
+          "y": 23,
+          "width": 384,
+          "height": 460
+        },
+        {
+          "x": 93,
+          "y": 22,
+          "width": 309,
+          "height": 466
+        },
+        {
+          "x": 140,
+          "y": 22,
+          "width": 261,
+          "height": 471
+        },
+        {
+          "x": 144,
+          "y": 19,
+          "width": 226,
+          "height": 475
+        },
+        {
+          "x": 161,
+          "y": 20,
+          "width": 204,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-425ef97f-fb87-4308-b0cf-825a0f41e189.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Midnight Flight Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: muted olive nylon, charcoal rib collar/cuffs/hem, silver center zip, two slanted welt hand pockets, ONE small zipped utility pocket on wearerLEFT upper sleeve, relaxed fit, ivory ML and rear print. Primary color #78846a. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY opposite-side-to-front poses and correct chestlogo side; do NOTcopy its navy color. IMAGE3 is this garment firstquarter. Continue270,285,300 /315,330,345degrees. First RIGHTPROFILE with frontzipedge IMAGE LEFT and back IMAGE RIGHT, nearer sleeve IMAGE RIGHT. Front emerges IMAGE LEFT of nearest sleeve and zip approachescenter fromLEFT, ending almost FRONT. SamewearerLEFTchestML is to RIGHT of zipper/centerline at all visiblefronts, clearly IMAGE RIGHT of zip in finalcell; NEVER placeML IMAGELEFT of zip. Backart disappears around RIGHTedge, never placedonfront. Oppositepose direction from0..75, not duplicateframes. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast. One utilityzip pocket exists ONLY on wearerLEFT upperarm, imageRIGHT sleeve at front, imageLEFT at back. Never duplicate it onto other sleeve.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1879271,
+      "sha256": "0908a5bfcf1513856a82706ca7ee332b7ae8c0f92fca89036d3356d5fce168ce",
+      "frames": [
+        {
+          "x": 155,
+          "y": 19,
+          "width": 195,
+          "height": 470
+        },
+        {
+          "x": 131,
+          "y": 20,
+          "width": 228,
+          "height": 470
+        },
+        {
+          "x": 100,
+          "y": 20,
+          "width": 275,
+          "height": 470
+        },
+        {
+          "x": 80,
+          "y": 19,
+          "width": 336,
+          "height": 472
+        },
+        {
+          "x": 46,
+          "y": 18,
+          "width": 391,
+          "height": 471
+        },
+        {
+          "x": 24,
+          "y": 19,
+          "width": 443,
+          "height": 462
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 native photographic views: consistent colour/construction, front ML wearerLEFT, exact MiloShopHand floral back logo with contrast, upright Y yaw sequence, whole uncropped garments. Natural AI cloth-drape differences remain. Midnight side-quarter was regenerated to correct yaw direction.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

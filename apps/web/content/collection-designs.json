@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "ML-TEE-01",
+    "slug": "ml-tee-everyday-crew",
+    "name": "ML Everyday Crew Basic Tee",
+    "kind": "tee",
+    "colorHex": "#eee7d7",
+    "accentHex": "#30352c",
+    "material": "Cotton single jersey",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Everyday Crew Basic Tee, chất liệu định hướng Cotton single jersey. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-everyday-crew.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-everyday-crew.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-everyday-crew.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Everyday Crew Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material single-jersey, body color #eee7d7, restrained contrast trim #30352c. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail none; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-02",
+    "slug": "ml-tee-heavy-box",
+    "name": "ML Heavy Box Basic Tee",
+    "kind": "tee",
+    "colorHex": "#262925",
+    "accentHex": "#d5c6a5",
+    "material": "Cotton định lượng cao",
+    "fit": "Oversized",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "boxy"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Heavy Box Basic Tee, chất liệu định hướng Cotton định lượng cao. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-heavy-box.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-heavy-box.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-heavy-box.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Heavy Box Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material heavy-cotton, body color #262925, restrained contrast trim #d5c6a5. Silhouette: Oversized; collar crew; sleeves short; pockets none; construction detail none; hem boxy; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-03",
+    "slug": "ml-tee-wide-neck",
+    "name": "ML Wide Neck Basic Tee",
+    "kind": "tee",
+    "colorHex": "#c0b19b",
+    "accentHex": "#374139",
+    "material": "Cotton slub",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "wide-crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "relaxed"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Wide Neck Basic Tee, chất liệu định hướng Cotton slub. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-wide-neck.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-wide-neck.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-wide-neck.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Wide Neck Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material slub-cotton, body color #c0b19b, restrained contrast trim #374139. Silhouette: Relaxed fit; collar wide-crew; sleeves short; pockets none; construction detail none; hem relaxed; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-04",
+    "slug": "ml-tee-rib-neck",
+    "name": "ML Rib Neck Basic Tee",
+    "kind": "tee",
+    "colorHex": "#5e694f",
+    "accentHex": "#e9dfc7",
+    "material": "Cotton dệt gân",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib-crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Rib Neck Basic Tee, chất liệu định hướng Cotton dệt gân. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-rib-neck.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-rib-neck.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-rib-neck.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Rib Neck Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material rib-knit, body color #5e694f, restrained contrast trim #e9dfc7. Silhouette: Relaxed fit; collar rib-crew; sleeves short; pockets none; construction detail none; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-05",
+    "slug": "ml-tee-pocket-study",
+    "name": "ML Pocket Study Basic Tee",
+    "kind": "tee",
+    "colorHex": "#8e6a52",
+    "accentHex": "#efe5cb",
+    "material": "Cotton twill",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "chest",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Pocket Study Basic Tee, chất liệu định hướng Cotton twill. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-pocket-study.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-pocket-study.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-pocket-study.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Pocket Study Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-twill, body color #8e6a52, restrained contrast trim #efe5cb. Silhouette: Relaxed fit; collar crew; sleeves short; pockets chest; construction detail none; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-06",
+    "slug": "ml-tee-raglan-day",
+    "name": "ML Raglan Day Basic Tee",
+    "kind": "tee",
+    "colorHex": "#dad2be",
+    "accentHex": "#4d5949",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "raglan",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "raglan",
+      "stripe": false,
+      "hem": "relaxed"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Raglan Day Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-raglan-day.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-raglan-day.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-raglan-day.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Raglan Day Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #dad2be, restrained contrast trim #4d5949. Silhouette: Relaxed fit; collar crew; sleeves raglan; pockets none; construction detail raglan; hem relaxed; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-07",
+    "slug": "ml-tee-double-hem",
+    "name": "ML Double Hem Basic Tee",
+    "kind": "tee",
+    "colorHex": "#4b5458",
+    "accentHex": "#ddd4bf",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "layered-hem",
+      "stripe": false,
+      "hem": "layered"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Double Hem Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-double-hem.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-double-hem.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-double-hem.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Double Hem Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #4b5458, restrained contrast trim #ddd4bf. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail layered-hem; hem layered; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-08",
+    "slug": "ml-tee-mock-neck",
+    "name": "ML Mock Neck Basic Tee",
+    "kind": "tee",
+    "colorHex": "#d5bc97",
+    "accentHex": "#382f2a",
+    "material": "heavy-jersey",
+    "fit": "Oversized",
+    "geometry": {
+      "collar": "mock",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "boxy"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Mock Neck Basic Tee, chất liệu định hướng heavy-jersey. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-mock-neck.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-mock-neck.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-mock-neck.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Mock Neck Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material heavy-jersey, body color #d5bc97, restrained contrast trim #382f2a. Silhouette: Oversized; collar mock; sleeves short; pockets none; construction detail none; hem boxy; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-09",
+    "slug": "ml-tee-slit-side",
+    "name": "ML Slit Side Basic Tee",
+    "kind": "tee",
+    "colorHex": "#515d46",
+    "accentHex": "#d5c1a0",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "side-slit",
+      "stripe": false,
+      "hem": "split"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Slit Side Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-slit-side.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-slit-side.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-slit-side.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Slit Side Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #515d46, restrained contrast trim #d5c1a0. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail side-slit; hem split; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-10",
+    "slug": "ml-tee-athletic-ringer",
+    "name": "ML Athletic Ringer Basic Tee",
+    "kind": "tee",
+    "colorHex": "#e8e3d2",
+    "accentHex": "#5a6654",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "ringer",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "ringer",
+      "stripe": true,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Athletic Ringer Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-athletic-ringer.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-athletic-ringer.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-athletic-ringer.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Athletic Ringer Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #e8e3d2, restrained contrast trim #5a6654. Silhouette: Relaxed fit; collar ringer; sleeves short; pockets none; construction detail ringer; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-11",
+    "slug": "ml-tee-drop-shoulder",
+    "name": "ML Drop Shoulder Basic Tee",
+    "kind": "tee",
+    "colorHex": "#8b8477",
+    "accentHex": "#e7deca",
+    "material": "Cotton định lượng cao",
+    "fit": "Oversized",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "drop",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "boxy"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Drop Shoulder Basic Tee, chất liệu định hướng Cotton định lượng cao. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-drop-shoulder.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-drop-shoulder.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-drop-shoulder.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Drop Shoulder Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material heavy-cotton, body color #8b8477, restrained contrast trim #e7deca. Silhouette: Oversized; collar crew; sleeves drop; pockets none; construction detail none; hem boxy; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-12",
+    "slug": "ml-tee-longline-basic",
+    "name": "ML Longline Basic Basic Tee",
+    "kind": "tee",
+    "colorHex": "#303b3b",
+    "accentHex": "#d6c6b1",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "none",
+      "stripe": false,
+      "hem": "longline"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Longline Basic Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-longline-basic.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-longline-basic.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-longline-basic.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Longline Basic Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #303b3b, restrained contrast trim #d6c6b1. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail none; hem longline; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-13",
+    "slug": "ml-tee-split-panel",
+    "name": "ML Split Panel Basic Tee",
+    "kind": "tee",
+    "colorHex": "#a3876d",
+    "accentHex": "#ede6d4",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "vertical",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Split Panel Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-split-panel.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-split-panel.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-split-panel.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Split Panel Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #a3876d, restrained contrast trim #ede6d4. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail vertical; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-14",
+    "slug": "ml-tee-henley-three",
+    "name": "ML Henley Three Basic Tee",
+    "kind": "tee",
+    "colorHex": "#c7c4b3",
+    "accentHex": "#4c5547",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "henley",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "placket",
+      "stripe": false,
+      "hem": "relaxed"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Henley Three Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-henley-three.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-henley-three.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-henley-three.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Henley Three Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #c7c4b3, restrained contrast trim #4c5547. Silhouette: Relaxed fit; collar henley; sleeves short; pockets none; construction detail placket; hem relaxed; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-TEE-15",
+    "slug": "ml-tee-breton-line",
+    "name": "ML Breton Line Basic Tee",
+    "kind": "tee",
+    "colorHex": "#ddd6c4",
+    "accentHex": "#393e36",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "crew",
+      "sleeve": "short",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "fine-horizontal",
+      "stripe": true,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo phông basic Breton Line Basic Tee, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-tee-breton-line.png",
+    "front": {
+      "src": "/collection-ai/ml-tee-breton-line.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-tee-breton-line.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Breton Line Basic Tee. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #ddd6c4, restrained contrast trim #393e36. Silhouette: Relaxed fit; collar crew; sleeves short; pockets none; construction detail fine-horizontal; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo phông basic",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-01",
+    "slug": "ml-jacket-field-four",
+    "name": "ML Field Four Jacket",
+    "kind": "jacket",
+    "colorHex": "#677054",
+    "accentHex": "#d9c9a8",
+    "material": "cotton-canvas",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "stand",
+      "sleeve": "long",
+      "pockets": "four-flap",
+      "zipper": true,
+      "panel": "field",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Field Four Jacket, chất liệu định hướng cotton-canvas. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-field-four.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-field-four.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-field-four.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Field Four Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-canvas, body color #677054, restrained contrast trim #d9c9a8. Silhouette: Relaxed fit; collar stand; sleeves long; pockets four-flap; construction detail field; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-02",
+    "slug": "ml-jacket-coach-snap",
+    "name": "ML Coach Snap Jacket",
+    "kind": "jacket",
+    "colorHex": "#333b35",
+    "accentHex": "#c6b794",
+    "material": "Nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": false,
+      "panel": "coach",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Coach Snap Jacket, chất liệu định hướng Nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-coach-snap.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-coach-snap.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-coach-snap.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Coach Snap Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material nylon, body color #333b35, restrained contrast trim #c6b794. Silhouette: Relaxed fit; collar point; sleeves long; pockets welt; construction detail coach; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-03",
+    "slug": "ml-jacket-city-shell",
+    "name": "ML City Shell Jacket",
+    "kind": "jacket",
+    "colorHex": "#b9ac94",
+    "accentHex": "#3b4439",
+    "material": "Nylon ripstop",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "stand",
+      "sleeve": "long",
+      "pockets": "zip",
+      "zipper": true,
+      "panel": "shell",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket City Shell Jacket, chất liệu định hướng Nylon ripstop. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-city-shell.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-city-shell.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-city-shell.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named City Shell Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material ripstop, body color #b9ac94, restrained contrast trim #3b4439. Silhouette: Relaxed fit; collar stand; sleeves long; pockets zip; construction detail shell; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-04",
+    "slug": "ml-jacket-utility-zip",
+    "name": "ML Utility Zip Jacket",
+    "kind": "jacket",
+    "colorHex": "#4c575e",
+    "accentHex": "#dfd5bd",
+    "material": "Canvas",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "stand",
+      "sleeve": "long",
+      "pockets": "chest",
+      "zipper": true,
+      "panel": "utility",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Utility Zip Jacket, chất liệu định hướng Canvas. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-utility-zip.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-utility-zip.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-utility-zip.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Utility Zip Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material canvas, body color #4c575e, restrained contrast trim #dfd5bd. Silhouette: Relaxed fit; collar stand; sleeves long; pockets chest; construction detail utility; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-05",
+    "slug": "ml-jacket-denim-work",
+    "name": "ML Denim Work Jacket",
+    "kind": "jacket",
+    "colorHex": "#5c6c78",
+    "accentHex": "#d2c1a0",
+    "material": "Denim",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "four-patch",
+      "zipper": false,
+      "panel": "workwear",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Denim Work Jacket, chất liệu định hướng Denim. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-denim-work.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-denim-work.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-denim-work.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Denim Work Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material denim, body color #5c6c78, restrained contrast trim #d2c1a0. Silhouette: Relaxed fit; collar point; sleeves long; pockets four-patch; construction detail workwear; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-06",
+    "slug": "ml-jacket-chore-three",
+    "name": "ML Chore Three Jacket",
+    "kind": "jacket",
+    "colorHex": "#a98e68",
+    "accentHex": "#eee4cb",
+    "material": "Cotton twill",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "three-patch",
+      "zipper": false,
+      "panel": "chore",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Chore Three Jacket, chất liệu định hướng Cotton twill. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-chore-three.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-chore-three.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-chore-three.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Chore Three Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-twill, body color #a98e68, restrained contrast trim #eee4cb. Silhouette: Relaxed fit; collar point; sleeves long; pockets three-patch; construction detail chore; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-07",
+    "slug": "ml-jacket-rain-fold",
+    "name": "ML Rain Fold Jacket",
+    "kind": "jacket",
+    "colorHex": "#7b816b",
+    "accentHex": "#d9d1bc",
+    "material": "waterproof-nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "flap",
+      "zipper": true,
+      "panel": "rain",
+      "stripe": false,
+      "hem": "curved"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Rain Fold Jacket, chất liệu định hướng waterproof-nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-rain-fold.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-rain-fold.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-rain-fold.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Rain Fold Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material waterproof-nylon, body color #7b816b, restrained contrast trim #d9d1bc. Silhouette: Relaxed fit; collar hood; sleeves long; pockets flap; construction detail rain; hem curved; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-08",
+    "slug": "ml-jacket-racer-clean",
+    "name": "ML Racer Clean Jacket",
+    "kind": "jacket",
+    "colorHex": "#303332",
+    "accentHex": "#cabd9e",
+    "material": "Cotton nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "band",
+      "sleeve": "long",
+      "pockets": "zip",
+      "zipper": true,
+      "panel": "racer",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Racer Clean Jacket, chất liệu định hướng Cotton nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-racer-clean.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-racer-clean.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-racer-clean.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Racer Clean Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-nylon, body color #303332, restrained contrast trim #cabd9e. Silhouette: Relaxed fit; collar band; sleeves long; pockets zip; construction detail racer; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-09",
+    "slug": "ml-jacket-safari-belt",
+    "name": "ML Safari Belt Jacket",
+    "kind": "jacket",
+    "colorHex": "#c3b08e",
+    "accentHex": "#525b43",
+    "material": "Linen canvas",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "four-flap",
+      "zipper": false,
+      "panel": "belted",
+      "stripe": false,
+      "hem": "longline"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Safari Belt Jacket, chất liệu định hướng Linen canvas. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-safari-belt.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-safari-belt.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-safari-belt.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Safari Belt Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material linen-canvas, body color #c3b08e, restrained contrast trim #525b43. Silhouette: Relaxed fit; collar point; sleeves long; pockets four-flap; construction detail belted; hem longline; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-10",
+    "slug": "ml-jacket-track-stripe",
+    "name": "ML Track Stripe Jacket",
+    "kind": "jacket",
+    "colorHex": "#424d49",
+    "accentHex": "#d3c6aa",
+    "material": "Tricot",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "stand",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "sleeve-stripe",
+      "stripe": true,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Track Stripe Jacket, chất liệu định hướng Tricot. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-track-stripe.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-track-stripe.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-track-stripe.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Track Stripe Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material tricot, body color #424d49, restrained contrast trim #d3c6aa. Silhouette: Relaxed fit; collar stand; sleeves long; pockets welt; construction detail sleeve-stripe; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-11",
+    "slug": "ml-jacket-quilt-light",
+    "name": "ML Quilt Light Jacket",
+    "kind": "jacket",
+    "colorHex": "#8d795e",
+    "accentHex": "#e6ddc7",
+    "material": "Nylon chần bông",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "band",
+      "sleeve": "long",
+      "pockets": "patch",
+      "zipper": true,
+      "panel": "diamond-quilt",
+      "stripe": false,
+      "hem": "curved"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Quilt Light Jacket, chất liệu định hướng Nylon chần bông. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-quilt-light.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-quilt-light.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-quilt-light.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Quilt Light Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material quilted-nylon, body color #8d795e, restrained contrast trim #e6ddc7. Silhouette: Relaxed fit; collar band; sleeves long; pockets patch; construction detail diamond-quilt; hem curved; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-12",
+    "slug": "ml-jacket-panel-wind",
+    "name": "ML Panel Wind Jacket",
+    "kind": "jacket",
+    "colorHex": "#d2c6ad",
+    "accentHex": "#5f6c51",
+    "material": "Nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "stand",
+      "sleeve": "long",
+      "pockets": "zip",
+      "zipper": true,
+      "panel": "contrast-yoke",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Panel Wind Jacket, chất liệu định hướng Nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-panel-wind.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-panel-wind.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-panel-wind.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Panel Wind Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material nylon, body color #d2c6ad, restrained contrast trim #5f6c51. Silhouette: Relaxed fit; collar stand; sleeves long; pockets zip; construction detail contrast-yoke; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-13",
+    "slug": "ml-jacket-shirt-oversize",
+    "name": "ML Shirt Oversize Jacket",
+    "kind": "jacket",
+    "colorHex": "#8a8b7d",
+    "accentHex": "#ded7c2",
+    "material": "Cotton chải",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "two-chest",
+      "zipper": false,
+      "panel": "overshirt",
+      "stripe": false,
+      "hem": "curved"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Shirt Oversize Jacket, chất liệu định hướng Cotton chải. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-shirt-oversize.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-shirt-oversize.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-shirt-oversize.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Shirt Oversize Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material brushed-cotton, body color #8a8b7d, restrained contrast trim #ded7c2. Silhouette: Relaxed fit; collar point; sleeves long; pockets two-chest; construction detail overshirt; hem curved; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-14",
+    "slug": "ml-jacket-anorak-half",
+    "name": "ML Anorak Half Jacket",
+    "kind": "jacket",
+    "colorHex": "#6c735c",
+    "accentHex": "#d9c8a6",
+    "material": "Nylon ripstop",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": true,
+      "panel": "half-zip",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Anorak Half Jacket, chất liệu định hướng Nylon ripstop. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-anorak-half.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-anorak-half.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-anorak-half.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Anorak Half Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material ripstop, body color #6c735c, restrained contrast trim #d9c8a6. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail half-zip; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-JACKET-15",
+    "slug": "ml-jacket-minimal-collar",
+    "name": "ML Minimal Collar Jacket",
+    "kind": "jacket",
+    "colorHex": "#e4d7be",
+    "accentHex": "#525547",
+    "material": "Cotton twill",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "collarless",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "minimal",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác jacket Minimal Collar Jacket, chất liệu định hướng Cotton twill. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-jacket-minimal-collar.png",
+    "front": {
+      "src": "/collection-ai/ml-jacket-minimal-collar.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-jacket-minimal-collar.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Minimal Collar Jacket. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-twill, body color #e4d7be, restrained contrast trim #525547. Silhouette: Relaxed fit; collar collarless; sleeves long; pockets welt; construction detail minimal; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác jacket",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-01",
+    "slug": "ml-bomber-flight-ma1",
+    "name": "ML Flight MA1 Bomber",
+    "kind": "bomber",
+    "colorHex": "#656e53",
+    "accentHex": "#dfd2b5",
+    "material": "Nylon flight",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "ma1",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Flight MA1 Bomber, chất liệu định hướng Nylon flight. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-flight-ma1.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-flight-ma1.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-flight-ma1.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Flight MA1 Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material flight-nylon, body color #656e53, restrained contrast trim #dfd2b5. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail ma1; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-02",
+    "slug": "ml-bomber-varsity-club",
+    "name": "ML Varsity Club Bomber",
+    "kind": "bomber",
+    "colorHex": "#333b36",
+    "accentHex": "#e2d6bb",
+    "material": "Wool cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": false,
+      "panel": "varsity",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Varsity Club Bomber, chất liệu định hướng Wool cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-varsity-club.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-varsity-club.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-varsity-club.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Varsity Club Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material wool-cotton, body color #333b36, restrained contrast trim #e2d6bb. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail varsity; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-03",
+    "slug": "ml-bomber-suede-dusk",
+    "name": "ML Suede Dusk Bomber",
+    "kind": "bomber",
+    "colorHex": "#9a7755",
+    "accentHex": "#d9cab1",
+    "material": "Da lộn thực vật",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "suede",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Suede Dusk Bomber, chất liệu định hướng Da lộn thực vật. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-suede-dusk.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-suede-dusk.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-suede-dusk.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Suede Dusk Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material vegan-suede, body color #9a7755, restrained contrast trim #d9cab1. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail suede; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-04",
+    "slug": "ml-bomber-satin-evening",
+    "name": "ML Satin Evening Bomber",
+    "kind": "bomber",
+    "colorHex": "#414c51",
+    "accentHex": "#d9cbb0",
+    "material": "Satin",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "satin",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Satin Evening Bomber, chất liệu định hướng Satin. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-satin-evening.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-satin-evening.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-satin-evening.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Satin Evening Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material satin, body color #414c51, restrained contrast trim #d9cbb0. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail satin; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-05",
+    "slug": "ml-bomber-quilt-pilot",
+    "name": "ML Quilt Pilot Bomber",
+    "kind": "bomber",
+    "colorHex": "#9b9e88",
+    "accentHex": "#e1d7bf",
+    "material": "Nylon chần bông",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "flap",
+      "zipper": true,
+      "panel": "diamond-quilt",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Quilt Pilot Bomber, chất liệu định hướng Nylon chần bông. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-quilt-pilot.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-quilt-pilot.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-quilt-pilot.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Quilt Pilot Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material quilted-nylon, body color #9b9e88, restrained contrast trim #e1d7bf. Silhouette: Relaxed fit; collar rib; sleeves long; pockets flap; construction detail diamond-quilt; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-06",
+    "slug": "ml-bomber-cropped-flight",
+    "name": "ML Cropped Flight Bomber",
+    "kind": "bomber",
+    "colorHex": "#c2b292",
+    "accentHex": "#3c453a",
+    "material": "Nylon",
+    "fit": "Cropped fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "cropped",
+      "stripe": false,
+      "hem": "cropped-rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Cropped Flight Bomber, chất liệu định hướng Nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-cropped-flight.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-cropped-flight.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-cropped-flight.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Cropped Flight Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material nylon, body color #c2b292, restrained contrast trim #3c453a. Silhouette: Cropped fit; collar rib; sleeves long; pockets welt; construction detail cropped; hem cropped-rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-07",
+    "slug": "ml-bomber-contrast-sleeve",
+    "name": "ML Contrast Sleeve Bomber",
+    "kind": "bomber",
+    "colorHex": "#5f6553",
+    "accentHex": "#dbceb4",
+    "material": "Wool cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "contrast-sleeve",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Contrast Sleeve Bomber, chất liệu định hướng Wool cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-contrast-sleeve.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-contrast-sleeve.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-contrast-sleeve.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Contrast Sleeve Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material wool-cotton, body color #5f6553, restrained contrast trim #dbceb4. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail contrast-sleeve; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-08",
+    "slug": "ml-bomber-pocket-pilot",
+    "name": "ML Pocket Pilot Bomber",
+    "kind": "bomber",
+    "colorHex": "#363d3c",
+    "accentHex": "#cfbc98",
+    "material": "nylon-canvas",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "cargo",
+      "zipper": true,
+      "panel": "cargo",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Pocket Pilot Bomber, chất liệu định hướng nylon-canvas. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-pocket-pilot.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-pocket-pilot.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-pocket-pilot.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Pocket Pilot Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material nylon-canvas, body color #363d3c, restrained contrast trim #cfbc98. Silhouette: Relaxed fit; collar rib; sleeves long; pockets cargo; construction detail cargo; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-09",
+    "slug": "ml-bomber-heritage-baseball",
+    "name": "ML Heritage Baseball Bomber",
+    "kind": "bomber",
+    "colorHex": "#8d6e56",
+    "accentHex": "#e6ddc9",
+    "material": "Cotton twill",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": false,
+      "panel": "snap-baseball",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Heritage Baseball Bomber, chất liệu định hướng Cotton twill. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-heritage-baseball.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-heritage-baseball.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-heritage-baseball.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Heritage Baseball Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-twill, body color #8d6e56, restrained contrast trim #e6ddc9. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail snap-baseball; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-10",
+    "slug": "ml-bomber-collar-flight",
+    "name": "ML Collar Flight Bomber",
+    "kind": "bomber",
+    "colorHex": "#525e62",
+    "accentHex": "#d0c2a7",
+    "material": "Cotton nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "point",
+      "sleeve": "long",
+      "pockets": "flap",
+      "zipper": true,
+      "panel": "collared",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Collar Flight Bomber, chất liệu định hướng Cotton nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-collar-flight.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-collar-flight.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-collar-flight.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Collar Flight Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-nylon, body color #525e62, restrained contrast trim #d0c2a7. Silhouette: Relaxed fit; collar point; sleeves long; pockets flap; construction detail collared; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-11",
+    "slug": "ml-bomber-zip-arm",
+    "name": "ML Zip Arm Bomber",
+    "kind": "bomber",
+    "colorHex": "#969a88",
+    "accentHex": "#424c3b",
+    "material": "Nylon flight",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "arm-zip",
+      "zipper": true,
+      "panel": "arm-utility",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Zip Arm Bomber, chất liệu định hướng Nylon flight. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-zip-arm.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-zip-arm.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-zip-arm.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Zip Arm Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material flight-nylon, body color #969a88, restrained contrast trim #424c3b. Silhouette: Relaxed fit; collar rib; sleeves long; pockets arm-zip; construction detail arm-utility; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-12",
+    "slug": "ml-bomber-rib-stripe",
+    "name": "ML Rib Stripe Bomber",
+    "kind": "bomber",
+    "colorHex": "#ddd2ba",
+    "accentHex": "#354537",
+    "material": "Cotton",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "striped-rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "rib-stripe",
+      "stripe": true,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Rib Stripe Bomber, chất liệu định hướng Cotton. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-rib-stripe.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-rib-stripe.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-rib-stripe.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Rib Stripe Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton, body color #ddd2ba, restrained contrast trim #354537. Silhouette: Relaxed fit; collar striped-rib; sleeves long; pockets welt; construction detail rib-stripe; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-13",
+    "slug": "ml-bomber-soft-cord",
+    "name": "ML Soft Cord Bomber",
+    "kind": "bomber",
+    "colorHex": "#a48e70",
+    "accentHex": "#e8deca",
+    "material": "Nhung tăm",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "patch",
+      "zipper": true,
+      "panel": "corduroy",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Soft Cord Bomber, chất liệu định hướng Nhung tăm. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-soft-cord.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-soft-cord.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-soft-cord.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Soft Cord Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material corduroy, body color #a48e70, restrained contrast trim #e8deca. Silhouette: Relaxed fit; collar rib; sleeves long; pockets patch; construction detail corduroy; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-14",
+    "slug": "ml-bomber-sport-chevron",
+    "name": "ML Sport Chevron Bomber",
+    "kind": "bomber",
+    "colorHex": "#49534c",
+    "accentHex": "#d9c8a9",
+    "material": "Nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "chevron",
+      "stripe": true,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Sport Chevron Bomber, chất liệu định hướng Nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-sport-chevron.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-sport-chevron.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-sport-chevron.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Sport Chevron Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material nylon, body color #49534c, restrained contrast trim #d9c8a9. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail chevron; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-BOMBER-15",
+    "slug": "ml-bomber-reversible-day",
+    "name": "ML Reversible Day Bomber",
+    "kind": "bomber",
+    "colorHex": "#c8bca0",
+    "accentHex": "#636f52",
+    "material": "Cotton nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "rib",
+      "sleeve": "long",
+      "pockets": "welt",
+      "zipper": true,
+      "panel": "reversible",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo khoác bomber Reversible Day Bomber, chất liệu định hướng Cotton nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-bomber-reversible-day.png",
+    "front": {
+      "src": "/collection-ai/ml-bomber-reversible-day.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-bomber-reversible-day.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Reversible Day Bomber. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-nylon, body color #c8bca0, restrained contrast trim #636f52. Silhouette: Relaxed fit; collar rib; sleeves long; pockets welt; construction detail reversible; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo khoác bomber",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-01",
+    "slug": "ml-hoodie-cloud-pullover",
+    "name": "ML Cloud Pullover Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#e4ddc9",
+    "accentHex": "#505c46",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "classic",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Cloud Pullover Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-cloud-pullover.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-cloud-pullover.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-cloud-pullover.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Cloud Pullover Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #e4ddc9, restrained contrast trim #505c46. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail classic; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-02",
+    "slug": "ml-hoodie-zip-everyday",
+    "name": "ML Zip Everyday Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#56614f",
+    "accentHex": "#ded1b5",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "split-kangaroo",
+      "zipper": true,
+      "panel": "full-zip",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Zip Everyday Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-zip-everyday.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-zip-everyday.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-zip-everyday.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Zip Everyday Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #56614f, restrained contrast trim #ded1b5. Silhouette: Relaxed fit; collar hood; sleeves long; pockets split-kangaroo; construction detail full-zip; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-03",
+    "slug": "ml-hoodie-heavy-crop",
+    "name": "ML Heavy Crop Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#a69179",
+    "accentHex": "#e7dfcd",
+    "material": "Cotton fleece định lượng cao",
+    "fit": "Cropped fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "drop",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "cropped",
+      "stripe": false,
+      "hem": "cropped-rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Heavy Crop Hoodie, chất liệu định hướng Cotton fleece định lượng cao. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-heavy-crop.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-heavy-crop.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-heavy-crop.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Heavy Crop Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material heavy-fleece, body color #a69179, restrained contrast trim #e7dfcd. Silhouette: Cropped fit; collar hood; sleeves drop; pockets kangaroo; construction detail cropped; hem cropped-rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-04",
+    "slug": "ml-hoodie-raglan-comfort",
+    "name": "ML Raglan Comfort Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#343c3b",
+    "accentHex": "#cfc0a2",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "raglan",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "raglan",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Raglan Comfort Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-raglan-comfort.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-raglan-comfort.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-raglan-comfort.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Raglan Comfort Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #343c3b, restrained contrast trim #cfc0a2. Silhouette: Relaxed fit; collar hood; sleeves raglan; pockets kangaroo; construction detail raglan; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-05",
+    "slug": "ml-hoodie-half-zip-studio",
+    "name": "ML Half Zip Studio Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#c3c0ad",
+    "accentHex": "#4d5948",
+    "material": "Cotton loopback",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": true,
+      "panel": "half-zip",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Half Zip Studio Hoodie, chất liệu định hướng Cotton loopback. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-half-zip-studio.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-half-zip-studio.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-half-zip-studio.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Half Zip Studio Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material loopback-cotton, body color #c3c0ad, restrained contrast trim #4d5948. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail half-zip; hem rib; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-06",
+    "slug": "ml-hoodie-panel-hood",
+    "name": "ML Panel Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#69715c",
+    "accentHex": "#d8ccb2",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "contrast-yoke",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Panel Hood Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-panel-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-panel-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-panel-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Panel Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #69715c, restrained contrast trim #d8ccb2. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail contrast-yoke; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-07",
+    "slug": "ml-hoodie-raw-edge",
+    "name": "ML Raw Edge Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#8b7963",
+    "accentHex": "#e6ddc7",
+    "material": "Cotton loopback",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "raw-edge",
+      "stripe": false,
+      "hem": "raw"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Raw Edge Hoodie, chất liệu định hướng Cotton loopback. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-raw-edge.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-raw-edge.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-raw-edge.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Raw Edge Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material loopback-cotton, body color #8b7963, restrained contrast trim #e6ddc7. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail raw-edge; hem raw; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-08",
+    "slug": "ml-hoodie-side-zip",
+    "name": "ML Side Zip Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#4e5c64",
+    "accentHex": "#d6c6a6",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "side-zips",
+      "stripe": false,
+      "hem": "split"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Side Zip Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-side-zip.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-side-zip.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-side-zip.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Side Zip Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #4e5c64, restrained contrast trim #d6c6a6. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail side-zips; hem split; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-09",
+    "slug": "ml-hoodie-waffle-layer",
+    "name": "ML Waffle Layer Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#d6c7a6",
+    "accentHex": "#5b624e",
+    "material": "Cotton waffle",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "waffle",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Waffle Layer Hoodie, chất liệu định hướng Cotton waffle. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-waffle-layer.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-waffle-layer.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-waffle-layer.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Waffle Layer Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material waffle-cotton, body color #d6c7a6, restrained contrast trim #5b624e. Silhouette: Relaxed fit; collar hood; sleeves long; pockets none; construction detail waffle; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-10",
+    "slug": "ml-hoodie-double-hood",
+    "name": "ML Double Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#555c50",
+    "accentHex": "#d7cbb3",
+    "material": "Cotton fleece định lượng cao",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "double-hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "double-hood",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Double Hood Hoodie, chất liệu định hướng Cotton fleece định lượng cao. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-double-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-double-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-double-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Double Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material heavy-fleece, body color #555c50, restrained contrast trim #d7cbb3. Silhouette: Relaxed fit; collar double-hood; sleeves long; pockets kangaroo; construction detail double-hood; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-11",
+    "slug": "ml-hoodie-drop-shoulder-hood",
+    "name": "ML Drop Shoulder Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#b5ad99",
+    "accentHex": "#3e4b3d",
+    "material": "Cotton fleece",
+    "fit": "Oversized",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "drop",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "oversize",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Drop Shoulder Hood Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-drop-shoulder-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-drop-shoulder-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-drop-shoulder-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Drop Shoulder Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #b5ad99, restrained contrast trim #3e4b3d. Silhouette: Oversized; collar hood; sleeves drop; pockets kangaroo; construction detail oversize; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-12",
+    "slug": "ml-hoodie-zip-pocket-hood",
+    "name": "ML Zip Pocket Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#8e715d",
+    "accentHex": "#dfd5bd",
+    "material": "Cotton nylon",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "zip",
+      "zipper": true,
+      "panel": "technical",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Zip Pocket Hood Hoodie, chất liệu định hướng Cotton nylon. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-zip-pocket-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-zip-pocket-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-zip-pocket-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Zip Pocket Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material cotton-nylon, body color #8e715d, restrained contrast trim #dfd5bd. Silhouette: Relaxed fit; collar hood; sleeves long; pockets zip; construction detail technical; hem straight; zip fastening as appropriate. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-13",
+    "slug": "ml-hoodie-longline-hood",
+    "name": "ML Longline Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#343e38",
+    "accentHex": "#d4c3a4",
+    "material": "Cotton loopback",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "longline",
+      "stripe": false,
+      "hem": "longline"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Longline Hood Hoodie, chất liệu định hướng Cotton loopback. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-longline-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-longline-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-longline-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Longline Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material loopback-cotton, body color #343e38, restrained contrast trim #d4c3a4. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail longline; hem longline; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-14",
+    "slug": "ml-hoodie-rib-side-hood",
+    "name": "ML Rib Side Hood Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#b7b9a7",
+    "accentHex": "#4e5b45",
+    "material": "Cotton fleece",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "kangaroo",
+      "zipper": false,
+      "panel": "rib-side",
+      "stripe": false,
+      "hem": "rib"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Rib Side Hood Hoodie, chất liệu định hướng Cotton fleece. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-rib-side-hood.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-rib-side-hood.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-rib-side-hood.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Rib Side Hood Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material fleece, body color #b7b9a7, restrained contrast trim #4e5b45. Silhouette: Relaxed fit; collar hood; sleeves long; pockets kangaroo; construction detail rib-side; hem rib; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  },
+  {
+    "id": "ML-HOODIE-15",
+    "slug": "ml-hoodie-minimal-no-pocket",
+    "name": "ML Minimal No Pocket Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#dbd2bf",
+    "accentHex": "#57634d",
+    "material": "Cotton interlock",
+    "fit": "Relaxed fit",
+    "geometry": {
+      "collar": "hood",
+      "sleeve": "long",
+      "pockets": "none",
+      "zipper": false,
+      "panel": "minimal",
+      "stripe": false,
+      "hem": "straight"
+    },
+    "description": "Thiết kế mockup AI MiloShopHand: Áo hoodie Minimal No Pocket Hoodie, chất liệu định hướng Cotton interlock. Logo ML đan xen phía trước và chữ MiloShopHand mềm mại ở lưng. Mẫu thiết kế phục vụ xem trước, chưa phải ảnh chụp sản phẩm thực tế.",
+    "assetStatus": "ready",
+    "image": "/collection-ai/ml-hoodie-minimal-no-pocket.png",
+    "front": {
+      "src": "/collection-ai/ml-hoodie-minimal-no-pocket.png",
+      "view": "front",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "back": {
+      "src": "/collection-ai/ml-hoodie-minimal-no-pocket.png",
+      "view": "back",
+      "crop": {
+        "x": 0.5,
+        "y": 0,
+        "width": 0.5,
+        "height": 1
+      }
+    },
+    "prompt": "Use case: product-mockup. Asset type: ecommerce fashion design catalog plate. Create ONE unique MiloShopHand garment design named Minimal No Pocket Hoodie. Exactly two equally sized panels side by side: LEFT straight-on front view, RIGHT straight-on back view of the SAME garment. No person, no mannequin, no hangers, no labels outside garment. Warm pale ivory studio background; soft editorial light; garment fully visible with generous margin, hem and sleeves uncropped. Material interlock-cotton, body color #dbd2bf, restrained contrast trim #57634d. Silhouette: Relaxed fit; collar hood; sleeves long; pockets none; construction detail minimal; hem straight; no full center zipper. Realistic premium fabric, seams, ribbing and drape. Front left chest: a small elegant interwoven ML monogram, exactly letters M and L intertwined, same accent color. Back upper center: graceful soft flowing script exactly \"MiloShopHand\", spelling M i l o S h o p H a n d with capital M,S,H; tasteful size, no other text. Both views must agree in shape, color, pockets and seam placement. Clean commercial design mockup, no watermark, no text other than ML and MiloShopHand on garment.",
+    "categoryLabel": "Áo hoodie",
+    "imageWidth": 1774,
+    "imageHeight": 887
+  }
+]

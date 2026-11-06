@@ -1,0 +1,15 @@
+{
+  "name": "@milo/worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node ../api/dist/apps/worker/src/main.js"
+  },
+  "dependencies": {
+    "@milo/shared": "1.0.0",
+    "bullmq": "6.6.0",
+    "ioredis": "5.8.2"
+  }
+}

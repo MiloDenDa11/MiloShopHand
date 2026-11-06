@@ -1,0 +1,262 @@
+{
+  "product": "ml-hoodie-cloud-pullover",
+  "color": "original cream/olive",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "Y",
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-d4b9ebd1-8d07-4746-9bcf-7f2a718acf1f.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/original/part-0.png",
+      "prompt": "Use case: product-mockup. Identity-preserving photographic turntable atlas for MiloShopHand Cloud Pullover Hoodie. Image 1 is the authoritative garment: creamy beige premium fleece, olive ribbed cuffs and hem, olive hood binding and drawcords, natural unoccupied folded hood, front kangaroo pouch, small interwoven ML chest logo; preserve exactly its cut, cloth texture, seams, natural folds, colors and hanging sleeve pose. Image 2 is ONLY the floral M and exact MiloShopHand back branding; ignore the burgundy backdrop and render that whole emblem/wordmark in contrasting dark olive, centered on upper back. Do not use any white logo glow. Keep photographic soft realistic cloth, NOT a smooth plastic or polygonal 3D simulation. No person, mannequin, hanger or support.\nCreate a mathematically regular edge-to-edge 3-column by 2-row grid, exactly SIX equal portrait cells. Intended size 1536x1280 (or larger same 6:5 aspect), making each cell at least 450 pixels wide. No gutters, gridlines, numbers, captions or text outside garment. Fixed level camera and soft studio lighting. Every cell has identical uniform pale ivory background and the identical garment centered at exactly same scale and ground line, fully inside cell with 7% margin. The only change is rigid rotation of the same garment around perfectly vertical Y axis; no tilt, pitch, camera elevation change, changing pose, changing fold pattern or changing hood shape. Natural perspective/occlusion of logos is essential.\nROW1 left-to-right: 0 degrees exactly straight FRONT; 15 degrees, modest turn showing a little of the wearer's left side; 30 degrees. ROW2 left-to-right: 45 degrees front three-quarter; 60 degrees; 75 degrees nearly left SIDE. These are SIX distinct evenly spaced increasing viewpoints. At 0 the front photograph must match image1, not an angled view. 90 (not included here) is true left profile. Keep small ML chest logo visible and naturally foreshortened until it moves behind the side edge. No back floral print should appear on visible front surface.",
+      "sha256": "4aa3e715e369e2c29fd91d02c4e51e08c06e3d9eec3e2809b6d868456ccf5b2e",
+      "bytes": 1736540,
+      "frames": [
+        {
+          "x": 17,
+          "y": 30,
+          "width": 427,
+          "height": 475
+        },
+        {
+          "x": 34,
+          "y": 29,
+          "width": 399,
+          "height": 492
+        },
+        {
+          "x": 59,
+          "y": 27,
+          "width": 343,
+          "height": 500
+        },
+        {
+          "x": 91,
+          "y": 20.5,
+          "width": 274,
+          "height": 518
+        },
+        {
+          "x": 116,
+          "y": 19.5,
+          "width": 224,
+          "height": 524
+        },
+        {
+          "x": 130,
+          "y": 18.5,
+          "width": 216,
+          "height": 526
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-ced31b51-371a-46ad-8164-b47f3313d9c8.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/original/part-1.png",
+      "prompt": "Use case: product-mockup, precise multi-view atlas extraction and photographic redraw. Reference1 is a low-resolution 6-column x4-row turntable atlas. Extract and redraw ONLY the specified six cells/one row into a high-detail 3-column x2-row output atlas. Preserve each source cell's viewing direction EXACTLY; do not invent poses, change the camera elevation or replace an oblique view with a more attractive frontal view. Reference2 supplies premium original cream fleece/olive trim garment detail: folded hood, olive binding, cuffs, hem and drawstrings, kangaroo pouch, identical cut, seams and natural hanging sleeves/folds, small ML chest monogram. Reference3 supplies matching high-detail rear photographic style and exact floral M plus MiloShopHand wordmark, dark olive print. Use it to preserve branding, garment scale, cloth detail and print size. It is the SAME hoodie in every cell.\nOutput must be exactly six equal portrait cells in a seamless edge-to-edge 3-column x2-row grid at 6:5 total aspect (e.g1536x1280), at least450 pixels per cell. No gutters, white borders, divider lines, cell numbers or outside text. Soft uniform pale ivory studio background, equal scale and ground height in ALL cells, generous 7percent margin, no cropped cuffs or hood. Product stays upright and rotates only around vertical Y axis; fixed level camera, no tilt or up/down orbit. No mannequin, person, hanger or support. Photoreal premium soft cloth, not polygonal or smooth plastic. Brand text must spell exactly MiloShopHand when rear logo is legible; never put back lettering on the front, never mirror it.\nExtract the SIX cells from ROW2 of Reference1, counting rows from top. Preserve order: row2col1=90 degrees exact LEFT SIDE, row2col2=105, row2col3=120, row2col4=135, row2col5=150, row2col6=165 near BACK. Re-layout these six in row-major3x2: top row90/105/120, bottom row135/150/165. First frame is a narrow TRUE SIDE with front facing the LEFT edge, drawcords at that left front edge; no front-facing chest panel. As angle advances, back floral print emerges progressively and the last frame is near back. This sheet goes between a75-degree front-left frame and180-degree straight-back frame.",
+      "sha256": "d51c5892c0a9b67b3bb67f6ee7e0f386ef2852758c90fa66e32d8ff4b5a2ac57",
+      "bytes": 2039029,
+      "frames": [
+        {
+          "x": 146,
+          "y": 20,
+          "width": 205,
+          "height": 503
+        },
+        {
+          "x": 107,
+          "y": 19,
+          "width": 219,
+          "height": 502
+        },
+        {
+          "x": 85,
+          "y": 16,
+          "width": 267,
+          "height": 503
+        },
+        {
+          "x": 79,
+          "y": 15.5,
+          "width": 315,
+          "height": 499
+        },
+        {
+          "x": 45,
+          "y": 15.5,
+          "width": 359,
+          "height": 494
+        },
+        {
+          "x": 31,
+          "y": 15.5,
+          "width": 397,
+          "height": 491
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-b8ae31f5-b100-4415-a167-96c7197a3d41.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/original/part-2.png",
+      "prompt": "Use case: product-mockup. Identity-preserving photographic turntable atlas for MiloShopHand Cloud Pullover Hoodie. Image 1 is the authoritative garment: creamy beige premium fleece, olive ribbed cuffs and hem, olive hood binding and drawcords, natural unoccupied folded hood, front kangaroo pouch, small interwoven ML chest logo; preserve exactly its cut, cloth texture, seams, natural folds, colors and hanging sleeve pose. Image 2 is ONLY the floral M and exact MiloShopHand back branding; ignore the burgundy backdrop and render that whole emblem/wordmark in contrasting dark olive, centered on upper back. Do not use any white logo glow. Keep photographic soft realistic cloth, NOT a smooth plastic or polygonal 3D simulation. No person, mannequin, hanger or support.\nCreate a mathematically regular edge-to-edge 3-column by 2-row grid, exactly SIX equal portrait cells. Intended size 1536x1280 (or larger same 6:5 aspect), making each cell at least 450 pixels wide. No gutters, gridlines, numbers, captions or text outside garment. Fixed level camera and soft studio lighting. Every cell has identical uniform pale ivory background and the identical garment centered at exactly same scale and ground line, fully inside cell with 7% margin. The only change is rigid rotation of the same garment around perfectly vertical Y axis; no tilt, pitch, camera elevation change, changing pose, changing fold pattern or changing hood shape. Natural perspective/occlusion of logos is essential.\nROW1 left-to-right: 180 degrees exactly straight BACK; 195 degrees; 210 degrees. ROW2 left-to-right: 225 degrees rear three-quarter; 240 degrees; 255 degrees nearing the opposite SIDE. These are SIX distinct evenly spaced increasing viewpoints, all rear/right-side views, not repeated back photographs. At180 the back must be square-on and the floral M plus exact MiloShopHand wordmark from image2 must be crisp, centered and spelled correctly. Keep the same logo and detailed print across all six views, foreshortened and naturally occluded on the side. The small front ML does not appear on the back. Hood stays naturally folded down as image1.",
+      "sha256": "25eb7120b27ad0729a1489f2ba6d91453d90e5cd76c92c1607b2e92176cc60f8",
+      "bytes": 1983925,
+      "frames": [
+        {
+          "x": 15,
+          "y": 27,
+          "width": 430,
+          "height": 482
+        },
+        {
+          "x": 33,
+          "y": 27,
+          "width": 403,
+          "height": 487
+        },
+        {
+          "x": 57,
+          "y": 27,
+          "width": 362,
+          "height": 493
+        },
+        {
+          "x": 88,
+          "y": 26.5,
+          "width": 307,
+          "height": 502
+        },
+        {
+          "x": 114,
+          "y": 27.5,
+          "width": 243,
+          "height": 507
+        },
+        {
+          "x": 118,
+          "y": 30.5,
+          "width": 201,
+          "height": 507
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-96d6c396-f087-42f9-887e-1677364eb90d.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/original/part-3.png",
+      "prompt": "Use case: product-mockup, precise multi-view atlas extraction and photographic redraw. Reference1 is a low-resolution 6-column x4-row turntable atlas. Extract and redraw ONLY the specified six cells/one row into a high-detail 3-column x2-row output atlas. Preserve each source cell's viewing direction EXACTLY; do not invent poses, change the camera elevation or replace an oblique view with a more attractive frontal view. Reference2 supplies premium original cream fleece/olive trim garment detail: folded hood, olive binding, cuffs, hem and drawstrings, kangaroo pouch, identical cut, seams and natural hanging sleeves/folds, small ML chest monogram. Reference3 supplies matching high-detail rear photographic style and exact floral M plus MiloShopHand wordmark, dark olive print. Use it to preserve branding, garment scale, cloth detail and print size. It is the SAME hoodie in every cell.\nOutput must be exactly six equal portrait cells in a seamless edge-to-edge 3-column x2-row grid at 6:5 total aspect (e.g1536x1280), at least450 pixels per cell. No gutters, white borders, divider lines, cell numbers or outside text. Soft uniform pale ivory studio background, equal scale and ground height in ALL cells, generous 7percent margin, no cropped cuffs or hood. Product stays upright and rotates only around vertical Y axis; fixed level camera, no tilt or up/down orbit. No mannequin, person, hanger or support. Photoreal premium soft cloth, not polygonal or smooth plastic. Brand text must spell exactly MiloShopHand when rear logo is legible; never put back lettering on the front, never mirror it.\nExtract the SIX cells from ROW4 (bottom row) of Reference1. Preserve order: row4col1=270 degrees exact RIGHT SIDE, row4col2=285, row4col3=300, row4col4=315, row4col5=330, row4col6=345 near FRONT. Re-layout these six in row-major3x2: top row270/285/300, bottom row315/330/345. First frame is a narrow TRUE SIDE with front facing the RIGHT edge, drawcords at the right front edge. It is the OPPOSITE side from90degrees, not a duplicate of the left-side sequence. Front small ML gradually comes into view as angle advances. Last frame is slightly oblique near front, ready to loop to0front. Back floral print must disappear naturally around rear edge, not float on front.",
+      "sha256": "64569d19c74abba83c853c0555ddeb88582c8e897847d08eae0ec15690d34fd2",
+      "bytes": 1935707,
+      "frames": [
+        {
+          "x": 125,
+          "y": 20,
+          "width": 211,
+          "height": 508
+        },
+        {
+          "x": 124,
+          "y": 21,
+          "width": 220,
+          "height": 507
+        },
+        {
+          "x": 99,
+          "y": 26,
+          "width": 265,
+          "height": 494
+        },
+        {
+          "x": 79,
+          "y": 25.5,
+          "width": 307,
+          "height": 494
+        },
+        {
+          "x": 54,
+          "y": 21.5,
+          "width": 345,
+          "height": 492
+        },
+        {
+          "x": 26,
+          "y": 16.5,
+          "width": 396,
+          "height": 488
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "allFramesVisuallyReviewed": true,
+    "upright": true,
+    "rotationSequence": "front → left side → back → right side → front",
+    "brandText": "MiloShopHand",
+    "constraints": [
+      "AI angles are nominal, not camera-calibrated exact15degree measurements.",
+      "One-to-two pixel grid boundaries should be excluded by CSS inset.",
+      "Frame scale and ground height vary slightly; use optional silhouette bounds for2D alignment.",
+      "Native per-frame raster resolution approximately458x572, no code-based upscaling or pixel edits performed."
+    ],
+    "alignmentAnalysis": "Read-only RGB threshold (R<237,G<227,B<208) estimates cream/olive garment silhouette. Bounds relative to own sprite cell; each atlas has six entries. Intended for uniform2D scale/translation, not image warping.",
+    "readyForIntegration": true,
+    "loopContinuity": "Visually reviewed A5→B0, B5→C0, C5→D0 and D5→A0: monotonic side progression and matching garment/color/branding; nominal angle steps remain AI approximations."
+  }
+}

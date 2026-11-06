@@ -1,0 +1,64 @@
+{
+  "name": "miloshophand",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22.16"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web,worker \"npm run dev -w @milo/api\" \"npm run dev -w @milo/web\" \"npm run dev -w @milo/worker\"",
+    "start": "concurrently -k -n api,web,worker \"npm run start -w @milo/api\" \"npm run start -w @milo/web\" \"npm run start -w @milo/worker\"",
+    "build": "npm run build -w @milo/shared && npm run build -w @milo/api && npm run build -w @milo/worker && npm run build -w @milo/web",
+    "typecheck": "tsc --noEmit -p apps/api && tsc --noEmit -p apps/worker && tsc --noEmit -p apps/web",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate deploy",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:seed:collection": "tsx prisma/collection.ts",
+    "assets:models": "node scripts/build-collection-models.mjs && node scripts/build-legacy-models.mjs && node scripts/render-legacy-images.mjs",
+    "assets:verify": "node scripts/verify-collection.mjs",
+    "assets:brand": "node scripts/build-branded-colorways.mjs",
+    "assets:brand:verify": "node scripts/verify-branded-colorways.mjs",
+    "db:seed:brand": "tsx prisma/brand-variants.ts",
+    "db:seed:photos": "tsx prisma/photo-presentation.ts",
+    "admin:create": "tsx --tsconfig apps/api/tsconfig.json scripts/admin.ts",
+    "setup": "node scripts/setup.mjs",
+    "test": "tsx --test tests/domain.test.ts tests/media.test.ts tests/photo-spin.test.ts tests/garment-palette.test.ts && node --test tests/sync-project.test.mjs tests/garment-geometry.test.mjs",
+    "assets:photos": "node scripts/build-photo-spin-manifest.mjs",
+    "assets:photos:verify": "tsx scripts/verify-photo-spins.ts",
+    "assets:photos:smoke": "node scripts/smoke-photo-spins.mjs && node scripts/smoke-product-media.mjs",
+    "test:integration": "node scripts/test-integration.mjs",
+    "test:e2e": "node scripts/redesign-preview.mjs --test",
+    "test:e2e:production": "node scripts/redesign-preview.mjs --production --test",
+    "dev:preview": "node scripts/redesign-preview.mjs",
+    "db:local": "node scripts/local-db.mjs",
+    "infra:up": "docker compose --env-file .env -f infra/compose.yaml up -d --wait postgres redis",
+    "infra:stop": "docker compose --env-file .env -f infra/compose.yaml stop postgres redis",
+    "infra:status": "docker compose --env-file .env -f infra/compose.yaml ps postgres redis",
+    "infra:logs": "docker compose --env-file .env -f infra/compose.yaml logs --tail=100 postgres redis",
+    "db:backup": "node scripts/docker-db.mjs backup",
+    "db:restore": "node scripts/docker-db.mjs restore",
+    "sync:project": "node scripts/sync-project.mjs"
+  },
+  "dependencies": {
+    "@prisma/client": "6.19.3",
+    "dotenv": "16.6.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "22.19.0",
+    "concurrently": "9.2.1",
+    "prisma": "6.19.3",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "embedded-postgres": "18.6.0-beta.19",
+    "pg": "8.16.3"
+  },
+  "overrides": {
+    "deepmerge-ts": "8.0.0"
+  }
+}

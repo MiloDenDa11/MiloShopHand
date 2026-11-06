@@ -1,0 +1,258 @@
+{
+  "slug": "ml-tee-double-hem",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-double-hem.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:58:38.481Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;garmentidentity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-double-hem/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-af0fb15b-602e-4a4c-8e9e-584b16ac3014.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide for0,15,30,45,60,75frontquadrant;copyexactorientationsanddirection. Replacecharcoalguidewith EXACTDouble Hem Basic Tee fromreference2: slatebluegrey body #4b5458, cottonjersey, relaxed droppedshoulder/shortsleeves/creamivorycrewneck+sleevebands #ddd4bf, DISTINCTLAYEREDDOUBLEHEM with thincreamunderlay projectingbelowdarkbodyallaroundfront/side/back. SmallcreaminterwovenMLfrontLEFTchest, no pockets, sameclothtexture/seams/drapeasoriginal. Sixdistinctposesfrontfirsttoalmostleftprofilelast,NO backprintinthisfrontquadrant.\nEXACT3columns×2rowsnative1374×1145orlargersame6:5aspect. Sixgarmentscompletelyinsideequalcells withmin40pxmarginallaround,garmentheight440pxbothrows,constantground/scale, bottomrowcollarsstarty620+, no crossingy572midline. StrictverticalYrotation,levelcamera,nopitchroll,sameconstruction/shape/colour/folds/sleevepose/logoplaceall6angles. Neutralivorybackgroundsoftlight,photorealclothnotfaceted3D/plastic,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullyvisiblecollars/sleeves/DOUBLEHEMall6.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 37,
+          "y": 38,
+          "width": 413,
+          "height": 452
+        },
+        {
+          "x": 42,
+          "y": 30,
+          "width": 389,
+          "height": 460
+        },
+        {
+          "x": 62,
+          "y": 28,
+          "width": 326,
+          "height": 462
+        },
+        {
+          "x": 120,
+          "y": 17.5,
+          "width": 273,
+          "height": 478
+        },
+        {
+          "x": 102,
+          "y": 16.5,
+          "width": 248,
+          "height": 480
+        },
+        {
+          "x": 97,
+          "y": 16.5,
+          "width": 232,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-double-hem/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-4a52f54b-d115-4e92-82cf-0abc4bb59c80.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide, copy90,105,120,135,150,165degreesfromTRUELEFTprofile to almostBACK, backprintemergesandwidens, nofrontviews. Replacecharcoalguidewith EXACTDouble Hem Basic Tee fromreference2: slatebluegrey body #4b5458, cottonjersey, relaxed droppedshoulder/shortsleeves/creamivorycrewneck+sleevebands #ddd4bf, DISTINCTLAYEREDDOUBLEHEM with thincreamunderlay projectingbelowdarkbodyallaroundfront/side/back. SmallcreaminterwovenMLfrontLEFTchest, no pockets, sameclothtexture/seams/drapeasoriginal. Reference3 floral M+exactMiloShopHandwordmark toprintCREAMIVORY #ddd4bf upperBACK,ignoreburgundybackground. BackdesignnofrontML,nopockets,sameconstruction/seams/folds/garmentsize/colour/logoplacementall6.\nEXACT3columns×2rowsnative1374×1145orlargersame6:5aspect. Everygarmentfullyinsideownsame-sizecellwithmin40pxmargin,garmentheight440pxbothrows,bottomcollarsstarty620+, nocrossingy572midline. VerticalYrotationonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorystudio softlight,photoqualityclothnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullyvisiblecollars/sleeves/DOUBLEHEMall6. ExactMiloShopHandcapitalM S H,no mirroredletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 136,
+          "y": 24,
+          "width": 221,
+          "height": 499
+        },
+        {
+          "x": 120,
+          "y": 24,
+          "width": 236,
+          "height": 499
+        },
+        {
+          "x": 92,
+          "y": 24,
+          "width": 273,
+          "height": 499
+        },
+        {
+          "x": 70,
+          "y": 27.5,
+          "width": 335,
+          "height": 503
+        },
+        {
+          "x": 38,
+          "y": 29.5,
+          "width": 372,
+          "height": 501
+        },
+        {
+          "x": 12,
+          "y": 30.5,
+          "width": 422,
+          "height": 501
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-double-hem/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-6abbf802-3f42-4209-aa12-d1f5df0a9af6.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixPOSEguide, copy EXACT180,195,210,225,240,255degreeorientation sequence trueBACK to nearlyRIGHTprofile; backprintnarrowsandmovesLEFTsideofimage,nearsleeveonRIGHTofimage,notfrontviews. Reference2 EXACTDouble Hem Basic Tee fromreference2: slatebluegrey body #4b5458, cottonjersey, relaxed droppedshoulder/shortsleeves/creamivorycrewneck+sleevebands #ddd4bf, DISTINCTLAYEREDDOUBLEHEM with thincreamunderlay projectingbelowdarkbodyallaroundfront/side/back. SmallcreaminterwovenMLfrontLEFTchest, no pockets, sameclothtexture/seams/drapeasoriginal. Reference3floral M+exactMiloShopHand wordmark toprintCREAMIVORY #ddd4bf upperBACK,ignoreburgundybackground. Replacereference1browngarmentwiththisslatedesign, no pockets;keepseams/doublehem/folds/colour/garmentsizelogoplacementidenticalall6.\nCopy reference1GOODLAYOUT exactly:3columns×2rowsnative1374×1145,fullyinside6equalcells,45pxclearivorymargins,garmentheight440pxbothrows,bottomrowcollarsstarty625+,hemsbefore1100,nocrossingmidliney572. VerticalYrotationonly,fixedlevelcamera,nopitchroll,constantground/scale. Ivorysoftstudio,photorealclothqualitynotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Allcollars/sleeves/DOUBLEHEMfullyvisible,correctMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 34,
+          "y": 39,
+          "width": 415,
+          "height": 450
+        },
+        {
+          "x": 38,
+          "y": 39,
+          "width": 393,
+          "height": 452
+        },
+        {
+          "x": 62,
+          "y": 35,
+          "width": 339,
+          "height": 458
+        },
+        {
+          "x": 103,
+          "y": 51.5,
+          "width": 304,
+          "height": 469
+        },
+        {
+          "x": 122,
+          "y": 50.5,
+          "width": 243,
+          "height": 472
+        },
+        {
+          "x": 110,
+          "y": 50.5,
+          "width": 231,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-double-hem/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b9afac24-d0ca-4169-a607-b378d0203177.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide, copy EXACT270,285,300,315,330,345degreeorientation sequence trueRIGHTprofile to nearlyFRONTfromoppositesideof0..75quadrant. NearsleeveopeningonLEFTsideimage,frontMLhiddenfirst2profileviews,comesinto viewatRIGHTsideimageinlast3views,nevermirrorlogos. Reference2 EXACTDouble Hem Basic Tee fromreference2: slatebluegrey body #4b5458, cottonjersey, relaxed droppedshoulder/shortsleeves/creamivorycrewneck+sleevebands #ddd4bf, DISTINCTLAYEREDDOUBLEHEM with thincreamunderlay projectingbelowdarkbodyallaroundfront/side/back. SmallcreaminterwovenMLfrontLEFTchest, no pockets, sameclothtexture/seams/drapeasoriginal. No backprintinthisfrontreturnquadrant. Samegarmentshape/colour/sleevepose/folds/seams/logoplaceandDOUBLEHEMall6.\nLAYOUTexact3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcellswith40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. VerticalYrotationonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photoqualitycottonnotplastic/facetedmesh,no person/mannequin/hanger/gutters/borders/labels/numbers/extratext. Fullcollar/sleeves/hemvisibleeachpose.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 136,
+          "y": 25,
+          "width": 210,
+          "height": 491
+        },
+        {
+          "x": 108,
+          "y": 25,
+          "width": 244,
+          "height": 491
+        },
+        {
+          "x": 86,
+          "y": 26,
+          "width": 275,
+          "height": 490
+        },
+        {
+          "x": 74,
+          "y": 32.5,
+          "width": 323,
+          "height": 486
+        },
+        {
+          "x": 44,
+          "y": 33.5,
+          "width": 369,
+          "height": 484
+        },
+        {
+          "x": 19,
+          "y": 34.5,
+          "width": 415,
+          "height": 482
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews reviewed. Slatebluegrey cottonbody and creamtrim/underlayerdoublehem consistent front/rear/sides. Correct contrasting MLfront/floralM+MiloShopHandrear. UprightYonly fullturn, originalcloth appearance, allgarments insidecells.",
+    "limitations": "AI nominal views, not camera-calibrated angles."
+  }
+}

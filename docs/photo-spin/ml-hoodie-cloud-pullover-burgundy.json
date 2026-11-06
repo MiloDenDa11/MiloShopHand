@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-cloud-pullover",
+  "colorKey": "burgundy",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T16:30:21.693Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/burgundy/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-7914ccca-46fa-4db3-946b-113ce65afc96.png",
+      "prompt": "Precise ImageGen recolour of original Cloud Pullover part0: all cloth/ribs/drawcords #722f37 burgundy, ivory ML; same six upright poses and photographic identity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1797837,
+      "sha256": "637b6fd73b64b1d613ec93ca9434a0f0bdbd39323e64c98bb23d7aed1d4d5917",
+      "frames": [
+        {
+          "x": 16,
+          "y": 30,
+          "width": 428,
+          "height": 475
+        },
+        {
+          "x": 34,
+          "y": 29,
+          "width": 399,
+          "height": 492
+        },
+        {
+          "x": 59,
+          "y": 27,
+          "width": 344,
+          "height": 500
+        },
+        {
+          "x": 92,
+          "y": 20.5,
+          "width": 276,
+          "height": 518
+        },
+        {
+          "x": 116,
+          "y": 19.5,
+          "width": 224,
+          "height": 524
+        },
+        {
+          "x": 131,
+          "y": 18.5,
+          "width": 216,
+          "height": 526
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/burgundy/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-44219d5c-c96a-44bf-ad45-345e5228b824.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY reference1, the exact six-view MiloShopHand Cloud Pullover photographic atlas. Reference2 is the approved burgundy front quadrant for exact colour and ink match ONLY; do NOT borrow its poses. All cloth, hood exterior/lining, ribs/cuffs/drawcords become deep wine burgundy #722f37 matching reference2. All visible branding becomes bright warm ivory #f8f7f2, including the interwoven ML front and the FULL floral M plus exact text \"MiloShopHand\" on BACK where already visible. Preserve the logo's shape, spelling and position, and every camera pose in reference1. Preserve garment identity, seams, folds, texture, scale, lighting, 3-column by2-row grid and ivory background. This is global views6..11: true LEFT profile progressing toward back, nominal90,105,120,135,150,165. Upright verticalY only, fixedlevelcamera, no pitch/roll. Do not rearrange or mirror poses, add/omit logos or change anatomy. Entire garment stays within each equal cell with safe margins. Native canvas at least1374x1145, >=450px percell bothdimensions. Original photographic cloth quality; no faceted3D/plastic/mannequins/hangers/labels/extra text. Change only colour and logo ink.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2043524,
+      "sha256": "30c48047e8f3ad6cb306dd1afc81d9f9536dd0e626e048aa90f4629a5d28afb4",
+      "frames": [
+        {
+          "x": 145,
+          "y": 20,
+          "width": 207,
+          "height": 503
+        },
+        {
+          "x": 106,
+          "y": 18,
+          "width": 220,
+          "height": 504
+        },
+        {
+          "x": 85,
+          "y": 16,
+          "width": 267,
+          "height": 504
+        },
+        {
+          "x": 79,
+          "y": 16.5,
+          "width": 316,
+          "height": 499
+        },
+        {
+          "x": 44,
+          "y": 16.5,
+          "width": 361,
+          "height": 493
+        },
+        {
+          "x": 31,
+          "y": 16.5,
+          "width": 398,
+          "height": 490
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/burgundy/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-1b86aac9-0c7b-4839-8409-442251ce2fa3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY reference1, the exact six-view MiloShopHand Cloud Pullover photographic atlas. Reference2 is the approved burgundy front quadrant for exact colour and ink match ONLY; do NOT borrow its poses. All cloth, hood exterior/lining, ribs/cuffs/drawcords become deep wine burgundy #722f37 matching reference2. All visible branding becomes bright warm ivory #f8f7f2, including the interwoven ML front and the FULL floral M plus exact text \"MiloShopHand\" on BACK where already visible. Preserve the logo's shape, spelling and position, and every camera pose in reference1. Preserve garment identity, seams, folds, texture, scale, lighting, 3-column by2-row grid and ivory background. This is global views12..17: true BACK progressing toward opposite RIGHT profile, nominal180,195,210,225,240,255. Upright verticalY only, fixedlevelcamera, no pitch/roll. Do not rearrange or mirror poses, add/omit logos or change anatomy. Entire garment stays within each equal cell with safe margins. Native canvas at least1374x1145, >=450px percell bothdimensions. Original photographic cloth quality; no faceted3D/plastic/mannequins/hangers/labels/extra text. Change only colour and logo ink.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1924734,
+      "sha256": "d353a991bf3185cb3693c13153b5cce6f1fe235a03772b2f7653f953b99b769c",
+      "frames": [
+        {
+          "x": 15,
+          "y": 25,
+          "width": 428,
+          "height": 485
+        },
+        {
+          "x": 32,
+          "y": 25,
+          "width": 404,
+          "height": 489
+        },
+        {
+          "x": 57,
+          "y": 27,
+          "width": 363,
+          "height": 493
+        },
+        {
+          "x": 86,
+          "y": 25.5,
+          "width": 309,
+          "height": 504
+        },
+        {
+          "x": 112,
+          "y": 26.5,
+          "width": 246,
+          "height": 508
+        },
+        {
+          "x": 119,
+          "y": 29.5,
+          "width": 203,
+          "height": 508
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/burgundy/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-93f332bc-64e6-430d-8a1a-50e3b1f61768.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY reference1, the exact six-view MiloShopHand Cloud Pullover photographic atlas. Reference2 is the approved burgundy front quadrant for exact colour and ink match ONLY; do NOT borrow its poses. All cloth, hood exterior/lining, ribs/cuffs/drawcords become deep wine burgundy #722f37 matching reference2. All visible branding becomes bright warm ivory #f8f7f2, including the interwoven ML front and the FULL floral M plus exact text \"MiloShopHand\" on BACK where already visible. Preserve the logo's shape, spelling and position, and every camera pose in reference1. Preserve garment identity, seams, folds, texture, scale, lighting, 3-column by2-row grid and ivory background. This is global views18..23: opposite RIGHT profile progressing toward front, nominal270,285,300,315,330,345. Keep the original opposite-facing camera direction; do not repeat the first quadrant. Upright verticalY only, fixedlevelcamera, no pitch/roll. Do not rearrange or mirror poses, add/omit logos or change anatomy. Entire garment stays within each equal cell with safe margins. Native canvas at least1374x1145, >=450px percell bothdimensions. Original photographic cloth quality; no faceted3D/plastic/mannequins/hangers/labels/extra text. Change only colour and logo ink.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1941859,
+      "sha256": "e3e2470097ae9258731ba3c7df5fc7401285f52899362812275490f05d6588f1",
+      "frames": [
+        {
+          "x": 122,
+          "y": 20,
+          "width": 215,
+          "height": 509
+        },
+        {
+          "x": 119,
+          "y": 20,
+          "width": 226,
+          "height": 508
+        },
+        {
+          "x": 96,
+          "y": 25,
+          "width": 268,
+          "height": 496
+        },
+        {
+          "x": 77,
+          "y": 24.5,
+          "width": 310,
+          "height": 495
+        },
+        {
+          "x": 51,
+          "y": 21.5,
+          "width": 348,
+          "height": 493
+        },
+        {
+          "x": 25,
+          "y": 16.5,
+          "width": 399,
+          "height": 488
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 generated images: same pullover, burgundy cloth, contrasting ivory ML/front and floral M + exact MiloShopHand/back; continuous upright four-quarter turn.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-longline-hood",
+  "colorKey": "original",
+  "colorHex": "#343e38",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T07:17:43.303Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-0b13c171-8631-431c-b4fa-171cadf4dc99.png",
+      "prompt": "Use case: product-mockup. Create photographic360 atlas of ONE ML Longline Hood Hoodie. IMAGE1 exactgarmentidentity front/back: deepforest #343e38 cottonfleece PULLOVER LONG-LINE hoodie, extraLONG torso belowhip, thickcreamdrawcords, doublelayer hood sameforestcolor, large frontkangaroopocket, cream ribcuffs andhem, droppedshoulders, smallivoryML frontleftchest, ivoryfloralbackart ENTIRELY BELOWhood. Primarycolour #343e38; ALL design, garmenttype, fabrics/trim/panels/seams/pockets, silhouette/hem/sleevelength andrelaxedpose mustmatch IMAGE1. IMAGE2 ONLY sixcameraPOSES andlayout, NEVERcopy its navy bomber oradd zipper/utilitypocket/ribcollar to this garment. IMAGE3 samegarment precedingquarter, follow its cloth/scale/folds. LASTIMAGE ONLY shared floralM/hibiscus/leaves with EXACT MiloShopHand wordmark+floralunderline, ignoreburgundybackground. Upgrade upperBACK tothat floralart in contrasting ink as specified; same size/position allrearangles, never mirrored; hoodiebackart entirely BELOWhood. Front keeps small wovenML wearerLEFTchest, imageRIGHT offrontcenterline atstraightfront. ROWMAJOR0,15,30 /45,60,75degrees. FirstperfectFRONT, then frontcenterline gradually moves IMAGE RIGHT, nearestsleeveIMAGELEFT; last near LEFTPROFILE frontstillnarrowlyvisibleonRIGHTedge. No rearlogo visibleyet. Keep frontML alwayssamewearerLEFTchest imageRIGHT ofcenterline, notmirrored. Native1536x1024, ONE3columns x2rows EXACTLY SIXequal512squarecells, notwhole24sheet. Fullyuncroppedgarments with7%margin percell, identicalcenter/scale/hembaseline/relaxed hanging sleeves/lighting/uniformwarmivorypaperbackground. Realisticnaturalcloth texture/weave/microfolds, no plasticprocedural3D/person/mannequin/hanger/props. FixedLEVELcamera andabsolutelyuprightverticalY/Oy axis, ONLYyaw no pitch/roll/zoom/elevation/deformation. No gutters/gridlines/labels/numbers/captions/watermark.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1766346,
+      "sha256": "61e89dc1c98ed9f828d1ccc8017b01bb79efcecf58fb27a39b7b0e818476f300",
+      "frames": [
+        {
+          "x": 87,
+          "y": 18,
+          "width": 339,
+          "height": 472
+        },
+        {
+          "x": 94,
+          "y": 18,
+          "width": 324,
+          "height": 473
+        },
+        {
+          "x": 99,
+          "y": 18,
+          "width": 293,
+          "height": 473
+        },
+        {
+          "x": 126,
+          "y": 14,
+          "width": 260,
+          "height": 477
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 217,
+          "height": 478
+        },
+        {
+          "x": 152,
+          "y": 14,
+          "width": 184,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-17919236-ab07-4cb2-aa48-74ff1544914d.png",
+      "prompt": "Use case: precise-object-edit. EDIT IMAGE1 six-view NAVY BOMBER atlas by replacing each jacket with the LONG-LINE PULLOVER HOODIE in IMAGE2. Preserve EXACT six side-to-back CAMERA POSES/order/layout from IMAGE1; copy ONLYposes notnavygarment. All six must be SIDE/REAR, never FRONT. First true PROFILE frontedge IMAGERIGHT, then backpanel/logo emerges IMAGELEFT of nearestsleeve IMAGERIGHT, lastalmostfullBACK. Rowmajor90,105,120 /135,150,165degrees, NOT0..75 and NOTwhole360. Hoodieidentity IMAGE2: deepforest #343e38 cottonfleece, extraLONG straighttorso belowhip, creamRIBcuffs+hem andthickcreamdrawcords, roomyforesthood, frontkangaroopocket, droppedshoulders. NOzipper/lowbombercollar/utilitypocket. FrontML ONLYif tinyfrontedgevisible firstprofile. IMAGE3 ONLYbrand artwork: ivoryfloralM+EXACT MiloShopHand belowHOOD centeredupperback, sameprintsize/height everyrearangle, nevermirrored; artprogressivelywidensasbackturnstocamera. No frontkangaroopocket onBACK. Same clothquality/geometry/folds/hood/sleevepose/colours/proportions/center/hembaseline/light/ivorybackground asIMAGE2. Native1536x1024 exact3columns2rows SIXequal512squarecells, wholeuncropped10%margin, no grid/gutters/borders/numbers/captions/human/mannequin/hanger/plastic3D. AbsolutelyuprightY fixedlevelcamera yawonly. Crucial: NO straightFRONTs in anycell; allcameraposes exactly IMAGE1.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1780478,
+      "sha256": "b6bea19d030c096ce520870471f07b86a74c14a4ac6cd5ec16862ae2d7d1ea02",
+      "frames": [
+        {
+          "x": 152,
+          "y": 15,
+          "width": 169,
+          "height": 478
+        },
+        {
+          "x": 130,
+          "y": 14,
+          "width": 175,
+          "height": 479
+        },
+        {
+          "x": 108,
+          "y": 14,
+          "width": 203,
+          "height": 479
+        },
+        {
+          "x": 123,
+          "y": 13,
+          "width": 257,
+          "height": 481
+        },
+        {
+          "x": 70,
+          "y": 13,
+          "width": 304,
+          "height": 481
+        },
+        {
+          "x": 41,
+          "y": 13,
+          "width": 345,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-da55ddc0-d3fd-412a-9861-8013a5833491.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. EDIT IMAGE1 six-view NAVY BOMBER atlas by REPLACING each garment with ML Longline Hood Hoodie identity in IMAGE2. Preserve EXACT SIX CAMERA POSES/order/layout from IMAGE1, ignore all navybomberconstruction/color. The replacement garment is deepforest #343e38 cottonfleece PULLOVER LONG-LINE hoodie, extraLONG torso belowhip, thickcreamdrawcords, doublelayer hood sameforestcolor, large frontkangaroopocket, cream ribcuffs andhem, droppedshoulders, smallivoryML frontleftchest, ivoryfloralbackart ENTIRELY BELOWhood. No zipper or lowbombercollar/armutilitypocket is added to a pullover. ROWMAJOR180,195,210 /225,240,255degrees. FirstperfectsymmetricBACK, then BACKpanel/print moves IMAGERIGHT asnearestsleeveIMAGELEFT; lastalmostoppositeRIGHTPROFILE withnarrowbackedge+art IMAGERIGHT. No frontML/frontpockets visible inrearquarter. Samebackprint size/height/colour, naturallyforeshortened. Same original cloth texture/weave/folds/pose/colour/trim/panels/construction/proportions/scale/center/hembaseline/light/ivorybackground asIMAGE2. Front smallcontrastingML ONLYwearerLEFTchest, IMAGERIGHT ofcenterline atfront. Backart ONLYwherebackactuallyvisible: floralM/hibiscus/leaves + exact MiloShopHand wordmark andfloralunderline from LASTIMAGE (ignoreburgundybg), contrastingink consistent with garmentdescription, same size/height entirely BELOWHOOD. NEVER backart onfront. Native1536x1024 exact3columns2rows SIXequal512squarecells, entiregarments uncropped with8%margin, no grid/gutters/borders/numbers/captions/person/mannequin/hanger/plastic3D. Absolutely uprightY/Oy andlockedLEVELcamera, ONLYyaw. IMAGE1 camera poses MUST be matched in ALL sixcells; no extra FRONTviews in rearquarter, noBACKviews in frontquarter.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1863717,
+      "sha256": "99d671d917abceae8319aa9da47765114228393ce697fa82ae8ab05ce66a6b83",
+      "frames": [
+        {
+          "x": 57,
+          "y": 14,
+          "width": 396,
+          "height": 474
+        },
+        {
+          "x": 60,
+          "y": 15,
+          "width": 379,
+          "height": 473
+        },
+        {
+          "x": 79,
+          "y": 15,
+          "width": 335,
+          "height": 474
+        },
+        {
+          "x": 118,
+          "y": 13,
+          "width": 279,
+          "height": 483
+        },
+        {
+          "x": 129,
+          "y": 14,
+          "width": 233,
+          "height": 482
+        },
+        {
+          "x": 150,
+          "y": 14,
+          "width": 188,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8c06dd8f-16c2-4b20-a565-815f5d023aa3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. EDIT IMAGE1 six-view NAVY BOMBER atlas by REPLACING each garment with ML Longline Hood Hoodie identity in IMAGE2. Preserve EXACT SIX CAMERA POSES/order/layout from IMAGE1, ignore all navybomberconstruction/color. The replacement garment is deepforest #343e38 cottonfleece PULLOVER LONG-LINE hoodie, extraLONG torso belowhip, thickcreamdrawcords, doublelayer hood sameforestcolor, large frontkangaroopocket, cream ribcuffs andhem, droppedshoulders, smallivoryML frontleftchest, ivoryfloralbackart ENTIRELY BELOWhood. No zipper or lowbombercollar/armutilitypocket is added to a pullover. ROWMAJOR270,285,300 /315,330,345degrees. FirsttrueRIGHTPROFILE with FRONTedge IMAGELEFT andBACKedge IMAGERIGHT, nearestsleeveIMAGERIGHT. Frontpanel/centerline emerges IMAGELEFT ofnearestsleeve, centerline approachescenterFROM LEFT, endingalmostsymmetricFRONT. ALL six SIDEorFRONT, no fullBACK views. Backart disappearsaroundRIGHTedge; frontML emerges onwearerLEFTchest, clearly IMAGERIGHT ofcenterline infinalalmostfrontcell, neverjumpstootherchest. Same original cloth texture/weave/folds/pose/colour/trim/panels/construction/proportions/scale/center/hembaseline/light/ivorybackground asIMAGE2. Front smallcontrastingML ONLYwearerLEFTchest, IMAGERIGHT ofcenterline atfront. Backart ONLYwherebackactuallyvisible: floralM/hibiscus/leaves + exact MiloShopHand wordmark andfloralunderline from LASTIMAGE (ignoreburgundybg), contrastingink consistent with garmentdescription, same size/height entirely BELOWHOOD. NEVER backart onfront. Native1536x1024 exact3columns2rows SIXequal512squarecells, entiregarments uncropped with8%margin, no grid/gutters/borders/numbers/captions/person/mannequin/hanger/plastic3D. Absolutely uprightY/Oy andlockedLEVELcamera, ONLYyaw. IMAGE1 camera poses MUST be matched in ALL sixcells; no extra FRONTviews in rearquarter, noBACKviews in frontquarter. ALL6 SIDEorFRONT, NOREARLOGO anywhere, no BACKviews, matchIMAGE1profile-to-FRONTonly.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1715938,
+      "sha256": "85d3966b11f65d9757c352b7cd89b0d9fb78eae72a1ff4603c579d2dedaca409",
+      "frames": [
+        {
+          "x": 165,
+          "y": 17,
+          "width": 162,
+          "height": 473
+        },
+        {
+          "x": 133,
+          "y": 16,
+          "width": 192,
+          "height": 475
+        },
+        {
+          "x": 105,
+          "y": 19,
+          "width": 235,
+          "height": 473
+        },
+        {
+          "x": 95,
+          "y": 14,
+          "width": 277,
+          "height": 477
+        },
+        {
+          "x": 64,
+          "y": 12,
+          "width": 326,
+          "height": 479
+        },
+        {
+          "x": 37,
+          "y": 8,
+          "width": 370,
+          "height": 483
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 native photographs: whole garments, same original construction/fabric/colour/trim/pockets, chest ML wearerLEFT and readable contrasting floralM+exactMiloShopHand upperback, fixed uprightY/yaw sequence. Rejected pose candidates kept separately; slight AI drape variation remains.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

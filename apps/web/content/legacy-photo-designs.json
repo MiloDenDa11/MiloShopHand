@@ -1,0 +1,211 @@
+[
+  {
+    "slug": "cloud-cream-bomber",
+    "name": "Cloud Cream Bomber",
+    "kind": "bomber",
+    "colorHex": "#e8dfcd",
+    "image": "/collection-ai/legacy-cloud-cream-bomber.png"
+  },
+  {
+    "slug": "olive-field-bomber",
+    "name": "Olive Field Bomber",
+    "kind": "bomber",
+    "colorHex": "#242426",
+    "image": "/collection-ai/legacy-olive-field-bomber.png"
+  },
+  {
+    "slug": "retro-sport-bomber",
+    "name": "Retro Sport Bomber",
+    "kind": "bomber",
+    "colorHex": "#34465b",
+    "image": "/collection-ai/legacy-retro-sport-bomber.png"
+  },
+  {
+    "slug": "studio-nylon-bomber",
+    "name": "Studio Nylon Bomber",
+    "kind": "bomber",
+    "colorHex": "#a3a5aa",
+    "image": "/collection-ai/legacy-studio-nylon-bomber.png"
+  },
+  {
+    "slug": "midnight-flight-bomber",
+    "name": "Midnight Flight Bomber",
+    "kind": "bomber",
+    "colorHex": "#78846a",
+    "image": "/collection-ai/legacy-midnight-flight-bomber.png"
+  },
+  {
+    "slug": "varsity-club-bomber",
+    "name": "Varsity Club Bomber",
+    "kind": "bomber",
+    "colorHex": "#b6a4d4",
+    "image": "/collection-ai/legacy-varsity-club-bomber.png"
+  },
+  {
+    "slug": "after-hours-hoodie",
+    "name": "After Hours Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#78846a",
+    "image": "/collection-ai/legacy-after-hours-hoodie.png"
+  },
+  {
+    "slug": "airy-cotton-tee",
+    "name": "Airy Cotton Tee",
+    "kind": "tee",
+    "colorHex": "#34465b",
+    "image": "/collection-ai/legacy-airy-cotton-tee.png"
+  },
+  {
+    "slug": "campus-club-hoodie",
+    "name": "Campus Club Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#a3a5aa",
+    "image": "/collection-ai/legacy-campus-club-hoodie.png"
+  },
+  {
+    "slug": "chill-out-hoodie",
+    "name": "Chill Out Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#242426",
+    "image": "/collection-ai/legacy-chill-out-hoodie.png"
+  },
+  {
+    "slug": "city-runner-jacket",
+    "name": "City Runner Jacket",
+    "kind": "jacket",
+    "colorHex": "#b6a4d4",
+    "image": "/collection-ai/legacy-city-runner-jacket.png"
+  },
+  {
+    "slug": "daily-utility-jacket",
+    "name": "Daily Utility Jacket",
+    "kind": "jacket",
+    "colorHex": "#a3a5aa",
+    "image": "/collection-ai/legacy-daily-utility-jacket.png"
+  },
+  {
+    "slug": "daylight-pocket-tee",
+    "name": "Daylight Pocket Tee",
+    "kind": "tee",
+    "colorHex": "#b6a4d4",
+    "image": "/collection-ai/legacy-daylight-pocket-tee.png"
+  },
+  {
+    "slug": "everyday-essential-tee",
+    "name": "Everyday Essential Tee",
+    "kind": "tee",
+    "colorHex": "#242426",
+    "image": "/collection-ai/legacy-everyday-essential-tee.png"
+  },
+  {
+    "slug": "explorer-zip-jacket",
+    "name": "Explorer Zip Jacket",
+    "kind": "jacket",
+    "colorHex": "#e8dfcd",
+    "image": "/collection-ai/legacy-explorer-zip-jacket.png"
+  },
+  {
+    "slug": "heavyweight-zip-hoodie",
+    "name": "Heavyweight Zip Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#34465b",
+    "image": "/collection-ai/legacy-heavyweight-zip-hoodie.png"
+  },
+  {
+    "slug": "light-shell-jacket",
+    "name": "Light Shell Jacket",
+    "kind": "jacket",
+    "colorHex": "#242426",
+    "image": "/collection-ai/legacy-light-shell-jacket.png"
+  },
+  {
+    "slug": "milo-signature-tee",
+    "name": "Milo Signature Tee",
+    "kind": "tee",
+    "colorHex": "#e8dfcd",
+    "image": "/collection-ai/legacy-milo-signature-tee.png"
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "name": "Mono Boxy Tee",
+    "kind": "tee",
+    "colorHex": "#242426",
+    "image": "/collection-ai/legacy-mono-boxy-tee.png"
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "name": "No Rules Graphic Tee",
+    "kind": "tee",
+    "colorHex": "#a3a5aa",
+    "image": "/collection-ai/legacy-no-rules-graphic-tee.png"
+  },
+  {
+    "slug": "outline-logo-hoodie",
+    "name": "Outline Logo Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#e8dfcd",
+    "image": "/collection-ai/legacy-outline-logo-hoodie.png"
+  },
+  {
+    "slug": "purple-haze-hoodie",
+    "name": "Purple Haze Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#78846a",
+    "image": "/collection-ai/legacy-purple-haze-hoodie.png"
+  },
+  {
+    "slug": "rain-ready-jacket",
+    "name": "Rain Ready Jacket",
+    "kind": "jacket",
+    "colorHex": "#a3a5aa",
+    "image": "/collection-ai/legacy-rain-ready-jacket.png"
+  },
+  {
+    "slug": "soft-cloud-hoodie",
+    "name": "Soft Cloud Hoodie",
+    "kind": "hoodie",
+    "colorHex": "#b6a4d4",
+    "image": "/collection-ai/legacy-soft-cloud-hoodie.png"
+  },
+  {
+    "slug": "sport-division-tee",
+    "name": "Sport Division Tee",
+    "kind": "tee",
+    "colorHex": "#e8dfcd",
+    "image": "/collection-ai/legacy-sport-division-tee.png"
+  },
+  {
+    "slug": "sunday-club-tee",
+    "name": "Sunday Club Tee",
+    "kind": "tee",
+    "colorHex": "#78846a",
+    "image": "/collection-ai/legacy-sunday-club-tee.png"
+  },
+  {
+    "slug": "urban-motion-tee",
+    "name": "Urban Motion Tee",
+    "kind": "tee",
+    "colorHex": "#b6a4d4",
+    "image": "/collection-ai/legacy-urban-motion-tee.png"
+  },
+  {
+    "slug": "weekend-coach-jacket",
+    "name": "Weekend Coach Jacket",
+    "kind": "jacket",
+    "colorHex": "#34465b",
+    "image": "/collection-ai/legacy-weekend-coach-jacket.png"
+  },
+  {
+    "slug": "wind-breaker-jacket",
+    "name": "Wind Breaker Jacket",
+    "kind": "jacket",
+    "colorHex": "#78846a",
+    "image": "/collection-ai/legacy-wind-breaker-jacket.png"
+  },
+  {
+    "slug": "downtown-bomber",
+    "name": "Downtown Bomber",
+    "kind": "bomber",
+    "colorHex": "#34465b"
+  }
+]

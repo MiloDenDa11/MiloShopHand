@@ -1,0 +1,20 @@
+{
+  "mode": "built-in image_gen",
+  "sourceReference": "Latest user attachment: floral M + MiloShopHand wordmark on cream",
+  "assetPath": "apps/web/public/brand/floral-miloshophand-white-v2.png",
+  "initialPrompt": "Use case: background-extraction / logo-brand. Edit target: the user's latest attached logo image. Extract and faithfully preserve that EXACT floral MiloShopHand logo: the large elegant serif M intertwined with botanical stems and the hibiscus-style flower above, the graceful wordmark spelled exactly \"MiloShopHand\" underneath, and its fine floral underline ornament. Preserve the letter shapes, capitalization, all flower/leaf line detail, spacing and overall proportions. Convert all the dark olive ink strokes and filled letterforms into clean opaque WHITE ink (#FFFFFF) and remove the entire cream paper background to a genuinely transparent alpha background. This is a monochrome white-ink decal texture to tint in a 3D renderer, NOT a new logo redesign. Do not add a garment, shadows, gradients, borders, extra lettering, or any background. In particular do not paint a checkerboard pattern into the image. Make the white artwork crisp and high resolution, with sufficient stroke thickness for printing, no clipping, and modest transparent margins around the complete logo.",
+  "targetedRetryPrompt": "Use case: background-extraction.\nEdit target: the referenced PNG of the white floral MiloShopHand logo.\nFix ONE defect: eliminate all the unwanted white glow, fog, halo and milky haze surrounding and filling the logo. Produce a clean print decal.\nPreserve the exact existing large elegant M, botanical flower/leaf strokes, the exact wordmark \"MiloShopHand\", and floral underline; preserve their proportions and spacing.\nEach letterform and drawn flower/leaf outline must be crisp SOLID flat opaque white ink. Interior negative spaces between flower line strokes, spaces around the letters and flowers, and the entire backdrop must be genuinely 100% transparent. Fine antialiasing at actual ink edges is permitted. The white ink must have zero blur and zero bloom.\nNo glow, gradients, shadows, fog, lighting, colored pixels, paper texture, checkerboard or rectangle. The wordmark must be legible, spelled exactly MiloShopHand. The resulting PNG is a 3D garment decal master texture, not a photographic scene.\nKeep the complete logo fully inside a landscape 1536x1024 canvas with modest clear margins.",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "channels": 4
+  },
+  "verification": {
+    "hasAlpha": true,
+    "fullyTransparentPixels": 1125121,
+    "alphaGreaterThan200Pixels": 162644,
+    "text": "MiloShopHand",
+    "visualCheck": "Browser composited onto dark burgundy confirms crisp ink and clear transparent background",
+    "qaScreenshot": ".local/floral-logo-alpha-qa.png"
+  }
+}

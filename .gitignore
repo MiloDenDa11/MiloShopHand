@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*.local
+.next/
+.next-redesign/
+.next-redesign-production/
+.next-benchmark/
+dist/
+coverage/
+test-results/
+playwright-report/
+.local/
+uploads/
+*.log
+*.tsbuildinfo

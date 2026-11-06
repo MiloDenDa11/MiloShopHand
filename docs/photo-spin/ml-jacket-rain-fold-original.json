@@ -1,0 +1,223 @@
+{
+  "product": "ml-jacket-rain-fold",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-rain-fold.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-rain-fold/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-1f5609a4-d038-4a10-b852-4af97c4b5402.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup. Ref1 EXACT originalidentity ML RainFoldJacket: olivegreen waterrepellent rainnylon, OPENUPRIGHTHOOD withbeigeinnerliningand2beigeloopdrawcordtoggles, beigecenterzip, raglanbeigepiping,2largeLOWfrontflappocketsbeigesnaps, longcurveddrophembeigebinding, beigeelasticcuffs. Ref2ONLYsix0..75POSEGUIDE differentjacket donotcopydenim/pointedcollar. CreateexactRainFoldin6photorealangles0,15,30 /45,60,75;3columns x2rows. FirstsymmetricFRONT; centerzipmovesIMAGERIGHT asfrontturnsaway, blanknearestsleeveIMAGELEFT,lastnearLEFTPROFILEfrontstillvisible. LittleBRIGHTIVORYinterwovenMLleftchest, NO backprintvisible. Sameoriginalrainnylonfolds/seams/neutralrelaxedsleeves/hoodshape/colour/scale/groundall6; preservehoodnaturalemptyfabricnohead/plasticform. Floatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholelonggarmentincludinghoodwithmargin,no gutters/borders/numbers/labels. Onlyfrontquarterturnno full360in6.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 79,
+          "y": 14,
+          "width": 392,
+          "height": 452
+        },
+        {
+          "x": 72,
+          "y": 14,
+          "width": 366,
+          "height": 452
+        },
+        {
+          "x": 79,
+          "y": 14,
+          "width": 313,
+          "height": 452
+        },
+        {
+          "x": 130,
+          "y": 10,
+          "width": 286,
+          "height": 477
+        },
+        {
+          "x": 135,
+          "y": 9,
+          "width": 244,
+          "height": 478
+        },
+        {
+          "x": 126,
+          "y": 9,
+          "width": 208,
+          "height": 479
+        }
+      ],
+      "sha256": "94665d8dec26ac26ed4948e20a048678e42a1158fba4f0861e7817c467897d55",
+      "bytes": 2005735
+    },
+    {
+      "url": "/collection-spin/ml-jacket-rain-fold/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-83ceaa65-66fe-45ce-8cec-a7fdc45d6501.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup. Reference1exactRainFoldoriginalgarment. Reference2ONLY sixPOSES90,105,120 /135,150,165 fromdifferentdenimjacket; copyitsPOSEDIRECTION exactly, DO NOTcopydenimdesign. Reference3floralM+MiloShopHandbrandonly. MakeRainFoldjacket in3columns x2rows6equalphotorealviews. FirstLEFTPROFILE frontzipedgeIMAGERIGHT, thenbackpanelwithlogoonIMAGE LEFT, nearestblank sleeveonIMAGERIGHT; lastalmostBACK. Allobliquebacklogos MUST lieLEFT ofnearestsleeve, notRIGHT. Exactolivegreen rainnylon longjacket naturalemptyhoodbeigeinnerlining/2beigedrawcordloops(becomeshiddenatrear), beigezip/raglanpiping/cuffbinding/curveddrophembinding. TwoLOWfrontflappocketsONLYfront, hiddenatrear. BRIGHTIVORYfloralM+exactMiloShopHand upperBACK BELOWhood sameplacement/sizeallviews,naturallyforeshortened,neverfrontlogo. FrontlittleMLONLYfrontchesthiddenatrear. Samecloth/folds/seams/neutralrelaxedsleeves/hoodshape/colour/scale/groundall6. Photorealnohuman/head/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio entirehood+longgarmentmargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtonearlyBACK, followref2direction.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 185,
+          "y": 11,
+          "width": 157,
+          "height": 470
+        },
+        {
+          "x": 160,
+          "y": 12,
+          "width": 193,
+          "height": 473
+        },
+        {
+          "x": 130,
+          "y": 12,
+          "width": 237,
+          "height": 474
+        },
+        {
+          "x": 130,
+          "y": 10,
+          "width": 291,
+          "height": 481
+        },
+        {
+          "x": 91,
+          "y": 10,
+          "width": 332,
+          "height": 482
+        },
+        {
+          "x": 50,
+          "y": 10,
+          "width": 375,
+          "height": 482
+        }
+      ],
+      "sha256": "d417abafd1a7beb32a811676e6a7f6d7be476f57f3105f0a947e198d730484b8",
+      "bytes": 1861397
+    },
+    {
+      "url": "/collection-spin/ml-jacket-rain-fold/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-831585ca-9840-43fe-bfcd-3c354afa2324.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Ref1previousrearleft90..165atlas actualRainFoldidentity;ref2originalRainFoldphoto;ref3ONLYdesiredPOSES180..255 differentdenimjacketdonotcopyitsfabric/shape. CreateNEXT6angles180,195,210 /225,240,255 in3columns x2rows matchref3POSEDIRECTION. FirstperfectsymmetricBACK;thenblanknearestsleeveIMAGELEFT andbackpanel/LOGOIMAGERIGHTofthatsleeve,lastnearoppositeRIGHTPROFILEbacklogoRIGHTedge. Exactolivegreen rainnylonRainFoldlongjacket naturalemptyhoodbeigeinnerlining, beigecuffs/raglanpiping/curveddrophembinding; frontzip/pockets/drawcordloops hiddenatrear. BRIGHTIVORYfloralM+exactMiloShopHand upperbackBELOWhood sameplacement/size allviews,naturallyforeshortened,notmirrored; hoodnotcoverprint. Samecloth/folds/seams/neutralrelaxedsleeves/hoodshape/colour/scale/groundeveryview. Photorealnohuman/head/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio hood+longgarmentfullyvisiblemargin,no gutters/borders/numbers/labels. OnlyBACKtowardOPPOSITERIGHTPROFILE, nearestblank sleeveLEFTinALL5obliques.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 85,
+          "y": 10,
+          "width": 364,
+          "height": 482
+        },
+        {
+          "x": 82,
+          "y": 10,
+          "width": 325,
+          "height": 483
+        },
+        {
+          "x": 100,
+          "y": 9,
+          "width": 276,
+          "height": 484
+        },
+        {
+          "x": 142,
+          "y": 7,
+          "width": 232,
+          "height": 490
+        },
+        {
+          "x": 151,
+          "y": 7,
+          "width": 203,
+          "height": 491
+        },
+        {
+          "x": 170,
+          "y": 7,
+          "width": 176,
+          "height": 489
+        }
+      ],
+      "sha256": "7190cff0386d0c95b3135c30609e0aa2025adb9e455aae49576fe27f6b7b488f",
+      "bytes": 1831225
+    },
+    {
+      "url": "/collection-spin/ml-jacket-rain-fold/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-c89462d4-a61c-4fd7-b4ab-c5095a3ba7f4.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 finalquarter. Ref1actualRainFoldfirst0..75atlasidentity,ref2originalphoto,ref3ONLYdesiredPOSES270..345 differentdenimjacketdonotcopydenim. CreateOPPOSITEFRONTSIDE6angles270,285,300 /315,330,345 in3columns x2rows matchref3POSEDIRECTION. FirsttrueRIGHTPROFILEfrontzipedgeIMAGELEFT; frontpanelIMAGELEFTofbroadnearestsleeveIMAGERIGHT; centerzipLEFT OFGARMENTCENTERinallobliquesreturncenternearfront. Exactolivegreen rainnylonRainFoldlongjacket naturalemptyhoodbeigeinnerlining+2beigeloopdrawcords, beigezip/raglanpiping/elasticcuffs/curveddrophembinding,2largeLOWfrontflappocketsbeigesnaps, smallbrightivoryMLleftchestlegible notmirrored. No backprint. Sameoriginalrainnylonfolds/seams/neutralrelaxedsleeves/hoodshape/colour/scale/groundall6. Emptyfloatinggarment nohuman/head/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholehood+longgarmentmargin,no gutters/borders/numbers/labels. OnlyRIGHTPROFILEthroughalmostFRONT,sixdistinctsmallsteps, zipLEFTnotRIGHT.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 171,
+          "y": 12,
+          "width": 166,
+          "height": 469
+        },
+        {
+          "x": 138,
+          "y": 11,
+          "width": 205,
+          "height": 470
+        },
+        {
+          "x": 90,
+          "y": 12,
+          "width": 246,
+          "height": 469
+        },
+        {
+          "x": 116,
+          "y": 6,
+          "width": 289,
+          "height": 468
+        },
+        {
+          "x": 83,
+          "y": 6,
+          "width": 318,
+          "height": 468
+        },
+        {
+          "x": 45,
+          "y": 6,
+          "width": 361,
+          "height": 468
+        }
+      ],
+      "sha256": "5c20ae16de46a69985ab2f564da7af64abbf30cd49a761e2e3ea34103416e9f4",
+      "bytes": 1871098
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T12:32:05.202Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

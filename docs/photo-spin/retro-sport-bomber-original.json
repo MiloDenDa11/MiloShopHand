@@ -1,0 +1,222 @@
+{
+  "slug": "retro-sport-bomber",
+  "colorKey": "original",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:19:55.899Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/retro-sport-bomber/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-b6230312-faf9-4376-8392-6cff0ff9ce24.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Retro Sport Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print. Primary color #34465b. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY six CAMERA POSES and layout, NOT its navy garment/color. Make rowmajor0,15,30 /45,60,75degrees, first symmetric FRONT. As yaw increases front zip/center moves IMAGE RIGHT, nearest sleeve IMAGE LEFT, last near LEFTPROFILE with narrow front visible RIGHT. No rearprint visible in this quarter. Keep FRONT ML to RIGHT of centerzip in every visiblefront, same wearer'sLEFT chest. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1855536,
+      "sha256": "3c21dcadc585dc1a53bb4c7953d533768754a2bb8499ce558776cd536a0fe472",
+      "frames": [
+        {
+          "x": 35,
+          "y": 34,
+          "width": 441,
+          "height": 433
+        },
+        {
+          "x": 39,
+          "y": 30,
+          "width": 422,
+          "height": 443
+        },
+        {
+          "x": 56,
+          "y": 29,
+          "width": 386,
+          "height": 434
+        },
+        {
+          "x": 76,
+          "y": 24,
+          "width": 337,
+          "height": 444
+        },
+        {
+          "x": 107,
+          "y": 25,
+          "width": 280,
+          "height": 445
+        },
+        {
+          "x": 141,
+          "y": 26,
+          "width": 224,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/retro-sport-bomber/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-63680e0d-5d7c-47ec-a970-a47cba35abed.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Retro Sport Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print. Primary color #34465b. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 is preceding0..75 photographic atlas of this SAME garment. IMAGE3 supplies ONLY side-to-back poses. Continue rowmajor90,105,120 /135,150,165degrees. First LEFTPROFILE frontzipedge IMAGE RIGHT, backpanel/logo emerge IMAGE LEFT of nearer sleeve, nearer sleeve IMAGE RIGHT as back rotates towardcamera. Last almostfullBACK. No frontzip/pockets on back; same backlogo gradually revealed with natural foreshortening. For true side logo may be a narrow sliver, not fullface. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1748428,
+      "sha256": "04f051a5504a9f3627593c15c4752420b4a13854f672efb90cdce3aaed33b0c1",
+      "frames": [
+        {
+          "x": 151,
+          "y": 25,
+          "width": 197,
+          "height": 443
+        },
+        {
+          "x": 129,
+          "y": 25,
+          "width": 216,
+          "height": 455
+        },
+        {
+          "x": 110,
+          "y": 25,
+          "width": 242,
+          "height": 443
+        },
+        {
+          "x": 106,
+          "y": 24,
+          "width": 306,
+          "height": 456
+        },
+        {
+          "x": 75,
+          "y": 24,
+          "width": 353,
+          "height": 456
+        },
+        {
+          "x": 45,
+          "y": 51,
+          "width": 402,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/retro-sport-bomber/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-121cb9d5-d7e7-4fab-8d8f-480235f6c71c.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Retro Sport Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print. Primary color #34465b. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 is preceding90..165 atlas of samegarment. IMAGE3 supplies ONLY back-to-oppositeside poses. Continue180,195,210 /225,240,255degrees. First perfectly symmetric BACK, then backpanel+logo move IMAGE RIGHT with nearest sleeve IMAGE LEFT; last near opposite RIGHTPROFILE with narrow back on RIGHTedge. Frontzip/pockets/chestML hidden thisquarter. Backlogo remains correctorientation, no pockets on back. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1801761,
+      "sha256": "63717cabaa24700b72018482142a9fa5d932f5a6e963188ac693efadb19a8240",
+      "frames": [
+        {
+          "x": 37,
+          "y": 53,
+          "width": 440,
+          "height": 410
+        },
+        {
+          "x": 49,
+          "y": 28,
+          "width": 406,
+          "height": 436
+        },
+        {
+          "x": 73,
+          "y": 28,
+          "width": 359,
+          "height": 441
+        },
+        {
+          "x": 111,
+          "y": 24,
+          "width": 286,
+          "height": 450
+        },
+        {
+          "x": 134,
+          "y": 24,
+          "width": 243,
+          "height": 453
+        },
+        {
+          "x": 149,
+          "y": 22,
+          "width": 216,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/retro-sport-bomber/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-89e8dd13-cc92-4068-97a4-ff0f751e67a7.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Retro Sport Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print. Primary color #34465b. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY opposite-side-to-front poses and correct chestlogo side; do NOTcopy its navy color. IMAGE3 is this garment firstquarter. Continue270,285,300 /315,330,345degrees. First RIGHTPROFILE with frontzipedge IMAGE LEFT and back IMAGE RIGHT, nearer sleeve IMAGE RIGHT. Front emerges IMAGE LEFT of nearest sleeve and zip approachescenter fromLEFT, ending almost FRONT. SamewearerLEFTchestML is to RIGHT of zipper/centerline at all visiblefronts, clearly IMAGE RIGHT of zip in finalcell; NEVER placeML IMAGELEFT of zip. Backart disappears around RIGHTedge, never placedonfront. Oppositepose direction from0..75, not duplicateframes. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1792570,
+      "sha256": "310f97ca9931d789cc3fd95a12f52c5f90adcdaa3ba891707634c3d3fd4e508b",
+      "frames": [
+        {
+          "x": 156,
+          "y": 18,
+          "width": 187,
+          "height": 460
+        },
+        {
+          "x": 144,
+          "y": 19,
+          "width": 212,
+          "height": 459
+        },
+        {
+          "x": 115,
+          "y": 19,
+          "width": 265,
+          "height": 476
+        },
+        {
+          "x": 84,
+          "y": 18,
+          "width": 331,
+          "height": 477
+        },
+        {
+          "x": 59,
+          "y": 18,
+          "width": 377,
+          "height": 472
+        },
+        {
+          "x": 31,
+          "y": 18,
+          "width": 430,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 native photographic views: consistent colour/construction, front ML wearerLEFT, exact MiloShopHand floral back logo with contrast, upright Y yaw sequence, whole uncropped garments. Natural AI cloth-drape differences remain. Midnight side-quarter was regenerated to correct yaw direction.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

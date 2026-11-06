@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-waffle-layer",
+  "color": "original sandbeige/olive waffleknit",
+  "colorHex": "#d6c7a6",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-waffle-layer.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-1bd404cf-d768-4d69-b0a2-55fd79c59bfc.png",
+    "prompt": "Use case: product-mockup. Full24view photographicturntableGUIDE ofEXACTgarmentref1:warm sandbeige #d6c7a6 WAFFLE-textured cotton PULLOVER hoodie with visible fine square-waffle knit across wholebody/hood/sleeves, darkolive #5b624e hoodbinding/drawstrings/ribcuffs, straight beige hem without ribband, NO pocket, NO zipper, droppedshoulders longhangingarms, smalloliveMLleftchest, foldedemptyhood. Preservewaffletexture/cut/colour/pose. Ref2ONLYfloralM+exact\"MiloShopHand\" backbrandindark olive #263322, ignoreburgundybg. EXACT6columns4rows equalcells no gutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseuprightverticalY fixedlevelcamera no pitchroll. Sameclothfolds/scalegroundall24 uniformivorybgsoftstudio light. Noduplicatedangles/directionreversal/mirroredlogos ormisspelledtext. Realsoftwafflecloth no3Dplasticmesh no human/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-7caf7a43-04e9-4344-8af4-091b07dce293.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-waffle-layer/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guideextract/redrawONLYROW1frames0..5intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile. Distinctsmallclockwisesteps. Ref2originalphotodetail:warm sandbeige #d6c7a6 WAFFLE-textured cotton PULLOVER hoodie with visible fine square-waffle knit across wholebody/hood/sleeves, darkolive #5b624e hoodbinding/drawstrings/ribcuffs, straight beige hem without ribband, NO pocket, NO zipper, droppedshoulders longhangingarms, smalloliveMLleftchest, foldedemptyhood. Preserve fineWAFFLE squareknit texture allbody/sleeves/hood, NO pockets orzipper, straightno-ribhem. Samecolour/cut/folds/scaleground, olivefrontMLnotmirrored/naturallyforeshortened, NO backbrandingyet. UprightverticalY fixedlevelcamera no pitchroll, native1536x1280orlarger6:5ratio >=450pxcellwidth,3x2equalgrid no gutters/lines/labels,5%garmentmargin. Uniformivorybgsoftstudio light no person/mannequin/hanger, realsoftwafflecloth not3Dplasticmesh.",
+      "sha256": "fed1dcaf67dfdfa01cff940e1531bedc26d6b771c29f7c0c985237e7a7211ae9",
+      "bytes": 2040592,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 71,
+          "y": 24,
+          "width": 374,
+          "height": 449
+        },
+        {
+          "x": 74,
+          "y": 24,
+          "width": 349,
+          "height": 449
+        },
+        {
+          "x": 84,
+          "y": 19,
+          "width": 299,
+          "height": 460
+        },
+        {
+          "x": 131,
+          "y": 12,
+          "width": 265,
+          "height": 479
+        },
+        {
+          "x": 150,
+          "y": 8,
+          "width": 193,
+          "height": 484
+        },
+        {
+          "x": 146,
+          "y": 7,
+          "width": 189,
+          "height": 487
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-04e0f486-57ef-487f-8a73-84bd68c8aa2d.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-waffle-layer/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW2frames6..11intoEXACT3columns2rows:90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. Eachsmallclockwiseangle distinct, doNOTreachfullyback180yet. Ref2original:warm sandbeige #d6c7a6 WAFFLE-textured cotton PULLOVER hoodie with visible fine square-waffle knit across wholebody/hood/sleeves, darkolive #5b624e hoodbinding/drawstrings/ribcuffs, straight beige hem without ribband, NO pocket, NO zipper, droppedshoulders longhangingarms, smalloliveMLleftchest, foldedemptyhood. Ref3previousfrontquadrantcontinue75→90preservingcloth/colour/cut/scaleground. Ref4 ONLYfloralM+exact\"MiloShopHand\" backbrandindark olive #263322,ignoreburgundybg. Unlikeguideaccidentallymissingbrandat105/120, backbrandmustgraduallyEMERGEafter90 withproperocclusion/perspective, sameupperbacksize/layoutallframes; nevermirror/misspell. FineWAFFLEsquareknitwholegarment, NOpockets/zipper/no-ribstraighthem. UprightverticalY fixedlevelcamera no pitchroll paleivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "d1db5f1448e1fb6c4b0c0b3526fd249a47e9c6d804118f6a878e00a3c6172fb4",
+      "bytes": 2104504,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 180,
+          "y": 14,
+          "width": 170,
+          "height": 482
+        },
+        {
+          "x": 165,
+          "y": 13,
+          "width": 188,
+          "height": 481
+        },
+        {
+          "x": 139,
+          "y": 14,
+          "width": 216,
+          "height": 478
+        },
+        {
+          "x": 123,
+          "y": 11,
+          "width": 267,
+          "height": 477
+        },
+        {
+          "x": 95,
+          "y": 10,
+          "width": 308,
+          "height": 478
+        },
+        {
+          "x": 74,
+          "y": 9,
+          "width": 353,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-09ffad5d-5c1b-4c3c-8103-eb6b89f9ff68.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-waffle-layer/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW3frames12..17intoEXACT3columns2rows:180EXACTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. SmallclockwiseY increments distinctviews no repeat/reverse. Ref2precedingphotodetail:warm sandbeige #d6c7a6 WAFFLE-textured cotton PULLOVER hoodie with visible fine square-waffle knit across wholebody/hood/sleeves, darkolive #5b624e hoodbinding/drawstrings/ribcuffs, straight beige hem without ribband, NO pocket, NO zipper, droppedshoulders longhangingarms, smalloliveMLleftchest, foldedemptyhood. Ref3ONLYfloralM+exact\"MiloShopHand\" backbrandindark olive #263322, ignoreburgundybg. Matchref2 exactlogosize/layout/placement/typeface; naturallyforeshorteningnevermirrored. FineWAFFLEsquareknitallbody/hood/sleeves, no pocket/zipper/ribhem, samecolours/cut/folds/scalegroundallcells. UprightverticalYfixedlevelcamera no pitchroll, uniformivorybgsoftstudio light. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin. No person/mannequin/hanger or3Dplasticmeshlook, realsoftknitcloth.",
+      "sha256": "4d2edcea64a6c2a06d710cbf65aaf7afaac88480be082bff4901b7c2e0035964",
+      "bytes": 2142982,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 64,
+          "y": 15,
+          "width": 379,
+          "height": 458
+        },
+        {
+          "x": 89,
+          "y": 15,
+          "width": 343,
+          "height": 457
+        },
+        {
+          "x": 120,
+          "y": 15,
+          "width": 276,
+          "height": 458
+        },
+        {
+          "x": 159,
+          "y": 14,
+          "width": 214,
+          "height": 464
+        },
+        {
+          "x": 149,
+          "y": 14,
+          "width": 202,
+          "height": 466
+        },
+        {
+          "x": 142,
+          "y": 15,
+          "width": 198,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-e89c97cf-8314-415c-9103-d77e1b6814fa.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-waffle-layer/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photo360atlas. Ref1 ONLYauthoritativeSIXPOSES, copyorientationEXACT firsthoodbendsLEFT/frontonRIGHT. Replacecharcoalhoodie withEXACTbeigeWAFFLEhoodiefromref2:warm sandbeige #d6c7a6 WAFFLE-textured cotton PULLOVER hoodie with visible fine square-waffle knit across wholebody/hood/sleeves, darkolive #5b624e hoodbinding/drawstrings/ribcuffs, straight beige hem without ribband, NO pocket, NO zipper, droppedshoulders longhangingarms, smalloliveMLleftchest, foldedemptyhood. Ref3preceding255rearquadrantforcontinuity. Ref4frontdetail doNOTcopyitsleftprofile. EXACT3columns2rows rowmajor270trueRIGHTPROFILE(hoodtipLEFT/frontedgeRIGHT),285,300,315,330,345nearfront. FrontemergesRIGHT/backdisappearsLEFT. OliveMLwearer'sleftchest(screenrightatfront), nevermirror. FineWAFFLEsquareknittexture allbody/sleeves/hood,NOpocket/zipper,no-ribstraighthem. Samecolour/cut/folds/scalegroundallcells. Fixedlevelcamera strictuprightY no pitchroll uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin. No person/mannequin/hanger or3Dplasticmesh, softrealcloth.",
+      "sha256": "f977a5020d7d5d4b7408c4e6b9692f6ff1e64b9e173d54adf650ee6d13c095d3",
+      "bytes": 2247525,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 123,
+          "y": 21,
+          "width": 211,
+          "height": 498
+        },
+        {
+          "x": 117,
+          "y": 22,
+          "width": 218,
+          "height": 497
+        },
+        {
+          "x": 85,
+          "y": 24,
+          "width": 282,
+          "height": 495
+        },
+        {
+          "x": 83,
+          "y": 22.5,
+          "width": 319,
+          "height": 494
+        },
+        {
+          "x": 45,
+          "y": 24.5,
+          "width": 360,
+          "height": 488
+        },
+        {
+          "x": 18,
+          "y": 24.5,
+          "width": 404,
+          "height": 485
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "OlivefrontML, backfloralM+exactMiloShopHand indark olive #263322.",
+    "loopContinuity": "Reviewedall24plus75→90/165→180/255→270/345→0. Correctoppositesides, uniformwaffleknit/pocketlessconstruction/colours. NominalAI angle estimates not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-flight-ma1",
+  "colorKey": "black",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T16:51:11.421Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/black/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-47c70c10-7e21-4348-9725-bc27625da37a.png",
+      "prompt": "Precise garment COLOUR EDIT ONLY. Targetimage is a3columns×2rows SIXFRAME photographic turntable atlas of MiloShopHand Flight MA1Bomber. Keep EXACT six poses/cameraangles/order, uprightverticalYaxis, framing/scale/ground, folds/material/seams, silvercenterzip/weltpockets, wearerleftupperarmsmallzippedutilitypocket, same ML frontlogo placement/shape/spelling, ivorybackground/softstudio. CHANGE ALL garment body+sleeves AND ribcollar+cuffs+hem+innerlining to deepneutralBLACK #151515. No olive orbeige fabrictrim remains. Retain smallMLlogo highlycontrasting brightIVORY, silverziphardware. Do not change garment geometry/pose/lighting/grid oraddbackprints tofront. Sameoriginalphotorealclothquality, nohuman/mannequin/hanger/plastic3D. Nativecanvas1536x1024,six512squarecells,nogutters/borders/numbers/labels. Output is exactlysameatlasrecolouredblack, notnewangles.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1810935,
+      "sha256": "e94d2b250037037b838a0f17afc75f5995a94c8ce1d401c332a7151a9853c48c",
+      "frames": [
+        {
+          "x": 36,
+          "y": 28,
+          "width": 451,
+          "height": 438
+        },
+        {
+          "x": 49,
+          "y": 24,
+          "width": 421,
+          "height": 447
+        },
+        {
+          "x": 68,
+          "y": 22,
+          "width": 372,
+          "height": 456
+        },
+        {
+          "x": 110,
+          "y": 16,
+          "width": 317,
+          "height": 464
+        },
+        {
+          "x": 131,
+          "y": 16,
+          "width": 247,
+          "height": 469
+        },
+        {
+          "x": 153,
+          "y": 13,
+          "width": 210,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/black/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-1648c34c-69c9-4a0e-bb55-71eddc11e386.png",
+      "prompt": "Precise garment COLOUR EDIT ONLY. Target3columns×2rows SIXFRAME photographicturntableatlas FlightMA1Bomber global6..11 (leftprofiletorear). KeepEXACT6poses/cameraangles/order/uprightYaxis/framing/scale/ground/folds/material/seams/zip/weltpockets/leftarmsmallzippedutilitypocket and allbrandingplacement/shape/spelling. CHANGE ALL fabric body+sleeves+ribcollar+cuffs+hem+innerlining to deepneutralBLACK #151515, nooliveorbeigetrimremains. Keep highlycontrasting brightIVORY floralM+exactMiloShopHand upperback and smallMLfront wherevisible, unchangedletteringandgraphics; silverhardware. Backgroundivorysoftlight unchanged. No newposes/no geometrychange/no logochange, originalphotorealclothquality nohuman/mannequin/hanger/plastic3D. Native1536x1024 six512squarecells,nogutters/borders/numbers/labels. Exactlysameatlasrecolouredblack.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1726278,
+      "sha256": "c7bfb27d287c9df8581ad13acdb42e5a41b4c2b1f3694acb789d29881a1c7737",
+      "frames": [
+        {
+          "x": 176,
+          "y": 14,
+          "width": 168,
+          "height": 482
+        },
+        {
+          "x": 151,
+          "y": 13,
+          "width": 206,
+          "height": 481
+        },
+        {
+          "x": 107,
+          "y": 13,
+          "width": 279,
+          "height": 479
+        },
+        {
+          "x": 85,
+          "y": 13,
+          "width": 339,
+          "height": 481
+        },
+        {
+          "x": 58,
+          "y": 13,
+          "width": 385,
+          "height": 476
+        },
+        {
+          "x": 39,
+          "y": 14,
+          "width": 424,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/black/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-0592608a-3e9a-4b70-ba72-231a7bb93ab1.png",
+      "prompt": "Precise garment COLOUR EDIT ONLY. Target3columns×2rows SIXFRAME photographicturntableatlas FlightMA1Bomber global12..17 (backsymmetrictooppositeside). KeepEXACT6poses/cameraangles/order/uprightYaxis/framing/scale/ground/folds/material/seams/leftarmzippedutilitypocket/brandingplacement/shape/spelling. CHANGE ALLfabricbody+sleeves+ribcollar+cuffs+hem+innerlining todeepneutralBLACK #151515,nooliveorbeigetrimremains. KeephighlycontrastingbrightIVORYfloralM+exactMiloShopHand upperback, samegraphics/textandplacement,noletttermirroring; silverhardware. Backgroundivorysoftlightunchanged. No newangles/nogeometrychange/nologochanges, originalphotorealclothquality nohuman/mannequin/hanger/plastic3D. Native1536x1024,six512squarecells,nogutters/borders/numbers/labels. Exactlysameatlasrecolouredblack.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1716204,
+      "sha256": "e1481834bd7a0e1b468316056756023e74ebd32b11ef90c466d5489e82a9b3be",
+      "frames": [
+        {
+          "x": 58,
+          "y": 15,
+          "width": 413,
+          "height": 456
+        },
+        {
+          "x": 72,
+          "y": 15,
+          "width": 380,
+          "height": 461
+        },
+        {
+          "x": 84,
+          "y": 15,
+          "width": 330,
+          "height": 467
+        },
+        {
+          "x": 129,
+          "y": 14,
+          "width": 294,
+          "height": 475
+        },
+        {
+          "x": 142,
+          "y": 14,
+          "width": 232,
+          "height": 477
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 195,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/black/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-bcee362a-1075-4e48-b40d-42edcd54806d.png",
+      "prompt": "Precise garment COLOUR EDIT ONLY. Target3columns×2rows SIXFRAME photographicturntableatlas FlightMA1Bomber global18..23(oppositeprofiletofront). KeepEXACT6poses/cameraangles/order/uprightYaxis/framing/scale/ground/folds/material/seams/silvercenterzip/weltpockets/wearerleftarmsmallzippedutilitypocket/allbrandingplacement. CHANGEALLfabricbody+sleeves+ribcollar+cuffs+hem+innerlining todeepneutralBLACK #151515,nooliveorbeigetrimremains. KeepsmallMLfrontlogo highlycontrastingbrightIVORY,samegraphics/placement/spelling,noletttermirroring, silverhardware. Backgroundivorysoftlightunchanged. No newangles/nogeometrychange/nologochanges,noextra backprints. Originalphotorealclothqualitynohuman/mannequin/hanger/plastic3D. Native1536x1024,six512squarecells,nogutters/borders/numbers/labels. Exactlysameatlasrecolouredblack.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1702543,
+      "sha256": "bd8337a186b115dab781771c3c6d0cd1b13c501bdab65873485358e256f37016",
+      "frames": [
+        {
+          "x": 156,
+          "y": 18,
+          "width": 194,
+          "height": 470
+        },
+        {
+          "x": 136,
+          "y": 20,
+          "width": 218,
+          "height": 467
+        },
+        {
+          "x": 99,
+          "y": 25,
+          "width": 297,
+          "height": 460
+        },
+        {
+          "x": 81,
+          "y": 21,
+          "width": 349,
+          "height": 465
+        },
+        {
+          "x": 53,
+          "y": 25,
+          "width": 403,
+          "height": 453
+        },
+        {
+          "x": 41,
+          "y": 25,
+          "width": 427,
+          "height": 447
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 frames and quadrant joins visually reviewed against approved original atlas. Precise AI recolour retains poses/shape/folds/MA1 sleeve utility pocket. Body/ribs/lining all black; contrasting ivory ML front and floral M + exact MiloShopHand back; fixed upright Y camera. Native PNG copied unchanged. Nominal angles approximate, inherited from original.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

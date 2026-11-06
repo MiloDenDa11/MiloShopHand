@@ -1,0 +1,223 @@
+{
+  "product": "ml-jacket-coach-snap",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-coach-snap.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-coach-snap/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-27102039-3797-40a8-96e0-6d1666ab01aa.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 is a full24-view turntable POSE GUIDE of the exact dark forest charcoal Coach Snap Jacket. Reference2 is the original high-detail front/back photograph for garment/material identity. Reference3 is floral logo identity only. REDRAW/UPSCALE ONLY SIX VIEWS FROM FIRST ROW of reference1, preserving those exact cameraangles/order; reflow into3columns x2rows, rowmajor. Angles0,15,30 then45,60,75: first FRONT symmetric, last near leftprofile still FRONT visible, NO backprint. Do not complete fullturn within6cells, do not show backside. Same darkgreen lightweight nylon coachjacket, beige collar/beige elastic cuffs, matte beige snaps, small ivory ML leftchest, identical neutral sleevepose/folds/proportions in all6. Photoreal fabric exactly original, empty floating garment, no mannequin/person/hanger/plastic. Fixed levelcamera, garment verticalY upright, no pitch/roll. Six equalcells fullyvisiblegarment generousmargin, same scale/ground, no gutters/dividers/numbers/labels. Creamivorybackdrop soft light. Canvas3:2 landscape1536x1024, eachcell512x512. Do not alter clothing design or colours. Smooth quarterturn steps ONLY0through75; backlogo notvisible yet.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 66,
+          "y": 35,
+          "width": 388,
+          "height": 389
+        },
+        {
+          "x": 82,
+          "y": 35,
+          "width": 351,
+          "height": 393
+        },
+        {
+          "x": 103,
+          "y": 34,
+          "width": 304,
+          "height": 399
+        },
+        {
+          "x": 132,
+          "y": 32,
+          "width": 271,
+          "height": 414
+        },
+        {
+          "x": 152,
+          "y": 31,
+          "width": 223,
+          "height": 420
+        },
+        {
+          "x": 158,
+          "y": 32,
+          "width": 187,
+          "height": 423
+        }
+      ],
+      "sha256": "f7b5ed42cbe4052fc149e1e88b588f848b44c051941d8546e5ab17f2c24d54fe",
+      "bytes": 1717909
+    },
+    {
+      "url": "/collection-spin/ml-jacket-coach-snap/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-c238f3c9-3077-4f4f-97de-90ad21ec3142.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 FULL24-frame turntable guide, reference2 original garment photo, reference3 floralM+MiloShopHand brand. REDRAW ONLY SECOND ROW (globalframes6,7,8,9,10,11) of reference1 as a highdetail3columns x2rows equalcells atlas. Cameraangles90,105,120 then135,150,165. FIRST trueLEFTSIDE profile (only thin side silhouette, sleeve/side seam; nofrontsymmetry), gradual clockwise turn reveals BACK moreeachcell; LAST almostfullBACK but15degrees short. Keep exact darkforestcharcoal coach nylon jacket, beigecollar andelasticcuffs, snapsfront notback, sameneutralpose/sleeves/seams/folds/scale/ground; no alternate design. Back print highlycontrasting ivoryfloralM plus exact MiloShopHand wordmark fromref3, same placement/size visible gradually fromside; nevermirrored. Original photoreal cloth rendering, no 3Dplastic/mannequin/human/hanger. Ivorysoftstudiobackground, fixedlevelcamera, verticalY upright, no pitch/roll. Canvas1536x1024, eachcell512square, no gutters/borders/captions/numbers. Fullyvisiblegarment generousmargin in all6views. MUST starttrueleftprofile, end rearleft15degrees, do not rotate entire360 inside6cells.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 184,
+          "y": 23,
+          "width": 156,
+          "height": 456
+        },
+        {
+          "x": 165,
+          "y": 24,
+          "width": 176,
+          "height": 454
+        },
+        {
+          "x": 134,
+          "y": 24,
+          "width": 226,
+          "height": 443
+        },
+        {
+          "x": 119,
+          "y": 22,
+          "width": 290,
+          "height": 444
+        },
+        {
+          "x": 84,
+          "y": 22,
+          "width": 339,
+          "height": 442
+        },
+        {
+          "x": 67,
+          "y": 22,
+          "width": 376,
+          "height": 438
+        }
+      ],
+      "sha256": "76f788989f996e14a339fcde8b16daf847019c59eb06978d3c9f5ff3613144f5",
+      "bytes": 1768571
+    },
+    {
+      "url": "/collection-spin/ml-jacket-coach-snap/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-22cec9cf-5d75-40dc-9146-9725b495308a.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 FULL24-frame turntable guide. Reference2 originalphotogarment detail. Reference3 floralbrand. Redraw ONLY THIRD ROW globalframes12..17 of reference1 as3columns x2rows equalcells highdetailnative atlas. Angles180,195,210 then225,240,255. First symmetrical perfect BACK, then clockwise turn toward OPPOSITE/right profile, last nearly rightprofile stillbackvisible. Jacket same darkforestcharcoal nylon coachsnap, beigecollar/cuffs, exactseams/slightlyrelaxedsleeves/colour/scale/ground. NO frontview or chestlogo inthese6. Upperback contrasting ivory floralM + exact MiloShopHand fromreference3, samedesignandplacement onallviews, naturallyforeshortened, notmirrored, correctlyspelled. Preserve photoreal clothoriginalquality; emptyfloatinggarmentnohuman/mannequin/hanger/plastic. Only verticalYrotation, fixedlevelcamera, no pitch/roll. Canvas1536x1024,512squarecells, ivorysoftstudiobackdrop, no gutters/dividers/labels. Entiregarmentwithmargins eachcell, identicalscale. Do not repeatfront orleftside; theseanglesstartBACK and approachOPPOSITEside.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 64,
+          "y": 32,
+          "width": 392,
+          "height": 416
+        },
+        {
+          "x": 77,
+          "y": 31,
+          "width": 367,
+          "height": 417
+        },
+        {
+          "x": 98,
+          "y": 31,
+          "width": 311,
+          "height": 438
+        },
+        {
+          "x": 141,
+          "y": 28,
+          "width": 270,
+          "height": 427
+        },
+        {
+          "x": 150,
+          "y": 27,
+          "width": 221,
+          "height": 434
+        },
+        {
+          "x": 147,
+          "y": 27,
+          "width": 195,
+          "height": 436
+        }
+      ],
+      "sha256": "a576888a6dfc65ff91e4d76689fc5e243f4ca9787ab7d7eab551108dbddb2c42",
+      "bytes": 1786342
+    },
+    {
+      "url": "/collection-spin/ml-jacket-coach-snap/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-0fb04449-9920-44fb-a5c1-3d786192f0f3.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 full24 turntable POSEGUIDE,reference2 originalgarment,reference3 brand. Redraw ONLY FOURTH/LAST ROW (global18..23) reference1 at highdetail into3columns x2rows equalcells. Angles270,285,300 then315,330,345; first exactRIGHTSIDE profile opposite to90degreeview; then turn toward FRONT, last nearlyfront15degreesshort. This is opposite side: sleeve on RIGHT silhouette and front opening progressively visible on LEFT in image, match fourthrowguide direction. Start profile, progressively see moreFRONT withbeigesnaps&littleMLleftchest, NO backprint visible. Same darkforestcharcoal nylon coachsnapjacket withbeigecollar&elasticcuffs; originalfabricquality, seamdetails/folds/neutralrelaxedsleevepose identical across6. UprightYlocked fixedlevelcamera nopitch/roll. Emptyfloating garment notplastic/3D mannequin/person/hanger. Ivorybackdropsoftstudiolight, canvas1536x1024 eachcell512square; entiregarmentwithmargins same scale/ground. No dividers/gutters/labels/numbers. Do not mirrorlettering, do not showback orreverse rotation; these6mustcontinueBACKquarter intoRIGHTPROFILE thenreturntowardFRONT.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 185,
+          "y": 23,
+          "width": 173,
+          "height": 462
+        },
+        {
+          "x": 170,
+          "y": 23,
+          "width": 185,
+          "height": 462
+        },
+        {
+          "x": 148,
+          "y": 22,
+          "width": 206,
+          "height": 463
+        },
+        {
+          "x": 138,
+          "y": 21,
+          "width": 266,
+          "height": 460
+        },
+        {
+          "x": 86,
+          "y": 21,
+          "width": 337,
+          "height": 458
+        },
+        {
+          "x": 55,
+          "y": 22,
+          "width": 387,
+          "height": 442
+        }
+      ],
+      "sha256": "ff794a572f79470656a13aaf1650ad4e1d70471d5abf7b2f89f87c8692c2a64e",
+      "bytes": 1736389
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T11:25:34.696Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

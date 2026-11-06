@@ -1,0 +1,1322 @@
+[
+  {
+    "slug": "after-hours-hoodie",
+    "name": "After Hours Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#78846a": "/collection-3d/legacy/after-hours-hoodie-78846a.glb",
+      "#a3a5aa": "/collection-3d/legacy/after-hours-hoodie-a3a5aa.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/after-hours-hoodie-78846a.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/after-hours-hoodie-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/after-hours-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "After Hours Hoodie — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/after-hours-hoodie-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/after-hours-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "After Hours Hoodie — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/after-hours-hoodie-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/after-hours-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "After Hours Hoodie — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/after-hours-hoodie-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/after-hours-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "After Hours Hoodie — Xám, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "airy-cotton-tee",
+    "name": "Airy Cotton Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#34465b": "/collection-3d/legacy/airy-cotton-tee-34465b.glb",
+      "#242426": "/collection-3d/legacy/airy-cotton-tee-242426.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/airy-cotton-tee-34465b.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/airy-cotton-tee-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/airy-cotton-tee-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Airy Cotton Tee — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/airy-cotton-tee-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/airy-cotton-tee-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Airy Cotton Tee — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/airy-cotton-tee-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/airy-cotton-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Airy Cotton Tee — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/airy-cotton-tee-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/airy-cotton-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Airy Cotton Tee — Đen, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "campus-club-hoodie",
+    "name": "Campus Club Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#a3a5aa": "/collection-3d/legacy/campus-club-hoodie-a3a5aa.glb",
+      "#34465b": "/collection-3d/legacy/campus-club-hoodie-34465b.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/campus-club-hoodie-a3a5aa.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/campus-club-hoodie-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/campus-club-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Campus Club Hoodie — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/campus-club-hoodie-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/campus-club-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Campus Club Hoodie — Xám, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/campus-club-hoodie-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/campus-club-hoodie-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Campus Club Hoodie — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/campus-club-hoodie-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/campus-club-hoodie-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Campus Club Hoodie — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "chill-out-hoodie",
+    "name": "Chill Out Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#242426": "/collection-3d/legacy/chill-out-hoodie-242426.glb",
+      "#e8dfcd": "/collection-3d/legacy/chill-out-hoodie-e8dfcd.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/chill-out-hoodie-242426.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/chill-out-hoodie-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/chill-out-hoodie-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Chill Out Hoodie — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/chill-out-hoodie-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/chill-out-hoodie-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Chill Out Hoodie — Đen, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/chill-out-hoodie-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/chill-out-hoodie-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Chill Out Hoodie — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/chill-out-hoodie-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/chill-out-hoodie-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Chill Out Hoodie — Kem, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "city-runner-jacket",
+    "name": "City Runner Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#b6a4d4": "/collection-3d/legacy/city-runner-jacket-b6a4d4.glb",
+      "#78846a": "/collection-3d/legacy/city-runner-jacket-78846a.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/city-runner-jacket-b6a4d4.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/city-runner-jacket-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/city-runner-jacket-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "City Runner Jacket — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/city-runner-jacket-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/city-runner-jacket-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "City Runner Jacket — Tím, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/city-runner-jacket-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/city-runner-jacket-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "City Runner Jacket — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/city-runner-jacket-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/city-runner-jacket-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "City Runner Jacket — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "cloud-cream-bomber",
+    "name": "Cloud Cream Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#e8dfcd": "/collection-3d/legacy/cloud-cream-bomber-e8dfcd.glb",
+      "#b6a4d4": "/collection-3d/legacy/cloud-cream-bomber-b6a4d4.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/cloud-cream-bomber-e8dfcd.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/cloud-cream-bomber-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/cloud-cream-bomber-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Cloud Cream Bomber — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/cloud-cream-bomber-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/cloud-cream-bomber-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Cloud Cream Bomber — Kem, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/cloud-cream-bomber-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/cloud-cream-bomber-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Cloud Cream Bomber — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/cloud-cream-bomber-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/cloud-cream-bomber-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Cloud Cream Bomber — Tím, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "daily-utility-jacket",
+    "name": "Daily Utility Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#a3a5aa": "/collection-3d/legacy/daily-utility-jacket-a3a5aa.glb",
+      "#34465b": "/collection-3d/legacy/daily-utility-jacket-34465b.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/daily-utility-jacket-a3a5aa.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/daily-utility-jacket-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/daily-utility-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Daily Utility Jacket — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daily-utility-jacket-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/daily-utility-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Daily Utility Jacket — Xám, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daily-utility-jacket-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/daily-utility-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Daily Utility Jacket — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daily-utility-jacket-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/daily-utility-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Daily Utility Jacket — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "daylight-pocket-tee",
+    "name": "Daylight Pocket Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#b6a4d4": "/collection-3d/legacy/daylight-pocket-tee-b6a4d4.glb",
+      "#78846a": "/collection-3d/legacy/daylight-pocket-tee-78846a.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/daylight-pocket-tee-b6a4d4.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/daylight-pocket-tee-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/daylight-pocket-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Daylight Pocket Tee — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daylight-pocket-tee-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/daylight-pocket-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Daylight Pocket Tee — Tím, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daylight-pocket-tee-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/daylight-pocket-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Daylight Pocket Tee — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/daylight-pocket-tee-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/daylight-pocket-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Daylight Pocket Tee — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "downtown-bomber",
+    "name": "Downtown Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#34465b": "/collection-3d/legacy/downtown-bomber-34465b.glb",
+      "#242426": "/collection-3d/legacy/downtown-bomber-242426.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/downtown-bomber-34465b.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/downtown-bomber-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/downtown-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Downtown Bomber — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/downtown-bomber-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/downtown-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Downtown Bomber — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/downtown-bomber-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/downtown-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Downtown Bomber — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/downtown-bomber-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/downtown-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Downtown Bomber — Đen, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "everyday-essential-tee",
+    "name": "Everyday Essential Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#242426": "/collection-3d/legacy/everyday-essential-tee-242426.glb",
+      "#e8dfcd": "/collection-3d/legacy/everyday-essential-tee-e8dfcd.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/everyday-essential-tee-242426.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/everyday-essential-tee-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/everyday-essential-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Everyday Essential Tee — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/everyday-essential-tee-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/everyday-essential-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Everyday Essential Tee — Đen, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/everyday-essential-tee-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/everyday-essential-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Everyday Essential Tee — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/everyday-essential-tee-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/everyday-essential-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Everyday Essential Tee — Kem, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "explorer-zip-jacket",
+    "name": "Explorer Zip Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#e8dfcd": "/collection-3d/legacy/explorer-zip-jacket-e8dfcd.glb",
+      "#b6a4d4": "/collection-3d/legacy/explorer-zip-jacket-b6a4d4.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/explorer-zip-jacket-e8dfcd.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/explorer-zip-jacket-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/explorer-zip-jacket-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Explorer Zip Jacket — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/explorer-zip-jacket-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/explorer-zip-jacket-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Explorer Zip Jacket — Kem, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/explorer-zip-jacket-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/explorer-zip-jacket-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Explorer Zip Jacket — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/explorer-zip-jacket-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/explorer-zip-jacket-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Explorer Zip Jacket — Tím, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "heavyweight-zip-hoodie",
+    "name": "Heavyweight Zip Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#34465b": "/collection-3d/legacy/heavyweight-zip-hoodie-34465b.glb",
+      "#242426": "/collection-3d/legacy/heavyweight-zip-hoodie-242426.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/heavyweight-zip-hoodie-34465b.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/heavyweight-zip-hoodie-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/heavyweight-zip-hoodie-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Heavyweight Zip Hoodie — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/heavyweight-zip-hoodie-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/heavyweight-zip-hoodie-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Heavyweight Zip Hoodie — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/heavyweight-zip-hoodie-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/heavyweight-zip-hoodie-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Heavyweight Zip Hoodie — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/heavyweight-zip-hoodie-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/heavyweight-zip-hoodie-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Heavyweight Zip Hoodie — Đen, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "light-shell-jacket",
+    "name": "Light Shell Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#242426": "/collection-3d/legacy/light-shell-jacket-242426.glb",
+      "#e8dfcd": "/collection-3d/legacy/light-shell-jacket-e8dfcd.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/light-shell-jacket-242426.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/light-shell-jacket-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/light-shell-jacket-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Light Shell Jacket — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/light-shell-jacket-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/light-shell-jacket-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Light Shell Jacket — Đen, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/light-shell-jacket-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/light-shell-jacket-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Light Shell Jacket — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/light-shell-jacket-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/light-shell-jacket-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Light Shell Jacket — Kem, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "midnight-flight-bomber",
+    "name": "Midnight Flight Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#78846a": "/collection-3d/legacy/midnight-flight-bomber-78846a.glb",
+      "#a3a5aa": "/collection-3d/legacy/midnight-flight-bomber-a3a5aa.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/midnight-flight-bomber-78846a.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/midnight-flight-bomber-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/midnight-flight-bomber-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Midnight Flight Bomber — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/midnight-flight-bomber-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/midnight-flight-bomber-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Midnight Flight Bomber — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/midnight-flight-bomber-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/midnight-flight-bomber-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Midnight Flight Bomber — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/midnight-flight-bomber-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/midnight-flight-bomber-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Midnight Flight Bomber — Xám, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "milo-signature-tee",
+    "name": "Milo Signature Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#e8dfcd": "/collection-3d/legacy/milo-signature-tee-e8dfcd.glb",
+      "#b6a4d4": "/collection-3d/legacy/milo-signature-tee-b6a4d4.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/milo-signature-tee-e8dfcd.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/milo-signature-tee-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/milo-signature-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Milo Signature Tee — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/milo-signature-tee-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/milo-signature-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Milo Signature Tee — Kem, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/milo-signature-tee-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/milo-signature-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Milo Signature Tee — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/milo-signature-tee-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/milo-signature-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Milo Signature Tee — Tím, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "name": "Mono Boxy Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#242426": "/collection-3d/legacy/mono-boxy-tee-242426.glb",
+      "#e8dfcd": "/collection-3d/legacy/mono-boxy-tee-e8dfcd.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/mono-boxy-tee-242426.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/mono-boxy-tee-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/mono-boxy-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Mono Boxy Tee — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/mono-boxy-tee-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/mono-boxy-tee-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Mono Boxy Tee — Đen, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/mono-boxy-tee-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/mono-boxy-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Mono Boxy Tee — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/mono-boxy-tee-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/mono-boxy-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Mono Boxy Tee — Kem, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "name": "No Rules Graphic Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#a3a5aa": "/collection-3d/legacy/no-rules-graphic-tee-a3a5aa.glb",
+      "#34465b": "/collection-3d/legacy/no-rules-graphic-tee-34465b.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/no-rules-graphic-tee-a3a5aa.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/no-rules-graphic-tee-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/no-rules-graphic-tee-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "No Rules Graphic Tee — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/no-rules-graphic-tee-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/no-rules-graphic-tee-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "No Rules Graphic Tee — Xám, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/no-rules-graphic-tee-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/no-rules-graphic-tee-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "No Rules Graphic Tee — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/no-rules-graphic-tee-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/no-rules-graphic-tee-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "No Rules Graphic Tee — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "olive-field-bomber",
+    "name": "Olive Field Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#242426": "/collection-3d/legacy/olive-field-bomber-242426.glb",
+      "#e8dfcd": "/collection-3d/legacy/olive-field-bomber-e8dfcd.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/olive-field-bomber-242426.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/olive-field-bomber-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/olive-field-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Olive Field Bomber — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/olive-field-bomber-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/olive-field-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Olive Field Bomber — Đen, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/olive-field-bomber-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/olive-field-bomber-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Olive Field Bomber — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/olive-field-bomber-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/olive-field-bomber-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Olive Field Bomber — Kem, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "outline-logo-hoodie",
+    "name": "Outline Logo Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#e8dfcd": "/collection-3d/legacy/outline-logo-hoodie-e8dfcd.glb",
+      "#b6a4d4": "/collection-3d/legacy/outline-logo-hoodie-b6a4d4.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/outline-logo-hoodie-e8dfcd.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/outline-logo-hoodie-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/outline-logo-hoodie-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Outline Logo Hoodie — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/outline-logo-hoodie-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/outline-logo-hoodie-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Outline Logo Hoodie — Kem, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/outline-logo-hoodie-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/outline-logo-hoodie-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Outline Logo Hoodie — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/outline-logo-hoodie-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/outline-logo-hoodie-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Outline Logo Hoodie — Tím, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "purple-haze-hoodie",
+    "name": "Purple Haze Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#78846a": "/collection-3d/legacy/purple-haze-hoodie-78846a.glb",
+      "#a3a5aa": "/collection-3d/legacy/purple-haze-hoodie-a3a5aa.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/purple-haze-hoodie-78846a.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/purple-haze-hoodie-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/purple-haze-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Purple Haze Hoodie — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/purple-haze-hoodie-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/purple-haze-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Purple Haze Hoodie — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/purple-haze-hoodie-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/purple-haze-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Purple Haze Hoodie — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/purple-haze-hoodie-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/purple-haze-hoodie-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Purple Haze Hoodie — Xám, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "rain-ready-jacket",
+    "name": "Rain Ready Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#a3a5aa": "/collection-3d/legacy/rain-ready-jacket-a3a5aa.glb",
+      "#34465b": "/collection-3d/legacy/rain-ready-jacket-34465b.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/rain-ready-jacket-a3a5aa.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/rain-ready-jacket-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/rain-ready-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Rain Ready Jacket — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/rain-ready-jacket-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/rain-ready-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Rain Ready Jacket — Xám, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/rain-ready-jacket-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/rain-ready-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Rain Ready Jacket — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/rain-ready-jacket-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/rain-ready-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Rain Ready Jacket — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "retro-sport-bomber",
+    "name": "Retro Sport Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#34465b": "/collection-3d/legacy/retro-sport-bomber-34465b.glb",
+      "#242426": "/collection-3d/legacy/retro-sport-bomber-242426.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/retro-sport-bomber-34465b.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/retro-sport-bomber-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/retro-sport-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Retro Sport Bomber — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/retro-sport-bomber-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/retro-sport-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Retro Sport Bomber — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/retro-sport-bomber-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/retro-sport-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Retro Sport Bomber — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/retro-sport-bomber-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/retro-sport-bomber-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Retro Sport Bomber — Đen, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "soft-cloud-hoodie",
+    "name": "Soft Cloud Hoodie",
+    "kind": "hoodie",
+    "modelsByColor": {
+      "#b6a4d4": "/collection-3d/legacy/soft-cloud-hoodie-b6a4d4.glb",
+      "#78846a": "/collection-3d/legacy/soft-cloud-hoodie-78846a.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/soft-cloud-hoodie-b6a4d4.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/soft-cloud-hoodie-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/soft-cloud-hoodie-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Soft Cloud Hoodie — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/soft-cloud-hoodie-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/soft-cloud-hoodie-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Soft Cloud Hoodie — Tím, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/soft-cloud-hoodie-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/soft-cloud-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Soft Cloud Hoodie — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/soft-cloud-hoodie-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/soft-cloud-hoodie-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Soft Cloud Hoodie — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "sport-division-tee",
+    "name": "Sport Division Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#e8dfcd": "/collection-3d/legacy/sport-division-tee-e8dfcd.glb",
+      "#b6a4d4": "/collection-3d/legacy/sport-division-tee-b6a4d4.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/sport-division-tee-e8dfcd.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/sport-division-tee-e8dfcd-front.png",
+        "modelUrl": "/collection-3d/legacy/sport-division-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "front",
+        "alt": "Sport Division Tee — Kem, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sport-division-tee-e8dfcd-back.png",
+        "modelUrl": "/collection-3d/legacy/sport-division-tee-e8dfcd.glb",
+        "color": "Kem",
+        "colorHex": "#e8dfcd",
+        "view": "back",
+        "alt": "Sport Division Tee — Kem, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sport-division-tee-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/sport-division-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Sport Division Tee — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sport-division-tee-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/sport-division-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Sport Division Tee — Tím, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "studio-nylon-bomber",
+    "name": "Studio Nylon Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#a3a5aa": "/collection-3d/legacy/studio-nylon-bomber-a3a5aa.glb",
+      "#34465b": "/collection-3d/legacy/studio-nylon-bomber-34465b.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/studio-nylon-bomber-a3a5aa.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/studio-nylon-bomber-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/studio-nylon-bomber-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Studio Nylon Bomber — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/studio-nylon-bomber-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/studio-nylon-bomber-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Studio Nylon Bomber — Xám, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/studio-nylon-bomber-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/studio-nylon-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Studio Nylon Bomber — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/studio-nylon-bomber-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/studio-nylon-bomber-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Studio Nylon Bomber — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "sunday-club-tee",
+    "name": "Sunday Club Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#78846a": "/collection-3d/legacy/sunday-club-tee-78846a.glb",
+      "#a3a5aa": "/collection-3d/legacy/sunday-club-tee-a3a5aa.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/sunday-club-tee-78846a.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/sunday-club-tee-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/sunday-club-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Sunday Club Tee — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sunday-club-tee-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/sunday-club-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Sunday Club Tee — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sunday-club-tee-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/sunday-club-tee-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Sunday Club Tee — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/sunday-club-tee-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/sunday-club-tee-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Sunday Club Tee — Xám, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "urban-motion-tee",
+    "name": "Urban Motion Tee",
+    "kind": "tee",
+    "modelsByColor": {
+      "#b6a4d4": "/collection-3d/legacy/urban-motion-tee-b6a4d4.glb",
+      "#78846a": "/collection-3d/legacy/urban-motion-tee-78846a.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/urban-motion-tee-b6a4d4.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/urban-motion-tee-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/urban-motion-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Urban Motion Tee — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/urban-motion-tee-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/urban-motion-tee-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Urban Motion Tee — Tím, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/urban-motion-tee-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/urban-motion-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Urban Motion Tee — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/urban-motion-tee-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/urban-motion-tee-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Urban Motion Tee — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "varsity-club-bomber",
+    "name": "Varsity Club Bomber",
+    "kind": "bomber",
+    "modelsByColor": {
+      "#b6a4d4": "/collection-3d/legacy/varsity-club-bomber-b6a4d4.glb",
+      "#78846a": "/collection-3d/legacy/varsity-club-bomber-78846a.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/varsity-club-bomber-b6a4d4.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/varsity-club-bomber-b6a4d4-front.png",
+        "modelUrl": "/collection-3d/legacy/varsity-club-bomber-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "front",
+        "alt": "Varsity Club Bomber — Tím, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/varsity-club-bomber-b6a4d4-back.png",
+        "modelUrl": "/collection-3d/legacy/varsity-club-bomber-b6a4d4.glb",
+        "color": "Tím",
+        "colorHex": "#b6a4d4",
+        "view": "back",
+        "alt": "Varsity Club Bomber — Tím, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/varsity-club-bomber-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/varsity-club-bomber-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Varsity Club Bomber — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/varsity-club-bomber-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/varsity-club-bomber-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Varsity Club Bomber — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "weekend-coach-jacket",
+    "name": "Weekend Coach Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#34465b": "/collection-3d/legacy/weekend-coach-jacket-34465b.glb",
+      "#242426": "/collection-3d/legacy/weekend-coach-jacket-242426.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/weekend-coach-jacket-34465b.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/weekend-coach-jacket-34465b-front.png",
+        "modelUrl": "/collection-3d/legacy/weekend-coach-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "front",
+        "alt": "Weekend Coach Jacket — Xanh navy, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/weekend-coach-jacket-34465b-back.png",
+        "modelUrl": "/collection-3d/legacy/weekend-coach-jacket-34465b.glb",
+        "color": "Xanh navy",
+        "colorHex": "#34465b",
+        "view": "back",
+        "alt": "Weekend Coach Jacket — Xanh navy, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/weekend-coach-jacket-242426-front.png",
+        "modelUrl": "/collection-3d/legacy/weekend-coach-jacket-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "front",
+        "alt": "Weekend Coach Jacket — Đen, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/weekend-coach-jacket-242426-back.png",
+        "modelUrl": "/collection-3d/legacy/weekend-coach-jacket-242426.glb",
+        "color": "Đen",
+        "colorHex": "#242426",
+        "view": "back",
+        "alt": "Weekend Coach Jacket — Đen, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  },
+  {
+    "slug": "wind-breaker-jacket",
+    "name": "Wind Breaker Jacket",
+    "kind": "jacket",
+    "modelsByColor": {
+      "#78846a": "/collection-3d/legacy/wind-breaker-jacket-78846a.glb",
+      "#a3a5aa": "/collection-3d/legacy/wind-breaker-jacket-a3a5aa.glb"
+    },
+    "modelUrl": "/collection-3d/legacy/wind-breaker-jacket-78846a.glb",
+    "images": [
+      {
+        "url": "/collection-legacy/wind-breaker-jacket-78846a-front.png",
+        "modelUrl": "/collection-3d/legacy/wind-breaker-jacket-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "front",
+        "alt": "Wind Breaker Jacket — Xanh olive, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/wind-breaker-jacket-78846a-back.png",
+        "modelUrl": "/collection-3d/legacy/wind-breaker-jacket-78846a.glb",
+        "color": "Xanh olive",
+        "colorHex": "#78846a",
+        "view": "back",
+        "alt": "Wind Breaker Jacket — Xanh olive, mặt sau, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/wind-breaker-jacket-a3a5aa-front.png",
+        "modelUrl": "/collection-3d/legacy/wind-breaker-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "front",
+        "alt": "Wind Breaker Jacket — Xám, mặt trước, mô phỏng thiết kế 3D"
+      },
+      {
+        "url": "/collection-legacy/wind-breaker-jacket-a3a5aa-back.png",
+        "modelUrl": "/collection-3d/legacy/wind-breaker-jacket-a3a5aa.glb",
+        "color": "Xám",
+        "colorHex": "#a3a5aa",
+        "view": "back",
+        "alt": "Wind Breaker Jacket — Xám, mặt sau, mô phỏng thiết kế 3D"
+      }
+    ]
+  }
+]

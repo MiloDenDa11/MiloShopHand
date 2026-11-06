@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-field-four",
+  "colorKey": "burgundy",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T17:06:03.707Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/burgundy/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-7915e656-461f-4660-a84b-760ec8c4ee46.png",
+      "prompt": "Use case: precise-object-edit. EditONLYgarmentCOLOURS inthis exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanCLOTH includingbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomesdeep rich BURGUNDY/PLUMRED #722f37, notbrightcherryred orpurple. Naturalrealclothshadows/highlights/folds/texture preserved. Metalbuttons/centerzipremainmutedbrass. FrontinterwovenML chestlogo warmIVORY #f4ead7 contrastingagainstburgundy, identicalsize/layout/placement. Preserveeveryoneof sixposesONE-TO-ONE frames0..5 FRONT0,15,30,45,60,75; exactsilhouette/shoulderpose/pocket/seamlocation/folds/scaleground/light/camera/background. No redesign/newhood/ribcuffs/noperson/mannequin/hanger/no3Dplasticmesh. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. UprightfixedlevelYrotationnopitchroll, NO backbrandvisibleonfront.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1978898,
+      "sha256": "a7b3bb085960469b0941d61a8b13dbcb5a713e8e316d40938a0b83b58e86d6cd",
+      "frames": [
+        {
+          "x": 51,
+          "y": 16,
+          "width": 413,
+          "height": 458
+        },
+        {
+          "x": 58,
+          "y": 17,
+          "width": 396,
+          "height": 457
+        },
+        {
+          "x": 77,
+          "y": 16,
+          "width": 355,
+          "height": 460
+        },
+        {
+          "x": 122,
+          "y": 14,
+          "width": 289,
+          "height": 465
+        },
+        {
+          "x": 140,
+          "y": 14,
+          "width": 229,
+          "height": 466
+        },
+        {
+          "x": 161,
+          "y": 13,
+          "width": 201,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/burgundy/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c5d56885-16aa-434a-aebc-1907f3af8b78.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomesdeepBURGUNDY/PLUMRED #722f37 matchingImage2burgundyfrontquadrant; notbrightcherryred/purple. Preserveclothtexture/folds/subtlehighlights, metalsmutedbrass. BackfloralM+EXACT\"MiloShopHand\" andfrontMLlogoswarmIVORY #f4ead7, sameoriginalsize/typeface/layout/placement/occlusion. PreserveeachImage1poseONE-TO-ONE frames6..11 90LEFTprofile,105,120,135,150,165nearlyback, NO angle/cut/sleeves/seams/folds/proportions/scaleground/lighting/background/camerachanges. UprightfixedlevelYnopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmesh,noomittedbackfloralemblem.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1945840,
+      "sha256": "856f2ab259d8f2e55b2287e7b0adebba008e2b865ed8dde1242b3f156aa93804",
+      "frames": [
+        {
+          "x": 177,
+          "y": 13,
+          "width": 177,
+          "height": 467
+        },
+        {
+          "x": 149,
+          "y": 15,
+          "width": 218,
+          "height": 465
+        },
+        {
+          "x": 136,
+          "y": 15,
+          "width": 245,
+          "height": 465
+        },
+        {
+          "x": 124,
+          "y": 15,
+          "width": 291,
+          "height": 464
+        },
+        {
+          "x": 82,
+          "y": 15,
+          "width": 351,
+          "height": 463
+        },
+        {
+          "x": 51,
+          "y": 15,
+          "width": 403,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/burgundy/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-987803c7-7dbc-49a3-980d-f2222b213a12.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomesdeepBURGUNDY/PLUMRED #722f37, matchingImage2burgundyprecedingquadrant. Notbrightcherryred/purple, retainclothtexture/folds/subtlehighlights, metalsmutedbrass. BackfloralM+EXACT\"MiloShopHand\" andfrontMLlogoswarmIVORY #f4ead7, sameoriginalsize/typeface/layout/placement/occlusion. PreserveImage1sixposesONE-TO-ONE frames12..17 BACK180,195,210,225,240,255, NO angle/cut/sleeves/seams/folds/scaleground/lighting/background/camerachanges. UprightfixedlevelYnopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmeshlook.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1868801,
+      "sha256": "0b6e991f0ced1fb14f25ae9ab74530c1e6567ca4122f8b0cf0d8f4a04b51e494",
+      "frames": [
+        {
+          "x": 70,
+          "y": 17,
+          "width": 395,
+          "height": 449
+        },
+        {
+          "x": 83,
+          "y": 17,
+          "width": 354,
+          "height": 449
+        },
+        {
+          "x": 102,
+          "y": 17,
+          "width": 291,
+          "height": 450
+        },
+        {
+          "x": 150,
+          "y": 15,
+          "width": 257,
+          "height": 455
+        },
+        {
+          "x": 154,
+          "y": 15,
+          "width": 205,
+          "height": 456
+        },
+        {
+          "x": 154,
+          "y": 15,
+          "width": 184,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-field-four/burgundy/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a68764fb-f4f0-4633-8572-f56434c8951c.png",
+      "prompt": "Use case: precise-object-edit. EditONLYCOLOURS inImage1 exactapprovedsix-framefieldjacketphotoatlas. ALLolive/tanclothbody/sleeves/collar/cuffs/lining/pocketflaps/piping/shouldertabs becomesdeepBURGUNDY/PLUMRED #722f37 matchingImage2burgundyfrontquadrant, notbrightcherryred/purple. Keepnaturalclothtexture/folds/subtlehighlights metalsmutedbrass. ChestMLlogowarmIVORY #f4ead7 sameoriginalsize/typeface/placementnevermirror. PreserveeachImage1poseONE-TO-ONE finalquadrantframes18..23 RIGHTprofile270,285,300,315,330,345nearfront. NOmirror/reversetheside or changeangle/cut/sleeves/seams/folds/scaleground/light/background/fixedlevelcamera. UprightverticalYonlynopitchroll. EXACT3columns2rowsnogutters/lines/labels native1536x1024orlarger3:2ratio >=450pxcellwidth. Noperson/mannequin/hanger or3Dplasticmesh; backfloralbrandonlywherealreadybarelyvisibleatprofile neveronfront.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1912706,
+      "sha256": "04e9d2891c0d0feac7dc9b1f5e3131162572e3a9504fe2f9cb181ba0e8c7c5bf",
+      "frames": [
+        {
+          "x": 175,
+          "y": 16,
+          "width": 180,
+          "height": 466
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 195,
+          "height": 465
+        },
+        {
+          "x": 104,
+          "y": 16,
+          "width": 296,
+          "height": 463
+        },
+        {
+          "x": 89,
+          "y": 14,
+          "width": 351,
+          "height": 464
+        },
+        {
+          "x": 61,
+          "y": 14,
+          "width": 389,
+          "height": 465
+        },
+        {
+          "x": 41,
+          "y": 14,
+          "width": 418,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24views andfourquarterjoins visuallyreviewed. Deepburgundyclothincludingpiping/collar/cuffs, originalposes/folds/details retained. IvoryfrontML/floralM+exactMiloShopHandbackhighcontrast; brasshardware andivorybg preserved. FixeduprightY, nopitchroll, no3D.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

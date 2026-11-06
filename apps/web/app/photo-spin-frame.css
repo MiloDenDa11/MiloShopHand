@@ -1,0 +1,4 @@
+.photo-spin-frame{position:relative;flex:none;pointer-events:none;transform-origin:center;overflow:hidden}
+.photo-spin-placement{position:absolute;overflow:hidden}
+.photo-spin-crop{position:absolute;overflow:hidden}
+.photo-spin-sheet,.photo-spin-blend-sheet{position:absolute;background-size:100% 100%;background-repeat:no-repeat}

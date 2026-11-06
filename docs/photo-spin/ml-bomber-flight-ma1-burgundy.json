@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-flight-ma1",
+  "colorKey": "burgundy",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T07:17:42.616Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/burgundy/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-21fde6a4-b259-4f3f-a582-f85e010bde57.png",
+      "prompt": "Precise garment COLOUR EDIT ONLY. Target3columns×2rows SIXFRAME photographicturntableatlas MiloShopHand FlightMA1Bomber global0..5(frontquarter). KeepEXACT6poses/cameraangles/order/uprightYaxis/framing/scale/ground/folds/material/seams/silvercenterzip/weltpockets/wearerleftarmsmallzippedutilitypocket/MLplacementandshape. CHANGEALLfabricbody+sleeves+ribcollar+cuffs+hem+innerlining to deepwineBURGUNDY #722f37 (đỏmận), nooliveorbeigetrimremains. KeepsmallMLfrontlogo highlycontrastingbrightIVORY,samegraphics/size/placement/spelling,nevermirrorletters. Naturalnylonfoldhighlights/shadows andribtexture retained,silverhardware. Backgroundivorysoftlightunchanged. No newangles/nogeometrychange/no newdesign/noaddedbackprint. Originalphotorealclothqualitynohuman/mannequin/hanger/plastic3D. Native1536x1024six512squarecells,nogutters/borders/numbers/labels. Exactlysameatlasrecolouredburgundy.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1943204,
+      "sha256": "b629c8f8af69dbbee28efb71dd6df3d3c3a4277180211a8d8349324e6a96c297",
+      "frames": [
+        {
+          "x": 36,
+          "y": 28,
+          "width": 451,
+          "height": 437
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "width": 422,
+          "height": 446
+        },
+        {
+          "x": 66,
+          "y": 22,
+          "width": 373,
+          "height": 455
+        },
+        {
+          "x": 110,
+          "y": 17,
+          "width": 317,
+          "height": 463
+        },
+        {
+          "x": 132,
+          "y": 16,
+          "width": 246,
+          "height": 468
+        },
+        {
+          "x": 154,
+          "y": 14,
+          "width": 208,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/burgundy/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-e2b86477-08dd-4285-aa3a-9dc6157edf82.png",
+      "prompt": "Use case: precise-object-edit, garment COLOUR ONLY. IMAGE1 edit target is six-view photographic turntable atlas of Flight MA1 Bomber, quarter1 frame6..11; IMAGE2 supplies ONLY approved BURGUNDY colour/nylonshine. Keep EXACT all six poses/angles/order, garment silhouette, fold detail, seam/construction, low ribcollar/cuffs/hem, silver centerzip andweltpockets, single wearerLEFT utilityzippocket, ivory floralM+exactMiloShopHand backart and smallML frontmark wherever currentlyvisible. Change ALL FABRIC of body+sleeves+ribcollar+cuffs+hem+lining to rich deep WINE BURGUNDY #722f37 exactlylikeimage2. NO olive, beige or cream fabric remains. Keep existing brandart highlycontrasting IVORY, same print shape/spelling/size/placement, never mirrorletters or change design. Preserve subtle nylon/rib texture, photographic highlights/shadows and silverhardware. Do not add/removepockets or moveutilitypocket tooppositearm. Do not change ANY camera pose/quarter/geometry/pose/scale/center/ground/lighting/ivorybackground/layout. Native1536x1024 exactsame3columns x2rows SIXequal512squarecells no gutters/borders/labels/numbers. Emptygarment uprightY/Oy nopeople/mannequin/hanger/plastic3D. Output is SAME sourceatlas recoloured Burgundy only.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1817207,
+      "sha256": "18a58fc86313b45e1cdcd3cf270bc788e7dcadfb2353abe5c69e7e244aa27a48",
+      "frames": [
+        {
+          "x": 176,
+          "y": 16,
+          "width": 171,
+          "height": 479
+        },
+        {
+          "x": 150,
+          "y": 16,
+          "width": 206,
+          "height": 478
+        },
+        {
+          "x": 107,
+          "y": 15,
+          "width": 281,
+          "height": 477
+        },
+        {
+          "x": 85,
+          "y": 15,
+          "width": 340,
+          "height": 478
+        },
+        {
+          "x": 57,
+          "y": 15,
+          "width": 388,
+          "height": 474
+        },
+        {
+          "x": 38,
+          "y": 15,
+          "width": 426,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/burgundy/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-4e3f8f91-04b8-4fe4-a29e-a4eca41e737e.png",
+      "prompt": "Use case: precise-object-edit, garment COLOUR ONLY. IMAGE1 edit target is six-view photographic turntable atlas of Flight MA1 Bomber, quarter2 frame12..17; IMAGE2 supplies ONLY approved BURGUNDY colour/nylonshine. Keep EXACT all six poses/angles/order, garment silhouette, fold detail, seam/construction, low ribcollar/cuffs/hem, silver centerzip andweltpockets, single wearerLEFT utilityzippocket, ivory floralM+exactMiloShopHand backart and smallML frontmark wherever currentlyvisible. Change ALL FABRIC of body+sleeves+ribcollar+cuffs+hem+lining to rich deep WINE BURGUNDY #722f37 exactlylikeimage2. NO olive, beige or cream fabric remains. Keep existing brandart highlycontrasting IVORY, same print shape/spelling/size/placement, never mirrorletters or change design. Preserve subtle nylon/rib texture, photographic highlights/shadows and silverhardware. Do not add/removepockets or moveutilitypocket tooppositearm. Do not change ANY camera pose/quarter/geometry/pose/scale/center/ground/lighting/ivorybackground/layout. Native1536x1024 exactsame3columns x2rows SIXequal512squarecells no gutters/borders/labels/numbers. Emptygarment uprightY/Oy nopeople/mannequin/hanger/plastic3D. Output is SAME sourceatlas recoloured Burgundy only.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1803050,
+      "sha256": "07316f7add4a3a71e274d30264ad3ddcf7097033856a561a0c0db3c08a824936",
+      "frames": [
+        {
+          "x": 58,
+          "y": 16,
+          "width": 412,
+          "height": 453
+        },
+        {
+          "x": 73,
+          "y": 16,
+          "width": 379,
+          "height": 457
+        },
+        {
+          "x": 84,
+          "y": 16,
+          "width": 330,
+          "height": 464
+        },
+        {
+          "x": 129,
+          "y": 13,
+          "width": 292,
+          "height": 475
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 231,
+          "height": 477
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 196,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-flight-ma1/burgundy/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-3a31c32c-eb65-47c0-8481-a59b4a43ba9c.png",
+      "prompt": "Use case: precise-object-edit, garment COLOUR ONLY. IMAGE1 edit target is six-view photographic turntable atlas of Flight MA1 Bomber, quarter3 frame18..23; IMAGE2 supplies ONLY approved BURGUNDY colour/nylonshine. Keep EXACT all six poses/angles/order, garment silhouette, fold detail, seam/construction, low ribcollar/cuffs/hem, silver centerzip andweltpockets, single wearerLEFT utilityzippocket, ivory floralM+exactMiloShopHand backart and smallML frontmark wherever currentlyvisible. Change ALL FABRIC of body+sleeves+ribcollar+cuffs+hem+lining to rich deep WINE BURGUNDY #722f37 exactlylikeimage2. NO olive, beige or cream fabric remains. Keep existing brandart highlycontrasting IVORY, same print shape/spelling/size/placement, never mirrorletters or change design. Preserve subtle nylon/rib texture, photographic highlights/shadows and silverhardware. Do not add/removepockets or moveutilitypocket tooppositearm. Do not change ANY camera pose/quarter/geometry/pose/scale/center/ground/lighting/ivorybackground/layout. Native1536x1024 exactsame3columns x2rows SIXequal512squarecells no gutters/borders/labels/numbers. Emptygarment uprightY/Oy nopeople/mannequin/hanger/plastic3D. Output is SAME sourceatlas recoloured Burgundy only.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1848976,
+      "sha256": "1ce519bbe73fb96578a7d313712ba82250c14a49547fb579b92b087339867d65",
+      "frames": [
+        {
+          "x": 156,
+          "y": 18,
+          "width": 194,
+          "height": 469
+        },
+        {
+          "x": 136,
+          "y": 19,
+          "width": 218,
+          "height": 467
+        },
+        {
+          "x": 99,
+          "y": 24,
+          "width": 297,
+          "height": 460
+        },
+        {
+          "x": 80,
+          "y": 21,
+          "width": 350,
+          "height": 465
+        },
+        {
+          "x": 52,
+          "y": 25,
+          "width": 404,
+          "height": 452
+        },
+        {
+          "x": 40,
+          "y": 26,
+          "width": 429,
+          "height": 445
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 native photographs: whole garments, same original construction/fabric/colour/trim/pockets, chest ML wearerLEFT and readable contrasting floralM+exactMiloShopHand upperback, fixed uprightY/yaw sequence. Rejected pose candidates kept separately; slight AI drape variation remains.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

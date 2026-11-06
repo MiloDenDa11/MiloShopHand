@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-cloud-pullover",
+  "colorKey": "white",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T16:35:48.994Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/white/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-2ae49879-e6dc-4698-913b-5195e09a3e3f.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour only reference1, this exact six-view photographic MiloShopHand Cloud Pullover atlas. All fabric including body, hood outside/lining, drawcords, ribs and cuffs becomes clean neutral off-white #f8f7f2, not cream/yellow or grey; use natural fabric shading with clearly defined edges against the unchanged warm ivory studio backdrop. All visible ML front and floral M + exact \"MiloShopHand\" back logos become nearblack #151515, crisp and strongly contrasting. This is the front0..75degrees quadrant, no backprint visible. Preserve exactly all SIX original poses, folds, anatomy, logo positions/spelling, seams, cloth texture, lighting, upright Y-axis, scale and 3-column x2-row cell layout. No pitch/roll. Keep the full garment with clear margins in every own cell, no cross-cell parts. Photographic detail, never faceted3D/plastic. No mannequin/person/hanger, labels or newtext. Native canvas at least1374x1145 and >=450px percell bothdimensions.  Change only cloth and ink colour; keep the product identity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1748607,
+      "sha256": "cfda2d00069ad3ce2c46b2c3ff0dac949fd15c4d80aae2fd729e20fd45f226ab",
+      "frames": [
+        {
+          "x": 17,
+          "y": 32,
+          "width": 427,
+          "height": 473
+        },
+        {
+          "x": 34,
+          "y": 32,
+          "width": 399,
+          "height": 489
+        },
+        {
+          "x": 60,
+          "y": 28,
+          "width": 342,
+          "height": 499
+        },
+        {
+          "x": 91,
+          "y": 23.5,
+          "width": 273,
+          "height": 517
+        },
+        {
+          "x": 118,
+          "y": 23.5,
+          "width": 222,
+          "height": 522
+        },
+        {
+          "x": 131,
+          "y": 23.5,
+          "width": 215,
+          "height": 521
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/white/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-af3badc7-3ef3-4fe7-8e3e-2267257750d9.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour only reference1, this exact six-view photographic MiloShopHand Cloud Pullover atlas. All fabric including body, hood outside/lining, drawcords, ribs and cuffs becomes clean neutral off-white #f8f7f2, not cream/yellow or grey; use natural fabric shading with clearly defined edges against the unchanged warm ivory studio backdrop. All visible ML front and floral M + exact \"MiloShopHand\" back logos become nearblack #151515, crisp and strongly contrasting. This is LEFT profile towardback90..165degrees, with existing backlogo emerging. Preserve exactly all SIX original poses, folds, anatomy, logo positions/spelling, seams, cloth texture, lighting, upright Y-axis, scale and 3-column x2-row cell layout. No pitch/roll. Keep the full garment with clear margins in every own cell, no cross-cell parts. Photographic detail, never faceted3D/plastic. No mannequin/person/hanger, labels or newtext. Native canvas at least1374x1145 and >=450px percell bothdimensions. Reference2 is the approved WHITE frontquarter solely for colour/ink matching, not its poses. Change only cloth and ink colour; keep the product identity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1875829,
+      "sha256": "3e3b0260b622750cd32e138d17a719c460cb311b4f659b03724b56b5153470eb",
+      "frames": [
+        {
+          "x": 146,
+          "y": 20,
+          "width": 205,
+          "height": 503
+        },
+        {
+          "x": 106,
+          "y": 18,
+          "width": 222,
+          "height": 504
+        },
+        {
+          "x": 84,
+          "y": 16,
+          "width": 266,
+          "height": 504
+        },
+        {
+          "x": 79,
+          "y": 14.5,
+          "width": 314,
+          "height": 500
+        },
+        {
+          "x": 44,
+          "y": 14.5,
+          "width": 361,
+          "height": 494
+        },
+        {
+          "x": 30,
+          "y": 14.5,
+          "width": 397,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/white/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-986aa114-ddfa-409f-a55b-ca4e5592eb32.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour only reference1, this exact six-view photographic MiloShopHand Cloud Pullover atlas. All fabric including body, hood outside/lining, drawcords, ribs and cuffs becomes clean neutral off-white #f8f7f2, not cream/yellow or grey; use natural fabric shading with clearly defined edges against the unchanged warm ivory studio backdrop. All visible ML front and floral M + exact \"MiloShopHand\" back logos become nearblack #151515, crisp and strongly contrasting. This is BACK towardRIGHT profile180..255degrees, keep the exact rearbranding. Preserve exactly all SIX original poses, folds, anatomy, logo positions/spelling, seams, cloth texture, lighting, upright Y-axis, scale and 3-column x2-row cell layout. No pitch/roll. Keep the full garment with clear margins in every own cell, no cross-cell parts. Photographic detail, never faceted3D/plastic. No mannequin/person/hanger, labels or newtext. Native canvas at least1374x1145 and >=450px percell bothdimensions. Reference2 is the approved WHITE frontquarter solely for colour/ink matching, not its poses. Change only cloth and ink colour; keep the product identity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1845097,
+      "sha256": "460ffbd819813970734f08625e134e9de46d2cdabfeaa1e5698dd906b620bef6",
+      "frames": [
+        {
+          "x": 15,
+          "y": 26,
+          "width": 428,
+          "height": 483
+        },
+        {
+          "x": 33,
+          "y": 27,
+          "width": 401,
+          "height": 487
+        },
+        {
+          "x": 56,
+          "y": 26,
+          "width": 362,
+          "height": 494
+        },
+        {
+          "x": 88,
+          "y": 27.5,
+          "width": 305,
+          "height": 502
+        },
+        {
+          "x": 114,
+          "y": 28.5,
+          "width": 241,
+          "height": 506
+        },
+        {
+          "x": 119,
+          "y": 31.5,
+          "width": 200,
+          "height": 506
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-cloud-pullover/white/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-098a9605-5bff-44b2-80ac-0e80432f4e29.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour only reference1, this exact six-view photographic MiloShopHand Cloud Pullover atlas. All fabric including body, hood outside/lining, drawcords, ribs and cuffs becomes clean neutral off-white #f8f7f2, not cream/yellow or grey; use natural fabric shading with clearly defined edges against the unchanged warm ivory studio backdrop. All visible ML front and floral M + exact \"MiloShopHand\" back logos become nearblack #151515, crisp and strongly contrasting. This is opposite RIGHT profile towardfront270..345degrees; do NOT repeat firstquarterdirection. Preserve exactly all SIX original poses, folds, anatomy, logo positions/spelling, seams, cloth texture, lighting, upright Y-axis, scale and 3-column x2-row cell layout. No pitch/roll. Keep the full garment with clear margins in every own cell, no cross-cell parts. Photographic detail, never faceted3D/plastic. No mannequin/person/hanger, labels or newtext. Native canvas at least1374x1145 and >=450px percell bothdimensions. Reference2 is the approved WHITE frontquarter solely for colour/ink matching, not its poses. Change only cloth and ink colour; keep the product identity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1489167,
+      "sha256": "969b7ee07b19f3ec0850b266d12d82270c00b1b1c7f5a0d51c0de5af4556b02f",
+      "frames": [
+        {
+          "x": 126,
+          "y": 23,
+          "width": 210,
+          "height": 504
+        },
+        {
+          "x": 126,
+          "y": 23,
+          "width": 219,
+          "height": 504
+        },
+        {
+          "x": 99,
+          "y": 27,
+          "width": 264,
+          "height": 493
+        },
+        {
+          "x": 79,
+          "y": 27.5,
+          "width": 305,
+          "height": 491
+        },
+        {
+          "x": 55,
+          "y": 23.5,
+          "width": 343,
+          "height": 490
+        },
+        {
+          "x": 27,
+          "y": 18.5,
+          "width": 395,
+          "height": 486
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 generated images: white hoodie/ribs/drawcords, nearblack ML and floral M + exact MiloShopHand; upright clockwise four-quarter sequence, preserved photographic folds.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

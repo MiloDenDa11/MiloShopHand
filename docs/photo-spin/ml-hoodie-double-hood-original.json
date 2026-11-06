@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-double-hood",
+  "color": "original olive/beige nested doublehood",
+  "colorHex": "#555c50",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-double-hood.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-8c2ba787-8052-4c32-bb7a-db2050bce966.png",
+    "prompt": "Use case: product-mockup. Full24view photographicturntableGUIDE ofEXACTgarmentref1:deepolive #555c50 cottonfleece DOUBLE-HOOD PULLOVER with two distinct nested folded EMPTYhoods: oliveouterhood and lightbeige#d7cbb3 innerhood protruding higherbehindouterhood, NO drawcords, creamribcuffs/hem, kangaroopouch, droppedshoulderlongsleeves relaxedhangingarms, smallcreamMLleftchest, unchangedfoldedhoodshapeallangles. Preservedoublehoodstructure andoriginalcloth/cut/colour/pose. Ref2ONLYfloralM+exact\"MiloShopHand\" backbrandinlight cream #f4e7d0, ignoreburgundybg. EXACT6columns4rows equalcells no gutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseuprightverticalY fixedlevelcamera no pitchroll. Sameclothfolds/scalegroundall24 uniformivorybgsoftstudio light. Noduplicates/reverse/mirroredlogos ormisspelledtext. Realsoftfleece not3Dplasticmesh noperson/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-b3e4d0e1-7117-4c1e-a55e-872188906382.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-double-hood/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide extract/redrawONLYROW1frames0..5intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile, distinctsmallclockwisesteps. Ref2originalauthoritative:deepolive #555c50 cottonfleece DOUBLE-HOOD PULLOVER with two distinct nested folded EMPTYhoods: oliveouterhood and lightbeige#d7cbb3 innerhood protruding higherbehindouterhood, NO drawcords, creamribcuffs/hem, kangaroopouch, droppedshoulderlongsleeves relaxedhangingarms, smallcreamMLleftchest, unchangedfoldedhoodshapeallangles. PreserveEXACTtwo nestedEMPTYhoods(creaminner visiblyhigherbehindoliveouter), NOdrawcords, samecolour/cut/fleecefolds/scalegroundallcells. OriginalcreamMLfrontnaturallyforeshortens notmirrored, NO backbrandingyet. Fixedlevelcamera strictuprightverticalY no pitchroll. Canvas1536x1280orlarger6:5ratio >=450pxcellwidth EXACT3x2equalgrid nogutters/lines/labels, entiregarmentwith5%margin. Uniformpaleivorybgsoftstudio light noperson/mannequin/hanger, realsoftfleece not3Dplasticmesh.",
+      "sha256": "e245b097e13c2054cd66d741d61e513fa28f63768159c0df0b5b5803d81c43bf",
+      "bytes": 1644147,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 63,
+          "y": 24,
+          "width": 366,
+          "height": 546
+        },
+        {
+          "x": 62,
+          "y": 21,
+          "width": 342,
+          "height": 549
+        },
+        {
+          "x": 67,
+          "y": 21,
+          "width": 294,
+          "height": 549
+        },
+        {
+          "x": 106,
+          "y": 3.5,
+          "width": 279,
+          "height": 460
+        },
+        {
+          "x": 107,
+          "y": 3.5,
+          "width": 247,
+          "height": 467
+        },
+        {
+          "x": 106,
+          "y": 3.5,
+          "width": 213,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-231958ab-fe56-4151-837f-3a406aaed0a6.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-double-hood/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW2frames6..11intoEXACT3columns2rows:90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. SmallclockwiseYincrements noearlyfullyback180. Ref2originalauthoritative:deepolive #555c50 cottonfleece DOUBLE-HOOD PULLOVER with two distinct nested folded EMPTYhoods: oliveouterhood and lightbeige#d7cbb3 innerhood protruding higherbehindouterhood, NO drawcords, creamribcuffs/hem, kangaroopouch, droppedshoulderlongsleeves relaxedhangingarms, smallcreamMLleftchest, unchangedfoldedhoodshapeallangles. Ref3precedingfrontquadrantcontinue75→90preservecloth/colour/cut/folds/scaleground. Ref4ONLY floralM+exact\"MiloShopHand\" backbrandinlight cream #f4e7d0,ignoreburgundybg. Logo centeredupperbackbelowhood graduallyemergesafterprofile withcorrectperspective/occlusion, sameplacement/sizeallframes,nevermirrored/misspelled. KeepTWOdistinctnestedemptyhoods creaminnerprotrudinghigherbehindoliveouter, NOdrawcords. UprightverticalYfixedlevelcamera no pitchroll, paleivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin. Noperson/mannequin/hanger or3Dplasticmesh, softrealcloth.",
+      "sha256": "59c0d359a986b126a843f60d2e3691cd550cfaa9fa993ca2b51cb1789293b51c",
+      "bytes": 1800901,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 191,
+          "y": 15,
+          "width": 183,
+          "height": 456
+        },
+        {
+          "x": 154,
+          "y": 14,
+          "width": 201,
+          "height": 457
+        },
+        {
+          "x": 116,
+          "y": 14,
+          "width": 223,
+          "height": 457
+        },
+        {
+          "x": 140,
+          "y": 13,
+          "width": 265,
+          "height": 457
+        },
+        {
+          "x": 98,
+          "y": 14,
+          "width": 308,
+          "height": 456
+        },
+        {
+          "x": 72,
+          "y": 14,
+          "width": 336,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c9c68d9a-2e66-41d3-b71b-e84fdcfb3a37.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-double-hood/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW3frames12..17intoEXACT3columns2rows:180EXACTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. Smalldistinctclockwiseincrements no repeat/reverse. Ref2precedingatlas authoritativephotodetail:deepolive #555c50 cottonfleece DOUBLE-HOOD PULLOVER with two distinct nested folded EMPTYhoods: oliveouterhood and lightbeige#d7cbb3 innerhood protruding higherbehindouterhood, NO drawcords, creamribcuffs/hem, kangaroopouch, droppedshoulderlongsleeves relaxedhangingarms, smallcreamMLleftchest, unchangedfoldedhoodshapeallangles. Ref3ONLYfloralM+exact\"MiloShopHand\" backbrandinlight cream #f4e7d0,ignoreburgundybg. Matchref2 exactlogosize/layout/placement/typeface, naturallyforeshortening/occluding nevermirror. KeepTWOdistinctnestedemptyhoods creaminnerprotrudinghigherbehindoliveouter, NOdrawcords. Samecolour/cut/clothfolds/scalegroundallcells. Fixedlevelcamera uprightverticalY no pitchroll paleivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger orplastic3Dmesh.",
+      "sha256": "2e98fd241c17449f85b7239585538b5ba5ea83d27f2a92835c4b60158c5e5d47",
+      "bytes": 1689436,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 111,
+          "y": 17,
+          "width": 342,
+          "height": 443
+        },
+        {
+          "x": 111,
+          "y": 17,
+          "width": 296,
+          "height": 449
+        },
+        {
+          "x": 120,
+          "y": 17,
+          "width": 239,
+          "height": 452
+        },
+        {
+          "x": 177,
+          "y": 10,
+          "width": 218,
+          "height": 460
+        },
+        {
+          "x": 149,
+          "y": 11,
+          "width": 206,
+          "height": 460
+        },
+        {
+          "x": 135,
+          "y": 12,
+          "width": 194,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-98e5fded-a571-4e8f-9493-a9d964e71d53.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-double-hood/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photographic360atlas. Ref1 ONLYauthoritativeSIXPOSES copyorientationEXACT firsthoodbendsLEFT/frontonRIGHT. Replacecharcoalhoodie withEXACTolive DOUBLE-HOODhoodiefromref2:deepolive #555c50 cottonfleece DOUBLE-HOOD PULLOVER with two distinct nested folded EMPTYhoods: oliveouterhood and lightbeige#d7cbb3 innerhood protruding higherbehindouterhood, NO drawcords, creamribcuffs/hem, kangaroopouch, droppedshoulderlongsleeves relaxedhangingarms, smallcreamMLleftchest, unchangedfoldedhoodshapeallangles. Ref3preceding255rearquadrantforcontinuity. Ref4frontdetail doNOTcopyitsleftprofile. EXACT3columns2rows rowmajor270trueRIGHTPROFILE(hoodtipLEFT/frontedgeRIGHT),285,300,315,330,345nearfront. FrontemergesRIGHT/backdisappearsLEFT. CreamMLwearer'sleftchest(screenrightfront) nevermirror. KeepTWOdistinctnestedEMPTYhoodscreaminnerprotrudingaboveoliveouter, NOdrawcords; samecut/colour/clothfolds/scalegroundallcells. Fixedlevelcamera uprightverticalY no pitchroll paleivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "8cbbff6a30faaddee6db71c9e53697f9a2307a970527e3f0bcd9fd4dec1f00ed",
+      "bytes": 1921871,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 124,
+          "y": 18,
+          "width": 223,
+          "height": 502
+        },
+        {
+          "x": 116,
+          "y": 23,
+          "width": 224,
+          "height": 497
+        },
+        {
+          "x": 87,
+          "y": 24,
+          "width": 274,
+          "height": 494
+        },
+        {
+          "x": 89,
+          "y": 21.5,
+          "width": 319,
+          "height": 491
+        },
+        {
+          "x": 43,
+          "y": 22.5,
+          "width": 368,
+          "height": 488
+        },
+        {
+          "x": 18,
+          "y": 22.5,
+          "width": 404,
+          "height": 483
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "CreamfrontML and backfloralM+exactMiloShopHand inlight cream #f4e7d0.",
+    "loopContinuity": "Reviewedall24 and75→90/165→180/255→270/345→0, correctoppositesides/uprightY. Nestedcreaminner/oliveouterhood andnodrawcordspreserved. NominalAI angle estimates not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

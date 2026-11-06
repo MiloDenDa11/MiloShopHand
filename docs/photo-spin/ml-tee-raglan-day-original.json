@@ -1,0 +1,260 @@
+{
+  "slug": "ml-tee-raglan-day",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-raglan-day.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:54:45.186Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Pose references only, identity and fabric from product original plate."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-raglan-day/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-863a3c2d-f742-4855-9111-be400059dc7d.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixposeguide, copy its EXACT0,15,30,45,60,75degreefrontquadrantposes anddirection. Reference2 exactgarmentidentity: RaglanDayBasicTee, warmivory body #dad2be, darkolive #4d5949 crewneckandsleevebands, cottonjersey, relaxedfit withvisibleDIAGONALRAGLANseams fromcollartounderarms FRONTandBACK,shortsleeves/relaxedhem, smallinterwovenMLfrontLEFTchest. Replacecharcoalshirtguidewiththisdesign,no droppedshoulderseam (raglan). Keeporiginalphotorealclothtexture/drape. Sixdistinctposesfrontfirsttoleftprofilenearlast, NO backprint. \nEXACT3columns×2rows,allcellsidentical;nativecanvas1374×1145orsame6:5aspectlarger. Eachshirtentirelyinsideowncellwithminimum40pxmargins, garmentheight~440px bothrows; rowcentersy286and859, NOclothingcrossesy572midline. Samegarmentdimensions,fabricfolds,seams/logoplace/color,constantground/scale;fixedlevelcamera,verticalYrotationonly,no pitch/roll. Paleivorybackgroundsoftstudio,fullyvisiblegarments,no people/mannequin/hanger/borders/gutters/numbers/labels/extratext,notfaceted3D.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 36,
+          "y": 36,
+          "width": 414,
+          "height": 436
+        },
+        {
+          "x": 45,
+          "y": 32,
+          "width": 383,
+          "height": 443
+        },
+        {
+          "x": 57,
+          "y": 30,
+          "width": 327,
+          "height": 446
+        },
+        {
+          "x": 115,
+          "y": 18.5,
+          "width": 273,
+          "height": 464
+        },
+        {
+          "x": 100,
+          "y": 16.5,
+          "width": 247,
+          "height": 467
+        },
+        {
+          "x": 95,
+          "y": 16.5,
+          "width": 237,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-raglan-day/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-c86b3a42-84c6-431d-91ff-b3a1055d96a0.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixposeguide, copy EXACT90,105,120,135,150,165degreeorientation sequence fromtrueLEFTprofile to nearlyBACK. Reference2 exactgarmentidentity RaglanDayBasicTee warmivorybody #dad2be,darkolive #4d5949 crewneck&sleevebands,cottonjersey,relaxedfit withvisibleDIAGONALRAGLANseams collartounderarms FRONTandBACK,shortsleeves/relaxedhem. SmallMLonlyfrontleftchest;neverfrontMLonback. Reference3 floral M+exactMiloShopHand wordmark inDARKOLIVEupperback, ignoreburgundybackground; rearprintemergesandwidensasshirtturnsback. Replacecharcoalguidegarmentwiththisdesign, no droppedshoulderseam (raglan), keeporiginalphotorealcloth. No frontview inthisquadrant.\nLAYOUTexact3columns×2rowsnative1374×1145orsame6:5aspectlarger.All6garmentsfullyinsideequalcellswithminimum40pxclearivorymargins,garmentheight~440px bothrows,rowcentersy286and859,NOclothingcrossesy572midline. Samegarmentdimensions/folds/texture/seams/logo acrossallposes,verticalYonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,fullyvisiblecollarhemandsleeves,no people/mannequin/hanger/borders/gutters/numbers/labels/extratext,notfaceted3D. ExactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 130,
+          "y": 26,
+          "width": 228,
+          "height": 485
+        },
+        {
+          "x": 121,
+          "y": 27,
+          "width": 229,
+          "height": 485
+        },
+        {
+          "x": 88,
+          "y": 28,
+          "width": 277,
+          "height": 484
+        },
+        {
+          "x": 70,
+          "y": 29.5,
+          "width": 335,
+          "height": 484
+        },
+        {
+          "x": 38,
+          "y": 31.5,
+          "width": 373,
+          "height": 483
+        },
+        {
+          "x": 13,
+          "y": 31.5,
+          "width": 421,
+          "height": 483
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-raglan-day/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-375d9315-9406-4f89-9cac-5030fe126bcc.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixposeguide, copy EXACT180,195,210,225,240,255degreeorientation sequence trueBACK to nearlyRIGHTprofile. Reference2 exactgarmentidentity RaglanDayBasicTee warmivorybody #dad2be,darkolive #4d5949 crewneck&sleevebands,cottonjersey,relaxedfit withvisibleDIAGONALRAGLANseams collartounderarms FRONTandBACK,shortsleeves/relaxedhem. Reference3 floral M+exactMiloShopHand wordmark inDARKOLIVEupperback,ignoreburgundybackground. BackprintNARROWSandMOVESLEFTsideofimage asrotatingfromBACKtowardRIGHTprofile, lastnearprofilesleeveonRIGHTsideimagewithbackprintthinportiononleft. Do not reverseposeordrawlogoonthefront/far-rightedge. ReplacecharcoalguidegarmentwithRAGLANdesign, keeporiginalcloth,seams/colours/folds/sleeveposeconsistent.\nLAYOUTexact3columns×2rowsnative1374×1145orsame6:5aspectlarger. All6garmentsfullyinsideequalcellswithminimum40pxclearivorymargins,garmentheight~440pxbothrows,rowcentersy286and859. Bottomrowcollarsmuststarty620ormore,hemsendbefore1100,NOclothingcrossesy572midline. Samegarmentsizeandground,verticalYonly,fixedlevelcamera,nopitchroll. Paleivorysoftstudio,fullyvisiblecollarhemandsleeves,no people/mannequin/hanger/borders/gutters/numbers/labels/extratext,notfaceted3D. ExactMiloShopHandcapitalM S H,noreversedletters.",
+      "layoutPrompt": "Use case: precise-object-edit. Correct ONLY the row spacing in this six-photo native1374×1145 garmentcontactsheet. Preserve all sixshirtviewangles/shape/fabric/folds/raglanseams/ivorybody/oliveedge/floralM+exactMiloShopHandbackprint/lighting/background. Toprowunchanged. MOVE ENTIRE BOTTOM ROW DOWN65pixels: bottomcollarsnowneary560muststarty625;bottomhemsendneary1080,clear65pxbottommargin. Canvasremains1374×1145aspect6:5. Verticalmiddley572mustbeblankivory atleast45pxaboveandbelow;garmentscompletelyinside3×2equalcells, nocroppedcollar/hem/sleeve, nopartcrossesboundary. ThisisONLYlayoutpositioning,norotation/flip/scale/garmentdetailschange,no border/gutter/labels/extratext/person/mannequin/hanger.",
+      "layoutEdit": "Built-in ImageGen shifted lower row65px down to retain fullcollar/hem insidecells.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 34,
+          "y": 42,
+          "width": 416,
+          "height": 440
+        },
+        {
+          "x": 40,
+          "y": 41,
+          "width": 394,
+          "height": 441
+        },
+        {
+          "x": 59,
+          "y": 38,
+          "width": 345,
+          "height": 445
+        },
+        {
+          "x": 96,
+          "y": 60.5,
+          "width": 312,
+          "height": 464
+        },
+        {
+          "x": 119,
+          "y": 60.5,
+          "width": 244,
+          "height": 466
+        },
+        {
+          "x": 108,
+          "y": 60.5,
+          "width": 234,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-raglan-day/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-261eef9b-6c7f-402b-a788-5eab75951b42.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixposeguide, copy EXACT270,285,300,315,330,345degreeorientation sequence trueRIGHTprofile returningtowardnearlyFRONTfromoppositesideof0..75quadrant. Reference2 exactgarmentidentity RaglanDayBasicTee warmivorybody #dad2be,darkolive #4d5949 crewneck&sleevebands,cottonjersey,relaxedfit withvisibleDIAGONALRAGLANseams collartounderarms FRONTandBACK,shortsleeves/relaxedhem. SmallMLfrontLEFTchest: first2profileviewsMLhiddenfarside, appearsatRIGHTsideofgarmentimageasfrontreturnsinlast3views. NearsleeveopeningonLEFTsideofimage likeposeguide, notright; do NOT mirror frontlogo. ReplacecharcoalguidegarmentwithRAGLANdesign. Keeporiginalclothtexture/drape,seams/colours/folds/sleeveposeconsistent, no backprint.\nLAYOUTexact3columns×2rowsnative1374×1145orsame6:5aspectlarger.All6garmentsfullyinsideequalcellswithminimum40pxclearivorymargins,garmentheight~440pxbothrows,rowcentersy286and859. No crossingy572midline,samegarmentsizeandground,verticalYonly,fixedlevelcamera,nopitchroll. Paleivorysoftstudio,fullyvisiblecollarhemandsleeves,no people/mannequin/hanger/borders/gutters/numbers/labels/extratext,notfaceted3D.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 132,
+          "y": 29,
+          "width": 210,
+          "height": 478
+        },
+        {
+          "x": 110,
+          "y": 27,
+          "width": 235,
+          "height": 480
+        },
+        {
+          "x": 84,
+          "y": 26,
+          "width": 268,
+          "height": 481
+        },
+        {
+          "x": 73,
+          "y": 29.5,
+          "width": 320,
+          "height": 477
+        },
+        {
+          "x": 45,
+          "y": 31.5,
+          "width": 362,
+          "height": 474
+        },
+        {
+          "x": 19,
+          "y": 33.5,
+          "width": 412,
+          "height": 471
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 native views inspected. Warmivory body, olive trim, diagonal raglan seams and no shoulderpatch seam; frontML/backfloralMiloShopHand contrasting olive. Full upright Y turn, correct opposite-side return. Part2 layout repaired with ImageGen so lowerrowcollars do notcrosscellboundary.",
+    "limitations": "AI nominal view angles, not calibrated camera measurements."
+  }
+}

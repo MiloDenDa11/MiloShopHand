@@ -1,0 +1,487 @@
+{
+  "tool": "built-in imagegen",
+  "generated": 60,
+  "intended": 60,
+  "assets": [
+    {
+      "slug": "ml-tee-everyday-crew",
+      "image": "/collection-ai/ml-tee-everyday-crew.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1774850,
+      "sha256": "edceeaef86d9076076c9359b90a31df0e7543dc10f30bd2aed6b9ccf73ccf919"
+    },
+    {
+      "slug": "ml-tee-heavy-box",
+      "image": "/collection-ai/ml-tee-heavy-box.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1701608,
+      "sha256": "689292ff93a280ef45a41ba187d46637414c607911b14580da05608e2e2b88ee"
+    },
+    {
+      "slug": "ml-tee-wide-neck",
+      "image": "/collection-ai/ml-tee-wide-neck.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2123601,
+      "sha256": "100a7b8bdba8da62b610fda9f4159b3c53f3d30c8fdc4bd9e233270b9efd7168"
+    },
+    {
+      "slug": "ml-tee-rib-neck",
+      "image": "/collection-ai/ml-tee-rib-neck.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2051355,
+      "sha256": "234a444b771737e691e5980866551d393c131804e6de5b474a1fd4adba74a26b"
+    },
+    {
+      "slug": "ml-tee-pocket-study",
+      "image": "/collection-ai/ml-tee-pocket-study.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2237047,
+      "sha256": "b27ed9d694ef2122815b23269d971d7a101993b6eb47e2bfb8718313ef6329f8"
+    },
+    {
+      "slug": "ml-tee-raglan-day",
+      "image": "/collection-ai/ml-tee-raglan-day.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1823431,
+      "sha256": "494a7e15a137450ae15404ecc1a0665239e79240dc6c195a1729ecfaa5e25d06"
+    },
+    {
+      "slug": "ml-tee-double-hem",
+      "image": "/collection-ai/ml-tee-double-hem.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1792745,
+      "sha256": "42924e08566bed6a63de467ef490f52f190ae55ad62ec052a87af269822d635f"
+    },
+    {
+      "slug": "ml-tee-mock-neck",
+      "image": "/collection-ai/ml-tee-mock-neck.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1912012,
+      "sha256": "3929ca9ca1aef9d1e375b2c9475a8a71b9b120053aae437e92d4f48d32577e27"
+    },
+    {
+      "slug": "ml-tee-slit-side",
+      "image": "/collection-ai/ml-tee-slit-side.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1955408,
+      "sha256": "c5f08661dd40fa3d6a9eb487c648d71b39c35cada87d09a14f673ec6ded7a9d1"
+    },
+    {
+      "slug": "ml-tee-athletic-ringer",
+      "image": "/collection-ai/ml-tee-athletic-ringer.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1639311,
+      "sha256": "bda0c73b283826ac26c934ff09c492493d9d7d341ab611a250d57e29de8a6d29"
+    },
+    {
+      "slug": "ml-tee-drop-shoulder",
+      "image": "/collection-ai/ml-tee-drop-shoulder.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1980194,
+      "sha256": "d85ba6a5f4d718bc3222551c356978ea3d1a2edaef3df3829d96017408f7ccd0"
+    },
+    {
+      "slug": "ml-tee-longline-basic",
+      "image": "/collection-ai/ml-tee-longline-basic.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1843986,
+      "sha256": "25102985764c2d8660823ee58bc509211c840f2c3d0303786d5738dda8d7f3db"
+    },
+    {
+      "slug": "ml-tee-split-panel",
+      "image": "/collection-ai/ml-tee-split-panel.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1927685,
+      "sha256": "719783a06245cc31e4127c8132beea368d117734b0ac9de81cf4e1065ac385d9"
+    },
+    {
+      "slug": "ml-tee-henley-three",
+      "image": "/collection-ai/ml-tee-henley-three.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1779498,
+      "sha256": "42e8bcdca438917f291916e282e293adfbd5795179a50fae85069fc1d0e25e80"
+    },
+    {
+      "slug": "ml-tee-breton-line",
+      "image": "/collection-ai/ml-tee-breton-line.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1881411,
+      "sha256": "1b31351569072b95bf46892617f3844f23dda439edaa0485fa48e1ee569003c9"
+    },
+    {
+      "slug": "ml-jacket-field-four",
+      "image": "/collection-ai/ml-jacket-field-four.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2165509,
+      "sha256": "037f424aca1f2850dc2619946cf03f51c6e11576120aae94eec6886fb5b59455"
+    },
+    {
+      "slug": "ml-jacket-coach-snap",
+      "image": "/collection-ai/ml-jacket-coach-snap.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1812710,
+      "sha256": "2f44c8f74d5c578824b33109c2efd948769c994f7253ecc1ba8a7f279f25f8d6"
+    },
+    {
+      "slug": "ml-jacket-city-shell",
+      "image": "/collection-ai/ml-jacket-city-shell.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2059793,
+      "sha256": "9de6e2273d2d49df255c3c57f74bf9bbdb08043f1bce79f2a59d5ba552b4dc24"
+    },
+    {
+      "slug": "ml-jacket-utility-zip",
+      "image": "/collection-ai/ml-jacket-utility-zip.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2269901,
+      "sha256": "dc45b111ad6b5205b7ec0a2f01a7e49a1e863ab16a0d972e8ee152d8a88bdf91"
+    },
+    {
+      "slug": "ml-jacket-denim-work",
+      "image": "/collection-ai/ml-jacket-denim-work.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2717246,
+      "sha256": "3a20608a8cb004dd077736f10dcd518da188bc6bb630ee9fac49a2df840c190c"
+    },
+    {
+      "slug": "ml-jacket-chore-three",
+      "image": "/collection-ai/ml-jacket-chore-three.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2635502,
+      "sha256": "e3cde118882496067e1fc4fff38870ac7808ceebbaca508b2562dc94815a060f"
+    },
+    {
+      "slug": "ml-jacket-rain-fold",
+      "image": "/collection-ai/ml-jacket-rain-fold.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1910058,
+      "sha256": "26244791b0a04b4e01c655297d33ad5429a8022c04f81adf489384e824e2c9f5"
+    },
+    {
+      "slug": "ml-jacket-racer-clean",
+      "image": "/collection-ai/ml-jacket-racer-clean.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1878717,
+      "sha256": "3a57c04d40da49e54f98c49a7d72404363efd455a0b35903879d4f5838bdce58"
+    },
+    {
+      "slug": "ml-jacket-safari-belt",
+      "image": "/collection-ai/ml-jacket-safari-belt.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2003323,
+      "sha256": "4e30dabaf3086d28a742af56dd9f1d293b4f89271b267431736e234c946aa879"
+    },
+    {
+      "slug": "ml-jacket-track-stripe",
+      "image": "/collection-ai/ml-jacket-track-stripe.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1715678,
+      "sha256": "bfd8b66acbfb54ad2b3e1097840f7d6e2ded366ad083575a3647e51fd000b1b7"
+    },
+    {
+      "slug": "ml-jacket-quilt-light",
+      "image": "/collection-ai/ml-jacket-quilt-light.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2044493,
+      "sha256": "7c3fa52e5e474cf00a48b87131dc79c5af140df2a94a04151f44b5e508df95b0"
+    },
+    {
+      "slug": "ml-jacket-panel-wind",
+      "image": "/collection-ai/ml-jacket-panel-wind.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1946456,
+      "sha256": "866a87ff2fea61d846daa37d7d4aa82645cef1f9ec6841a10da80893bae83171"
+    },
+    {
+      "slug": "ml-jacket-shirt-oversize",
+      "image": "/collection-ai/ml-jacket-shirt-oversize.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2175878,
+      "sha256": "deadb69549457045f417a328f2faa4ea5f44aff10d3bd2fb7cc0f8bb55ab5d0b"
+    },
+    {
+      "slug": "ml-jacket-anorak-half",
+      "image": "/collection-ai/ml-jacket-anorak-half.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1945040,
+      "sha256": "e8eeeceab8a2eddc25b2665011660b1b51cc37e3ee0efdc681980a305ad71502"
+    },
+    {
+      "slug": "ml-jacket-minimal-collar",
+      "image": "/collection-ai/ml-jacket-minimal-collar.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2028983,
+      "sha256": "55f22da47cc76d25e615153afad1c9acca8ab814fe0ab7073b644a1221d92956"
+    },
+    {
+      "slug": "ml-bomber-flight-ma1",
+      "image": "/collection-ai/ml-bomber-flight-ma1.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1905167,
+      "sha256": "a153bc1d6df9fee90576ef71738a043de95fb216a7358e8b111ada34f3cd55c9"
+    },
+    {
+      "slug": "ml-bomber-varsity-club",
+      "image": "/collection-ai/ml-bomber-varsity-club.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2071881,
+      "sha256": "6ab574bb65deab889ec7715fe00e2b52f7afedc215343a13298b97a949144cd3"
+    },
+    {
+      "slug": "ml-bomber-suede-dusk",
+      "image": "/collection-ai/ml-bomber-suede-dusk.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2195854,
+      "sha256": "866ff6218661b7409cf561bcb39fc93fca824008e5b29e0f49734d9db1b8eb77"
+    },
+    {
+      "slug": "ml-bomber-satin-evening",
+      "image": "/collection-ai/ml-bomber-satin-evening.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1808113,
+      "sha256": "ff257b3b06b0de2e2cd86749989427122459f3c23f7b02e24bcaf34d795d4cb6"
+    },
+    {
+      "slug": "ml-bomber-quilt-pilot",
+      "image": "/collection-ai/ml-bomber-quilt-pilot.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2032322,
+      "sha256": "2ecfd57992c76c0b9a91260adf2fa7375d3695ab2f1cb950cc55dd03f27124fa"
+    },
+    {
+      "slug": "ml-bomber-cropped-flight",
+      "image": "/collection-ai/ml-bomber-cropped-flight.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1780942,
+      "sha256": "e76063154a09984b704bb08367ec6edd865bdb4904296831197f329966e49e02"
+    },
+    {
+      "slug": "ml-bomber-contrast-sleeve",
+      "image": "/collection-ai/ml-bomber-contrast-sleeve.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2058800,
+      "sha256": "bbf7cb062be9066dce5928a543372c4b8aa8997e94283948d29544489cc1b5d1"
+    },
+    {
+      "slug": "ml-bomber-pocket-pilot",
+      "image": "/collection-ai/ml-bomber-pocket-pilot.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1976735,
+      "sha256": "582de08c20fa8dd2ba366865f4907b732c4ca40752e0262b39d9d235376f969c"
+    },
+    {
+      "slug": "ml-bomber-heritage-baseball",
+      "image": "/collection-ai/ml-bomber-heritage-baseball.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2252515,
+      "sha256": "44670a324409e1935dce7e4b12c39487003eccbde921a287ebfc83209074588b"
+    },
+    {
+      "slug": "ml-bomber-collar-flight",
+      "image": "/collection-ai/ml-bomber-collar-flight.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1914988,
+      "sha256": "cc5ed8c31af8e558cb065144e85815ef01be7f6e78b954eba91243b3d82a714a"
+    },
+    {
+      "slug": "ml-bomber-zip-arm",
+      "image": "/collection-ai/ml-bomber-zip-arm.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2006876,
+      "sha256": "f1e62e0644650e14fed55a05bc0444cf54aeef03ca85445e845600d12a46df5c"
+    },
+    {
+      "slug": "ml-bomber-rib-stripe",
+      "image": "/collection-ai/ml-bomber-rib-stripe.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1949180,
+      "sha256": "73be53cfd05251ef85b0d10fca865ea72f90f95ef82e8b3f4a23696f7b7bc343"
+    },
+    {
+      "slug": "ml-bomber-soft-cord",
+      "image": "/collection-ai/ml-bomber-soft-cord.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2275711,
+      "sha256": "98c623691fa92b65d2117aa615cc462ace40cdc949799b18a62d1476cb3aed89"
+    },
+    {
+      "slug": "ml-bomber-sport-chevron",
+      "image": "/collection-ai/ml-bomber-sport-chevron.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1923697,
+      "sha256": "261788ad2142d2b77f24e4cc71325692517b32421ab1ed349c80cee175e69029"
+    },
+    {
+      "slug": "ml-bomber-reversible-day",
+      "image": "/collection-ai/ml-bomber-reversible-day.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1910008,
+      "sha256": "bc24af336f0c790574a0d16eac223d7d629f2f657dbfd0c13090c850346e5a3b"
+    },
+    {
+      "slug": "ml-hoodie-cloud-pullover",
+      "image": "/collection-ai/ml-hoodie-cloud-pullover.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2011671,
+      "sha256": "cace950867cd4a09bf2750402e7837785906fff61df93b08826d43f44dea4b4d"
+    },
+    {
+      "slug": "ml-hoodie-zip-everyday",
+      "image": "/collection-ai/ml-hoodie-zip-everyday.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1953467,
+      "sha256": "3df3536de3d22ecf144c351c9654d36b0a9664d787747ab292b063b32e30b4b0"
+    },
+    {
+      "slug": "ml-hoodie-heavy-crop",
+      "image": "/collection-ai/ml-hoodie-heavy-crop.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2076812,
+      "sha256": "731e5e381fd0b1a18a9a87b4170c95c6c6eae0758a545556797b3339f566b2f9"
+    },
+    {
+      "slug": "ml-hoodie-raglan-comfort",
+      "image": "/collection-ai/ml-hoodie-raglan-comfort.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2022296,
+      "sha256": "62fd33955bfad1bf37ad5d166391f02d0f8bd0711c05b561a6cdfb55e69cbea4"
+    },
+    {
+      "slug": "ml-hoodie-half-zip-studio",
+      "image": "/collection-ai/ml-hoodie-half-zip-studio.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1907190,
+      "sha256": "4fc7e25c1e46e6168b4137b2cb401768e1021cc221af5331c8285dfa2e81d667"
+    },
+    {
+      "slug": "ml-hoodie-panel-hood",
+      "image": "/collection-ai/ml-hoodie-panel-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2103358,
+      "sha256": "a16415a86995bf443223facb35410fc701897ea57007c806a1070922a4444d79"
+    },
+    {
+      "slug": "ml-hoodie-raw-edge",
+      "image": "/collection-ai/ml-hoodie-raw-edge.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2179559,
+      "sha256": "796f419ad790621ec6d55e139ad40f196c795f104f060e18c15fedb7ccaa801d"
+    },
+    {
+      "slug": "ml-hoodie-side-zip",
+      "image": "/collection-ai/ml-hoodie-side-zip.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2165906,
+      "sha256": "15de47d0366d3d07d87bf2380f58ba3dbd468225b4eb02536c41a0d3718f75f7"
+    },
+    {
+      "slug": "ml-hoodie-waffle-layer",
+      "image": "/collection-ai/ml-hoodie-waffle-layer.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2436214,
+      "sha256": "e5cdb347e0aef8493300f9cd009781fdc1375a29c4b0892e5cf8adc827153e35"
+    },
+    {
+      "slug": "ml-hoodie-double-hood",
+      "image": "/collection-ai/ml-hoodie-double-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2039501,
+      "sha256": "94c918e85ace85ada222d260b2c5397e0c45128b2bce72ad966fbd5a1c4fbb35"
+    },
+    {
+      "slug": "ml-hoodie-drop-shoulder-hood",
+      "image": "/collection-ai/ml-hoodie-drop-shoulder-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2112361,
+      "sha256": "eec04b9f8d9250cc1d56a4603c25c7b0866314aa738ea71910a7729ea8065569"
+    },
+    {
+      "slug": "ml-hoodie-zip-pocket-hood",
+      "image": "/collection-ai/ml-hoodie-zip-pocket-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1884874,
+      "sha256": "fb563258b8b8f51ce93b119f625bf75cafabdcc832559e1bdc2820eee0e86d40"
+    },
+    {
+      "slug": "ml-hoodie-longline-hood",
+      "image": "/collection-ai/ml-hoodie-longline-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1724289,
+      "sha256": "2e756ef5459998f42999a11cace42092dc356aa516a910fe7fa0a509f0bd6f00"
+    },
+    {
+      "slug": "ml-hoodie-rib-side-hood",
+      "image": "/collection-ai/ml-hoodie-rib-side-hood.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2041393,
+      "sha256": "69c9656e38a27684487e9d55c4e2b5d288c58dccc1b96ba2a2b7b272e3cfbbd0"
+    },
+    {
+      "slug": "ml-hoodie-minimal-no-pocket",
+      "image": "/collection-ai/ml-hoodie-minimal-no-pocket.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1856599,
+      "sha256": "8fffe2768a6b2e36f1c73d950db91af1ebb33a71e23513700728103dc5949605"
+    }
+  ]
+}

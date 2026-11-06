@@ -1,0 +1,259 @@
+{
+  "slug": "ml-tee-longline-basic",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-longline-basic.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T12:32:38.580Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-longline-basic/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-afc62a18-0918-4b1a-aed0-7694516a2d21.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copyEXACT0,15,30,45,60,75degreefrontquadrant orientationsanddirection. Replacecharcoalshirtwith EXACT Longline Basic Tee from reference2: dark bluecharcoal teal body #303b3b, cottonjersey relaxedfit, distinctlyLONGLINEstraightbody (bodylonger/narrowerthanwideboxytee), droppedshoulder short sleeves, beige #d6c6b1 crewneck/sleevebands, longstraighthem. SmallbeigeinterwovenMLfrontLEFTchest,no pockets/splits/layeredhem. Preserveoriginalcut/fabric/drape/folds/colours. FrontfirstprogressivelyLEFTprofilelast,NO backprintinfrontquadrant. Samegarmentconstruction/longbody/folds/sleevepose/colour/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Entiregarmentsinsideequalcells min40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingmidliney572. VerticalYrotationonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonqualitylikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Allcollars/sleeves/LONGhemsfullyvisible.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 44,
+          "y": 36,
+          "width": 405,
+          "height": 489
+        },
+        {
+          "x": 52,
+          "y": 29,
+          "width": 372,
+          "height": 499
+        },
+        {
+          "x": 63,
+          "y": 27,
+          "width": 325,
+          "height": 502
+        },
+        {
+          "x": 117,
+          "y": 15.5,
+          "width": 273,
+          "height": 517
+        },
+        {
+          "x": 107,
+          "y": 15.5,
+          "width": 243,
+          "height": 518
+        },
+        {
+          "x": 98,
+          "y": 15.5,
+          "width": 231,
+          "height": 518
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-longline-basic/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-44b79c3e-945d-49ab-bd68-5f4af614a3eb.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT90,105,120,135,150,165degreeorientations trueLEFTprofile progressivelyBACK. Backprintemergesandwidens,nofrontviews. Reference2 EXACT Longline Basic Tee from reference2: dark bluecharcoal teal body #303b3b, cottonjersey relaxedfit, distinctlyLONGLINEstraightbody (bodylonger/narrowerthanwideboxytee), droppedshoulder short sleeves, beige #d6c6b1 crewneck/sleevebands, longstraighthem. SmallbeigeinterwovenMLfrontLEFTchest,no pockets/splits/layeredhem. Preserveoriginalcut/fabric/drape/folds/colours. Reference3floral M+exactMiloShopHandwordmark printLIGHTBEIGE #d6c6b1 upperBACK,ignoreburgundybackground. Samegarmentlongbody/texture/folds/seams/sleevepose/colors/logoplaceall6,smallMLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/LONGhemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 149,
+          "y": 24,
+          "width": 186,
+          "height": 510
+        },
+        {
+          "x": 133,
+          "y": 25,
+          "width": 208,
+          "height": 509
+        },
+        {
+          "x": 98,
+          "y": 26,
+          "width": 257,
+          "height": 508
+        },
+        {
+          "x": 73,
+          "y": 29.5,
+          "width": 326,
+          "height": 512
+        },
+        {
+          "x": 41,
+          "y": 30.5,
+          "width": 367,
+          "height": 511
+        },
+        {
+          "x": 18,
+          "y": 32.5,
+          "width": 412,
+          "height": 509
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-longline-basic/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8a618060-337c-4adf-aa77-3489f62a1402.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguideandgoodlayout,copy EXACT180,195,210,225,240,255orientations trueBACKtowardnearlyRIGHTprofile. BackprintNARROWSandMOVESLEFTsideimage,nearsleeveRIGHTsideimage,NOfrontviews. Reference2 EXACT Longline Basic Tee from reference2: dark bluecharcoal teal body #303b3b, cottonjersey relaxedfit, distinctlyLONGLINEstraightbody (bodylonger/narrowerthanwideboxytee), droppedshoulder short sleeves, beige #d6c6b1 crewneck/sleevebands, longstraighthem. SmallbeigeinterwovenMLfrontLEFTchest,no pockets/splits/layeredhem. Preserveoriginalcut/fabric/drape/folds/colours. Reference3floral M+exactMiloShopHandwordmark printLIGHTBEIGE #d6c6b1 upperBACK,ignoreburgundybackground. SamegarmentLONGbody/fabric/folds/seams/sleevepose/colours/logoplaceall6,MLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Copyreference1positions:wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,nocrossingmidliney572. VerticalYonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/LONGhemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "alignmentEditPrompt": "Use case: precise-object-edit. Correct ONLY the REAR LOGO POSITION in this six-view Longline Tee contact sheet. In FIRST CELL (top left, true180degree BACK), entire floral M + MiloShopHand mark is too far left: move it about45pixels RIGHT to center it exactly between left and right shoulder seams, aligned with centerback neckline/hem. Keep same logo size/design/inkcolor. In remaining angled rear views, position logo on the SAME CENTER BACK location and wrap/project naturally with perspective, NEVER on front/side/leftshoulder. Backlogo should occupy about45%ofbackpanelwidth, same physicalsize all6. Keep EXACT wordmark MiloShopHand, capitalM S H and floral M.\nPreserve allgarment darkteal #303b3b cloth,color,beige collar/sleevebands, longbody shape/folds/seams/sleevepose/180..255 angle sequence, background/light, scaleandlayout. No changes except logo alignment; no shiftinggarments, no mirroredtext, no extrabranding/borders/labels. Keep3columns×2rows native1374×1145, allcollars/hems remain fully insidecells.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 40,
+          "y": 38,
+          "width": 400,
+          "height": 493
+        },
+        {
+          "x": 47,
+          "y": 39,
+          "width": 375,
+          "height": 492
+        },
+        {
+          "x": 67,
+          "y": 36,
+          "width": 328,
+          "height": 496
+        },
+        {
+          "x": 103,
+          "y": 48.5,
+          "width": 296,
+          "height": 494
+        },
+        {
+          "x": 122,
+          "y": 48.5,
+          "width": 234,
+          "height": 494
+        },
+        {
+          "x": 120,
+          "y": 48.5,
+          "width": 210,
+          "height": 496
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-longline-basic/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f7de0e4e-e4d1-49a0-86d9-6753274f0370.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT270,285,300,315,330,345orientations trueRIGHTprofile progressivelyFRONT. Opposite returnside: nearsleeveopeningLEFTsideimage,frontMLhiddenfirst2views,MLappearsRIGHTsideimageinlast3views,nevermirrorlogos. Reference2 EXACT Longline Basic Tee from reference2: dark bluecharcoal teal body #303b3b, cottonjersey relaxedfit, distinctlyLONGLINEstraightbody (bodylonger/narrowerthanwideboxytee), droppedshoulder short sleeves, beige #d6c6b1 crewneck/sleevebands, longstraighthem. SmallbeigeinterwovenMLfrontLEFTchest,no pockets/splits/layeredhem. Preserveoriginalcut/fabric/drape/folds/colours. No backprintinthisfrontreturnquadrant,samegarmentLONGbody/fabric/folds/seams/sleevepose/colours/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Entiregarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonqualitylikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/LONGhemsvisibleineachcell.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 140,
+          "y": 24,
+          "width": 183,
+          "height": 512
+        },
+        {
+          "x": 111,
+          "y": 25,
+          "width": 224,
+          "height": 511
+        },
+        {
+          "x": 88,
+          "y": 25,
+          "width": 256,
+          "height": 511
+        },
+        {
+          "x": 82,
+          "y": 31.5,
+          "width": 300,
+          "height": 510
+        },
+        {
+          "x": 47,
+          "y": 32.5,
+          "width": 352,
+          "height": 509
+        },
+        {
+          "x": 20,
+          "y": 33.5,
+          "width": 405,
+          "height": 508
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews inspected: darktealcharcoal cotton, beige trim, distinctive longline silhouette preserved. Contrasting beige frontML and floralM+exactMiloShopHandrear. Part2 rearlogo firstcell initiallyoffcenter, corrected centerback viaImageGen. FulluprightYturn/oppositereturn, fullgarmentsinsidecells.",
+    "limitations": "AI nominal views, not calibrated camera angles."
+  }
+}

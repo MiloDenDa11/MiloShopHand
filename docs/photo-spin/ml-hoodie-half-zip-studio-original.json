@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-half-zip-studio",
+  "color": "original greige/olive",
+  "colorHex": "#c3c0ad",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-half-zip-studio.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-15e893f2-a610-4f3d-a14e-f4d26f33c0f2.png",
+    "prompt": "Use case: product-mockup. Full 24-view photographic turntable GUIDE of EXACT garment reference1: greige #c3c0ad cotton fleece with dark olive #4d5948 hood binding, ribbed cuffs and hem, HALF-length chest zipper ends above kangaroo pouch (never full-zip), NO drawcords as original, dropped shoulder sleeves, relaxed fit, original darkolive ML leftchest, natural empty folded hood. Preserve all cloth detail, colour, cut and pose. Reference2 is ONLY floral M above exact \"MiloShopHand\" back branding in dark olive #263322 for strong contrast, ignore burgundy backdrop. Regular6columns4rows no gutters/lines/labels. Row1 0,15,30,45,60,75; row2 90,105,120,135,150,165; row3 180,195,210,225,240,255; row4 270,285,300,315,330,345. Frame0 exactfront,6 leftprofile,12 exactback,18 rightprofile. Continuous clockwise rotation STRICTLY uprightverticalY, fixedlevelcamera no pitchroll. Uniformivorybackground softstudio light samegarmentscale/ground/folds all24. No repeated angles, directionreversal, mirroredlogos or inaccurate text. Photoreal softcloth NOT plastic3Dmesh, noperson/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-94884352-a63d-41e5-8e26-4118d283d78f.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-half-zip-studio/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas of exact garment. Image1 full24viewguide: extract/redraw ONLY ROW1 globalframes0..5 into exact3columns2rows. Rowmajor sequence: 0 exactSTRAIGHTFRONT,15,30,45 frontthreequarter,60,75 almostLEFTprofile. Preserveguideposes withdistinctsmallsteps, notjumps or exaggerated turns. Image2 authoritative highdetail ORIGINALgarment: greige #c3c0ad cotton fleece with dark olive #4d5948 hood binding, ribbed cuffs and hem, HALF-length chest zipper ends above kangaroo pouch (never full-zip), NO drawcords as original, dropped shoulder sleeves, relaxed fit, original darkolive ML leftchest, natural empty folded hood. Preserve exactclothfolds, cut, colour, seams, hoodshape, scale andground. FrontMLmarkinoriginalcolour. Back floralM+exact\"MiloShopHand\" indark olive #263322, naturallyforeshortens/occludes, nevermirrored. SameclockwiseuprightY rotation, fixedlevelcamera no pitchroll. Nativecanvas1536x1280orlarger6:5ratio >=450pxwidecells. EXACTequal3x2grid nogutters/lines/labels, eachgarmentfullyvisiblewith5%margin, uniformivorybackgroundsoftstudiolight. Noperson/mannequin/hanger, photorealsoftcloth not3Dmesh/plastic. ThisfrontquadrantshowsNO backbranding yet.",
+      "sha256": "daeec48af2ad4e27a50356d2a20a25fe28463573ccad234cefedb06c58be4140",
+      "bytes": 1716843,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 76,
+          "y": 17,
+          "width": 378,
+          "height": 418
+        },
+        {
+          "x": 73,
+          "y": 18,
+          "width": 359,
+          "height": 421
+        },
+        {
+          "x": 93,
+          "y": 19,
+          "width": 310,
+          "height": 425
+        },
+        {
+          "x": 145,
+          "y": 19,
+          "width": 248,
+          "height": 436
+        },
+        {
+          "x": 148,
+          "y": 17,
+          "width": 212,
+          "height": 440
+        },
+        {
+          "x": 139,
+          "y": 15,
+          "width": 203,
+          "height": 443
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c70eff7a-0680-4abe-b6ea-9012206d9255.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-half-zip-studio/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas of exact garment. Image1 full24viewguide: extract/redraw ONLY ROW2 globalframes6..11 into exact3columns2rows. Rowmajor sequence: 90 trueLEFTPROFILE,105,120,135 rearleftthreequarter,150,165 nearlyback. Preserveguideposes withdistinctsmallsteps, notjumps or exaggerated turns. Image2 authoritative highdetail ORIGINALgarment: greige #c3c0ad cotton fleece with dark olive #4d5948 hood binding, ribbed cuffs and hem, HALF-length chest zipper ends above kangaroo pouch (never full-zip), NO drawcords as original, dropped shoulder sleeves, relaxed fit, original darkolive ML leftchest, natural empty folded hood. Image3 precedingfrontquadrant, continue75→90 smoothly. Image4 backbranding floralM+exact\"MiloShopHand\" indark olive #263322, ignoreburgundybackdrop. Preserve exactclothfolds, cut, colour, seams, hoodshape, scale andground. Backlogonaturallyemergesfromside, correctperspective/occlusion; nevermirrored. SameclockwiseuprightY rotation fixedlevelcamera no pitchroll. Nativecanvas1536x1280orlarger6:5ratio >=450pxwidecells. EXACTequal3x2grid nogutters/lines/labels, eachgarmentfullyvisiblewith5%margin, uniformivorybackgroundsoftstudiolight. Noperson/mannequin/hanger, photorealsoftcloth not3Dmesh/plastic.",
+      "sha256": "0d86b768efd72ff001a433423f41f743af080bc8da8d3e35d9aea15e39f3b28f",
+      "bytes": 1858483,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 187,
+          "y": 17,
+          "width": 185,
+          "height": 453
+        },
+        {
+          "x": 145,
+          "y": 16,
+          "width": 209,
+          "height": 454
+        },
+        {
+          "x": 108,
+          "y": 16,
+          "width": 240,
+          "height": 454
+        },
+        {
+          "x": 106,
+          "y": 16,
+          "width": 300,
+          "height": 462
+        },
+        {
+          "x": 62,
+          "y": 16,
+          "width": 355,
+          "height": 459
+        },
+        {
+          "x": 42,
+          "y": 16,
+          "width": 403,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-1a96eb3f-3e45-4876-95e3-dc23b115f54e.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-half-zip-studio/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas of exact garment. Image1 full24viewguide: extract/redraw ONLY ROW3 globalframes12..17 into exact3columns2rows. Rowmajor sequence: 180 exactSTRAIGHTBACKsymmetric,195,210,225 rearoppositethreequarter,240,255 almostRIGHTprofile. Preserveguideposes withdistinctsmallsteps, notjumps or exaggerated turns. Image2 precedingatlas authoritative photodetail and backbrand placement. Garmentidentity: greige #c3c0ad cotton fleece with dark olive #4d5948 hood binding, ribbed cuffs and hem, HALF-length chest zipper ends above kangaroo pouch (never full-zip), NO drawcords as original, dropped shoulder sleeves, relaxed fit, original darkolive ML leftchest, natural empty folded hood. Image3 floralM+exact\"MiloShopHand\" backbranding indark olive #263322, ignoreburgundybackdrop. Match image2 exactlogo size/layout/placement/typeface, naturallyforeshortening andoccluding; nevermirrored. Preserve exactclothfolds, cut, colour, seams, hoodshape, scale andground. SameclockwiseuprightY rotation fixedlevelcamera no pitchroll. Nativecanvas1536x1280orlarger6:5ratio >=450pxwidecells. EXACTequal3x2grid nogutters/lines/labels, eachgarmentfullyvisiblewith5%margin, uniformivorybackgroundsoftstudiolight. Noperson/mannequin/hanger, photorealsoftcloth not3Dmesh/plastic.",
+      "sha256": "0b0ea0504c4fc1c9d14de23c50472dc24e62458a71b4335563c7a30a5b2bba1c",
+      "bytes": 1757796,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 77,
+          "y": 24,
+          "width": 392,
+          "height": 428
+        },
+        {
+          "x": 84,
+          "y": 25,
+          "width": 361,
+          "height": 428
+        },
+        {
+          "x": 104,
+          "y": 26,
+          "width": 294,
+          "height": 432
+        },
+        {
+          "x": 163,
+          "y": 15,
+          "width": 254,
+          "height": 442
+        },
+        {
+          "x": 154,
+          "y": 15,
+          "width": 218,
+          "height": 444
+        },
+        {
+          "x": 145,
+          "y": 15,
+          "width": 201,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-1945902d-e00d-417c-9e82-c8c1bd5c4c6d.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-half-zip-studio/original/part-3.png",
+      "prompt": "Use case: product-mockup. Correct RIGHT-SIDE to FRONT quadrant six-frame photo atlas. Image1 is ONLY the authoritative SIX POSES: copy its orientation sequence EXACTLY, especially firstcell hood bends LEFT andfront is onRIGHT side. Replace charcoalhoodie inposeguide with exact greige HALF-ZIPhoodie fromimage2: greige #c3c0ad cotton fleece with dark olive #4d5948 hood binding, ribbed cuffs and hem, HALF-length chest zipper ends above kangaroo pouch (never full-zip), NO drawcords as original, dropped shoulder sleeves, relaxed fit, original darkolive ML leftchest, natural empty folded hood. Image3 is previous255degreeview forcontinuity. Image4 is photodetailfront ofthesamegreigehoodie. Do NOT copy leftprofilefromimage4. EXACT3columns2rows rowmajor270rightprofile withhoodtipLEFT/frontedgeRIGHT,285frontemergingRIGHT,300,315,330,345nearfront. Sleeveonleftofprofile isBACKedge; frontpouchandhalfzipmustemergeonRIGHT asclothrotates. SmallMLwearer'sleftchest(screenrightonfront) mustnotmirror. TurnthroughRIGHTSIDE ofgarment, notreturnthroughleftside. Samecolour/cut/photorealcloth/seams/folds/scale/groundallcells. Uniformivorybgfixedlevelcamera softlightuprightverticalYonly, no pitchroll. Native1536x1280orlarger6:5aspect eachcell>=450wide, equal3x2grid nolines/gutters/labels and5%garmentmargin. Noperson/mannequin/hanger or3Dmeshsurface.",
+      "sha256": "1872a532ec260e51c0835b151b7e331cba371d8b20952b28500d190f6ab4fba0",
+      "bytes": 1698091,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 127,
+          "y": 19,
+          "width": 217,
+          "height": 495
+        },
+        {
+          "x": 119,
+          "y": 18,
+          "width": 217,
+          "height": 496
+        },
+        {
+          "x": 85,
+          "y": 20,
+          "width": 280,
+          "height": 494
+        },
+        {
+          "x": 81,
+          "y": 21.5,
+          "width": 333,
+          "height": 489
+        },
+        {
+          "x": 36,
+          "y": 22.5,
+          "width": 381,
+          "height": 487
+        },
+        {
+          "x": 16,
+          "y": 22.5,
+          "width": 408,
+          "height": 482
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "Original darkolive frontML. Back floralM+exactMiloShopHand indark olive #263322.",
+    "loopContinuity": "All24 and75→90/165→180/255→270/345→0 joins reviewed. Part3 regenerated after firstattempt wrong side; approvedsequence usescorrect rightprofile→front. NominalAI angle estimates, not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

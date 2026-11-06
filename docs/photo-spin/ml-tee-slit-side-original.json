@@ -1,0 +1,258 @@
+{
+  "slug": "ml-tee-slit-side",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-slit-side.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T12:06:49.904Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-slit-side/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8c4793f7-6b27-4843-8bc9-7aa5b3530e45.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy0,15,30,45,60,75frontquadrantorientationsanddirection. Replacecharcoalgarmentwith EXACTSlitSideBasicTee fromreference2: forestolive body #515d46, cottonjersey, relaxedslightlylongfit droppedshoulder short sleeves, beige #d5c1a0 crewneck&sleevebands. DISTINCTSIDEHEMSLITS onbothleftandright bottomside,sewnwithnarrowbeigefacingvisibleatVshapedopenings. Fronthem/backhemstraightwithmatchinglength, slitsabout10cm. SmallbeigeinterwovenMLfrontLEFTchest,nopockets. Preserveoriginalfabric/folds/shape/colors/seam/slitdetails. FrontfirstgraduallytoLEFTprofilelast,NO backprintinthisquadrant. SidehemSLITSbecomeclearlyvisibleatsideangles;neverclosethemoraddlayeredhem. Samegarmentconstruction/folds/sleevepose/colour/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Sixgarmentsentirelyinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. StrictverticalYrotation,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photoqualitycottonlikeoriginalnotfaceted3D/plastic,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hem/slitsvisibleinall6.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 37,
+          "y": 37,
+          "width": 413,
+          "height": 436
+        },
+        {
+          "x": 46,
+          "y": 30,
+          "width": 385,
+          "height": 445
+        },
+        {
+          "x": 64,
+          "y": 29,
+          "width": 324,
+          "height": 448
+        },
+        {
+          "x": 117,
+          "y": 17.5,
+          "width": 275,
+          "height": 467
+        },
+        {
+          "x": 98,
+          "y": 17.5,
+          "width": 250,
+          "height": 467
+        },
+        {
+          "x": 101,
+          "y": 17.5,
+          "width": 230,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-slit-side/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-16350a87-987e-4cd2-aed1-250592bc4e8f.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide copy90,105,120,135,150,165degrees TRUELEFTprofileprogressivelyBACK, nofrontviews,backprintemergesandwidens. Reference2 EXACTSlitSideBasicTee fromreference2: forestolive body #515d46, cottonjersey, relaxedslightlylongfit droppedshoulder short sleeves, beige #d5c1a0 crewneck&sleevebands. DISTINCTSIDEHEMSLITS onbothleftandright bottomside,sewnwithnarrowbeigefacingvisibleatVshapedopenings. Fronthem/backhemstraightwithmatchinglength, slitsabout10cm. SmallbeigeinterwovenMLfrontLEFTchest,nopockets. Preserveoriginalfabric/folds/shape/colors/seam/slitdetails. Reference3fullfloral M+exactMiloShopHandwordmark printBEIGE #d5c1a0 upperBACK,ignoreburgundybackground. KeepSIDEHEMSLITS withbeigefacingonbothsides, no pockets/layeredhem. Samegarmentconstruction/folds/sleevepose/colour/logoplaceall6,MLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Entiregarmentsinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photoqualityclothnotfaceted3D/plastic,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hem/slitsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 131,
+          "y": 26,
+          "width": 215,
+          "height": 495
+        },
+        {
+          "x": 115,
+          "y": 26,
+          "width": 231,
+          "height": 496
+        },
+        {
+          "x": 88,
+          "y": 29,
+          "width": 266,
+          "height": 493
+        },
+        {
+          "x": 67,
+          "y": 32.5,
+          "width": 340,
+          "height": 491
+        },
+        {
+          "x": 32,
+          "y": 33.5,
+          "width": 378,
+          "height": 490
+        },
+        {
+          "x": 8,
+          "y": 33.5,
+          "width": 421,
+          "height": 491
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-slit-side/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b7eeab39-9bd5-43b8-b5f8-94071fbc0af1.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide+goodlayout:copy EXACT180,195,210,225,240,255degrees trueBACK to nearlyRIGHTprofile,backprintnarrowsMOVESLEFTsideofimage,nearsleeveRIGHTsideimage,NOfrontviews. Replacebrownguidewith EXACTSlitSideBasicTee fromreference2: forestolive body #515d46, cottonjersey, relaxedslightlylongfit droppedshoulder short sleeves, beige #d5c1a0 crewneck&sleevebands. DISTINCTSIDEHEMSLITS onbothleftandright bottomside,sewnwithnarrowbeigefacingvisibleatVshapedopenings. Fronthem/backhemstraightwithmatchinglength, slitsabout10cm. SmallbeigeinterwovenMLfrontLEFTchest,nopockets. Preserveoriginalfabric/folds/shape/colors/seam/slitdetails. Reference3fullfloral M+exactMiloShopHandwordmark printBEIGE #d5c1a0 upperBACK,ignoreburgundybackground. KeepSIDEHEMSLITS withbeigefacing BOTH sides clearlyvisibleatprofiles, no pockets/layeredhem,MLfrontonly. Sameclothfolds/shape/seams/sleevepose/colours/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Copyreference1positions:entiregarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollar/sleeves/hem/slitsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 35,
+          "y": 39,
+          "width": 415,
+          "height": 447
+        },
+        {
+          "x": 38,
+          "y": 39,
+          "width": 397,
+          "height": 447
+        },
+        {
+          "x": 61,
+          "y": 37,
+          "width": 341,
+          "height": 450
+        },
+        {
+          "x": 100,
+          "y": 50.5,
+          "width": 308,
+          "height": 464
+        },
+        {
+          "x": 122,
+          "y": 50.5,
+          "width": 239,
+          "height": 464
+        },
+        {
+          "x": 113,
+          "y": 49.5,
+          "width": 229,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-slit-side/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-e6a98ebf-1828-4692-93c3-43ba149f6cdd.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide,copy EXACT270,285,300,315,330,345degrees fromtrueRIGHTprofile to nearlyFRONT. Oppositereturnside: nearsleeveopeningLEFTsideofimage,MLhiddenfirst2views,MLcomesintoviewRIGHTsideinlast3views,nevermirrorlogos. Reference2 EXACTSlitSideBasicTee fromreference2: forestolive body #515d46, cottonjersey, relaxedslightlylongfit droppedshoulder short sleeves, beige #d5c1a0 crewneck&sleevebands. DISTINCTSIDEHEMSLITS onbothleftandright bottomside,sewnwithnarrowbeigefacingvisibleatVshapedopenings. Fronthem/backhemstraightwithmatchinglength, slitsabout10cm. SmallbeigeinterwovenMLfrontLEFTchest,nopockets. Preserveoriginalfabric/folds/shape/colors/seam/slitdetails. No backprintinthisfrontreturnquadrant. SideHEMSLITonoppositesidewithbeigefacingclearlyvisibleatsideangles,neverclosetheslit oraddlayeredhem. Samegarmentconstruction/folds/sleevepose/colour/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Allcollars/sleeves/hem/slitsfullyvisible.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 141,
+          "y": 25,
+          "width": 201,
+          "height": 485
+        },
+        {
+          "x": 109,
+          "y": 25,
+          "width": 245,
+          "height": 485
+        },
+        {
+          "x": 84,
+          "y": 26,
+          "width": 268,
+          "height": 484
+        },
+        {
+          "x": 72,
+          "y": 31.5,
+          "width": 328,
+          "height": 478
+        },
+        {
+          "x": 40,
+          "y": 33.5,
+          "width": 374,
+          "height": 476
+        },
+        {
+          "x": 18,
+          "y": 35.5,
+          "width": 418,
+          "height": 473
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews inspected: forestolive cottonbody/beigetrim, clearlyvisible matching left/right sidehem slits with beige facing. FrontML/backfloralM+exactMiloShopHand contrasting beige. CompleteuprightY turn, correct oppositeprofile return, allgarmentsinsidecells.",
+    "limitations": "AI nominal views, not calibrated camera angles."
+  }
+}

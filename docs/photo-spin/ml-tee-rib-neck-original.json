@@ -1,0 +1,253 @@
+{
+  "slug": "ml-tee-rib-neck",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-rib-neck.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:38:15.197Z",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-11c1cf28-c72a-4848-85f5-95e77869530d.png",
+    "prompt": "Use case: product-mockup. Create photographic24-frame turntable guide for EXACTRibNeckBasicTee fromreference1: olivebody #5e694f,fineverticalribknitcotton texture,creamyivory #e9dfc7 crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem,smallinterwovenMLfrontleftchest. Reference2ONLYfloral M+exactMiloShopHandwordmarkto printCREAMIVORYcontrastingupperback,replacingoldplainbackscript. Ignoreburgundybackground.\nEXACT6columns×4rows,24distinctcontinuousposesrowmajor0..345in15steps. Row1 0,15,30,45,60,75 FRONT progressivelyleftside;row2 90,105,120,135,150,165 trueLEFTprofiletowardBACK;row3 180,195,210,225,240,255 trueBACKtowardRIGHTprofile;row4 270,285,300,315,330,345 trueRIGHTprofiletowardFRONT. SmallMLonlyfront;backlogoonlyback,no mirroredletters; exactMiloShopHandcapitalM S H. Samegarmentshape/colour/folds/sleevepose/seams/logo throughout. Fixedlevelcamera,strictverticalYrotation,no pitch/roll. Ivorybackgroundsoftlight,constantgarmentscale/ground/fullvisibilitymargins. No borders/gutters/numbers/labels/person/mannequin/hanger. Photorealoriginalclothstyle,no faceted3D/plastic. This is poseguide; sequenceconsistency priority."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-rib-neck/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-33e71e22-19fc-4930-aca3-15083257e523.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY SIXviews ROW1ofreference1 ashighdetail3columns×2rows nativePNGatlas, sixcellrowmajorangles0,15,30,45,60,75degrees. Reference1full24turntableguide;reference2originalgarmentdetail. EXACTRibNeckBasicTee olive #5e694f,fineVERTICALribknittexture,creamivory #e9dfc7 crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem,smallinterwovenMLfrontleftchest. Keepguideviewangles0frontto75nearleftprofile, no backprint. Samegarmentconstruction/sleevepose/folds/colour,strictverticalYrotation,cameralevel,nopitchroll,constantgarmentscale/ground,fullyvisiblemargins. Photorealclothlikeoriginalnot3Dfaceted/plastic,ivorybackgroundsoftlight,no person/mannequin/hanger/borders/gutters/labels. Canvasaspect6:5native>=1374×1145,eachview>=458×572. Do notskip/duplicateanglesoradvancearoundto backwithinthisfrontquadrant.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 30,
+          "y": 31,
+          "width": 418,
+          "height": 461
+        },
+        {
+          "x": 51,
+          "y": 28,
+          "width": 378,
+          "height": 466
+        },
+        {
+          "x": 71,
+          "y": 26,
+          "width": 324,
+          "height": 469
+        },
+        {
+          "x": 113,
+          "y": 23.5,
+          "width": 266,
+          "height": 473
+        },
+        {
+          "x": 118,
+          "y": 20.5,
+          "width": 225,
+          "height": 477
+        },
+        {
+          "x": 111,
+          "y": 20.5,
+          "width": 208,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-rib-neck/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-69eba8f8-95e8-4f1d-a992-b93dea18b5c4.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY SIXviews ROW2ofreference1 ashighdetail3columns×2rows nativePNGatlas, sixcellsrowmajor90,105,120,135,150,165degrees. Reference1full24turntableguide;reference2originalgarmentdetail;reference3floral M+exactMiloShopHandwordmark forCREAMIVORYupperback print,ignoreburgundybackground. EXACTRibNeckBasicTee olive #5e694f,fineVERTICALribknitcotton texture,creamivory #e9dfc7 crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem. KeepguideviewanglesTRUELEFTprofilefirstprogressivelyBACKlast,backprintemergesside,rear logosclearcontrast,exactMiloShopHandspelling. NO frontviewsinthisquadrant. Samegarmentconstruction/sleevepose/folds/colour,strictverticalYrotation,cameralevel,nopitchroll,constantgarmentscale/ground,fullyvisiblemargins. Photorealclothlikeoriginalnot3Dfaceted/plastic,ivorybackgroundsoftlight,no person/mannequin/hanger/borders/gutters/labels. Canvasaspect6:5native>=1374×1145,eachview>=458×572. Do notskip/duplicateanglesortryfull360in6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 156,
+          "y": 20,
+          "width": 211,
+          "height": 484
+        },
+        {
+          "x": 114,
+          "y": 21,
+          "width": 232,
+          "height": 483
+        },
+        {
+          "x": 64,
+          "y": 21,
+          "width": 290,
+          "height": 483
+        },
+        {
+          "x": 88,
+          "y": 8.5,
+          "width": 328,
+          "height": 478
+        },
+        {
+          "x": 36,
+          "y": 8.5,
+          "width": 380,
+          "height": 478
+        },
+        {
+          "x": 11,
+          "y": 8.5,
+          "width": 402,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-rib-neck/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-7a372516-e84f-433a-baca-7e75fe5541ca.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY SIXviews ROW3ofreference1 ashighdetail3columns×2rows nativePNGatlas, sixcellsrowmajor180,195,210,225,240,255degrees. Reference1full24turntableguide;reference2originalgarmentdetail;reference3floral M+exactMiloShopHandwordmark forCREAMIVORYupperback print,ignoreburgundybackground. EXACTRibNeckBasicTee olive #5e694f,fineVERTICALribknitcotton texture,creamivory #e9dfc7 crewneck&sleevebands,relaxeddroppedshoulder/shortsleeves/straighthem. KeepguideviewanglesTRUEBACKfirstprogressivelyRIGHTprofilelast,backprintnarrows&movesleft,notfront. SAME sleevepose/clothfolds/shape/colour,strictverticalYrotation,cameralevel,nopitchroll,constantgarmentscale/ground,fullyvisiblemargins. BacktextEXACTMiloShopHandnomirroredletters. Photorealclothlikeoriginalnot3Dfaceted/plastic,ivorybackgroundsoftlight,no person/mannequin/hanger/borders/gutters/labels. Canvasaspect6:5native>=1374×1145,eachview>=458×572. Do notskip/duplicateanglesortryfull360in6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 49,
+          "y": 37,
+          "width": 401,
+          "height": 454
+        },
+        {
+          "x": 47,
+          "y": 37,
+          "width": 381,
+          "height": 455
+        },
+        {
+          "x": 55,
+          "y": 36,
+          "width": 333,
+          "height": 457
+        },
+        {
+          "x": 116,
+          "y": 11.5,
+          "width": 280,
+          "height": 466
+        },
+        {
+          "x": 126,
+          "y": 10.5,
+          "width": 213,
+          "height": 468
+        },
+        {
+          "x": 111,
+          "y": 11.5,
+          "width": 209,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-rib-neck/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-d7a49069-4ce4-4e39-aab4-437f50eb68e2.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1is ONLY EXACTPOSEGUIDE for sixcorrectOPPOSITEside returnposes from270rightprofileto345nearlyfront. CopyallSIXposeanglesEXACTLYincluding armorientation/near-far sleeves. ReplacecharcoalTshirtwithRibNeckTshirtfromreference2:olivebody #5e694f,fineVERTICALribknitcotton,creamivory #e9dfc7 crewneck&sleevebands,relaxeddroppedshoulder/straighthem,smallivoryMLonFRONTLEFTchest. Reference3isfull24guide,useonlyrow4angles global18..23. IMPORTANTfirstcelltruerightprofileoppositeof75profile,sleeveopeningfacesLEFTsideofimageasreference1, NOTrightside! FirsttwoframesMLabsentorbarelyfaroccluded, frontMLappearsontheRIGHTsideofgarmentimage asfrontreturnslaterframes. NEVER putfrontMLontheleftedgeasinwrongfrontquadrant. ThisisNOT0..75sequence. Need270,285,300,315,330,345sixcontinuousposesfromrightsidebacktowardfront. Frontlaststill15off,fullcloth consistent. Exactly3columns×2rows,noborders/gutters/labels,levelcamera,uprightYonly,nopitchroll,sameivorybackgroundlight,garmentfullyvisiblemargins. Native>=1374×1145,>=458×572/cell. No mannequin/person/hanger,notfaceted3D.",
+      "width": 1453,
+      "height": 1083,
+      "cellWidth": 484.3333333333333,
+      "cellHeight": 541.5,
+      "frames": [
+        {
+          "x": 139,
+          "y": 22,
+          "width": 205,
+          "height": 481
+        },
+        {
+          "x": 112.67,
+          "y": 22,
+          "width": 244,
+          "height": 481
+        },
+        {
+          "x": 103.33,
+          "y": 22,
+          "width": 264,
+          "height": 481
+        },
+        {
+          "x": 81,
+          "y": 24.5,
+          "width": 324,
+          "height": 481
+        },
+        {
+          "x": 55.67,
+          "y": 25.5,
+          "width": 370,
+          "height": 480
+        },
+        {
+          "x": 35.33,
+          "y": 26.5,
+          "width": 412,
+          "height": 479
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 images inspected. Part3 first attempt had incorrect return-side front-logo exposure and was rejected; regenerated against accepted HeavyBox part3 pose reference. Accepted24 preserve olive ribknit/creamtrim, upright fullturn, frontML/backfloralM+MiloShopHand. Correct opposite-side return lastquadrant.",
+    "limitations": "AI nominal views, not optically calibrated camera measurements."
+  }
+}

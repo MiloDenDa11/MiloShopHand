@@ -1,0 +1,258 @@
+{
+  "slug": "ml-tee-mock-neck",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-mock-neck.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T12:02:46.248Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-mock-neck/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f6860cc4-3349-468f-b79d-e95ac316137b.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide for0,15,30,45,60,75frontquadrant,copyexactorientation/direction. Replacecharcoalshirtwith EXACTMockNeckBasicTee reference2: sandtan body #d5bc97, heavyjersey mattecotton, oversizedboxyfit droppedshoulder shortwide sleeves/straightboxyhem. DISTINCTTALLMOCKNECK ribknitcollar DARKBROWN #382f2a (notnormalcrew),matchingdarkbrown sleevebands. SmallbrowninterwovenMLfrontLEFTchest,no pockets. Preserveoriginalfabric/drape/stitching/shape/colors. Frontfirsttogradualleftprofilelast,NO backprintinthisquadrant. All6samegarmentconstruction/folds/sleevepose/collarheight/hem/logo.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Entiregarmentsinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows, bottomcollarsy620+, no clothingcrossesy572midline. StrictverticalYrotation,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorybackgroundsoftstudio,photographicclothqualitylikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. FullyvisibleMOCKcollar/sleeves/hemall6.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 36,
+          "y": 32,
+          "width": 414,
+          "height": 441
+        },
+        {
+          "x": 45,
+          "y": 27,
+          "width": 387,
+          "height": 447
+        },
+        {
+          "x": 58,
+          "y": 25,
+          "width": 328,
+          "height": 451
+        },
+        {
+          "x": 115,
+          "y": 13.5,
+          "width": 277,
+          "height": 469
+        },
+        {
+          "x": 102,
+          "y": 13.5,
+          "width": 248,
+          "height": 469
+        },
+        {
+          "x": 96,
+          "y": 13.5,
+          "width": 234,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-mock-neck/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8c02a871-1a55-4e68-8c16-e3e8fa592415.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide, copy EXACT90,105,120,135,150,165degreeorientation sequence trueLEFTprofile to nearlyBACK; backprintemergesandwidens,no frontviews. Replacecharcoalguidewith EXACTMockNeckBasicTee reference2: sandtan body #d5bc97, heavyjersey mattecotton, oversizedboxyfit droppedshoulder shortwide sleeves/straightboxyhem. DISTINCTTALLMOCKNECK ribknitcollar DARKBROWN #382f2a (notnormalcrew),matchingdarkbrown sleevebands. SmallbrowninterwovenMLfrontLEFTchest,no pockets. Preserveoriginalfabric/drape/stitching/shape/colors. Reference3floral M+exactMiloShopHandwordmarkprintDARKBROWN #382f2a upperBACK,ignoreburgundybackground. Samegarmentshape/collarheight/colour/folds/sleevepose/seams/logoplaceall6,smallMLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. VerticalYrotationonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographicclothqualitylikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. AllMOCKcollars/sleeves/hemsfullyvisible; exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 131,
+          "y": 22,
+          "width": 224,
+          "height": 494
+        },
+        {
+          "x": 116,
+          "y": 22,
+          "width": 236,
+          "height": 495
+        },
+        {
+          "x": 90,
+          "y": 23,
+          "width": 275,
+          "height": 494
+        },
+        {
+          "x": 67,
+          "y": 22.5,
+          "width": 340,
+          "height": 495
+        },
+        {
+          "x": 33,
+          "y": 23.5,
+          "width": 384,
+          "height": 494
+        },
+        {
+          "x": 11,
+          "y": 23.5,
+          "width": 423,
+          "height": 494
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-mock-neck/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-ddebfd97-7cc2-47bb-897f-98221b6a2bc8.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixPOSEguide, copy EXACT180,195,210,225,240,255degreeorientation trueBACK to nearlyRIGHTprofile. BackprintNARROWSandMOVESLEFTsideofimage,nearsleeveRIGHTside, NOfrontviews. Replacebrownguidewith EXACTMockNeckBasicTee reference2: sandtan body #d5bc97, heavyjersey mattecotton, oversizedboxyfit droppedshoulder shortwide sleeves/straightboxyhem. DISTINCTTALLMOCKNECK ribknitcollar DARKBROWN #382f2a (notnormalcrew),matchingdarkbrown sleevebands. SmallbrowninterwovenMLfrontLEFTchest,no pockets. Preserveoriginalfabric/drape/stitching/shape/colors. Reference3floral M+exactMiloShopHandwordmark inDARKBROWN #382f2a upperBACK,ignoreburgundybackground. SmallMLfrontonly;sameconstruction/collarheight/hem/folds/sleevepose/colourall6.\nCopyreference1GOODLAYOUT:exact3columns×2rowsnative1374×1145orsame6:5aspectlarger. Garmentsfullyinside6equalcells,min40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographicclothnotplastic/facetedmesh,fullyvisiblecollar/sleeves/hemall6,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. ExactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 38,
+          "y": 41,
+          "width": 412,
+          "height": 459
+        },
+        {
+          "x": 41,
+          "y": 39,
+          "width": 388,
+          "height": 463
+        },
+        {
+          "x": 58,
+          "y": 37,
+          "width": 340,
+          "height": 466
+        },
+        {
+          "x": 112,
+          "y": 35.5,
+          "width": 295,
+          "height": 476
+        },
+        {
+          "x": 110,
+          "y": 31.5,
+          "width": 238,
+          "height": 482
+        },
+        {
+          "x": 101,
+          "y": 31.5,
+          "width": 226,
+          "height": 483
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-mock-neck/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-84533d77-22c2-44dc-a76d-693985251c2a.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide, copy EXACT270,285,300,315,330,345degreeorientation trueRIGHTprofile to nearlyFRONT. Oppositesidefromfrontquadrant: nearsleeveopeningLEFTsideimage,MLhiddenfirst2views,MLappearsRIGHTsideimageinlast3views,nevermirrorlogos. Reference2 EXACTMockNeckBasicTee reference2: sandtan body #d5bc97, heavyjersey mattecotton, oversizedboxyfit droppedshoulder shortwide sleeves/straightboxyhem. DISTINCTTALLMOCKNECK ribknitcollar DARKBROWN #382f2a (notnormalcrew),matchingdarkbrown sleevebands. SmallbrowninterwovenMLfrontLEFTchest,no pockets. Preserveoriginalfabric/drape/stitching/shape/colors. No backprintinthisfrontreturnquadrant, samegarmentshape/colour/folds/collarheight/hem/sleeveposeall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Allgarmentsfullyinsideequalcells,min40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no clothingcrossesmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorystudio softlight,photoqualityclothnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. AllMOCKcollars/sleeves/hemsfullyvisible.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 125,
+          "y": 26,
+          "width": 219,
+          "height": 480
+        },
+        {
+          "x": 97,
+          "y": 27,
+          "width": 255,
+          "height": 479
+        },
+        {
+          "x": 82,
+          "y": 26,
+          "width": 273,
+          "height": 480
+        },
+        {
+          "x": 69,
+          "y": 24.5,
+          "width": 326,
+          "height": 479
+        },
+        {
+          "x": 37,
+          "y": 27.5,
+          "width": 375,
+          "height": 476
+        },
+        {
+          "x": 8,
+          "y": 31.5,
+          "width": 424,
+          "height": 472
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews reviewed: sandtan heavyjersey, distinctive tallbrownmockneck collar,brownsleevebands, MLfront and floralM+exactMiloShopHandrear contrasting brown. Completeuprightturn with correctoppositereturnside; allgarmentsfitcells.",
+    "limitations": "AI nominal views, not calibrated camera angles."
+  }
+}

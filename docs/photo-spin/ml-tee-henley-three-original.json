@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-henley-three",
+  "colorKey": "original",
+  "colorHex": "#c7c4b3",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:47:29.311Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f994a70c-13c5-4d21-bc1b-be437f5489a7.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT0,15,30,45,60,75degreefrontquadrantorientationsanddirection. Replacecharcoalguidewith EXACT Henley Three Basic Tee from reference2: lightgray sagegreige body #c7c4b3 cottonjersey, relaxedcut droppedshoulder short sleeves/straightrelaxedhem. Darkolive #4c5547 HENLEYneck binding with SHORTCENTERFRONT DARKOLIVEPLACKET and EXACTLY3smallcreamroundbuttons, sameplacket length/topshape/buttonspacing asoriginal. Darkolive sleevebands and smallinterwovenMLfrontLEFTchest. NO rearbuttons/placket, no pockets. Preserveoriginalfabric/folds/construction/colours. FrontfirstprogressivelyLEFTprofilelast,NO backprintinfrontquadrant. ThreebuttonHENLEYplacketisvisibleandprojectswithfrontangle, nevernormalcrewneck. Samegarmentconstruction/folds/sleevepose/colours/MLplace/placket+3buttonsall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollar/sleeves/hemsvisibleeachcell.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1555370,
+      "sha256": "5bb77449ba32e176bd33ede3c2ad33e4b9c9ce476627790bcb86083ca6e8a024",
+      "frames": [
+        {
+          "x": 35,
+          "y": 35,
+          "width": 420,
+          "height": 443
+        },
+        {
+          "x": 43,
+          "y": 30,
+          "width": 389,
+          "height": 449
+        },
+        {
+          "x": 59,
+          "y": 28,
+          "width": 331,
+          "height": 452
+        },
+        {
+          "x": 113,
+          "y": 16.5,
+          "width": 281,
+          "height": 465
+        },
+        {
+          "x": 97,
+          "y": 15.5,
+          "width": 255,
+          "height": 469
+        },
+        {
+          "x": 94,
+          "y": 15.5,
+          "width": 238,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8dc376e8-a074-45d2-85eb-fba7f2ab7b10.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT90,105,120,135,150,165orientations trueLEFTprofile towardnearlyBACK,backprintemergesandwidens,NOfrontviews. Reference2 EXACT Henley Three Basic Tee from reference2: lightgray sagegreige body #c7c4b3 cottonjersey, relaxedcut droppedshoulder short sleeves/straightrelaxedhem. Darkolive #4c5547 HENLEYneck binding with SHORTCENTERFRONT DARKOLIVEPLACKET and EXACTLY3smallcreamroundbuttons, sameplacket length/topshape/buttonspacing asoriginal. Darkolive sleevebands and smallinterwovenMLfrontLEFTchest. NO rearbuttons/placket, no pockets. Preserveoriginalfabric/folds/construction/colours. Reference3floral M+exactMiloShopHandwordmark printDARKOLIVE #4c5547 upperBACK stronglycontrastinglightgraybody,ignoreburgundybackground. BackhasNOplacket/buttons/smallML,thoseONLYfront maybarelyshowatfirstprofile. Samegarmentconstruction/folds/sleevepose/colours/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1675679,
+      "sha256": "d11d4f2624e2d086a9555b8afcf93205b2fc8ede78b14f8d5c7d6d7c62b9f4f8",
+      "frames": [
+        {
+          "x": 132,
+          "y": 22,
+          "width": 222,
+          "height": 490
+        },
+        {
+          "x": 117,
+          "y": 22,
+          "width": 236,
+          "height": 491
+        },
+        {
+          "x": 92,
+          "y": 22,
+          "width": 269,
+          "height": 491
+        },
+        {
+          "x": 72,
+          "y": 27.5,
+          "width": 335,
+          "height": 487
+        },
+        {
+          "x": 34,
+          "y": 29.5,
+          "width": 379,
+          "height": 486
+        },
+        {
+          "x": 8,
+          "y": 30.5,
+          "width": 426,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-1df4683b-d30d-4d18-836e-126d1a8bc4ca.png",
+      "prompt": "Use case: product-mockup, complete SAME Henley Three photographic turntable. IMAGE1 exactidentity: light grey sagegreige #c7c4b3 COTTON short sleeve TEE, darkolive #4c5547 HENLEY ribneckbinding plus SHORTCENTERFRONT placket with EXACTLY3smallcreamroundbuttons, darkolive sleevebands, relaxed droppedshoulder, straight hem, small darkoliveML wearerLEFTchest, no pockets. IMAGE2 supplies ONLY CAMERA POSES anddirection, ignore itsbrownhoodie/clothing. IMAGE3 previousquarter ofsameHenley forsamebody/cloth/folds/colors. Six rowmajor180,195,210 /225,240,255degrees. First PERFECT BACK then BACKpanel/print moves IMAGE LEFT, nearer short sleeve IMAGE RIGHT, last near oppositeSIDE with backlogo IMAGELEFTedge. No henleybuttons/placket/chestML visible onBACK. Highcontrast DARKOLIVE floral M with hibiscus/leaves, exact MiloShopHand wordmark/floralunderline centered upperBACK same placement/size as existingback, nevermirrored. NO buttons/placket/pocket onBACK. Preserve originalnaturalcotton texture, sleeve length, shape/pose/proportions and colour, nothoodie. Native1374x1145 orlarger same6:5ratio, ONE3columns2rows exactlySIX uncroppedgarments with minimum7%margins each equalcell, no crossingcellrows/gutters/borders/numbers/captions. Consistentgarmentcenter/scale/hembaseline/light/uniformivorypaperbackground. OnlyuprightY/Oy yaw, fixedLEVELcamera no pitch/roll/zoom/elevation, no human/mannequin/hanger/plastic3D. This is sameHenley photograph at sixangles, not new garment or full24sheet.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1708255,
+      "sha256": "3cc2cb3e34ff4fa35b68f5a4f942b3eecd796c6ab977720f8d0f9aac0afe0905",
+      "frames": [
+        {
+          "x": 49,
+          "y": 34,
+          "width": 406,
+          "height": 475
+        },
+        {
+          "x": 3,
+          "y": 33,
+          "width": 425,
+          "height": 476
+        },
+        {
+          "x": 52,
+          "y": 33,
+          "width": 329,
+          "height": 476
+        },
+        {
+          "x": 114,
+          "y": 22.5,
+          "width": 291,
+          "height": 480
+        },
+        {
+          "x": 114,
+          "y": 22.5,
+          "width": 241,
+          "height": 481
+        },
+        {
+          "x": 90,
+          "y": 24.5,
+          "width": 228,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-bd9d7842-c78b-40c4-9e36-26122db9da03.png",
+      "prompt": "Use case: product-mockup, complete SAME Henley Three photographic turntable. IMAGE1 exactidentity: light grey sagegreige #c7c4b3 COTTON short sleeve TEE, darkolive #4c5547 HENLEY ribneckbinding plus SHORTCENTERFRONT placket with EXACTLY3smallcreamroundbuttons, darkolive sleevebands, relaxed droppedshoulder, straight hem, small darkoliveML wearerLEFTchest, no pockets. IMAGE2 supplies ONLY CAMERA POSES anddirection, ignore itsbrownhoodie/clothing. IMAGE3 previousquarter ofsameHenley forsamebody/cloth/folds/colors. Six rowmajor270,285,300 /315,330,345degrees. First oppositePROFILE front HENLEYbuttonplacket edge IMAGE RIGHT, frontpanel emerges IMAGERIGHT of nearestshortsleeve IMAGELEFT; placket approachescenter fromRIGHT, endingalmostFRONT. SmallML always wearer'sLEFT chest, IMAGERIGHT of frontplacket, nevermirror or moveleft. Exactly3creamroundbuttons onshortfrontoliveplacket. Highcontrast DARKOLIVE floral M with hibiscus/leaves, exact MiloShopHand wordmark/floralunderline centered upperBACK same placement/size as existingback, nevermirrored. NO buttons/placket/pocket onBACK. Preserve originalnaturalcotton texture, sleeve length, shape/pose/proportions and colour, nothoodie. Native1374x1145 orlarger same6:5ratio, ONE3columns2rows exactlySIX uncroppedgarments with minimum7%margins each equalcell, no crossingcellrows/gutters/borders/numbers/captions. Consistentgarmentcenter/scale/hembaseline/light/uniformivorypaperbackground. OnlyuprightY/Oy yaw, fixedLEVELcamera no pitch/roll/zoom/elevation, no human/mannequin/hanger/plastic3D. This is sameHenley photograph at sixangles, not new garment or full24sheet.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1767752,
+      "sha256": "f4249d47ee27e32ce93c201d52ecb303a4abd2e30ed7bcbbbd3532c8174c4fd2",
+      "frames": [
+        {
+          "x": 139,
+          "y": 27,
+          "width": 187,
+          "height": 473
+        },
+        {
+          "x": 101,
+          "y": 28,
+          "width": 219,
+          "height": 472
+        },
+        {
+          "x": 59,
+          "y": 28,
+          "width": 288,
+          "height": 471
+        },
+        {
+          "x": 59,
+          "y": 23.5,
+          "width": 341,
+          "height": 468
+        },
+        {
+          "x": 23,
+          "y": 24.5,
+          "width": 372,
+          "height": 466
+        },
+        {
+          "x": 3,
+          "y": 25.5,
+          "width": 417,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed all24 photographic views: matching original garment, colour/trim/seams/fastenings, contrasting chest ML and floralM+exactMiloShopHand back art, continuous upright Y yaw. Earlier incomplete native parts retained. Racer finalquarter regenerated to remove incorrect back-facing views; AI drape may vary slightly.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

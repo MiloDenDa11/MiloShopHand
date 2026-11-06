@@ -1,0 +1,254 @@
+{
+  "slug": "ml-tee-heavy-box",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-heavy-box.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:24:20.433Z",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-80bb8142-edec-4ccb-915a-b72644da3305.png",
+    "prompt": "Use case: product-mockup. Asset type: photographic 24-frame turntable pose guide for interactive ecommerce, not final low-resolution sprites. Reference1 is exact garment identity: MiloShopHand Heavy Box Basic Tee, charcoal olive body #262925, beige #d5c6a5 crew neck and sleevebands, heavy matte cotton, oversized boxy hem, wide dropped-shoulder short sleeves, small elegant interwoven ML front left chest. Preserve garment construction, silhouette, texture, colour. Reference2 is ONLY the floral M + exact MiloShopHand wordmark to print in contrasting light beige across upper BACK; ignore burgundybackground. Replace old plainbackscript with fullflorallogo, noextra branding.\nMake EXACT GRID6columns by4rows with24 different continuous turntable poses. Same ivorybackground, softlight, constantverticalY, fixedlevelcamera, no pitch/roll or floating angle, same scale andground, entire garment visible with clear margins. Invisible mannequin/no person/hanger. Clockwise rowmajor angles: row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345. Frame0truefront,6trueleftprofile,12trueback,18truerightprofile. Firstrow onlyfront decreasing towardleftprofile, NO backprint before90. Secondrow leftprofile progressivelytoback, thirdrow backprogressivelytorightprofile, fourthrowrightprofileprogressivelytofront. Keep SAMEarmposition/folds/collar/hem/seams/logo placement throughout. Exact text MiloShopHand, capital M S H, no mirroredletters. No frame borders/gutters/angle labels/numbers. Photoreal cloth quality, no 3D faceted/plastic shading. Sequence consistency is main priority."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-e200d42f-c284-4317-b465-ff46fb8188c3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Extract and redraw ONLY the SIX poses of ROW1 from reference1 into high-detail native3columns×2rows contact sheet, no gutters/dividers/labels. Reference1 is full24turntable guide. Row1sixposesbecome rowmajor sixcells:0,15,30,45,60,75degrees. Keep EXACT angles from guide, no skipping toback. Reference2 originalgarment detail. Exact Heavy Box Basic Tee charcoalolive #262925, matteheavycotton,oversizedboxydroppedshoulder,beigecrewneck&sleevebands #d5c6a5, smallinterwovenMLleftchest. Same neutralivorybackground,levelcamera,uprightY,scale/ground,photorealclothtexture,fullyvisiblemargins. Firstcelltruefront,lastcellnearleftprofilewithlittlefrontstillvisible. NO backprint anywhereinthisfrontquadrant. Do not change sleevepose/collar/hem/seams/colour. Garmentmustremainthreedimensionalphotographicclothappearance but NO faceted3Dmeshlook. Canvasintendedaspect6:5, nativewidthatleast1374,heightatleast1145, eachsixviewcell~458x572 orbetter. Crispdetails,noothergarments,people,hangers,textoutsidegarment,noborders.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 37,
+          "y": 38,
+          "width": 413,
+          "height": 435
+        },
+        {
+          "x": 47,
+          "y": 30,
+          "width": 384,
+          "height": 445
+        },
+        {
+          "x": 63,
+          "y": 28,
+          "width": 325,
+          "height": 449
+        },
+        {
+          "x": 120,
+          "y": 17.5,
+          "width": 271,
+          "height": 467
+        },
+        {
+          "x": 103,
+          "y": 16.5,
+          "width": 244,
+          "height": 468
+        },
+        {
+          "x": 98,
+          "y": 17.5,
+          "width": 230,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-c9659e94-f8d6-4bc3-b22e-c226ff026756.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Extract and redraw ONLY SIX poses ROW2 of reference1 into highdetail3columns×2rows contact sheet, no gutters/borders/labels. Reference1full24turntableguide. ROW2posesglobal6..11 become sixcellsrowmajor90,105,120,135,150,165degrees: trueleftprofile first gradually revealing BACK floralprint, lastnearlybackstillangled. Preserveangles exactly, NO frontviews. Reference2 originalgarmentconstruction detail. Reference3 full floral M+MiloShopHand logo to renderlightbeige #d5c6a5 onupperback. ExactHeavyBoxBasicTeecharcoalolive #262925, matteheavycotton,oversizedboxydroppedshoulder,beigecrewneck&sleevebands,smallMLonlyonfront. Same neutralivorybackground,levelcamera,uprightY,scale/ground,clothtexture,fullyvisiblemargins. SAMEsleevepose/collar/hem/seams/folds asguide. HighcontrastbacklogoexactspellingMiloShopHandwherevisible,no mirroredletters,norepeatedangles. Canvasaspect6:5,nativewidth>=1374,height>=1145, >=458x572/cell. Photoreal originalstyle,nofaceted3D,noperson/mannequin/hanger/textoutsidegarment.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 133,
+          "y": 26,
+          "width": 225,
+          "height": 485
+        },
+        {
+          "x": 122,
+          "y": 26,
+          "width": 230,
+          "height": 486
+        },
+        {
+          "x": 94,
+          "y": 27,
+          "width": 268,
+          "height": 485
+        },
+        {
+          "x": 73,
+          "y": 27.5,
+          "width": 329,
+          "height": 487
+        },
+        {
+          "x": 38,
+          "y": 29.5,
+          "width": 372,
+          "height": 486
+        },
+        {
+          "x": 13,
+          "y": 30.5,
+          "width": 418,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-heavy-box/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-a17d577f-2507-43b0-a057-88fa46bd2930.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Extract and redraw ONLY SIX poses ROW3 of reference1 into highdetail3columns×2rows contact sheet, no gutters/borders/labels. Reference1full24turntableguide. ROW3global12..17 become sixcellsrowmajor180,195,210,225,240,255degrees: trueBACKfirst graduallyturningtowardoppositeRIGHTprofile, backprintnarrowsandmovesleftsideofimage. Lastcellalmostrightprofilebutstillshowslittlerear. Preserveangles exactly, NO frontviews. Reference2 originalgarmentconstructiondetail. Reference3 is fullfloral M+MiloShopHand logo forlightbeigeupperback #d5c6a5. ExactHeavyBoxBasicTeecharcoalolive #262925, matteheavycotton,oversizedboxydroppedshoulder,beigecrewneck&sleevebands,smallMLfrontonly. Same neutralivorybackground,levelcamera,uprightY,scale/ground,clothtexture,fullyvisiblemargins. SAMEsleevepose/collar/hem/seams/foldsasguide. ExactspellingMiloShopHandwherevisible,noreversedormirroredletters. Canvasaspect6:5,nativewidth>=1374,height>=1145, >=458x572/cell. Photorealoriginalstyle,nofaceted3D,noperson/mannequin/hanger/textoutsidegarment.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 33,
+          "y": 39,
+          "width": 417,
+          "height": 439
+        },
+        {
+          "x": 40,
+          "y": 39,
+          "width": 393,
+          "height": 438
+        },
+        {
+          "x": 64,
+          "y": 36,
+          "width": 335,
+          "height": 442
+        },
+        {
+          "x": 107,
+          "y": 8.5,
+          "width": 298,
+          "height": 435
+        },
+        {
+          "x": 127,
+          "y": 8.5,
+          "width": 232,
+          "height": 437
+        },
+        {
+          "x": 116,
+          "y": 8.5,
+          "width": 222,
+          "height": 439
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-heavy-box/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-ffcea5da-c10b-4e6e-acf5-07c8e3009f03.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Extract and redraw ONLY SIX poses ROW4 of reference1 into highdetail3columns×2rows contact sheet, no gutters/borders/labels. Reference1full24turntableguide. ROW4global18..23 become sixcellsrowmajor270,285,300,315,330,345degrees: trueRIGHTprofilefirst, gradually returningtofront fromtheOPPOSITE side ofrow1, finalalmostfrontstill15degreesoffset. Preserveguideangles exactly, notfliprow1sequence. Reference2originalgarmentconstructiondetail. ExactHeavyBoxBasicTeecharcoalolive #262925, matteheavycotton,oversizedboxydroppedshoulder,beigecrewneck&sleevebands #d5c6a5,smallMLfrontleftchestbecomesvisibleasfrontcomesintoview. NO backprint inlastfiveviews; firstprofilemayhaveonlytinyedgeofbackprint. Sameivorybackground,levelcamera,uprightY,scale/ground,photorealclothtexture,fullyvisiblemargins. SAMEsleevepose/collar/hem/seams/foldsasguide. Canvasaspect6:5,nativewidth>=1374,height>=1145, >=458x572/cell. Photorealoriginalstyle,nofaceted3D,noperson/mannequin/hanger/textoutsidegarment.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 134,
+          "y": 26,
+          "width": 214,
+          "height": 481
+        },
+        {
+          "x": 112,
+          "y": 27,
+          "width": 241,
+          "height": 480
+        },
+        {
+          "x": 88,
+          "y": 28,
+          "width": 264,
+          "height": 479
+        },
+        {
+          "x": 75,
+          "y": 31.5,
+          "width": 318,
+          "height": 475
+        },
+        {
+          "x": 47,
+          "y": 32.5,
+          "width": 362,
+          "height": 474
+        },
+        {
+          "x": 20,
+          "y": 33.5,
+          "width": 409,
+          "height": 472
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All 24 views inspected after ImageGen; front/profile/back/opposite-profile sequence, no pitch/roll; native photo style retained, beige logos contrast charcoal body; rear exact MiloShopHand spelling visible.",
+    "limitations": "AI nominal angles, not optically calibrated camera views.",
+    "boundsCorrection": "Root reviewed 2026-11-05: part2 localframes0/1/2 heights corrected525/525/528 to439/438/442, x/y/width unchanged. Earlier min/max included a tiny separate next-row collar; contiguous primary garment row bounds select complete current garment. Native PNGs unchanged."
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "mode": "built-in image_gen",
+  "generatedAt": "2026-11-06T05:53:28.409Z",
+  "viewsPerPlate": 2,
+  "sourceFilesUnmodified": true,
+  "products": [
+    {
+      "slug": "cloud-cream-bomber",
+      "name": "Cloud Cream Bomber",
+      "kind": "bomber",
+      "colorHex": "#e8dfcd",
+      "details": "cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-cloud-cream-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-26bda00d-ec2d-478e-8d70-2a4c3e4d690f.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Cloud Cream Bomber, cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print. Primary body color strictly #e8dfcd. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1870648,
+      "sha256": "de3b06d83b19f467726102eb2eb38e04711b38ca0a7d937f15f274420fb2085c"
+    },
+    {
+      "slug": "olive-field-bomber",
+      "name": "Olive Field Bomber",
+      "kind": "bomber",
+      "colorHex": "#242426",
+      "details": "deep black nylon body and sleeves, dark olive rib collar/cuffs/hem, antique silver center zip, two angled flap hand pockets, oversized slightly dropped shoulders, ivory ML and rear print",
+      "image": "/collection-ai/legacy-olive-field-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-127e7f74-66f6-4f2a-b26e-d99c056d44a7.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Olive Field Bomber, deep black nylon body and sleeves, dark olive rib collar/cuffs/hem, antique silver center zip, two angled flap hand pockets, oversized slightly dropped shoulders, ivory ML and rear print. Primary body color strictly #242426. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1797742,
+      "sha256": "a74033ba2e5b2288b5b2327491815099f4b4889ce169001c3e78755d986cea45"
+    },
+    {
+      "slug": "retro-sport-bomber",
+      "name": "Retro Sport Bomber",
+      "kind": "bomber",
+      "colorHex": "#34465b",
+      "details": "navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-retro-sport-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-6ba4780d-5189-4958-a42c-677ac0c02b13.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Retro Sport Bomber, navy nylon body/sleeves, cream twin stripes on rib collar/cuffs/hem, silver center zip, two diagonal welt pockets, athletic raglan seams, relaxed fit, ivory ML and rear print. Primary body color strictly #34465b. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1934584,
+      "sha256": "f0b004d673133e591a01618ae45ee0e8ca096e5c3d00882a0bee28a08fa0b875"
+    },
+    {
+      "slug": "studio-nylon-bomber",
+      "name": "Studio Nylon Bomber",
+      "kind": "bomber",
+      "colorHex": "#a3a5aa",
+      "details": "cool grey matte nylon, matching grey rib collar/cuffs/hem, dark two-way center zip, narrow vertical zipped hand pockets, oversized boxy fit, black ML and rear print",
+      "image": "/collection-ai/legacy-studio-nylon-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-5dd9f1ae-f97a-4201-b698-2348bd1f3df3.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Studio Nylon Bomber, cool grey matte nylon, matching grey rib collar/cuffs/hem, dark two-way center zip, narrow vertical zipped hand pockets, oversized boxy fit, black ML and rear print. Primary body color strictly #a3a5aa. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1840462,
+      "sha256": "e41377748442967ae108a895f3a3f7a76b244e62107f4fd8344a3f3d8ee65621"
+    },
+    {
+      "slug": "midnight-flight-bomber",
+      "name": "Midnight Flight Bomber",
+      "kind": "bomber",
+      "colorHex": "#78846a",
+      "details": "muted olive nylon, charcoal rib collar/cuffs/hem, silver center zip, two slanted welt hand pockets, ONE small zipped utility pocket on wearerLEFT upper sleeve, relaxed fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-midnight-flight-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-d9857e16-d30e-441c-9175-60677fbf9ad1.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Midnight Flight Bomber, muted olive nylon, charcoal rib collar/cuffs/hem, silver center zip, two slanted welt hand pockets, ONE small zipped utility pocket on wearerLEFT upper sleeve, relaxed fit, ivory ML and rear print. Primary body color strictly #78846a. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1938854,
+      "sha256": "64790ff8be9d0db943bcb070b4cd7e9f07bce3c91b8d349d4d8cefbc0e261359"
+    },
+    {
+      "slug": "varsity-club-bomber",
+      "name": "Varsity Club Bomber",
+      "kind": "bomber",
+      "colorHex": "#b6a4d4",
+      "details": "muted lavender nylon body with cream sleeves, lavender rib low collar/cuffs/hem with two thin cream stripes, silver snap button center fastening, two diagonal cream welt pockets, oversized varsity fit, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-varsity-club-bomber.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-15b88bf9-1912-49fc-a729-fa05933fe7cd.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Varsity Club Bomber, muted lavender nylon body with cream sleeves, lavender rib low collar/cuffs/hem with two thin cream stripes, silver snap button center fastening, two diagonal cream welt pockets, oversized varsity fit, dark charcoal ML and rear print. Primary body color strictly #b6a4d4. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1925238,
+      "sha256": "1f0bb093df80286465977e84edac115269c217b1cf3492bfb6b5c16fba080a93"
+    },
+    {
+      "slug": "after-hours-hoodie",
+      "name": "After Hours Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#78846a",
+      "details": "olive cotton fleece pullover hoodie, double layered hood, matching olive drawcords, deep front kangaroo pocket, rib cuffs/hem, relaxed dropped shoulder, ivory ML and rear print",
+      "image": "/collection-ai/legacy-after-hours-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-9eed3839-bed7-4369-b509-1db958169b33.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: After Hours Hoodie, olive cotton fleece pullover hoodie, double layered hood, matching olive drawcords, deep front kangaroo pocket, rib cuffs/hem, relaxed dropped shoulder, ivory ML and rear print. Primary body color strictly #78846a. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2360480,
+      "sha256": "92a5e57d4e970ece7eb84a750666297ee6dd4e0266e4034b1a0b050f471544c7"
+    },
+    {
+      "slug": "airy-cotton-tee",
+      "name": "Airy Cotton Tee",
+      "kind": "tee",
+      "colorHex": "#34465b",
+      "details": "navy lightweight cotton jersey short sleeve crewneck tee, regular relaxed fit, thin rib neckline, airy drape, straight hem, ivory ML and rear print",
+      "image": "/collection-ai/legacy-airy-cotton-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-20432ea6-0351-40e1-bd43-6977bc57ae2c.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Airy Cotton Tee, navy lightweight cotton jersey short sleeve crewneck tee, regular relaxed fit, thin rib neckline, airy drape, straight hem, ivory ML and rear print. Primary body color strictly #34465b. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2082209,
+      "sha256": "8b505788f8e530fe732b7ad5f059f666c2f72e1b432a35a6512b3e4fac07b92b"
+    },
+    {
+      "slug": "campus-club-hoodie",
+      "name": "Campus Club Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#a3a5aa",
+      "details": "cool grey heavyweight cotton fleece pullover hoodie, structured hood, grey drawcords, broad kangaroo pocket, oversized sleeves, rib cuffs/hem, charcoal ML and rear print",
+      "image": "/collection-ai/legacy-campus-club-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-55ab2ca9-f13f-4096-aad3-c3b833df84af.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Campus Club Hoodie, cool grey heavyweight cotton fleece pullover hoodie, structured hood, grey drawcords, broad kangaroo pocket, oversized sleeves, rib cuffs/hem, charcoal ML and rear print. Primary body color strictly #a3a5aa. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2371632,
+      "sha256": "1a26f7e28b6a5c031d1b66d76e40fb96b7238c3cabd987ab40bad323d42b09e9"
+    },
+    {
+      "slug": "chill-out-hoodie",
+      "name": "Chill Out Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#242426",
+      "details": "black cotton fleece pullover hoodie, relaxed roomy hood, no drawcords, dropped shoulders and loose sleeves, kangaroo pocket, rib hem/cuffs, ivory ML and rear print",
+      "image": "/collection-ai/legacy-chill-out-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-6e2774a4-9559-4e23-83ee-af1795f75b50.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Chill Out Hoodie, black cotton fleece pullover hoodie, relaxed roomy hood, no drawcords, dropped shoulders and loose sleeves, kangaroo pocket, rib hem/cuffs, ivory ML and rear print. Primary body color strictly #242426. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2069959,
+      "sha256": "728bef0ba52f05f4f908105693bc5f3248a6d99800949869d4adbf5dd04033a6"
+    },
+    {
+      "slug": "city-runner-jacket",
+      "name": "City Runner Jacket",
+      "kind": "jacket",
+      "colorHex": "#b6a4d4",
+      "details": "muted lavender wind-resistant nylon zip jacket, short stand collar, curved raglan running seams, two discreet zipped waist pockets, elastic cuffs and adjustable straight hem, oversized fit, dark ML and rear print",
+      "image": "/collection-ai/legacy-city-runner-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-795e8e56-f5e9-4c37-8296-edf15486fb03.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: City Runner Jacket, muted lavender wind-resistant nylon zip jacket, short stand collar, curved raglan running seams, two discreet zipped waist pockets, elastic cuffs and adjustable straight hem, oversized fit, dark ML and rear print. Primary body color strictly #b6a4d4. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1895167,
+      "sha256": "15594ff340168cea21f02d8a075dae71ea89aba517432e801293991ed32e5fe6"
+    },
+    {
+      "slug": "daily-utility-jacket",
+      "name": "Daily Utility Jacket",
+      "kind": "jacket",
+      "colorHex": "#a3a5aa",
+      "details": "cool grey nylon utility jacket, turn-down collar, silver full zip, two low flap pockets and one small chest utility pocket on wearerRIGHT, oversized straight hem and adjustable cuff tabs, black ML on wearerLEFT chest and dark rear print",
+      "image": "/collection-ai/legacy-daily-utility-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-140ab0b2-c5da-4fe6-b8e3-95cf2bca5e5f.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Daily Utility Jacket, cool grey nylon utility jacket, turn-down collar, silver full zip, two low flap pockets and one small chest utility pocket on wearerRIGHT, oversized straight hem and adjustable cuff tabs, black ML on wearerLEFT chest and dark rear print. Primary body color strictly #a3a5aa. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2240681,
+      "sha256": "a1db4ff9849de1820576c5bce3efd993551d2b52f94836c941f808abd0fc5ff6"
+    },
+    {
+      "slug": "daylight-pocket-tee",
+      "name": "Daylight Pocket Tee",
+      "kind": "tee",
+      "colorHex": "#b6a4d4",
+      "details": "muted lavender medium-weight cotton short sleeve crewneck tee, relaxed fit, one square patch pocket on wearerLEFT chest with small dark ML embroidered above it, straight hem, dark rear print",
+      "image": "/collection-ai/legacy-daylight-pocket-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-d6c454c3-e4ee-49ea-a64c-278c5627ad53.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Daylight Pocket Tee, muted lavender medium-weight cotton short sleeve crewneck tee, relaxed fit, one square patch pocket on wearerLEFT chest with small dark ML embroidered above it, straight hem, dark rear print. Primary body color strictly #b6a4d4. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2101060,
+      "sha256": "b2103d0a8c8099a2133a29198532a072b35f1d8ae255832f0471d2d737125ef8"
+    },
+    {
+      "slug": "everyday-essential-tee",
+      "name": "Everyday Essential Tee",
+      "kind": "tee",
+      "colorHex": "#242426",
+      "details": "black medium-weight cotton jersey short sleeve crewneck, clean rib round neckline, oversized dropped shoulder, straight double stitched hem, ivory ML and rear print",
+      "image": "/collection-ai/legacy-everyday-essential-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-2f704b00-3c38-4aa4-8771-1aaa03df4841.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Everyday Essential Tee, black medium-weight cotton jersey short sleeve crewneck, clean rib round neckline, oversized dropped shoulder, straight double stitched hem, ivory ML and rear print. Primary body color strictly #242426. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1936011,
+      "sha256": "081cd6bb54468d959ea9591bd3a79c8457c28f580d56fe3cc41d98372015323b"
+    },
+    {
+      "slug": "explorer-zip-jacket",
+      "name": "Explorer Zip Jacket",
+      "kind": "jacket",
+      "colorHex": "#e8dfcd",
+      "details": "cream wind-resistant nylon zip jacket, structured short stand collar, two large gusseted low flap pockets, front covered zipper placket, adjustable cuff tabs, relaxed fit, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-explorer-zip-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8e8ae7df-ac21-4153-ac1d-aa4ede1da261.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Explorer Zip Jacket, cream wind-resistant nylon zip jacket, structured short stand collar, two large gusseted low flap pockets, front covered zipper placket, adjustable cuff tabs, relaxed fit, dark charcoal ML and rear print. Primary body color strictly #e8dfcd. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1992002,
+      "sha256": "e612326a27d842455de5e405adb9fe159d2e23ba4950283738e00652741bc0da"
+    },
+    {
+      "slug": "heavyweight-zip-hoodie",
+      "name": "Heavyweight Zip Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#34465b",
+      "details": "navy heavyweight cotton fleece full silver zip hoodie, thick double hood with matching drawcords, split kangaroo pockets, rib cuffs/hem, relaxed fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-heavyweight-zip-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-19639261-dc21-4507-9f75-917197a6fb10.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Heavyweight Zip Hoodie, navy heavyweight cotton fleece full silver zip hoodie, thick double hood with matching drawcords, split kangaroo pockets, rib cuffs/hem, relaxed fit, ivory ML and rear print. Primary body color strictly #34465b. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2103195,
+      "sha256": "c848c44292c763f48e6bc6916d58d2d0d6c39649e618e60ae5258d8ab293dbf4"
+    },
+    {
+      "slug": "light-shell-jacket",
+      "name": "Light Shell Jacket",
+      "kind": "jacket",
+      "colorHex": "#242426",
+      "details": "black light nylon shell jacket, low funnel collar, dark front zipper, raglan sleeves, two concealed zip waist pockets, elastic cuff and straight drawcord hem, oversized fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-light-shell-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-07250eb4-bec4-41fa-a7c9-b57a926471fa.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Light Shell Jacket, black light nylon shell jacket, low funnel collar, dark front zipper, raglan sleeves, two concealed zip waist pockets, elastic cuff and straight drawcord hem, oversized fit, ivory ML and rear print. Primary body color strictly #242426. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1719332,
+      "sha256": "e37c19f4e33d857230153236bf13900c1fb2df5bf31c4e389411c6355f628559"
+    },
+    {
+      "slug": "milo-signature-tee",
+      "name": "Milo Signature Tee",
+      "kind": "tee",
+      "colorHex": "#e8dfcd",
+      "details": "cream heavy cotton short sleeve round crewneck, relaxed fit, neat rib neckline, slightly curved shoulder seam, straight hem, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-milo-signature-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-c6187c1d-7f8e-465c-b9e4-18dc63cb26d6.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Milo Signature Tee, cream heavy cotton short sleeve round crewneck, relaxed fit, neat rib neckline, slightly curved shoulder seam, straight hem, dark charcoal ML and rear print. Primary body color strictly #e8dfcd. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1885315,
+      "sha256": "ae237e10a6c8efe2385fd86b581d8516602fa9f5f5093a27a99e9e1e494c15dd"
+    },
+    {
+      "slug": "mono-boxy-tee",
+      "name": "Mono Boxy Tee",
+      "kind": "tee",
+      "colorHex": "#242426",
+      "details": "black heavyweight cotton short sleeve tee, oversized cropped boxy body, wide dropped shoulders and longer elbow length sleeves, thick rib crewneck, ivory ML and rear print",
+      "image": "/collection-ai/legacy-mono-boxy-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-41937e64-c855-4657-817d-4ece4310cca8.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Mono Boxy Tee, black heavyweight cotton short sleeve tee, oversized cropped boxy body, wide dropped shoulders and longer elbow length sleeves, thick rib crewneck, ivory ML and rear print. Primary body color strictly #242426. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1998152,
+      "sha256": "30304ba066c23d5d84859f389adc4b5822e47c5e4ad6da068289d70b8a868c70"
+    },
+    {
+      "slug": "no-rules-graphic-tee",
+      "name": "No Rules Graphic Tee",
+      "kind": "tee",
+      "colorHex": "#a3a5aa",
+      "details": "cool grey cotton jersey short sleeve tee, oversized slightly long body and broad sleeves, charcoal ML on left chest with two fine parallel embroidered accent lines under it, black floral rear brand graphic",
+      "image": "/collection-ai/legacy-no-rules-graphic-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-e39fa976-5838-4cdf-a408-fa958bcba493.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: No Rules Graphic Tee, cool grey cotton jersey short sleeve tee, oversized slightly long body and broad sleeves, charcoal ML on left chest with two fine parallel embroidered accent lines under it, black floral rear brand graphic. Primary body color strictly #a3a5aa. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2144033,
+      "sha256": "ed23b1b4ed0502a8a7e84611409c7c379e9541e8f1c14f7731a42ccd722f2a06"
+    },
+    {
+      "slug": "outline-logo-hoodie",
+      "name": "Outline Logo Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#e8dfcd",
+      "details": "cream heavyweight cotton fleece pullover hoodie, no drawcords, smooth structured hood, concealed side entry pocket, relaxed straight shoulder, rib hem/cuffs, dark outline-stitch ML on left chest and dark rear print",
+      "image": "/collection-ai/legacy-outline-logo-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-897c7747-f811-4f08-872d-d53bfbfb2695.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Outline Logo Hoodie, cream heavyweight cotton fleece pullover hoodie, no drawcords, smooth structured hood, concealed side entry pocket, relaxed straight shoulder, rib hem/cuffs, dark outline-stitch ML on left chest and dark rear print. Primary body color strictly #e8dfcd. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1964253,
+      "sha256": "8b6448255de0a9a981b13483a47ba59d89afc749be3d41422cb8b4153cb757e0"
+    },
+    {
+      "slug": "purple-haze-hoodie",
+      "name": "Purple Haze Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#78846a",
+      "details": "olive brushed cotton fleece pullover hoodie, large cross-over hood, olive drawcords, deep split kangaroo pocket, extra wide dropped shoulders, relaxed rib cuffs/hem, ivory ML and rear print",
+      "image": "/collection-ai/legacy-purple-haze-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-29f78b40-37d1-467e-aae3-c774356c7239.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Purple Haze Hoodie, olive brushed cotton fleece pullover hoodie, large cross-over hood, olive drawcords, deep split kangaroo pocket, extra wide dropped shoulders, relaxed rib cuffs/hem, ivory ML and rear print. Primary body color strictly #78846a. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2159218,
+      "sha256": "46ca5da367d8b664bd839188da05829e0ea1c07389c7b7b0f6fed44dc1d8fa1f"
+    },
+    {
+      "slug": "rain-ready-jacket",
+      "name": "Rain Ready Jacket",
+      "kind": "jacket",
+      "colorHex": "#a3a5aa",
+      "details": "cool grey lightweight coated nylon rain jacket, adjustable hood, covered front zipper with storm placket, two low zipped pockets, elastic cuffs, short straight hem, oversized fit, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-rain-ready-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-50c52ded-13a4-4a2c-b2ee-660b082feeae.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Rain Ready Jacket, cool grey lightweight coated nylon rain jacket, adjustable hood, covered front zipper with storm placket, two low zipped pockets, elastic cuffs, short straight hem, oversized fit, dark charcoal ML and rear print. Primary body color strictly #a3a5aa. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1985253,
+      "sha256": "87aa8827607b4f97ce0d57b87350b28492192c23f8f52ff9a5339750cc8b961c"
+    },
+    {
+      "slug": "soft-cloud-hoodie",
+      "name": "Soft Cloud Hoodie",
+      "kind": "hoodie",
+      "colorHex": "#b6a4d4",
+      "details": "muted lavender soft cotton fleece pullover hoodie, roomy softly rounded hood, matching drawcords, smooth curved kangaroo pocket, plush rib cuffs/hem, oversized fit, charcoal ML and rear print",
+      "image": "/collection-ai/legacy-soft-cloud-hoodie.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-b9aaaca0-f8ab-450c-890d-57a27b11a13a.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Soft Cloud Hoodie, muted lavender soft cotton fleece pullover hoodie, roomy softly rounded hood, matching drawcords, smooth curved kangaroo pocket, plush rib cuffs/hem, oversized fit, charcoal ML and rear print. Primary body color strictly #b6a4d4. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2080361,
+      "sha256": "9c280db23a0a774f99bd03575b9e17aed576c06270e1013a09140a1aecb6aa42"
+    },
+    {
+      "slug": "sport-division-tee",
+      "name": "Sport Division Tee",
+      "kind": "tee",
+      "colorHex": "#e8dfcd",
+      "details": "cream cotton jersey short sleeve crewneck tee, relaxed fit, raglan shoulder seam with one thin charcoal piping line, side split hem, charcoal ML and rear print",
+      "image": "/collection-ai/legacy-sport-division-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-1e33eebd-ec84-40e6-8203-f6262a39b087.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Sport Division Tee, cream cotton jersey short sleeve crewneck tee, relaxed fit, raglan shoulder seam with one thin charcoal piping line, side split hem, charcoal ML and rear print. Primary body color strictly #e8dfcd. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1942394,
+      "sha256": "f932994ebee805514d6103cf327ddcc58f7d0963d6895415cd691c655b5c2265"
+    },
+    {
+      "slug": "sunday-club-tee",
+      "name": "Sunday Club Tee",
+      "kind": "tee",
+      "colorHex": "#78846a",
+      "details": "olive cotton jersey short sleeve crewneck tee, relaxed fit, washed texture, low rib round neck and neat slightly rounded hem, ivory ML and rear print",
+      "image": "/collection-ai/legacy-sunday-club-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-576e56f7-f0f4-4f44-b4c6-f3fe421ecbff.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Sunday Club Tee, olive cotton jersey short sleeve crewneck tee, relaxed fit, washed texture, low rib round neck and neat slightly rounded hem, ivory ML and rear print. Primary body color strictly #78846a. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2175200,
+      "sha256": "41e7b8676a2b2a19807e8175a5e7b5120a0b8269c46024273ddfd81b50314ade"
+    },
+    {
+      "slug": "urban-motion-tee",
+      "name": "Urban Motion Tee",
+      "kind": "tee",
+      "colorHex": "#b6a4d4",
+      "details": "muted lavender cotton jersey short sleeve tee, oversized dropped shoulders, wide rib round crewneck, subtle angular shoulder seam and short side hem vents, dark charcoal ML and rear print",
+      "image": "/collection-ai/legacy-urban-motion-tee.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-226de4dd-eea7-4857-b046-8cf3b2f0743d.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Urban Motion Tee, muted lavender cotton jersey short sleeve tee, oversized dropped shoulders, wide rib round crewneck, subtle angular shoulder seam and short side hem vents, dark charcoal ML and rear print. Primary body color strictly #b6a4d4. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-tee-everyday-crew.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 2243878,
+      "sha256": "5728f79bf60d7719ac457590f3811ec53fc1cbb14c0d0dc95e4c64375f29cc71"
+    },
+    {
+      "slug": "weekend-coach-jacket",
+      "name": "Weekend Coach Jacket",
+      "kind": "jacket",
+      "colorHex": "#34465b",
+      "details": "navy lightweight nylon coach jacket, pointed shirt collar, silver snap buttons, two angled welt pockets, loose relaxed sleeves with elastic cuffs and straight drawcord hem, relaxed fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-weekend-coach-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-b139e0fd-92a6-459e-baa7-77ba54362f13.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Weekend Coach Jacket, navy lightweight nylon coach jacket, pointed shirt collar, silver snap buttons, two angled welt pockets, loose relaxed sleeves with elastic cuffs and straight drawcord hem, relaxed fit, ivory ML and rear print. Primary body color strictly #34465b. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1877870,
+      "sha256": "afc35dda77be010cb4c3a84cc31c206db176fcc9c4b4a58332b26407f11baefd"
+    },
+    {
+      "slug": "wind-breaker-jacket",
+      "name": "Wind Breaker Jacket",
+      "kind": "jacket",
+      "colorHex": "#78846a",
+      "details": "olive thin nylon windbreaker, full dark zipper and low stand collar, curved chest yoke seam, two angled zip pockets, elastic cuffs and hem, relaxed fit, ivory ML and rear print",
+      "image": "/collection-ai/legacy-wind-breaker-jacket.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-40c030ce-8dae-4da6-aeea-d61d3c4f49e2.png",
+      "prompt": "Use case: product-mockup. Replace an old vector illustration with a detailed photorealistic fashion DESIGN MOCKUP, not a real-stock photograph. TWO square views side-by-side on a landscape2:1canvas: LEFT perfectly straight FRONT, RIGHT perfectly straight BACK of exactly the SAME empty garment. One single front/back product plate, NOT sixviews or manyproducts. Reference1 supplies ONLY fabric/photo quality and elegant intertwined ML monogram, not garment construction/color; reference2 supplies ONLY floral M with hibiscus/leaves, exact MiloShopHand wordmark and floral underline; ignore burgundy background. GARMENT: Wind Breaker Jacket, olive thin nylon windbreaker, full dark zipper and low stand collar, curved chest yoke seam, two angled zip pockets, elastic cuffs and hem, relaxed fit, ivory ML and rear print. Primary body color strictly #78846a. Materials have natural believable weave/seams/drape/microfolds, no lowpoly/plastic/procedural3D. FRONT small sharp interwoven ML on wearer'sLEFT chest (imageRIGHT of center in frontalview), consistent highcontrast ink specified. BACK highcontrast floral M plus EXACT wordmark \"MiloShopHand\" (M-i-l-o-S-h-o-p-H-a-n-d) plus floral underline, centered upperback, 35-45% of torso width. Keep logo crisp and legible and never samecolor as fabric. Both sides same body/sleeve/trimcolor/construction/size, matched poses, sleeve lengths, collar/hood, hem, lighting/groundbaseline. For hoodies backlogo entirely visible BELOW hood. Whole uncropped garment, safe10% clear margins and equal scale in each half. Garment upright, locked level camera, verticalYaxis. Uniform warm ivory studio background and soft diffused light. No person/mannequin/hanger/props, no caption/labels/numbers/borders/watermark, no othertext, no vector drawing. Target highresolution landscape1536x768 or larger 2:1 canvas with two equal square panels, photographic detail matching reference.",
+      "references": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/collection-ai/ml-jacket-field-four.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/.local/floral-logo-alpha-qa.png"
+      ],
+      "review": "approved: root visually reviewed front/back matching garment, readable MiloShopHand and contrasting front ML/rear floral logo",
+      "nativeWidth": 1774,
+      "nativeHeight": 887,
+      "bytes": 1949005,
+      "sha256": "8bdaf754e529c64db8647ec79363514eb27aba9c1e0aa4b103fdb6bbfe4379de"
+    }
+  ]
+}

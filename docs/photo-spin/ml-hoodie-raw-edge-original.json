@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-raw-edge",
+  "color": "original warm brown-taupe/cream rawseams",
+  "colorHex": "#8b7963",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-raw-edge.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a7ae5ef6-34a5-42f2-8dca-f9b183120178.png",
+    "prompt": "Use case: product-mockup. Full24view photographic turntable GUIDE of EXACTgarment reference1:warm brown-taupe #8b7963 cotton fleece RAW-EDGE PULLOVER hoodie, exposed cream frayed seams along hood opening, droppedshoulders, pouchrim, and straight raw-cut bottomhem (NO ribbedhem), cream #e6ddc7 ribcuffs, creamdrawstrings with knottedfrayedends, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood relaxedhangingarms. Preserve clothdetails colour construction andpose. Ref2 ONLYbackbranding floralM above exact\"MiloShopHand\" indark espresso #211b15 forstrongcontrastontaupe, ignoreburgundybg. EXACT6columns4rows equalcells no gutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseY rotation uprightfixedlevelcamera no pitchroll. Uniformivorybgsoftstudio light samegarmentscale/ground/foldsall24. No repeatedangles/directionreversal/mirroredlogos ormisspelledtext. Realsoftcloth no3Dplasticmesh no human/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-5d008527-fa70-4b05-80a1-13de081e3eaa.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raw-edge/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Image1 full24guide extract/redrawONLYROW1 frames0..5 intoEXACT3columns2rows. Rowmajor0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile, distinctsmallclockwisesteps notexaggerated. Image2 originalauthoritative warm brown-taupe #8b7963 cotton fleece RAW-EDGE PULLOVER hoodie, exposed cream frayed seams along hood opening, droppedshoulders, pouchrim, and straight raw-cut bottomhem (NO ribbedhem), cream #e6ddc7 ribcuffs, creamdrawstrings with knottedfrayedends, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood relaxedhangingarms. Match originalrawfrayededgeconstruction EXACThemlength/no ribhem, pockets/creamcuffs/drawcords, samefolds/scaleground allcells. OriginalcreamML frontmarkforeshortensnaturally, NO backbrandyet/no mirroredlogo. Fixedlevelcamera strictuprightverticalY no pitchroll. Native1536x1280orlarger6:5ratio >=450pxcellwidth,3x2equalgrid no gutters/lines/labels, eachgarmentfullyinside5%margin. Uniformivorybgsoftlight, noperson/mannequin/hanger, realsoftfleece not3Dplasticmesh.",
+      "sha256": "d2e1cd3953bb9e75df2697dd2d63ae9cf5d0bdcfd608fc292a21b10ab374319b",
+      "bytes": 2071074,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 80,
+          "y": 18,
+          "width": 368,
+          "height": 491
+        },
+        {
+          "x": 81,
+          "y": 18,
+          "width": 349,
+          "height": 491
+        },
+        {
+          "x": 86,
+          "y": 18,
+          "width": 304,
+          "height": 491
+        },
+        {
+          "x": 134,
+          "y": 3,
+          "width": 263,
+          "height": 409
+        },
+        {
+          "x": 145,
+          "y": 3,
+          "width": 220,
+          "height": 414
+        },
+        {
+          "x": 131,
+          "y": 3,
+          "width": 203,
+          "height": 415
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-21b688bf-2d57-4a86-a669-67b3fa2582dd.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raw-edge/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Ref1 full24guide: redrawONLYROW2 frames6..11 intoEXACT3columns2rows rowmajor90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. Keepclockwiseguideincrements, noearlyfullyback180view. Ref2 originaldetail: warm brown-taupe #8b7963 cotton fleece RAW-EDGE PULLOVER hoodie, exposed cream frayed seams along hood opening, droppedshoulders, pouchrim, and straight raw-cut bottomhem (NO ribbedhem), cream #e6ddc7 ribcuffs, creamdrawstrings with knottedfrayedends, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood relaxedhangingarms. Ref3 precedingfrontquadrant preserveexactcloth/cut/pose/scale/ground andcontinue75→90. Ref4 ONLYbackbrand floralM+exact\"MiloShopHand\" indark espresso #211b15, ignoreburgundybg. Fullbrandupperbackbelowhood naturallyemergesfromside, correctperspective/occlusion, nevermirrored/misspelled. NO ribhem, maintaincreamrawfrayededge details alonghood/shoulders/bottomhem andcreampouchrim. Fixedlevelcamera strictuprightverticalY no pitchroll. Native1536x1280orlarger6:5ratio >=450pxcellwidth,3x2equalgrid no gutters/lines/labels, eachgarmentfullyinside5%margin. Uniformivorybgsoftlight, noperson/mannequin/hanger, realsoftfleece not3Dplasticmesh.",
+      "sha256": "b1a0cdcd3b9de541b8b9a420e1cbf09cd5053907db1034068b20824d12679135",
+      "bytes": 1797451,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 164,
+          "y": 18,
+          "width": 202,
+          "height": 459
+        },
+        {
+          "x": 137,
+          "y": 18,
+          "width": 215,
+          "height": 457
+        },
+        {
+          "x": 102,
+          "y": 18,
+          "width": 257,
+          "height": 452
+        },
+        {
+          "x": 101,
+          "y": 14,
+          "width": 307,
+          "height": 462
+        },
+        {
+          "x": 68,
+          "y": 15,
+          "width": 358,
+          "height": 460
+        },
+        {
+          "x": 47,
+          "y": 14,
+          "width": 393,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a20f3494-4398-4fb8-b34c-769cf3cb62c2.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raw-edge/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Ref1 full24guide redrawONLYROW3 frames12..17 intoEXACT3columns2rows rowmajor180EXACTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTprofile. DistinctsmallclockwiseY increments no repeat/reverse. Ref2 precedingphotodetail authoritative warm brown-taupe #8b7963 cotton fleece RAW-EDGE PULLOVER hoodie, exposed cream frayed seams along hood opening, droppedshoulders, pouchrim, and straight raw-cut bottomhem (NO ribbedhem), cream #e6ddc7 ribcuffs, creamdrawstrings with knottedfrayedends, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood relaxedhangingarms. Ref3 ONLYfloralM+exact\"MiloShopHand\" backbrand indark espresso #211b15; ignoreburgundybg. Match ref2 logosize/layout/placement exactly, naturalperspective/occlusion nevermirrored. Samecolour/cut/fleecefolds/hoodshape/scalegroundallframes. Preserverawfrayedcreamhoodedge/shoulderseams/bottomhem, noribhem. Fixedlevelcamera strictuprightY no pitchroll, paleivoryuniformbgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth; exact3x2equalgrid no gutters/lines/labels with5%garmentmargin. Noperson/mannequin/hanger no3Dplasticmeshlook.",
+      "sha256": "a9d04b4395140e25070e3b8a720bb97b075bf83fd47b471920f3d1e0326d92c1",
+      "bytes": 2089598,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 77,
+          "y": 18,
+          "width": 391,
+          "height": 441
+        },
+        {
+          "x": 72,
+          "y": 20,
+          "width": 368,
+          "height": 440
+        },
+        {
+          "x": 86,
+          "y": 21,
+          "width": 313,
+          "height": 439
+        },
+        {
+          "x": 146,
+          "y": 14,
+          "width": 244,
+          "height": 449
+        },
+        {
+          "x": 136,
+          "y": 13,
+          "width": 224,
+          "height": 450
+        },
+        {
+          "x": 142,
+          "y": 14,
+          "width": 200,
+          "height": 449
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-3b28f83d-c80f-4ee7-bf77-c58375a87c36.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raw-edge/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photographic360atlas. Image1 ONLYauthoritativeSIXPOSES copyexactorientation, firsthoodbendLEFT/frontonRIGHT. Replacecharcoalhoodie with exact RAW-EDGEbrownhoodiefromimage2:warm brown-taupe #8b7963 cotton fleece RAW-EDGE PULLOVER hoodie, exposed cream frayed seams along hood opening, droppedshoulders, pouchrim, and straight raw-cut bottomhem (NO ribbedhem), cream #e6ddc7 ribcuffs, creamdrawstrings with knottedfrayedends, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood relaxedhangingarms. Image3 preceding255rearquadrant forcontinuity. Image4 frontdetail, doNOT copyitsleftprofile. EXACT3columns2rows rowmajor270rightprofile(hoodtipLEFT/frontedgeRIGHT),285,300,315frontthreequarter,330,345nearlyfront. BackdisappearsLEFT, frontemergesRIGHT. CreamMLwearer'sleftchest(screenrightatfront), nevermirror. Preservefrayedcreamshoulder/hood/pouchseams/straightbottomhem NO ribhem, sameclothtexture/folds/cut/colour/scaleground. StrictuprightverticalY fixedlevelcamera no pitchroll, paleivorybgsoftstudio light. Native1536x1280orlarger6:5ratio >=450pxcellwidth,3x2equalgrid no gutters/lines/labels,5%garmentmargin. Noperson/mannequin/hanger orplastic3Dmesh.",
+      "sha256": "b092972c06670da842bba5a6ea0cad3f4d8680164e480711466d09d0e403e875",
+      "bytes": 2146947,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 116,
+          "y": 20,
+          "width": 222,
+          "height": 504
+        },
+        {
+          "x": 112,
+          "y": 22,
+          "width": 220,
+          "height": 502
+        },
+        {
+          "x": 79,
+          "y": 21,
+          "width": 283,
+          "height": 503
+        },
+        {
+          "x": 76,
+          "y": 21.5,
+          "width": 333,
+          "height": 499
+        },
+        {
+          "x": 37,
+          "y": 22.5,
+          "width": 376,
+          "height": 497
+        },
+        {
+          "x": 18,
+          "y": 21.5,
+          "width": 409,
+          "height": 494
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "OriginalcreamfrontML, backfloralM+exactMiloShopHand indark espresso #211b15 forcontrast.",
+    "loopContinuity": "Reviewedall24 plus75→90/165→180/255→270/345→0 joins, correctoppositesides andfixedverticalY. Rawseamconstruction/straighthem retained. NominalAI angle estimates, not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

@@ -1,0 +1,5112 @@
+[
+  {
+    "slug": "after-hours-hoodie",
+    "name": "After Hours Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/after-hours-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-78846a-back.webp"
+      },
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-a3a5aa-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/after-hours-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "airy-cotton-tee",
+    "name": "Airy Cotton Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/airy-cotton-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-242426-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/airy-cotton-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "campus-club-hoodie",
+    "name": "Campus Club Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/campus-club-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-a3a5aa-back.webp"
+      },
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/campus-club-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "chill-out-hoodie",
+    "name": "Chill Out Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/chill-out-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-242426-back.webp"
+      },
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-e8dfcd-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/chill-out-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "city-runner-jacket",
+    "name": "City Runner Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/city-runner-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-b6a4d4-back.webp"
+      },
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-78846a-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/city-runner-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "cloud-cream-bomber",
+    "name": "Cloud Cream Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/cloud-cream-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-e8dfcd-back.webp"
+      },
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-b6a4d4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/cloud-cream-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "daily-utility-jacket",
+    "name": "Daily Utility Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/daily-utility-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-a3a5aa-back.webp"
+      },
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daily-utility-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "daylight-pocket-tee",
+    "name": "Daylight Pocket Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/daylight-pocket-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-b6a4d4-back.webp"
+      },
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-78846a-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/daylight-pocket-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "downtown-bomber",
+    "name": "Downtown Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/downtown-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-242426-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/downtown-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "everyday-essential-tee",
+    "name": "Everyday Essential Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/everyday-essential-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-242426-back.webp"
+      },
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-e8dfcd-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/everyday-essential-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "explorer-zip-jacket",
+    "name": "Explorer Zip Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/explorer-zip-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-e8dfcd-back.webp"
+      },
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-b6a4d4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/explorer-zip-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "heavyweight-zip-hoodie",
+    "name": "Heavyweight Zip Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/heavyweight-zip-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-242426-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/heavyweight-zip-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "light-shell-jacket",
+    "name": "Light Shell Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/light-shell-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-242426-back.webp"
+      },
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-e8dfcd-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/light-shell-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "midnight-flight-bomber",
+    "name": "Midnight Flight Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/midnight-flight-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-78846a-back.webp"
+      },
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-a3a5aa-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/midnight-flight-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "milo-signature-tee",
+    "name": "Milo Signature Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/milo-signature-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-e8dfcd-back.webp"
+      },
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-b6a4d4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/milo-signature-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-collar-flight",
+    "name": "ML Collar Flight Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-collar-flight.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "collared",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "flap"
+    },
+    "accentHex": "#d0c2a7",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#525e62",
+        "inkHex": "#ffffff",
+        "contrast": 6.695964196138736,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-525e62-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-525e62-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-collar-flight-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-contrast-sleeve",
+    "name": "ML Contrast Sleeve Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-contrast-sleeve.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "contrast-sleeve",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#dbceb4",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#5f6553",
+        "inkHex": "#ffffff",
+        "contrast": 6.046718607749654,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-5f6553-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-5f6553-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-contrast-sleeve-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-cropped-flight",
+    "name": "ML Cropped Flight Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-cropped-flight.glb",
+    "geometry": {
+      "hem": "cropped-rib",
+      "panel": "cropped",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#3c453a",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c2b292",
+        "inkHex": "#000000",
+        "contrast": 10.077089243317271,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-c2b292-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-c2b292-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-cropped-flight-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-flight-ma1",
+    "name": "ML Flight MA1 Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-flight-ma1.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "ma1",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#dfd2b5",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#656e53",
+        "inkHex": "#ffffff",
+        "contrast": 5.372741484115819,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-656e53-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-656e53-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-flight-ma1-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-heritage-baseball",
+    "name": "ML Heritage Baseball Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-heritage-baseball.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "snap-baseball",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "welt"
+    },
+    "accentHex": "#e6ddc9",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8d6e56",
+        "inkHex": "#ffffff",
+        "contrast": 4.669475292914553,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-8d6e56-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-8d6e56-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-heritage-baseball-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-pocket-pilot",
+    "name": "ML Pocket Pilot Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-pocket-pilot.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "cargo",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "cargo"
+    },
+    "accentHex": "#cfbc98",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#363d3c",
+        "inkHex": "#ffffff",
+        "contrast": 11.113461889364718,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-363d3c-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-363d3c-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-pocket-pilot-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-quilt-pilot",
+    "name": "ML Quilt Pilot Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-quilt-pilot.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "diamond-quilt",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "flap"
+    },
+    "accentHex": "#e1d7bf",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#9b9e88",
+        "inkHex": "#000000",
+        "contrast": 7.639971122596017,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-9b9e88-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-9b9e88-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-quilt-pilot-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-reversible-day",
+    "name": "ML Reversible Day Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-reversible-day.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "reversible",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#636f52",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c8bca0",
+        "inkHex": "#000000",
+        "contrast": 11.156773002083371,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-c8bca0-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-c8bca0-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-reversible-day-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-rib-stripe",
+    "name": "ML Rib Stripe Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-rib-stripe.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "rib-stripe",
+      "collar": "striped-rib",
+      "sleeve": "long",
+      "stripe": true,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#354537",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#ddd2ba",
+        "inkHex": "#000000",
+        "contrast": 14.002101886263695,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-ddd2ba-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-ddd2ba-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-rib-stripe-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-satin-evening",
+    "name": "ML Satin Evening Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-satin-evening.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "satin",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#d9cbb0",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#414c51",
+        "inkHex": "#ffffff",
+        "contrast": 8.833341649497703,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-414c51-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-414c51-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-satin-evening-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-soft-cord",
+    "name": "ML Soft Cord Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-soft-cord.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "corduroy",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "patch"
+    },
+    "accentHex": "#e8deca",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#a48e70",
+        "inkHex": "#000000",
+        "contrast": 6.681673438449851,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-a48e70-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-a48e70-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-soft-cord-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-sport-chevron",
+    "name": "ML Sport Chevron Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-sport-chevron.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "chevron",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": true,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#d9c8a9",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#49534c",
+        "inkHex": "#ffffff",
+        "contrast": 8.000132108941495,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-49534c-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-49534c-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-sport-chevron-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-suede-dusk",
+    "name": "ML Suede Dusk Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-suede-dusk.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "suede",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#d9cab1",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#9a7755",
+        "inkHex": "#000000",
+        "contrast": 5.143910677431414,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-9a7755-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-9a7755-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-suede-dusk-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-varsity-club",
+    "name": "ML Varsity Club Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-varsity-club.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "varsity",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "welt"
+    },
+    "accentHex": "#e2d6bb",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#333b36",
+        "inkHex": "#ffffff",
+        "contrast": 11.540898492200725,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-333b36-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-333b36-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-varsity-club-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-bomber-zip-arm",
+    "name": "ML Zip Arm Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-bomber-zip-arm.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "arm-utility",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "arm-zip"
+    },
+    "accentHex": "#424c3b",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#969a88",
+        "inkHex": "#000000",
+        "contrast": 7.274561238342918,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-969a88-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-969a88-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-bomber-zip-arm-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-cloud-pullover",
+    "name": "ML Cloud Pullover Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-cloud-pullover.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "classic",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#505c46",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#e4ddc9",
+        "inkHex": "#000000",
+        "contrast": 15.484785871820375,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-e4ddc9-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-e4ddc9-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-cloud-pullover-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-double-hood",
+    "name": "ML Double Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-double-hood.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "double-hood",
+      "collar": "double-hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#d7cbb3",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#555c50",
+        "inkHex": "#ffffff",
+        "contrast": 6.923940875329201,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-555c50-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-555c50-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-double-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-drop-shoulder-hood",
+    "name": "ML Drop Shoulder Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-drop-shoulder-hood.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "oversize",
+      "collar": "hood",
+      "sleeve": "drop",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#3e4b3d",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#b5ad99",
+        "inkHex": "#000000",
+        "contrast": 9.402161003554928,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-b5ad99-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-b5ad99-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-drop-shoulder-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-half-zip-studio",
+    "name": "ML Half Zip Studio Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-half-zip-studio.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "half-zip",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#4d5948",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c3c0ad",
+        "inkHex": "#000000",
+        "contrast": 11.463701210146695,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-c3c0ad-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-c3c0ad-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-half-zip-studio-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-heavy-crop",
+    "name": "ML Heavy Crop Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-heavy-crop.glb",
+    "geometry": {
+      "hem": "cropped-rib",
+      "panel": "cropped",
+      "collar": "hood",
+      "sleeve": "drop",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e7dfcd",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#a69179",
+        "inkHex": "#000000",
+        "contrast": 6.947653013599428,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-a69179-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-a69179-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-heavy-crop-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-longline-hood",
+    "name": "ML Longline Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-longline-hood.glb",
+    "geometry": {
+      "hem": "longline",
+      "panel": "longline",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#d4c3a4",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#343e38",
+        "inkHex": "#ffffff",
+        "contrast": 11.098383813209887,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-343e38-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-343e38-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-longline-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-minimal-no-pocket",
+    "name": "ML Minimal No Pocket Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-minimal-no-pocket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "minimal",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#57634d",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#dbd2bf",
+        "inkHex": "#000000",
+        "contrast": 13.982968794713745,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-dbd2bf-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-dbd2bf-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-minimal-no-pocket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-panel-hood",
+    "name": "ML Panel Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-panel-hood.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "contrast-yoke",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#d8ccb2",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#69715c",
+        "inkHex": "#ffffff",
+        "contrast": 5.100499532630294,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-69715c-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-69715c-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-panel-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-raglan-comfort",
+    "name": "ML Raglan Comfort Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-raglan-comfort.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "raglan",
+      "collar": "hood",
+      "sleeve": "raglan",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#cfc0a2",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#343c3b",
+        "inkHex": "#ffffff",
+        "contrast": 11.317644906798789,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-343c3b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-343c3b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raglan-comfort-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-raw-edge",
+    "name": "ML Raw Edge Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-raw-edge.glb",
+    "geometry": {
+      "hem": "raw",
+      "panel": "raw-edge",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e6ddc7",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8b7963",
+        "inkHex": "#000000",
+        "contrast": 5.0129128651049175,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-8b7963-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-8b7963-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-raw-edge-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-rib-side-hood",
+    "name": "ML Rib Side Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-rib-side-hood.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "rib-side",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#4e5b45",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#b7b9a7",
+        "inkHex": "#000000",
+        "contrast": 10.511044766571866,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-b7b9a7-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-b7b9a7-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-rib-side-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-side-zip",
+    "name": "ML Side Zip Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-side-zip.glb",
+    "geometry": {
+      "hem": "split",
+      "panel": "side-zips",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#d6c6a6",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#4e5c64",
+        "inkHex": "#ffffff",
+        "contrast": 6.910580048198803,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-4e5c64-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-4e5c64-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-side-zip-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-waffle-layer",
+    "name": "ML Waffle Layer Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-waffle-layer.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "waffle",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#5b624e",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#d6c7a6",
+        "inkHex": "#000000",
+        "contrast": 12.579232624558205,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-d6c7a6-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-d6c7a6-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-waffle-layer-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-zip-everyday",
+    "name": "ML Zip Everyday Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-zip-everyday.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "full-zip",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "split-kangaroo"
+    },
+    "accentHex": "#ded1b5",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#56614f",
+        "inkHex": "#ffffff",
+        "contrast": 6.524845481594872,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-56614f-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-56614f-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-everyday-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-hoodie-zip-pocket-hood",
+    "name": "ML Zip Pocket Hood Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-hoodie-zip-pocket-hood.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "technical",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "zip"
+    },
+    "accentHex": "#dfd5bd",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8e715d",
+        "inkHex": "#000000",
+        "contrast": 4.6702702279032735,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-8e715d-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-8e715d-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-hoodie-zip-pocket-hood-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-anorak-half",
+    "name": "ML Anorak Half Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-anorak-half.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "half-zip",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#d9c8a6",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#6c735c",
+        "inkHex": "#ffffff",
+        "contrast": 4.947621309792601,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-6c735c-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-6c735c-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-anorak-half-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-chore-three",
+    "name": "ML Chore Three Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-chore-three.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "chore",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "three-patch"
+    },
+    "accentHex": "#eee4cb",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#a98e68",
+        "inkHex": "#000000",
+        "contrast": 6.7560988958031185,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-a98e68-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-a98e68-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-chore-three-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-city-shell",
+    "name": "ML City Shell Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-city-shell.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "shell",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "zip"
+    },
+    "accentHex": "#3b4439",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#b9ac94",
+        "inkHex": "#000000",
+        "contrast": 9.391490751424945,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-b9ac94-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-b9ac94-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-city-shell-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-coach-snap",
+    "name": "ML Coach Snap Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-coach-snap.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "coach",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "welt"
+    },
+    "accentHex": "#c6b794",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#333b35",
+        "inkHex": "#ffffff",
+        "contrast": 11.552708029313147,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-333b35-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-333b35-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-coach-snap-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-denim-work",
+    "name": "ML Denim Work Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-denim-work.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "workwear",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "four-patch"
+    },
+    "accentHex": "#d2c1a0",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#5c6c78",
+        "inkHex": "#ffffff",
+        "contrast": 5.424534026288103,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-5c6c78-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-5c6c78-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-denim-work-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-field-four",
+    "name": "ML Field Four Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-field-four.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "field",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "four-flap"
+    },
+    "accentHex": "#d9c9a8",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#677054",
+        "inkHex": "#ffffff",
+        "contrast": 5.2207640172175305,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-677054-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-677054-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-field-four-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-minimal-collar",
+    "name": "ML Minimal Collar Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-minimal-collar.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "minimal",
+      "collar": "collarless",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#525547",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#e4d7be",
+        "inkHex": "#000000",
+        "contrast": 14.762512666721154,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-e4d7be-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-e4d7be-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-minimal-collar-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-panel-wind",
+    "name": "ML Panel Wind Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-panel-wind.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "contrast-yoke",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "zip"
+    },
+    "accentHex": "#5f6c51",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#d2c6ad",
+        "inkHex": "#000000",
+        "contrast": 12.421387027646935,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-d2c6ad-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-d2c6ad-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-panel-wind-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-quilt-light",
+    "name": "ML Quilt Light Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-quilt-light.glb",
+    "geometry": {
+      "hem": "curved",
+      "panel": "diamond-quilt",
+      "collar": "band",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "patch"
+    },
+    "accentHex": "#e6ddc7",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8d795e",
+        "inkHex": "#000000",
+        "contrast": 5.029123327342543,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-8d795e-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-8d795e-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-quilt-light-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-racer-clean",
+    "name": "ML Racer Clean Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-racer-clean.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "racer",
+      "collar": "band",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "zip"
+    },
+    "accentHex": "#cabd9e",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#303332",
+        "inkHex": "#ffffff",
+        "contrast": 12.76390813876378,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-303332-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-303332-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-racer-clean-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-rain-fold",
+    "name": "ML Rain Fold Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-rain-fold.glb",
+    "geometry": {
+      "hem": "curved",
+      "panel": "rain",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "flap"
+    },
+    "accentHex": "#d9d1bc",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#7b816b",
+        "inkHex": "#000000",
+        "contrast": 5.194600880518896,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-7b816b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-7b816b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-rain-fold-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-safari-belt",
+    "name": "ML Safari Belt Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-safari-belt.glb",
+    "geometry": {
+      "hem": "longline",
+      "panel": "belted",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "four-flap"
+    },
+    "accentHex": "#525b43",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c3b08e",
+        "inkHex": "#000000",
+        "contrast": 9.92115283181251,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-c3b08e-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-c3b08e-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-safari-belt-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-shirt-oversize",
+    "name": "ML Shirt Oversize Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-shirt-oversize.glb",
+    "geometry": {
+      "hem": "curved",
+      "panel": "overshirt",
+      "collar": "point",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "two-chest"
+    },
+    "accentHex": "#ded7c2",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8a8b7d",
+        "inkHex": "#000000",
+        "contrast": 6.0698359286327985,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-8a8b7d-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-8a8b7d-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-shirt-oversize-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-track-stripe",
+    "name": "ML Track Stripe Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-track-stripe.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "sleeve-stripe",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": true,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#d3c6aa",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#424d49",
+        "inkHex": "#ffffff",
+        "contrast": 8.788784639491663,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-424d49-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-424d49-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-track-stripe-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-jacket-utility-zip",
+    "name": "ML Utility Zip Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-jacket-utility-zip.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "utility",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "chest"
+    },
+    "accentHex": "#dfd5bd",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#4c575e",
+        "inkHex": "#ffffff",
+        "contrast": 7.414708770291776,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-4c575e-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-4c575e-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-jacket-utility-zip-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-athletic-ringer",
+    "name": "ML Athletic Ringer Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-athletic-ringer.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "ringer",
+      "collar": "ringer",
+      "sleeve": "short",
+      "stripe": true,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#5a6654",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#e8e3d2",
+        "inkHex": "#000000",
+        "contrast": 16.349423670603517,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-e8e3d2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-e8e3d2-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-athletic-ringer-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-breton-line",
+    "name": "ML Breton Line Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-breton-line.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "fine-horizontal",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": true,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#393e36",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#ddd6c4",
+        "inkHex": "#000000",
+        "contrast": 14.490161789082304,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-ddd6c4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-ddd6c4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-breton-line-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-double-hem",
+    "name": "ML Double Hem Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-double-hem.glb",
+    "geometry": {
+      "hem": "layered",
+      "panel": "layered-hem",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#ddd4bf",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#4b5458",
+        "inkHex": "#ffffff",
+        "contrast": 7.754179905946594,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-4b5458-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-4b5458-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-double-hem-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-drop-shoulder",
+    "name": "ML Drop Shoulder Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-drop-shoulder.glb",
+    "geometry": {
+      "hem": "boxy",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "drop",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e7deca",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8b8477",
+        "inkHex": "#000000",
+        "contrast": 5.664681036773552,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-8b8477-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-8b8477-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-drop-shoulder-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-everyday-crew",
+    "name": "ML Everyday Crew Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-everyday-crew.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#30352c",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#eee7d7",
+        "inkHex": "#000000",
+        "contrast": 17.047053460452535,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-eee7d7-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-eee7d7-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-everyday-crew-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-heavy-box",
+    "name": "ML Heavy Box Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-heavy-box.glb",
+    "geometry": {
+      "hem": "boxy",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#d5c6a5",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#262925",
+        "inkHex": "#ffffff",
+        "contrast": 14.723375488807394,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-262925-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-262925-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-heavy-box-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-henley-three",
+    "name": "ML Henley Three Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-henley-three.glb",
+    "geometry": {
+      "hem": "relaxed",
+      "panel": "placket",
+      "collar": "henley",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#4c5547",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c7c4b3",
+        "inkHex": "#000000",
+        "contrast": 11.975328532530684,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-c7c4b3-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-c7c4b3-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-henley-three-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-longline-basic",
+    "name": "ML Longline Basic Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-longline-basic.glb",
+    "geometry": {
+      "hem": "longline",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#d6c6b1",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#303b3b",
+        "inkHex": "#ffffff",
+        "contrast": 11.573979022717886,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-303b3b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-303b3b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-longline-basic-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-mock-neck",
+    "name": "ML Mock Neck Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-mock-neck.glb",
+    "geometry": {
+      "hem": "boxy",
+      "panel": "none",
+      "collar": "mock",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#382f2a",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#d5bc97",
+        "inkHex": "#000000",
+        "contrast": 11.469387812542566,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-d5bc97-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-d5bc97-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-mock-neck-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-pocket-study",
+    "name": "ML Pocket Study Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-pocket-study.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "chest"
+    },
+    "accentHex": "#efe5cb",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#8e6a52",
+        "inkHex": "#ffffff",
+        "contrast": 4.845845012238295,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-8e6a52-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-8e6a52-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-pocket-study-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-raglan-day",
+    "name": "ML Raglan Day Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-raglan-day.glb",
+    "geometry": {
+      "hem": "relaxed",
+      "panel": "raglan",
+      "collar": "crew",
+      "sleeve": "raglan",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#4d5949",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#dad2be",
+        "inkHex": "#000000",
+        "contrast": 13.943263724209908,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-dad2be-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-dad2be-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-raglan-day-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-rib-neck",
+    "name": "ML Rib Neck Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-rib-neck.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "rib-crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e9dfc7",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#5e694f",
+        "inkHex": "#ffffff",
+        "contrast": 5.818029593591774,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-5e694f-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-5e694f-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-rib-neck-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-slit-side",
+    "name": "ML Slit Side Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-slit-side.glb",
+    "geometry": {
+      "hem": "split",
+      "panel": "side-slit",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#d5c1a0",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#515d46",
+        "inkHex": "#ffffff",
+        "contrast": 6.990572783847664,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-515d46-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-515d46-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-slit-side-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-split-panel",
+    "name": "ML Split Panel Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-split-panel.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "vertical",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#ede6d4",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#a3876d",
+        "inkHex": "#000000",
+        "contrast": 6.243720575716003,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-a3876d-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-a3876d-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-split-panel-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "ml-tee-wide-neck",
+    "name": "ML Wide Neck Basic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/ml-tee-wide-neck.glb",
+    "geometry": {
+      "hem": "relaxed",
+      "panel": "none",
+      "collar": "wide-crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#374139",
+    "colorways": [
+      {
+        "name": "Màu thiết kế",
+        "hex": "#c0b19b",
+        "inkHex": "#000000",
+        "contrast": 10.003461302715266,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-c0b19b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-c0b19b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/ml-tee-wide-neck-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "name": "Mono Boxy Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/mono-boxy-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-242426-back.webp"
+      },
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-e8dfcd-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/mono-boxy-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "name": "No Rules Graphic Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/no-rules-graphic-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-a3a5aa-back.webp"
+      },
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/no-rules-graphic-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "olive-field-bomber",
+    "name": "Olive Field Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/olive-field-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-242426-back.webp"
+      },
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-e8dfcd-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/olive-field-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "outline-logo-hoodie",
+    "name": "Outline Logo Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/outline-logo-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-e8dfcd-back.webp"
+      },
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-b6a4d4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/outline-logo-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "purple-haze-hoodie",
+    "name": "Purple Haze Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/purple-haze-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-78846a-back.webp"
+      },
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-a3a5aa-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/purple-haze-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "rain-ready-jacket",
+    "name": "Rain Ready Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/rain-ready-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-a3a5aa-back.webp"
+      },
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/rain-ready-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "retro-sport-bomber",
+    "name": "Retro Sport Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/retro-sport-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-242426-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/retro-sport-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "soft-cloud-hoodie",
+    "name": "Soft Cloud Hoodie",
+    "kind": "hoodie",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/soft-cloud-hoodie.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "hood",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "kangaroo"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-b6a4d4-back.webp"
+      },
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-78846a-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/soft-cloud-hoodie-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "sport-division-tee",
+    "name": "Sport Division Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/sport-division-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Kem",
+        "hex": "#e8dfcd",
+        "inkHex": "#000000",
+        "contrast": 15.867787090941356,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-e8dfcd-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-e8dfcd-back.webp"
+      },
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-b6a4d4-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sport-division-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "studio-nylon-bomber",
+    "name": "Studio Nylon Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/studio-nylon-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-a3a5aa-back.webp"
+      },
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/studio-nylon-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "sunday-club-tee",
+    "name": "Sunday Club Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/sunday-club-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-78846a-back.webp"
+      },
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-a3a5aa-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/sunday-club-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "urban-motion-tee",
+    "name": "Urban Motion Tee",
+    "kind": "tee",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/urban-motion-tee.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "crew",
+      "sleeve": "short",
+      "stripe": false,
+      "zipper": false,
+      "pockets": "none"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-b6a4d4-back.webp"
+      },
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-78846a-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/urban-motion-tee-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "varsity-club-bomber",
+    "name": "Varsity Club Bomber",
+    "kind": "bomber",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/varsity-club-bomber.glb",
+    "geometry": {
+      "hem": "rib",
+      "panel": "none",
+      "collar": "rib",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Tím",
+        "hex": "#b6a4d4",
+        "inkHex": "#000000",
+        "contrast": 9.249893718722651,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-b6a4d4-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-b6a4d4-back.webp"
+      },
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-78846a-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/varsity-club-bomber-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "weekend-coach-jacket",
+    "name": "Weekend Coach Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/weekend-coach-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh navy",
+        "hex": "#34465b",
+        "inkHex": "#ffffff",
+        "contrast": 9.663424661639858,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-34465b-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-34465b-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#242426",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 15.494127232196467,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-242426-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-242426-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/weekend-coach-jacket-722f37-back.webp"
+      }
+    ]
+  },
+  {
+    "slug": "wind-breaker-jacket",
+    "name": "Wind Breaker Jacket",
+    "kind": "jacket",
+    "brandVersion": "floral-v2",
+    "meshVersion": "rounded-shell-v3",
+    "modelUrl": "/collection-v2/5cd928efb1e1/models/wind-breaker-jacket.glb",
+    "geometry": {
+      "hem": "straight",
+      "panel": "none",
+      "collar": "stand",
+      "sleeve": "long",
+      "stripe": false,
+      "zipper": true,
+      "pockets": "welt"
+    },
+    "accentHex": "#e8dfcd",
+    "colorways": [
+      {
+        "name": "Xanh olive",
+        "hex": "#78846a",
+        "inkHex": "#000000",
+        "contrast": 5.307241089833808,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-78846a-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-78846a-back.webp"
+      },
+      {
+        "name": "Xám",
+        "hex": "#a3a5aa",
+        "inkHex": "#000000",
+        "contrast": 8.519815357825882,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-a3a5aa-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-a3a5aa-back.webp"
+      },
+      {
+        "name": "Đen",
+        "hex": "#151515",
+        "key": "BLACK",
+        "inkHex": "#ffffff",
+        "contrast": 18.26117697443392,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-151515-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-151515-back.webp"
+      },
+      {
+        "name": "Trắng",
+        "hex": "#f8f7f2",
+        "key": "WHITE",
+        "inkHex": "#000000",
+        "contrast": 19.57775841782656,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-f8f7f2-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-f8f7f2-back.webp"
+      },
+      {
+        "name": "Đỏ mận",
+        "hex": "#722f37",
+        "key": "BURGUNDY",
+        "inkHex": "#ffffff",
+        "contrast": 9.645173932653824,
+        "frontUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-722f37-front.webp",
+        "backUrl": "/collection-v2/5cd928efb1e1/posters/wind-breaker-jacket-722f37-back.webp"
+      }
+    ]
+  }
+]

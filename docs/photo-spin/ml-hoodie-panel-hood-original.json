@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-panel-hood",
+  "color": "original olive/beige contrast-yoke",
+  "colorHex": "#69715c",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-panel-hood.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-2f8d3b48-3798-4c20-8168-cc41b570b912.png",
+    "prompt": "Use case: product-mockup. Full24view photographic turntable GUIDE of EXACT garment reference1: olive green #69715c cotton fleece PULLOVER with broad lightbeige #d8ccb2 shoulder YOKE panel wrapping front/back shoulders and upper sleeves, lightbeige hood outer-edge panel, olive hood inner/back, olive drawstrings with beige tips, beige ribcuffs/hem, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood natural hangingarms. Preserve all cloth detail, colour, panels cut andpose. Reference2 ONLY floralM above exact\"MiloShopHand\" backbranding inlight cream #f0e4cd forstrongcontrastagainstolive upperback belowyoke; ignoreburgundybg. Regular6columns4rows nogutters/lines/labels. Row1 0,15,30,45,60,75; row2 90,105,120,135,150,165; row3 180,195,210,225,240,255; row4 270,285,300,315,330,345. Frame0exactfront,6leftprofile,12exactback,18rightprofile. Continuousclockwise rotation ONLYuprightverticalY fixedlevelcamera no pitchroll. Uniformivorybgsoftstudio light samegarmentscale/ground/foldsall24. No repeatedangles, directionreversal, mirroredlogos or misspelledtext. Photorealsoftcloth NOTplastic3Dmesh, noperson/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-8e7d4c4c-d6ac-4a2e-8178-28233d6133f2.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-panel-hood/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Image1 full24guide: extract/redraw ONLY ROW1 frames0..5 into EXACT3columns2rows. Rowmajor0exactFRONT,15smallturn,30,45frontthreequarter,60,75almostLEFTprofile, keepdistinct incrementalangles notjumps. Image2 original authoritative photodetail: olive green #69715c cotton fleece PULLOVER with broad lightbeige #d8ccb2 shoulder YOKE panel wrapping front/back shoulders and upper sleeves, lightbeige hood outer-edge panel, olive hood inner/back, olive drawstrings with beige tips, beige ribcuffs/hem, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood natural hangingarms. Preserve exactcolour,panelboundaries, cut, texture, seams, hoodshape, foldpattern, scaleandground allcells. OriginalfrontMLcolour, naturallyforeshortens notmirrored, NO backbrandvisibleyet. SameuprightverticalYclockwiseturn fixedlevelcamera no pitchroll. Canvas1536x1280orlarger6:5ratio >=450pxcellwidth. EXACTequal3x2grid nogutters/lines/labels, entiregarmentwith5%margins, uniformpaleivorybgsoftstudiolight. Noperson/mannequin/hanger orplastic3Dmeshlook, realsoftcottonfleece.",
+      "sha256": "aebfee4fa002b94bb8f5b8d5e46693398fa200b05e9382f255bcf918050be40a",
+      "bytes": 1784882,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 74,
+          "y": 22,
+          "width": 365,
+          "height": 405
+        },
+        {
+          "x": 79,
+          "y": 22,
+          "width": 346,
+          "height": 408
+        },
+        {
+          "x": 93,
+          "y": 21,
+          "width": 296,
+          "height": 415
+        },
+        {
+          "x": 144,
+          "y": 19,
+          "width": 236,
+          "height": 419
+        },
+        {
+          "x": 147,
+          "y": 19,
+          "width": 198,
+          "height": 419
+        },
+        {
+          "x": 155,
+          "y": 21,
+          "width": 182,
+          "height": 418
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-05a1e8ff-dcb9-48bd-8857-20bcc00738b9.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-panel-hood/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Image1 full24guide: extract/redraw ONLY ROW2 global6..11 into EXACT3columns2rows. Rowmajor90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. KeepguideposeincrementscontinuousclockwiseverticalY. Image2 original highdetail: olive green #69715c cotton fleece PULLOVER with broad lightbeige #d8ccb2 shoulder YOKE panel wrapping front/back shoulders and upper sleeves, lightbeige hood outer-edge panel, olive hood inner/back, olive drawstrings with beige tips, beige ribcuffs/hem, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood natural hangingarms. Image3 precedingfrontquadrant continues75→90 smoothly. Image4 ONLYbackbrandfloralM+exact\"MiloShopHand\" inlight cream #f0e4cd, ignoreburgundybg. Putfullfloralemblem belowhood overolive upperback belowbeigeyoke soinkcontrasts. Sameplacement/sizeallframes; naturallyforeshortens/occludes nevermirrorsorwrongtext. Preserveexactcolour,yokeboundaries,cut,fleecefolds,hoodshape,scaleground. EXACTequal3x2grid nogutters/lines/labels native1536x1280orlarger6:5ratio >=450pxcellwidth;5%garmentmargin. Uniformivorybgsoftlight fixedlevelcamera no pitchroll. Noperson/mannequin/hanger, photorealcloth not3Dplasticmesh.",
+      "sha256": "67f54a10ef2fba970c3e5b94fa9983674d040accaa13bfc43aadf0869a4933bd",
+      "bytes": 1736395,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 173,
+          "y": 21,
+          "width": 192,
+          "height": 442
+        },
+        {
+          "x": 149,
+          "y": 23,
+          "width": 202,
+          "height": 437
+        },
+        {
+          "x": 112,
+          "y": 21,
+          "width": 266,
+          "height": 434
+        },
+        {
+          "x": 108,
+          "y": 19,
+          "width": 318,
+          "height": 434
+        },
+        {
+          "x": 73,
+          "y": 17,
+          "width": 369,
+          "height": 435
+        },
+        {
+          "x": 72,
+          "y": 21,
+          "width": 363,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-2c8b5f9f-6c60-48cb-bf26-2dffcdd484e7.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-panel-hood/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame high-detail photographic360atlas. Image1 full24guide: redrawONLY ROW3 global12..17 into EXACT3columns2rows. Rowmajor180EXACTSTRAIGHTBACK,195smallturn,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. MaintaincontinuousclockwiseY, each distinctview withbacknarrowinggradually. Image2 precedingphotodetailatlas authoritative garment: olive green #69715c cotton fleece PULLOVER with broad lightbeige #d8ccb2 shoulder YOKE panel wrapping front/back shoulders and upper sleeves, lightbeige hood outer-edge panel, olive hood inner/back, olive drawstrings with beige tips, beige ribcuffs/hem, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood natural hangingarms. Image3 ONLYfloralM+exact\"MiloShopHand\" backbrand inlight cream #f0e4cd, ignoreburgundybg; copy image2 exactlogo size/layout/placement belowhood onolivebelowbeigeyoke, correctperspective andno mirroring. Preserveexactcolour/yokeboundaries/cut/fleecefolds/hoodshape/scaleground allcells. EXACTequal3x2grid nogutters/lines/labels native1536x1280orlarger6:5ratio >=450pxcellwidth,5%garmentmargin. Uniformivorybgsoftlight fixedlevelcamera uprightY no pitchroll. Noperson/mannequin/hanger, realcloth notplastic3Dmesh.",
+      "sha256": "a71aa3697de5f33538f202925f3b20b3905f2b0f2483701ce9b3b2943299937b",
+      "bytes": 1706571,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 89,
+          "y": 16,
+          "width": 389,
+          "height": 435
+        },
+        {
+          "x": 77,
+          "y": 16,
+          "width": 374,
+          "height": 437
+        },
+        {
+          "x": 83,
+          "y": 16,
+          "width": 316,
+          "height": 440
+        },
+        {
+          "x": 168,
+          "y": 4,
+          "width": 259,
+          "height": 453
+        },
+        {
+          "x": 149,
+          "y": 3,
+          "width": 215,
+          "height": 457
+        },
+        {
+          "x": 123,
+          "y": 3,
+          "width": 201,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-57cbeb57-565c-40bf-8dde-a8d3d2501b9d.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-panel-hood/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photoatlas. Image1 ONLYauthoritativeSIXPOSES: copy orientationsequence EXACTLY, firstcellhood bendsLEFT withfrontsurfaceonRIGHT. Replacecharcoalhoodie inposeguide with EXACTpanelhoodie fromimage2: olive green #69715c cotton fleece PULLOVER with broad lightbeige #d8ccb2 shoulder YOKE panel wrapping front/back shoulders and upper sleeves, lightbeige hood outer-edge panel, olive hood inner/back, olive drawstrings with beige tips, beige ribcuffs/hem, frontkangaroopouch, smallcreamMLleftchest, foldedemptyhood natural hangingarms. Image3 preceding255rearquadrant forcontinuity. Image4 frontquadrant fordetail; doNOT copyitsleftprofile. EXACT3columns2rows rowmajor270rightprofile(hoodtipLEFT/frontedgeRIGHT),285frontemergingRIGHT,300,315,330,345nearfront. BackdisappearsLEFT. SmallMLwearer'sleftchest(screenrightonfront), nevermirror. TurnthroughRIGHTSIDE, notreturnthroughleftside. Samepanelseamboundaries, colours, cut, clothfolds, scalegroundallcells. Uniformivorybgfixedlevelcamera softlight uprightverticalYonly no pitchroll. Native1536x1280orlarger6:5aspect eachcell>=450wide, equal3x2grid nolines/gutters/labels,5%garmentmargin. Noperson/mannequin/hanger or3Dmeshsurface.",
+      "sha256": "4855e55ba7c4bb07e5a926729f84cb6e56a179456b4377483116f529cc6c0d46",
+      "bytes": 1782289,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 135,
+          "y": 18,
+          "width": 216,
+          "height": 498
+        },
+        {
+          "x": 119,
+          "y": 20,
+          "width": 218,
+          "height": 496
+        },
+        {
+          "x": 84,
+          "y": 21,
+          "width": 281,
+          "height": 494
+        },
+        {
+          "x": 87,
+          "y": 22.5,
+          "width": 327,
+          "height": 489
+        },
+        {
+          "x": 40,
+          "y": 22.5,
+          "width": 371,
+          "height": 486
+        },
+        {
+          "x": 18,
+          "y": 22.5,
+          "width": 409,
+          "height": 481
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "Original creamfrontML. BackfloralM+exactMiloShopHand inlight cream #f0e4cd placedoverolivebelowbeigeyoke.",
+    "loopContinuity": "All24 views and75→90/165→180/255→270/345→0 joins reviewed. Correctoppositesides, fixedverticalY. NominalAI angle estimates, not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

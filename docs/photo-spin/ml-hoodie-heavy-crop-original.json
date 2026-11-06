@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-heavy-crop",
+  "color": "original taupe/cream",
+  "colorHex": "#a69179",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-heavy-crop.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c01147ce-10e1-4ff9-ad0b-d3a002fb573e.png",
+    "prompt": "Use case: product-mockup. FULL24view photographic360 turntable GUIDE of exact croppedtaupe fleece HOODIE inreference1. Garmentidentity invariant: warmtaupe #a69179 cottonheavyfleece, veryCROPPEDbody withcream#e7dfcd ribbedhem atwaistwellaboveverylongoversizeddroppedshoulderarms andcreamcuffs, creamhoodbinding anddrawstrings, kangaroopocket, foldedemptyhood. Keep sleevepose naturalfleecefolds and cut. Frontsmallcream intertwinedML chestlogo asoriginal. Image2 ONLYbackbrand floralM+exact'MiloShopHand', renderinDARKESPRESSO#241c17 forstrongcontrastagainsttaupe, ignoreburgundybackground. Photorealcloth notplastic3Dmesh, noperson/mannequin/hanger. EXACT6columns4rows, equalcellsnogutters/gridlines/labels. Sameuniformivorybg softlight fixedlevelcamera scaleground. UprightgarmentrotatesCLOCKWISEstrictlyaroundverticalY, no pitchroll/camerachange. Row1angles0,15,30,45,60,75; row290,105,120,135,150,165; row3180,195,210,225,240,255; row4270,285,300,315,330,345. Frame0frontsymmetric;6LEFTprofile;12BACKsymmetric withfloralbrand;18RIGHTprofile. Distinctincrementalviews no duplicates,no mirroredlogos, no directionreversal. Preservecroppedbody/verylongsleevedesignatallangles."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-0a7ef7fa-dc72-49fb-8ed7-083cff1c9df3.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-heavy-crop/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIXframe high-detail photographic turntable atlas of SAME taupe CROPhoodie. Reference1 full24viewguide: extract/redrawONLY ROW1 into3columns2rows exactly. Rowmajorangles0exactFRONT,15smallturn,30,45frontthreequarter,60,75almostLEFTprofile. Do not jump tobackorovershootangles. Reference2 authoritative original photo material/cut: warmtaupe #a69179 heavycottonfleece, verycroppedwaistbody, veryLONGoversizeddroppedsleeves withcreamribcuffs thathangsubstantiallybelowcroppedcreamribbodyhem, cream#e7dfcd hoodbinding/drawstrings, kangaroopocket, frontsmallcreamMLchestmark, emptyfoldedhood. Matchcrophem/sleevelength/folds/colours/proportions EXACTLY allframes. Photorealsoftclothtexture, notplastic3Dmesh. Fixedlevelcamera rotateonlyuprightverticalY no pitchroll. EXACTequal3x2cells edge-to-edge withoutlines/gutters/labels. Intendedcanvas1536x1280orlargersame6:5ratio, minimum450pxwideeachcell. Garmentfullyinsideeachcell with5%margin, sameground/scale, paleivoryuniformbackgroundsoftlight. Noperson/mannequin/hanger. NO backprintvisibleyet; chestlogoforeshortensnaturally, nevermirror.",
+      "sha256": "070ab2688c150c75d8d6f8dfb4df0a3ccdb700856b83eda70692b450f718b1e4",
+      "bytes": 1979138,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 54,
+          "y": 22,
+          "width": 408,
+          "height": 441
+        },
+        {
+          "x": 64,
+          "y": 20,
+          "width": 388,
+          "height": 450
+        },
+        {
+          "x": 80,
+          "y": 19,
+          "width": 342,
+          "height": 457
+        },
+        {
+          "x": 123,
+          "y": 15,
+          "width": 284,
+          "height": 469
+        },
+        {
+          "x": 151,
+          "y": 14,
+          "width": 218,
+          "height": 472
+        },
+        {
+          "x": 147,
+          "y": 15,
+          "width": 215,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-1f819ef9-1bc7-4683-ad54-599682786fc5.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-heavy-crop/original/part-1.png",
+      "prompt": "Use case: product-mockup. High-detail six-frame turntable photoatlas. Reference1 full24guide: redraw ONLY ROW2 frames6..11 intoEXACT3columns2rows, rowmajor90LEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. Followguideposes precisely noanglejumps. Reference2 authoritativephotodetail previous0..75atlas: preservewarmtaupe# a69179 heavyfleecehoodie croppedwaistbody, verylongoversizeddroppedshoulder sleeves/cuffs farbelowbodyhem, creamhoodbinding/drawstrings/cuffs/bodyhem, frontkangaroopocket, hoodemptyfolded. Keepcolour/fabricfolds/cut/pose/scale/ground. Reference3 onlybackbrand floralM+exact'MiloShopHand' inDARKESPRESSO#241c17 forhighcontrast; ignoreburgundybg. Logo upperbacksamepositionandlayout asguide, naturallyappearsfromsidewithcorrectperspective, nevermirrored ormisspelled. FrontMLcreamunchanged whenvisible. Upright strictverticalYturn fixedlevelcamera/nopitchroll. EXACTequal3x2grid withno lines/gutters/captions. Native1536x1280orlargersame6:5ratio, eachcell>=450pxwide, garmentfullyinsidewith5%margin. Uniformivorybg softphotographiclight. Noperson/mannequin/hanger, realisticcloth no3Dplasticmesh.",
+      "sha256": "756e2052a6e6e1d63f97e5fbe2f5b83bc7b439939cf4134b8ddad5ebea4a5c20",
+      "bytes": 1948573,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 182,
+          "y": 13,
+          "width": 203,
+          "height": 455
+        },
+        {
+          "x": 147,
+          "y": 14,
+          "width": 216,
+          "height": 454
+        },
+        {
+          "x": 115,
+          "y": 14,
+          "width": 271,
+          "height": 454
+        },
+        {
+          "x": 102,
+          "y": 8,
+          "width": 319,
+          "height": 463
+        },
+        {
+          "x": 69,
+          "y": 10,
+          "width": 354,
+          "height": 459
+        },
+        {
+          "x": 48,
+          "y": 9,
+          "width": 398,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c6caa406-91c5-428f-96af-745f769e577c.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-heavy-crop/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIXframe highdetailphotographic360atlas of exacttaupeCROPhoodie. Reference1 full24poseguide: redrawONLY ROW3 frames12..17 intoEXACT3columns2rows. Sequence rowmajor180STRAIGHTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. ContinueclockwiseY direction, neverduplicateorreflectrearviews. Reference2 previousquadranthighdetail: samewarmtaupe#a69179heavycottonfleece croppedwaistbody/veryLONGoversizeddroppedsleeves hangingfarbelowhem, creamcuffs/bodyhem/hoodbinding/drawcords, broadfoldedemptyhood, samefolds/cut/colour/proportions/scale/ground. Reference3 backbrand floralM+EXACT'MiloShopHand' inDARKESPRESSO#241c17 contrastink; ignoreburgundybg. Copyref2logoplacement/size/layoutcorrectly, visiblefullwordmarkat180 thenforeshortenswithturn, no mirroring/misspelling. FrontcreamMLifvisiblebutnobacklogoonfront. Regular3x2equalgrid noline/gutter/labels, native1536x1280orlarger6:5ratio >=450pxeachcell, fullyvisiblegarmentwith5%margin. Fixedlevelcamera uniformivorybgsoftstudiolight. RotationstrictverticalY no pitch/roll, noperson/mannequin/hanger no3Dmeshlook, realisticcloth.",
+      "sha256": "def5f95ca2bbba617c1b8a060f2f732ed78417a24e6ef4f78a28648706134970",
+      "bytes": 1935085,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 52,
+          "y": 21,
+          "width": 415,
+          "height": 433
+        },
+        {
+          "x": 69,
+          "y": 20,
+          "width": 394,
+          "height": 441
+        },
+        {
+          "x": 108,
+          "y": 20,
+          "width": 325,
+          "height": 448
+        },
+        {
+          "x": 153,
+          "y": 16,
+          "width": 247,
+          "height": 459
+        },
+        {
+          "x": 154,
+          "y": 14,
+          "width": 211,
+          "height": 466
+        },
+        {
+          "x": 134,
+          "y": 15,
+          "width": 206,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-b931bca6-7ff7-4f12-bf77-e451b97f39bf.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-heavy-crop/original/part-3.png",
+      "prompt": "Use case: product-mockup. Last SIXframe highdetailphoto360atlas of EXACTwarmtaupeCROPfleecehoodie. Reference1 full24guide: redrawONLYROW4 global18..23 into3columns2rows. Exactrowmajor270trueRIGHTPROFILE,285,300,315frontthreequarter,330,345almostfront. ContinueCLOCKWISEsameaxis, notmirrorofearlierleftside. HoodtipslopingLEFTat270, frontsurfaceemergesfromRIGHT; backprintdisappearsbehindLEFTedge. Last345smoothsmallstepbacktofront0. Reference2 authoritativeoriginal garment: warmtaupe#a69179heavyfleece, croppedwaistbody, oversizeddropveryLONGarms hangingfarbelowbodyhem, creambinding/drawstrings/ribcuffs/bodyhem #e7dfcd, kangaroopocket, foldedemptyhood, smallcreamMLwearer'sleftchest (screenrightonfront). Reference3 precedingbackquadrantforposecontinuity andphototexture. Samecut/clothfolds/colour/seams/garmentscale/ground allcells; no visiblebacklogoafterprofile andnevermirrorchestlogo. Fixedlevelcamera uprightstrictverticalYturn nopitchroll, uniformivorybgsoftstudiolight. Native1536x1280orlarger6:5ratio >=450pxwidecells, EXACTregular3columns2rows edge-to-edge nogutters/lines/labels, eachgarmentfullyinsideowncellwith5%margin. Noperson/mannequin/hanger, realisticcloth notplastic3Dgeometry.",
+      "sha256": "ace54caddbf9253057a9374f7e00b65b9c4a54390ef34d80c1cbfe896f2b9f07",
+      "bytes": 1925119,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 181,
+          "y": 19,
+          "width": 195,
+          "height": 459
+        },
+        {
+          "x": 157,
+          "y": 19,
+          "width": 202,
+          "height": 460
+        },
+        {
+          "x": 107,
+          "y": 21,
+          "width": 291,
+          "height": 455
+        },
+        {
+          "x": 93,
+          "y": 20,
+          "width": 351,
+          "height": 454
+        },
+        {
+          "x": 59,
+          "y": 17,
+          "width": 394,
+          "height": 454
+        },
+        {
+          "x": 41,
+          "y": 18,
+          "width": 409,
+          "height": 446
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "Original cream frontML. Back floralM + exact MiloShopHand in darkespresso #241c17 for strong contrast on taupe.",
+    "loopContinuity": "Reviewed75→90,165→180,255→270,345→0joins. All24views continuous clockwise with same croppedbody and longdrop sleeves. AI nominal15degree estimates, not opticallycalibrated.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-cloud-pullover",
+  "color": "Đen",
+  "colorHex": "#151515",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "Y",
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-cloud-pullover.png",
+  "poseReference": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/original/",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-9589a601-59dd-4343-8f96-1fa7ce1bc2bb.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/black/part-0.png",
+      "prompt": "Use case: precise-object-edit, photographic fashion product atlas recolour. Primary target reference1 is an existing SIX-frame 3-column x2-row atlas of ONE MiloShopHand Cloud Pullover Hoodie. Preserve exactly the six poses, camera directions, body outline, hood shape, relaxed sleeve position, seams, kangaroo pouch, cloth folds, relative scale, placement and pale ivory studio background. Change ONLY the garment colorway to BLACK: deep soft black cotton fleece #151515, coordinated black rib cuffs/hem, black hood binding and black drawcords. Keep premium photographic fabric texture and natural soft lighting highlights, not flat black silhouettes, shiny plastic or low-poly 3D. There must be NO olive/green or cream trim left on the garment. Brand ink changes to crisp WHITE: small interwoven ML chest monogram when visible, and floral M plus exact MiloShopHand back emblem/wordmark when visible. Strong white-on-black contrast. White logo is flat ink, no glow, no new rectangle or patch. Reference2 is the garment's original front/back identity and detail; reference3 is the exact white floral logo (ignore its burgundy backdrop). No added lettering, no person/mannequin/hanger/support.\nOutput retains exactly SIX equal portrait cells in an edge-to-edge3-column x2-row grid, 6:5 overall aspect ratio,1374x1145 or larger, at least450pixels per cell. No gutters/gridlines/borders/labels/numbers. Product stays perfectly upright, every frame rotates only around verticalY axis; fixed level camera, no tilt, roll, up/down orbit or pose changes. Preserve the precise angle sequence of reference1, not six new attractive front views. Exactly the same physical black hoodie and branding in every frame.\nReference1 ordered views are0,15,30 degrees top row,45,60,75 degrees bottom row (front toward first side). Keep these exact six views: first fully straight FRONT, last nearly LEFT SIDE. White frontML naturally foreshortens and disappears around side; do not show back print on front.",
+      "sha256": "9b997b5610437da7a060e5da336d34f1affed214910d7b65220b941c9d952645",
+      "bytes": 1635350,
+      "frames": [
+        {
+          "x": 15,
+          "y": 28,
+          "width": 430,
+          "height": 477
+        },
+        {
+          "x": 33,
+          "y": 28,
+          "width": 400,
+          "height": 494
+        },
+        {
+          "x": 57,
+          "y": 25,
+          "width": 347,
+          "height": 503
+        },
+        {
+          "x": 88,
+          "y": 20.5,
+          "width": 279,
+          "height": 520
+        },
+        {
+          "x": 115,
+          "y": 19.5,
+          "width": 229,
+          "height": 527
+        },
+        {
+          "x": 131,
+          "y": 20.5,
+          "width": 218,
+          "height": 526
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-02983905-e071-441b-851c-c2d81332fdf5.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/black/part-1.png",
+      "prompt": "Use case: precise-object-edit, photographic fashion product atlas recolour. Primary target reference1 is an existing SIX-frame 3-column x2-row atlas of ONE MiloShopHand Cloud Pullover Hoodie. Preserve exactly the six poses, camera directions, body outline, hood shape, relaxed sleeve position, seams, kangaroo pouch, cloth folds, relative scale, placement and pale ivory studio background. Change ONLY the garment colorway to BLACK: deep soft black cotton fleece #151515, coordinated black rib cuffs/hem, black hood binding and black drawcords. Keep premium photographic fabric texture and natural soft lighting highlights, not flat black silhouettes, shiny plastic or low-poly 3D. There must be NO olive/green or cream trim left on the garment. Brand ink changes to crisp WHITE: small interwoven ML chest monogram when visible, and floral M plus exact MiloShopHand back emblem/wordmark when visible. Strong white-on-black contrast. White logo is flat ink, no glow, no new rectangle or patch. Reference2 is the garment's original front/back identity and detail; reference3 is the exact white floral logo (ignore its burgundy backdrop). No added lettering, no person/mannequin/hanger/support.\nOutput retains exactly SIX equal portrait cells in an edge-to-edge3-column x2-row grid, 6:5 overall aspect ratio,1374x1145 or larger, at least450pixels per cell. No gutters/gridlines/borders/labels/numbers. Product stays perfectly upright, every frame rotates only around verticalY axis; fixed level camera, no tilt, roll, up/down orbit or pose changes. Preserve the precise angle sequence of reference1, not six new attractive front views. Exactly the same physical black hoodie and branding in every frame.\nPrimary target reference1 ordered views are90,105,120 degrees top row and135,150,165 degrees bottom row. Preserve those exact poses and camera direction. First is true LEFT SIDE with the front/drawcords pointing LEFT; subsequent frames progressively reveal the rear floral white print, ending near BACK. This must be the opposite side to270, not another front sequence. Reference2 is already-finished black rear atlas; match its deepblack fabric, lighting and white exact floral MiloShopHand print.",
+      "sha256": "bc2edd3a0fdc642f3494efff03ef53b6f3757556d046a878180c74869c01b2bc",
+      "bytes": 1886475,
+      "frames": [
+        {
+          "x": 144,
+          "y": 19,
+          "width": 205,
+          "height": 505
+        },
+        {
+          "x": 106,
+          "y": 18,
+          "width": 222,
+          "height": 505
+        },
+        {
+          "x": 86,
+          "y": 16,
+          "width": 269,
+          "height": 506
+        },
+        {
+          "x": 79,
+          "y": 14.5,
+          "width": 318,
+          "height": 501
+        },
+        {
+          "x": 42,
+          "y": 15.5,
+          "width": 367,
+          "height": 496
+        },
+        {
+          "x": 31,
+          "y": 14.5,
+          "width": 399,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-c86059e8-c2f5-4d25-a453-2bdbb331f3fe.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/black/part-2.png",
+      "prompt": "Use case: precise-object-edit, photographic fashion product atlas recolour. Primary target reference1 is an existing SIX-frame 3-column x2-row atlas of ONE MiloShopHand Cloud Pullover Hoodie. Preserve exactly the six poses, camera directions, body outline, hood shape, relaxed sleeve position, seams, kangaroo pouch, cloth folds, relative scale, placement and pale ivory studio background. Change ONLY the garment colorway to BLACK: deep soft black cotton fleece #151515, coordinated black rib cuffs/hem, black hood binding and black drawcords. Keep premium photographic fabric texture and natural soft lighting highlights, not flat black silhouettes, shiny plastic or low-poly 3D. There must be NO olive/green or cream trim left on the garment. Brand ink changes to crisp WHITE: small interwoven ML chest monogram when visible, and floral M plus exact MiloShopHand back emblem/wordmark when visible. Strong white-on-black contrast. White logo is flat ink, no glow, no new rectangle or patch. Reference2 is the garment's original front/back identity and detail; reference3 is the exact white floral logo (ignore its burgundy backdrop). No added lettering, no person/mannequin/hanger/support.\nOutput retains exactly SIX equal portrait cells in an edge-to-edge3-column x2-row grid, 6:5 overall aspect ratio,1374x1145 or larger, at least450pixels per cell. No gutters/gridlines/borders/labels/numbers. Product stays perfectly upright, every frame rotates only around verticalY axis; fixed level camera, no tilt, roll, up/down orbit or pose changes. Preserve the precise angle sequence of reference1, not six new attractive front views. Exactly the same physical black hoodie and branding in every frame.\nReference1 ordered views are180,195,210 degrees top row,225,240,255 degrees bottom row (back toward opposite side). Keep these exact six views: first fully straight BACK, last nearly RIGHT SIDE. The rear floral M and exact MiloShopHand wordmark must be crisp white and same size/placement as target; never mirrored. Do not show frontML on the back.",
+      "sha256": "fee3cf6680d6cf4f5f21cedd6512bb99f4b3369740d393b39b0edf529c5f163a",
+      "bytes": 1673856,
+      "frames": [
+        {
+          "x": 15,
+          "y": 25,
+          "width": 432,
+          "height": 485
+        },
+        {
+          "x": 32,
+          "y": 25,
+          "width": 404,
+          "height": 490
+        },
+        {
+          "x": 56,
+          "y": 25,
+          "width": 363,
+          "height": 496
+        },
+        {
+          "x": 89,
+          "y": 25.5,
+          "width": 306,
+          "height": 507
+        },
+        {
+          "x": 111,
+          "y": 26.5,
+          "width": 246,
+          "height": 512
+        },
+        {
+          "x": 119,
+          "y": 30.5,
+          "width": 203,
+          "height": 509
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-9905-7392-ba4b-771645e4178c/exec-5e13143d-8937-43f4-aeac-1a635fb748b3.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-cloud-pullover/black/part-3.png",
+      "prompt": "Use case: precise-object-edit, photographic fashion product atlas recolour. Primary target reference1 is an existing SIX-frame 3-column x2-row atlas of ONE MiloShopHand Cloud Pullover Hoodie. Preserve exactly the six poses, camera directions, body outline, hood shape, relaxed sleeve position, seams, kangaroo pouch, cloth folds, relative scale, placement and pale ivory studio background. Change ONLY the garment colorway to BLACK: deep soft black cotton fleece #151515, coordinated black rib cuffs/hem, black hood binding and black drawcords. Keep premium photographic fabric texture and natural soft lighting highlights, not flat black silhouettes, shiny plastic or low-poly 3D. There must be NO olive/green or cream trim left on the garment. Brand ink changes to crisp WHITE: small interwoven ML chest monogram when visible, and floral M plus exact MiloShopHand back emblem/wordmark when visible. Strong white-on-black contrast. White logo is flat ink, no glow, no new rectangle or patch. Reference2 is the garment's original front/back identity and detail; reference3 is the exact white floral logo (ignore its burgundy backdrop). No added lettering, no person/mannequin/hanger/support.\nOutput retains exactly SIX equal portrait cells in an edge-to-edge3-column x2-row grid, 6:5 overall aspect ratio,1374x1145 or larger, at least450pixels per cell. No gutters/gridlines/borders/labels/numbers. Product stays perfectly upright, every frame rotates only around verticalY axis; fixed level camera, no tilt, roll, up/down orbit or pose changes. Preserve the precise angle sequence of reference1, not six new attractive front views. Exactly the same physical black hoodie and branding in every frame.\nPrimary target reference1 ordered views are270,285,300 degrees top row and315,330,345 degrees bottom row. Preserve those exact poses and camera direction. First is true RIGHT SIDE with front/drawcords pointing RIGHT; subsequent frames reveal front pouch and white ML, ending near straight front. Reference2 is already-finished black front atlas; match its deepblack fabric, lighting and white exactML. Rear floral print disappears naturally behind the far edge.",
+      "sha256": "9faaadf568aebe62407f264388d0bf15f18ed94ba71a534c79f2a4604f92dfae",
+      "bytes": 1573400,
+      "frames": [
+        {
+          "x": 124,
+          "y": 20,
+          "width": 213,
+          "height": 508
+        },
+        {
+          "x": 124,
+          "y": 20,
+          "width": 220,
+          "height": 508
+        },
+        {
+          "x": 97,
+          "y": 24,
+          "width": 269,
+          "height": 497
+        },
+        {
+          "x": 79,
+          "y": 24.5,
+          "width": 308,
+          "height": 496
+        },
+        {
+          "x": 54,
+          "y": 20.5,
+          "width": 347,
+          "height": 494
+        },
+        {
+          "x": 26,
+          "y": 16.5,
+          "width": 398,
+          "height": 489
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "allFramesVisuallyReviewed": true,
+    "upright": true,
+    "garmentColor": "Deep black fabric, matching black cuffs/hem/hood/drawcords",
+    "brandInk": "Contrasting white frontML and white floral MiloShopHand back",
+    "rotationSequence": "front→left side→back→right side→front",
+    "loopContinuity": "Visually reviewed all4atlas boundaries, compatible pose/cloth/color/branding",
+    "constraints": [
+      "Angles are nominal AI approximations, not exact calibrated camera measurements.",
+      "Use silhouette bounds for uniform2D scale/ground alignment and CSS inset2px.",
+      "Only the original cream/olive and this black colorway are covered by this agent's assets; no other variants claimed."
+    ],
+    "alignmentAnalysis": "Read-only dark-fabric silhouette threshold max(R,G,B)<185; bounds are relative to own atlas cell, for CSS2D scale/translation only.",
+    "readyForIntegration": true
+  }
+}

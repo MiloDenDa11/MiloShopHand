@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-side-zip",
+  "color": "original slateblue/cream sidezip",
+  "colorHex": "#4e5c64",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-side-zip.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-4eccca8b-18ff-4bb3-b27d-2f18c51025aa.png",
+    "prompt": "Use case: product-mockup. Full24view photographicturntableGUIDE ofEXACTgarmentref1:slateblue-gray #4e5c64 cotton fleece SIDE-ZIP PULLOVER, NO centerchestzip, two longcream/gold side-seam zippers fromlowerhips tohem with opensplits atbottom BOTHsides, layeredblueouter andcreaminnerbottomhem, cream #d6c6a6 ribcuffs/hoodbinding/drawstrings, kangaroopouch, droppedshoulders/longsleeves, creamMLleftchest, foldedemptyhood naturalrelaxedarms. Keepzippers ONBOTH SIDES oflowerbody, nevercenterchest, samepositionsatallangles. Ref2ONLY floralM+exact\"MiloShopHand\" backbrandinlight cream #f3e7d0, ignoreburgundybg. EXACT6columns4rows equalcellsnogutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseuprightverticalY fixedlevelcamera no pitchroll. Sameclothes/cut/folds/scaleground, paleivorybgsoftstudio light, all24distinctcorrectprogression,noreversed/mirroredlogos. Realsoftfleece not3Dplasticmesh no person/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-176eb0e5-cfd7-45ca-b046-21be489130e3.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-side-zip/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1 full24guide extract/redrawONLYROW1 frames0..5 intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile. Distinctsmallclockwiseincrements neverbackyet. Ref2 originaldetail:slateblue-gray #4e5c64 cotton fleece SIDE-ZIP PULLOVER, NO centerchestzip, two longcream/gold side-seam zippers fromlowerhips tohem with opensplits atbottom BOTHsides, layeredblueouter andcreaminnerbottomhem, cream #d6c6a6 ribcuffs/hoodbinding/drawstrings, kangaroopouch, droppedshoulders/longsleeves, creamMLleftchest, foldedemptyhood naturalrelaxedarms. Preserve EXACTtwo LOWER-SIDEzippers withbottomsplits andlayeredblue/creamhem onbothsides; neveraddcenterzip. Samecolour/cut/clothfolds/scalegroundallcells, originalcreamfrontMLnotmirroredandnaturallyforeshortened. Fixedlevelcamera uprightverticalY no pitchroll, native1536x1280orlarger6:5ratio >=450pxcellwidth,3x2equalgrid no gutters/lines/labels, garmentwith5%margin. Uniformivorybgsoftstudio light no human/mannequin/hanger, softrealcloth not3Dplasticmesh.",
+      "sha256": "1c7d7eb9299716d1b500efd4d4709ba39fc48bbabe84b78c7df5f03722ac7a77",
+      "bytes": 1733041,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 66,
+          "y": 22,
+          "width": 407,
+          "height": 440
+        },
+        {
+          "x": 65,
+          "y": 21,
+          "width": 379,
+          "height": 442
+        },
+        {
+          "x": 86,
+          "y": 21,
+          "width": 321,
+          "height": 443
+        },
+        {
+          "x": 138,
+          "y": 17,
+          "width": 282,
+          "height": 450
+        },
+        {
+          "x": 152,
+          "y": 18,
+          "width": 219,
+          "height": 449
+        },
+        {
+          "x": 158,
+          "y": 14,
+          "width": 194,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-f5d9d1f4-3de1-44ed-a4a7-82f5af676b41.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-side-zip/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW2frames6..11intoEXACT3columns2rows:90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. Continuousclockwiseincrements, nofullystraightbackbefore180. Ref2original:slateblue-gray #4e5c64 cotton fleece SIDE-ZIP PULLOVER, NO centerchestzip, two longcream/gold side-seam zippers fromlowerhips tohem with opensplits atbottom BOTHsides, layeredblueouter andcreaminnerbottomhem, cream #d6c6a6 ribcuffs/hoodbinding/drawstrings, kangaroopouch, droppedshoulders/longsleeves, creamMLleftchest, foldedemptyhood naturalrelaxedarms. Ref3precedingfrontquadrantcontinue75→90. Ref4ONLY floralM+exact\"MiloShopHand\" backbrandinlight cream #f3e7d0, ignoreburgundybg. Logo centeredupperbackbelowhood, sameplacementandsizewithcorrectperspective/occlusion, nevermirroredtext. EXACTone sidezip per body'sside, openbottomsplits/layeredhem asoriginal; no centralzip. Preservecolour/cut/clothfolds/hoodshape/scalegroundallcells. Native1536x1280orlarger6:5ratio >=450pxcellwidth, equal3x2grid nogutters/lines/labels,5%garmentmargin. UprightverticalY fixedlevelcamera no pitchroll, paleivorybgsoftstudio light no person/mannequin/hanger, realfleece no3Dplasticmesh.",
+      "sha256": "3e05292295bf8179e6adba63040b23dc7d5489f3bafe3ade6b16ee8610c49c82",
+      "bytes": 2046394,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 185,
+          "y": 15,
+          "width": 184,
+          "height": 471
+        },
+        {
+          "x": 145,
+          "y": 15,
+          "width": 203,
+          "height": 471
+        },
+        {
+          "x": 122,
+          "y": 14,
+          "width": 247,
+          "height": 472
+        },
+        {
+          "x": 115,
+          "y": 15,
+          "width": 310,
+          "height": 473
+        },
+        {
+          "x": 70,
+          "y": 14,
+          "width": 365,
+          "height": 474
+        },
+        {
+          "x": 41,
+          "y": 14,
+          "width": 412,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-89611dcd-16c8-462f-8afd-a172c88f58d1.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-side-zip/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW3frames12..17intoEXACT3columns2rows:180EXACTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. ContinuousclockwiseY, distinctangles no repeat/reverse. Ref2precedingatlas authoritativephotodetail slateblue-gray #4e5c64 cotton fleece SIDE-ZIP PULLOVER, NO centerchestzip, two longcream/gold side-seam zippers fromlowerhips tohem with opensplits atbottom BOTHsides, layeredblueouter andcreaminnerbottomhem, cream #d6c6a6 ribcuffs/hoodbinding/drawstrings, kangaroopouch, droppedshoulders/longsleeves, creamMLleftchest, foldedemptyhood naturalrelaxedarms. Ref3 ONLYfloralM+exact\"MiloShopHand\" backbrandinlight cream #f3e7d0, ignoreburgundybg. Matchref2exactlogo layout/size/placement/typeface,naturalperspective/occlusion,nevermirror. Preserve one sidezip onEACHbody'sside, bottomsplits andlayeredblue/creamhem, no chestzip, sameclothcolour/cut/folds/hoodshape/scaleground. UprightverticalY fixedlevelcamera no pitchroll, paleivorybgsoftstudio light. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid no gutters/lines/labels,5%garmentmargin. Noperson/mannequin/hanger, realfleece no3Dplasticmesh.",
+      "sha256": "a7bde72cc05392f77f5e3e8c59a4857bd25daeb96c629808716b792a6ced0a4d",
+      "bytes": 2101541,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 84,
+          "y": 11,
+          "width": 404,
+          "height": 465
+        },
+        {
+          "x": 76,
+          "y": 12,
+          "width": 376,
+          "height": 464
+        },
+        {
+          "x": 85,
+          "y": 10,
+          "width": 313,
+          "height": 466
+        },
+        {
+          "x": 173,
+          "y": 6,
+          "width": 245,
+          "height": 473
+        },
+        {
+          "x": 149,
+          "y": 6,
+          "width": 208,
+          "height": 474
+        },
+        {
+          "x": 127,
+          "y": 7,
+          "width": 203,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c070aaa0-0508-403f-9a1a-d55f7083f989.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-side-zip/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photographic360atlas. Ref1 ONLYauthoritativeSIXPOSES copyorientationexactly, firsthoodbendsLEFT/frontonRIGHT. Replacecharcoalhoodie withEXACTslateblueSIDE-ZIPhoodiefromref2:slateblue-gray #4e5c64 cotton fleece SIDE-ZIP PULLOVER, NO centerchestzip, two longcream/gold side-seam zippers fromlowerhips tohem with opensplits atbottom BOTHsides, layeredblueouter andcreaminnerbottomhem, cream #d6c6a6 ribcuffs/hoodbinding/drawstrings, kangaroopouch, droppedshoulders/longsleeves, creamMLleftchest, foldedemptyhood naturalrelaxedarms. Ref3 preceding255rearquadrantforcontinuity. Ref4 frontdetail, doNOTcopyitsleftprofile. EXACT3columns2rows rowmajor270trueRIGHTPROFILE(hoodtipLEFT/frontedgeRIGHT),285,300,315,330,345nearfront. FrontemergesRIGHT/backdisappearsLEFT. CreamMLwearer'sleftchest(screenrightatfront) no mirroredtext. Preserveone longzipONBOTHLOWERBODY SIDES, opensplitbottomsandlayeredblue/creamhem; NO chestzip. Samecolour/cut/fleecefolds/scalegroundallframes. Fixedlevelcamera strictuprightY no pitchroll paleivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth exactequal3x2grid no gutters/lines/labels,5%garmentmargin. Noperson/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "432473492699abb5281c3813458076741483158555444b0c868bfb309126b883",
+      "bytes": 1788151,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 124,
+          "y": 18,
+          "width": 227,
+          "height": 512
+        },
+        {
+          "x": 113,
+          "y": 18,
+          "width": 226,
+          "height": 511
+        },
+        {
+          "x": 90,
+          "y": 20,
+          "width": 278,
+          "height": 507
+        },
+        {
+          "x": 86,
+          "y": 21.5,
+          "width": 332,
+          "height": 507
+        },
+        {
+          "x": 39,
+          "y": 21.5,
+          "width": 377,
+          "height": 506
+        },
+        {
+          "x": 17,
+          "y": 20.5,
+          "width": 413,
+          "height": 505
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "OriginalcreamfrontML; backfloralM+exactMiloShopHand inlight cream #f3e7d0.",
+    "loopContinuity": "All24 and75→90/165→180/255→270/345→0joins reviewed forcorrectoppositesides/colour/cut. Sidezipper flaps have minorAI fold variation at75→90; garmentremains uprightwithcorrectsidefastenings. Nominalangles areAI estimates notopticalcalibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

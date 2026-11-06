@@ -1,0 +1,25 @@
+{
+  "slug": "ml-jacket-racer-clean",
+  "colorKey": "original",
+  "colorHex": "#303332",
+  "parts": [
+    {
+      "part": 0,
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-b1c6820c-d804-4613-be80-3c390d0ec2e6.png",
+      "prompt": "Use case: product-mockup. Reference1 EXACT garment identity ML Racer Clean Jacket, charcoal grey #303332 cotton-nylon racer, short stand collar with khaki edge, two KHAKI RAGLAN CURVED shoulder piping lines, muted brass full center zipper, two angled lower front ZIP pockets, straight non-ribbed hem/cuffs with khaki edge, relaxed long sleeves. Reference2 ONLY SIX CAMERA POSES and3x2layout from a DIFFERENT black four-pocket jacket: DO NOT COPY its pockets/shoulder tabs/collar buttons. Produce same Racer Clean at nominal 0,15,30 /45,60,75 degrees. First symmetric FRONT then front zipper moves IMAGE RIGHT, nearest blank sleeve IMAGE LEFT; last near LEFT PROFILE still front visible. Small high contrast IVORY interwoven ML on left chest. No back print visible in this quarter. Keep original fabric texture, construction, silhouette, relaxed empty sleeves, size and hem/collar proportions every frame. Photographic AI fashion mockup floating garment with natural empty neck, no human/mannequin/hanger, no plastic 3D mesh. Fixed level camera, upright vertical Y only, no pitch/roll. Six full uncropped garments with consistent scale/ground in 3columns x2rows equal ivory square cells. Native1536x1024 minimum512x512 percell, no numbers/borders/labels/gutters. Exactly this front quarter, not a whole360."
+    }
+  ],
+  "visualReview": "Pending root review of all 24 original photographic mockup views.",
+  "status": "incomplete-usage-limit",
+  "frameCount": 6,
+  "missingParts": [
+    1,
+    2,
+    3
+  ],
+  "availableAssets": [
+    "/collection-spin/ml-jacket-racer-clean/original/part-0.png"
+  ],
+  "quotaResetsAt": "2026-11-06T03:40:55Z",
+  "nextPrompt": "Use case: product-mockup. Ref1originalRacerCleanjacket charcoal#303332 shortstandcollar khakiedge, khakiraglanCURVEDshoulderpiping FRONT/BACK, 2frontangledzipperpockets, fullcenterbrasszip, straightnonribbedhem/cuffs. Ref2FieldFourblackpart1 ONLYcameraPOSES90,105,120/135,150,165 donotcopypockets/buttons/tabs. Ref3floralM+MiloShopHand brandonly ignoreburgundybackground. Ref4RacerCleanpart0forconsistentidentity. Create3columns2rowsnext6photos FIRSTleftprofilefrontzipIMAGERIGHT; inobliquesNEARESTblankSLEEVEIMAGERIGHT withBACKpanel/LOGOIMAGELEFT; lastnearlyBACK. BRIGHTIVORYfloralM+exactMiloShopHand centerupperback betweenpiping, consistentprintsize/placementnaturallyforeshortened,nomirroring. No rearfrontML. Samecloth/folds/relaxedsleeves/silhouette/bodycolour/scale/groundallframes. Floatinggarmentnohuman/mannequin/hanger/plastic3D. FixedleveluprightYonlynoplitch/roll. Native1536x1024,512squarecellsivorybackground, fullgarmentmargin,nolabels/borders/numbers/gutters. Onlyleftprofiletonearlybackquarter."
+}

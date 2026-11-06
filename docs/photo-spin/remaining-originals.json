@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "ml-tee-breton-line",
+    "kind": "tee",
+    "colorHex": "#ddd6c4"
+  },
+  {
+    "slug": "ml-jacket-safari-belt",
+    "kind": "jacket",
+    "colorHex": "#c3b08e"
+  },
+  {
+    "slug": "ml-jacket-track-stripe",
+    "kind": "jacket",
+    "colorHex": "#424d49"
+  },
+  {
+    "slug": "ml-jacket-quilt-light",
+    "kind": "jacket",
+    "colorHex": "#8d795e"
+  },
+  {
+    "slug": "ml-jacket-panel-wind",
+    "kind": "jacket",
+    "colorHex": "#d2c6ad"
+  },
+  {
+    "slug": "ml-jacket-shirt-oversize",
+    "kind": "jacket",
+    "colorHex": "#8a8b7d"
+  },
+  {
+    "slug": "ml-jacket-anorak-half",
+    "kind": "jacket",
+    "colorHex": "#6c735c"
+  },
+  {
+    "slug": "ml-jacket-minimal-collar",
+    "kind": "jacket",
+    "colorHex": "#e4d7be"
+  },
+  {
+    "slug": "ml-bomber-pocket-pilot",
+    "kind": "bomber",
+    "colorHex": "#363d3c"
+  },
+  {
+    "slug": "ml-bomber-heritage-baseball",
+    "kind": "bomber",
+    "colorHex": "#8d6e56"
+  },
+  {
+    "slug": "ml-bomber-collar-flight",
+    "kind": "bomber",
+    "colorHex": "#525e62"
+  },
+  {
+    "slug": "ml-bomber-zip-arm",
+    "kind": "bomber",
+    "colorHex": "#969a88"
+  },
+  {
+    "slug": "ml-bomber-rib-stripe",
+    "kind": "bomber",
+    "colorHex": "#ddd2ba"
+  },
+  {
+    "slug": "ml-bomber-soft-cord",
+    "kind": "bomber",
+    "colorHex": "#a48e70"
+  },
+  {
+    "slug": "ml-bomber-sport-chevron",
+    "kind": "bomber",
+    "colorHex": "#49534c"
+  },
+  {
+    "slug": "ml-bomber-reversible-day",
+    "kind": "bomber",
+    "colorHex": "#c8bca0"
+  },
+  {
+    "slug": "ml-hoodie-minimal-no-pocket",
+    "kind": "hoodie",
+    "colorHex": "#dbd2bf"
+  }
+]

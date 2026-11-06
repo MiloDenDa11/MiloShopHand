@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-zip-pocket-hood",
+  "colorKey": "original",
+  "colorHex": "#8e715d",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:47:27.981Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-34e7be48-5593-4a2d-97e4-458826b7adc7.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide extract/redrawONLYROW1frames0..5intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile, distinctsmallclockwisesteps. Ref2original:warmcocoa brown #8e715d technical cotton hoodie with FULL-length cream #dfd5bd CENTERZIP, two angledcreamZIPPOCKETS onlowerfront (NO kangaroopouch), straightbrownhemwithout ribband, creamribcuffs/hoodbinding, NOdrawcords, diagonalseam shoulders andsleevepanels, creamMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Preservefullcenterzip+TWOseparateangledzippockets, straightnoribhem, nodrawcords, originalseams/cloth/cut/colour/scalegroundallcells. CreamMLfrontnaturallyforeshortenednotmirrored; no backbrandvisibleyet. Fixedlevelcamera uprightverticalY no pitchroll, uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,exact3x2equalgrid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger orplastic3Dmesh, realsoftcloth.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1820079,
+      "sha256": "07aafc666a1c108426fea7f4a926f7c145781d152311c00bd4f0dd5ab4fd5c3b",
+      "frames": [
+        {
+          "x": 65,
+          "y": 20,
+          "width": 386,
+          "height": 410
+        },
+        {
+          "x": 76,
+          "y": 20,
+          "width": 357,
+          "height": 411
+        },
+        {
+          "x": 97,
+          "y": 18,
+          "width": 303,
+          "height": 422
+        },
+        {
+          "x": 137,
+          "y": 3,
+          "width": 242,
+          "height": 396
+        },
+        {
+          "x": 149,
+          "y": 3,
+          "width": 202,
+          "height": 396
+        },
+        {
+          "x": 137,
+          "y": 3,
+          "width": 205,
+          "height": 396
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-6d6f9d5f-3354-4367-9d48-4e98b338dd4f.png",
+      "prompt": "Use case: product-mockup. IMAGE1 is exact full24viewPOSEDIRECTIONGUIDE, redraw ONLY indicated row as6 nativehighdetailphotos. IMAGE2 exact original6frontviews gives garment photoquality: ML Zip Pocket Hood, warmcocoa #8e715d technicalcotton FULLlength CREAM centerzip hoodie, TWO separateangledcreamZIPPOCKETS onlowerfront, NOkangaroopouch, straightbrownhemWITHOUT ribband, creamribCUFFS andcreamHOODbinding, NOdrawcords, diagonalshoulderseams andsleevepanels. Same construction/material/folds/colors/size andrelaxedemptysleeve/hoodpose throughout. FrontsmallIVORY interwovenML on wearer'sLEFT chest imageRIGHT atfront. IMAGE3 ONLY floralM+exactMiloShopHand artwork withhibiscus/leaves/floralunderline, ignoreburgundybg: put it DARKESPRESSO #1f1914 onupperBACK BELOWhood asinguide, crispstrongcontrastandreadablecorrectcase. Use ONLY ROW2 of IMAGE1 lowresolution24-view guide: rowmajor90,105,120 /135,150,165degrees. First pureSIDE hood FRONTOPENING and frontZIPedge IMAGELEFT; BACKpanel/print gradually emerges IMAGERIGHT of nearer sleeve, nearestsleeve IMAGELEFT. Last almostfullBACK. This continues after image2 final75profile. No FRONT-facing cells except narrow frontedge in firstprofile. Darkespresso floralM+MiloShopHand backart starts sliver and widens gradually. Native1536x1024 ONE3columns x2rows6 equal512squarecells, not24viewlowresguide, no borders/gutters/numbers/captions. Wholeuncroppedgarmentsconstantcenter/scale/hembaseline/light/uniformivorypaperbackdrop. Onlyyaw uprightverticalY/Oy axis locked, fixedLEVELcamera no pitch/roll/zoom/elevation, realclothnotplastic3D, nohuman/mannequin/hanger/props. Preserve fullcenterzip/TWO angledzippockets andstraightnoribhem onFRONTonly, neverback, exactMiloShopHand nevermirrored.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1943060,
+      "sha256": "2dbf2def727b4d817d0837492b59d776895c06ecc30683c31754c34249f945a5",
+      "frames": [
+        {
+          "x": 162,
+          "y": 19,
+          "width": 193,
+          "height": 455
+        },
+        {
+          "x": 139,
+          "y": 19,
+          "width": 205,
+          "height": 455
+        },
+        {
+          "x": 115,
+          "y": 19,
+          "width": 243,
+          "height": 456
+        },
+        {
+          "x": 115,
+          "y": 18,
+          "width": 297,
+          "height": 458
+        },
+        {
+          "x": 76,
+          "y": 18,
+          "width": 355,
+          "height": 459
+        },
+        {
+          "x": 40,
+          "y": 15,
+          "width": 415,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-0ea8814b-69bb-4816-9aee-63c28d4ea23a.png",
+      "prompt": "Use case: product-mockup. IMAGE1 is exact full24viewPOSEDIRECTIONGUIDE, redraw ONLY indicated row as6 nativehighdetailphotos. IMAGE2 exact original6frontviews gives garment photoquality: ML Zip Pocket Hood, warmcocoa #8e715d technicalcotton FULLlength CREAM centerzip hoodie, TWO separateangledcreamZIPPOCKETS onlowerfront, NOkangaroopouch, straightbrownhemWITHOUT ribband, creamribCUFFS andcreamHOODbinding, NOdrawcords, diagonalshoulderseams andsleevepanels. Same construction/material/folds/colors/size andrelaxedemptysleeve/hoodpose throughout. FrontsmallIVORY interwovenML on wearer'sLEFT chest imageRIGHT atfront. IMAGE3 ONLY floralM+exactMiloShopHand artwork withhibiscus/leaves/floralunderline, ignoreburgundybg: put it DARKESPRESSO #1f1914 onupperBACK BELOWhood asinguide, crispstrongcontrastandreadablecorrectcase. Use ONLY ROW3 of IMAGE1 lowresolution24-view guide:180,195,210 /225,240,255degrees. First symmetric straightBACK; then backpanel/print progressively moves IMAGELEFT, nearestsleeve IMAGERIGHT; last oppositeprofile with narrow BACKedge+art IMAGELEFT. Frontzip/frontpockets/chestML hiddenall6. No buttonplacket onback. Same darkespresso floralM+MiloShopHand print staysbelowhood andclearlylegible. Native1536x1024 ONE3columns x2rows6 equal512squarecells, not24viewlowresguide, no borders/gutters/numbers/captions. Wholeuncroppedgarmentsconstantcenter/scale/hembaseline/light/uniformivorypaperbackdrop. Onlyyaw uprightverticalY/Oy axis locked, fixedLEVELcamera no pitch/roll/zoom/elevation, realclothnotplastic3D, nohuman/mannequin/hanger/props. Preserve fullcenterzip/TWO angledzippockets andstraightnoribhem onFRONTonly, neverback, exactMiloShopHand nevermirrored.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1915031,
+      "sha256": "d2c31b3389b91cf63f1ae2bc0b58b08badfb0c6ce09bb51e91001893ad79c5df",
+      "frames": [
+        {
+          "x": 56,
+          "y": 18,
+          "width": 406,
+          "height": 440
+        },
+        {
+          "x": 62,
+          "y": 20,
+          "width": 389,
+          "height": 439
+        },
+        {
+          "x": 77,
+          "y": 22,
+          "width": 341,
+          "height": 439
+        },
+        {
+          "x": 126,
+          "y": 22,
+          "width": 287,
+          "height": 442
+        },
+        {
+          "x": 142,
+          "y": 20,
+          "width": 222,
+          "height": 446
+        },
+        {
+          "x": 143,
+          "y": 17,
+          "width": 207,
+          "height": 451
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-0972ecdd-3db9-409e-9cfb-6a37eff5f20b.png",
+      "prompt": "Use case: product-mockup. IMAGE1 is exact full24viewPOSEDIRECTIONGUIDE, redraw ONLY indicated row as6 nativehighdetailphotos. IMAGE2 exact original6frontviews gives garment photoquality: ML Zip Pocket Hood, warmcocoa #8e715d technicalcotton FULLlength CREAM centerzip hoodie, TWO separateangledcreamZIPPOCKETS onlowerfront, NOkangaroopouch, straightbrownhemWITHOUT ribband, creamribCUFFS andcreamHOODbinding, NOdrawcords, diagonalshoulderseams andsleevepanels. Same construction/material/folds/colors/size andrelaxedemptysleeve/hoodpose throughout. FrontsmallIVORY interwovenML on wearer'sLEFT chest imageRIGHT atfront. IMAGE3 ONLY floralM+exactMiloShopHand artwork withhibiscus/leaves/floralunderline, ignoreburgundybg: put it DARKESPRESSO #1f1914 onupperBACK BELOWhood asinguide, crispstrongcontrastandreadablecorrectcase. Use ONLY ROW4 of IMAGE1 lowresolution24-view guide:270,285,300 /315,330,345degrees. First pureOPPOSITESIDE hood FRONTOPENING/frontZIPedge IMAGERIGHT; FRONTpanel/zip gradually emerges IMAGERIGHT of nearersleeve, nearestsleeve IMAGELEFT; centerzip approachescenterfromRIGHT endingalmostFRONT. SameivoryML wearer'sLEFTchest staysIMAGERIGHT ofzip atfront, neverjumpsleft. Darkbackart disappearsaroundLEFTedge naturally. Native1536x1024 ONE3columns x2rows6 equal512squarecells, not24viewlowresguide, no borders/gutters/numbers/captions. Wholeuncroppedgarmentsconstantcenter/scale/hembaseline/light/uniformivorypaperbackdrop. Onlyyaw uprightverticalY/Oy axis locked, fixedLEVELcamera no pitch/roll/zoom/elevation, realclothnotplastic3D, nohuman/mannequin/hanger/props. Preserve fullcenterzip/TWO angledzippockets andstraightnoribhem onFRONTonly, neverback, exactMiloShopHand nevermirrored.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1860190,
+      "sha256": "51ffd0eb43eb50e46854d1e4e6bd64f918b7832b929a0409e81a191dc29105d7",
+      "frames": [
+        {
+          "x": 182,
+          "y": 16,
+          "width": 173,
+          "height": 462
+        },
+        {
+          "x": 164,
+          "y": 15,
+          "width": 200,
+          "height": 463
+        },
+        {
+          "x": 151,
+          "y": 17,
+          "width": 222,
+          "height": 460
+        },
+        {
+          "x": 139,
+          "y": 15,
+          "width": 273,
+          "height": 459
+        },
+        {
+          "x": 101,
+          "y": 15,
+          "width": 317,
+          "height": 458
+        },
+        {
+          "x": 66,
+          "y": 15,
+          "width": 376,
+          "height": 458
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed all24 photographic views: matching original garment, colour/trim/seams/fastenings, contrasting chest ML and floralM+exactMiloShopHand back art, continuous upright Y yaw. Earlier incomplete native parts retained. Racer finalquarter regenerated to remove incorrect back-facing views; AI drape may vary slightly.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

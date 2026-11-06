@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-zip-everyday",
+  "color": "original olive/beige",
+  "colorHex": "#56614f",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-zip-everyday.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-ef30ec81-07c4-4f32-a13f-bda5f61a6f9a.png",
+    "prompt": "Use case: product-mockup. Photographic 24-view 360 turntable GUIDE of the EXACT olive green full-zip fleece hoodie in reference1. Image1 is authoritative garment identity: olive #56614f cotton fleece, beige #ded1b5 hood edge, drawstrings, zipper, ribbed cuffs and hem, split kangaroo pockets, relaxed hanging sleeves, folded empty hood. Preserve photoreal cloth, seams, proportions and pose. Image2 is ONLY back branding: floral M above exact MiloShopHand, in contrasting light cream on upper back; ignore burgundy background. Front keep small intertwined ML cream chest logo. No mannequin, hanger, person, no 3D mesh look. Uniform pale ivory backdrop. EXACT6 columns x4 rows, equal cells no gutters/gridlines/labels. Same fixed level camera, same scale ground and lighting, garment perfectly upright rotating clockwise only about vertical Y. Row1 angles0,15,30,45,60,75; row2 90,105,120,135,150,165; row3 180,195,210,225,240,255; row4 270,285,300,315,330,345. First cell front symmetric; frame6 true leftprofile; frame12 back symmetric floralbrand; frame18 rightprofile. Do not jumpangles or change pose or mirror logos. Front only visible through firstrow; back starts emerging after sideprofile. Guide for later high-detail sixframe atlases."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c0f97dd4-9003-4697-aae4-1b3e6aee19a6.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-zip-everyday/original/part-0.png",
+      "prompt": "Use case: product-mockup. Produce high-detail native PNG six-frame turntable atlas, EXACT regular 3columns x2rows without gutters/gridlines/labels. Reference1 is a full24view poseguide of this exact olive fleece ZIP hoodie. Extract/redraw ONLY ROW1 of that6x4 guide as these six frames row-major: front0,15,30,45,60,75 degrees, no back angles yet. Preserve reference1 pose progression EXACTLY, no exaggerating turning. Reference2 is original authoritative high-detail garment: olive green #56614f body, beige ribbed cuffs and bottomhem, beige hoodedge/drawstrings/fullzip, split kangaroopockets, small cream ML leftchest, broad folded emptyhood, realistic cottonfleece andnatural folds. Exactsamegarmentdetails, colour, scale, ground and stance allcells. Intended1536x1280 orlargersame6:5aspect, eachcellatleast450pxwide. Fullyvisiblegarmentinsideeachportraitcell with5% margin. Uniform paleivorybackground, fixedlevelcamera softphotographiclight. RotationonlyaroundverticalY, no pitchroll, camera changes or person/mannequin. FrontchestML logo naturallyforeshortens/disappears asfacesaway; no backbranding onfront. Photographic cloth quality, no plastic/lowpoly/synthetic geometrylook.",
+      "sha256": "97b3a7c058d773a87c82207982b931298bcea9e302684e518644fb9bb9b323dc",
+      "bytes": 1721448,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 63,
+          "y": 18,
+          "width": 386,
+          "height": 418
+        },
+        {
+          "x": 67,
+          "y": 17,
+          "width": 376,
+          "height": 420
+        },
+        {
+          "x": 82,
+          "y": 17,
+          "width": 326,
+          "height": 422
+        },
+        {
+          "x": 133,
+          "y": 16,
+          "width": 270,
+          "height": 430
+        },
+        {
+          "x": 142,
+          "y": 15,
+          "width": 211,
+          "height": 437
+        },
+        {
+          "x": 137,
+          "y": 13,
+          "width": 197,
+          "height": 439
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-4ef299ca-81be-40ad-bbbf-fb213df19597.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-zip-everyday/original/part-1.png",
+      "prompt": "Use case: product-mockup. Highdetail photographic turntable SIXframe atlas. Reference1 full24poseguide: redraw ONLY ROW2 (frames6..11) into exact3columns x2rows. Sequence rowmajor:90 trueLEFTSIDE,105 slightlybehindleftside,120,135 leftrear3quarter,150,165 nearlyback. Sixdistinctsmallconsecutiveincrements, do not reach fullystraightbackuntilnextatlas. Reference2 is authoritative photoreal original ZIP hoodie, olivegreen cottonfleece #56614f, beige fullzip/hoodedge/drawstrings/cuffs/bottomrib, splitpouch, relaxedsleeves, broadfoldedemptyhood. Reference3 is previousfrontquadrant atlas showing correctphotodetail andpose; continueitslast75degreeview smoothly into90profile. Reference4 floral M + exact'MiloShopHand' branding, in contrasting lightcream upperback, ignoreburgundybackground. The completefloralM/wordmark shows increasinglyasbackturnsintoview, properlyforeshortened, not mirrored. Samegarmentbodycut colour/seams/drape/hoodpose/scale/ground inallcells. Noperson/mannequin/hanger. Nativecanvas1536x1280orlargersame6:5aspect, at least450px percell. EXACT equal3x2grid, no lines/gutters/labels. Fullyvisiblegarmentwithmargin, uniformivorybg, fixedlevelcamera softstudio lighting. Rotate onlyverticalY upright, no tilt/pitch/roll. Soft detailedrealcloth, no3Dplastic lowpolymesh.",
+      "sha256": "e98131145f7284792256def387f89e329dd7570222d4334e312064cbb5ccdaa6",
+      "bytes": 1936737,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 176,
+          "y": 13,
+          "width": 191,
+          "height": 459
+        },
+        {
+          "x": 150,
+          "y": 13,
+          "width": 203,
+          "height": 459
+        },
+        {
+          "x": 144,
+          "y": 12,
+          "width": 218,
+          "height": 460
+        },
+        {
+          "x": 140,
+          "y": 10,
+          "width": 260,
+          "height": 463
+        },
+        {
+          "x": 88,
+          "y": 9,
+          "width": 322,
+          "height": 459
+        },
+        {
+          "x": 56,
+          "y": 9,
+          "width": 385,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a9ff34cc-85ed-46f5-be9e-40a798a38c38.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-zip-everyday/original/part-2.png",
+      "prompt": "Use case: product-mockup. Photographic SIXview sprite atlas for exactsame olive fullzip fleece hoodie. Reference1 is full24poseguide; extract/redraw ONLY ROW3 globalframes12..17 into3columns x2rows. Viewangles rowmajor180STRAIGHTBACK symmetric,195smallturn,210,225rear3quarteroppositeside,240,255almostRIGHTPROFILE. SamecontinuousclockwiseY direction; no repeatedbackview or directionreversal. Reference2 is precedingquadrantphotodetail, consistent olivegreen #56614f fleece, beige hoodedge ribcuffs/hem, broadfoldedemptyhood, relaxedsleeves, drape and scale. Reference3 is backlogo exact floralM + 'MiloShopHand', contrastlightcream; ignoreburgundybg. Copylogolayoutfromref2 EXACTLY allframes withproperocclusion/foreshortening. Back frame180 should showfullwordmark andfloralM centered upperback unobscured byhood. Samegarmentclothcolour/material/cut seamsall24, noperson/mannequin/hanger, no smoothplastic3Dlook. EXACTedge-to-edge3column2rowequalgrid, noline/gutter/caption. Canvas1536x1280orlargersame6:5aspect; eachcell450pxormorewide. Eachgarmentfullyvisible with5%margins, uprightlockedY, nopitchroll, fixedlevelcamera/softlighting/ivorybackground/groundheight.",
+      "sha256": "20ffa3cc1e70417dd5b625cbaf108e83e496c73b17acf3ef3b6eabb23d17113b",
+      "bytes": 1957977,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 68,
+          "y": 11,
+          "width": 375,
+          "height": 439
+        },
+        {
+          "x": 70,
+          "y": 13,
+          "width": 372,
+          "height": 437
+        },
+        {
+          "x": 89,
+          "y": 11,
+          "width": 320,
+          "height": 444
+        },
+        {
+          "x": 136,
+          "y": 10,
+          "width": 248,
+          "height": 464
+        },
+        {
+          "x": 141,
+          "y": 9,
+          "width": 204,
+          "height": 467
+        },
+        {
+          "x": 143,
+          "y": 9,
+          "width": 190,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-a2858cb0-5e9e-4dcd-8d34-dce1182caf41.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-zip-everyday/original/part-3.png",
+      "prompt": "Use case: product-mockup. Final SIXframe photographic360turntable atlas oftheEXACT olivegreen zipfleecehoodie shown. Reference1 full24poseguide: redraw ONLY ROW4 globalframes18..23 intoEXACTequal3columns2rows. Sequence rowmajor270trueRIGHTPROFILE,285slightlytowardsfront,300,315frontthreequarter,330,345nearlyfront. Maintain sameclockwisedirection; this is OPPOSITEside toleftprofileinpreviousatlases. Firstcell hoodtip slopes LEFT, rightarmfrontpartonRIGHT, zipperisrightedge; successivefrontbecomesvisibleonRIGHT whilebackdisappearsLEFT. Final345nearlymatchesnextloopfront0 withsmoothsmallstep. Reference2 is exactgarmentphoto fordetail: olive#56614ffleece, beige hoodbinding/drawstrings/zip/cuffs/hem, smallcreamML LEFTCHEST (wearer'sleft; screenrightonfront), splitkangaroopockets, broadfoldedhood. Reference3 lastrearquadrant, continueits255frame into270 thenfront. No floralbackprintvisibleafterprofile, no mirroredlogos. Samepose/folds/cut/material/colour/scale/groundline allcells, softdetailedphotorealcloth never3Dplasticmesh. Native1536x1280orlarger6:5aspect, eachcell>=450pxwidth, evenportraitcellsnomarginsbetweencells/nolines/nolabels. Eachgarmentfullyvisiblewithin5%owncellmargin, uniformivorybg fixedlevelcamera softlight. UprightstrictverticalYrotation no pitch/roll, noperson/mannequin/hanger.",
+      "sha256": "2c83ac14a8f3109f0c267eb6b16e640f31e910414a648233b6fdcf30dd71759c",
+      "bytes": 1837796,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 162,
+          "y": 11,
+          "width": 195,
+          "height": 464
+        },
+        {
+          "x": 155,
+          "y": 13,
+          "width": 205,
+          "height": 461
+        },
+        {
+          "x": 126,
+          "y": 14,
+          "width": 258,
+          "height": 458
+        },
+        {
+          "x": 112,
+          "y": 12,
+          "width": 320,
+          "height": 459
+        },
+        {
+          "x": 77,
+          "y": 12,
+          "width": 364,
+          "height": 458
+        },
+        {
+          "x": 55,
+          "y": 12,
+          "width": 403,
+          "height": 454
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "Cream floral M + exact MiloShopHand back print; original ML front monogram, no mirrored text.",
+    "loopContinuity": "Reviewed 75→90,165→180,255→270,345→0 joins. All angles progress clockwise, same olive/beige garment and fixed vertical axis; angle labels are nominal AI approximations.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

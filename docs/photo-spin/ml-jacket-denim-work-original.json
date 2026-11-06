@@ -1,0 +1,227 @@
+{
+  "product": "ml-jacket-denim-work",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-denim-work.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Ref1 exactML DenimWorkJacket original: fadedslateblue denim, beigepointedcollar, brasscenterbuttons,4patchpockets beigeedgeboundtopswithbrassrivets, brassbuttoncuffs, elbowpatches, contraststitching. Ref2ONLYfloralM+MiloShopHandbrandignorebg. FULL24photographicturntablePOSEGUIDE, exactsamegarment/material/seams/folds/neutralrelaxedsleeves/shape/scale/groundallviews. FrontMLivoryonwearerleftchestpocket, backhighcontrastIVORYfloralM+exactMiloShopHand upperbackBELOWyokeseam. Originalphotorealclothqualityfloatingemptygarment nohuman/mannequin/hanger/plastic3D. EXACT6columns x4rows equalcells no gutters/dividers/numbers/labels canvas6:5 ivorysoftstudio. VerticalYonlyrotationfixedlevelcamera nopitch/roll. Clockwiserowmajorangles0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345. Firstfrontsymmetric;6leftprofilefrontbuttonedgeIMAGERIGHT;12backsymmetric;18rightprofilefrontbuttonedgeIMAGELEFT. Row1frontbuttonlinemovesRIGHT;row2backprintemergesLEFT;row3backprintmovesRIGHTwithnearestsleeveLEFT;row4frontbuttonlinemovesfromLEFTtocenter. All24distinctsmoothconsistentclockwisesteps,no reversing/mirror/redesign. Entiregarmentwithmarginsallcells.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-0b8f122f-7322-4d42-8ead-3d912956f45e.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-denim-work/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-e9a98421-f774-4f41-b8f9-69e2a6750aa6.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntablePOSEGUIDE,ref2originalDenimWorkphotogarment,ref3brand. Redraw ONLY FIRST ROW global0..5 ref1 as3columns x2rows highdetail6frameatlas angles0,15,30 then45,60,75. FirstsymmetricFRONT thenfrontbuttonlinemovesIMAGERIGHT, nearestsleeveIMAGELEFT,lastnearLEFTPROFILEfrontstillvisible no backlogo. ExactfadedslatebluedenimWorkJacket beige pointedcollar/brasscenterbuttons/4patchpocketsbeigetoprivets/brassbuttoncuffs/elbowpatches/contraststitching. SmallivoryinterwovenMLwearerleftchestpocket legible notmirrored. Sameoriginaldenim/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. Only0to75frontquarterturn notfull360.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 85,
+          "y": 16,
+          "width": 403,
+          "height": 494
+        },
+        {
+          "x": 76,
+          "y": 16,
+          "width": 365,
+          "height": 494
+        },
+        {
+          "x": 63,
+          "y": 15,
+          "width": 333,
+          "height": 495
+        },
+        {
+          "x": 143,
+          "y": 2,
+          "width": 300,
+          "height": 455
+        },
+        {
+          "x": 145,
+          "y": 2,
+          "width": 252,
+          "height": 458
+        },
+        {
+          "x": 123,
+          "y": 2,
+          "width": 198,
+          "height": 458
+        }
+      ],
+      "sha256": "b50dc29e7e216350a6a622a89c743c2c6798217182c091218f39681681c92fc7",
+      "bytes": 2245925
+    },
+    {
+      "url": "/collection-spin/ml-jacket-denim-work/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-c417fc85-e3e5-4515-a4aa-2f6dc8063baa.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntablePOSEGUIDE,ref2originalDenimWorkphotogarment,ref3brand. Redraw ONLY SECOND ROW global6..11 ref1 as3columns x2rows highdetail6frameatlas angles90,105,120 then135,150,165. FirsttrueLEFTPROFILE frontbuttonedgeonIMAGERIGHT; backprintprogressivelyemergesIMAGELEFTofnearestsleeve; lastnearBACK15short. ExactfadedslatebluedenimWorkJacket beige pointedcollar/brassbuttoncuffs/elbowpatches/contraststitching/horizontalbackyokeseam;4frontpatchpockets beigeedgeboundtopswithbrassrivets hiddenexceptprofileedge. BackhighcontrastivoryfloralM+exactMiloShopHand belowyokeseam SAMEprintplacement/size naturallyforeshortened notmirrored. Sameoriginaldenim/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtonearlyBACK,no reversedirection.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 180,
+          "y": 15,
+          "width": 185,
+          "height": 434
+        },
+        {
+          "x": 146,
+          "y": 18,
+          "width": 193,
+          "height": 430
+        },
+        {
+          "x": 137,
+          "y": 19,
+          "width": 219,
+          "height": 428
+        },
+        {
+          "x": 154,
+          "y": 16,
+          "width": 262,
+          "height": 442
+        },
+        {
+          "x": 105,
+          "y": 18,
+          "width": 309,
+          "height": 438
+        },
+        {
+          "x": 58,
+          "y": 18,
+          "width": 370,
+          "height": 435
+        }
+      ],
+      "sha256": "c7bac25d13250a8f65d10dece1a0ff0379c9af2e36daea89b8b6b41b17bc0a29",
+      "bytes": 2096864
+    },
+    {
+      "url": "/collection-spin/ml-jacket-denim-work/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-59a0be9f-5378-4212-8e4b-debe8c3df571.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntablePOSEGUIDE,ref2originalDenimWorkphotogarment,ref3brand. Redraw ONLY THIRD ROW global12..17 ref1 as3columns x2rows highdetail6frameatlas angles180,195,210 then225,240,255. FirstperfectsymmetricBACK; then rearlogo progressivelymovesIMAGERIGHTofnearestblanksleeveonIMAGELEFT; lastnearrightprofilebackonRIGHTedge. MatchguideTHIRDROW,no reversal. ExactfadedslatebluedenimWorkJacket beige pointedcollar/brassbuttoncuffs/elbowpatches/contraststitching/horizontalbackyokeseam;4frontpatchpockets hidden. BackhighcontrastivoryfloralM+exactMiloShopHand BELOWyokeseam SAMEprintplacement/size naturallyforeshortened notmirrored. Sameoriginaldenim/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. OnlyBACKtowardOPPOSITERIGHTPROFILE, nearestsleeveLEFT inallobliqueviews.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 64,
+          "y": 13,
+          "width": 422,
+          "height": 454
+        },
+        {
+          "x": 64,
+          "y": 12,
+          "width": 383,
+          "height": 458
+        },
+        {
+          "x": 62,
+          "y": 13,
+          "width": 347,
+          "height": 463
+        },
+        {
+          "x": 107,
+          "y": 5,
+          "width": 320,
+          "height": 475
+        },
+        {
+          "x": 111,
+          "y": 5,
+          "width": 294,
+          "height": 475
+        },
+        {
+          "x": 119,
+          "y": 3,
+          "width": 268,
+          "height": 480
+        }
+      ],
+      "sha256": "052544c9e3c753c3c3653a3cc4b81cdf02dfb48d4824535cb829fd284ea9f629",
+      "bytes": 2331328
+    },
+    {
+      "url": "/collection-spin/ml-jacket-denim-work/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-b476bfe5-4f51-4e27-a761-518cd3ee1b9c.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntablePOSEGUIDE,ref2originalDenimWorkphotogarment. Redraw ONLY FOURTH/LAST ROW global18..23 ref1 as3columns x2rows highdetail6frameatlas angles270,285,300 then315,330,345. FirsttrueRIGHTPROFILE frontbuttonedgeonIMAGELEFT; thenfrontbuttonline staysLEFTofgarmentcenterreturningtocenter, closestbroadblank sleeveIMAGERIGHT. Matchguide4throw,no reverse. ExactfadedslatebluedenimWorkJacket beige pointedcollar/brasscenterbuttons/4patchpocketsbeigetoprivets/brassbuttoncuffs/elbowpatches/contraststitching. SmallivoryinterwovenMLwearerleftchestpocket legible notmirrored graduallyemerges. NO backprint. Sameoriginaldenim/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. OnlyRIGHTPROFILEthroughalmostFRONT, frontbuttonlineLEFTnotRIGHT!",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 184,
+          "y": 18,
+          "width": 187,
+          "height": 450
+        },
+        {
+          "x": 154,
+          "y": 16,
+          "width": 218,
+          "height": 452
+        },
+        {
+          "x": 115,
+          "y": 15,
+          "width": 272,
+          "height": 453
+        },
+        {
+          "x": 110,
+          "y": 13,
+          "width": 317,
+          "height": 462
+        },
+        {
+          "x": 69,
+          "y": 13,
+          "width": 364,
+          "height": 462
+        },
+        {
+          "x": 48,
+          "y": 15,
+          "width": 405,
+          "height": 458
+        }
+      ],
+      "sha256": "4b693b809e8138735e97275cf8863badcbbe207ef16aba00275330f61a0b0f2c",
+      "bytes": 2156552
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T12:02:22.275Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

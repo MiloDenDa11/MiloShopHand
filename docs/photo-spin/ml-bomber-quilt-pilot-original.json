@@ -1,0 +1,227 @@
+{
+  "product": "ml-bomber-quilt-pilot",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-bomber-quilt-pilot.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Ref1exact ML QuiltPilotBomber: lightmutedolive paddednylon with diamondquilting acrossbodyandsleeves, beigebomberribcollar/cuffs/hem, silvercenterzip,2largeLOWfrontflappocketswithbeigesnaps. Ref2ONLYfloralM+MiloShopHandbrandignorebg. FULL24photographicturntablePOSEGUIDE exactsamegarment/material/seams/quiltdiamonds/folds/neutralrelaxedsleeves/shape/colour/scale/groundallviews. FrontsmallnearBLACKinterwovenML forHIGHcontrast; BACKnearBLACK floralM+exactMiloShopHand upperback,highcontrastnevercreamontoolive. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. EXACT6columns x4rows equalcells no gutters/dividers/numbers/labels canvas6:5 ivorysoftstudio. UprightverticalYrotationonlyfixedlevelcamera nopitch/roll. Clockwiserowmajorangles0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345.0frontsymmetric;6leftprofilefrontzipedgeIMAGERIGHT;12backsymmetric;18rightprofilefrontzipedgeIMAGELEFT. FirstrowfrontzipmovesRIGHT;secondbackprintemergesLEFT;thirdbackprintmovesRIGHTwithblanknearestsleeveLEFT;fourthfrontzipLEFTreturnstocenter. All24distinctsmoothconsistentclockwisesteps,no reverse/mirror/redesign. Wholegarmentmarginsallcells.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-7b2ac298-4eaf-45a6-8049-bb055b5d31a8.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-bomber-quilt-pilot/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-acc9c4cc-87fe-41a3-91d1-7e86b2022a54.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1turntableguide ONLYROW1,ref2originalQuiltPilotBomber,ref3brand. RedrawONLYFIRSTROWglobal0..5 as3columns x2rows highdetail6frameatlas angles0,15,30 /45,60,75. FirstperfectFRONT; thenCENTERZIPprogressivelymovesIMAGERIGHT ofgarmentcenter, broadnearestblank sleeveonIMAGELEFT; lastnearLEFTPROFILEfrontstillvisible. No backprint. Exactlightmutedolive diamondquiltedpaddednylon bomber beige ribcollar/cuffs/hem, silvercenterzip,2largeLOWfrontflappocketsbeigesnaps. FrontsmallnearBLACK interwovenMLleftchest (contrast). Samequiltdiamonds/material/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. OnlyFRONTquarterturnnotfull360in6, no reverse/mirror.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 59,
+          "y": 23,
+          "width": 416,
+          "height": 409
+        },
+        {
+          "x": 66,
+          "y": 21,
+          "width": 384,
+          "height": 413
+        },
+        {
+          "x": 75,
+          "y": 21,
+          "width": 350,
+          "height": 414
+        },
+        {
+          "x": 104,
+          "y": 11,
+          "width": 325,
+          "height": 438
+        },
+        {
+          "x": 121,
+          "y": 12,
+          "width": 288,
+          "height": 437
+        },
+        {
+          "x": 137,
+          "y": 12,
+          "width": 246,
+          "height": 442
+        }
+      ],
+      "sha256": "868d72545211b5c2249eb2775c0aa60ca30744e3ffa07aca51f081c9c5b5136a",
+      "bytes": 2014134
+    },
+    {
+      "url": "/collection-spin/ml-bomber-quilt-pilot/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-290653bb-8e66-47b6-971f-93be916f4be5.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Reference1 previousFIRSTquadrantfront0..75atlas identity; reference2originalphoto;reference3floralbrand. Create NEXTquarter6photographic views90,105,120 /135,150,165 in3columns x2rows. FIRST trueLEFTPROFILE withfrontzip/pocketedge onIMAGE RIGHT; THEN backprint emerges onIMAGE LEFT ofnearestsleeve. Backplane/logomustbeLEFT ofblanksleeve inallobliqueviews, lastalmostBACK15short. Do not turn towardoppositeside/backplaneRIGHT. Exactsame lightmutedolive diamondquiltedpaddednylonQuiltPilotBomber beigeribcollar/cuffs/hem, silvercenterzip,2largeLOWfrontflappocketsbeigesnaps (hiddenatback). SAMEoriginalfabricquiltdiamonds/folds/seams/neutralrelaxedsleeves/shape/colour/scale/ground. UpperbackhighcontrastNEARBLACKfloralM+exactMiloShopHand sameplacement/size everyview,naturallyforeshortened,notmirrored. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYrotationonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtoalmostBACK, sixdistinctsmallsteps.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 178,
+          "y": 17,
+          "width": 177,
+          "height": 467
+        },
+        {
+          "x": 156,
+          "y": 19,
+          "width": 198,
+          "height": 465
+        },
+        {
+          "x": 141,
+          "y": 20,
+          "width": 213,
+          "height": 465
+        },
+        {
+          "x": 145,
+          "y": 17,
+          "width": 242,
+          "height": 473
+        },
+        {
+          "x": 119,
+          "y": 18,
+          "width": 265,
+          "height": 471
+        },
+        {
+          "x": 85,
+          "y": 17,
+          "width": 314,
+          "height": 470
+        }
+      ],
+      "sha256": "c65ed76cc0ddac7dc2c584ad4a92e32f2a704000e6d1cb80b87f982dbd1f3d8a",
+      "bytes": 1820786
+    },
+    {
+      "url": "/collection-spin/ml-bomber-quilt-pilot/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-507abc33-9b68-4971-95fa-32729ea9f6f6.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 continuation. Reference1 previousBACK-left90..165atlas garmentidentity;reference2originalphoto;reference3floralbrand. Create NEXTquarter6photographicviews180,195,210 /225,240,255 in3columns x2rows. FIRST perfectsymmetricalBACK bothsleeves; THEN blanknearestsleeve appears onIMAGE LEFT, BACK PANEL/LOGO onIMAGE RIGHT; lastnearOPPOSITERIGHTPROFILE withbacklogoRIGHTedge. OPPOSITE direction toreference1'sbackplaneLEFT; do not repeatreference1poses. Exactsame lightmutedolive diamondquiltedpaddednylonQuiltPilotBomber beigeribcollar/cuffs/hem; samequiltdiamonds/material/folds/seams/neutralrelaxedsleeves/shape/colour/scale/ground. UpperbackhighcontrastNEARBLACKfloralM+exactMiloShopHand sameplacement/size, naturallyforeshortened,legible notmirrored. No frontpockets/chestML visibleinthese6. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYrotationonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. OnlyBACKtowardOPPOSITERIGHTPROFILE,sixdistinctsmallsteps. NearestblanksleeveLEFTinallobliques.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 82,
+          "y": 23,
+          "width": 399,
+          "height": 445
+        },
+        {
+          "x": 79,
+          "y": 21,
+          "width": 355,
+          "height": 452
+        },
+        {
+          "x": 82,
+          "y": 21,
+          "width": 303,
+          "height": 456
+        },
+        {
+          "x": 139,
+          "y": 15,
+          "width": 254,
+          "height": 471
+        },
+        {
+          "x": 145,
+          "y": 15,
+          "width": 216,
+          "height": 473
+        },
+        {
+          "x": 140,
+          "y": 13,
+          "width": 183,
+          "height": 475
+        }
+      ],
+      "sha256": "7d2a697e82f1bc3d21a5b1f6d4f3198bd28b0563038c4ecc8abac3aab273494b",
+      "bytes": 1899765
+    },
+    {
+      "url": "/collection-spin/ml-bomber-quilt-pilot/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-3deae207-0b3a-4de7-a013-0dc070a6c110.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: product-mockup image360 finalquarter. Ref1previousFRONT0..75atlas garmentidentity, ref2originalphoto. Create OPPOSITE FRONT SIDE sixviews270,285,300 /315,330,345 in3columns x2rows. FirsttrueRIGHTPROFILEwithfrontzipedgeonIMAGELEFT; FRONT PANEL appears onIMAGELEFT ofbroadnearestsleeveonIMAGERIGHT. CENTERSILVERZIP mustlieLEFT OFGARMENTCENTERinallobliqueviews, returntocenternearfront. Thisisreverseangleposeofref1butNOTreverseplaybackandNOTmirroredletters. Little nearBLACKinterwovenML onwearerleftchest naturallyvisibleandnormallegible. Exactlightmutedolive diamondquiltedpaddednylonQuiltPilotBomber beigeribcollar/cuffs/hem, silvercenterzip,2largeLOWfrontflappocketsbeigesnaps. Samequiltdiamonds/material/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. NO backprint. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholegarmentmargin,no gutters/borders/numbers/labels. OnlyRIGHTPROFILEthroughalmostFRONT, sixdistinctsmallsteps, zipLEFT notRIGHT!",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 165,
+          "y": 20,
+          "width": 204,
+          "height": 453
+        },
+        {
+          "x": 133,
+          "y": 20,
+          "width": 237,
+          "height": 452
+        },
+        {
+          "x": 88,
+          "y": 19,
+          "width": 298,
+          "height": 452
+        },
+        {
+          "x": 96,
+          "y": 12,
+          "width": 338,
+          "height": 454
+        },
+        {
+          "x": 61,
+          "y": 12,
+          "width": 360,
+          "height": 454
+        },
+        {
+          "x": 36,
+          "y": 13,
+          "width": 403,
+          "height": 451
+        }
+      ],
+      "sha256": "a9e6bda27c5a7aa40f739ed036671e60e42faa44b49aed8dd9ee855bc456b539",
+      "bytes": 1906092
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T12:07:58.958Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Near-black highcontrast ML front and floral M + exact MiloShopHand upperback on lightolive quilt; visually reviewed.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

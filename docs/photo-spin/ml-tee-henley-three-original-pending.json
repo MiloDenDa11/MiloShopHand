@@ -1,0 +1,49 @@
+{
+  "slug": "ml-tee-henley-three",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "incomplete-usage-limit",
+  "source": "/collection-ai/ml-tee-henley-three.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "requiredFrameCount": 24,
+  "availableFrameCount": 12,
+  "generatedAt": "2026-11-05T17:13:06.845Z",
+  "missingParts": [
+    2,
+    3
+  ],
+  "blocker": "Built-in ImageGen usage_limit_reached429 on attempted part2. No retries. Keep unapproved until full24 views are created/visuallyreviewed.",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f994a70c-13c5-4d21-bc1b-be437f5489a7.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT0,15,30,45,60,75degreefrontquadrantorientationsanddirection. Replacecharcoalguidewith EXACT Henley Three Basic Tee from reference2: lightgray sagegreige body #c7c4b3 cottonjersey, relaxedcut droppedshoulder short sleeves/straightrelaxedhem. Darkolive #4c5547 HENLEYneck binding with SHORTCENTERFRONT DARKOLIVEPLACKET and EXACTLY3smallcreamroundbuttons, sameplacket length/topshape/buttonspacing asoriginal. Darkolive sleevebands and smallinterwovenMLfrontLEFTchest. NO rearbuttons/placket, no pockets. Preserveoriginalfabric/folds/construction/colours. FrontfirstprogressivelyLEFTprofilelast,NO backprintinfrontquadrant. ThreebuttonHENLEYplacketisvisibleandprojectswithfrontangle, nevernormalcrewneck. Samegarmentconstruction/folds/sleevepose/colours/MLplace/placket+3buttonsall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollar/sleeves/hemsvisibleeachcell."
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8dc376e8-a074-45d2-85eb-fba7f2ab7b10.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT90,105,120,135,150,165orientations trueLEFTprofile towardnearlyBACK,backprintemergesandwidens,NOfrontviews. Reference2 EXACT Henley Three Basic Tee from reference2: lightgray sagegreige body #c7c4b3 cottonjersey, relaxedcut droppedshoulder short sleeves/straightrelaxedhem. Darkolive #4c5547 HENLEYneck binding with SHORTCENTERFRONT DARKOLIVEPLACKET and EXACTLY3smallcreamroundbuttons, sameplacket length/topshape/buttonspacing asoriginal. Darkolive sleevebands and smallinterwovenMLfrontLEFTchest. NO rearbuttons/placket, no pockets. Preserveoriginalfabric/folds/construction/colours. Reference3floral M+exactMiloShopHandwordmark printDARKOLIVE #4c5547 upperBACK stronglycontrastinglightgraybody,ignoreburgundybackground. BackhasNOplacket/buttons/smallML,thoseONLYfront maybarelyshowatfirstprofile. Samegarmentconstruction/folds/sleevepose/colours/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters."
+    }
+  ],
+  "pendingPart2Prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguideandgoodlayout:copy EXACT180,195,210,225,240,255orientations trueBACKprogressivelyRIGHTprofile. BackprintnarrowsandMOVESLEFTsideimage,nearsleeveRIGHTsideimage,NOfrontviews. Reference2 EXACT Henley Three Basic Tee from reference2: lightgray sagegreige body #c7c4b3 cottonjersey, relaxedcut droppedshoulder short sleeves/straightrelaxedhem. Darkolive #4c5547 HENLEYneck binding with SHORTCENTERFRONT DARKOLIVEPLACKET and EXACTLY3smallcreamroundbuttons, sameplacket length/topshape/buttonspacing asoriginal. Darkolive sleevebands and smallinterwovenMLfrontLEFTchest. NO rearbuttons/placket, no pockets. Preserveoriginalfabric/folds/construction/colours. Reference3floral M+exactMiloShopHandwordmark printDARKOLIVE #4c5547 upperBACK stronglycontrastinglightgraybody,ignoreburgundybackground. BackhasNOplacket/buttons/smallML,ONLYfrontthose. Samegarmentconstruction/folds/sleevepose/colours/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Copyreference1positions:entiregarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+  "qa": {
+    "visual": "12available nativeviews inspected: lightgraysagebody/darkolivehenley3buttons onfrontonly, sameconstructionandcolours. BackfloralM+MiloShopHand darkolive. Not a full360; do notpromote.",
+    "assetEdits": "None, nativePNGcopiesonly."
+  }
+}

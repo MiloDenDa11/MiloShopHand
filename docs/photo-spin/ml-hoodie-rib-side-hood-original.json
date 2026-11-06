@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-rib-side-hood",
+  "colorKey": "original",
+  "colorHex": "#b7b9a7",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T07:17:43.854Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-f07230a1-2de0-40d3-af91-07f8fb082a2e.png",
+      "prompt": "Use case: product-mockup. Create photographic360 atlas of ONE ML Rib Side Hood Hoodie. IMAGE1 exactgarmentidentity front/back: sagegreige #b7b9a7 cottonfleece PULLOVER hoodie, DARKOLIVE rib SIDEPANELS verticallyfromarmpittobottom andmatching darkolive ribcuffs/hem/hoodbinding, samedarkolivedrawcords, largekangaroopocket, relaxedbody, darkoliveML wearerLEFTchest, matching darkolivefloralbackart BELOWhood. Primarycolour #b7b9a7; ALL design, garmenttype, fabrics/trim/panels/seams/pockets, silhouette/hem/sleevelength andrelaxedpose mustmatch IMAGE1. IMAGE2 ONLY sixcameraPOSES andlayout, NEVERcopy its navy bomber oradd zipper/utilitypocket/ribcollar to this garment. IMAGE3 samegarment precedingquarter, follow its cloth/scale/folds. LASTIMAGE ONLY shared floralM/hibiscus/leaves with EXACT MiloShopHand wordmark+floralunderline, ignoreburgundybackground. Upgrade upperBACK tothat floralart in contrasting ink as specified; same size/position allrearangles, never mirrored; hoodiebackart entirely BELOWhood. Front keeps small wovenML wearerLEFTchest, imageRIGHT offrontcenterline atstraightfront. ROWMAJOR0,15,30 /45,60,75degrees. FirstperfectFRONT, then frontcenterline gradually moves IMAGE RIGHT, nearestsleeveIMAGELEFT; last near LEFTPROFILE frontstillnarrowlyvisibleonRIGHTedge. No rearlogo visibleyet. Keep frontML alwayssamewearerLEFTchest imageRIGHT ofcenterline, notmirrored. Native1536x1024, ONE3columns x2rows EXACTLY SIXequal512squarecells, notwhole24sheet. Fullyuncroppedgarments with7%margin percell, identicalcenter/scale/hembaseline/relaxed hanging sleeves/lighting/uniformwarmivorypaperbackground. Realisticnaturalcloth texture/weave/microfolds, no plasticprocedural3D/person/mannequin/hanger/props. FixedLEVELcamera andabsolutelyuprightverticalY/Oy axis, ONLYyaw no pitch/roll/zoom/elevation/deformation. No gutters/gridlines/labels/numbers/captions/watermark.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2003610,
+      "sha256": "d93773d96bfb4086fc153340b27163c626b954c8946e70154ced924a6c7125d3",
+      "frames": [
+        {
+          "x": 48,
+          "y": 22,
+          "width": 417,
+          "height": 458
+        },
+        {
+          "x": 58,
+          "y": 23,
+          "width": 396,
+          "height": 462
+        },
+        {
+          "x": 78,
+          "y": 21,
+          "width": 343,
+          "height": 468
+        },
+        {
+          "x": 118,
+          "y": 21,
+          "width": 277,
+          "height": 472
+        },
+        {
+          "x": 146,
+          "y": 21,
+          "width": 224,
+          "height": 472
+        },
+        {
+          "x": 157,
+          "y": 23,
+          "width": 198,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-61f44fa9-b47f-433a-af9a-9fc7df45cffb.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. EDIT IMAGE1 six-view NAVY BOMBER atlas by REPLACING each garment with ML Rib Side Hood Hoodie identity in IMAGE2. Preserve EXACT SIX CAMERA POSES/order/layout from IMAGE1, ignore all navybomberconstruction/color. The replacement garment is sagegreige #b7b9a7 cottonfleece PULLOVER hoodie, DARKOLIVE rib SIDEPANELS verticallyfromarmpittobottom andmatching darkolive ribcuffs/hem/hoodbinding, samedarkolivedrawcords, largekangaroopocket, relaxedbody, darkoliveML wearerLEFTchest, matching darkolivefloralbackart BELOWhood. No zipper or lowbombercollar/armutilitypocket is added to a pullover. ROWMAJOR90,105,120 /135,150,165degrees. FirstLEFTPROFILE with FRONTedge IMAGERIGHT andBACKedge IMAGELEFT; then BACKpanel/print gradually emerges IMAGELEFT ofnearestsleeve, nearestsleeveIMAGERIGHT, endingalmostfullBACK. Distinctcontinuous15degreesteps afterprevious75pose. Backlogo begins sliver andwidens, neverplacedonfront, no frontpockets onBACK. Same original cloth texture/weave/folds/pose/colour/trim/panels/construction/proportions/scale/center/hembaseline/light/ivorybackground asIMAGE2. Front smallcontrastingML ONLYwearerLEFTchest, IMAGERIGHT ofcenterline atfront. Backart ONLYwherebackactuallyvisible: floralM/hibiscus/leaves + exact MiloShopHand wordmark andfloralunderline from LASTIMAGE (ignoreburgundybg), contrastingink consistent with garmentdescription, same size/height entirely BELOWHOOD. NEVER backart onfront. Native1536x1024 exact3columns2rows SIXequal512squarecells, entiregarments uncropped with8%margin, no grid/gutters/borders/numbers/captions/person/mannequin/hanger/plastic3D. Absolutely uprightY/Oy andlockedLEVELcamera, ONLYyaw. IMAGE1 camera poses MUST be matched in ALL sixcells; no extra FRONTviews in rearquarter, noBACKviews in frontquarter.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1965359,
+      "sha256": "9f7eb612d37473ef7595f931bd908884a4ec1471b4707b777439d7b10a198aa4",
+      "frames": [
+        {
+          "x": 152,
+          "y": 20,
+          "width": 181,
+          "height": 466
+        },
+        {
+          "x": 127,
+          "y": 20,
+          "width": 198,
+          "height": 466
+        },
+        {
+          "x": 106,
+          "y": 21,
+          "width": 221,
+          "height": 465
+        },
+        {
+          "x": 106,
+          "y": 20,
+          "width": 275,
+          "height": 470
+        },
+        {
+          "x": 63,
+          "y": 21,
+          "width": 329,
+          "height": 469
+        },
+        {
+          "x": 26,
+          "y": 18,
+          "width": 393,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-88bd1f49-937f-40d1-83ee-b525ca91abc7.png",
+      "prompt": "Use case: product-mockup. Create photographic360 atlas of ONE ML Rib Side Hood Hoodie. IMAGE1 exactgarmentidentity front/back: sagegreige #b7b9a7 cottonfleece PULLOVER hoodie, DARKOLIVE rib SIDEPANELS verticallyfromarmpittobottom andmatching darkolive ribcuffs/hem/hoodbinding, samedarkolivedrawcords, largekangaroopocket, relaxedbody, darkoliveML wearerLEFTchest, matching darkolivefloralbackart BELOWhood. Primarycolour #b7b9a7; ALL design, garmenttype, fabrics/trim/panels/seams/pockets, silhouette/hem/sleevelength andrelaxedpose mustmatch IMAGE1. IMAGE2 ONLY sixcameraPOSES andlayout, NEVERcopy its navy bomber oradd zipper/utilitypocket/ribcollar to this garment. IMAGE3 samegarment precedingquarter, follow its cloth/scale/folds. LASTIMAGE ONLY shared floralM/hibiscus/leaves with EXACT MiloShopHand wordmark+floralunderline, ignoreburgundybackground. Upgrade upperBACK tothat floralart in contrasting ink as specified; same size/position allrearangles, never mirrored; hoodiebackart entirely BELOWhood. Front keeps small wovenML wearerLEFTchest, imageRIGHT offrontcenterline atstraightfront. ROWMAJOR180,195,210 /225,240,255degrees. FirstperfectsymmetricBACK, then BACKpanel/print moves IMAGERIGHT asnearestsleeveIMAGELEFT; lastalmostoppositeRIGHTPROFILE withnarrowbackedge+art IMAGERIGHT. No frontML/frontpockets visible inrearquarter. Samebackprint size/height/colour, naturallyforeshortened. Native1536x1024, ONE3columns x2rows EXACTLY SIXequal512squarecells, notwhole24sheet. Fullyuncroppedgarments with7%margin percell, identicalcenter/scale/hembaseline/relaxed hanging sleeves/lighting/uniformwarmivorypaperbackground. Realisticnaturalcloth texture/weave/microfolds, no plasticprocedural3D/person/mannequin/hanger/props. FixedLEVELcamera andabsolutelyuprightverticalY/Oy axis, ONLYyaw no pitch/roll/zoom/elevation/deformation. No gutters/gridlines/labels/numbers/captions/watermark.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1905457,
+      "sha256": "0e8e564c7e35fa1a338e76c6bf3066e00f72868bcc75eac85b0bca51b5e8e7cb",
+      "frames": [
+        {
+          "x": 51,
+          "y": 13,
+          "width": 410,
+          "height": 467
+        },
+        {
+          "x": 62,
+          "y": 19,
+          "width": 368,
+          "height": 464
+        },
+        {
+          "x": 80,
+          "y": 19,
+          "width": 324,
+          "height": 466
+        },
+        {
+          "x": 108,
+          "y": 16,
+          "width": 275,
+          "height": 475
+        },
+        {
+          "x": 121,
+          "y": 18,
+          "width": 237,
+          "height": 473
+        },
+        {
+          "x": 145,
+          "y": 19,
+          "width": 208,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-6e18a1ce-917f-4bc4-822a-19e5e6d4e843.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. EDIT IMAGE1 six-view NAVY BOMBER atlas by REPLACING each garment with ML Rib Side Hood Hoodie identity in IMAGE2. Preserve EXACT SIX CAMERA POSES/order/layout from IMAGE1, ignore all navybomberconstruction/color. The replacement garment is sagegreige #b7b9a7 cottonfleece PULLOVER hoodie, DARKOLIVE rib SIDEPANELS verticallyfromarmpittobottom andmatching darkolive ribcuffs/hem/hoodbinding, samedarkolivedrawcords, largekangaroopocket, relaxedbody, darkoliveML wearerLEFTchest, matching darkolivefloralbackart BELOWhood. No zipper or lowbombercollar/armutilitypocket is added to a pullover. ROWMAJOR270,285,300 /315,330,345degrees. FirsttrueRIGHTPROFILE with FRONTedge IMAGELEFT andBACKedge IMAGERIGHT, nearestsleeveIMAGERIGHT. Frontpanel/centerline emerges IMAGELEFT ofnearestsleeve, centerline approachescenterFROM LEFT, endingalmostsymmetricFRONT. ALL six SIDEorFRONT, no fullBACK views. Backart disappearsaroundRIGHTedge; frontML emerges onwearerLEFTchest, clearly IMAGERIGHT ofcenterline infinalalmostfrontcell, neverjumpstootherchest. Same original cloth texture/weave/folds/pose/colour/trim/panels/construction/proportions/scale/center/hembaseline/light/ivorybackground asIMAGE2. Front smallcontrastingML ONLYwearerLEFTchest, IMAGERIGHT ofcenterline atfront. Backart ONLYwherebackactuallyvisible: floralM/hibiscus/leaves + exact MiloShopHand wordmark andfloralunderline from LASTIMAGE (ignoreburgundybg), contrastingink consistent with garmentdescription, same size/height entirely BELOWHOOD. NEVER backart onfront. Native1536x1024 exact3columns2rows SIXequal512squarecells, entiregarments uncropped with8%margin, no grid/gutters/borders/numbers/captions/person/mannequin/hanger/plastic3D. Absolutely uprightY/Oy andlockedLEVELcamera, ONLYyaw. IMAGE1 camera poses MUST be matched in ALL sixcells; no extra FRONTviews in rearquarter, noBACKviews in frontquarter. ALL6 SIDEorFRONT, NOREARLOGO anywhere, no BACKviews, matchIMAGE1profile-to-FRONTonly.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1962954,
+      "sha256": "15a275efcc55f8dbb0d9c733b6335b6f2838052002057409f5fb7b06451c4052",
+      "frames": [
+        {
+          "x": 157,
+          "y": 11,
+          "width": 173,
+          "height": 479
+        },
+        {
+          "x": 136,
+          "y": 11,
+          "width": 199,
+          "height": 479
+        },
+        {
+          "x": 112,
+          "y": 13,
+          "width": 243,
+          "height": 477
+        },
+        {
+          "x": 96,
+          "y": 15,
+          "width": 295,
+          "height": 476
+        },
+        {
+          "x": 54,
+          "y": 15,
+          "width": 358,
+          "height": 475
+        },
+        {
+          "x": 38,
+          "y": 17,
+          "width": 413,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 native photographs: whole garments, same original construction/fabric/colour/trim/pockets, chest ML wearerLEFT and readable contrasting floralM+exactMiloShopHand upperback, fixed uprightY/yaw sequence. Rejected pose candidates kept separately; slight AI drape variation remains.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

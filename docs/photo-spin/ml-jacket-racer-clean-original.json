@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-racer-clean",
+  "colorKey": "original",
+  "colorHex": "#303332",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:47:30.309Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-racer-clean/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a91f-2b62-7e41-b83e-518c3d9d48f0\\exec-b1c6820c-d804-4613-be80-3c390d0ec2e6.png",
+      "prompt": "Use case: product-mockup. Reference1 EXACT garment identity ML Racer Clean Jacket, charcoal grey #303332 cotton-nylon racer, short stand collar with khaki edge, two KHAKI RAGLAN CURVED shoulder piping lines, muted brass full center zipper, two angled lower front ZIP pockets, straight non-ribbed hem/cuffs with khaki edge, relaxed long sleeves. Reference2 ONLY SIX CAMERA POSES and3x2layout from a DIFFERENT black four-pocket jacket: DO NOT COPY its pockets/shoulder tabs/collar buttons. Produce same Racer Clean at nominal 0,15,30 /45,60,75 degrees. First symmetric FRONT then front zipper moves IMAGE RIGHT, nearest blank sleeve IMAGE LEFT; last near LEFT PROFILE still front visible. Small high contrast IVORY interwoven ML on left chest. No back print visible in this quarter. Keep original fabric texture, construction, silhouette, relaxed empty sleeves, size and hem/collar proportions every frame. Photographic AI fashion mockup floating garment with natural empty neck, no human/mannequin/hanger, no plastic 3D mesh. Fixed level camera, upright vertical Y only, no pitch/roll. Six full uncropped garments with consistent scale/ground in 3columns x2rows equal ivory square cells. Native1536x1024 minimum512x512 percell, no numbers/borders/labels/gutters. Exactly this front quarter, not a whole360.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1637437,
+      "sha256": "cf2e8e7c12d41236d2f75c4802b22e9b0ce0f489b38cd1003eb55c2970b392dd",
+      "frames": [
+        {
+          "x": 44,
+          "y": 25,
+          "width": 425,
+          "height": 446
+        },
+        {
+          "x": 50,
+          "y": 23,
+          "width": 413,
+          "height": 452
+        },
+        {
+          "x": 67,
+          "y": 17,
+          "width": 378,
+          "height": 464
+        },
+        {
+          "x": 103,
+          "y": 13,
+          "width": 324,
+          "height": 472
+        },
+        {
+          "x": 140,
+          "y": 11,
+          "width": 250,
+          "height": 475
+        },
+        {
+          "x": 152,
+          "y": 10,
+          "width": 220,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-racer-clean/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-0099f298-3317-4a19-b94c-2dbfc6c8620d.png",
+      "prompt": "Use case: product-mockup. Continue EXACT Racer Clean photographic turntable. IMAGE1 is exactgarmentidentity: charcoalgrey #303332 cottonnylon RACER jacket, lowSTANDCOLLAR with KHAKIedge, twoKHAKI curvedRAGLAN shoulder PIPING lines continuing around BACK shoulder, mutedBRASSfullcenterzip, two angledlowerFRONT ZIPPEDpockets, straight nonribbedhem/cuffs withkhakiedges, relaxedlongsleeves, smallIVORY intertwinedML wearerLEFTchest imageRIGHTatfront. IMAGE2 ONLY sixPOSEDIRECTIONguide from brownhoodie, doNOTcopy hood/cuffs/bodyshape/browncolor. IMAGE3 precedingquarter ofsameRacer for exactcloth/folds/scale. IMAGE4 only floralM+exactMiloShopHand backart ignoreburgundybackdrop: highcontrastIVORY onupperBACK, sameprintplacement/size allbackviews, no mirroredletters. Follow EXACT SIX camera poses and direction of IMAGE2, rowmajor90,105,120 /135,150,165degrees. First pureSIDE RACER frontZIPedge IMAGELEFT; BACKpanel/print gradually emerges IMAGERIGHT of nearer sleeve, nearestsleeve IMAGELEFT. Last almostfullBACK. This continues after image2 final75profile. No FRONT-facing cells except narrow frontedge in firstprofile. IVORY floralM+MiloShopHand backart starts sliver and widens gradually. Preserveexactracerconstruction/proportions/fabric/colour/khakipiping, fullzip+twoseparatezippocketsonFRONTONLY, no hoodie/ribhem/flappockets/utilityarmtabs. Native1536x1024 ONE3columns2rows SIXequal512squarecells. Fulluncroppedgarments with7%margin, constantcenter/scale/hembaseline/relaxedpose/uniformivorypaperbackdrop/softlight. OnlyuprightY/Oy yaw, fixedLEVELcamera no pitch/roll/zoom/elevation, nohuman/mannequin/hanger/plastic3D/gutters/borders/labels/numbers.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1749085,
+      "sha256": "d5b01dec36b1be1ccb81abb60100404cf6da35ad6459bf487b94646a62c24927",
+      "frames": [
+        {
+          "x": 169,
+          "y": 23,
+          "width": 186,
+          "height": 457
+        },
+        {
+          "x": 148,
+          "y": 23,
+          "width": 206,
+          "height": 457
+        },
+        {
+          "x": 130,
+          "y": 23,
+          "width": 233,
+          "height": 456
+        },
+        {
+          "x": 118,
+          "y": 22,
+          "width": 276,
+          "height": 455
+        },
+        {
+          "x": 80,
+          "y": 24,
+          "width": 321,
+          "height": 452
+        },
+        {
+          "x": 42,
+          "y": 26,
+          "width": 406,
+          "height": 451
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-racer-clean/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-9432dbee-a724-4a91-b658-405dcf50e9ae.png",
+      "prompt": "Use case: product-mockup. Continue EXACT Racer Clean photographic turntable. IMAGE1 is exactgarmentidentity: charcoalgrey #303332 cottonnylon RACER jacket, lowSTANDCOLLAR with KHAKIedge, twoKHAKI curvedRAGLAN shoulder PIPING lines continuing around BACK shoulder, mutedBRASSfullcenterzip, two angledlowerFRONT ZIPPEDpockets, straight nonribbedhem/cuffs withkhakiedges, relaxedlongsleeves, smallIVORY intertwinedML wearerLEFTchest imageRIGHTatfront. IMAGE2 ONLY sixPOSEDIRECTIONguide from brownhoodie, doNOTcopy hood/cuffs/bodyshape/browncolor. IMAGE3 precedingquarter ofsameRacer for exactcloth/folds/scale. IMAGE4 only floralM+exactMiloShopHand backart ignoreburgundybackdrop: highcontrastIVORY onupperBACK, sameprintplacement/size allbackviews, no mirroredletters. Follow EXACT SIX camera poses and direction of IMAGE2,180,195,210 /225,240,255degrees. First symmetric straightBACK; then backpanel/print progressively moves IMAGELEFT, nearestsleeve IMAGERIGHT; last oppositeprofile with narrow BACKedge+art IMAGELEFT. Frontzip/frontpockets/chestML hiddenall6. No buttonplacket onback. Same ivory floralM+MiloShopHand print staysupperback andclearlylegible. Preserveexactracerconstruction/proportions/fabric/colour/khakipiping, fullzip+twoseparatezippocketsonFRONTONLY, no hoodie/ribhem/flappockets/utilityarmtabs. Native1536x1024 ONE3columns2rows SIXequal512squarecells. Fulluncroppedgarments with7%margin, constantcenter/scale/hembaseline/relaxedpose/uniformivorypaperbackdrop/softlight. OnlyuprightY/Oy yaw, fixedLEVELcamera no pitch/roll/zoom/elevation, nohuman/mannequin/hanger/plastic3D/gutters/borders/labels/numbers.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1809174,
+      "sha256": "6809293032b10810c1b57e9327c03779731428f4eedab99489440c66880ff62c",
+      "frames": [
+        {
+          "x": 46,
+          "y": 32,
+          "width": 423,
+          "height": 443
+        },
+        {
+          "x": 66,
+          "y": 33,
+          "width": 381,
+          "height": 443
+        },
+        {
+          "x": 87,
+          "y": 32,
+          "width": 332,
+          "height": 449
+        },
+        {
+          "x": 126,
+          "y": 31,
+          "width": 286,
+          "height": 451
+        },
+        {
+          "x": 151,
+          "y": 30,
+          "width": 224,
+          "height": 453
+        },
+        {
+          "x": 151,
+          "y": 30,
+          "width": 180,
+          "height": 454
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-racer-clean/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8a7984a7-562f-41c0-8e70-9854dbc20c8c.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. IMAGE1 STRICT SIX CAMERA POSES to reproduce, ignore brown hoodie: FIRST true SIDE with front center zipper along IMAGE RIGHT edge, then gradual FRONT reveal on IMAGERIGHT through285,300,315,330,345 degrees, LAST almost perfect FRONT. EXACT rowmajor270,285,300 /315,330,345. ALL SIX ARE SIDE OR FRONT, NO BACK VIEW and NO floral rear print visible in anycell. IMAGE2 supplies ONLY EXACT RACER GARMENT to put in those six poses: charcoalgrey #303332 cottonnylon jacket, low STAND COLLAR with khaki edge, khaki curved RAGLAN piping across shoulders, brass full center zip and twoangled zipped lowerFRONTpockets, straight nonribbed khakiedged cuffs/hem, relaxed hanging sleeves, smallIVORY ML wearerLEFTchest (IMAGE RIGHT of zipper nearfrontal), no hood or ribband. Start270 side-frontzipRIGHT, nearestsleeveIMAGELEFT; as it turns back towardfront zip approachescenter FROM RIGHT. Last345 MUST show frontzip andbothfrontpockets, smallMLRIGHT ofzip. Do NOT copy image2 camera poses/order, ONLYgarment. No text on back shown, no backward-facing garments. Native1536x1024 ONE3columns x2rows SIX equal512squarecells. Same photographicfabric/folds/material/colour/seams/shape/center/scale/ground/ivorybackground/lighting asimage2, wholeuncroppedconstantpose. UprightverticalY/Oy lockedlevelcamera onlyyaw no pitch/roll/zoom/elevation, no labels/gutters/borders/person/mannequin/hanger/plastic3D.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1738210,
+      "sha256": "d197eefae8b2bbce24e292cc70bbb5141fc6e049043fa0ee4ebc7ef69944f670",
+      "frames": [
+        {
+          "x": 166,
+          "y": 19,
+          "width": 168,
+          "height": 462
+        },
+        {
+          "x": 128,
+          "y": 19,
+          "width": 210,
+          "height": 460
+        },
+        {
+          "x": 103,
+          "y": 18,
+          "width": 276,
+          "height": 460
+        },
+        {
+          "x": 93,
+          "y": 23,
+          "width": 321,
+          "height": 453
+        },
+        {
+          "x": 62,
+          "y": 23,
+          "width": 368,
+          "height": 451
+        },
+        {
+          "x": 47,
+          "y": 23,
+          "width": 403,
+          "height": 451
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed all24 photographic views: matching original garment, colour/trim/seams/fastenings, contrasting chest ML and floralM+exactMiloShopHand back art, continuous upright Y yaw. Earlier incomplete native parts retained. Racer finalquarter regenerated to remove incorrect back-facing views; AI drape may vary slightly.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

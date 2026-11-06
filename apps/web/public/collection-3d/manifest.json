@@ -1,0 +1,482 @@
+[
+  {
+    "slug": "ml-tee-everyday-crew",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-everyday-crew.glb",
+    "bytes": 356528,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-heavy-box",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-heavy-box.glb",
+    "bytes": 356536,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-wide-neck",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-wide-neck.glb",
+    "bytes": 356524,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-rib-neck",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-rib-neck.glb",
+    "bytes": 356528,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-pocket-study",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-pocket-study.glb",
+    "bytes": 373008,
+    "triangles": 10744,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-raglan-day",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-raglan-day.glb",
+    "bytes": 369756,
+    "triangles": 10672,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-double-hem",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-double-hem.glb",
+    "bytes": 377748,
+    "triangles": 10952,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-mock-neck",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-mock-neck.glb",
+    "bytes": 356536,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-slit-side",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-slit-side.glb",
+    "bytes": 356528,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-athletic-ringer",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-athletic-ringer.glb",
+    "bytes": 369988,
+    "triangles": 10672,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-drop-shoulder",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-drop-shoulder.glb",
+    "bytes": 356528,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-longline-basic",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-longline-basic.glb",
+    "bytes": 356536,
+    "triangles": 10312,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-split-panel",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-split-panel.glb",
+    "bytes": 369936,
+    "triangles": 10672,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-henley-three",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-henley-three.glb",
+    "bytes": 406628,
+    "triangles": 11536,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-tee-breton-line",
+    "kind": "tee",
+    "url": "/collection-3d/ml-tee-breton-line.glb",
+    "bytes": 563868,
+    "triangles": 16048,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-field-four",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-field-four.glb",
+    "bytes": 483508,
+    "triangles": 13720,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-coach-snap",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-coach-snap.glb",
+    "bytes": 433988,
+    "triangles": 12306,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-city-shell",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-city-shell.glb",
+    "bytes": 399300,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-utility-zip",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-utility-zip.glb",
+    "bytes": 406236,
+    "triangles": 11656,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-denim-work",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-denim-work.glb",
+    "bytes": 448616,
+    "triangles": 12762,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-chore-three",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-chore-three.glb",
+    "bytes": 473932,
+    "triangles": 13362,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-rain-fold",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-rain-fold.glb",
+    "bytes": 496160,
+    "triangles": 14480,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-racer-clean",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-racer-clean.glb",
+    "bytes": 399296,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-safari-belt",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-safari-belt.glb",
+    "bytes": 497556,
+    "triangles": 14170,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-track-stripe",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-track-stripe.glb",
+    "bytes": 412752,
+    "triangles": 11824,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-quilt-light",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-quilt-light.glb",
+    "bytes": 647788,
+    "triangles": 18088,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-panel-wind",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-panel-wind.glb",
+    "bytes": 418576,
+    "triangles": 11944,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-shirt-oversize",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-shirt-oversize.glb",
+    "bytes": 457420,
+    "triangles": 12930,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-anorak-half",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-anorak-half.glb",
+    "bytes": 472832,
+    "triangles": 13856,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-jacket-minimal-collar",
+    "kind": "jacket",
+    "url": "/collection-3d/ml-jacket-minimal-collar.glb",
+    "bytes": 378248,
+    "triangles": 10824,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-flight-ma1",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-flight-ma1.glb",
+    "bytes": 399288,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-varsity-club",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-varsity-club.glb",
+    "bytes": 390872,
+    "triangles": 11272,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-suede-dusk",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-suede-dusk.glb",
+    "bytes": 399284,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-satin-evening",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-satin-evening.glb",
+    "bytes": 399292,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-quilt-pilot",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-quilt-pilot.glb",
+    "bytes": 661820,
+    "triangles": 18472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-cropped-flight",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-cropped-flight.glb",
+    "bytes": 399312,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-contrast-sleeve",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-contrast-sleeve.glb",
+    "bytes": 399484,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-pocket-pilot",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-pocket-pilot.glb",
+    "bytes": 436736,
+    "triangles": 12472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-heritage-baseball",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-heritage-baseball.glb",
+    "bytes": 432392,
+    "triangles": 12304,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-collar-flight",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-collar-flight.glb",
+    "bytes": 438344,
+    "triangles": 12474,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-zip-arm",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-zip-arm.glb",
+    "bytes": 399296,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-rib-stripe",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-rib-stripe.glb",
+    "bytes": 412756,
+    "triangles": 11824,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-soft-cord",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-soft-cord.glb",
+    "bytes": 509020,
+    "triangles": 14248,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-sport-chevron",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-sport-chevron.glb",
+    "bytes": 431836,
+    "triangles": 12304,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-bomber-reversible-day",
+    "kind": "bomber",
+    "url": "/collection-3d/ml-bomber-reversible-day.glb",
+    "bytes": 399292,
+    "triangles": 11464,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-cloud-pullover",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-cloud-pullover.glb",
+    "bytes": 457288,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-zip-everyday",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-zip-everyday.glb",
+    "bytes": 472844,
+    "triangles": 13856,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-heavy-crop",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-heavy-crop.glb",
+    "bytes": 457288,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-raglan-comfort",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-raglan-comfort.glb",
+    "bytes": 470512,
+    "triangles": 13832,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-half-zip-studio",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-half-zip-studio.glb",
+    "bytes": 472844,
+    "triangles": 13856,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-panel-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-panel-hood.glb",
+    "bytes": 476376,
+    "triangles": 13952,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-raw-edge",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-raw-edge.glb",
+    "bytes": 457276,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-side-zip",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-side-zip.glb",
+    "bytes": 457280,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-waffle-layer",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-waffle-layer.glb",
+    "bytes": 665788,
+    "triangles": 19040,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-double-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-double-hood.glb",
+    "bytes": 506948,
+    "triangles": 15144,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-drop-shoulder-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-drop-shoulder-hood.glb",
+    "bytes": 457300,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-zip-pocket-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-zip-pocket-hood.glb",
+    "bytes": 458904,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-longline-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-longline-hood.glb",
+    "bytes": 457296,
+    "triangles": 13472,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-rib-side-hood",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-rib-side-hood.glb",
+    "bytes": 470520,
+    "triangles": 13832,
+    "source": "native garment mesh from AI design specification"
+  },
+  {
+    "slug": "ml-hoodie-minimal-no-pocket",
+    "kind": "hoodie",
+    "url": "/collection-3d/ml-hoodie-minimal-no-pocket.glb",
+    "bytes": 440772,
+    "triangles": 13040,
+    "source": "native garment mesh from AI design specification"
+  }
+]

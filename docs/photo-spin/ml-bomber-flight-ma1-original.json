@@ -1,0 +1,277 @@
+{
+  "product": "ml-bomber-flight-ma1",
+  "color": "original",
+  "source": "built-in image_gen",
+  "axis": "Y",
+  "camera": "fixed level",
+  "status": "ready",
+  "reference": "apps/web/public/collection-ai/ml-bomber-flight-ma1.png",
+  "parts": [
+    {
+      "url": "/collection-spin/ml-bomber-flight-ma1/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-651c75a4-8042-4001-92a7-7d5aa632839c.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 0,
+      "frameCount": 6,
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "prompt": "Use case: product-mockup. Identity-preserving photographic 360 turntable of one MiloShopHand Flight MA1 Bomber.\nImage1 is the EXACT garment identity: olive-green flight-nylon bomber #656e53, beige/tan rib-knit collar,cuffs,and waistband #dfd2b5, silver center zipper, two slanted welt hand pockets, ONE silver-zip utility pocket on the wearer's LEFT upper sleeve (imageRIGHT in straightfront). Relaxed fit, soft realistically filled nylon sleeves hanging in the same pose, natural folds and subtle fabric sheen. Keep proportions, rib details, waistband split at zip, cuffs and pocket placement exactly like the photo. Front has small interwovenML monogram on wearer'sLEFT chest (imageRIGHT). Image2 supplies ONLY floralM plus exact MiloShopHand back artwork in light cream ink, ignoring burgundy background; it belongs centered high on the BACK and must not be visible in these first FRONT-to-nearside angles.\nCreate ONE 3-column×2-row atlas with EXACTLY SIX distinct views in equal square cells,1536×1024px or larger,512×512 percell. No gutters/gridlines/borders/numbers/labels/watermark. Every jacket has identical scale, center, hem baseline, pose, light and uniform warm ivory studio backdrop, fully uncropped with safe margins. No person/mannequin/hanger/props. Photographic cloth detail like original, never plastic/low-poly/procedural3D.\nROW-MAJOR angles:0degree FRONT,15,30,45,60,75 degrees rotating toward the wearer'sLEFT sleeve (the ONE utility-pocket side). The front progressively faces toward the LEFT of each image; the utility-pocket sleeve is the nearer visible sleeve as we approach75degrees. All six remain FRONT-or-SIDE views: do not show the BACK or floralbacklogo yet. 90degrees in nextsheet will be the true utility-pocket SIDE with zipper profile on LEFT edge. Each cell is a distinct small15degree rotation, not repeatedfronts and not a jump from0to180.\nLock the garment's verticalY/Oy axis absolutely upright. Fixedlevel camera, no pitch/roll/cameraheightchange, zoomchange or perspectivewarp. Only yaw changes. Preserve exactly oneutilitypocket, never duplicate it onto the otherarm, no chestflappockets, epaulettes, standcollar or hoodie.",
+      "qa": "Photographic front toward utility-pocket sleeve side; six sequential views, no back visible prematurely.",
+      "frames": [
+        {
+          "x": 35,
+          "y": 27,
+          "width": 454,
+          "height": 440,
+          "angle": 0
+        },
+        {
+          "x": 47,
+          "y": 23,
+          "width": 425,
+          "height": 449,
+          "angle": 15
+        },
+        {
+          "x": 65,
+          "y": 21,
+          "width": 376,
+          "height": 458,
+          "angle": 30
+        },
+        {
+          "x": 110,
+          "y": 16,
+          "width": 318,
+          "height": 465,
+          "angle": 45
+        },
+        {
+          "x": 130,
+          "y": 16,
+          "width": 249,
+          "height": 470,
+          "angle": 60
+        },
+        {
+          "x": 154,
+          "y": 13,
+          "width": 210,
+          "height": 474,
+          "angle": 75
+        }
+      ]
+    },
+    {
+      "url": "/collection-spin/ml-bomber-flight-ma1/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-f92cc0ee-fd68-4218-8c15-cb47d22a2942.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 6,
+      "frameCount": 6,
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "prompt": "Use case: product-mockup. Continue a photographic image360 of ONE identical MiloShopHand Flight MA1 Bomber, second part.\nReference1 is approved firstpart0..75degrees, showing olive flightnylon, beige ribcollar/cuffs/hem, silver centerzip, slanted welt handpockets, smallcreamML chestmark, and ONE utilityzip pocket on wearer'sLEFT upper sleeve. Reference2 is original highdetail front/backidentity. Reference3 supplies onlyfloralM+exact MiloShopHand backlogo, lightcream ink, ignoringburgundybackground.\nCreate EXACTLYSIX consistent photos in3columns×2rows,1536×1024px or larger, equal512×512squarecells with no gutters/gridlines/borders/numbers/labels. Same garment pose/folds/color, same center/scale/groundbaseline/lighting/ivorybackdrop as partA. Entire garment andribcuffsuncropped. No people/mannequins/hangers. Naturalpremiumphotography, not smoothplastic3D.\nContinue directly after previous75degreepose. ROW-MAJOR angles:90degree true utility-pocketSIDE (front zip onLEFT silhouette; utilityzip pocket centered onNEAR sleeve),105degrees slightrearward,120degrees rearthreequarter,135degrees strongerrearview,150degrees almostback,165degrees nearfullBACK. Gradualdistinct15degreesteps in one direction, not repeats or reversedfront views. 180fullstraightBACK follows in nextsheet.\nThe new floralM and EXACT spelled MiloShopHand highupperback print naturally emerges into view progressively, foreshortened first, then fuller toward165. Samecream artwork/placement/size everycell, lettering nevermirrored. At straightback the single utilitypocket will be onimageLEFT sleeve. Do not put pockets anywhereonback or duplicateutilitypocket onto wearer'sRIGHT arm. Keep originalMA1collar/beigeribs/silverhardware exactly; no standcollar/flappockets/epaulettes/hood. Garment'sYaxis remainsvertical andcamera LEVEL with noroll,pitch,elevationchange or shape deformation.",
+      "qa": "Utility-pocket side to nearback, same sleeves/ribs and readable cream floral MiloShopHand print.",
+      "frames": [
+        {
+          "x": 174,
+          "y": 13,
+          "width": 171,
+          "height": 484,
+          "angle": 90
+        },
+        {
+          "x": 150,
+          "y": 12,
+          "width": 208,
+          "height": 484,
+          "angle": 105
+        },
+        {
+          "x": 105,
+          "y": 12,
+          "width": 284,
+          "height": 482,
+          "angle": 120
+        },
+        {
+          "x": 83,
+          "y": 12,
+          "width": 342,
+          "height": 484,
+          "angle": 135
+        },
+        {
+          "x": 56,
+          "y": 12,
+          "width": 389,
+          "height": 479,
+          "angle": 150
+        },
+        {
+          "x": 38,
+          "y": 13,
+          "width": 427,
+          "height": 471,
+          "angle": 165
+        }
+      ]
+    },
+    {
+      "url": "/collection-spin/ml-bomber-flight-ma1/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-4937dd72-cb71-473e-971e-0cfa1d0d0f42.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 12,
+      "frameCount": 6,
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "prompt": "Use case: product-mockup. Third six-frame section of a photographic360 of the same olive MiloShopHand Flight MA1 Bomber.\nReference1 is approved90..165degree side-to-back atlas; continue after its final almostbackframe. Reference2 is original detailedfront/back bomber. Reference3 is floralM with exact MiloShopHand wordmark, supplying onlycream backprint, ignoringburgundybackground. Preserve EXACTLY same olive flightnylon, silverhardware, beige ribcollar/cuffs/waistband, relaxedsilhouette/sleevepose/folds, proportions, photography and constantivorybackground.\nMake ONE exact3column×2row atlas of SIX different progressive views,1536×1024pxor larger,equal512×512squarecells. Identical garment size,center,hemground,lightandlevelcamera in allcells, noclipping andsafe margin. No gutters/grid/borders/numbers/labels/person/mannequin/hanger/extraobjects.\nROW-MAJOR angleposes:180degree FULL STRAIGHT BACK, shoulders/sleeves balanced, no frontzip or handpockets visible;195degrees justpastback toward OTHER side;210degrees rearquarter from opposite side;225degrees deeperoppositerearquarter;240degrees nearlyoppositeside withbackstillvisible;255degrees almostoppositeSIDE. Front progressively points to the RIGHT side of image as it turns. The backlogo gradually foreshortens toward the LEFT garmentedge. Do NOT reverse the priorrotation. 270 trueoppositeside will follow next. Allsix are REAR/SIDE views, not frontviews and not repeatedbacks.\nBacklogo lightcreamfloralM+EXACT MiloShopHand must stay SAME placement,size,spelling/artwork as approvedpartB, naturallyoccluded atside and nevermirrored. IMPORTANT oneutilityzip pocket exists ONLY on wearer'sLEFT sleeve, which is imageLEFT in180degreeback. As rotation approaches255, thispocket goes onto the FAR arm and disappears behindthebody; the NEAR oppositesleeve has NO utilitypocket. Do notduplicate it. Back has no pockets. Preserveoriginalsubtlenylon sheen, realclothwrinkles, no smoothplasticprocedural3D or shapechanges. Alwaysupright verticalY/Oy yawonly: noroll/pitch/elevationchange/perspectivewarping.",
+      "qa": "Back progresses toward opposite sleeve; utilitypocket remains only on original sleeve, opposite visible sleeve plain. Mainface-on MiloShopHand reads correctly.",
+      "frames": [
+        {
+          "x": 57,
+          "y": 14,
+          "width": 416,
+          "height": 458,
+          "angle": 180
+        },
+        {
+          "x": 71,
+          "y": 14,
+          "width": 382,
+          "height": 463,
+          "angle": 195
+        },
+        {
+          "x": 82,
+          "y": 14,
+          "width": 334,
+          "height": 469,
+          "angle": 210
+        },
+        {
+          "x": 127,
+          "y": 12,
+          "width": 298,
+          "height": 478,
+          "angle": 225
+        },
+        {
+          "x": 140,
+          "y": 12,
+          "width": 236,
+          "height": 480,
+          "angle": 240
+        },
+        {
+          "x": 142,
+          "y": 11,
+          "width": 198,
+          "height": 482,
+          "angle": 255
+        }
+      ]
+    },
+    {
+      "url": "/collection-spin/ml-bomber-flight-ma1/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab7-0e40-7bc3-b595-d43d710a4487/exec-0c074e1d-843b-40f9-b0a5-665eac9a8dcd.png",
+      "columns": 3,
+      "rows": 2,
+      "startFrame": 18,
+      "frameCount": 6,
+      "width": 1536,
+      "height": 1024,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "prompt": "Use case: product-mockup. Lastsixviewsof the SAME photographic MiloShopHand ML Flight MA1 Bomber, completing image360.\nReference1 is previouspartC180..255degrees, ending almostoppositeside. Reference2 is approvedpartA0..75degrees, including exactfrontpose/scale/clothdetail. Reference3 is originalfront/back bomberidentity. Continue from partC toward FRONT so final345degree matches partA0degree with only15degreesremaining. No reversedrotation or mirroreddesigns.\nProduce EXACTLY6 equal-square512pxcells in3columns×2rows,1536×1024px or larger. Identical garment scale, center, groundbaseline, hanging sleevepose, light and uniform ivorybackdrop. Fullhem/sleevecuffs/collar uncroppedwith7%margin. No borders/gutters/grid/numbers/labels/person/mannequin/hanger/props.\nROW-MAJOR poses:270degree true OPPOSITE SIDE, frontzipper profile facesRIGHT and backfacesLEFT;285degrees slightfrontquarter as zip andfront weltpockets reappear onright;300degreesfrontthreequarter;315degrees strongerfront;330degreesnearfront;345degreesalmoststraightFRONT. Sixdistinctprogressive15degreesteps, neverbacks or repeatedfronts, garment uprightY/Oy withfixedLEVELcamera and noroll/pitch/elevationchange or deformation.\nKeeporiginalolivegreen flightnylon #656e53, subtlephotographic sheen and wrinkles, beige rib-knitcollar,cuffs,waistband, silvercenterzip, twoslantedwelt handpockets, smallcreaminterwovenML onwearer'sLEFT chest (imageRIGHT infront0degree), originalfrontcollarshape and splitwaistband. IMPORTANT thisNEAR opposite sleeve has NO utilitypocket: singleutilityzip pocket is ONLY on wearer'sLEFT upperarm, which is FAR arm from270towardfront and gradually reappears onimageRIGHT near330/345. Neverduplicatepockettootherarm. ExistingcreamfloralMiloShopHand backprint disappears naturally aroundtheleftside, never mirrored or movedtofront. No hood, standcollar, chestflappockets, epaulettes orplastic3Dappearance. Photographicfabricquality and seamidentity must matchoriginal.",
+      "qa": "Opposite sleeve has no utilitypocket; originalsinglepocket reappears onfarleftarm approachingfront. Six progressiveyaw views backtonearfront.",
+      "frames": [
+        {
+          "x": 155,
+          "y": 16,
+          "width": 196,
+          "height": 474,
+          "angle": 270
+        },
+        {
+          "x": 134,
+          "y": 18,
+          "width": 222,
+          "height": 472,
+          "angle": 285
+        },
+        {
+          "x": 97,
+          "y": 23,
+          "width": 300,
+          "height": 464,
+          "angle": 300
+        },
+        {
+          "x": 79,
+          "y": 20,
+          "width": 352,
+          "height": 468,
+          "angle": 315
+        },
+        {
+          "x": 51,
+          "y": 24,
+          "width": 407,
+          "height": 456,
+          "angle": 330
+        },
+        {
+          "x": 39,
+          "y": 24,
+          "width": 431,
+          "height": 450,
+          "angle": 345
+        }
+      ]
+    }
+  ],
+  "frameCount": 24,
+  "qa": {
+    "reviewedAt": "2026-11-05T08:21:23.343Z",
+    "grid": "Four sheets,3columns×2rows;512×512cells,1536×1024atlas",
+    "brand": "Exact MiloShopHand spelling visuallychecked in mainface-on backframes; frontML retained",
+    "sequence": "front→utilitypocket-side→back→oppositeplain-side→front; uprightYyawonly",
+    "limitations": "Angles are AI approximations, not calibratedphotography. Minorframing/fold/posevariation remains; per-frame bounds supplied for uniformheight/ground display normalization.",
+    "bboxMethod": "Read-only RGB segmentation of olive/beige garment againstivorybackground,2px safety padding; bounds relative to eachcell; originalPNGbytes unchanged.",
+    "browser": "All24frames loaded throughCSSsprite, noWebGL, screenshot.local/bomber-spin-qa.png; globalheightfit uses maxaspectratio1.0318"
+  }
+}

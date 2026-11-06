@@ -1,0 +1,258 @@
+{
+  "slug": "ml-tee-athletic-ringer",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-athletic-ringer.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T12:11:13.553Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-athletic-ringer/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-5c1eb6b1-7c08-4441-8e4e-ed4c2964acd4.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT0,15,30,45,60,75 frontquadrant orientations and direction. Replacecharcoalguide with EXACT Athletic Ringer Basic Tee from reference2: warmoffwhite body #e8e3d2, smooth cottonjersey, relaxed athleticstraightfit droppedshoulder/shortsleeves/straighthem, thincontrastolivegreen #5a6654 ringercrewneck and sleevebands. Small olive interwovenML frontLEFTchest, no pockets/bodystripes/panels. Preserve EXACT original cut, fabric, drape, trim thickness, colors. Frontfirst progressivelyto nearLEFTprofilelast; NO backprintinfrontquadrant. Same garment construction/folds/sleevepose/colors/logo placement all6.\nEXACT3columns×2rows native1374×1145 orlarger same6:5aspect. Wholegarments inside equalcells min40pxclearivorymargin, garmentheight440pxbothrows, bottomcollarsy620+, no crossingmidliney572. VerticalYrotationonly, fixedlevelcamera, no pitch/roll, constantground/scale. Paleivorysoftstudio, photographic cotton quality likeoriginal NOTplastic/facetedmesh. No person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hems visibleeachcell.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 37,
+          "y": 36,
+          "width": 413,
+          "height": 436
+        },
+        {
+          "x": 47,
+          "y": 31,
+          "width": 382,
+          "height": 443
+        },
+        {
+          "x": 60,
+          "y": 27,
+          "width": 326,
+          "height": 448
+        },
+        {
+          "x": 115,
+          "y": 16.5,
+          "width": 271,
+          "height": 465
+        },
+        {
+          "x": 98,
+          "y": 16.5,
+          "width": 252,
+          "height": 467
+        },
+        {
+          "x": 97,
+          "y": 16.5,
+          "width": 234,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-athletic-ringer/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-6b059c18-f9b6-4bf9-a48f-be2e0bc6adc3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixPOSEguide:copy EXACT90,105,120,135,150,165degree orientations trueLEFTprofile progressivelyBACK. No frontviews;backprintemergesandwidens. Reference2 EXACT Athletic Ringer Basic Tee from reference2: warmoffwhite body #e8e3d2, smooth cottonjersey, relaxed athleticstraightfit droppedshoulder/shortsleeves/straighthem, thincontrastolivegreen #5a6654 ringercrewneck and sleevebands. Small olive interwovenML frontLEFTchest, no pockets/bodystripes/panels. Preserve EXACT original cut, fabric, drape, trim thickness, colors. Reference3 full floral M+exact MiloShopHand wordmark inOLIVEGREEN #5a6654 upperBACK, ignoreburgundybackground. FrontMLonlyfront, samegarmentshape/texture/folds/trim/logoplacement all6.\nLAYOUT exact3columns×2rows native1374×1145 orlargersame6:5aspect. Eachgarmentcompletelyinsideequalcells min40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYrotationonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorystudio softlight,photographiccottonquality likeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisible,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 132,
+          "y": 25,
+          "width": 223,
+          "height": 486
+        },
+        {
+          "x": 119,
+          "y": 25,
+          "width": 232,
+          "height": 487
+        },
+        {
+          "x": 92,
+          "y": 28,
+          "width": 269,
+          "height": 484
+        },
+        {
+          "x": 71,
+          "y": 28.5,
+          "width": 331,
+          "height": 486
+        },
+        {
+          "x": 39,
+          "y": 29.5,
+          "width": 372,
+          "height": 486
+        },
+        {
+          "x": 12,
+          "y": 33.5,
+          "width": 418,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-athletic-ringer/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-a2e8cfcb-1625-4856-9607-7bba74a91f8d.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguideandgoodlayout,copy EXACT180,195,210,225,240,255 orientations trueBACK progressivelyRIGHTprofile. BackprintNARROWSandMOVESLEFTsideofimage,nearsleeveRIGHTsideimage, NOfrontviews. Reference2 EXACT Athletic Ringer Basic Tee from reference2: warmoffwhite body #e8e3d2, smooth cottonjersey, relaxed athleticstraightfit droppedshoulder/shortsleeves/straighthem, thincontrastolivegreen #5a6654 ringercrewneck and sleevebands. Small olive interwovenML frontLEFTchest, no pockets/bodystripes/panels. Preserve EXACT original cut, fabric, drape, trim thickness, colors. Reference3floral M+exactMiloShopHandwordmark printOLIVEGREEN #5a6654 upperBACK,ignoreburgundybackground. Samegarmentshape/texture/folds/trim/logoplaceall6,smallMLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Copyreference1positions,garmentsentirelyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingmidliney572. VerticalYonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonqualitylikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hems visibleall6. ExactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 32,
+          "y": 41,
+          "width": 417,
+          "height": 439
+        },
+        {
+          "x": 40,
+          "y": 41,
+          "width": 391,
+          "height": 440
+        },
+        {
+          "x": 55,
+          "y": 39,
+          "width": 343,
+          "height": 443
+        },
+        {
+          "x": 101,
+          "y": 46.5,
+          "width": 299,
+          "height": 461
+        },
+        {
+          "x": 117,
+          "y": 45.5,
+          "width": 241,
+          "height": 463
+        },
+        {
+          "x": 104,
+          "y": 45.5,
+          "width": 231,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-athletic-ringer/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-2f077723-6c88-4cf8-8751-225e183c0865.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT270,285,300,315,330,345 orientations trueRIGHTprofile progressivelyFRONTfromoppositesideto0..75quadrant. NearsleeveopeningLEFTsideimage,MLhiddenfirst2profiles,MLappearsRIGHTsideimageinlast3views,nevermirrorlogo. Reference2 EXACT Athletic Ringer Basic Tee from reference2: warmoffwhite body #e8e3d2, smooth cottonjersey, relaxed athleticstraightfit droppedshoulder/shortsleeves/straighthem, thincontrastolivegreen #5a6654 ringercrewneck and sleevebands. Small olive interwovenML frontLEFTchest, no pockets/bodystripes/panels. Preserve EXACT original cut, fabric, drape, trim thickness, colors. No backprintinfrontreturnquadrant; sameclothconstruction/folds/sleevepose/colors/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Garmentsfullyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleeachcell.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 134,
+          "y": 28,
+          "width": 212,
+          "height": 479
+        },
+        {
+          "x": 111,
+          "y": 29,
+          "width": 241,
+          "height": 478
+        },
+        {
+          "x": 86,
+          "y": 29,
+          "width": 270,
+          "height": 477
+        },
+        {
+          "x": 74,
+          "y": 29.5,
+          "width": 321,
+          "height": 475
+        },
+        {
+          "x": 47,
+          "y": 31.5,
+          "width": 363,
+          "height": 473
+        },
+        {
+          "x": 18,
+          "y": 32.5,
+          "width": 414,
+          "height": 471
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews inspected: warmoffwhite cotton/olivegreen ringerneck and sleevebands preserved. FrontML/backfloralM+exactMiloShopHand contrast olive. Originalplate has no bodystripes, retained faithfully. Upright fullYturn and oppositeprofile return; allgarmentsinsidecells.",
+    "limitations": "AI nominal views, not calibrated camera angles."
+  }
+}

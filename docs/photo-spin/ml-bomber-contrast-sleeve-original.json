@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-contrast-sleeve",
+  "colorKey": "original",
+  "colorHex": "#5f6553",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:47:28.493Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-41f71a4b-5e86-421c-9ad0-02dbc0d58eb4.png",
+      "prompt": "Use case: product-mockup. Ref1exactgarment ML ContrastSleeveBomber: deepdarkolive woolcottonBODY, solidlightCREAMRAGLANSLEEVES, sandbeigeribcollar/cuffs/hem, silvercenterzip,2angleddarkoliveweltwaistpockets, smallivoryinterwovenMLleftchest. Ref2ONLYPOSEGUIDE six0..75 frontquarterviewdifferentbomber; do NOTcopyshortcroppedshape/beigenylon. Makeexactref1 normalwaistlengthrelaxedBomber in3columns x2rows6photorealangles0,15,30 /45,60,75. FirstsymmetricFRONT; centerzipmovesIMAGERIGHT, broadnearestCREAMsleeveonIMAGELEFT,lastnearLEFTPROFILEfrontstillvisible. No backprint. Sameoriginalwoolcotton/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6; maintainolivebodyandcreamSLEEVES separatepanels everyview. Originalphotorealqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholemargin,no gutters/borders/numbers/labels. Onlyfrontquarterturnnotfull360,no reverse/mirroredML.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1929730,
+      "sha256": "0f00e8f106a5da324a4d03ecbf678ea74854759a22a75fd6feda63cd7dfb4136",
+      "frames": [
+        {
+          "x": 49,
+          "y": 27,
+          "width": 419,
+          "height": 427
+        },
+        {
+          "x": 56,
+          "y": 22,
+          "width": 393,
+          "height": 442
+        },
+        {
+          "x": 64,
+          "y": 22,
+          "width": 364,
+          "height": 449
+        },
+        {
+          "x": 79,
+          "y": 14,
+          "width": 330,
+          "height": 464
+        },
+        {
+          "x": 104,
+          "y": 14,
+          "width": 284,
+          "height": 465
+        },
+        {
+          "x": 130,
+          "y": 14,
+          "width": 234,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-b5ae8923-e08c-4cf3-beab-ac21d0bc350a.png",
+      "prompt": "Use case: product-mockup. Ref1originalContrastSleeveBomberidentity,ref2ONLYPOSEGUIDE90,105,120 /135,150,165 fromdifferentdenimjacket doNOTcopydenim,ref3floralbrandonlyignorebg. Create3columns x2rows6photorealviews matchingref2POSEDIRECTION: firstLEFTPROFILEfrontzipedgeIMAGERIGHT; backpanel/printemergesIMAGELEFTofnearestCREAMsleeveonIMAGERIGHT, lastnearBACK15short. ExactdeepdarkoliveWOOLCOTTONBODY andSOLIDLIGHTCREAMRAGLANSLEEVES, sandbeigeribcollar/cuffs/hem, normalwaistlengthrelaxedshape. IvoryfloralM+exactMiloShopHand upperBACK SAMEprintplacement/sizeeveryview highcontrastondarkolivebody,naturallyforeshortenednotmirrored. Frontzip/weltpockets hiddenatrear. Sameoriginalfabric/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Emptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholemargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtonearBACK; BACKPLANELEFTandnearestCREAMsleeveRIGHT not reverse.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1905296,
+      "sha256": "ddfc635e4a97019db830cdfc6bf0e314e5cd42947c37db0f28ebb0388f8e3676",
+      "frames": [
+        {
+          "x": 185,
+          "y": 20,
+          "width": 165,
+          "height": 443
+        },
+        {
+          "x": 146,
+          "y": 19,
+          "width": 187,
+          "height": 445
+        },
+        {
+          "x": 113,
+          "y": 18,
+          "width": 227,
+          "height": 446
+        },
+        {
+          "x": 132,
+          "y": 18,
+          "width": 284,
+          "height": 450
+        },
+        {
+          "x": 87,
+          "y": 18,
+          "width": 314,
+          "height": 451
+        },
+        {
+          "x": 36,
+          "y": 17,
+          "width": 370,
+          "height": 452
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-fe93a2a6-6b1f-47fe-8f46-646d2d7b638b.png",
+      "prompt": "Use case: product-mockup image360 continuation. Ref1actualContrastSleeveBomberrearleft90..165atlasidentity,ref2originalphoto,ref3ONLYdesiredPOSES180..255 differentdenimjacket donotcopydenim. CreateNEXT6angles180,195,210 /225,240,255 in3columns x2rows exactlyref3POSEDIRECTION. FirstperfectsymmetricBACK;nearestCREAMsleeveIMAGELEFT anddarkoliveBACKPANEL/LOGOIMAGERIGHTofthatsleeve inall5obliqueviews,lastnearoppositeRIGHTPROFILElogoRIGHTedge. ExactdeepdarkoliveWOOLCOTTONBODY+SOLIDLIGHTCREAMRAGLANSLEEVES, sandbeigeribcollar/cuffs/hem, normalwaistlengthrelaxedshape. HighcontrastIVORYfloralM+exactMiloShopHand upperback sameprintplacement/sizeasref1,naturallyforeshortenednotmirrored. Frontzip/weltpockets/chestML hiddeninthese6. Sameoriginalfabric/folds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. Emptyfloatinggarmentnohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio wholemargin,no gutters/borders/numbers/labels. OnlyBACKtowardOPPOSITERIGHTPROFILE;nearestCREAMsleeveLEFT notRIGHT.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1914661,
+      "sha256": "112dfd71be12b40c1e150813af1521cf7b7b281257452ccb2e35ec480618bae7",
+      "frames": [
+        {
+          "x": 87,
+          "y": 19,
+          "width": 374,
+          "height": 437
+        },
+        {
+          "x": 77,
+          "y": 19,
+          "width": 345,
+          "height": 442
+        },
+        {
+          "x": 82,
+          "y": 20,
+          "width": 294,
+          "height": 448
+        },
+        {
+          "x": 148,
+          "y": 10,
+          "width": 252,
+          "height": 464
+        },
+        {
+          "x": 142,
+          "y": 10,
+          "width": 228,
+          "height": 465
+        },
+        {
+          "x": 136,
+          "y": 10,
+          "width": 199,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-308d8ce8-4eed-4073-8867-1e231d2d3080.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE ML Contrast Sleeve Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: deep darkolive #5f6553 wool-cotton BODY, solid LIGHT CREAM RAGLAN SLEEVES, sandbeige rib low bomber collar/cuffs/hem, silver centerzip, two darkolive slanted welt pockets, normal waist length relaxed fit, small ivory intertwinedML wearerLEFT chest and ivory floralM+MiloShopHand upperback. Primary color #5f6553. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY opposite-side-to-front poses and correct chestlogo side; do NOTcopy its navy color. IMAGE3 is this garment firstquarter. Continue270,285,300 /315,330,345degrees. First RIGHTPROFILE with frontzipedge IMAGE LEFT and back IMAGE RIGHT, nearer sleeve IMAGE RIGHT. Front emerges IMAGE LEFT of nearest sleeve and zip approachescenter fromLEFT, ending almost FRONT. SamewearerLEFTchestML is to RIGHT of zipper/centerline at all visiblefronts, clearly IMAGE RIGHT of zip in finalcell; NEVER placeML IMAGELEFT of zip. Backart disappears around RIGHTedge, never placedonfront. Oppositepose direction from0..75, not duplicateframes. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast. Keep olive BODY and CREAM sleeves clearly separatepanels everyview; only FRONT logo emerges to RIGHT of centerzip. Reference3 is front-quarter of SAME garment, reference2 only navy bomberposes.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1931264,
+      "sha256": "905003066bbc97d882de3fcbc63ea7ffc5044a28f6d6dc48941512a2dc46733e",
+      "frames": [
+        {
+          "x": 163,
+          "y": 25,
+          "width": 181,
+          "height": 465
+        },
+        {
+          "x": 136,
+          "y": 26,
+          "width": 210,
+          "height": 464
+        },
+        {
+          "x": 105,
+          "y": 24,
+          "width": 257,
+          "height": 466
+        },
+        {
+          "x": 84,
+          "y": 20,
+          "width": 317,
+          "height": 468
+        },
+        {
+          "x": 50,
+          "y": 19,
+          "width": 374,
+          "height": 468
+        },
+        {
+          "x": 31,
+          "y": 21,
+          "width": 424,
+          "height": 460
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed all24 photographic views: matching original garment, colour/trim/seams/fastenings, contrasting chest ML and floralM+exactMiloShopHand back art, continuous upright Y yaw. Earlier incomplete native parts retained. Racer finalquarter regenerated to remove incorrect back-facing views; AI drape may vary slightly.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

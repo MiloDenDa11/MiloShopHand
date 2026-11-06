@@ -1,0 +1,264 @@
+{
+  "slug": "ml-tee-drop-shoulder",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-drop-shoulder.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T12:17:39.701Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-drop-shoulder/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-d3b3ca08-d842-4911-bf8c-6bf7f75329f8.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1 ONLY sixPOSEguide for0,15,30,45,60,75degrees frontquadrant,copyexactorientationsanddirection. Replacecharcoalshirtwith EXACT Drop Shoulder Basic Tee from reference2: taupegreige body #8b8477, heavyweightcotton, OVERSIZEDwideboxybody and distinctlyLOWDROPPEDSHOULDER horizontal seams extendingaroundupperarms, wide longer short sleeves. Creamivory #e7deca crewneck/sleevebands, straightboxyhem. SmallcreamMLinterwovenfrontLEFTchest, no pockets. Preserveoriginalwidecut/heavyfabric/folds/seams/colour/trimthickness. FrontfirstgraduallytoLEFTprofilelast,NO backprintinthisquadrant. ShoulderseamsdistinctlyLOWerthanregulartee; samebodyshape/sleevepose/folds/logo/colorsall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Allgarmentsfullyinsideequalcells,min40pxclearivorymargin, garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. StrictverticalYrotation,levelcamera,nopitchroll,constantground/scale. Paleivorystudio softlight,photographicfabriclikeoriginalnotfaceted3D/plastic,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullyvisiblecollars/sleeves/hemsinallcells.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 33,
+          "y": 36,
+          "width": 417,
+          "height": 439
+        },
+        {
+          "x": 42,
+          "y": 29,
+          "width": 392,
+          "height": 446
+        },
+        {
+          "x": 58,
+          "y": 27,
+          "width": 334,
+          "height": 448
+        },
+        {
+          "x": 112,
+          "y": 16.5,
+          "width": 285,
+          "height": 469
+        },
+        {
+          "x": 97,
+          "y": 15.5,
+          "width": 257,
+          "height": 472
+        },
+        {
+          "x": 95,
+          "y": 15.5,
+          "width": 238,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-drop-shoulder/original/part-1-espresso-v2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-89d5ab25-fb4f-4dd5-897a-d669c335e81a.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide,copy EXACT90,105,120,135,150,165orientation trueLEFTprofiletowardnearlyBACK. No frontviews;backprintemergesandwidens. Reference2 EXACT Drop Shoulder Basic Tee from reference2: taupegreige body #8b8477, heavyweightcotton, OVERSIZEDwideboxybody and distinctlyLOWDROPPEDSHOULDER horizontal seams extendingaroundupperarms, wide longer short sleeves. Creamivory #e7deca crewneck/sleevebands, straightboxyhem. SmallcreamMLinterwovenfrontLEFTchest, no pockets. Preserveoriginalwidecut/heavyfabric/folds/seams/colour/trimthickness. Reference3 full floral M+exact MiloShopHand wordmark printCREAMIVORY #e7deca upperBACK,ignoreburgundybackground. Keepdistinctlow droppedshoulderseamsaroundupperarm,samewidecut/heavyfabric/folds/colours/logoscaleall6,MLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Allgarmentsfullyinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,no crossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographicfabricnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6. ExactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 129,
+          "y": 24,
+          "width": 225,
+          "height": 490
+        },
+        {
+          "x": 114,
+          "y": 25,
+          "width": 240,
+          "height": 490
+        },
+        {
+          "x": 88,
+          "y": 25,
+          "width": 279,
+          "height": 490
+        },
+        {
+          "x": 65,
+          "y": 29.5,
+          "width": 339,
+          "height": 490
+        },
+        {
+          "x": 31,
+          "y": 31.5,
+          "width": 383,
+          "height": 488
+        },
+        {
+          "x": 9,
+          "y": 32.5,
+          "width": 427,
+          "height": 487
+        }
+      ],
+      "previousSourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b760f8a2-6374-425d-b8c9-4eb64d59d921.png",
+      "inkEditPrompt": "Use case: precise-object-edit. Edit ONLY the INK COLOR of the floral M + MiloShopHand branding on the BACK of this taupe T-shirt contact sheet. Change that entire rear printed logo (floral M, leaves/flowers, exact wordmark MiloShopHand and decorative underline) from pale cream to VERY DARK ESPRESSO BROWN #241913, with strong contrast against taupe fabric. Keep the same logo design, size, position, spelling, print edges and perspective in each rear-facing view. Preserve cream ML FRONT chest monogram wherever visible: do NOT recolor front ML. Preserve ALL garment body fabric colors, cream collar/sleevebands, silhouette, low dropped shoulder seams, folds, sleeve pose, six exact rotation angles, light/background, sheet dimensions and layout. No changes except rear logo ink color; no new labels/borders/numbers, no mirrored text. Keep3columns×2rows and native1374×1145."
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-drop-shoulder/original/part-2-espresso-v2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b958aba1-7a67-4ace-99f7-6c7260e5dbce.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguideandgoodlayout,copy EXACT180,195,210,225,240,255 orientations trueBACKtowardnearlyRIGHTprofile;backprintNARROWSandMOVESLEFTsideimage,nearsleeveRIGHTsideimage,NOfrontviews. Replacebrownguide with EXACT Drop Shoulder Basic Tee from reference2: taupegreige body #8b8477, heavyweightcotton, OVERSIZEDwideboxybody and distinctlyLOWDROPPEDSHOULDER horizontal seams extendingaroundupperarms, wide longer short sleeves. Creamivory #e7deca crewneck/sleevebands, straightboxyhem. SmallcreamMLinterwovenfrontLEFTchest, no pockets. Preserveoriginalwidecut/heavyfabric/folds/seams/colour/trimthickness. Reference3floral M+exactMiloShopHandwordmark printCREAMIVORY #e7deca upperBACK,ignoreburgundybackground. Keeplowdroppedshoulderseamsaroundupperarms,samewidecut/heavycloth/folds/colour/logoscaleall6,MLfrontonly.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Copyreference1positions,fullyinsideequalcellsmin40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographicfabricnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 32,
+          "y": 42,
+          "width": 418,
+          "height": 441
+        },
+        {
+          "x": 39,
+          "y": 42,
+          "width": 395,
+          "height": 442
+        },
+        {
+          "x": 63,
+          "y": 41,
+          "width": 340,
+          "height": 444
+        },
+        {
+          "x": 103,
+          "y": 51.5,
+          "width": 305,
+          "height": 456
+        },
+        {
+          "x": 119,
+          "y": 50.5,
+          "width": 242,
+          "height": 458
+        },
+        {
+          "x": 108,
+          "y": 52.5,
+          "width": 233,
+          "height": 456
+        }
+      ],
+      "previousSourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-c7e69824-d825-4e5c-ad9b-e2795435abe1.png",
+      "inkEditPrompt": "Use case: precise-object-edit. Edit ONLY the INK COLOR of the floral M + MiloShopHand BACK logo in all six views of this taupe T-shirt contact sheet. Change entire rear printed mark including floral M, leaves/flowers, exact MiloShopHand wordmark and decorative underline from pale cream to VERY DARK ESPRESSO BROWN #241913. Strong visible contrast with taupe fabric. Keep same design, size, position, spelling and perspective in each view. Preserve garment body/fabric color, creamcollar/sleevebands, low dropped shoulder seams, shape/folds/sleevepose, exact180..255 angle sequence, lighting/background,3columns×2rows layout/native1374×1145. No changes except rear ink color; no added labels/borders/number/text or mirroredletters. All collars/hems/sleeves remain fully inside their existing cells. Do not recolor cream front ML if visible atedge."
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-drop-shoulder/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-de34e96b-c4fa-4d95-99cc-a5d96b653b9b.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide,copy EXACT270,285,300,315,330,345orientations trueRIGHTprofile progressivelyFRONT. Opposite returnside: nearsleeveopeningLEFTsideimage,MLhiddenfirst2views,MLappearsRIGHTsideimageinlast3views,no mirroredlogos. Reference2 EXACT Drop Shoulder Basic Tee from reference2: taupegreige body #8b8477, heavyweightcotton, OVERSIZEDwideboxybody and distinctlyLOWDROPPEDSHOULDER horizontal seams extendingaroundupperarms, wide longer short sleeves. Creamivory #e7deca crewneck/sleevebands, straightboxyhem. SmallcreamMLinterwovenfrontLEFTchest, no pockets. Preserveoriginalwidecut/heavyfabric/folds/seams/colour/trimthickness. No backprintinthisfrontreturnquadrant,keepdistinctlowdroppedshoulderseamsaroundupperarms,samewidecut/heavycloth/folds/colours/logoscaleall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Allgarmentsfullyinsideequalcells,min40pxclearivorymargins,garmentheight440pxbothrows,bottomcollarsy620+,no crossingmidliney572. VerticalYonly,fixedlevelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographicfabriclikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 134,
+          "y": 26,
+          "width": 205,
+          "height": 483
+        },
+        {
+          "x": 108,
+          "y": 27,
+          "width": 245,
+          "height": 482
+        },
+        {
+          "x": 87,
+          "y": 28,
+          "width": 270,
+          "height": 481
+        },
+        {
+          "x": 75,
+          "y": 32.5,
+          "width": 324,
+          "height": 475
+        },
+        {
+          "x": 44,
+          "y": 35.5,
+          "width": 370,
+          "height": 472
+        },
+        {
+          "x": 17,
+          "y": 37.5,
+          "width": 416,
+          "height": 469
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews inspected. Taupegreige heavycotton oversized widecut, lowdroppedshoulder seam extendsaroundupperarms. Creamtrim and contrasting frontML/backfloralM+exactMiloShopHand preserved. FulluprightYturn/oppositereturn; allgarmentsinsidecells.",
+    "limitations": "AI nominal views, not calibrated camera angles.",
+    "contrastCorrection": "Rear floral M + MiloShopHand print changed with built-in ImageGen from palecream to darkespresso #241913 for strongcontrast on taupebody. FrontML remains cream. Nativeupdatedparts1/2 visuallyreviewed; shape/pose/layout/seams/creamtrim retained; previousPNGs retained non-destructively."
+  },
+  "rearInkHex": "#241913"
+}

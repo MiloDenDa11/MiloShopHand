@@ -1,0 +1,227 @@
+{
+  "product": "ml-bomber-satin-evening",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-bomber-satin-evening.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Ref1exactML SatinEveningBomber: deepsteelcharcoalblue glossysoftsatin body/sleeves, sandbeigeribcollar/cuffs/hem, silverfullcenterzip, angledweltpockets, smallivoryinterwovenMLleftchest. Ref2ONLYfloralM+MiloShopHandbrandignorebg. FULL24phototurntableguide preserveexactgarment/satinfolds/seams/neutralrelaxedsleeves/shape/colour/scale/groundallviews. BackhighcontrastivoryfloralM+exactMiloShopHandwordmark upperback, no otherprint. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. EXACT6columns x4rows equalcells nogutters/dividers/numbers/labels canvas6:5 ivorysoftstudio. UprightYaxisrotationonlyfixedlevelcamera nopitch/roll. Clockwiserowmajor0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345. Frame0symmetricFRONT,6LEFTPROFILE (frontopeningonIMAGERIGHT),12symmetricBACK,18OPPOSITERIGHTPROFILE(frontopeningonIMAGELEFT). FirstrowfrontzipmovesRIGHTasfrontturnsaway;secondrowbackemergesfromotheredge;thirdrowbacktoOPPOSITEside;lastrowfrontzipLEFTprogressivelyreturnscenter. All24distinctconsistentdirection,no reverseor mirroring,no redesign. Entiregarmentmarginsallcells. Poseguideonly.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-385a6e0c-66bd-468d-9ab7-ff16d9223ead.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-bomber-satin-evening/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-19f38fed-bef1-4ac8-a004-3f8228e1fb06.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide,ref2originalSatinEveningBomber,ref3brand. Redraw ONLY FIRSTROW global0..5 guide as3columns x2rows highdetail6frameatlas angles0,15,30 then45,60,75. PerfectFRONT to nearLEFTPROFILE; centralzipmoves IMAGE RIGHT ofcenterasturnprogresses, nearestblank sleeveonIMAGE LEFT. FrontMLstayslegible ivory littleinterwovenMLleftchest, NO backprint. Exactdeepsteelcharcoalblue glossysatin bomber, sandbeigeribcollar/cuffs/hem, silvercenterzip/angledweltpockets. Sameoriginalmaterial/satinfolds/seams/neutralrelaxedsleeves/shape/colour/scale/ground all6. Photorealclothqualityfloatingemptygarment nohuman/mannequin/hanger/plastic3D. UprightYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024 eachcell512square ivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. Only0to75quarterturn,no complete360in6/noreverse/noletttermirroring.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 64,
+          "y": 22,
+          "width": 410,
+          "height": 428
+        },
+        {
+          "x": 78,
+          "y": 21,
+          "width": 367,
+          "height": 439
+        },
+        {
+          "x": 99,
+          "y": 21,
+          "width": 312,
+          "height": 444
+        },
+        {
+          "x": 138,
+          "y": 19,
+          "width": 263,
+          "height": 453
+        },
+        {
+          "x": 143,
+          "y": 19,
+          "width": 230,
+          "height": 455
+        },
+        {
+          "x": 141,
+          "y": 21,
+          "width": 205,
+          "height": 454
+        }
+      ],
+      "sha256": "8e55466ba6dde9e2ba999ba1033f8676561a334e992a4dce237b0d91c2ede12c",
+      "bytes": 1799036
+    },
+    {
+      "url": "/collection-spin/ml-bomber-satin-evening/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-eeea27e2-4594-464e-b778-e8a312a98107.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24guide,ref2originalSatinEveningBomber,ref3brand. Redraw ONLY SECONDROW global6..11 guide as3columns x2rows highdetail6frameatlas angles90,105,120 then135,150,165. FirsttrueLEFTPROFILE withfrontzipedge onIMAGE RIGHT; THEN back progressivelyemerges onIMAGE LEFT ofnearestsleeve, lastalmostBACK15short. SAME clockwisecontinuationfromfirstrowfrontzipRIGHT, do not reverseorflipprofile. Exactdeepsteelcharcoalblue glossysatinbombertanbeigeribcollar/cuffs/hem, samefolds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6. ContrastingIVORYfloralM+exactMiloShopHand upperbacksameprintplacement/size, naturallyforeshortenedprogressivelyvisibleontheLEFTrearplane, notmirrored. No frontchestMLexceptnaturallyhiddenprofile. Originalphotorealclothqualityfloatingemptygarment nohuman/mannequin/hanger/plastic3D. VerticalYuprightfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecellsivorysoftstudioentiregarmentmargin,no gutters/borders/numbers/labels. OnlyLEFTPROFILEtonearlyBACK.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 199,
+          "y": 21,
+          "width": 193,
+          "height": 460
+        },
+        {
+          "x": 145,
+          "y": 21,
+          "width": 208,
+          "height": 459
+        },
+        {
+          "x": 106,
+          "y": 21,
+          "width": 228,
+          "height": 459
+        },
+        {
+          "x": 166,
+          "y": 20,
+          "width": 254,
+          "height": 462
+        },
+        {
+          "x": 108,
+          "y": 20,
+          "width": 297,
+          "height": 462
+        },
+        {
+          "x": 56,
+          "y": 20,
+          "width": 339,
+          "height": 462
+        }
+      ],
+      "sha256": "4905769cc9aefe8eb2be28cfcfa68c6e0b30219b40d1275e69c8792dc440f603",
+      "bytes": 1495533
+    },
+    {
+      "url": "/collection-spin/ml-bomber-satin-evening/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-f3c29c9c-dab8-4399-853d-8b431b208ece.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "PRECISE EDIT targetref1 SIXVIEWATLAS. Correct ROTATION DIRECTION ofcells2..5 ONLY to matchlastcell(rightprofile): MIRROR GARMENT POSE horizontally inthose4cells, but REDRAW the backlogo normally readable, NOT mirrored. Keepcell1perfectBACK andcell6profileunchanged. Requiredsequence180,195,210 /225,240,255, continuousclockwiseturn. NEAREST BLANK SLEEVE must be on IMAGE LEFT inallobliqueviews; BACK PANEL WITH LOGO must lie onIMAGE RIGHT ofthatsleeve. Inbottomleftcell the broadblanknearestsleeveisLEFT andfloralMiloShopHandbackonRIGHT. Topmiddlejustslightlyturnedsymmetricback, topthirdmoreoblique,sleeveLEFT. Bottommiddlemoreprofile,leftsleeveoccludesbacklogoRIGHT. Bottomrightrefalreadycorrect. Preserve exactdeepsteelcharcoalblueSatinEveningBomber glossyfabric/material/beigeribcollar/cuffs/hem/folds/pose/scale/ground. FloralM+exactMiloShopHand ivory upperback SAMEsizeplacement andlegible wherevisible, nevermirrorletters. Originalphotorealqualitynoplastic3D/human/mannequin/hanger. UprightYonlyfixedlevelcamera no pitch/roll. Exact3columns x2rows1536x1024 equalcells; ivorybg,entiregarmentmargin,no gutters/labels/numbers. Do not leave middleviews pointing theoppositeway fromlastcell.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 78,
+          "y": 28,
+          "width": 378,
+          "height": 408
+        },
+        {
+          "x": 87,
+          "y": 27,
+          "width": 333,
+          "height": 418
+        },
+        {
+          "x": 91,
+          "y": 25,
+          "width": 295,
+          "height": 425
+        },
+        {
+          "x": 134,
+          "y": 24,
+          "width": 271,
+          "height": 451
+        },
+        {
+          "x": 157,
+          "y": 21,
+          "width": 210,
+          "height": 457
+        },
+        {
+          "x": 147,
+          "y": 20,
+          "width": 204,
+          "height": 456
+        }
+      ],
+      "sha256": "f403fb1c833be831470db5b28392ceb7f79c5f61b829a4492f16419bf7e5fd63",
+      "bytes": 1724286
+    },
+    {
+      "url": "/collection-spin/ml-bomber-satin-evening/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-4bf2bfb7-8422-4833-8377-024b8d765e84.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24guide ONLYROW4pose,ref2originalSatinEveningBomber. Make3columns x2rows highdetail6frameatlas frames18..23 nominal270,285,300 /315,330,345. FirsttrueRIGHTPROFILE frontzipedgeonIMAGELEFT; then FRONT graduallyappears onIMAGELEFT withclosestblank sleeve onIMAGERIGHT, lastalmostfront15short. CENTRALsilverZIP MUST lie LEFT ofGARMENTCENTER in allobliqueviews, returningtocenterasturntowardfront. ThisisOPPOSITESIDEtofirstquarter'sziponRIGHT;do not reverseorremakefirstquarter. Exactdeepsteelcharcoalblue glossysatinBomber tanbeigeribcollar/cuffs/hem, silvercenterzip/angledweltpockets, smallivoryinterwovenMLleftchest readableunmirrored. Sameoriginalsatinfolds/seams/neutralrelaxedsleeves/shape/colour/scale/groundall6, no backprint. Photorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonlyfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio entiregarmentmargin,no gutters/borders/numbers/labels. Sixdistinct evenlyspacedposes, not duplicateprofilecells.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 179,
+          "y": 25,
+          "width": 174,
+          "height": 456
+        },
+        {
+          "x": 150,
+          "y": 26,
+          "width": 204,
+          "height": 455
+        },
+        {
+          "x": 106,
+          "y": 22,
+          "width": 266,
+          "height": 458
+        },
+        {
+          "x": 103,
+          "y": 21,
+          "width": 311,
+          "height": 455
+        },
+        {
+          "x": 60,
+          "y": 22,
+          "width": 380,
+          "height": 450
+        },
+        {
+          "x": 40,
+          "y": 24,
+          "width": 430,
+          "height": 445
+        }
+      ],
+      "sha256": "4c301f6b5e69741554e4ae33f72419e397c854d719012131ea2c550faa51d897",
+      "bytes": 1796698
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T11:56:41.106Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

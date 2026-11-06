@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-raglan-comfort",
+  "color": "original charcoal-green/cream",
+  "colorHex": "#343c3b",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-raglan-comfort.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-d239ab43-bec3-481d-b3e2-3f941c618eb6.png",
+    "prompt": "Use case: product-mockup. Full 24-view photographic turntable GUIDE of EXACT Raglan Comfort hoodie in image1: charcoal-green #343c3b cotton fleece, cream #cfc0a2 hood binding, drawcords, ribbed cuffs and hem, raglan shoulder seams, front kangaroo pouch, cream ML chest monogram, naturally folded empty hood, relaxed sleeves. Preserve proportions, cloth folds, details and fit. Image2 is ONLY back branding, floral M above exact 'MiloShopHand' in cream contrasting ink; ignore burgundy backdrop. Regular6columns4rows edge-to-edge grid no gutters/lines/numbers/labels. Each view same scale/ground, uniform paleivory bg, fixedlevel camera softstudio light. Rotate ONLY about upright vertical Y, no camera tilt, pitch or roll. Row1 0,15,30,45,60,75; row2 90,105,120,135,150,165; row3 180,195,210,225,240,255; row4 270,285,300,315,330,345. First0 exactfront,6 leftprofile,12 exactback fullflorallogo,18 rightprofile. Continuous clockwise progression, no repeated angles or reversed sequence or mirroredlogos. Front ML visible only when frontfacescamera, backlogo only onback. Realistic softcloth appearance, no3Dmesh/plastic, no human/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-5e94697b-be85-4af6-b51f-08d05fb05f60.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raglan-comfort/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame photoreal high-detail turntable atlas. Image1 is full24viewposeguide: extract/redraw ONLY ROW1 into EXACT3columns2rows rowmajor0STRAIGHTFRONT,15,30,45,60,75almostleftprofile. Preserve exact incremental poses no overshooting. Image2 is authoritative garment identity/detail: charcoal-green #343c3b cottonfleece pulloverhoodie with clearly visible diagonal RAGLANseams from neckline tounderarm (not dropped-shoulder), cream#cfc0a2 hoodbinding/drawcords/cuffs/bottomrib, frontkangaroopouch, smallcreamML leftchest, emptyfoldedhood, relaxed natural hangingarms. Sameclothfolds, cut, proportions, colour, scale andground allframes. Frontlogoforeshortensnaturally no mirroredprint/backlogo. Nativecanvas1536x1280orlarger6:5aspect, >=450pxwideeachcell, exact3x2equalgrid edge-to-edge noline/gutter/labels. Entiregarmentinsideowncell5%margin, paleivoryuniformbg, softstudio light fixedlevelcamera. RotateonlyuprightverticalY no pitchroll/camerachange. Noperson/mannequin/hanger, softrealcloth notplastic3Dmesh.",
+      "sha256": "aa7c7f6b0b22e62658452d903fd8b064f40060a8b0f89b3a7a6681d9a220bc9c",
+      "bytes": 1952740,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 27,
+          "y": 17,
+          "width": 405,
+          "height": 473
+        },
+        {
+          "x": 45,
+          "y": 17,
+          "width": 373,
+          "height": 478
+        },
+        {
+          "x": 64,
+          "y": 15,
+          "width": 329,
+          "height": 483
+        },
+        {
+          "x": 111,
+          "y": 15.5,
+          "width": 260,
+          "height": 483
+        },
+        {
+          "x": 117,
+          "y": 12.5,
+          "width": 226,
+          "height": 488
+        },
+        {
+          "x": 123,
+          "y": 11.5,
+          "width": 227,
+          "height": 490
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-c5bf1837-0f23-4bbb-ae4c-bc30f414ac74.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raglan-comfort/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame photographic360atlas. Reference1 full24poseguide: redrawONLY ROW2 globalframes6..11 intoexact3columns2rows. Rowmajor90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. PreservecontinuousclockwiseY increments, notfullbacktooearly. Reference2 precedingfrontquadrant is authoritative samegarment detail: charcoalgreen#343c3bfleece, cream#cfc0a2hoodbinding/drawcords/ribcuffs/hem, clearlydiagonalRAGLANshoulderseams fromneck tounderarm, kangaroopocket, relaxedarms, foldedemptyhood. Preservecut/material/pose/folds/colour/scale/ground. Reference3 floralM+exact'MiloShopHand' backbranding inhighcontrastcream upperback, ignoreburgundybackdrop. Exactlogoandtextnaturallyemergeafterprofile, sameplacementandsizeallangles, no mirroring/wrongtext. EXACTequal3x2grid edge-to-edge noline/gutter/labels, canvas1536x1280orlargersame6:5ratio minimum450pxcellwidth. Entiregarmentinsideowncell5%margin, uniformpaleivorybgsoftlight fixedlevelcamera. UprightverticalYonly no pitchroll, noperson/mannequin/hanger, no synthetic3Dmesh/plasticlook.",
+      "sha256": "173ad511e45868ad8ddac066d9b43c7a3b12fadb4d76e0e84d7069d6f2091f71",
+      "bytes": 1980394,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 158,
+          "y": 12,
+          "width": 208,
+          "height": 479
+        },
+        {
+          "x": 145,
+          "y": 12,
+          "width": 226,
+          "height": 475
+        },
+        {
+          "x": 115,
+          "y": 12,
+          "width": 277,
+          "height": 475
+        },
+        {
+          "x": 103,
+          "y": 13,
+          "width": 313,
+          "height": 475
+        },
+        {
+          "x": 76,
+          "y": 13,
+          "width": 351,
+          "height": 473
+        },
+        {
+          "x": 61,
+          "y": 12,
+          "width": 390,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-544b468e-9ef8-4ed1-b1a1-72042f9f05d1.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raglan-comfort/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIXview high-detail photographic360atlas of exactsame charcoalgreen RAGLAN pulloverhoodie. Reference1 full24guide: redraw ONLY ROW3 into3columns2rows, globalframes12..17:180EXACTSTRAIGHTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. MaintainCLOCKWISEverticalY direction, no repeat/reverse/mirrorposes. Reference2 precedingatlas: samecharcoalgreen#343c3bfleece, cream#cfc0a2hoodbinding/drawcords/cuffs/bottomrib, diagonalraglanseams neckline-to-underarm, relaxednaturalhangingsleeves andfoldedemptyhood. Samecut/colour/drape/scale/ground. Reference3 floralM+exact'MiloShopHand' in contrastingcream onupperback, ignoreburgundybg. Matchpreviousatlasbacklogolayout/size/location, properperspective asbackturnsaway nevermirroredtext. Native1536x1280orlarger6:5ratio, >=450pxwideeachcell, equal3column2rowgrid no lines/gutters/labels. Entiregarmentwith5%cellmargin, uniformivorybgsoftlightfixedlevelcamera, strictuprightYrotation no pitch/roll. Nohuman/mannequin/hanger, realsoftclothphotography no plastic3Dmesh.",
+      "sha256": "890786f0639bbbfe3f78bb0b912fd04878b4e910ea2f4a7785983ed4f01e63f6",
+      "bytes": 1936069,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 51,
+          "y": 24,
+          "width": 391,
+          "height": 453
+        },
+        {
+          "x": 60,
+          "y": 24,
+          "width": 362,
+          "height": 454
+        },
+        {
+          "x": 78,
+          "y": 24,
+          "width": 301,
+          "height": 460
+        },
+        {
+          "x": 132,
+          "y": 21.5,
+          "width": 240,
+          "height": 474
+        },
+        {
+          "x": 118,
+          "y": 20.5,
+          "width": 232,
+          "height": 478
+        },
+        {
+          "x": 103,
+          "y": 20.5,
+          "width": 220,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-105a3c15-a60c-4d16-9979-7463bed4b094.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-raglan-comfort/original/part-3.png",
+      "prompt": "Use case: product-mockup. Final SIX-view high-detail photographic360atlas. Ref1 full24poseguide: redraw ONLY ROW4 global18..23 intoEXACT3columns2rows:270trueRIGHTPROFILE,285,300,315frontthreequarter,330,345nearfront. SameclockwiseYdirection, first270hoodtipslopingLEFT/frontziplesssurfaceonRIGHTedge, progressivelyfrontemergesonRIGHT/backdisappearsLEFT; do not mirror firstleftsidequadrant. Ref2 authoritativeoriginal RAGLANhoodie: charcoalgreen#343c3bcottonfleece, cream#cfc0a2hoodbinding/drawcords/cuffs/hem, diagonalraglanseams neck-to-underarm notdropseams, kangaroopouch, creamMLwearer'sleftchest (screenrightatfront), emptyfoldedhood naturalrelaxedarms. Ref3 preceding255rearquadrant forposecontinuity. Keepcolour/material/cut/clothfolds/scale/groundallframes; frontMLcorrectnotmirrored, backfloralbrandhiddenafterprofile. EXACTequal3x2grid nogutters/lines/labels, native1536x1280orlarger6:5ratio >=450pxwidecells; eachgarmentfullyinside5%margin. Uniformivorybgsoftstudio light fixedlevelcamera; rigidturnonlyverticalYupright no pitchroll. Noperson/mannequin/hanger, photorealsoftcloth no synthetic3Dmesh.",
+      "sha256": "8d009c718b9143af6218d7fc7c77cb938851b2fd0b88a57c03f9bfb08fa00a71",
+      "bytes": 1966838,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 138,
+          "y": 22,
+          "width": 214,
+          "height": 493
+        },
+        {
+          "x": 123,
+          "y": 22,
+          "width": 213,
+          "height": 493
+        },
+        {
+          "x": 90,
+          "y": 24,
+          "width": 271,
+          "height": 490
+        },
+        {
+          "x": 91,
+          "y": 24.5,
+          "width": 319,
+          "height": 486
+        },
+        {
+          "x": 43,
+          "y": 23.5,
+          "width": 369,
+          "height": 485
+        },
+        {
+          "x": 21,
+          "y": 22.5,
+          "width": 406,
+          "height": 480
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "Contrasting cream originalML front and floralM+exactMiloShopHand back.",
+    "loopContinuity": "Reviewed75→90,165→180,255→270,345→0. Continuous clockwise with garment/colour/seams consistent. Angles are nominal AI estimates, not calibrated optical camera samples.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

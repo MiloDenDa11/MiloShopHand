@@ -1,0 +1,227 @@
+{
+  "product": "ml-jacket-city-shell",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-city-shell.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Ref1 exactCityShellJacket originalphotogarment: tan khakibeige ripstoplightweight shell, highstandcollar withdarkoliveinnerlining, darkolivefullcenterzip+zipweltpockets, raglanseams, curvedfrontchestseam, backvent flap, simple darkcuffbinding. Ref2 ONLY floralM+MiloShopHand brand ignorebg. FULL24photographicturntable guide, preserveexactgarment/material/seams/colour/neutralrelaxedsleeves/size/groundeveryview. Frontlittle darkoliveinterwovenML, backdarkolive/nearblack floralMplus exactMiloShopHand wordmark upperback ABOVEventflap; highcontrastprint. Floatingemptygarment nohuman/mannequin/hanger/plastic3Dlook. EXACT6columns x4rows equalcells no gutters/borders/numbers/labels, canvas6:5 warmivorysoftstudio. UprightverticalYonlyrotation fixedlevelcamera no pitch/roll. Clockwiserowmajor0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345. 0symmetricFRONT,6LEFTprofile,12symmetricBACK,18RIGHTprofile; row1frontnarrows NO backprint, row2lefttoback, row3backtooppositerightprofile,row4righttofront. Distinctsmoothsmallsteps no repeats/reversals/mirroringorredesign. Entiregarmentwithmarginallcells. Thisisposeguidefortrueimage360.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-38bfe10b-99df-429d-8e18-5d87d04b3a71.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-city-shell/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-ab38a448-fd27-4eb6-9682-20725178c955.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide;ref2originalhighdetailCityShellphotogarment;ref3brand. Redraw ONLY FIRST ROW frames0..5 fromref1 as3columns x2rows 6equalcells. Angles0,15,30 then45,60,75: first symmetricFRONT, lastnearLEFTPROFILE stillfrontvisible, no backlogo. Preserve tan khakibeige lightweight ripstopCityShellJacket, highstandcollaroliveinnerlining, darkolivefullcenterzip+zipweltpockets, raglanseams/curvedfrontchestseam/simpledarkcuffbinding, littleoliveMLleftchest. Same cloth/folds/neutralrelaxedsleeves/pose/scale/groundeachview. Originalphotorealquality emptyfloatinggarment no plastic3D/person/mannequin/hanger. UprightYrotationONLY fixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecells ivorysoftstudio, entiregarmentgenerousmargin, no gutters/borders/numbers/labels. Onlyfrontquarterturn0to75, do not showbackorcompletefullturn.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 73,
+          "y": 23,
+          "width": 388,
+          "height": 426
+        },
+        {
+          "x": 81,
+          "y": 22,
+          "width": 361,
+          "height": 428
+        },
+        {
+          "x": 92,
+          "y": 21,
+          "width": 314,
+          "height": 434
+        },
+        {
+          "x": 139,
+          "y": 21,
+          "width": 268,
+          "height": 443
+        },
+        {
+          "x": 149,
+          "y": 20,
+          "width": 230,
+          "height": 449
+        },
+        {
+          "x": 154,
+          "y": 20,
+          "width": 211,
+          "height": 454
+        }
+      ],
+      "sha256": "23005d34003f7a78e02aa3f7f2a98b9054d271c11a4a43bb6353f09d5c9494fa",
+      "bytes": 1937419
+    },
+    {
+      "url": "/collection-spin/ml-jacket-city-shell/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-b1e402a1-c272-4325-96d7-9e694e03f1d2.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntablePOSEGUIDE,ref2originalCityShellphotogarment,ref3floralbrand. Redraw ONLY SECOND ROW global6..11 guide as3columns x2rows highdetailatlas. Angles90,105,120 then135,150,165;firstTRUELEFTPROFILE narrow, graduallyrevealBACK, lastalmostBACK15degrees short. NOTEguide has faint/incompleteprint onearlyrearangles: correct this by same sharp highcontrast darkolive floralM+exact MiloShopHand upperback ABOVE ventflap naturallyforeshortened/progressivelyrevealed whenever backisvisible. Same tan khakibeige ripstopCityShell, standcollaroliveinner, olivecenterzipandpocketzips onlyfront, raglanseams, BACKVENTFLAP ALWAYS correctconsistentshape. Fixedlevelcamera Yaxisupright no pitch/roll; same neutralrelaxedsleeves/folds/scale/ground/lightall6. Originalphotorealclothquality no plastic3D/person/mannequin/hanger. Canvas1536x1024,512squarecellsivorybg softstudio,entiregarmentwithmargin no gutters/borders/labels/numbers. OnlyLEFTPROFILEtonearlyBACK,nofrontsymmetryandno360in6.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 184,
+          "y": 13,
+          "width": 187,
+          "height": 466
+        },
+        {
+          "x": 143,
+          "y": 12,
+          "width": 216,
+          "height": 466
+        },
+        {
+          "x": 89,
+          "y": 12,
+          "width": 272,
+          "height": 466
+        },
+        {
+          "x": 112,
+          "y": 10,
+          "width": 314,
+          "height": 465
+        },
+        {
+          "x": 60,
+          "y": 10,
+          "width": 350,
+          "height": 464
+        },
+        {
+          "x": 22,
+          "y": 10,
+          "width": 395,
+          "height": 460
+        }
+      ],
+      "sha256": "de033d3d85852a73fc6e0a40f8d99698be0a22e4967c1632ddb1698fe831db3c",
+      "bytes": 2006991
+    },
+    {
+      "url": "/collection-spin/ml-jacket-city-shell/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-e9eabe3d-2056-4911-b30a-349bd0d908a0.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide,ref2originalCityShellgarment,ref3brand. Redraw ONLY THIRD ROW global12..17 reference1 into3columns x2rows sixequalcells highdetailatlas. Angles180,195,210 then225,240,255. First perfectlysymmetricalBACK, thenclockwise toOPPOSITE/rightprofile, lastnear-rightprofilestillbackvisible. Same tan khakibeige ripstoplightweight CityShellJacket highstandcollar, darkcuffbinding, raglanseams, consistentBACKVENTFLAP withcenterlittleloop. Darkolive/nearblack highcontrast floralM + exact MiloShopHand upperbackABOVEventflap; SAMElogoallviews, naturallyforeshortened notmirrored. Sameoriginalmaterial/seams/folds/neutralrelaxedsleeves/shape/scale/groundall6; no redesign. Photorealoriginalquality no3Dplastic/person/mannequin/hanger. OnlyYuprightrotation fixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecells ivorysoftstudio,entiregarmentwithmargin no gutters/borders/numbers/labels. Do not repeatfront/leftside; theseviewsturnBACKtowardoppositeRIGHTprofile.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 59,
+          "y": 16,
+          "width": 399,
+          "height": 433
+        },
+        {
+          "x": 75,
+          "y": 16,
+          "width": 369,
+          "height": 435
+        },
+        {
+          "x": 102,
+          "y": 14,
+          "width": 313,
+          "height": 445
+        },
+        {
+          "x": 137,
+          "y": 10,
+          "width": 274,
+          "height": 452
+        },
+        {
+          "x": 145,
+          "y": 10,
+          "width": 228,
+          "height": 453
+        },
+        {
+          "x": 141,
+          "y": 10,
+          "width": 209,
+          "height": 460
+        }
+      ],
+      "sha256": "af41fa2b0ccfb0243b4f38e7555e11c6d912105cf50ace9466772013d1755b1b",
+      "bytes": 1974810
+    },
+    {
+      "url": "/collection-spin/ml-jacket-city-shell/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-80214214-ade3-4743-ae06-7e76235cd488.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24phototurntableposeguide;ref2originalCityShellphoto;ref3brand. Redraw ONLY FOURTH/LAST ROW global18..23 reference1 as3columns x2rows equalcellshighdetailatlas. Angles270,285,300 then315,330,345. FirstTRUE RIGHTPROFILE opposite90, then progressivelyreveal FRONT onLEFT sideofimage, lastalmostfront15short. Matchguide4throw exactly, frontopeningandchestMLemerge; no backprint. Exact tan khakibeige ripstopCityShell highstandcollaroliveinnerlining, darkolivecenterzip/pocketzips, curvedfrontchestseam/raglanseams/darkcuffbinding. Sameoriginalphotorealcloth/seams/folds/neutralrelaxedsleevepose/shape/scale/ground/lightall6. Emptyfloating nohuman/mannequin/hanger/plastic3D. UprightYonly rotationfixedlevelcamera no pitch/roll. Canvas1536x1024 eachcell512squareivorybgsoftstudio,wholegarmentwithmargin,no gutters/borders/numbers/labels. SequenceOPPOSITERIGHTPROFILEtowardFRONT, no reverse/no mirroredML/no fullturnwithin6.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 169,
+          "y": 12,
+          "width": 182,
+          "height": 450
+        },
+        {
+          "x": 150,
+          "y": 13,
+          "width": 196,
+          "height": 449
+        },
+        {
+          "x": 136,
+          "y": 11,
+          "width": 242,
+          "height": 451
+        },
+        {
+          "x": 121,
+          "y": 13,
+          "width": 290,
+          "height": 445
+        },
+        {
+          "x": 88,
+          "y": 13,
+          "width": 330,
+          "height": 444
+        },
+        {
+          "x": 60,
+          "y": 13,
+          "width": 374,
+          "height": 442
+        }
+      ],
+      "sha256": "8d5a86efda89126e67765779c7ef2cd72f68263a142dc2669ed03ca938964e69",
+      "bytes": 1941791
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T11:36:47.305Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Dark olive ML front, contrasting dark olive floral M + exact MiloShopHand upperback above vent flap; visually reviewed.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}

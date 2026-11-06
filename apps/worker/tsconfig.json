@@ -1,0 +1,11 @@
+{
+  "extends": "../api/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../api/dist"
+  },
+  "include": [
+    "src/**/*.ts",
+    "../api/src/**/*.ts",
+    "../../packages/shared/src/**/*.ts"
+  ]
+}

@@ -1,0 +1,23 @@
+FROM node:24.14.0-bookworm-slim
+WORKDIR /app
+COPY package*.json ./
+COPY apps/api/package.json apps/api/package.json
+COPY apps/web/package.json apps/web/package.json
+COPY apps/worker/package.json apps/worker/package.json
+COPY packages/shared/package.json packages/shared/package.json
+RUN npm ci --no-audit --no-fund
+COPY . .
+ENV API_INTERNAL_URL=http://api:4000
+ARG NEXT_PUBLIC_GOOGLE_MAPS_KEY=""
+ARG NEXT_PUBLIC_GOOGLE_MAPS_ID=""
+ARG BRAND_NAME=MILOSHOPHAND
+ARG S3_PUBLIC_URL=""
+ENV NEXT_PUBLIC_GOOGLE_MAPS_KEY=$NEXT_PUBLIC_GOOGLE_MAPS_KEY
+ENV NEXT_PUBLIC_GOOGLE_MAPS_ID=$NEXT_PUBLIC_GOOGLE_MAPS_ID
+ENV BRAND_NAME=$BRAND_NAME
+ENV S3_PUBLIC_URL=$S3_PUBLIC_URL
+RUN npm run build -w @milo/web
+USER node
+WORKDIR /app/apps/web
+EXPOSE 3000
+CMD ["npm", "start"]

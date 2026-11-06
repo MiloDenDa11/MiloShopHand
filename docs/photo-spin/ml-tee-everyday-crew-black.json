@@ -1,0 +1,265 @@
+{
+  "slug": "ml-tee-everyday-crew",
+  "colorKey": "black",
+  "colorHex": "#151515",
+  "colorName": "Đen",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-everyday-crew.png",
+  "sourceAtlasDirectory": "/collection-spin/ml-tee-everyday-crew/original/",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T08:19:09.386Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/black/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-2761bfc3-4034-447d-9d34-68cf8ed000b3.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 29,
+          "y": 34,
+          "width": 411,
+          "height": 482
+        },
+        {
+          "x": 50,
+          "y": 31,
+          "width": 373,
+          "height": 486
+        },
+        {
+          "x": 84,
+          "y": 29,
+          "width": 298,
+          "height": 489
+        },
+        {
+          "x": 129,
+          "y": 27.5,
+          "width": 235,
+          "height": 498
+        },
+        {
+          "x": 133,
+          "y": 25.5,
+          "width": 195,
+          "height": 499
+        },
+        {
+          "x": 135,
+          "y": 23.5,
+          "width": 176,
+          "height": 502
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, garment colourway change ONLY. Edit the supplied THREEcolumn×TWOrow photographic T-shirt atlas. It contains six precise turntable views of the SAME MiloShopHand EverydayCrew cottontee. Preserve EVERY viewing angle, all silhouetteedges, sleevepose, garmentposition/scale/ground, foldpattern, framing, ivorybackground, softstudio lighting and exactgrid coordinates. Do NOT generate new camera angles or a different shirt. FRONT quadrant, angles0,15,30 top row and45,60,75 bottomrow. Preserve only frontchestML views, no backprintappearingearly.\nONLY change the garment colour and its ink: body, crewneckribbing and sleeveedging must be coordinated deep BLACK fabric, targetbasecolour #151515, soft matte cottonjersey with realistic black-on-black seam/rib/fold detail. No olivegreen/cream trim remains on the shirt. Change existing front ML logo to crisp opaque WHITE ink in exactlythe same small chestlocation and shape. Wherever backfloralM and MiloShopHand wordmarkappear, change the whole existing print to crisp WHITE highcontrastink, same scale/location/distortion. Exactspelling MiloShopHand with M,S,H capitals; preserve all flowerlines and ornaments, no glow/halo. Do not add or move logos.\nKeep the natural premium cotton photographic quality; no flat black silhouette, no plastic or lowpolylook, no crusheddetail. Output same1374×1145 resolution orlarger, canvasaspect6:5, exact3columns×2rows sixequalcells, no labels/numbers/gridlines/gutters/mannequins/textoutsidegarment. All24sequenceviewsremainupright aboutverticalY, nopitch/roll/tilt or changesofgarmentdesign. Onlythissheet'ssixexistingposes; not a fullrotation."
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/black/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-3e8ab092-75c1-4e63-8724-42c1c71fc4ce.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 141,
+          "y": 25,
+          "width": 191,
+          "height": 487
+        },
+        {
+          "x": 114,
+          "y": 25,
+          "width": 202,
+          "height": 486
+        },
+        {
+          "x": 98,
+          "y": 25,
+          "width": 256,
+          "height": 486
+        },
+        {
+          "x": 93,
+          "y": 22.5,
+          "width": 299,
+          "height": 491
+        },
+        {
+          "x": 53,
+          "y": 22.5,
+          "width": 339,
+          "height": 490
+        },
+        {
+          "x": 31,
+          "y": 22.5,
+          "width": 377,
+          "height": 491
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, garment colourway change ONLY. Edit the supplied THREEcolumn×TWOrow photographic T-shirt atlas. It contains six precise turntable views of the SAME MiloShopHand EverydayCrew cottontee. Preserve EVERY viewing angle, all silhouetteedges, sleevepose, garmentposition/scale/ground, foldpattern, framing, ivorybackground, softstudio lighting and exactgrid coordinates. Do NOT generate new camera angles or a different shirt. LEFTSIDE to BACK quadrant, angles90,105,120 top row and135,150,165 bottomrow. Preserve sideprofile first and gradualbackprintreveal.\nONLY change the garment colour and its ink: body, crewneckribbing and sleeveedging must be coordinated deep BLACK fabric, targetbasecolour #151515, soft matte cottonjersey with realistic black-on-black seam/rib/fold detail. No olivegreen/cream trim remains on the shirt. Change existing front ML logo to crisp opaque WHITE ink in exactlythe same small chestlocation and shape. Wherever backfloralM and MiloShopHand wordmarkappear, change the whole existing print to crisp WHITE highcontrastink, same scale/location/distortion. Exactspelling MiloShopHand with M,S,H capitals; preserve all flowerlines and ornaments, no glow/halo. Do not add or move logos.\nKeep the natural premium cotton photographic quality; no flat black silhouette, no plastic or lowpolylook, no crusheddetail. Output same1374×1145 resolution orlarger, canvasaspect6:5, exact3columns×2rows sixequalcells, no labels/numbers/gridlines/gutters/mannequins/textoutsidegarment. All24sequenceviewsremainupright aboutverticalY, nopitch/roll/tilt or changesofgarmentdesign. Onlythissheet'ssixexistingposes; not a fullrotation."
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/black/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-97e68c9f-8bbd-453a-b99a-4c12b776f565.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 39,
+          "y": 35,
+          "width": 405,
+          "height": 478
+        },
+        {
+          "x": 51,
+          "y": 37,
+          "width": 375,
+          "height": 475
+        },
+        {
+          "x": 79,
+          "y": 37,
+          "width": 300,
+          "height": 475
+        },
+        {
+          "x": 129,
+          "y": 33.5,
+          "width": 247,
+          "height": 478
+        },
+        {
+          "x": 124,
+          "y": 31.5,
+          "width": 230,
+          "height": 480
+        },
+        {
+          "x": 127,
+          "y": 31.5,
+          "width": 209,
+          "height": 480
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, garment colourway change ONLY. Edit the supplied THREEcolumn×TWOrow photographic T-shirt atlas. It contains six precise turntable views of the SAME MiloShopHand EverydayCrew cottontee. Preserve EVERY viewing angle, all silhouetteedges, sleevepose, garmentposition/scale/ground, foldpattern, framing, ivorybackground, softstudio lighting and exactgrid coordinates. Do NOT generate new camera angles or a different shirt. BACK to OPPOSITESIDE quadrant, angles180,195,210 top row and225,240,255 bottomrow. Preserve readablefullbacklogo first and rightside last.\nONLY change the garment colour and its ink: body, crewneckribbing and sleeveedging must be coordinated deep BLACK fabric, targetbasecolour #151515, soft matte cottonjersey with realistic black-on-black seam/rib/fold detail. No olivegreen/cream trim remains on the shirt. Change existing front ML logo to crisp opaque WHITE ink in exactlythe same small chestlocation and shape. Wherever backfloralM and MiloShopHand wordmarkappear, change the whole existing print to crisp WHITE highcontrastink, same scale/location/distortion. Exactspelling MiloShopHand with M,S,H capitals; preserve all flowerlines and ornaments, no glow/halo. Do not add or move logos.\nKeep the natural premium cotton photographic quality; no flat black silhouette, no plastic or lowpolylook, no crusheddetail. Output same1374×1145 resolution orlarger, canvasaspect6:5, exact3columns×2rows sixequalcells, no labels/numbers/gridlines/gutters/mannequins/textoutsidegarment. All24sequenceviewsremainupright aboutverticalY, nopitch/roll/tilt or changesofgarmentdesign. Onlythissheet'ssixexistingposes; not a fullrotation."
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-everyday-crew/black/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1aab6-d9dc-7bd1-b87a-3e403ef980cf/exec-5db98691-213f-48d0-b307-888f25f92a40.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 117,
+          "y": 27,
+          "width": 212,
+          "height": 500
+        },
+        {
+          "x": 112,
+          "y": 26,
+          "width": 228,
+          "height": 502
+        },
+        {
+          "x": 85,
+          "y": 28,
+          "width": 277,
+          "height": 499
+        },
+        {
+          "x": 59,
+          "y": 26.5,
+          "width": 339,
+          "height": 487
+        },
+        {
+          "x": 33,
+          "y": 27.5,
+          "width": 392,
+          "height": 485
+        },
+        {
+          "x": 24,
+          "y": 27.5,
+          "width": 414,
+          "height": 483
+        }
+      ],
+      "prompt": "Use case: precise-object-edit, garment colourway change ONLY. Edit the supplied THREEcolumn×TWOrow photographic T-shirt atlas. It contains six precise turntable views of the SAME MiloShopHand EverydayCrew cottontee. Preserve EVERY viewing angle, all silhouetteedges, sleevepose, garmentposition/scale/ground, foldpattern, framing, ivorybackground, softstudio lighting and exactgrid coordinates. Do NOT generate new camera angles or a different shirt. OPPOSITESIDE to FRONT quadrant, angles270,285,300 top row and315,330,345 bottomrow. Preserve trueoppositeside first and graduallyreturnfrontML.\nONLY change the garment colour and its ink: body, crewneckribbing and sleeveedging must be coordinated deep BLACK fabric, targetbasecolour #151515, soft matte cottonjersey with realistic black-on-black seam/rib/fold detail. No olivegreen/cream trim remains on the shirt. Change existing front ML logo to crisp opaque WHITE ink in exactlythe same small chestlocation and shape. Wherever backfloralM and MiloShopHand wordmarkappear, change the whole existing print to crisp WHITE highcontrastink, same scale/location/distortion. Exactspelling MiloShopHand with M,S,H capitals; preserve all flowerlines and ornaments, no glow/halo. Do not add or move logos.\nKeep the natural premium cotton photographic quality; no flat black silhouette, no plastic or lowpolylook, no crusheddetail. Output same1374×1145 resolution orlarger, canvasaspect6:5, exact3columns×2rows sixequalcells, no labels/numbers/gridlines/gutters/mannequins/textoutsidegarment. All24sequenceviewsremainupright aboutverticalY, nopitch/roll/tilt or changesofgarmentdesign. Onlythissheet'ssixexistingposes; not a fullrotation."
+    }
+  ],
+  "verification": {
+    "sameGarment": "Colourway-only edits of the approved original 24-view cream tee. Same silhouette, sleeve pose, grid framing and cotton folds; black body and coordinated black neck/sleeve trim.",
+    "rotation": "24 distinct views, clockwise, fixed upright Y axis. Positions and viewing angles inherited from approved source atlases.",
+    "brand": "Crisp white ML chest mark; white floral M plus readable MiloShopHand on rear. Correct spelling verified in near-back frames. No glow or blending into black fabric.",
+    "resolution": "1374x1145 per atlas, 458x572.5 per frame. All final generated PNGs copied unchanged.",
+    "bbox": "Read-only RGB difference analysis against per-row local border background; source pixel bounds relative to each cell. Apply uniform CSS scale/translation for height/ground; never normalize frame width.",
+    "limitations": "AI concept mockup, not calibrated physical turntable photography. Small fold/print variations remain; angles nominal 15-degree steps. Source frame heights475–502px before CSS normalization.",
+    "bitmapEditing": "None. ImageGen performed colour changes; final PNGs copied unchanged. Only read-only pixel analysis used for bbox."
+  }
+}

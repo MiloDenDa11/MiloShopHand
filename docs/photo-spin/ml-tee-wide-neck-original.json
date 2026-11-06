@@ -1,0 +1,253 @@
+{
+  "slug": "ml-tee-wide-neck",
+  "colorKey": "original",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-wide-neck.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T11:31:27.448Z",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f7c6cf5b-c809-4edd-9a1c-086355b28e7c.png",
+    "prompt": "Use case: product-mockup. Asset type: photographic24-frame turntable pose guide. Reference1 EXACTgarmentidentity MiloShopHand Wide Neck Basic Tee, sandybeige body #c0b19b, contrasting darkolive #374139 WIDEcrewneck&sleevebands, slubcotton visiblefinehorizontaltexture, relaxedslightlydroppedshoulder, straightrelaxedhem,smallinterwovenMLfrontleftchest. Preserveallconstruction/colour/shape. Reference2 ONLYfloral M+exactMiloShopHandwordmark, ignoreburgundybackground; printthisin DARKOLIVE onupperback replacingoldscript, contrastclear. \nEXACT6columns×4rows24distinctcontinuousposes, rowmajor angles0..345 in15step: row1fronttoleftprofile0,15,30,45,60,75;row2leftprofiletoback90,105,120,135,150,165;row3backtorightprofile180,195,210,225,240,255;row4rightprofiletofront270,285,300,315,330,345. Truefrontfirst,trueleftprofileframe6,truebackframe12,truerightprofileframe18. FirstrowONLYfrontnobackprint. Shirt rotates aroundverticalYonly, fixedlevelcamera,no pitch/roll; samearmposition/folds/logos/colour,constantgroundscale. Photorealcloth notplastic/facetedmesh;ivorybackground,softstudiolight,fullyvisibleallcells,margins,no person/mannequin/hanger/frameborder/gutter/anglelabels/numbers. ExactMiloShopHandcapitalM,S,H,noreversedletters. Mainpriority consistencysequence notdecorativevariation."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-wide-neck/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-2f871ae5-54f4-4702-8b14-60bc9a98d192.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW1ofreference1 into highdetail3columns×2rows nativecontactsheet withno borders/gutters/labels. Reference1full24turntableguide;row1poses0,15,30,45,60,75degreesbecome6cellsrowmajor. Frontfirst,nearleftprofilelast, NO backprint anywhere infrontquadrant. Reference2originalgarmentdetail: EXACTWideNeckBasicTee sandybeige #c0b19b slubcottonfinehorizontaltexture,darkolive #374139 widecrewneck&sleevebands,relaxeddroppedshoulder,straightrelaxedhem,smallinterwovenMLfrontleftchest. Maintainmatchingseams/hem/sleevepose/folds/colourandlogosguide;onlyyawaroundstrictverticalY,cameralevel,nopitch/roll,constantgarmentscale/ground,fullyvisiblewithclearmargins. Photographicclothappearance likeoriginal,notfaceted3D/plastic. Neutralivorybackgroundsoftlight. Canvasaspect6:5, nativewidth>=1374height>=1145, >=458×572percell. No person/mannequin/hanger/textoutsidegarment, noanglelabels. Preserveanglesfromguide, donotadvancebacktooearly.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 39,
+          "y": 35,
+          "width": 406,
+          "height": 443
+        },
+        {
+          "x": 51,
+          "y": 33,
+          "width": 379,
+          "height": 444
+        },
+        {
+          "x": 73,
+          "y": 30,
+          "width": 321,
+          "height": 450
+        },
+        {
+          "x": 123,
+          "y": 26.5,
+          "width": 267,
+          "height": 456
+        },
+        {
+          "x": 125,
+          "y": 24.5,
+          "width": 223,
+          "height": 458
+        },
+        {
+          "x": 115,
+          "y": 24.5,
+          "width": 204,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-wide-neck/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-a7316236-8838-4dc4-8b24-b9d7c2a0d3e1.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW2ofreference1 into highdetail3columns×2rows nativecontactsheet no borders/gutters/labels. Reference1full24turntableguide;ROW2global6..11 angles90,105,120,135,150,165degreesbecome6cellsrowmajor. TrueLEFTprofilefirst, graduallyturnstowardBACKwithprintemerging;lastnearlybackbutstillangled. NO frontviews! Reference2originalgarmentdetail: EXACTWideNeckBasicTee sandybeige #c0b19b slubcottonfinehorizontaltexture,darkolive #374139 widecrewneck&sleevebands,relaxeddroppedshoulder,straightrelaxedhem,smallinterwovenMLfrontonly. Reference3floral M+exactMiloShopHandwordmarkinDARKOLIVEupperback (ignoreburgundybackground). Maintainseams/hem/sleevepose/folds/colour/printplacementlikeguide, onlyyawstrictverticalY,fixedlevelcamera,nopitch/roll,constantgarmentscale/ground,fullyvisiblemargins. ExactspellingMiloShopHandno mirroredletters. Photographicclothlikeoriginal,not3Dfaceted/plastic. Neutralivorybackgroundsoftlight. Canvasaspect6:5,nativewidth>=1374height>=1145, >=458×572/cell. No person/mannequin/hanger/extratext. Preserveeachanglefromguide ratherthan invent a full360within6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 158,
+          "y": 19,
+          "width": 198,
+          "height": 493
+        },
+        {
+          "x": 116,
+          "y": 18,
+          "width": 212,
+          "height": 493
+        },
+        {
+          "x": 91,
+          "y": 21,
+          "width": 254,
+          "height": 490
+        },
+        {
+          "x": 91,
+          "y": 8.5,
+          "width": 309,
+          "height": 485
+        },
+        {
+          "x": 47,
+          "y": 8.5,
+          "width": 355,
+          "height": 484
+        },
+        {
+          "x": 17,
+          "y": 8.5,
+          "width": 394,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-wide-neck/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-8981990d-e6ec-443b-817f-29b60bc81ccb.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW3ofreference1 into highdetail3columns×2rows nativecontactsheet no borders/gutters/labels. Reference1full24turntableguide;ROW3global12..17 angles180,195,210,225,240,255degreesbecome6cellsrowmajor. TrueBACKfirst, graduallyturnstowardRIGHTprofileoppositeside, backprintnarrows/movesleftsideofimage, lastnearrightprofilewithlittlerearstillvisible. NO frontviews. Reference2originalgarmentdetail: EXACTWideNeckBasicTee sandybeige #c0b19b slubcottonfinehorizontaltexture,darkolive #374139 widecrewneck&sleevebands,relaxeddroppedshoulder,straightrelaxedhem,smallMLfrontonly. Reference3floral M+exactMiloShopHandwordmarkprintinDARKOLIVEupperback, ignoreburgundybackground. Maintainseams/hem/sleevepose/folds/colour/printplacementlikeguide, onlyyawstrictverticalY,fixedlevelcamera,nopitch/roll,constantgarmentscale/ground,fullyvisiblemargins. ExactspellingMiloShopHandno mirroredletters. Photographicclothlikeoriginal,not3Dfaceted/plastic. Neutralivorybackgroundsoftlight. Canvasaspect6:5,nativewidth>=1374height>=1145, >=458×572/cell. No person/mannequin/hanger/extratext. Preserveeachanglefromguide ratherthanfull360within6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 30,
+          "y": 33,
+          "width": 420,
+          "height": 461
+        },
+        {
+          "x": 41,
+          "y": 31,
+          "width": 389,
+          "height": 466
+        },
+        {
+          "x": 63,
+          "y": 28,
+          "width": 317,
+          "height": 474
+        },
+        {
+          "x": 121,
+          "y": 8.5,
+          "width": 270,
+          "height": 486
+        },
+        {
+          "x": 121,
+          "y": 8.5,
+          "width": 232,
+          "height": 487
+        },
+        {
+          "x": 107,
+          "y": 8.5,
+          "width": 214,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-wide-neck/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-6cf97dd0-668a-44af-8a0f-ceca998a2a48.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Redraw ONLY sixposes ROW4ofreference1 into highdetail3columns×2rows nativecontactsheet no borders/gutters/labels. Reference1full24turntableguide;ROW4global18..23 angles270,285,300,315,330,345degreesbecome6cellsrowmajor. TrueRIGHTprofilefirst, graduallyreturnstowardFRONTfromoppositesideofrow1;lastnearlyfrontstill15degreesoff. NO backprintexcepttinyedgeatprofile, frontMLreturnsasfrontcomesintoview. Reference2originalgarmentdetail: EXACTWideNeckBasicTee sandybeige #c0b19b slubcottonfinehorizontaltexture,darkolive #374139 widecrewneck&sleevebands,relaxeddroppedshoulder,straightrelaxedhem,smallinterwovenMLfrontleftchest. Maintainseams/hem/sleevepose/folds/colour/logoplaceguide, onlyyawstrictverticalY,fixedlevelcamera,nopitch/roll,constantgarmentscale/ground,fullyvisiblemargins. Photographicclothlikeoriginal,not3Dfaceted/plastic. Neutralivorybackgroundsoftlight. Canvasaspect6:5,nativewidth>=1374height>=1145, >=458×572/cell. No person/mannequin/hanger/extratext. Preserveeachanglefromguide,noflip/mirror, nofull360within6views.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 149,
+          "y": 25,
+          "width": 182,
+          "height": 479
+        },
+        {
+          "x": 123,
+          "y": 25,
+          "width": 200,
+          "height": 479
+        },
+        {
+          "x": 111,
+          "y": 25,
+          "width": 233,
+          "height": 479
+        },
+        {
+          "x": 123,
+          "y": 22.5,
+          "width": 273,
+          "height": 476
+        },
+        {
+          "x": 68,
+          "y": 22.5,
+          "width": 330,
+          "height": 475
+        },
+        {
+          "x": 43,
+          "y": 23.5,
+          "width": 373,
+          "height": 472
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 images inspected after generation. Upright front-left-back-right-front sequence, original slub cotton sandy beige and olive trim retained. Darkolive ML and full floral M + MiloShopHand back print contrast clear; no distorted 3D mesh.",
+    "limitations": "Angles are AI nominal; not optically calibrated camera measurements."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-everyday-crew",
+  "colorKey": "burgundy",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T17:00:31.444Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/burgundy/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-d03140c8-b76e-46a1-97ca-4545cd625b1b.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to DEEP BURGUNDY/WINE RED #722f37. Allcottonfabric includingbody,crewneckrib,sleevebands,hem becomes same deep muted burgundy #722f37, NOT brightred/purple/brown; preserve natural fabric shading/folds. Allvisible interwovenMLfrontlogos become WARMIVORY #f4ead7, crispandstronglycontrasting. No olive neck/sleevebands remain. Thisisfront0..75degreequadrant,no backprintvisible. Preserve ALLsixoriginalposes/garmentshape/proportions/seams/folds/sleeveposition/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis and3columns×2rowslayout. No pitchroll/faceted3D/plastic. Unchangedwarmivorybackground.Fullgarmentinsideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions.No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters. ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1538044,
+      "sha256": "47f75d419b3dcb3abb07e6a036d1177f0c22af378e7970d7d4b648a5d8fbeca3",
+      "frames": [
+        {
+          "x": 28,
+          "y": 34,
+          "width": 414,
+          "height": 480
+        },
+        {
+          "x": 49,
+          "y": 31,
+          "width": 374,
+          "height": 485
+        },
+        {
+          "x": 84,
+          "y": 29,
+          "width": 298,
+          "height": 487
+        },
+        {
+          "x": 129,
+          "y": 27.5,
+          "width": 235,
+          "height": 498
+        },
+        {
+          "x": 135,
+          "y": 26.5,
+          "width": 191,
+          "height": 498
+        },
+        {
+          "x": 137,
+          "y": 24.5,
+          "width": 174,
+          "height": 501
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/burgundy/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-a86012b9-c126-4ab2-9ccd-3a09b54971e4.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to DEEP BURGUNDY/WINE RED #722f37. Allcottonincludingbody,crewneckrib,sleevebands,hem becomes same deepmutedburgundy #722f37,NOTbrightred/purple/brown;retainnaturalclothfolds/shading. ALLvisiblelogos become WARMIVORY #f4ead7, crispstrongcontrast: smallMLfrontwherevisible and full floralM + exact MiloShopHand BACK wordmark includingdecorativeunderline. Noolive trimremains. Thisis90..165leftprofiletowardBACKquadrant,preserveALLsixoriginalposes/shape/proportions/seams/folds/sleevepose/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis/3columns×2rowslayout. No pitchroll/faceted3D/plastic. Unchangedwarmivorybackground. Fullgarmentinsideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions.No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters.ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1650683,
+      "sha256": "168b13ed45f3f40e58859c2a428a46acb1f89c2dd1465ffdeb70f927c5870a88",
+      "frames": [
+        {
+          "x": 143,
+          "y": 27,
+          "width": 187,
+          "height": 483
+        },
+        {
+          "x": 114,
+          "y": 27,
+          "width": 201,
+          "height": 483
+        },
+        {
+          "x": 99,
+          "y": 27,
+          "width": 256,
+          "height": 483
+        },
+        {
+          "x": 94,
+          "y": 23.5,
+          "width": 297,
+          "height": 489
+        },
+        {
+          "x": 54,
+          "y": 23.5,
+          "width": 337,
+          "height": 489
+        },
+        {
+          "x": 33,
+          "y": 23.5,
+          "width": 373,
+          "height": 490
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/burgundy/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-eebcce33-551c-4fca-9310-236a3ca831c8.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to DEEP BURGUNDY/WINE RED #722f37. ALLcottonincludingbody,crewneckrib,sleevebands,hem becomessame deepmutedburgundy #722f37,NOTbrightred/purple/brown;retainnaturalclothfolds/shading. ALLvisiblelogosbecome WARMIVORY #f4ead7 crispstrongcontrast: full floral M + exact MiloShopHand BACK wordmark withdecorativeunderline,smallMLfrontwherevisible. Noolivetrimremains. Thisis180..255BACKtowardRIGHTprofilequadrant,preserveALLsixoriginalposes/shape/proportions/seams/folds/sleevepose/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis/3columns×2rowslayout. No pitchroll/faceted3D/plastic.Unchangedwarmivorybackground.Fullgarmentinsideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions.No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters.ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1623360,
+      "sha256": "0cc22575091591da854a7450790d457ae721e9dfe1963b1b91092ce2ed9e0dfb",
+      "frames": [
+        {
+          "x": 39,
+          "y": 36,
+          "width": 404,
+          "height": 476
+        },
+        {
+          "x": 52,
+          "y": 37,
+          "width": 373,
+          "height": 475
+        },
+        {
+          "x": 80,
+          "y": 38,
+          "width": 297,
+          "height": 473
+        },
+        {
+          "x": 129,
+          "y": 34.5,
+          "width": 244,
+          "height": 475
+        },
+        {
+          "x": 124,
+          "y": 32.5,
+          "width": 228,
+          "height": 478
+        },
+        {
+          "x": 129,
+          "y": 32.5,
+          "width": 209,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/burgundy/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-9ebf7703-c1bc-401e-9c2c-177ee868aa94.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to DEEP BURGUNDY/WINE RED #722f37. Allcottonincludingbody,crewneckrib,sleevebands,hem becomes same deepmutedburgundy #722f37,NOTbrightred/purple/brown;retainnaturalclothfolds/shading. Allvisible interwovenMLfrontlogos become WARMIVORY #f4ead7 crispstrongcontrast. Noolive neck/sleevebandsremain. Thisis270..345RIGHTprofile returningtowardFRONTquadrant,preserveexactly ALLsixoriginalposesandoppositesideorientation/garmentshape/proportions/seams/folds/sleeveposition/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis/3columns×2rowslayout. No pitchroll/faceted3D/plastic. Unchangedwarmivorybackground. Fullgarmentinsideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions.No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters.ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1586375,
+      "sha256": "f5a2a8702de47d83505cdd28c2e3c3d2e0ae3cb4e9611b08dd76598c031bca2f",
+      "frames": [
+        {
+          "x": 116,
+          "y": 27,
+          "width": 213,
+          "height": 501
+        },
+        {
+          "x": 112,
+          "y": 27,
+          "width": 227,
+          "height": 501
+        },
+        {
+          "x": 85,
+          "y": 29,
+          "width": 277,
+          "height": 498
+        },
+        {
+          "x": 58,
+          "y": 27.5,
+          "width": 339,
+          "height": 485
+        },
+        {
+          "x": 31,
+          "y": 28.5,
+          "width": 391,
+          "height": 484
+        },
+        {
+          "x": 23,
+          "y": 28.5,
+          "width": 414,
+          "height": 482
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews visually inspected. Originalgarment shapes/folds/seams/sixposes perquadrant retained. Allfabric includingcollar/sleevebands uniformly deepburgundy, crispwarmivoryMLfront and exactfloralM+MiloShopHandrear stronglycontrast. UprightfullYturn with properfront/left/back/right; allfullgarments fit owncells. No bitmap edits; copies nativePNG unchanged.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

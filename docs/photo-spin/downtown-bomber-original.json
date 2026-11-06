@@ -1,0 +1,222 @@
+{
+  "slug": "downtown-bomber",
+  "colorKey": "original",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T05:28:01.046Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/downtown-bomber/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-0b2f24e7-eb92-4357-beb3-6ba1ff06070b.png",
+      "prompt": "Use case: product-mockup. Asset: photographic six-view turntable atlas for MiloShopHand DOWNTOWN BOMBER, replacing an old flat vector placeholder. Reference image supplies ONLY realistic cloth quality and the elegant intertwined ML chest monogram; create the distinct design specified here, not the olive reference jacket. Garment: relaxed hip-length deep NAVY #34465b matte wind-resistant nylon bomber, BLACK #242426 rib knit low rounded bomber collar, cuffs and hem; clean RAGLAN sleeves hanging relaxed, silver full center zip, two slanted welt hand pockets, no arm utility pocket, no hood, no shoulder tabs. Small bright IVORY intertwined ML embroidery on wearer's LEFT chest (image RIGHT at front). Same garment, seams, natural folds, proportions, sleeve pose and color all six images. Empty natural neck, no person/mannequin/hanger/props, never plastic or low-poly. Uniform warm ivory studio paper background, soft diffuse light. ONE 3-column by 2-row atlas EXACTLY SIX equal square cells, native1536x1024 or larger, no gutters/gridlines/labels/numbers/watermarks. Each full uncropped garment at identical scale, hem baseline, center and generous margin. ROW-MAJOR yaw 0,15,30 /45,60,75 degrees: first perfect symmetric FRONT; as yaw increases front center zipper moves IMAGE RIGHT, nearest blank sleeve IMAGE LEFT, sixth near left PROFILE with narrow front visible on RIGHT edge. All six FRONT toward SIDE, not a whole360, NO back print visible yet. Vertical Y/Oy axis stays absolutely upright, camera fixed level no pitch/roll/zoom change. Keep front ML readable and same placement, correctly foreshortened at each angle.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1649835,
+      "sha256": "4d1c98fbdb580f8eb9d1a35a2ce426e535f291e8d24e6bfc6bd1736fa756f037",
+      "frames": [
+        {
+          "x": 35,
+          "y": 38,
+          "width": 443,
+          "height": 437
+        },
+        {
+          "x": 42,
+          "y": 34,
+          "width": 421,
+          "height": 448
+        },
+        {
+          "x": 66,
+          "y": 33,
+          "width": 367,
+          "height": 451
+        },
+        {
+          "x": 89,
+          "y": 28,
+          "width": 320,
+          "height": 463
+        },
+        {
+          "x": 121,
+          "y": 28,
+          "width": 267,
+          "height": 464
+        },
+        {
+          "x": 148,
+          "y": 28,
+          "width": 204,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/downtown-bomber/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-f0293f55-7f70-4958-9e4d-e1298ee9938f.png",
+      "prompt": "Use case: product-mockup. Continue EXACT SAME navy Downtown Bomber from ref1 six-front-view atlas. Ref2 ONLY artwork: white floral M with flower/leaves and wordmark spelled exactly MiloShopHand plus floral underline; ignore burgundy background. Keep navy #34465b nylon body and sleeves, black low rounded rib collar/cuffs/hem, silver central front zip, two angled welt pockets, SMALL ivory ML front-leftchest. Sleeves are clean without utilitypockets. Identical realistic garment geometry/seams/folds, scale, relaxed hanging sleeve pose, lighting and warm ivory backdrop. ONE3columns x2rows atlas six square512cells native1536x1024, no borders/gutters/numbers/captions. Six distinct ROW-MAJOR nominal yaw90,105,120 /135,150,165degrees continuing after75. First true LEFT SIDE, frontzipper profile on IMAGE RIGHT edge; then BACK panel and ivory floralM+MiloShopHand print emerge on IMAGE LEFT of nearer sleeve (nearer sleeve IMAGE RIGHT), ending almost full BACK. Firstside has only a narrow sliver of backart; every later view reveals progressively more of the SAME single highcontrast upperback centered logo. Wordmark exact M-i-l-o-S-h-o-p-H-a-n-d, non-mirrored, consistent placement and proportions. No frontpockets orzip on BACK; no backlogo on front. Whole uncropped garment same hem baseline/size, no human/mannequin/hanger/plastic3D. Only yaw around fixed upright Y/Oy; level locked camera, no tilt/roll/elevation/zoom change. These are six side-to-back views, NOT a whole360.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1715283,
+      "sha256": "126144f68e8fc3d466adce820aaba85ebe3b9dd216b407cefa3c0e641e94ba85",
+      "frames": [
+        {
+          "x": 151,
+          "y": 27,
+          "width": 206,
+          "height": 464
+        },
+        {
+          "x": 132,
+          "y": 27,
+          "width": 217,
+          "height": 465
+        },
+        {
+          "x": 110,
+          "y": 28,
+          "width": 245,
+          "height": 464
+        },
+        {
+          "x": 110,
+          "y": 27,
+          "width": 302,
+          "height": 464
+        },
+        {
+          "x": 82,
+          "y": 27,
+          "width": 344,
+          "height": 464
+        },
+        {
+          "x": 47,
+          "y": 26,
+          "width": 399,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/downtown-bomber/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-c2ed820d-4737-4d3b-a5cf-f66e163884da.png",
+      "prompt": "Use case: product-mockup, next six-view turntable atlas. Reference1 is EXACT Downtown Bomber navy nylon #34465b body/sleeves with black rib collar/cuffs/hem and upperback ivory floral M + exact MiloShopHand wordmark; reference2 original front atlas for shape. Create SAME garment/photoquality/microfolds/relaxedpose/light/ivory background, SIX equal square cells3columns x2rows, native1536x1024, no captions/numbers/gutters/grid. ROW-MAJOR yaw180,195,210 /225,240,255degrees, proceeding continuously from previous165. First perfectly symmetric BACK with centered unchanged ivory floralMiloShopHand artwork, then backpanel/print moves toward IMAGE RIGHT as nearer blank sleeve is IMAGE LEFT. Final near opposite RIGHT SIDE with only narrow backpanel+print on RIGHT edge. NEVER frontcenterzip/frontpockets/chestML visible in these backquarter views. No utility sleeve pocket at all. Preserve exact black low rib collar/hem/cuffs, no hood or shoulder tabs, realistic navy nylon wrinkle/sheens, no construction changes. Backart exact spelling MiloShopHand, same upperback centered print geometry/scale, never mirrored. Full uncropped garment constant center/scale/hem baseline and same sleevepose in all6. Empty garment, no human/mannequin/hanger/plastic3D. Absolutely upright Y/Oy axis, yaw only, camera fixed level, no roll/pitch/zoom.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1753024,
+      "sha256": "ee83e282cbb07b079bc6ea9ea5057090a6d22bd52195f87fb6b389d2fc113819",
+      "frames": [
+        {
+          "x": 46,
+          "y": 23,
+          "width": 421,
+          "height": 459
+        },
+        {
+          "x": 54,
+          "y": 23,
+          "width": 391,
+          "height": 462
+        },
+        {
+          "x": 80,
+          "y": 23,
+          "width": 335,
+          "height": 465
+        },
+        {
+          "x": 117,
+          "y": 19,
+          "width": 287,
+          "height": 478
+        },
+        {
+          "x": 137,
+          "y": 19,
+          "width": 250,
+          "height": 478
+        },
+        {
+          "x": 150,
+          "y": 20,
+          "width": 218,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/downtown-bomber/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8c3e0b3f-476e-4f48-a8b5-077a661ede4c.png",
+      "prompt": "Use case: precise-object-edit. Edit target IMAGE1 six-view navy Downtown Bomber atlas, preserve its EXACT six camera poses, full garment shape/material/folds/black ribs/silver zip/ivory background/grid/lighting/scale. Fix ONE identity error: in IMAGE1 the ML chest logo has jumped to the wrong chest side. Reference IMAGE2 is correct original front: embroidered ML belongs on garment wearer's LEFT chest, which is to the RIGHT of center zipper in a frontal image. In ALL six cells of IMAGE1 remove any ML that is on the imageLEFT side of front zipper. Place the same small IVORY interwoven ML at correct wearerLEFT chest, on the imageRIGHT side of zipper, beside the nearer RIGHT sleeve. At extreme270degree profile it may be hidden; reveal it naturally as front comes into view. Keep it SAME small size/vertical height as original image2, follow perspective, never mirror text. Bottom-right almostfront cell MUST have ML clearly RIGHT of zipper as in reference2, never LEFT. No other changes: retain exactly original six opposite-side-to-front views, native1536x1024 3columns2rows, no new poses, no cropping, no rearlogo added tofront, no text labels/borders.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1687464,
+      "sha256": "8658da521eb308a411cf4966d81566d55e81741e6974ab5879487ac6bc15ea2e",
+      "frames": [
+        {
+          "x": 167,
+          "y": 19,
+          "width": 178,
+          "height": 470
+        },
+        {
+          "x": 136,
+          "y": 19,
+          "width": 220,
+          "height": 470
+        },
+        {
+          "x": 105,
+          "y": 20,
+          "width": 257,
+          "height": 469
+        },
+        {
+          "x": 91,
+          "y": 19,
+          "width": 312,
+          "height": 471
+        },
+        {
+          "x": 60,
+          "y": 19,
+          "width": 366,
+          "height": 470
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "width": 429,
+          "height": 459
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 distinct photographic viewpoints reviewed in four six-cell native atlases. Navy body and black ribs consistent. Exact MiloShopHand floral rear wordmark and small ivory ML chest logo contrast. Continuous nominal yaw; natural AI cloth drape differences, no geometry reconstruction.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

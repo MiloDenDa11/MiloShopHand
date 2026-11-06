@@ -1,0 +1,259 @@
+{
+  "slug": "ml-tee-split-panel",
+  "colorKey": "original",
+  "rearInkHex": "#241913",
+  "mode": "built-in image_gen",
+  "status": "ready-for-integration",
+  "source": "/collection-ai/ml-tee-split-panel.png",
+  "columns": 3,
+  "rows": 2,
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "angleStep": 15,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T17:03:45.767Z",
+  "guide": {
+    "sourcePaths": [
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-0.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-1.png",
+      "apps/web/public/collection-spin/ml-tee-pocket-study/original/part-2.png",
+      "apps/web/public/collection-spin/ml-tee-heavy-box/original/part-3.png"
+    ],
+    "role": "Poseonly;identity fromoriginal."
+  },
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "src": "/collection-spin/ml-tee-split-panel/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-93df04eb-8a28-4ae6-ad8c-8ab669305ecd.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copyEXACT0,15,30,45,60,75degreefrontquadrantorientationsanddirection. Replacecharcoalguidewith EXACT Split Panel Basic Tee reference2: camelbrown body #a3876d, cottonjersey relaxedfit droppedshoulder shortsleeves/straighthem, ivory #ede6d4 crewneck/sleevebands. DISTINCT VERTICALCENTER stitchedpanel seam fromcollartohem on FRONTandBACK (samebrown bothpanels,no splitcolors/zipper/buttons). SmallcreamivoryMLinterwovenfrontLEFTchest. Preserveoriginalconstruction/fabric/folds/colors. Rear branding must be darkespresso #241913 forstrongcontrast on camel body, even though frontML stays cream. FrontfirstprogressivelyLEFTprofilelast,NO backprintinfrontquadrant. Verticalcenterpanel seam visible acrossfront,notraglan/zipper. Samegarmentshape/folds/sleevepose/seams/colors/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,nocrossingmidliney572. VerticalYrotationonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonlikeoriginalnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleeachcell.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 36,
+          "y": 36,
+          "width": 414,
+          "height": 438
+        },
+        {
+          "x": 45,
+          "y": 30,
+          "width": 385,
+          "height": 445
+        },
+        {
+          "x": 61,
+          "y": 28,
+          "width": 327,
+          "height": 449
+        },
+        {
+          "x": 119,
+          "y": 17.5,
+          "width": 273,
+          "height": 467
+        },
+        {
+          "x": 101,
+          "y": 17.5,
+          "width": 248,
+          "height": 468
+        },
+        {
+          "x": 96,
+          "y": 17.5,
+          "width": 233,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "src": "/collection-spin/ml-tee-split-panel/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-6fcc5c23-41dc-425a-9051-5863f36387f4.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide,copyEXACT90,105,120,135,150,165orientations trueLEFTprofile to almostBACK;backprintemergesandwidens,no frontviews. Reference2 EXACT Split Panel Basic Tee reference2: camelbrown body #a3876d, cottonjersey relaxedfit droppedshoulder shortsleeves/straighthem, ivory #ede6d4 crewneck/sleevebands. DISTINCT VERTICALCENTER stitchedpanel seam fromcollartohem on FRONTandBACK (samebrown bothpanels,no splitcolors/zipper/buttons). SmallcreamivoryMLinterwovenfrontLEFTchest. Preserveoriginalconstruction/fabric/folds/colors. Rear branding must be darkespresso #241913 forstrongcontrast on camel body, even though frontML stays cream. Reference3 fullfloral M+exactMiloShopHandwordmark printDARKESPRESSO #241913 onupperBACK centeredonCENTERSEAM. IMPORTANTrearlogodarkbrownstrongcontrastNOTivory; frontsmallMLstayscream. Ignoreburgundybackground. Centerbackpanel seam visible belowlogoandthroughprintnaturally,samegarmentconstruction/folds/sleevepose/colourall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 133,
+          "y": 28,
+          "width": 223,
+          "height": 484
+        },
+        {
+          "x": 121,
+          "y": 27,
+          "width": 232,
+          "height": 485
+        },
+        {
+          "x": 92,
+          "y": 29,
+          "width": 269,
+          "height": 483
+        },
+        {
+          "x": 72,
+          "y": 28.5,
+          "width": 331,
+          "height": 487
+        },
+        {
+          "x": 34,
+          "y": 30.5,
+          "width": 378,
+          "height": 486
+        },
+        {
+          "x": 10,
+          "y": 31.5,
+          "width": 419,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "src": "/collection-spin/ml-tee-split-panel/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-7348b883-7daf-4f95-841d-f0b93f6522f3.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguideandgoodlayout,copy EXACT180,195,210,225,240,255orientation trueBACK to nearlyRIGHTprofile. BackprintnarrowsandMOVESLEFTsideimage,nearsleeveRIGHTsideimage,NOfrontviews. Reference2 EXACT Split Panel Basic Tee reference2: camelbrown body #a3876d, cottonjersey relaxedfit droppedshoulder shortsleeves/straighthem, ivory #ede6d4 crewneck/sleevebands. DISTINCT VERTICALCENTER stitchedpanel seam fromcollartohem on FRONTandBACK (samebrown bothpanels,no splitcolors/zipper/buttons). SmallcreamivoryMLinterwovenfrontLEFTchest. Preserveoriginalconstruction/fabric/folds/colors. Rear branding must be darkespresso #241913 forstrongcontrast on camel body, even though frontML stays cream. Reference3floral M+exactMiloShopHandwordmark printDARKESPRESSO #241913 upperBACK centeredonCENTERSEAM,ignoreburgundybackground. IMPORTANTrearinkdarkbrownnotivoryforstrongcontrast;smallMLfrontstayscream. Centerpanel seam runsnecktohem FRONTandBACK,samegarmentconstruction/folds/sleevepose/colourall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger.Copyreference1positions:wholegarmentsinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy625+,hemsbefore1100,no crossingy572midline. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleall6,exactMiloShopHandcapitalM S H,noreversedletters.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 37,
+          "y": 42,
+          "width": 411,
+          "height": 446
+        },
+        {
+          "x": 36,
+          "y": 42,
+          "width": 388,
+          "height": 446
+        },
+        {
+          "x": 55,
+          "y": 38,
+          "width": 343,
+          "height": 452
+        },
+        {
+          "x": 100,
+          "y": 49.5,
+          "width": 307,
+          "height": 463
+        },
+        {
+          "x": 109,
+          "y": 50.5,
+          "width": 250,
+          "height": 463
+        },
+        {
+          "x": 101,
+          "y": 48.5,
+          "width": 236,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "src": "/collection-spin/ml-tee-split-panel/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-01e43061-8c96-43cf-9816-415613d0ba2c.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Reference1ONLY sixPOSEguide:copy EXACT270,285,300,315,330,345orientations trueRIGHTprofileprogressivelyFRONT. Oppositereturnside: nearsleeveopeningLEFTsideimage,MLhiddenfirst2views,MLappearsRIGHTsideimageinlast3views,nevermirrorlogos. Reference2 EXACT Split Panel Basic Tee reference2: camelbrown body #a3876d, cottonjersey relaxedfit droppedshoulder shortsleeves/straighthem, ivory #ede6d4 crewneck/sleevebands. DISTINCT VERTICALCENTER stitchedpanel seam fromcollartohem on FRONTandBACK (samebrown bothpanels,no splitcolors/zipper/buttons). SmallcreamivoryMLinterwovenfrontLEFTchest. Preserveoriginalconstruction/fabric/folds/colors. Rear branding must be darkespresso #241913 forstrongcontrast on camel body, even though frontML stays cream. No backprintinthisfrontreturnquadrant. VERTICALcenterpanel seam runscollartohem FRONTandBACK,no zipper/buttons,smallMLfrontstaysCREAMIVORY. Sameconstruction/folds/sleevepose/colours/shape/logoplaceall6.\nEXACT3columns×2rowsnative1374×1145orsame6:5aspectlarger. Wholegarmentsfullyinsideequalcellsmin40pxclearivorymargin,garmentheight440pxbothrows,bottomcollarsy620+,no crossingmidliney572. VerticalYonly,levelcamera,nopitchroll,constantground/scale. Paleivorysoftstudio,photographiccottonnotplastic/facetedmesh,no person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Fullcollars/sleeves/hemsvisibleeachcell.",
+      "width": 1374,
+      "height": 1145,
+      "cellWidth": 458,
+      "cellHeight": 572.5,
+      "frames": [
+        {
+          "x": 132,
+          "y": 25,
+          "width": 212,
+          "height": 482
+        },
+        {
+          "x": 110,
+          "y": 26,
+          "width": 241,
+          "height": 482
+        },
+        {
+          "x": 85,
+          "y": 27,
+          "width": 276,
+          "height": 481
+        },
+        {
+          "x": 72,
+          "y": 32.5,
+          "width": 327,
+          "height": 476
+        },
+        {
+          "x": 42,
+          "y": 34.5,
+          "width": 373,
+          "height": 473
+        },
+        {
+          "x": 19,
+          "y": 35.5,
+          "width": 415,
+          "height": 470
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews inspected: camel cotton/ivorytrim, stitched verticalcenter panel seam visible frontandback, no splitcolors/zipper. FrontMLcream preserved; rearfloralM+exactMiloShopHand usesdarkespresso forstrongcontrastperuserpriority. UprightfullYturn/oppositeprofile return, fullgarmentsinsidecells.",
+    "limitations": "AI nominal views, not calibrated camera angles."
+  }
+}

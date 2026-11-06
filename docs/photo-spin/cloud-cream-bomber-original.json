@@ -1,0 +1,222 @@
+{
+  "slug": "cloud-cream-bomber",
+  "colorKey": "original",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-06T06:19:54.609Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/original/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8a02f3a7-60eb-4be7-8f7d-35f3bc60f560.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Cloud Cream Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print. Primary color #e8dfcd. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY six CAMERA POSES and layout, NOT its navy garment/color. Make rowmajor0,15,30 /45,60,75degrees, first symmetric FRONT. As yaw increases front zip/center moves IMAGE RIGHT, nearest sleeve IMAGE LEFT, last near LEFTPROFILE with narrow front visible RIGHT. No rearprint visible in this quarter. Keep FRONT ML to RIGHT of centerzip in every visiblefront, same wearer'sLEFT chest. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1622659,
+      "sha256": "8d394eb3683d64682a494b240b18b66b1342dcc136d1cf24b388017fe0422a1f",
+      "frames": [
+        {
+          "x": 37,
+          "y": 37,
+          "width": 438,
+          "height": 433
+        },
+        {
+          "x": 44,
+          "y": 35,
+          "width": 414,
+          "height": 440
+        },
+        {
+          "x": 60,
+          "y": 33,
+          "width": 372,
+          "height": 442
+        },
+        {
+          "x": 92,
+          "y": 28,
+          "width": 313,
+          "height": 459
+        },
+        {
+          "x": 118,
+          "y": 29,
+          "width": 262,
+          "height": 458
+        },
+        {
+          "x": 146,
+          "y": 28,
+          "width": 208,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/original/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-92b71c60-18d0-4736-b9a8-975223510739.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Cloud Cream Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print. Primary color #e8dfcd. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 is preceding0..75 photographic atlas of this SAME garment. IMAGE3 supplies ONLY side-to-back poses. Continue rowmajor90,105,120 /135,150,165degrees. First LEFTPROFILE frontzipedge IMAGE RIGHT, backpanel/logo emerge IMAGE LEFT of nearer sleeve, nearer sleeve IMAGE RIGHT as back rotates towardcamera. Last almostfullBACK. No frontzip/pockets on back; same backlogo gradually revealed with natural foreshortening. For true side logo may be a narrow sliver, not fullface. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1733465,
+      "sha256": "fd187ee6a55ffc609a529ea7e173aa2de23fd9583e2bbf8cb7e5a769168ccc32",
+      "frames": [
+        {
+          "x": 149,
+          "y": 25,
+          "width": 204,
+          "height": 470
+        },
+        {
+          "x": 131,
+          "y": 25,
+          "width": 217,
+          "height": 471
+        },
+        {
+          "x": 111,
+          "y": 27,
+          "width": 243,
+          "height": 469
+        },
+        {
+          "x": 104,
+          "y": 25,
+          "width": 307,
+          "height": 468
+        },
+        {
+          "x": 75,
+          "y": 26,
+          "width": 353,
+          "height": 463
+        },
+        {
+          "x": 43,
+          "y": 26,
+          "width": 403,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/original/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-8726069f-3b78-4141-b851-23bc88712ba8.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Cloud Cream Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print. Primary color #e8dfcd. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 is preceding90..165 atlas of samegarment. IMAGE3 supplies ONLY back-to-oppositeside poses. Continue180,195,210 /225,240,255degrees. First perfectly symmetric BACK, then backpanel+logo move IMAGE RIGHT with nearest sleeve IMAGE LEFT; last near opposite RIGHTPROFILE with narrow back on RIGHTedge. Frontzip/pockets/chestML hidden thisquarter. Backlogo remains correctorientation, no pockets on back. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1753053,
+      "sha256": "62747ec344cc77a33e266a939759ddb1cd87b074b02e718e7c02cf23873e7a29",
+      "frames": [
+        {
+          "x": 40,
+          "y": 25,
+          "width": 440,
+          "height": 443
+        },
+        {
+          "x": 52,
+          "y": 26,
+          "width": 406,
+          "height": 449
+        },
+        {
+          "x": 74,
+          "y": 25,
+          "width": 352,
+          "height": 459
+        },
+        {
+          "x": 100,
+          "y": 23,
+          "width": 303,
+          "height": 468
+        },
+        {
+          "x": 117,
+          "y": 21,
+          "width": 267,
+          "height": 473
+        },
+        {
+          "x": 139,
+          "y": 21,
+          "width": 228,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/original/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1a91f-2b62-7e41-b83e-518c3d9d48f0/exec-70a91b63-46ef-4a96-b299-af8e862da872.png",
+      "prompt": "Use case: product-mockup. Asset: photographic turntable of ONE Cloud Cream Bomber. IMAGE1 is EXACT garment identity FRONT/BACK plate: cream matte nylon, matching cream low rib bomber collar/cuffs/hem, silver front zipper, two vertical welt pockets, relaxed waist-length body, clean sleeves, dark charcoal ML and rear print. Primary color #e8dfcd. Keep all construction, panel colors, collar/rib/fastenings/pockets, materials and proportions exactly like IMAGE1. Small interwoven ML always on wearer'sLEFT chest, IMAGE RIGHT of zipper/center in straightfront. Backart matches plate: highcontrast floralM/hibiscus/leaves with exact wordmark MiloShopHand and floral underline, same size/height/placement, never mirrored. Same natural cloth texture/folds, relaxed hanging sleeves and empty neckline, no human/mannequin/hanger/plastic lowpoly3D. Every cell shows full uncropped garment identical center/scale/groundbaseline/pose/light on uniform warm ivory studio background. Native1536x1024 ONE3columns x2rows atlas EXACTLY6 equal512squarecells, no borders/gutters/numbers/captions. Only yaw around absolutely UPRIGHT verticalY/Oy; fixed LEVEL camera, no pitch/roll/zoom/elevation/shape change. IMAGE2 supplies ONLY opposite-side-to-front poses and correct chestlogo side; do NOTcopy its navy color. IMAGE3 is this garment firstquarter. Continue270,285,300 /315,330,345degrees. First RIGHTPROFILE with frontzipedge IMAGE LEFT and back IMAGE RIGHT, nearer sleeve IMAGE RIGHT. Front emerges IMAGE LEFT of nearest sleeve and zip approachescenter fromLEFT, ending almost FRONT. SamewearerLEFTchestML is to RIGHT of zipper/centerline at all visiblefronts, clearly IMAGE RIGHT of zip in finalcell; NEVER placeML IMAGELEFT of zip. Backart disappears around RIGHTedge, never placedonfront. Oppositepose direction from0..75, not duplicateframes. IMPORTANT logos never jump sides; keep exact MiloShopHand spelling and consistent contrast.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1747354,
+      "sha256": "62bc0bcfa4497f44ad18fad1173481c47abdac658c07ff86efd38fbec0259d77",
+      "frames": [
+        {
+          "x": 161,
+          "y": 18,
+          "width": 183,
+          "height": 472
+        },
+        {
+          "x": 140,
+          "y": 17,
+          "width": 208,
+          "height": 473
+        },
+        {
+          "x": 111,
+          "y": 18,
+          "width": 253,
+          "height": 472
+        },
+        {
+          "x": 104,
+          "y": 17,
+          "width": 319,
+          "height": 471
+        },
+        {
+          "x": 61,
+          "y": 16,
+          "width": 373,
+          "height": 472
+        },
+        {
+          "x": 39,
+          "y": 16,
+          "width": 417,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 native photographic views: consistent colour/construction, front ML wearerLEFT, exact MiloShopHand floral back logo with contrast, upright Y yaw sequence, whole uncropped garments. Natural AI cloth-drape differences remain. Midnight side-quarter was regenerated to correct yaw direction.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

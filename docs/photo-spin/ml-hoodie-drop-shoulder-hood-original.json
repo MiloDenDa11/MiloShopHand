@@ -1,0 +1,264 @@
+{
+  "product": "ml-hoodie-drop-shoulder-hood",
+  "color": "original greige/olive oversized drop-shoulder",
+  "colorHex": "#b5ad99",
+  "tool": "built-in image_gen",
+  "frameCount": 24,
+  "axis": "y",
+  "nominalAngles": true,
+  "sourceReference": "apps/web/public/collection-ai/ml-hoodie-drop-shoulder-hood.png",
+  "brandReference": ".local/floral-logo-alpha-qa.png",
+  "guide": {
+    "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-af4cf1ca-7d1d-48bf-bb78-40f540b4de86.png",
+    "prompt": "Use case: product-mockup. Full24view photographicturntableGUIDE ofEXACTgarmentref1:stonegreige #b5ad99 OVERSIZED fleece PULLOVER hoodie, verywideboxybody and deeplyDROPPEDshoulderseams lowontheupperarms, oversizedlongsleeves, darkolive #3e4b3d ribcuffs/hem/hoodbinding, NOdrawcords NOzipper, kangaroopouch, smalloliveMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Preserveoversizedcut/cloth/colour/pose. Ref2ONLYfloralM+exact\"MiloShopHand\" backbrandindark olive #243022,ignoreburgundybg. EXACT6columns4rows equalcellsnogutters/lines/labels. Row1 0,15,30,45,60,75;row2 90,105,120,135,150,165;row3 180,195,210,225,240,255;row4 270,285,300,315,330,345.0exactfront,6leftprofile,12exactback,18rightprofile. ContinuousclockwiseuprightverticalY fixedlevelcamera no pitchroll. Sameclothfolds/scalegroundall24 uniformivorybgsoftstudio light. Noduplicates/reverse/mirroredlogos ormisspelledtext. Realsoftfleece not3Dplasticmesh no person/mannequin/hanger."
+  },
+  "parts": [
+    {
+      "part": 0,
+      "startFrame": 0,
+      "count": 6,
+      "angles": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-0bf49c40-8d08-4756-a612-8c0e456851ae.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-drop-shoulder-hood/original/part-0.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide extract/redrawONLYROW1frames0..5intoEXACT3columns2rows:0EXACTFRONT,15,30,45frontthreequarter,60,75almostLEFTprofile, distinctsmallclockwisesteps. Ref2original:stonegreige #b5ad99 OVERSIZED fleece PULLOVER hoodie, verywideboxybody and deeplyDROPPEDshoulderseams lowontheupperarms, oversizedlongsleeves, darkolive #3e4b3d ribcuffs/hem/hoodbinding, NOdrawcords NOzipper, kangaroopouch, smalloliveMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Preservedeepdroppedshoulders/wideboxyoversizedbody, nodrawcords,nozipper, samecolour/cut/fleecefolds/scalegroundallcells. OriginaloliveMLfrontnaturallyforeshortens nevermirrored, no backbrandvisibleyet. Fixedlevelcamera strictuprightY no pitchroll, native1536x1280orlarger6:5ratio >=450pxcellwidth,exactequal3x2grid nogutters/lines/labels,5%garmentmargin. Uniformivorybgsoftlight no person/mannequin/hanger or3Dplasticmesh, realsoftcloth.",
+      "sha256": "c0e691e8c05847a46914b5cd645c53bcd703942bf46e84519c0114fbceac4424",
+      "bytes": 2027129,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 51,
+          "y": 19,
+          "width": 408,
+          "height": 454
+        },
+        {
+          "x": 59,
+          "y": 19,
+          "width": 385,
+          "height": 456
+        },
+        {
+          "x": 66,
+          "y": 17,
+          "width": 350,
+          "height": 461
+        },
+        {
+          "x": 119,
+          "y": 14,
+          "width": 296,
+          "height": 471
+        },
+        {
+          "x": 122,
+          "y": 13,
+          "width": 252,
+          "height": 472
+        },
+        {
+          "x": 116,
+          "y": 12,
+          "width": 221,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "startFrame": 6,
+      "count": 6,
+      "angles": [
+        90,
+        105,
+        120,
+        135,
+        150,
+        165
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-83b7bfbd-5a2e-445f-b600-e9e799f7b632.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-drop-shoulder-hood/original/part-1.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW2frames6..11intoEXACT3columns2rows:90trueLEFTPROFILE,105,120,135rearleftthreequarter,150,165nearlyback. Smallclockwiseincrements,nofull180backyet. Ref2original:stonegreige #b5ad99 OVERSIZED fleece PULLOVER hoodie, verywideboxybody and deeplyDROPPEDshoulderseams lowontheupperarms, oversizedlongsleeves, darkolive #3e4b3d ribcuffs/hem/hoodbinding, NOdrawcords NOzipper, kangaroopouch, smalloliveMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Ref3precedingfrontquadrantcontinue75→90samecut/colour/fleecefolds/scaleground. Ref4ONLY floralM+exact\"MiloShopHand\" backbrandindark olive #243022,ignoreburgundybg. Centerupperbackbelowhood logoemergesafterprofilecorrectperspective/occlusion sameplacement/sizeallframesnevermirrored/misspelled. Preserveverywideoversizedboxybody/deepdroppedshoulderseamsandbulkyarms,nodrawcords/nozipper. UprightverticalYfixedlevelcamera no pitchroll uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,exact3x2equalgrid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "6966e113d3f3adbf5c815b222a42ffb5e3756c36dda28ef8e9c6efc17d6f1df3",
+      "bytes": 1931226,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 161,
+          "y": 12,
+          "width": 209,
+          "height": 434
+        },
+        {
+          "x": 134,
+          "y": 12,
+          "width": 221,
+          "height": 432
+        },
+        {
+          "x": 111,
+          "y": 12,
+          "width": 269,
+          "height": 431
+        },
+        {
+          "x": 105,
+          "y": 15,
+          "width": 318,
+          "height": 432
+        },
+        {
+          "x": 72,
+          "y": 15,
+          "width": 352,
+          "height": 432
+        },
+        {
+          "x": 51,
+          "y": 16,
+          "width": 382,
+          "height": 431
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "startFrame": 12,
+      "count": 6,
+      "angles": [
+        180,
+        195,
+        210,
+        225,
+        240,
+        255
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-8228fe0b-a6fa-44f1-a296-0b4f7740f5a6.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-drop-shoulder-hood/original/part-2.png",
+      "prompt": "Use case: product-mockup. SIX-frame highdetailphotographic360atlas. Ref1full24guide redrawONLYROW3frames12..17intoEXACT3columns2rows:180EXACTBACKsymmetric,195,210,225rearoppositethreequarter,240,255almostRIGHTPROFILE. Smallclockwiseincrementsnoduplicate/reverse. Ref2precedingphotodetail:stonegreige #b5ad99 OVERSIZED fleece PULLOVER hoodie, verywideboxybody and deeplyDROPPEDshoulderseams lowontheupperarms, oversizedlongsleeves, darkolive #3e4b3d ribcuffs/hem/hoodbinding, NOdrawcords NOzipper, kangaroopouch, smalloliveMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Ref3ONLYfloralM+exact\"MiloShopHand\" backbrandindark olive #243022,ignoreburgundybg. Matchref2exactlogosize/layout/location/typeface correctperspective/occlusionnevermirror. Preserveverywideoversizedbody/deepdroppedshoulders/bulkyarms/no drawcords, samecolour/cut/fleecefolds/hoodshape/scalegroundallcells. UprightverticalYfixedlevelcamera no pitchroll uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "80ef1c28441e9601c21f58488f41aa225ed6e3275db29fd9ab633dcbc1445b39",
+      "bytes": 1978787,
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 60,
+          "y": 14,
+          "width": 412,
+          "height": 443
+        },
+        {
+          "x": 61,
+          "y": 14,
+          "width": 395,
+          "height": 445
+        },
+        {
+          "x": 84,
+          "y": 15,
+          "width": 332,
+          "height": 444
+        },
+        {
+          "x": 130,
+          "y": 15,
+          "width": 292,
+          "height": 447
+        },
+        {
+          "x": 136,
+          "y": 16,
+          "width": 244,
+          "height": 446
+        },
+        {
+          "x": 129,
+          "y": 16,
+          "width": 220,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "startFrame": 18,
+      "count": 6,
+      "angles": [
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "columns": 3,
+      "rows": 2,
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-05b9-7753-b2c1-cc9aff90eb3e/exec-09646b0a-eeca-4c13-a33e-ff3ff2a4ea25.png",
+      "assetPath": "apps/web/public/collection-spin/ml-hoodie-drop-shoulder-hood/original/part-3.png",
+      "prompt": "Use case: product-mockup. RIGHT-SIDE→FRONT finalSIXframe photo360atlas. Ref1 ONLYauthoritativeSIXPOSES copyorientationEXACT firsthoodbendsLEFT/frontonRIGHT. Replacecharcoalhoodie withEXACTgreigeOVERSIZEDhoodiefromref2:stonegreige #b5ad99 OVERSIZED fleece PULLOVER hoodie, verywideboxybody and deeplyDROPPEDshoulderseams lowontheupperarms, oversizedlongsleeves, darkolive #3e4b3d ribcuffs/hem/hoodbinding, NOdrawcords NOzipper, kangaroopouch, smalloliveMLleftchest, naturalfoldedemptyhood relaxedhangingarms. Ref3preceding255rearquadrantforcontinuity. Ref4frontdetail doNOTcopyitsleftprofile. EXACT3columns2rows rowmajor270trueRIGHTPROFILE(hoodtipLEFT/frontedgeRIGHT),285,300,315,330,345nearfront. FrontemergesRIGHT/backdisappearsLEFT. OliveMLwearer'sleftchest(screenrightfront) nevermirror. Mustpreserveverywideboxybody/deepdroppedshoulderseamsandbulkylongsleeves,nodrawcords/nozipper; samecolour/cut/fleecefolds/scalegroundallcells. Fixedlevelcamera uprightverticalY no pitchroll uniformivorybgsoftlight. Native1536x1280orlarger6:5ratio >=450pxcellwidth,equal3x2grid nogutters/lines/labels,5%garmentmargin,no person/mannequin/hanger or3Dplasticmesh.",
+      "sha256": "1e200cdb767e7489742a23464c91c08b331cb8fe347b0524fbd9bcdbf86b67c2",
+      "bytes": 2021945,
+      "width": 1374,
+      "height": 1145,
+      "frames": [
+        {
+          "x": 118,
+          "y": 22,
+          "width": 223,
+          "height": 498
+        },
+        {
+          "x": 89,
+          "y": 22,
+          "width": 245,
+          "height": 498
+        },
+        {
+          "x": 62,
+          "y": 22,
+          "width": 303,
+          "height": 499
+        },
+        {
+          "x": 59,
+          "y": 22.5,
+          "width": 340,
+          "height": 498
+        },
+        {
+          "x": 22,
+          "y": 22.5,
+          "width": 380,
+          "height": 495
+        },
+        {
+          "x": 3,
+          "y": 21.5,
+          "width": 424,
+          "height": 491
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visuallyReviewedAll24": true,
+    "branding": "OlivefrontML and backfloralM+exactMiloShopHand indark olive #243022.",
+    "loopContinuity": "All24 and75→90/165→180/255→270/345→0 reviewed. Correctoppositesides/uprightY, wideoversizedbody/deepdroppedshoulders/nodrawcords retained. NominalAI angle estimates not optical calibration.",
+    "readyForIntegration": true,
+    "alignmentAnalysis": "Read-only RGB bounds threshold R<230,G<225,B<210, excluding ivory background. Uniform CSS scale/translation only; native AI PNG bytes unchanged."
+  }
+}

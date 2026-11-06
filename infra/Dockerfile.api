@@ -1,0 +1,16 @@
+FROM node:24.14.0-bookworm-slim
+RUN apt-get update && apt-get install -y openssl ca-certificates && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY package*.json ./
+COPY apps/api/package.json apps/api/package.json
+COPY apps/web/package.json apps/web/package.json
+COPY apps/worker/package.json apps/worker/package.json
+COPY packages/shared/package.json packages/shared/package.json
+RUN npm ci --no-audit --no-fund
+COPY . .
+RUN npm run db:generate && npm run build -w @milo/api && npm run build -w @milo/worker
+RUN mkdir -p /app/uploads && chown -R node:node /app
+USER node
+WORKDIR /app/apps/api
+EXPOSE 4000
+CMD ["node", "dist/apps/api/src/main.js"]

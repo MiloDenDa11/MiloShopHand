@@ -1,0 +1,374 @@
+{
+  "slug": "ml-tee-everyday-crew",
+  "colorKey": "white",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-05T16:47:28.786Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/white/part-0.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-524bd39e-22c1-4830-a900-4511f061ba2f.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to WHITE #f8f7f2. All cotton fabric including body, crew neck rib, sleevebands and hem becomes clean neutral offwhite #f8f7f2, NOT cream/beige/yellow or gray; preserve natural folds/shading and clear fabric edges against unchanged warmivory background. Small interwoven ML front logo becomes crisp NEARBLACK #151515. No darkolive neck/sleevebands remain. This is front0..75degree quadrant, no rearprint visible. Preserve ALL six original poses, exact garment shape/proportions, seams, folds, sleeveposition, scale/ground, lighting, photoquality, uprightverticalYaxis,3columns×2rows layout. No pitch/roll, no faceted3D/plastic. Fullgarment insideeachowncell withclear margins, no cross-cellpieces. Nativecanvas>=1374×1145, >=450pixels percell inbothdimensions. No person/mannequin/hanger/borders/gutters/labels/numbers/extratext. Change ONLY fabric and ink colors, keep productidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1605043,
+      "sha256": "960dcf7ab00776600b36f8d905d1dc1a6cfd11953f9ae6e44c256f1a230f84aa",
+      "frames": [
+        {
+          "x": 29,
+          "y": 35,
+          "width": 411,
+          "height": 480
+        },
+        {
+          "x": 50,
+          "y": 31,
+          "width": 372,
+          "height": 485
+        },
+        {
+          "x": 85,
+          "y": 29,
+          "width": 297,
+          "height": 488
+        },
+        {
+          "x": 131,
+          "y": 27.5,
+          "width": 232,
+          "height": 497
+        },
+        {
+          "x": 134,
+          "y": 25.5,
+          "width": 192,
+          "height": 499
+        },
+        {
+          "x": 137,
+          "y": 23.5,
+          "width": 172,
+          "height": 502
+        }
+      ],
+      "autoDetectedFrames": [
+        {
+          "x": 29,
+          "y": 36,
+          "width": 411,
+          "height": 479
+        },
+        {
+          "x": 50,
+          "y": 34,
+          "width": 372,
+          "height": 480
+        },
+        {
+          "x": 86,
+          "y": 34,
+          "width": 296,
+          "height": 482
+        },
+        {
+          "x": 131,
+          "y": 36.5,
+          "width": 232,
+          "height": 488
+        },
+        {
+          "x": 135,
+          "y": 37.5,
+          "width": 191,
+          "height": 487
+        },
+        {
+          "x": 139,
+          "y": 38.5,
+          "width": 170,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/white/part-1.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-45a8abaf-e82e-4fbb-b806-e4d38fcda965.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to WHITE #f8f7f2. All cotton including body, crew neckrib, sleevebands, hem becomes clean neutraloffwhite #f8f7f2, NOTcream/beige/yellow/gray; retain natural folds/shading and clear edges against unchanged warmivorybackground. All visible logos become NEARBLACK #151515: smallfront interwovenMLwherevisible and floral M + exact MiloShopHand BACK wordmark withdecorativeunderline, crisp highcontrast. No darkolive trim remains. This is90..165quadrant, leftprofile turningtowardback; preserveexactly ALL sixposes, geometry/proportions/seams/folds/sleevepose/logosize/place/spelling, scale/ground/light/photographicquality/uprightverticalY and3columns×2rowslayout. No pitchroll/faceted3D/plastic. Fullgarment insideeachowncell withclear margins, no cross-cellpieces. Nativecanvas>=1374×1145and>=450pxpercellbothdimensions. No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters. ChangeONLYclothandinkcolors, keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1707870,
+      "sha256": "6e76625c1869ab51a8ad2e3cff3ee36e58e7a465dff0ca409f5d679e39a0930a",
+      "frames": [
+        {
+          "x": 142,
+          "y": 27,
+          "width": 187,
+          "height": 484
+        },
+        {
+          "x": 115,
+          "y": 27,
+          "width": 200,
+          "height": 483
+        },
+        {
+          "x": 100,
+          "y": 27,
+          "width": 254,
+          "height": 484
+        },
+        {
+          "x": 95,
+          "y": 23.5,
+          "width": 295,
+          "height": 489
+        },
+        {
+          "x": 54,
+          "y": 23.5,
+          "width": 337,
+          "height": 489
+        },
+        {
+          "x": 32,
+          "y": 23.5,
+          "width": 374,
+          "height": 490
+        }
+      ],
+      "autoDetectedFrames": [
+        {
+          "x": 142,
+          "y": 37,
+          "width": 186,
+          "height": 474
+        },
+        {
+          "x": 115,
+          "y": 38,
+          "width": 200,
+          "height": 472
+        },
+        {
+          "x": 101,
+          "y": 83,
+          "width": 253,
+          "height": 428
+        },
+        {
+          "x": 95,
+          "y": 79.5,
+          "width": 295,
+          "height": 433
+        },
+        {
+          "x": 54,
+          "y": 84.5,
+          "width": 337,
+          "height": 428
+        },
+        {
+          "x": 32,
+          "y": 85.5,
+          "width": 374,
+          "height": 428
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/white/part-2.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-f807874e-1145-412e-b09c-fc3ba74286ba.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to WHITE #f8f7f2. All cotton includingbody,crewneckrib,sleevebands,hem becomesclean neutraloffwhite #f8f7f2,NOTcream/beige/yellow/gray; retainnaturalcloth folds/shading andclearedgesagainstUNCHANGEDwarmivorybackground. Allvisiblelogosbecome NEARBLACK #151515: floral M + exact MiloShopHand BACK wordmark includingdecorativeunderline, crisp highcontrast; smallMLfrontwherevisiblealso nearblack. No darkolive trimremains. Thisis180..255BACKtowardRIGHTprofilequadrant. Preserve ALLsixposes/garmentshape/proportions/seams/folds/sleeveposition/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis/3columns×2rowslayout. No pitchroll/faceted3D/plastic. Fullgarment insideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions. No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters. ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1549653,
+      "sha256": "bc37304a6a7496067df99eee7f24f9031cf61847464514a2b6cf3f6bb3994f7f",
+      "frames": [
+        {
+          "x": 39,
+          "y": 35,
+          "width": 404,
+          "height": 477
+        },
+        {
+          "x": 52,
+          "y": 37,
+          "width": 374,
+          "height": 475
+        },
+        {
+          "x": 81,
+          "y": 37,
+          "width": 297,
+          "height": 475
+        },
+        {
+          "x": 131,
+          "y": 33.5,
+          "width": 244,
+          "height": 477
+        },
+        {
+          "x": 124,
+          "y": 31.5,
+          "width": 229,
+          "height": 479
+        },
+        {
+          "x": 128,
+          "y": 31.5,
+          "width": 210,
+          "height": 480
+        }
+      ],
+      "autoDetectedFrames": [
+        {
+          "x": 39,
+          "y": 93,
+          "width": 404,
+          "height": 419
+        },
+        {
+          "x": 52,
+          "y": 98,
+          "width": 374,
+          "height": 414
+        },
+        {
+          "x": 82,
+          "y": 94,
+          "width": 296,
+          "height": 418
+        },
+        {
+          "x": 131,
+          "y": 87.5,
+          "width": 241,
+          "height": 423
+        },
+        {
+          "x": 124,
+          "y": 45.5,
+          "width": 229,
+          "height": 465
+        },
+        {
+          "x": 128,
+          "y": 85.5,
+          "width": 210,
+          "height": 426
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-everyday-crew/white/part-3.png",
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1ab6f-2cb6-7a80-86a1-30cbe4b7478c/exec-b0a604bc-044c-4db7-8cde-42a014c56e9c.png",
+      "prompt": "Use case: precise-object-edit/product-mockup. Recolour ONLY this exact MiloShopHand Everyday Crew Basic Tee six-view photographic atlas to WHITE #f8f7f2. ALLcottonincludingbody,crewneckrib,sleevebands,hem becomesclean neutraloffwhite #f8f7f2,NOTcream/beige/yellow/gray;retainnaturalcloth folds/shadingandclearedges againstUNCHANGEDwarmivorybackground. All visible interwovenMLfrontlogosbecome crispNEARBLACK #151515. Nodarkolive trimremains. Thisis270..345RIGHTprofile returningtowardFRONTquadrant, preserve exactsixposesandoppositesideorientation. Preserve ALLgarmentshape/proportions/seams/folds/sleeveposition/logodesignsizeplace/spelling/scale/ground/light/photoquality/uprightverticalYaxis/3columns×2rowslayout. No pitchroll/faceted3D/plastic. Fullgarment insideeachowncellwithclearmargins,nocross-cellparts.Nativecanvas>=1374×1145and>=450pxpercellbothdimensions.No person/mannequin/hanger/borders/gutters/labels/numbers/newtext/mirroredletters. ChangeONLYfabricandinkcolors,keepidentity.",
+      "width": 1374,
+      "height": 1145,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1570589,
+      "sha256": "c330a39431da2471e3fd9e09a794ebb8b5b3beda9a1eb45f9c926246470d9179",
+      "frames": [
+        {
+          "x": 117,
+          "y": 27,
+          "width": 211,
+          "height": 500
+        },
+        {
+          "x": 113,
+          "y": 27,
+          "width": 226,
+          "height": 500
+        },
+        {
+          "x": 85,
+          "y": 29,
+          "width": 277,
+          "height": 498
+        },
+        {
+          "x": 59,
+          "y": 26.5,
+          "width": 338,
+          "height": 486
+        },
+        {
+          "x": 33,
+          "y": 27.5,
+          "width": 390,
+          "height": 484
+        },
+        {
+          "x": 25,
+          "y": 27.5,
+          "width": 412,
+          "height": 482
+        }
+      ],
+      "autoDetectedFrames": [
+        {
+          "x": 117,
+          "y": 40,
+          "width": 211,
+          "height": 486
+        },
+        {
+          "x": 115,
+          "y": 29,
+          "width": 224,
+          "height": 497
+        },
+        {
+          "x": 85,
+          "y": 30,
+          "width": 277,
+          "height": 495
+        },
+        {
+          "x": 60,
+          "y": 27.5,
+          "width": 337,
+          "height": 484
+        },
+        {
+          "x": 34,
+          "y": 28.5,
+          "width": 389,
+          "height": 483
+        },
+        {
+          "x": 25,
+          "y": 28.5,
+          "width": 412,
+          "height": 481
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "All24 nativeviews visually inspected. Exact originalcloth/folds/seams/poses retained; allfabric including collar and sleevebands neutralwhite, nearblack MLfront and floralM+exactMiloShopHandrear clearly contrast. Complete uprightY sequence, allcollars/sleeves/hems insidecells. Whiteedge/bounds must be rootreviewed beforepromotion.",
+    "alignmentAnalysis": "White-on-ivory threshold excluded low-contrast collar/shoulders in several views. All24 same-canvas precise recolours visually match source poses; use approved original garment bounds for full top edge, union detected lateral/bottom extent to retain any1-2px drift. Auto detected bounds retained for review; native PNGs unchanged. Root approval required."
+  }
+}

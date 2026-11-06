@@ -1,0 +1,227 @@
+{
+  "product": "ml-jacket-utility-zip",
+  "color": "original",
+  "source": "built-in image_gen",
+  "reference": "apps/web/public/collection-ai/ml-jacket-utility-zip.png",
+  "axis": "y",
+  "camera": "fixed-level",
+  "status": "ready",
+  "frameCount": 24,
+  "guide": {
+    "prompt": "Use case: product-mockup. Reference1 exact ML Utility Zip Jacket: slatecharcoalblue canvas body/sleeves, standcollarbeigeedgebinding, beigemettalcenterzip,2chestflappocketswithbeigesnaps,2weltwaistpocketsbeigetrim, eachupperarm2beigetabs, buttoncuffs, beigecontraststitching. Ref2ONLYfloralM+MiloShopHandbrandignorebg. FULL24phototurntableposeguide, samegarment/material/seams/folds/shape/neutralrelaxedsleevepose/scale/groundallviews. FrontsmallivoryinterwovenML, backhighcontrastivoryfloralM+exactMiloShopHand upperbackbelowbackyoke seam. Emptyfloatinggarment nohuman/mannequin/hanger/plastic3D. EXACT6columns x4rows equalcells nogutters/dividers/numbers/labels canvas6:5 warmivorysoftstudiobg. UprightverticalYonlyrotation fixedlevelcamera nopitch/roll. Clockwiserowmajorangles0,15,30,45,60,75;90,105,120,135,150,165;180,195,210,225,240,255;270,285,300,315,330,345. 0frontsymmetric,6leftprofile,12backsymmetric,18rightprofile. Row1frontnarrows no backlogo;row2leftprofiletoback;row3backtooppositeprofile;row4rightprofiletofront. All24distinctsmoothsteps no duplicate/reverse/mirror/no redesign. Wholegarmentwithmargins allcells. Photorealoriginalclothquality.",
+    "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-0a5e00af-b247-4739-a2b6-13e0d5e5fe47.png"
+  },
+  "parts": [
+    {
+      "url": "/collection-spin/ml-jacket-utility-zip/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-674d9f1c-ff02-44fc-ab5a-1e3ad4b32878.png",
+      "startFrame": 0,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide,ref2 originalUtilityZipphotogarment,ref3brand. RedrawONLY FIRSTROW global0..5 guide as3columns x2rows highdetailatlas angles0,15,30 then45,60,75: symmetricFRONT to nearLEFTPROFILE, frontstillvisible NO backlogo. Exactslatecharcoalblue canvas UtilityZipJacket, beigeedgeboundstandcollar, beige/silvercenterzip,2snapflapchestpockets+2beigetrimweltwaistpockets,2beigetabs eachupperarm, snapcuffs, beigecontraststitching, smallivoryMLleftchest. Samegarment/material/folds/neutralrelaxedsleeves/shape/scale/groundall6 no redesign. Originalphotorealclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightverticalYonly fixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudiobg,wholegarmentmargin,no gutters/borders/numbers/labels. Frontquarterturnonly0to75 no mirroredML.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 67,
+          "y": 14,
+          "width": 405,
+          "height": 428
+        },
+        {
+          "x": 73,
+          "y": 14,
+          "width": 374,
+          "height": 429
+        },
+        {
+          "x": 91,
+          "y": 14,
+          "width": 326,
+          "height": 433
+        },
+        {
+          "x": 129,
+          "y": 10,
+          "width": 289,
+          "height": 449
+        },
+        {
+          "x": 138,
+          "y": 9,
+          "width": 246,
+          "height": 450
+        },
+        {
+          "x": 147,
+          "y": 8,
+          "width": 199,
+          "height": 452
+        }
+      ],
+      "sha256": "ff043badb59bd327ee15a1f3e686c79027eac91a19e4fe38e9fb5628ab3940a3",
+      "bytes": 2067750
+    },
+    {
+      "url": "/collection-spin/ml-jacket-utility-zip/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-6d9d5e50-6ade-464b-acb6-4bfff9ab380c.png",
+      "startFrame": 6,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide,ref2originalUtilityZipphotogarment,ref3brand. RedrawONLY SECONDROW global6..11 guide as3columns x2rows6equalcellshighdetailatlas angles90,105,120 then135,150,165. FirsttrueLEFTPROFILE thin side, gradualturntowardBACK, lastalmostBACK15short. Exactslatecharcoalblue canvasUtilityZipJacket beigeedgeboundstandcollar,2beigetabseachupperarm, snapcuffs, beigecontraststitching, horizontalbackyokeseam. Samecloth/folds/neutralrelaxedsleeves/pose/scale/groundall6. BackcontrastingivoryfloralM+exactMiloShopHand upperbackbelowyoke sameprint/placement/size, naturallyforeshortened progressivelyrevealed andnotmirrored. No frontchestpockets visibleexceptatprofileedge. Photorealoriginalclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyrotationfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio no gutters/borders/numbers/labels,wholegarmentmargin. OnlyLEFTPROFILEtonearBACK, notfullturnin6.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 178,
+          "y": 13,
+          "width": 174,
+          "height": 460
+        },
+        {
+          "x": 152,
+          "y": 13,
+          "width": 212,
+          "height": 459
+        },
+        {
+          "x": 114,
+          "y": 14,
+          "width": 258,
+          "height": 456
+        },
+        {
+          "x": 112,
+          "y": 13,
+          "width": 297,
+          "height": 457
+        },
+        {
+          "x": 75,
+          "y": 13,
+          "width": 344,
+          "height": 456
+        },
+        {
+          "x": 58,
+          "y": 13,
+          "width": 387,
+          "height": 455
+        }
+      ],
+      "sha256": "b04fe08b3305ce50330007c20d5a70aa2cba396dd576d882b9f63fc038b58064",
+      "bytes": 2008041
+    },
+    {
+      "url": "/collection-spin/ml-jacket-utility-zip/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-360c55fe-6d80-496a-a394-462ce7311065.png",
+      "startFrame": 12,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Use case: precise-object-edit/product-mockup. Ref1full24turntableguide,ref2originalUtilityZipphotogarment,ref3brand. RedrawONLY THIRDROW global12..17 guide as3columns x2rows6equalcellshighdetailatlas angles180,195,210 then225,240,255. FirstsymmetricBACK graduallyturnclockwise toOPPOSITE/rightprofile lastnearrightprofilebackstillvisible. Exactslatecharcoalblue canvasUtilityZipJacket beigeedgeboundstandcollar,2beigetabseachupperarm, snapcuffs, beigecontraststitching, horizontalbackyokeseam. Samecloth/folds/neutralrelaxedsleeves/pose/scale/groundall6. BackcontrastingivoryfloralM+exactMiloShopHand upperbackbelowyoke sameprint/placement/size, naturallyforeshortened andnotmirrored. No frontchestpockets orfrontzip visibleinthese6. Photorealoriginalclothqualityemptyfloatinggarment nohuman/mannequin/hanger/plastic3D. UprightYonlyrotationfixedlevelcamera nopitch/roll. Canvas1536x1024,512squarecellsivorysoftstudio no gutters/borders/numbers/labels,wholegarmentmargin. OnlyBACKtowardoppositeRIGHTPROFILE notfrontorleftside.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 59,
+          "y": 22,
+          "width": 395,
+          "height": 425
+        },
+        {
+          "x": 71,
+          "y": 21,
+          "width": 379,
+          "height": 430
+        },
+        {
+          "x": 105,
+          "y": 21,
+          "width": 322,
+          "height": 436
+        },
+        {
+          "x": 139,
+          "y": 19,
+          "width": 280,
+          "height": 443
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 229,
+          "height": 448
+        },
+        {
+          "x": 150,
+          "y": 16,
+          "width": 193,
+          "height": 451
+        }
+      ],
+      "sha256": "a6830a1fdbb63ee56426013322ca17df07ba5437ef62ea4a4eee500de056e375",
+      "bytes": 1984626
+    },
+    {
+      "url": "/collection-spin/ml-jacket-utility-zip/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1ab6f-5527-7fe2-80a7-4d7c22879d7b\\exec-b5566afa-cd4f-4e2a-b4b6-1b0ed7e064eb.png",
+      "startFrame": 18,
+      "count": 6,
+      "columns": 3,
+      "rows": 2,
+      "prompt": "Precise object edit. Target reference1 is WRONG ROTATION DIRECTION for final quarter. Fix the garment pose in ALL6cells to OPPOSITE SIDE while preserving legible unmirrored lettering/details. Need3columns x2rows clockwise270,285,300 /315,330,345 degrees. Everycell: broad nearest sleeve and blank SIDE PANEL must be on IMAGE RIGHT. FRONT PANEL must face toward IMAGE LEFT. CENTRAL BEIGE ZIP MUST LIE LEFT OF THE GARMENT CENTERLINE in frames285..330, NOT right. Small ML is onthe far/frontchest visible on imageLEFT ofblanknearestsleeve, legible no mirroredtext. Frame270trueRIGHTPROFILE(frontzipedgeonLEFT),285narrowfrontLEFT,300morefrontLEFT,315frontLEFT3quarter,330nearlyfrontLEFT15?345nearfront. Reference2 originalidentity ONLY. This is not firstquarterreturningbackwards: physicallyrotate toopposite side, mirrorposebutREDRAWtextcorrectly. SlatecharcoalblueUtilityZipcanvasjacket same2beigetabsupperarm/chestflappockets/zipweltpockets/standcollarbeigebinding/snapcuffs/material/neutralpose/scale/ground. No backprint. Originalphotorealclothquality, uprightYonlyfixedlevelcamera no pitch/roll. Canvas1536x1024,512squarecells, warmivorysoftstudio nohuman/mannequin/hanger/plastic/numbers/labels/gutters. Wholegarmentfullyvisiblewithmargins.",
+      "width": 1536,
+      "height": 1024,
+      "frames": [
+        {
+          "x": 181,
+          "y": 16,
+          "width": 165,
+          "height": 445
+        },
+        {
+          "x": 158,
+          "y": 16,
+          "width": 188,
+          "height": 445
+        },
+        {
+          "x": 126,
+          "y": 16,
+          "width": 226,
+          "height": 445
+        },
+        {
+          "x": 111,
+          "y": 14,
+          "width": 286,
+          "height": 448
+        },
+        {
+          "x": 82,
+          "y": 14,
+          "width": 329,
+          "height": 446
+        },
+        {
+          "x": 44,
+          "y": 14,
+          "width": 372,
+          "height": 445
+        }
+      ],
+      "sha256": "17b0f4a8055eaffe126216032223f026aa766211429b4262fa631ea3b4c34794",
+      "bytes": 1876876
+    }
+  ],
+  "qa": {
+    "reviewedAt": "2026-11-05T11:50:08.095Z",
+    "sequence": "All24 visually reviewed front→leftside→back→rightside→front; locked upright Y, fixed level camera.",
+    "brand": "Contrasting ivory ML front, floral M + exact MiloShopHand wordmark back; visual spelling review on face-on rear.",
+    "limitations": "AI-generated nominal15degree increments, not optically calibrated; slight fold/framing differences remain. Bounds normalize scale/ground.",
+    "bboxMethod": "Read-only segmentation of dark garment vs ivory background,2px padding. Native PNG bytes copied unchanged."
+  }
+}
