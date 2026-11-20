@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-zip-arm",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:58:31.474Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-afbf6b5c-8294-422e-a7f3-c0c27afc07db.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1857044,
+      "sha256": "0ba326efa70f0371a847f8f4ec129f1d2df4dd79d6e021d326cf2722c12fedf9",
+      "frames": [
+        {
+          "x": 49,
+          "y": 24,
+          "width": 415,
+          "height": 440
+        },
+        {
+          "x": 62,
+          "y": 22,
+          "width": 396,
+          "height": 453
+        },
+        {
+          "x": 85,
+          "y": 21,
+          "width": 346,
+          "height": 459
+        },
+        {
+          "x": 119,
+          "y": 15,
+          "width": 290,
+          "height": 473
+        },
+        {
+          "x": 152,
+          "y": 14,
+          "width": 224,
+          "height": 475
+        },
+        {
+          "x": 176,
+          "y": 14,
+          "width": 179,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-08f4b3a1-7c3f-424e-8093-b040e89e7392.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1734293,
+      "sha256": "7df2a65cbb8682dc510205895ec069630525d903ef8a42289bb56ce033d14295",
+      "frames": [
+        {
+          "x": 160,
+          "y": 20,
+          "width": 192,
+          "height": 473
+        },
+        {
+          "x": 149,
+          "y": 20,
+          "width": 215,
+          "height": 473
+        },
+        {
+          "x": 145,
+          "y": 20,
+          "width": 230,
+          "height": 471
+        },
+        {
+          "x": 120,
+          "y": 86,
+          "width": 271,
+          "height": 405
+        },
+        {
+          "x": 95,
+          "y": 85,
+          "width": 316,
+          "height": 404
+        },
+        {
+          "x": 73,
+          "y": 90,
+          "width": 366,
+          "height": 396
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-dd594895-638d-4af1-9d29-04d2b5d21c5a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1815751,
+      "sha256": "b5a77b9c92329b27b131f01d51821bc665148c0a6a0c7867e6ca1709be40b26b",
+      "frames": [
+        {
+          "x": 41,
+          "y": 23,
+          "width": 435,
+          "height": 437
+        },
+        {
+          "x": 60,
+          "y": 22,
+          "width": 398,
+          "height": 449
+        },
+        {
+          "x": 85,
+          "y": 22,
+          "width": 346,
+          "height": 455
+        },
+        {
+          "x": 133,
+          "y": 20,
+          "width": 270,
+          "height": 467
+        },
+        {
+          "x": 151,
+          "y": 20,
+          "width": 218,
+          "height": 468
+        },
+        {
+          "x": 146,
+          "y": 20,
+          "width": 213,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-028d6f1a-3a20-422b-a40e-ccfaa0dac00d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1792682,
+      "sha256": "901bc6200ffeaebf87bbf93658deb184b1ad37f404ec0e1c906dc1dae4d5ad29",
+      "frames": [
+        {
+          "x": 175,
+          "y": 20,
+          "width": 179,
+          "height": 475
+        },
+        {
+          "x": 146,
+          "y": 20,
+          "width": 220,
+          "height": 474
+        },
+        {
+          "x": 108,
+          "y": 21,
+          "width": 281,
+          "height": 473
+        },
+        {
+          "x": 93,
+          "y": 18,
+          "width": 337,
+          "height": 472
+        },
+        {
+          "x": 71,
+          "y": 18,
+          "width": 376,
+          "height": 470
+        },
+        {
+          "x": 50,
+          "y": 18,
+          "width": 409,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: warm white nylon with pale coordinated ribbing, silver front/sleeve zippers and charcoal brand text. Utility pocket shape, stitched webbing and hip snaps remain consistent in front, profiles and rear; all garments fit their cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-denim-work",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:40:42.775Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-denim-work/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ebdea716-e984-48ab-af3b-e37e91bde65d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Denim Work Jacket, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Denim, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nDENIM WORK construction: keep true washed denim twill grain and faded raised seams, two rectangular elbow reinforcement patches, four riveted patch pockets with narrow cream bound mouths (two chest and two lower), cream point collar, brass buttons and rivets. Target-colour denim includes sleeves, elbow patches, cuffs and hem; no remaining blue denim on non-blue target variants. Preserve contrast tan topstitching, small ML on left chest pocket and floral MiloShopHand rear mark under shoulder yoke.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2135793,
+      "sha256": "5b3a5108ddce683724ec3c69098713d62eff30aab85c7e386aeeed179b95bef7",
+      "frames": [
+        {
+          "x": 85,
+          "y": 17,
+          "width": 402,
+          "height": 425
+        },
+        {
+          "x": 78,
+          "y": 16,
+          "width": 363,
+          "height": 428
+        },
+        {
+          "x": 63,
+          "y": 16,
+          "width": 332,
+          "height": 433
+        },
+        {
+          "x": 143,
+          "y": 3,
+          "width": 299,
+          "height": 453
+        },
+        {
+          "x": 145,
+          "y": 3,
+          "width": 252,
+          "height": 455
+        },
+        {
+          "x": 122,
+          "y": 3,
+          "width": 199,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-denim-work/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-518e1f39-201a-4441-aca9-e85ca4e60226.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Denim Work Jacket, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Denim, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nDENIM WORK construction: keep true washed denim twill grain and faded raised seams, two rectangular elbow reinforcement patches, four riveted patch pockets with narrow cream bound mouths (two chest and two lower), cream point collar, brass buttons and rivets. Target-colour denim includes sleeves, elbow patches, cuffs and hem; no remaining blue denim on non-blue target variants. Preserve contrast tan topstitching, small ML on left chest pocket and floral MiloShopHand rear mark under shoulder yoke.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1961163,
+      "sha256": "08c93a7e63f8b300977ac692486b1a51b26c41f6317452d17dc40908093f0b20",
+      "frames": [
+        {
+          "x": 181,
+          "y": 15,
+          "width": 183,
+          "height": 433
+        },
+        {
+          "x": 146,
+          "y": 17,
+          "width": 192,
+          "height": 431
+        },
+        {
+          "x": 138,
+          "y": 18,
+          "width": 217,
+          "height": 429
+        },
+        {
+          "x": 154,
+          "y": 16,
+          "width": 261,
+          "height": 441
+        },
+        {
+          "x": 104,
+          "y": 17,
+          "width": 309,
+          "height": 439
+        },
+        {
+          "x": 59,
+          "y": 16,
+          "width": 369,
+          "height": 437
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-denim-work/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ab3976bd-e2a4-4a25-b248-4bc19ef95414.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Denim Work Jacket, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Denim, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nDENIM WORK construction: keep true washed denim twill grain and faded raised seams, two rectangular elbow reinforcement patches, four riveted patch pockets with narrow cream bound mouths (two chest and two lower), cream point collar, brass buttons and rivets. Target-colour denim includes sleeves, elbow patches, cuffs and hem; no remaining blue denim on non-blue target variants. Preserve contrast tan topstitching, small ML on left chest pocket and floral MiloShopHand rear mark under shoulder yoke.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1994517,
+      "sha256": "021e157b759853aeb5e1743b6ca6cc3e9c474527af24a368108bdd7287d4a77f",
+      "frames": [
+        {
+          "x": 64,
+          "y": 14,
+          "width": 421,
+          "height": 451
+        },
+        {
+          "x": 65,
+          "y": 14,
+          "width": 380,
+          "height": 454
+        },
+        {
+          "x": 64,
+          "y": 15,
+          "width": 342,
+          "height": 459
+        },
+        {
+          "x": 109,
+          "y": 5,
+          "width": 308,
+          "height": 473
+        },
+        {
+          "x": 113,
+          "y": 5,
+          "width": 289,
+          "height": 474
+        },
+        {
+          "x": 121,
+          "y": 3,
+          "width": 264,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-denim-work/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ec1be0d5-57b3-403d-81b1-75996ca6dc0d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Denim Work Jacket, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Denim, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nDENIM WORK construction: keep true washed denim twill grain and faded raised seams, two rectangular elbow reinforcement patches, four riveted patch pockets with narrow cream bound mouths (two chest and two lower), cream point collar, brass buttons and rivets. Target-colour denim includes sleeves, elbow patches, cuffs and hem; no remaining blue denim on non-blue target variants. Preserve contrast tan topstitching, small ML on left chest pocket and floral MiloShopHand rear mark under shoulder yoke.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2019392,
+      "sha256": "e721904a508036ea20285ac998f7379cd0bc6b0c5341b6e3cbd125890ba4ee16",
+      "frames": [
+        {
+          "x": 185,
+          "y": 16,
+          "width": 185,
+          "height": 450
+        },
+        {
+          "x": 155,
+          "y": 17,
+          "width": 216,
+          "height": 450
+        },
+        {
+          "x": 117,
+          "y": 18,
+          "width": 267,
+          "height": 449
+        },
+        {
+          "x": 111,
+          "y": 15,
+          "width": 314,
+          "height": 458
+        },
+        {
+          "x": 71,
+          "y": 15,
+          "width": 360,
+          "height": 459
+        },
+        {
+          "x": 49,
+          "y": 17,
+          "width": 401,
+          "height": 454
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 nominal views for target #f8f7f2. Checked full contact boards and re-opened all three native part-3 atlases to confirm cream pocket-mouth bindings remain present even where small in the review board. Washed dyed-denim texture, contrast tan topstitching, four riveted patch pockets, cream collar, denim button cuffs and elbow reinforcements match the design. Chest ML and floral MiloShopHand rear emblem remain correctly placed, naturally occluded and fully framed.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

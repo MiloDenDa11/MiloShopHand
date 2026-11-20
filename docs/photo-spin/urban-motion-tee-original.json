@@ -1,0 +1,222 @@
+{
+  "slug": "urban-motion-tee",
+  "colorKey": "original",
+  "colorHex": "#b6a4d4",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:54:43.436Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/urban-motion-tee/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0d97c82e-4897-4c0d-85dd-62006f7d4839.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Urban Motion Tee, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple oversized boxy dropped shoulder tee, dark chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1629203,
+      "sha256": "3cc80cd432866dea3e1790ecaa96dc56082d811d4832949d39242a9409024b7d",
+      "frames": [
+        {
+          "x": 46,
+          "y": 25,
+          "width": 423,
+          "height": 451
+        },
+        {
+          "x": 58,
+          "y": 23,
+          "width": 391,
+          "height": 455
+        },
+        {
+          "x": 81,
+          "y": 22,
+          "width": 337,
+          "height": 457
+        },
+        {
+          "x": 129,
+          "y": 18,
+          "width": 269,
+          "height": 470
+        },
+        {
+          "x": 154,
+          "y": 18,
+          "width": 214,
+          "height": 472
+        },
+        {
+          "x": 156,
+          "y": 18,
+          "width": 205,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/urban-motion-tee/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-dcfe19bf-4b51-4703-b506-24919962caa3.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Urban Motion Tee, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple oversized boxy dropped shoulder tee, dark chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1895353,
+      "sha256": "26fff53544602c7c0a7663c5b673b3d0a19cbc8191c3ff9f19ed5977a0c5fc99",
+      "frames": [
+        {
+          "x": 168,
+          "y": 20,
+          "width": 180,
+          "height": 474
+        },
+        {
+          "x": 144,
+          "y": 18,
+          "width": 208,
+          "height": 476
+        },
+        {
+          "x": 138,
+          "y": 65,
+          "width": 229,
+          "height": 429
+        },
+        {
+          "x": 117,
+          "y": 62,
+          "width": 285,
+          "height": 433
+        },
+        {
+          "x": 88,
+          "y": 17,
+          "width": 336,
+          "height": 478
+        },
+        {
+          "x": 50,
+          "y": 18,
+          "width": 412,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/urban-motion-tee/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4ba04e76-7c37-494c-874f-3d549c25e86d.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Urban Motion Tee, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple oversized boxy dropped shoulder tee, dark chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1742262,
+      "sha256": "d2938711304958a983506c970c3d337509b0f4eeabe1426ecde8b734d1a717f4",
+      "frames": [
+        {
+          "x": 44,
+          "y": 26,
+          "width": 427,
+          "height": 458
+        },
+        {
+          "x": 56,
+          "y": 26,
+          "width": 402,
+          "height": 456
+        },
+        {
+          "x": 90,
+          "y": 25,
+          "width": 321,
+          "height": 458
+        },
+        {
+          "x": 133,
+          "y": 21,
+          "width": 256,
+          "height": 463
+        },
+        {
+          "x": 146,
+          "y": 20,
+          "width": 221,
+          "height": 465
+        },
+        {
+          "x": 157,
+          "y": 21,
+          "width": 199,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/urban-motion-tee/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6d8084ef-b7bd-4922-a9ce-ada0271b1cb3.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Urban Motion Tee, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple oversized boxy dropped shoulder tee, dark chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1954818,
+      "sha256": "aad822e5734812d8d7ceef97dca6a5e9a102b0728cd56eecc48552fbdbeb107b",
+      "frames": [
+        {
+          "x": 176,
+          "y": 17,
+          "width": 166,
+          "height": 474
+        },
+        {
+          "x": 148,
+          "y": 17,
+          "width": 210,
+          "height": 472
+        },
+        {
+          "x": 116,
+          "y": 18,
+          "width": 265,
+          "height": 473
+        },
+        {
+          "x": 91,
+          "y": 19,
+          "width": 329,
+          "height": 470
+        },
+        {
+          "x": 62,
+          "y": 20,
+          "width": 383,
+          "height": 469
+        },
+        {
+          "x": 40,
+          "y": 21,
+          "width": 430,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

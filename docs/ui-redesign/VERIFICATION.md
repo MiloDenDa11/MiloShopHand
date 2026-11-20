@@ -1,5 +1,7 @@
 # Xác minh UI/UX — 05/11/2026
 
+> Từ 19/11/2026, Admin đăng nhập bằng email/mật khẩu và vai trò ADMIN, không yêu cầu MFA. Xem [cập nhật xác thực](../ADMIN-AUTH.md); kết quả MFA bên dưới thuộc mốc lịch sử.
+
 Giao diện đã đồng bộ sang `C:\Users\LOQ\OneDrive\Desktop\MiloShopHand`. Đã chạy lại Chromium/Playwright **9/9 đạt** với frontend 3100, API 4100, worker, database `milo_redesign_test` trên PostgreSQL Docker 5432 và Redis DB 2. Integration **16/16 đạt** trên database riêng và Redis DB 1. Xem [báo cáo chuyển Docker](../DOCKER-SYNC.md).
 
 Bảng dưới ghi nhận lần xác minh UI ban đầu ở ổ D, khi PostgreSQL QA dùng cổng 5433. Không gọi nhà cung cấp thanh toán/vận chuyển thật.

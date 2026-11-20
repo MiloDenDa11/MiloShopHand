@@ -1,0 +1,222 @@
+{
+  "slug": "city-runner-jacket",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T06:07:01.032Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/city-runner-jacket/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3cd90277-a628-45dc-bb94-8af577f0a29b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, City Runner Jacket, Đen #151515, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1586879,
+      "sha256": "8fd6ec4744d3396620e871c4f13614acea62b1d5e34e9b31039c60e74114bd03",
+      "frames": [
+        {
+          "x": 51,
+          "y": 18,
+          "width": 417,
+          "height": 458
+        },
+        {
+          "x": 57,
+          "y": 18,
+          "width": 396,
+          "height": 459
+        },
+        {
+          "x": 81,
+          "y": 18,
+          "width": 339,
+          "height": 454
+        },
+        {
+          "x": 128,
+          "y": 12,
+          "width": 279,
+          "height": 457
+        },
+        {
+          "x": 147,
+          "y": 10,
+          "width": 223,
+          "height": 461
+        },
+        {
+          "x": 162,
+          "y": 8,
+          "width": 192,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/city-runner-jacket/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f42f866a-9d47-43dd-a39c-fa54314b0283.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, City Runner Jacket, Đen #151515, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1640900,
+      "sha256": "a01b6cbaab05eadcf55cd0b0457d39f4097b3a8aa1839644893ef74a9b31ffcf",
+      "frames": [
+        {
+          "x": 162,
+          "y": 19,
+          "width": 201,
+          "height": 467
+        },
+        {
+          "x": 143,
+          "y": 19,
+          "width": 225,
+          "height": 466
+        },
+        {
+          "x": 121,
+          "y": 19,
+          "width": 268,
+          "height": 466
+        },
+        {
+          "x": 100,
+          "y": 16,
+          "width": 335,
+          "height": 467
+        },
+        {
+          "x": 70,
+          "y": 16,
+          "width": 372,
+          "height": 463
+        },
+        {
+          "x": 42,
+          "y": 16,
+          "width": 421,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/city-runner-jacket/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2f94ec60-fa92-41cd-b96c-c99fb1455366.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, City Runner Jacket, Đen #151515, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1619974,
+      "sha256": "e2557ffb377e2f89248c1c7d0f93e4bc4fb5660396436ca5f911041868bfc263",
+      "frames": [
+        {
+          "x": 48,
+          "y": 16,
+          "width": 439,
+          "height": 459
+        },
+        {
+          "x": 58,
+          "y": 16,
+          "width": 405,
+          "height": 454
+        },
+        {
+          "x": 79,
+          "y": 16,
+          "width": 345,
+          "height": 454
+        },
+        {
+          "x": 131,
+          "y": 11,
+          "width": 275,
+          "height": 464
+        },
+        {
+          "x": 143,
+          "y": 11,
+          "width": 228,
+          "height": 466
+        },
+        {
+          "x": 144,
+          "y": 11,
+          "width": 212,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/city-runner-jacket/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-111fd7a0-6f7a-4504-a2c3-00c98e8dcd6c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, City Runner Jacket, Đen #151515, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1529988,
+      "sha256": "c72bd4b87595aafb8ff4de6ff800f9904e43effdef76152d2a2e3dec426f85bc",
+      "frames": [
+        {
+          "x": 163,
+          "y": 18,
+          "width": 180,
+          "height": 460
+        },
+        {
+          "x": 139,
+          "y": 18,
+          "width": 230,
+          "height": 455
+        },
+        {
+          "x": 107,
+          "y": 18,
+          "width": 289,
+          "height": 455
+        },
+        {
+          "x": 95,
+          "y": 16,
+          "width": 337,
+          "height": 450
+        },
+        {
+          "x": 70,
+          "y": 16,
+          "width": 376,
+          "height": 454
+        },
+        {
+          "x": 43,
+          "y": 16,
+          "width": 421,
+          "height": 460
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 views and contact sheet: Đen #151515 fabric has natural even shading, complete garment edges, intact single chest ML and clean source back branding. Pockets, closures and contrast trim remain coherent around the full front/left/back/right sequence; no ghost fragments or runtime tint. ",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "sunday-club-tee",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T07:50:34.590Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/sunday-club-tee/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-5c09c588-8a3a-434d-b9a2-11ded091f77d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sunday Club Tee, Đỏ mận #722f37, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1857660,
+      "sha256": "145d296e29bec6183314dd36b643e678239696d3d10472a21b68978a7546752b",
+      "frames": [
+        {
+          "x": 46,
+          "y": 27,
+          "width": 434,
+          "height": 458
+        },
+        {
+          "x": 54,
+          "y": 25,
+          "width": 403,
+          "height": 460
+        },
+        {
+          "x": 72,
+          "y": 21,
+          "width": 359,
+          "height": 465
+        },
+        {
+          "x": 127,
+          "y": 19,
+          "width": 282,
+          "height": 470
+        },
+        {
+          "x": 143,
+          "y": 17,
+          "width": 220,
+          "height": 473
+        },
+        {
+          "x": 148,
+          "y": 17,
+          "width": 199,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/sunday-club-tee/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-481862a5-3111-4d6c-b0f9-ce17a6a55265.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sunday Club Tee, Đỏ mận #722f37, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1805425,
+      "sha256": "660bf656d2546564a8b779803ce441339685cfe7f7089bbf8a6f8e314106fe1e",
+      "frames": [
+        {
+          "x": 170,
+          "y": 22,
+          "width": 183,
+          "height": 467
+        },
+        {
+          "x": 158,
+          "y": 21,
+          "width": 195,
+          "height": 469
+        },
+        {
+          "x": 143,
+          "y": 21,
+          "width": 221,
+          "height": 469
+        },
+        {
+          "x": 110,
+          "y": 22,
+          "width": 295,
+          "height": 469
+        },
+        {
+          "x": 83,
+          "y": 22,
+          "width": 347,
+          "height": 468
+        },
+        {
+          "x": 61,
+          "y": 23,
+          "width": 396,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/sunday-club-tee/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3449e7d6-8543-45b3-b9f6-9be5b3319780.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sunday Club Tee, Đỏ mận #722f37, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1807055,
+      "sha256": "d994c4fd569523378f8a118cb87803a85560590c2f4d64693a73ec4a46b4ba80",
+      "frames": [
+        {
+          "x": 49,
+          "y": 25,
+          "width": 420,
+          "height": 465
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 376,
+          "height": 465
+        },
+        {
+          "x": 95,
+          "y": 23,
+          "width": 309,
+          "height": 466
+        },
+        {
+          "x": 143,
+          "y": 22,
+          "width": 236,
+          "height": 468
+        },
+        {
+          "x": 162,
+          "y": 21,
+          "width": 206,
+          "height": 470
+        },
+        {
+          "x": 161,
+          "y": 21,
+          "width": 197,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/sunday-club-tee/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c8d60be6-d0eb-4fd8-a043-577eded1fc1e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sunday Club Tee, Đỏ mận #722f37, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1786649,
+      "sha256": "693b3855539dd0c81d0461a0958e8d748fc564f7aeb5946fe17a9ddd9a46a157",
+      "frames": [
+        {
+          "x": 177,
+          "y": 18,
+          "width": 173,
+          "height": 473
+        },
+        {
+          "x": 152,
+          "y": 19,
+          "width": 202,
+          "height": 472
+        },
+        {
+          "x": 112,
+          "y": 22,
+          "width": 278,
+          "height": 468
+        },
+        {
+          "x": 86,
+          "y": 21,
+          "width": 340,
+          "height": 468
+        },
+        {
+          "x": 64,
+          "y": 21,
+          "width": 384,
+          "height": 468
+        },
+        {
+          "x": 47,
+          "y": 22,
+          "width": 418,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all24 native views on the full contact sheet: consistent burgundy fabric, readable single chest monogram and clean back print, preserved collars, side slits, seam panels and piping, correct front/left/back/right rotation; no fragmented extra marks, colour halos or clipping.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

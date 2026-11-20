@@ -1,0 +1,222 @@
+{
+  "slug": "airy-cotton-tee",
+  "colorKey": "original",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:10.083Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-957c6199-14f8-4103-9eaf-df7546140586.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Airy Cotton Tee. Preserve the EXACT physical garment and colour #34465b, Cotton 100% định lượng cao, Relaxed fit; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"straight\",\"panel\":\"none\",\"collar\":\"crew\",\"sleeve\":\"short\",\"stripe\":false,\"zipper\":false,\"pockets\":\"none\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 0,15,30,45,60,75 degrees: exact FRONT first, gradually turn the garment's FRONT towards the LEFT of each image, ending almost LEFT-FACING PROFILE. Front chest ML gradually foreshortens. No back artwork visible. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1833007,
+      "sha256": "4204fcbfdb5f1c6fd6f2bb4097a6d0ea2cabdc118836cce6c536813fab04c761",
+      "frames": [
+        {
+          "x": 60,
+          "y": 24,
+          "width": 401,
+          "height": 431
+        },
+        {
+          "x": 74,
+          "y": 22,
+          "width": 371,
+          "height": 434
+        },
+        {
+          "x": 99,
+          "y": 20,
+          "width": 309,
+          "height": 437
+        },
+        {
+          "x": 152,
+          "y": 17,
+          "width": 244,
+          "height": 445
+        },
+        {
+          "x": 160,
+          "y": 16,
+          "width": 197,
+          "height": 447
+        },
+        {
+          "x": 168,
+          "y": 16,
+          "width": 178,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e34f57f7-a5d8-4163-94ef-13d709dd5e73.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Airy Cotton Tee. Preserve the EXACT physical garment and colour #34465b, Cotton 100% định lượng cao, Relaxed fit; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"straight\",\"panel\":\"none\",\"collar\":\"crew\",\"sleeve\":\"short\",\"stripe\":false,\"zipper\":false,\"pockets\":\"none\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 90,105,120,135,150,165 degrees: start pure LEFT-FACING PROFILE (front opening/neck points LEFT, back points RIGHT), gradually turn to almost BACK. Front ML is hidden. Back artwork gradually appears. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1716640,
+      "sha256": "6a525f215515130a32068289ec66d5f817c49e761b44f74269cc8f0ac39f2d52",
+      "frames": [
+        {
+          "x": 165,
+          "y": 20,
+          "width": 188,
+          "height": 475
+        },
+        {
+          "x": 153,
+          "y": 19,
+          "width": 214,
+          "height": 476
+        },
+        {
+          "x": 127,
+          "y": 19,
+          "width": 247,
+          "height": 476
+        },
+        {
+          "x": 107,
+          "y": 18,
+          "width": 300,
+          "height": 477
+        },
+        {
+          "x": 84,
+          "y": 19,
+          "width": 341,
+          "height": 475
+        },
+        {
+          "x": 55,
+          "y": 21,
+          "width": 403,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-edc87ce2-1508-4d37-ade4-3fc40dea99b8.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Airy Cotton Tee. Preserve the EXACT physical garment and colour #34465b, Cotton 100% định lượng cao, Relaxed fit; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"straight\",\"panel\":\"none\",\"collar\":\"crew\",\"sleeve\":\"short\",\"stripe\":false,\"zipper\":false,\"pockets\":\"none\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 180,195,210,225,240,255 degrees: exact BACK first, gradually turn from the back towards RIGHT-FACING PROFILE (front opening/neck ends pointing RIGHT). Back artwork progressively foreshortens. No chest ML. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1773584,
+      "sha256": "af839ec56c20751e042151665b6c11884d89436b3678c93972c1914f0e77e336",
+      "frames": [
+        {
+          "x": 57,
+          "y": 20,
+          "width": 412,
+          "height": 456
+        },
+        {
+          "x": 79,
+          "y": 19,
+          "width": 362,
+          "height": 458
+        },
+        {
+          "x": 109,
+          "y": 19,
+          "width": 283,
+          "height": 458
+        },
+        {
+          "x": 160,
+          "y": 17,
+          "width": 206,
+          "height": 461
+        },
+        {
+          "x": 161,
+          "y": 16,
+          "width": 195,
+          "height": 464
+        },
+        {
+          "x": 159,
+          "y": 16,
+          "width": 197,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e6969575-9e3b-499e-b19b-7ff15fb8ca3f.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Airy Cotton Tee. Preserve the EXACT physical garment and colour #34465b, Cotton 100% định lượng cao, Relaxed fit; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"straight\",\"panel\":\"none\",\"collar\":\"crew\",\"sleeve\":\"short\",\"stripe\":false,\"zipper\":false,\"pockets\":\"none\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 270,285,300,315,330,345 degrees: first pure RIGHT-FACING PROFILE (front opening/neck points RIGHT, back points LEFT), then turn TOWARDS FRONT, until almost exact FRONT last. NEVER show a back view or back artwork in these six cells. Front ML gradually appears. This MUST be the OPPOSITE SIDE from the 90-degree view. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1719863,
+      "sha256": "1fb446ecda7286300c360eb54d0c7704d7fb13a95e5c63dd77dce0450872a46c",
+      "frames": [
+        {
+          "x": 175,
+          "y": 26,
+          "width": 165,
+          "height": 459
+        },
+        {
+          "x": 158,
+          "y": 26,
+          "width": 199,
+          "height": 459
+        },
+        {
+          "x": 134,
+          "y": 27,
+          "width": 244,
+          "height": 458
+        },
+        {
+          "x": 105,
+          "y": 27,
+          "width": 305,
+          "height": 459
+        },
+        {
+          "x": 76,
+          "y": 29,
+          "width": 363,
+          "height": 454
+        },
+        {
+          "x": 54,
+          "y": 30,
+          "width": 410,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

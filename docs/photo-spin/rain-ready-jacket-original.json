@@ -1,0 +1,222 @@
+{
+  "slug": "rain-ready-jacket",
+  "colorKey": "original",
+  "colorHex": "#a3a5aa",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:54:25.046Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/rain-ready-jacket/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6277b32d-110d-432e-b128-484ea0fd6f24.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Rain Ready Jacket, base colour #a3a5aa. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Grey hooded full zip rain shell with hood cords, two zip pockets, elastic cuffs and hem, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1701777,
+      "sha256": "9da7bf3f7035b3e766be83226166757f04eb69537fbaf0cd25220a029557b3c8",
+      "frames": [
+        {
+          "x": 71,
+          "y": 18,
+          "width": 375,
+          "height": 451
+        },
+        {
+          "x": 73,
+          "y": 17,
+          "width": 355,
+          "height": 456
+        },
+        {
+          "x": 95,
+          "y": 14,
+          "width": 304,
+          "height": 465
+        },
+        {
+          "x": 136,
+          "y": 10,
+          "width": 256,
+          "height": 478
+        },
+        {
+          "x": 159,
+          "y": 9,
+          "width": 194,
+          "height": 479
+        },
+        {
+          "x": 161,
+          "y": 7,
+          "width": 182,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/rain-ready-jacket/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4f7ef67f-baaf-47b4-992d-b7cde9f3dad1.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Rain Ready Jacket, base colour #a3a5aa. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Grey hooded full zip rain shell with hood cords, two zip pockets, elastic cuffs and hem, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1783281,
+      "sha256": "088339483ecd23f808cfe20e68213ec860ada0aaf6f12340c6173b1479ccb898",
+      "frames": [
+        {
+          "x": 168,
+          "y": 12,
+          "width": 189,
+          "height": 490
+        },
+        {
+          "x": 155,
+          "y": 10,
+          "width": 196,
+          "height": 489
+        },
+        {
+          "x": 146,
+          "y": 9,
+          "width": 209,
+          "height": 489
+        },
+        {
+          "x": 132,
+          "y": 7,
+          "width": 253,
+          "height": 488
+        },
+        {
+          "x": 100,
+          "y": 7,
+          "width": 307,
+          "height": 482
+        },
+        {
+          "x": 59,
+          "y": 7,
+          "width": 373,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/rain-ready-jacket/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-97e59dd6-1b77-4cd2-9d53-ef18ae73dcb6.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Rain Ready Jacket, base colour #a3a5aa. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Grey hooded full zip rain shell with hood cords, two zip pockets, elastic cuffs and hem, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1678179,
+      "sha256": "35a2308e406becaefde0b2ab182029ae4911f462439ac309be03b3fe85db40fc",
+      "frames": [
+        {
+          "x": 62,
+          "y": 10,
+          "width": 397,
+          "height": 465
+        },
+        {
+          "x": 77,
+          "y": 10,
+          "width": 370,
+          "height": 468
+        },
+        {
+          "x": 112,
+          "y": 10,
+          "width": 285,
+          "height": 474
+        },
+        {
+          "x": 152,
+          "y": 8,
+          "width": 230,
+          "height": 484
+        },
+        {
+          "x": 157,
+          "y": 7,
+          "width": 223,
+          "height": 485
+        },
+        {
+          "x": 162,
+          "y": 8,
+          "width": 208,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/rain-ready-jacket/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f2572eee-f614-40a1-b9ea-d3be65716dbf.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Rain Ready Jacket, base colour #a3a5aa. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Grey hooded full zip rain shell with hood cords, two zip pockets, elastic cuffs and hem, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1808959,
+      "sha256": "29c1371add977c006ac250f21bc688444e8924c7e82b530afbf72ec36f90745f",
+      "frames": [
+        {
+          "x": 156,
+          "y": 8,
+          "width": 187,
+          "height": 488
+        },
+        {
+          "x": 139,
+          "y": 8,
+          "width": 225,
+          "height": 486
+        },
+        {
+          "x": 106,
+          "y": 9,
+          "width": 287,
+          "height": 482
+        },
+        {
+          "x": 91,
+          "y": 10,
+          "width": 329,
+          "height": 479
+        },
+        {
+          "x": 68,
+          "y": 10,
+          "width": 375,
+          "height": 473
+        },
+        {
+          "x": 57,
+          "y": 10,
+          "width": 392,
+          "height": 473
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

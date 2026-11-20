@@ -1,4 +1,5 @@
 "use client";
+import { Select } from "./ui/select";
 import { useEffect, useState, FormEvent } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -76,7 +77,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
               </label>
               <label>
                 Danh mục
-                <select
+                <Select
                   name="category"
                   defaultValue={params.get("category") || ""}
                 >
@@ -86,11 +87,11 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
                       {miloDesignText(c.name)}
                     </option>
                   ))}
-                </select>
+                </Select>
               </label>
               <label>
                 Bộ sưu tập
-                <select
+                <Select
                   name="collection"
                   defaultValue={params.get("collection") || ""}
                 >
@@ -100,32 +101,32 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
                       {miloDesignText(c.name)}
                     </option>
                   ))}
-                </select>
+                </Select>
               </label>
               <label>
                 Phong cách
-                <select name="style" defaultValue={params.get("style") || ""}>
+                <Select name="style" defaultValue={params.get("style") || ""}>
                   <option value="">Mọi phong cách</option>
                   {metadata.data?.styles.map((c: any) => (
                     <option key={c.id} value={c.slug}>
                       {miloDesignText(c.name)}
                     </option>
                   ))}
-                </select>
+                </Select>
               </label>
               <div className="form-row">
                 <label>
                   Kích thước
-                  <select name="size" defaultValue={params.get("size") || ""}>
+                  <Select name="size" defaultValue={params.get("size") || ""}>
                     <option value="">Tất cả</option>
                     {["S", "M", "L", "XL"].map((s) => (
                       <option key={s}>{s}</option>
                     ))}
-                  </select>
+                  </Select>
                 </label>
                 <label>
                   Màu
-                  <select name="color" defaultValue={params.get("color") || ""}>
+                  <Select name="color" defaultValue={params.get("color") || ""}>
                     <option value="">Tất cả</option>
                     {[
                       "Đen",
@@ -137,12 +138,12 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
                     ].map((s) => (
                       <option key={s}>{s}</option>
                     ))}
-                  </select>
+                  </Select>
                 </label>
               </div>
               <label>
                 Mùa / thời tiết
-                <select name="season" defaultValue={params.get("season") || ""}>
+                <Select name="season" defaultValue={params.get("season") || ""}>
                   <option value="">Mọi mùa</option>
                   {[
                     ...new Set<string>(
@@ -152,7 +153,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
                   ].map((s) => (
                     <option key={s}>{s}</option>
                   ))}
-                </select>
+                </Select>
               </label>
               <label>
                 Chất liệu
@@ -164,11 +165,11 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
               </label>
               <label>
                 Kiểu dáng
-                <select name="fit" defaultValue={params.get("fit") || ""}>
+                <Select name="fit" defaultValue={params.get("fit") || ""}>
                   <option value="">Mọi kiểu dáng</option>
                   <option>Oversized</option>
                   <option>Relaxed fit</option>
-                </select>
+                </Select>
               </label>
               <div className="form-row">
                 <label>
@@ -222,7 +223,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
             <span>{products.data?.total ?? "…"} thiết kế cho bạn</span>
             <label>
               Sắp xếp{" "}
-              <select
+              <Select
                 aria-label="Sắp xếp sản phẩm"
                 value={params.get("sort") || "newest"}
                 onChange={(e) => change("sort", e.target.value)}
@@ -238,7 +239,7 @@ export function Catalog({ initialProducts, initialTaxonomy }: { initialProducts?
                     {l}
                   </option>
                 ))}
-              </select>
+              </Select>
             </label>
           </div>
           {query && (

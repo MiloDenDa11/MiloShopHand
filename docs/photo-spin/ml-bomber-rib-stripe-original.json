@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-rib-stripe",
+  "colorKey": "original",
+  "colorHex": "#ddd2ba",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:27:25.065Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-rib-stripe/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-bb68c491-8e31-47f3-bdc0-b30f1297c72e.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Rib Stripe Bomber, base colour #ddd2ba. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"rib-stripe\",\"collar\":\"striped-rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Cotton. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1892344,
+      "sha256": "ac96461c1423b5c9151d67d4304329ad47f4bb59bbe38e00a5c284584712129b",
+      "frames": [
+        {
+          "x": 46,
+          "y": 23,
+          "width": 422,
+          "height": 451
+        },
+        {
+          "x": 59,
+          "y": 21,
+          "width": 393,
+          "height": 455
+        },
+        {
+          "x": 87,
+          "y": 18,
+          "width": 336,
+          "height": 465
+        },
+        {
+          "x": 122,
+          "y": 13,
+          "width": 275,
+          "height": 475
+        },
+        {
+          "x": 151,
+          "y": 13,
+          "width": 213,
+          "height": 477
+        },
+        {
+          "x": 167,
+          "y": 13,
+          "width": 196,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-rib-stripe/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0e866db0-a21a-4c99-a948-901f16102417.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Rib Stripe Bomber, base colour #ddd2ba. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"rib-stripe\",\"collar\":\"striped-rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Cotton. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1611613,
+      "sha256": "b2bdead119b7547c307a008d5e53db9234c5824935f17f8797db83bfb39922bf",
+      "frames": [
+        {
+          "x": 168,
+          "y": 22,
+          "width": 172,
+          "height": 468
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 191,
+          "height": 468
+        },
+        {
+          "x": 144,
+          "y": 22,
+          "width": 216,
+          "height": 468
+        },
+        {
+          "x": 124,
+          "y": 22,
+          "width": 255,
+          "height": 466
+        },
+        {
+          "x": 100,
+          "y": 22,
+          "width": 301,
+          "height": 464
+        },
+        {
+          "x": 70,
+          "y": 23,
+          "width": 364,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-rib-stripe/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-803ee9ea-3165-405b-8816-b54944dbac8e.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Rib Stripe Bomber, base colour #ddd2ba. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"rib-stripe\",\"collar\":\"striped-rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Cotton. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1870720,
+      "sha256": "28c41b8f9f5a51ceb88a886f5a562a862776b2dd549cd43489950a71e265febf",
+      "frames": [
+        {
+          "x": 40,
+          "y": 25,
+          "width": 437,
+          "height": 459
+        },
+        {
+          "x": 60,
+          "y": 23,
+          "width": 389,
+          "height": 470
+        },
+        {
+          "x": 91,
+          "y": 23,
+          "width": 311,
+          "height": 474
+        },
+        {
+          "x": 137,
+          "y": 22,
+          "width": 243,
+          "height": 476
+        },
+        {
+          "x": 152,
+          "y": 20,
+          "width": 213,
+          "height": 477
+        },
+        {
+          "x": 147,
+          "y": 20,
+          "width": 220,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-rib-stripe/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-caae8d97-cf43-453c-a51e-974ca735e2c1.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Rib Stripe Bomber, base colour #ddd2ba. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"rib-stripe\",\"collar\":\"striped-rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Cotton. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1836446,
+      "sha256": "6bc515abe4b9b30d1bd3bfc73da11fdf722384043325e67cfc210d4d4aa8e742",
+      "frames": [
+        {
+          "x": 160,
+          "y": 19,
+          "width": 174,
+          "height": 480
+        },
+        {
+          "x": 141,
+          "y": 19,
+          "width": 205,
+          "height": 481
+        },
+        {
+          "x": 120,
+          "y": 20,
+          "width": 254,
+          "height": 479
+        },
+        {
+          "x": 99,
+          "y": 20,
+          "width": 308,
+          "height": 479
+        },
+        {
+          "x": 76,
+          "y": 20,
+          "width": 356,
+          "height": 477
+        },
+        {
+          "x": 56,
+          "y": 20,
+          "width": 403,
+          "height": 473
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

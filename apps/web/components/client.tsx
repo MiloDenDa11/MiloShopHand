@@ -8,6 +8,7 @@ import {
   ReactNode,
 } from "react";
 import Link from "next/link";
+import { useWishlist } from "../hooks/use-wishlist";
 import { ProductPhoto, realProductImages, productImagesForColor } from "./product-media";
 import { usePathname } from "next/navigation";
 import {
@@ -101,30 +102,37 @@ export function Providers({ children }: { children: ReactNode }) {
     [drawer, setDrawer] = useState(false),
     [toast, setToast] = useState(""),
     [config, setConfig] = useState<any>(null);
+  const wishlist = useWishlist(user?.id);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const userRequest = useRef(0), cartRequest = useRef(0);
   function notify(message: string) {
     setToast(message);
     if (timer.current) clearTimeout(timer.current);
     timer.current = setTimeout(() => setToast(""), 4500);
   }
   async function loadUser() {
+    const request = ++userRequest.current;
     setAuthError("");
     try {
       const u = await api("/me");
+      if (request !== userRequest.current) return null;
       setUser(u);
       return u;
     } catch (e: any) {
+      if (request !== userRequest.current) return null;
       if (e.status === 401) setUser(null);
       else
         setAuthError("Chưa kiểm tra được phiên đăng nhập. Vui lòng thử lại.");
       return null;
     } finally {
-      setReady(true);
+      if (request === userRequest.current) setReady(true);
     }
   }
   async function loadCart() {
+    const request = ++cartRequest.current;
     try {
       const c = await api("/cart");
+      if (request !== cartRequest.current) return;
       const lines = (c?.items || []).map((i: any) => ({
         variantId: i.variantId,
         quantity: i.quantity,
@@ -138,7 +146,7 @@ export function Providers({ children }: { children: ReactNode }) {
       setCart(lines);
       return lines;
     } catch (e: any) {
-      notify(e.message);
+      if (request === cartRequest.current) notify(e.message);
     }
   }
   useEffect(() => {
@@ -157,6 +165,7 @@ export function Providers({ children }: { children: ReactNode }) {
     if (cartReady) localStorage.setItem("milo-cart", JSON.stringify(cart));
   }, [cart, cartReady]);
   async function afterLogin() {
+    cartRequest.current++;
     const u = await loadUser();
     if (!u)
       throw new Error("Chưa đọc được phiên vừa đăng nhập. Vui lòng thử lại.");
@@ -175,6 +184,7 @@ export function Providers({ children }: { children: ReactNode }) {
     localStorage.setItem("milo-cart-owner", u?.id || "guest");
   }
   async function changeCart(lines: CartLine[]) {
+    const request = ++cartRequest.current;
     setCart(lines);
     localStorage.setItem("milo-cart-owner", user?.id || "guest");
     if (user) {
@@ -190,11 +200,13 @@ export function Providers({ children }: { children: ReactNode }) {
           "PATCH",
         );
       } catch (e: any) {
+        if (request !== cartRequest.current) return false;
         notify(e.message);
         await loadCart();
         return false;
       }
     }
+    if (request !== cartRequest.current) return false;
     return true;
   }
   async function add(
@@ -234,6 +246,7 @@ export function Providers({ children }: { children: ReactNode }) {
   async function logout() {
     try {
       await send("/auth/logout", {});
+      userRequest.current++; cartRequest.current++;
       setUser(null);
       setCart([]);
       localStorage.setItem("milo-cart-owner", "guest");
@@ -245,6 +258,7 @@ export function Providers({ children }: { children: ReactNode }) {
   return (
     <Context.Provider
       value={{
+        ...wishlist,
         user,
         ready,
         authError,

@@ -1,0 +1,222 @@
+{
+  "slug": "airy-cotton-tee",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:19:54.973Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9344015c-9a29-415c-b113-8c8dce90b687.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nEdit target image1: Airy Cotton Tee original six-view product atlas. Preserve EXACTLY the six upright garment poses, perspective, cut, sleeve length, neckline, pockets, seams, fabric folds, scale, layout and studio background.\nDesign its new Đỏ mận colourway: entire MAIN fabric is restrained burgundy #722f37, even realistic dyed cloth with natural shadows. Not a translucent tint. Preserve structural contrasting rib trim/panels in soft ivory #e8dfcd if present, consistently across views.\nOne clean intact interwoven ML chest monogram in soft ivory #f3e9db in its source location. No stray, duplicated or fragmented marks anywhere else on front. The pocket and any contrast bands keep exact shape.\nExactly3columns x2rows, native1536x1024, six equal512px square cells. Whole garment with margin in everycell. Match source poses0,15,30,45,60,75degrees from FRONT towards LEFT-facing profile, garmentfrontpointsLEFT. No back artwork visible.\nNo captions, borders, grid, mannequins, hanger, watermark. Natural commercial fashion product photography; calm, consistent burgundy across all six views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1737545,
+      "sha256": "ce432776ebd9cb70d0fad86f58e55c93ce9c9d23907e3a083f7338632c5fef5c",
+      "frames": [
+        {
+          "x": 61,
+          "y": 24,
+          "width": 399,
+          "height": 431
+        },
+        {
+          "x": 73,
+          "y": 23,
+          "width": 371,
+          "height": 433
+        },
+        {
+          "x": 99,
+          "y": 20,
+          "width": 308,
+          "height": 437
+        },
+        {
+          "x": 152,
+          "y": 17,
+          "width": 243,
+          "height": 445
+        },
+        {
+          "x": 159,
+          "y": 17,
+          "width": 200,
+          "height": 446
+        },
+        {
+          "x": 166,
+          "y": 16,
+          "width": 182,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-67fdc5b8-020a-4ea5-846f-ac5ab84488dd.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Airy Cotton Tee six-angle source atlas, part1. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 90,105,120,135,150,165 degrees, LEFT-FACING profile towards BACK; no front chest logo visible.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1739871,
+      "sha256": "188edc6cfec9bbbb7f8ac22f1fbbdcaa612a8040011ed40c17e3e69c8f73dc21",
+      "frames": [
+        {
+          "x": 163,
+          "y": 20,
+          "width": 189,
+          "height": 475
+        },
+        {
+          "x": 153,
+          "y": 19,
+          "width": 214,
+          "height": 476
+        },
+        {
+          "x": 126,
+          "y": 19,
+          "width": 248,
+          "height": 476
+        },
+        {
+          "x": 107,
+          "y": 18,
+          "width": 300,
+          "height": 477
+        },
+        {
+          "x": 83,
+          "y": 18,
+          "width": 343,
+          "height": 476
+        },
+        {
+          "x": 53,
+          "y": 21,
+          "width": 405,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-64739359-47fd-468b-a903-7cbbc9d60a70.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Airy Cotton Tee six-angle source atlas, part2. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 180,195,210,225,240,255 degrees, BACK towards RIGHT-FACING profile, source back artwork gradually disappears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1817079,
+      "sha256": "11ca34981ff2e055af09eda6b92e81b6bd0b82bc8e32daf1c171f393cd7e1ba8",
+      "frames": [
+        {
+          "x": 57,
+          "y": 20,
+          "width": 412,
+          "height": 457
+        },
+        {
+          "x": 79,
+          "y": 19,
+          "width": 363,
+          "height": 458
+        },
+        {
+          "x": 107,
+          "y": 19,
+          "width": 286,
+          "height": 458
+        },
+        {
+          "x": 156,
+          "y": 16,
+          "width": 210,
+          "height": 462
+        },
+        {
+          "x": 160,
+          "y": 15,
+          "width": 197,
+          "height": 465
+        },
+        {
+          "x": 158,
+          "y": 15,
+          "width": 200,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/airy-cotton-tee/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6b9e80e6-57bb-4767-bd47-02d49c4d64e3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Airy Cotton Tee six-angle source atlas, part3. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 270,285,300,315,330,345 degrees, RIGHT-FACING profile towards FRONT. Back artwork is completely hidden; chest ML gradually appears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1666840,
+      "sha256": "4336294be89766466a52821f4fee70d614af35a52cb6589ee7d1b5026365a7ab",
+      "frames": [
+        {
+          "x": 175,
+          "y": 26,
+          "width": 166,
+          "height": 460
+        },
+        {
+          "x": 158,
+          "y": 26,
+          "width": 199,
+          "height": 459
+        },
+        {
+          "x": 135,
+          "y": 27,
+          "width": 244,
+          "height": 459
+        },
+        {
+          "x": 105,
+          "y": 28,
+          "width": 307,
+          "height": 458
+        },
+        {
+          "x": 75,
+          "y": 30,
+          "width": 363,
+          "height": 453
+        },
+        {
+          "x": 53,
+          "y": 30,
+          "width": 413,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 source-size views and contact sheet: even burgundy fabric, intact single chest ML, clean back branding, consistent trim and pockets across front/left/back/right; no tint halos or duplicate logo fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,11 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, type SyntheticEvent } from "react";
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import { miloDesignText } from "../lib/milo-design";
-import { designPhotoUrl } from "../../../packages/shared/src/design-photo";
 import { preparedPhoto } from "../lib/prepared-media";
-const ColorPhoto=dynamic(()=>import("./color-photo"),{ssr:false});
 
 export function isRealPhoto(
   image:
@@ -25,36 +22,31 @@ export function isRealPhoto(
 }
 export const realProductImages = (p: any) =>
   (p?.images || []).filter((i: any) => isRealPhoto(i)).map((i:any)=>typeof i.alt==="string"?{...i,alt:miloDesignText(i.alt)}:i);
-export function productImagesForColor(product: any, color: string, variantOverride?:any) {
+export function productImagesForColor(product: any, color: string, _variantOverride?:any) {
   const images = realProductImages(product), exact = images.filter((i:any)=>i.color === color), generic = images.filter((i:any)=>!i.color);
   if(exact.length)return exact;
   const fallback=generic.length?generic:images.filter((i:any)=>i.color===images[0]?.color);
-  const variant=variantOverride||product.variants?.find((v:any)=>v.color===color);
-  return fallback.map((image:any)=>{
-    const url=designPhotoUrl(image,variant,product.design);
-    if(url===image.url)return image;
-    const alt=image.alt?(image.color?image.alt.split(image.color).join(color):`${image.alt} — ${color}`):`${product.name} — ${color} — Milo Design`;
-    return {...image,url,color,alt};
-  });
+  return fallback;
 }
-export type ProductPhotoSource={src:string;view:string|null;atlas?:{columns:number;rows:number;frame:number;aspect:number};colorPreview?:{targetHex:string;sourceHex:string}};
+export type ProductPhotoSource={src:string;view:string|null;atlas?:{columns:number;rows:number;frame:number;aspect:number}};
 export function productPhotoSource(source: string):ProductPhotoSource {
   const url = new URL(source, "https://milo.local");
-  const selected=url.searchParams.get("miloColor"),base=url.searchParams.get("baseColor");
-  const preview=selected&&base&&/^[a-f0-9]{6}$/i.test(selected)&&/^[a-f0-9]{6}$/i.test(base)&&/^\/(?:collection-(?:ai|spin)\/|products\/)/.test(url.pathname)?{colorPreview:{targetHex:`#${selected}`,sourceHex:`#${base}`}}:{};
-  if(preview.colorPreview){url.searchParams.delete("miloColor");url.searchParams.delete("baseColor");}
+  // Retire legacy tint recipes without modifying stored order snapshots.
+  if(/^\/(?:collection-(?:ai|spin)\/|products\/)/.test(url.pathname)){
+    url.searchParams.delete("miloColor");url.searchParams.delete("baseColor");
+  }
   if(url.pathname.startsWith("/collection-spin/")){
     const columns=Number(url.searchParams.get("cols")),rows=Number(url.searchParams.get("rows")),frame=Number(url.searchParams.get("frame")),aspect=Number(url.searchParams.get("ar"));
     if(Number.isInteger(columns)&&Number.isInteger(rows)&&Number.isInteger(frame)&&columns>0&&columns<=24&&rows>0&&rows<=24&&frame>=0&&frame<columns*rows&&Number.isFinite(aspect)&&aspect>.2&&aspect<4){
       for(const key of ["cols","rows","frame","ar"])url.searchParams.delete(key);
-      return {src:url.pathname+url.search,view:null,atlas:{columns,rows,frame,aspect},...preview};
+      return {src:url.pathname+url.search,view:null,atlas:{columns,rows,frame,aspect}};
     }
   }
   const requested = url.searchParams.get("view");
   const plate = url.pathname.startsWith("/collection-ai/");
   const view = plate && (!requested || ["front", "back"].includes(requested)) ? requested || "front" : null;
   if (view) url.searchParams.delete("view");
-  return { src: source.startsWith("/") ? url.pathname + url.search : url.toString(), view,...preview };
+  return { src: source.startsWith("/") ? url.pathname + url.search : url.toString(), view };
 }
 export function ProductPhoto({
   src,
@@ -72,8 +64,24 @@ export function ProductPhoto({
   sizes?: string;
 }) {
   const [failed, setFailed] = useState(false);
+  const [canRetry, setCanRetry] = useState(true);
+  const frame = useRef<HTMLSpanElement>(null);
+  function markImageFailed(image: HTMLImageElement) {
+    setCanRetry(!image.closest("a,button"));
+    setFailed(true);
+  }
+  function imageFailed(event: SyntheticEvent<HTMLImageElement>) {
+    // A retry button inside an image link/gallery button is invalid HTML and
+    // can trigger hydration errors. Nested controls retain a passive fallback.
+    markImageFailed(event.currentTarget);
+  }
   const alt=miloDesignText(originalAlt);
-  useEffect(() => setFailed(false), [src]);
+  useEffect(() => {
+    setFailed(false);
+    // A server-rendered image may fail before React attaches onError.
+    const image = frame.current?.querySelector("img");
+    if (image?.complete && image.naturalWidth === 0) markImageFailed(image);
+  }, [src]);
   if (!src || !isRealPhoto(src)) return null;
   const media = productPhotoSource(src);
   const prepared = preparedPhoto(media);
@@ -83,17 +91,17 @@ export function ProductPhoto({
   const sourceSizes = multiplier>1 ? sizes.replace(/([\d.]+)(vw|px)(?=\s*(?:,|$))/g, (_, value, unit) => `${Number(value) * multiplier}${unit}`) : sizes;
   if (failed)
     return (
-      <span className={`product-photo-frame photo-error ${className}`} role="status">
+      <span ref={frame} className={`product-photo-frame photo-error ${className}`} role="status">
         Ảnh chưa tải được.
-        <button type="button" onClick={(event) => { event.preventDefault(); event.stopPropagation(); setFailed(false); }}>
+        {canRetry ? <button type="button" onClick={(event) => { event.preventDefault(); event.stopPropagation(); setFailed(false); }}>
           Thử lại
-        </button>
+        </button> : <small>Tải lại trang hoặc mở lại ảnh để thử lại.</small>}
       </span>
     );
   return (
-    <span className={`product-photo-frame ${className}`} data-product-view={media.view || "full"} onClick={onClick}>
-    {prepared ? <img className="product-photo-image" src={prepared.src} srcSet={prepared.srcSet} sizes={sizes} width={prepared.width} height={prepared.height} alt={alt} loading={loading} fetchPriority={loading === "eager" ? "high" : "auto"} decoding="async" onError={()=>setFailed(true)} style={{width:"100%",height:"100%",objectFit:"contain"}}/> : media.atlas ? <span className="product-atlas-viewport" style={{position:"absolute",width:"100%",aspectRatio:String(media.atlas.aspect),top:"50%",transform:"translateY(-50%)",overflow:"hidden"}}>
-      <Image src={media.src} alt={alt} width={media.atlas.columns*512} height={Math.round(media.atlas.rows*512/media.atlas.aspect)} sizes={sourceSizes} loading={loading} decoding="async" onError={()=>setFailed(true)} style={{position:"absolute",width:`${media.atlas.columns*100}%`,height:`${media.atlas.rows*100}%`,left:`-${media.atlas.frame%media.atlas.columns*100}%`,top:`-${Math.floor(media.atlas.frame/media.atlas.columns)*100}%`,maxWidth:"none",maxHeight:"none"}}/>
+    <span ref={frame} className={`product-photo-frame ${className}`} data-product-view={media.view || "full"} onClick={onClick}>
+    {prepared ? <img className="product-photo-image" src={prepared.src} srcSet={prepared.srcSet} sizes={sizes} width={prepared.width} height={prepared.height} alt={alt} loading={loading} fetchPriority={loading === "eager" ? "high" : "auto"} decoding="async" onError={imageFailed} style={{width:"100%",height:"100%",objectFit:"contain"}}/> : media.atlas ? <span className="product-atlas-viewport" style={{position:"absolute",width:"100%",aspectRatio:String(media.atlas.aspect),top:"50%",transform:"translateY(-50%)",overflow:"hidden"}}>
+      <Image src={media.src} alt={alt} width={media.atlas.columns*512} height={Math.round(media.atlas.rows*512/media.atlas.aspect)} sizes={sourceSizes} loading={loading} decoding="async" onError={imageFailed} style={{position:"absolute",width:`${media.atlas.columns*100}%`,height:`${media.atlas.rows*100}%`,left:`-${media.atlas.frame%media.atlas.columns*100}%`,top:`-${Math.floor(media.atlas.frame/media.atlas.columns)*100}%`,maxWidth:"none",maxHeight:"none"}}/>
     </span> :
     <Image
       className="product-photo-image"
@@ -106,10 +114,9 @@ export function ProductPhoto({
       fetchPriority={loading === "eager" ? "high" : "auto"}
       decoding="async"
       unoptimized={/\.svg(?:[?#]|$)/i.test(media.src) || !media.src.startsWith("/")}
-      onError={() => setFailed(true)}
+      onError={imageFailed}
       style={media.view ? { position: "absolute", left: media.view === "back" ? "-100%" : 0, top: "50%", transform: "translateY(-50%)", width: "200%", height: "auto", aspectRatio: "2 / 1", maxWidth: "none", maxHeight: "none", objectFit: "contain" } : { width: "100%", height: "100%", objectFit: "contain" }}
     />}
-    {media.colorPreview&&<ColorPhoto media={prepared?{src:prepared.src,view:null,back:prepared.back,optimized:true}:media} preview={media.colorPreview} name={alt}/>}
     </span>
   );
 }

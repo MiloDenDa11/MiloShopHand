@@ -134,14 +134,19 @@ test("đổi màu giữ góc sau, đúng bộ ảnh trắng/đen và giỏ đún
   await expect(page.locator(".cart-line img").first()).toHaveAttribute("src",blackPhoto);
 });
 
-test("màu chưa có ảnh không mượn bộ 360 của màu khác",async({page})=>{
+test("chuyển màu dùng đúng bộ ảnh riêng, không có lớp nhuộm màu",async({page})=>{
   await page.goto("/san-pham/ml-tee-heavy-box");
   await page.locator("#main .detail-image-zoom").click();
   await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
   const dialog=page.getByRole("dialog");
   await dialog.getByRole("button",{name:"Trắng",exact:true}).click();
-  await expect(viewer(page)).toHaveCount(0);
-  await expect(dialog).toContainText("màu Trắng đang được bổ sung");
+  await expect(viewer(page)).toHaveAttribute("data-viewer-status","ready");
+  await expect(viewer(page)).toHaveAttribute("data-native-color","#f8f7f2");
+  await expect(dialog).toContainText("Bộ ảnh thiết kế riêng theo màu");
+  await expect(page.locator(".photo-spin-sheet")).not.toHaveAttribute("style",/blob:/);
+  await expect(page.locator(".photo-spin-sheet")).toHaveAttribute("style",new RegExp(spinDelivery('ml-tee-heavy-box','#f8f7f2',0,'detail').replaceAll('.','\\.')));
+  await dialog.getByRole("button",{name:"Mặt sau",exact:true}).click();
+  await expect(stage(page)).toHaveAttribute("data-frame","12");
 });
 
 test("bấm ảnh sau mở đúng mặt sau, bốn loại áo có đủ ảnh 360",async({page})=>{

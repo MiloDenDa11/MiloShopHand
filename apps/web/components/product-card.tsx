@@ -1,11 +1,13 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Heart, ArrowUpRight } from "lucide-react";
-import { useShop, send, money } from "./client";
+import { Heart, ArrowUpRight, Sparkles } from "lucide-react";
+import { useShop, money } from "./client";
+import { productSelectionHref } from "../lib/product-selection";
+import { tryOnHref } from "../lib/try-on";
 import { ProductPhoto, realProductImages, productImagesForColor } from "./product-media";
 import { ProductCardPreview } from "./product-card-preview";
-import { photoSpinFor } from "../lib/photo-spin";
+import { displaySpinFor } from "../lib/display-spin";
 export function ProductCard({
   product: p,
   index = 0,
@@ -15,12 +17,12 @@ export function ProductCard({
   index?: number;
   badge?: string;
 }) {
-  const { user, notify } = useShop();
+  const { user, notify, wishlistIds, wishlistPending, toggleWishlist } = useShop();
   const [interactive,setInteractive]=useState(false);
   useEffect(()=>setInteractive(true),[]);
-  const [color, setColor] = useState(p.variants?.[0]?.color || ""),
-    [saved, setSaved] = useState(false),
-    [saving, setSaving] = useState(false);
+  const [color, setColor] = useState(p.variants?.[0]?.color || "");
+  const saved = wishlistIds.includes(p.id), saving = wishlistPending.includes(p.id);
+  const detailHref = productSelectionHref(p.slug, color);
   const availablePhotos = realProductImages(p),
     matchingPhotos = productImagesForColor(p,color),
     photos = matchingPhotos.length ? matchingPhotos : availablePhotos,
@@ -37,7 +39,11 @@ export function ProductCard({
       ]),
     ).values(),
   ] as { name: string; hex: string }[];
-  const spin=photoSpinFor(p,p.variants?.find((variant:any)=>variant.color===color)?.colorHex);
+  const colorHex=p.variants?.find((variant:any)=>variant.color===color)?.colorHex;
+  const hasColorPhoto=(value:string)=>availablePhotos.some((image:any)=>image.color===value);
+  const photoPending=!!color&&colors.length>1&&!hasColorPhoto(color);
+  const referenceColor=availablePhotos.find((image:any)=>colors.some(c=>c.name===image.color))?.color;
+  const spin=useMemo(()=>displaySpinFor(p,colorHex),[p,colorHex]);
   const soldOut =
       p.variants?.length && p.variants.every((v: any) => v.available === 0),
     limited = p.collections?.some((c: any) =>
@@ -48,27 +54,27 @@ export function ProductCard({
       notify("Đăng nhập để lưu sản phẩm yêu thích.");
       return;
     }
-    setSaving(true);
     try {
-      await send("/me/wishlist/" + p.id, {}, saved ? "DELETE" : "POST");
-      setSaved(!saved);
-      notify(saved ? "Đã bỏ yêu thích." : "Đã lưu vào yêu thích.");
+      const nextSaved = await toggleWishlist(p.id);
+      if (typeof nextSaved === "boolean")
+        notify(nextSaved ? "Đã lưu vào yêu thích." : "Đã bỏ yêu thích.");
     } catch (e: any) {
       notify(e.message);
-    } finally {
-      setSaving(false);
     }
   }
   return (
     <article
       className={`product-card ${chosen ? "product-card--photo" : "product-card--text"}`}
+      data-selected-color={color}
+      data-color-photo-status={photoPending?"pending":chosen?"ready":"missing"}
     >
       <div className="product-card-topline">
         <span className="eyebrow">{p.category?.name}</span>
         <button
           className={`wish ${saved ? "saved" : ""}`}
-          disabled={saving}
-          aria-label={`Yêu thích ${p.name}`}
+          disabled={!interactive || saving}
+          aria-label={`${saved ? "Bỏ yêu thích" : "Yêu thích"} ${p.name}`}
+          aria-busy={saving}
           aria-pressed={saved}
           onClick={wish}
         >
@@ -77,7 +83,12 @@ export function ProductCard({
       </div>
       {chosen && (
         <div className="product-visual">
-          <ProductCardPreview key={color} href={`/san-pham/${p.slug}`} name={p.name} spin={spin}>
+          <ProductCardPreview key={color} href={detailHref} name={p.name} spin={photoPending?null:spin}>
+            {photoPending ? <div className="product-card-color-pending" role="status">
+              <span className="product-card-pending-swatch" style={{background:colorHex}} aria-hidden="true" />
+              <strong>{/^màu /i.test(color)?color:`Màu ${color}`}</strong>
+              <span>Ảnh màu này đang cập nhật</span>
+            </div> : <>
             <ProductPhoto
               key={chosen.url}
               src={chosen.url}
@@ -85,13 +96,14 @@ export function ProductCard({
               loading={index < 2 ? "eager" : "lazy"}
               className="product-photo-primary"
             />
-            {!spin && alternate && !chosen.url.includes("miloColor=") && (
+            {!spin && alternate && (
               <ProductPhoto
                 src={alternate.url}
                 alt={alternate.alt || p.name}
                 className="product-photo-alternate"
               />
             )}
+            </>}
           </ProductCardPreview>
         </div>
       )}
@@ -109,7 +121,7 @@ export function ProductCard({
             </span>
           ) : null}
         </div>
-        <Link className="product-name" href={`/san-pham/${p.slug}`}>
+        <Link className="product-name" href={detailHref}>
           {p.name}
         </Link>
         <p className="product-fit">
@@ -131,7 +143,8 @@ export function ProductCard({
                 disabled={!interactive}
                 aria-label={`Xem màu ${c.name}`}
                 aria-pressed={color === c.name}
-                title={c.name}
+                title={`${c.name}${hasColorPhoto(c.name)?"":" — Ảnh đang cập nhật"}`}
+                data-photo-ready={hasColorPhoto(c.name)}
                 className={color === c.name ? "selected" : ""}
                 onClick={() => setColor(c.name)}
                 style={{ background: c.hex }}
@@ -141,20 +154,24 @@ export function ProductCard({
           </div>
           <Link
             className="product-details-link"
-            href={`/san-pham/${p.slug}`}
+            href={detailHref}
             aria-label={`Xem chi tiết ${p.name}`}
           >
             Xem chi tiết
             <ArrowUpRight size={16} />
           </Link>
         </div>
+        {color&&<p className="product-card-selected-color" aria-live="polite">{/^màu /i.test(color)?color:`Màu: ${color}`}</p>}
+        <Link className="product-try-on-link" href={tryOnHref(p.slug, color)} aria-label={`Dùng thử ${p.name}`}>
+          <Sparkles size={15} /> Dùng thử <ArrowUpRight size={15} />
+        </Link>
         {!photos.length && (
           <p className="photo-pending-note">Ảnh thực tế đang cập nhật</p>
         )}
         {(p.design || photos.some((photo: any) => /mockup|thiết kế ai|ai-generated/i.test(photo.alt || ""))) && (
           <p className="product-media-caption">Milo Design</p>
         )}
-        {photos.some((image:any)=>image.url.includes("miloColor="))&&<p className="product-media-caption">Phối màu {color} xem trước</p>}
+        {photoPending&&referenceColor&&<button type="button" className="product-card-reference-link" onClick={()=>setColor(referenceColor)}>{/^màu thiết kế$/i.test(referenceColor)?"Xem ảnh mẫu ban đầu":`Xem ảnh màu ${referenceColor}`}</button>}
       </div>
     </article>
   );

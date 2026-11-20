@@ -33,10 +33,12 @@ import {
   env,
 } from "./core";
 import { CommerceService } from "./commerce";
+import { changeStock } from "./inventory";
 import { CatalogCache } from "./cache";
 import { fold } from "../../../packages/shared/src";
 import { shipping } from "./providers";
-import sharp from "sharp";
+import { imageUpload, uploadLimits } from "./upload-policy";
+import { safeLocalRedirect } from "../../../packages/shared/src/security";
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { randomUUID } from "node:crypto";
@@ -444,42 +446,11 @@ export class AdminController {
           .max(100000)
           .refine((n) => n !== 0),
         key: z.string().min(16).max(100),
+        expectedOnHand: z.number().int().nonnegative().optional(),
       }),
       body,
     );
-    return transaction(this.db, async (tx) => {
-      const prior = await tx.stockMovement.findUnique({
-        where: { reference: d.key },
-      });
-      if (prior) {
-        if (prior.inventoryId !== id || prior.delta !== d.delta)
-          fail(
-            "IDEMPOTENCY_CONFLICT",
-            "Mã điều chỉnh đã dùng cho nội dung khác.",
-            409,
-          );
-        return prior;
-      }
-      const n =
-        await tx.$executeRaw`UPDATE "Inventory" SET "onHand"="onHand"+${d.delta} WHERE id=${id} AND "onHand"+${d.delta}>=reserved`;
-      if (!n)
-        fail(
-          "INVALID_STOCK",
-          "Tồn thực tế không thể thấp hơn lượng đang giữ.",
-          409,
-        );
-      const m = await tx.stockMovement.create({
-        data: {
-          inventoryId: id,
-          delta: d.delta,
-          reason: d.reason,
-          reference: d.key,
-          actorId: r.actor!.id,
-        },
-      });
-      await audit(tx, r.actor!.id, "STOCK_ADJUST", "Inventory", id, d);
-      return m;
-    });
+    return changeStock(this.db, id, r.actor!.id, { ...d, operation: "ADJUSTMENT" });
   }
   @Get("products") products() {
     return this.db.product.findMany({
@@ -1076,7 +1047,7 @@ export class AdminController {
               z.object({
                 title: z.string(),
                 image: z.string(),
-                href: z.string().startsWith("/"),
+                href: z.string().max(500).refine(value => safeLocalRedirect(value, '') === value, 'Đường dẫn phải nằm trong cửa hàng.'),
               }),
             )
             .max(10)
@@ -1167,39 +1138,13 @@ export class AdminController {
   }
   @UseInterceptors(
     FileInterceptor("file", {
-      limits: { fileSize: 5 * 1024 * 1024, files: 1 },
+      limits: uploadLimits,
     }),
   )
   @Post("uploads")
   async upload(@UploadedFile() file: any, @Req() r: AppRequest) {
     if (!file?.buffer) fail("FILE_REQUIRED", "Vui lòng chọn ảnh.");
-    let buffer: Buffer;
-    try {
-      const metadata = await sharp(file.buffer, {
-        limitInputPixels: 24000000,
-      }).metadata();
-      if (!["jpeg", "png", "webp", "avif"].includes(metadata.format || ""))
-        throw new Error("INVALID_IMAGE");
-      buffer = await sharp(file.buffer, {
-        limitInputPixels: 24000000,
-        animated: false,
-      })
-        .rotate()
-        .resize({
-          width: 1800,
-          height: 1800,
-          fit: "inside",
-          withoutEnlargement: true,
-        })
-        .webp({ quality: 85 })
-        .toBuffer();
-    } catch {
-      fail(
-        "INVALID_IMAGE",
-        "Ảnh không hợp lệ hoặc vượt kích thước. Chỉ chấp nhận ảnh raster.",
-        422,
-      );
-    }
+    const buffer = await imageUpload(file, 1800);
     const name = `${randomUUID()}.webp`;
     let url: string;
     if (env.STORAGE_PROVIDER === "s3") {

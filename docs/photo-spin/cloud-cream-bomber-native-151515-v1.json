@@ -1,0 +1,222 @@
+{
+  "slug": "cloud-cream-bomber",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T08:02:57.792Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-597a66e7-ca3a-498f-85f6-46541d5c8a29.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Cloud Cream Bomber, Đen #151515, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1734884,
+      "sha256": "b5da83087c8f51fcd755d24e0d0db6450acbe895dd2b62becaec1c6eae12058f",
+      "frames": [
+        {
+          "x": 34,
+          "y": 36,
+          "width": 441,
+          "height": 434
+        },
+        {
+          "x": 42,
+          "y": 34,
+          "width": 417,
+          "height": 441
+        },
+        {
+          "x": 57,
+          "y": 33,
+          "width": 377,
+          "height": 442
+        },
+        {
+          "x": 89,
+          "y": 27,
+          "width": 319,
+          "height": 460
+        },
+        {
+          "x": 114,
+          "y": 28,
+          "width": 267,
+          "height": 460
+        },
+        {
+          "x": 143,
+          "y": 28,
+          "width": 213,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-949b1fc9-0d65-4e0f-9779-c4d24de709d3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Cloud Cream Bomber, Đen #151515, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1718579,
+      "sha256": "9a77f789fe44ee7bf59b2fb3e55540583fd7c802ab24d4de0f9f1a78714908eb",
+      "frames": [
+        {
+          "x": 148,
+          "y": 24,
+          "width": 205,
+          "height": 473
+        },
+        {
+          "x": 130,
+          "y": 24,
+          "width": 218,
+          "height": 473
+        },
+        {
+          "x": 110,
+          "y": 26,
+          "width": 246,
+          "height": 471
+        },
+        {
+          "x": 101,
+          "y": 24,
+          "width": 311,
+          "height": 471
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 358,
+          "height": 466
+        },
+        {
+          "x": 41,
+          "y": 24,
+          "width": 406,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-1df75fc4-36e3-4692-b964-5e362c0eae8c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Cloud Cream Bomber, Đen #151515, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1718088,
+      "sha256": "40edaeab72927f910fa3e01c964d92aba8e3a56ef50a6cbd5ab32b69e68af89e",
+      "frames": [
+        {
+          "x": 40,
+          "y": 25,
+          "width": 440,
+          "height": 443
+        },
+        {
+          "x": 52,
+          "y": 24,
+          "width": 408,
+          "height": 452
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 355,
+          "height": 460
+        },
+        {
+          "x": 98,
+          "y": 22,
+          "width": 308,
+          "height": 470
+        },
+        {
+          "x": 116,
+          "y": 20,
+          "width": 270,
+          "height": 474
+        },
+        {
+          "x": 137,
+          "y": 20,
+          "width": 231,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/cloud-cream-bomber/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-8b7c0c0b-48ad-4baa-8f6c-04f768e5d51c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Cloud Cream Bomber, Đen #151515, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1714833,
+      "sha256": "fc54f7574839cb8f5720a347e723e012b26efe575f909dab90f2e94d0bf02fb7",
+      "frames": [
+        {
+          "x": 159,
+          "y": 18,
+          "width": 189,
+          "height": 473
+        },
+        {
+          "x": 139,
+          "y": 18,
+          "width": 210,
+          "height": 473
+        },
+        {
+          "x": 110,
+          "y": 18,
+          "width": 254,
+          "height": 473
+        },
+        {
+          "x": 103,
+          "y": 17,
+          "width": 320,
+          "height": 472
+        },
+        {
+          "x": 59,
+          "y": 16,
+          "width": 376,
+          "height": 473
+        },
+        {
+          "x": 39,
+          "y": 16,
+          "width": 417,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all 24 views in the JPEG contact sheet for this exact product and colour. Ribbed collar, zip, pocket and satin highlights stay coherent. The selected fabric colour is even across panels with natural shadows, isolated chest/back branding, and no duplicate sleeve logo fragments, blotchy tint or colour spill.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

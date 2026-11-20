@@ -1,0 +1,222 @@
+{
+  "slug": "explorer-zip-jacket",
+  "colorKey": "original",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:14:22.748Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c7a60092-b26d-4213-9045-7ebd7f1cedcb.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Explorer Zip Jacket, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream stand collar full zip jacket, two vertical zip pockets, elastic cuffs and drawcord hem; floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1947427,
+      "sha256": "4e4ed250c6afd4d721ea2314a900ce63eac7ce4bae121c437e009b0c633fecdc",
+      "frames": [
+        {
+          "x": 53,
+          "y": 17,
+          "width": 412,
+          "height": 456
+        },
+        {
+          "x": 60,
+          "y": 15,
+          "width": 391,
+          "height": 458
+        },
+        {
+          "x": 77,
+          "y": 15,
+          "width": 340,
+          "height": 460
+        },
+        {
+          "x": 117,
+          "y": 14,
+          "width": 277,
+          "height": 470
+        },
+        {
+          "x": 143,
+          "y": 12,
+          "width": 219,
+          "height": 477
+        },
+        {
+          "x": 147,
+          "y": 11,
+          "width": 198,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-aabaad09-4ca8-4d32-bdaf-dafcb8d88729.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Explorer Zip Jacket, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream stand collar full zip jacket, two vertical zip pockets, elastic cuffs and drawcord hem; floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1910372,
+      "sha256": "62eec95642b8e5d2e9713167c3811013caaff7ca6cc8c5dfd03332f4502cb2f1",
+      "frames": [
+        {
+          "x": 164,
+          "y": 14,
+          "width": 196,
+          "height": 478
+        },
+        {
+          "x": 156,
+          "y": 14,
+          "width": 206,
+          "height": 479
+        },
+        {
+          "x": 141,
+          "y": 13,
+          "width": 222,
+          "height": 480
+        },
+        {
+          "x": 127,
+          "y": 11,
+          "width": 264,
+          "height": 483
+        },
+        {
+          "x": 92,
+          "y": 11,
+          "width": 318,
+          "height": 483
+        },
+        {
+          "x": 58,
+          "y": 11,
+          "width": 372,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7416c6ba-7b4a-4190-b09c-47cf60ac27e3.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Explorer Zip Jacket, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream stand collar full zip jacket, two vertical zip pockets, elastic cuffs and drawcord hem; floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1836068,
+      "sha256": "c8d1b7a89bc942abdcaaa287c120f0b5cce758e18ec2e0c1e2ce4de8f302e242",
+      "frames": [
+        {
+          "x": 45,
+          "y": 22,
+          "width": 420,
+          "height": 463
+        },
+        {
+          "x": 63,
+          "y": 22,
+          "width": 390,
+          "height": 462
+        },
+        {
+          "x": 96,
+          "y": 22,
+          "width": 311,
+          "height": 465
+        },
+        {
+          "x": 146,
+          "y": 17,
+          "width": 225,
+          "height": 469
+        },
+        {
+          "x": 161,
+          "y": 17,
+          "width": 200,
+          "height": 469
+        },
+        {
+          "x": 153,
+          "y": 17,
+          "width": 193,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-152baa56-4a4e-42fd-b601-b8321a4493ef.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Explorer Zip Jacket, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream stand collar full zip jacket, two vertical zip pockets, elastic cuffs and drawcord hem; floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1862427,
+      "sha256": "ac19224dc098d5320bd9a415c429381669d3e303f8bac06040ebce672fa4d066",
+      "frames": [
+        {
+          "x": 160,
+          "y": 16,
+          "width": 189,
+          "height": 480
+        },
+        {
+          "x": 146,
+          "y": 16,
+          "width": 206,
+          "height": 479
+        },
+        {
+          "x": 130,
+          "y": 16,
+          "width": 244,
+          "height": 478
+        },
+        {
+          "x": 109,
+          "y": 17,
+          "width": 308,
+          "height": 475
+        },
+        {
+          "x": 78,
+          "y": 17,
+          "width": 365,
+          "height": 470
+        },
+        {
+          "x": 52,
+          "y": 17,
+          "width": 412,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

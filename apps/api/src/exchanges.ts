@@ -41,7 +41,9 @@ export class ExchangeController {
       },
       take: 100,
     });
-    return rows.map(({ inventoryId, receipts, ...x }: any) => x);
+    return rows.map(({ inventoryId, receipts, snapshot, ...x }: any) => ({ ...x, snapshot: {
+      name: snapshot?.name, sku: snapshot?.sku, color: snapshot?.color, size: snapshot?.size, price: snapshot?.price, variantId: snapshot?.variantId,
+    } }));
   }
   @Post(":id/accept") async accept(
     @Param("id") id: string,

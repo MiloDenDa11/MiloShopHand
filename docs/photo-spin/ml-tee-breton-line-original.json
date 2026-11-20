@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-breton-line",
+  "colorKey": "original",
+  "colorHex": "#ddd6c4",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:06.960Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-breton-line/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ca85cacb-cca1-4b04-985e-92d9b3b18d83.png",
+      "prompt": "Use case: product-mockup. Create a HIGH DETAIL six-view photographic turntable atlas of the EXACT MILOSHOPHAND Breton stripe tee. Image 1 is the front/back garment IDENTITY reference: cream cotton #ddd6c4, washed-black thin horizontal Breton stripes, black ribbed crew neck, short sleeves with black cuff trim, straight relaxed hem, interwoven ML at wearer's left chest, MiloShopHand script upper back. Image 2 is a 24-angle CAMERA ORDER GUIDE ONLY; recreate the indicated six frames at MUCH higher detail rather than copying its small cells. FIXED upright Y axis, level camera, same shirt scale/position/material/folds, sleeves relaxed. Output EXACTLY 3 COLUMNS and 2 ROWS, six equal cells, 1536x1024 native or larger, at least512px per cell. Whole garment visible in each cell, 5% margin. Neutral ivory uniform studio backdrop, soft cloth and lighting. No mannequin/person/hanger/stand. No text labels, angle labels, borders, gutters, grid lines or watermarks. Branding must naturally foreshorten and disappear on side views, never be mirrored. Preserve the exact stripe spacing and shirt construction. Render guide frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from exact front towards camera viewing the wearer's left side. ML chest logo is visible in front-facing views and disappears toward profile; no back script visible yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1942766,
+      "sha256": "e46edf6bb11bfb80476f78e14c7fadfaa7a677f8cf29d679b1578a7c89abfb87",
+      "frames": [
+        {
+          "x": 52,
+          "y": 21,
+          "width": 409,
+          "height": 456
+        },
+        {
+          "x": 69,
+          "y": 21,
+          "width": 380,
+          "height": 456
+        },
+        {
+          "x": 103,
+          "y": 20,
+          "width": 314,
+          "height": 459
+        },
+        {
+          "x": 129,
+          "y": 17,
+          "width": 259,
+          "height": 462
+        },
+        {
+          "x": 140,
+          "y": 16,
+          "width": 223,
+          "height": 463
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 207,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-breton-line/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7eef7b61-ad44-4eca-ab0f-ac7ceee36538.png",
+      "prompt": "Use case: product-mockup. Create a HIGH DETAIL six-view photographic turntable atlas of the EXACT MILOSHOPHAND Breton stripe tee. Image 1 is the front/back garment IDENTITY reference: cream cotton #ddd6c4, washed-black thin horizontal Breton stripes, black ribbed crew neck, short sleeves with black cuff trim, straight relaxed hem, interwoven ML at wearer's left chest, MiloShopHand script upper back. Image 2 is a 24-angle CAMERA ORDER GUIDE ONLY; recreate the indicated six frames at MUCH higher detail rather than copying its small cells. FIXED upright Y axis, level camera, same shirt scale/position/material/folds, sleeves relaxed. Output EXACTLY 3 COLUMNS and 2 ROWS, six equal cells, 1536x1024 native or larger, at least512px per cell. Whole garment visible in each cell, 5% margin. Neutral ivory uniform studio backdrop, soft cloth and lighting. No mannequin/person/hanger/stand. No text labels, angle labels, borders, gutters, grid lines or watermarks. Branding must naturally foreshorten and disappear on side views, never be mirrored. Preserve the exact stripe spacing and shirt construction. Render guide frames6..11 ONLY, row-major: 90 EXACT LEFT SIDE,105,120,135,150,165degrees. Progress from pure side to nearly back. ML chest is hidden; back MiloShopHand script appears progressively, naturally foreshortened.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1898562,
+      "sha256": "c28971de613779e4035fb61987c22467cdaf79e6484f5eed3d4f65f468128d00",
+      "frames": [
+        {
+          "x": 164,
+          "y": 18,
+          "width": 188,
+          "height": 466
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 210,
+          "height": 465
+        },
+        {
+          "x": 142,
+          "y": 18,
+          "width": 227,
+          "height": 465
+        },
+        {
+          "x": 120,
+          "y": 18,
+          "width": 280,
+          "height": 474
+        },
+        {
+          "x": 86,
+          "y": 18,
+          "width": 332,
+          "height": 474
+        },
+        {
+          "x": 63,
+          "y": 18,
+          "width": 381,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-breton-line/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-8b5ddb49-8e5a-42ce-950b-26eb9ba5b87e.png",
+      "prompt": "Use case: product-mockup. Create a HIGH DETAIL six-view photographic turntable atlas of the EXACT MILOSHOPHAND Breton stripe tee. Image 1 is the front/back garment IDENTITY reference: cream cotton #ddd6c4, washed-black thin horizontal Breton stripes, black ribbed crew neck, short sleeves with black cuff trim, straight relaxed hem, interwoven ML at wearer's left chest, MiloShopHand script upper back. Image 2 is a 24-angle CAMERA ORDER GUIDE ONLY; recreate the indicated six frames at MUCH higher detail rather than copying its small cells. FIXED upright Y axis, level camera, same shirt scale/position/material/folds, sleeves relaxed. Output EXACTLY 3 COLUMNS and 2 ROWS, six equal cells, 1536x1024 native or larger, at least512px per cell. Whole garment visible in each cell, 5% margin. Neutral ivory uniform studio backdrop, soft cloth and lighting. No mannequin/person/hanger/stand. No text labels, angle labels, borders, gutters, grid lines or watermarks. Branding must naturally foreshorten and disappear on side views, never be mirrored. Preserve the exact stripe spacing and shirt construction. Render guide frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Start with back script facing camera; progress towards opposite side. Chest ML hidden, back script naturally foreshortens.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1947158,
+      "sha256": "188a182d5cbd00ea55f5e91f1adc77879a36c276b7d46bc8573ab0a8b8649056",
+      "frames": [
+        {
+          "x": 62,
+          "y": 23,
+          "width": 415,
+          "height": 472
+        },
+        {
+          "x": 77,
+          "y": 23,
+          "width": 367,
+          "height": 472
+        },
+        {
+          "x": 111,
+          "y": 21,
+          "width": 284,
+          "height": 474
+        },
+        {
+          "x": 148,
+          "y": 19,
+          "width": 227,
+          "height": 475
+        },
+        {
+          "x": 148,
+          "y": 19,
+          "width": 218,
+          "height": 474
+        },
+        {
+          "x": 156,
+          "y": 19,
+          "width": 197,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-breton-line/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c78a80ca-d9e9-41a5-a48b-65493a3f37e9.png",
+      "prompt": "Use case: product-mockup. Create a HIGH DETAIL six-view photographic turntable atlas of the EXACT MILOSHOPHAND Breton stripe tee. Image 1 is the front/back garment IDENTITY reference: cream cotton #ddd6c4, washed-black thin horizontal Breton stripes, black ribbed crew neck, short sleeves with black cuff trim, straight relaxed hem, interwoven ML at wearer's left chest, MiloShopHand script upper back. Image 2 is a 24-angle CAMERA ORDER GUIDE ONLY; recreate the indicated six frames at MUCH higher detail rather than copying its small cells. FIXED upright Y axis, level camera, same shirt scale/position/material/folds, sleeves relaxed. Output EXACTLY 3 COLUMNS and 2 ROWS, six equal cells, 1536x1024 native or larger, at least512px per cell. Whole garment visible in each cell, 5% margin. Neutral ivory uniform studio backdrop, soft cloth and lighting. No mannequin/person/hanger/stand. No text labels, angle labels, borders, gutters, grid lines or watermarks. Branding must naturally foreshorten and disappear on side views, never be mirrored. Preserve the exact stripe spacing and shirt construction. Render guide frames18..23 ONLY, row-major: 270 EXACT RIGHT SIDE,285,300,315,330,345degrees. Progress from pure opposite side towards nearly front. Back script disappears, chest ML gradually appears. Frame345 is almost front but distinct from0.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1901073,
+      "sha256": "403f2ecab32370bb91a97a9f9685d34b18e9cbeffb75b64e607bfbfc58a2a774",
+      "frames": [
+        {
+          "x": 166,
+          "y": 17,
+          "width": 182,
+          "height": 471
+        },
+        {
+          "x": 157,
+          "y": 17,
+          "width": 201,
+          "height": 471
+        },
+        {
+          "x": 144,
+          "y": 18,
+          "width": 225,
+          "height": 469
+        },
+        {
+          "x": 125,
+          "y": 17,
+          "width": 289,
+          "height": 469
+        },
+        {
+          "x": 99,
+          "y": 18,
+          "width": 329,
+          "height": 466
+        },
+        {
+          "x": 81,
+          "y": 18,
+          "width": 373,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

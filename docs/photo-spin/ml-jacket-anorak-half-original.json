@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-anorak-half",
+  "colorKey": "original",
+  "colorHex": "#6c735c",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:28:28.064Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-476b2cf4-c054-471a-ace3-e7439f9c8fe6.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Anorak Half Jacket, base colour #6c735c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"half-zip\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"kangaroo\"}, Nylon ripstop. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1692528,
+      "sha256": "89a20f124a09d31a7e0e4761b0de2473657d6ffef1965e9102840dd5010c7030",
+      "frames": [
+        {
+          "x": 62,
+          "y": 16,
+          "width": 390,
+          "height": 461
+        },
+        {
+          "x": 73,
+          "y": 16,
+          "width": 363,
+          "height": 460
+        },
+        {
+          "x": 93,
+          "y": 15,
+          "width": 313,
+          "height": 461
+        },
+        {
+          "x": 127,
+          "y": 9,
+          "width": 270,
+          "height": 475
+        },
+        {
+          "x": 150,
+          "y": 8,
+          "width": 220,
+          "height": 477
+        },
+        {
+          "x": 161,
+          "y": 8,
+          "width": 194,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-06dde95b-b862-47ce-8a64-def2bde2acd9.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Anorak Half Jacket, base colour #6c735c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"half-zip\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"kangaroo\"}, Nylon ripstop. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1806638,
+      "sha256": "d1d53fdb6279dcb271dd0380bb744c91793cc9c07a69690ef5baa2deb65955a6",
+      "frames": [
+        {
+          "x": 167,
+          "y": 16,
+          "width": 177,
+          "height": 474
+        },
+        {
+          "x": 155,
+          "y": 15,
+          "width": 186,
+          "height": 475
+        },
+        {
+          "x": 146,
+          "y": 14,
+          "width": 207,
+          "height": 476
+        },
+        {
+          "x": 135,
+          "y": 14,
+          "width": 253,
+          "height": 480
+        },
+        {
+          "x": 104,
+          "y": 14,
+          "width": 300,
+          "height": 480
+        },
+        {
+          "x": 69,
+          "y": 16,
+          "width": 363,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4aa63b8f-6f6f-41f1-ab39-d9d93a39b7c3.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Anorak Half Jacket, base colour #6c735c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"half-zip\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"kangaroo\"}, Nylon ripstop. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1890196,
+      "sha256": "4125f4b54c6e961ea202ce2d87de78e8e36e598378da99ae606876828d393018",
+      "frames": [
+        {
+          "x": 53,
+          "y": 20,
+          "width": 412,
+          "height": 463
+        },
+        {
+          "x": 78,
+          "y": 20,
+          "width": 366,
+          "height": 463
+        },
+        {
+          "x": 107,
+          "y": 22,
+          "width": 302,
+          "height": 461
+        },
+        {
+          "x": 152,
+          "y": 18,
+          "width": 233,
+          "height": 467
+        },
+        {
+          "x": 150,
+          "y": 18,
+          "width": 246,
+          "height": 467
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 205,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-40e8f90f-5857-4e60-a93e-66dc2632783c.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Anorak Half Jacket, base colour #6c735c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"half-zip\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"kangaroo\"}, Nylon ripstop. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1874722,
+      "sha256": "721cc4d2d2568af7dc35258a7b1899668c2d87d1e8d5d9b9bc4e645f25598cf3",
+      "frames": [
+        {
+          "x": 163,
+          "y": 17,
+          "width": 191,
+          "height": 476
+        },
+        {
+          "x": 156,
+          "y": 18,
+          "width": 206,
+          "height": 474
+        },
+        {
+          "x": 118,
+          "y": 16,
+          "width": 277,
+          "height": 476
+        },
+        {
+          "x": 102,
+          "y": 14,
+          "width": 320,
+          "height": 478
+        },
+        {
+          "x": 78,
+          "y": 14,
+          "width": 359,
+          "height": 476
+        },
+        {
+          "x": 58,
+          "y": 14,
+          "width": 390,
+          "height": 477
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

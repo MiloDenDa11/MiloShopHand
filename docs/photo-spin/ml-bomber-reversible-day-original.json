@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-reversible-day",
+  "colorKey": "original",
+  "colorHex": "#c8bca0",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:27:24.443Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b0ac55a3-5c57-44c1-a6e7-0ff4eeea4677.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Reversible Day Bomber, base colour #c8bca0. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"reversible\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1914366,
+      "sha256": "274a7245d57655a8546e0ee14f9a3f712e2813e65d314dd417abcf056418709a",
+      "frames": [
+        {
+          "x": 40,
+          "y": 29,
+          "width": 435,
+          "height": 439
+        },
+        {
+          "x": 53,
+          "y": 27,
+          "width": 407,
+          "height": 454
+        },
+        {
+          "x": 73,
+          "y": 24,
+          "width": 354,
+          "height": 468
+        },
+        {
+          "x": 118,
+          "y": 21,
+          "width": 283,
+          "height": 475
+        },
+        {
+          "x": 148,
+          "y": 18,
+          "width": 220,
+          "height": 479
+        },
+        {
+          "x": 177,
+          "y": 18,
+          "width": 182,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3d28c978-31b3-47d2-af7a-b71c43cd8b24.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Reversible Day Bomber, base colour #c8bca0. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"reversible\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1791180,
+      "sha256": "97f408d722d5d6fd2d32eef5fba86e9332b7ce962ad8200c8a5d27fd8833b426",
+      "frames": [
+        {
+          "x": 180,
+          "y": 21,
+          "width": 174,
+          "height": 471
+        },
+        {
+          "x": 162,
+          "y": 19,
+          "width": 188,
+          "height": 472
+        },
+        {
+          "x": 146,
+          "y": 19,
+          "width": 206,
+          "height": 472
+        },
+        {
+          "x": 146,
+          "y": 18,
+          "width": 247,
+          "height": 471
+        },
+        {
+          "x": 109,
+          "y": 18,
+          "width": 300,
+          "height": 470
+        },
+        {
+          "x": 75,
+          "y": 19,
+          "width": 351,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ccf66c58-ca0a-4fef-ab0e-ed699fe9f127.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Reversible Day Bomber, base colour #c8bca0. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"reversible\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1768494,
+      "sha256": "879615c8ccfab908a44cde3c56804b04907ee059eb83fc5f7e556c15981700ab",
+      "frames": [
+        {
+          "x": 32,
+          "y": 23,
+          "width": 446,
+          "height": 447
+        },
+        {
+          "x": 55,
+          "y": 22,
+          "width": 402,
+          "height": 455
+        },
+        {
+          "x": 82,
+          "y": 21,
+          "width": 338,
+          "height": 464
+        },
+        {
+          "x": 126,
+          "y": 20,
+          "width": 264,
+          "height": 473
+        },
+        {
+          "x": 153,
+          "y": 19,
+          "width": 213,
+          "height": 474
+        },
+        {
+          "x": 165,
+          "y": 19,
+          "width": 183,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-206ddfdc-035e-4c5b-af0c-15d691fe747d.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Reversible Day Bomber, base colour #c8bca0. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"reversible\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1886502,
+      "sha256": "5e8bc4dbac3653f7441279292f1945cfd684ba3705e53ccab89c95df08300c1e",
+      "frames": [
+        {
+          "x": 163,
+          "y": 17,
+          "width": 164,
+          "height": 476
+        },
+        {
+          "x": 141,
+          "y": 17,
+          "width": 205,
+          "height": 476
+        },
+        {
+          "x": 106,
+          "y": 17,
+          "width": 283,
+          "height": 475
+        },
+        {
+          "x": 85,
+          "y": 17,
+          "width": 348,
+          "height": 474
+        },
+        {
+          "x": 64,
+          "y": 17,
+          "width": 393,
+          "height": 473
+        },
+        {
+          "x": 48,
+          "y": 17,
+          "width": 427,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

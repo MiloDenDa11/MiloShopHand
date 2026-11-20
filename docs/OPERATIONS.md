@@ -2,6 +2,10 @@
 
 Môi trường Desktop hiện dùng PostgreSQL/Redis Docker. Xem [đồng bộ, volumes và lệnh backup/restore](DOCKER-SYNC.md) cho cấu hình đã chuyển ngày 05/11/2026.
 
+## Tài khoản Admin
+
+Tạo mới bằng `npm run admin:create`, hoặc cấp vai trò ADMIN cho tài khoản đã đăng ký bằng `npm run admin:grant -- email@example.com`. Admin đăng nhập bằng email/mật khẩu, không cần mã xác thực; tài khoản bị khóa vẫn bị chặn. Cấp quyền không thay mật khẩu hay tự xác minh email. Các thao tác nhạy cảm giữ xác thực lại bằng mật khẩu trong 10 phút. Giữ biến `MFA_ENCRYPTION_KEY` vì còn dùng mã hóa email chờ gửi; không cần đổi schema hoặc xóa dữ liệu MFA cũ.
+
 ## payOS
 
 Đặt PAYMENT_PROVIDER=payos và PAYOS_CLIENT_ID/API_KEY/CHECKSUM_KEY ở backend. Tạo kênh theo tài khoản payOS thật, dùng HTTPS APP_URL và webhook `/api/v1/webhooks/payos`. Đăng ký webhook bằng dashboard/công cụ chính thức của payOS. Mã link dùng providerCode sequence unique, amount backend, expiresAt chung với reservation. `@payos/node` verify chữ ký, không tự viết thuật toán chữ ký production. Không giả định tài khoản có sandbox; mock là adapter nội bộ phát triển. Không chuyển tiền thật trong bộ test.
@@ -28,7 +32,9 @@ STORAGE_PROVIDER=local ghi ảnh catalog WebP dưới UPLOAD_DIR; random UUID, 5
 
 ## HTTPS và production
 
-Compose là local development; giữ DB/Redis private network. Triển khai Nginx/Caddy TLS, APP_URL=https://..., NODE_ENV=production, secrets ngẫu nhiên khác dev, PAYOS/GHN thật, Redis bắt buộc và SMTP thật. Cookie Secure tự bật. Forward X-Forwarded-Proto và Host, tin đúng một reverse proxy. Bật HSTS ở TLS terminator khi domain đã sẵn sàng HTTPS. `.env` không vào image/git; inject secrets bằng secret manager. Phân quyền DB ứng dụng tối thiểu, migration bằng user riêng; không chạy ứng dụng bằng superuser PostgreSQL như local demo. Admin chỉ bootstrap qua terminal riêng tin cậy.
+Compose là local development; giữ DB/Redis private network. Triển khai Nginx/Caddy TLS, APP_URL=https://..., NODE_ENV=production, secrets ngẫu nhiên khác dev, PAYOS/GHN thật, Redis bắt buộc và SMTP thật. Cookie Secure tự bật. Forward X-Forwarded-Proto và Host; đặt TRUST_PROXY bằng đúng IP/CIDR ingress, không dùng số hop hoặc wildcard. Bật HSTS ở TLS terminator khi domain đã sẵn sàng HTTPS. `.env` không vào image/git; inject secrets bằng secret manager. Phân quyền DB ứng dụng tối thiểu, migration bằng user riêng; không chạy ứng dụng bằng superuser PostgreSQL như local demo. Admin chỉ bootstrap qua terminal riêng tin cậy.
+
+Xem [hướng dẫn triển khai bảo mật](security/PRODUCTION.md) để chuyển runtime DB role, áp dụng template Nginx HTTPS, kiểm tra CSP nonce và rollback. Thay đổi USER thành ADMIN thu hồi phiên cũ; tài khoản cần đăng nhập lại. Đợt audit chỉ kiểm tra local/QA, chưa triển khai các cấu hình này lên hạ tầng production.
 
 API port 4000, web 3000; same-origin reverse proxy /api và /uploads. Production cần resource limits, monitoring, gửi cảnh báo khi Outbox FAILED hoặc payment EXCEPTION, không chỉ xem màn Admin. Triển khai worker là tiến trình riêng được supervisor restart, dừng graceful và giữ lease/retry. Theo dõi worker heartbeat, thời gian job cũ nhất, pending QR quá hạn, tồn reserved lâu, COD chưa chuyển về, dung lượng DB/ảnh.
 

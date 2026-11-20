@@ -1,6 +1,16 @@
 # MILOSHOPHAND
 
-**Cập nhật ảnh, font, hiệu năng và 360°:** bộ 60 thiết kế AI, Inter/Lora tiếng Việt local, ảnh trước/sau và viewer GLB tải theo yêu cầu. Xem [báo cáo nâng cấp và cách kiểm tra](docs/COLLECTION-UPGRADE.md).
+**Quản lý kho — 19/11/2026:** đã hoàn tất bảng tồn theo sản phẩm/màu/size, nhập/xuất/kiểm kê có xác nhận, bảo toàn hàng đang giữ và lịch sử tồn trước/sau. Đạt 29 kiểm thử tích hợp và 14 kiểm thử production; xem [hướng dẫn, ảnh nghiệm thu và kết quả kiểm chứng](docs/INVENTORY.md). Vào **Admin → Tồn kho** để sử dụng.
+
+**Modern Vintage UI:** design system nâu cà phê/ivory, 19 dropdown dùng chung có tìm kiếm/bàn phím, bảng quản trị có tìm nhanh/phân trang và sidebar thu gọn; đồng bộ cửa hàng, tài khoản, checkout, 360° và phòng thử đồ. Xem [audit, các file thay đổi và kiểm thử](docs/modern-ui/README.md).
+
+**Phòng thử đồ AI — 18/11/2026:** đã có nút Dùng thử trên thẻ/trang sản phẩm, chọn ảnh cá nhân trên thiết bị, xác nhận màu/size và giao diện kết quả chờ kết nối AI. Phần tạo ảnh AI để sau theo yêu cầu; không gửi ảnh cá nhân lên máy chủ. Xem [phạm vi, kiến trúc và nghiệm thu](docs/TRY-ON.md).
+
+**Ảnh riêng theo màu:** đã tắt nhuộm màu tự động gây lỗi vải/logo. Đã lưu **193/380 bộ màu**, còn 187 bộ chờ hạn mức tạo ảnh. Thẻ, thư viện và viewer chỉ xoay bộ ảnh riêng đúng màu đã duyệt; màu chưa có ảnh riêng được ghi rõ đang cập nhật. Xem [báo cáo hiện tại](docs/colour-assets/STATUS.md), [quy trình và độ phủ](docs/colour-assets/README.md). [Báo cáo 17/11](docs/ROTATION-COMPLETION.md) là lịch sử trước thay đổi này.
+
+**Hoàn thiện luồng mua sắm 17/11/2026:** yêu thích khớp database và tách tài khoản, giữ màu từ thẻ đến chi tiết/giỏ, xử lý ảnh tải lỗi và thử lại trong gallery. Xem [thay đổi và kiểm thử](docs/SHOPPING-CONTINUITY.md). Các cập nhật thực hiện trên bản Desktop hiện tại, giữ bộ ảnh/font/360° đang dùng.
+
+**Cập nhật ảnh, font, hiệu năng và 360°:** bộ 60 thiết kế AI, Inter/Lora tiếng Việt local, ảnh trước/sau và bộ xem ảnh nhiều góc tải theo yêu cầu. Xem [lịch sử nâng cấp](docs/COLLECTION-UPGRADE.md) và [bộ xoay hiện tại](docs/colour-assets/STATUS.md).
 
 **Giao diện mới:** vintage magazine, streetwear và everyday basic. Xem [báo cáo UI/UX](docs/ui-redesign/README.md), [ảnh chụp và kiểm thử](docs/ui-redesign/VERIFICATION.md), [ảnh thật cần bổ sung](docs/ui-redesign/ASSET-CHECKLIST.csv). Chưa có file Baket Fashion hoặc ảnh chụp thật; đã chuẩn bị điểm tích hợp, không dùng ảnh minh họa thay ảnh hàng hóa. Nâng cấp frontend này không cần migrate/seed lại dữ liệu đang dùng.
 
@@ -49,7 +59,15 @@ Tạo Admin trong terminal (tự chọn email, mật khẩu dài ít nhất 15 k
 npm run admin:create
 ```
 
-CLI xuất URI TOTP và 10 mã khôi phục dùng một lần **chỉ lúc tạo**. Thêm URI vào ứng dụng xác thực, lưu mã khôi phục vào trình quản lý mật khẩu. Admin đăng nhập cần mật khẩu và TOTP/mã khôi phục. Có thể cung cấp mật khẩu qua biến `ADMIN_PASSWORD` trong phiên terminal, xóa biến sau khi tạo; không đặt mật khẩu trong tham số lệnh hoặc commit `.env`.
+Admin đăng nhập bằng email và mật khẩu, được cấp quyền qua vai trò `ADMIN`, không cần mã OTP/TOTP hoặc mã khôi phục. Có thể cung cấp mật khẩu qua biến `ADMIN_PASSWORD` trong phiên terminal, xóa biến sau khi tạo; không đặt mật khẩu trong tham số lệnh hoặc commit `.env`.
+
+Cấp quyền Admin cho tài khoản đã đăng ký:
+
+```powershell
+npm run admin:grant -- email@example.com
+```
+
+Thay email bằng tài khoản cần cấp quyền. Lệnh giữ nguyên mật khẩu, trạng thái xác minh email và dữ liệu tài khoản, ghi nhật ký cấp quyền, từ chối tài khoản bị khóa hoặc không tồn tại. Admin có dữ liệu MFA cũ cũng đăng nhập không cần mã; không cần migration. Các thao tác nhạy cảm vẫn cần xác thực lại bằng mật khẩu trong 10 phút.
 
 ## Docker Compose
 
@@ -105,6 +123,7 @@ Chạy ba lệnh start ở ba tiến trình riêng. Cấu hình HTTPS/Redis/prov
 
 - [Kiến trúc, ERD, ma trận quyền và state machine](docs/ARCHITECTURE.md)
 - [API, tính tiền, đối soát và giới hạn](docs/API.md)
+- [Quản lý kho theo màu/size, nhập/xuất, kiểm kê và lịch sử](docs/INVENTORY.md)
 - [Cấu hình dịch vụ, HTTPS, worker, backup/restore](docs/OPERATIONS.md)
 - [Báo cáo xác minh và phụ thuộc còn thiếu](docs/VERIFICATION.md)
 - [Đồng bộ ổ D → Desktop, Docker và sao lưu dữ liệu](docs/DOCKER-SYNC.md)

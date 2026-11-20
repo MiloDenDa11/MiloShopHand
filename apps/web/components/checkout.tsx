@@ -1,4 +1,5 @@
 "use client";
+import { Select } from "./ui/select";
 import { useState, useEffect, useRef, FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -257,7 +258,7 @@ export function Checkout() {
             {saved.length > 0 && (
               <label>
                 Địa chỉ đã lưu
-                <select
+                <Select
                   defaultValue=""
                   onChange={(e) => {
                     const a = saved.find((s) => s.id === e.target.value);
@@ -277,7 +278,7 @@ export function Checkout() {
                       {a.recipient} — {a.text}
                     </option>
                   ))}
-                </select>
+                </Select>
               </label>
             )}
             <div className="form-row">
@@ -342,7 +343,7 @@ export function Checkout() {
               <>
                 <label>
                   Tỉnh/thành theo GHN
-                  <select
+                  <Select
                     required
                     value={province}
                     onChange={async (e) => {
@@ -367,11 +368,11 @@ export function Checkout() {
                         {a.ProvinceName}
                       </option>
                     ))}
-                  </select>
+                  </Select>
                 </label>
                 <label>
                   Khu vực giao hàng GHN
-                  <select
+                  <Select
                     required
                     value={address.districtId || ""}
                     onChange={async (e) => {
@@ -391,11 +392,11 @@ export function Checkout() {
                         {a.DistrictName}
                       </option>
                     ))}
-                  </select>
+                  </Select>
                 </label>
                 <label>
                   Phường/xã theo GHN
-                  <select
+                  <Select
                     required
                     value={address.wardCode || ""}
                     onChange={(e) => field("wardCode", e.target.value)}
@@ -406,7 +407,7 @@ export function Checkout() {
                         {a.WardName}
                       </option>
                     ))}
-                  </select>
+                  </Select>
                 </label>
               </>
             )}
@@ -506,7 +507,7 @@ export function Checkout() {
                 maxLength={40}
               />
             </label>
-            <button className="button secondary full" disabled={busy}>
+            <button className="button secondary full" aria-busy={busy} disabled={busy}>
               {busy ? "Đang kiểm tra…" : "Kiểm tra giá & phí giao hàng"}{" "}
               <Truck size={17} />
             </button>
@@ -560,7 +561,7 @@ export function Checkout() {
               <p className="small muted">{quote.shipping.label}</p>
               <button
                 className="button full"
-                disabled={busy || !user.verifiedAt}
+                aria-busy={busy} disabled={busy || !user.verifiedAt}
                 onClick={place}
               >
                 {busy ? "Đang tạo đơn…" : "Xác nhận đặt hàng"}{" "}

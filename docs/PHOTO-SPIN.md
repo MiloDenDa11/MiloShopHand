@@ -1,5 +1,9 @@
 # Xoay ảnh quanh Oy — 06/11/2026
 
+> **Cập nhật 18/11/2026:** cơ chế phối màu tự động đã được gỡ. Thư viện hiện có 193/380 bộ màu riêng đã duyệt; 187 bộ còn thiếu do hạn mức ImageGen. Xem [tình trạng hiện tại](colour-assets/STATUS.md). Các con số và mô tả lớp phối màu bên dưới là lịch sử.
+
+> Cập nhật tiếp theo ngày 17/11/2026: [bổ sung đủ bộ áo xoay và phối màu xem trước](ROTATION-COMPLETION.md). Các con số và phần thiếu trong báo cáo bên dưới là lịch sử của các đợt trước; dùng báo cáo mới để xem phạm vi hiện tại.
+
 > Phạm vi đã xác minh mới nhất: **61 bộ màu / 49 sản phẩm, 1.464 góc, 244 atlas PNG gốc**. Cả 90 sản phẩm có ảnh gallery; còn 17/60 thiết kế ban đầu và 24/30 sản phẩm cũ chưa có bộ xoay màu gốc. Web hiện dùng ảnh WebP theo góc cho gallery và atlas WebP riêng cho thẻ/chi tiết, giữ nguyên ảnh nguồn; xem [báo cáo hiệu năng](PERFORMANCE-TICKETS-COMPARISON.md). Các mốc ít hơn và tên áo còn thiếu trong phần lịch sử bên dưới không còn thể hiện đầy đủ phạm vi hiện tại.
 
 > UI mới nhất: [Milo Design, nút bo tròn, nền hoa lá và preview đổi màu](MILO-DESIGN-UI.md). Màu thiếu ảnh riêng nay có lớp phối màu xem trước; số bộ ảnh 24 góc gốc bên dưới giữ nguyên. Các mô tả nhãn “AI” trong báo cáo này ghi nguồn gốc asset, không phải nhãn hiện trên giao diện.

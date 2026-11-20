@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-sport-chevron",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:32:17.421Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-1929cbca-511b-4f39-914a-bc6d41948d4b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Sport Chevron Bomber, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHEVRON STYLE: retain the source's cream contrast chevron panels across chest, back and sleeves, cream striped ribbing and ivory branding. Apply the requested target colour only to the main body and sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1785681,
+      "sha256": "ecef4464129d4e78638e6f4e568b6d9acdf1182cdf67371dc148e18ba8628be6",
+      "frames": [
+        {
+          "x": 52,
+          "y": 28,
+          "width": 410,
+          "height": 433
+        },
+        {
+          "x": 65,
+          "y": 23,
+          "width": 383,
+          "height": 445
+        },
+        {
+          "x": 88,
+          "y": 22,
+          "width": 323,
+          "height": 448
+        },
+        {
+          "x": 135,
+          "y": 19,
+          "width": 261,
+          "height": 461
+        },
+        {
+          "x": 157,
+          "y": 19,
+          "width": 197,
+          "height": 465
+        },
+        {
+          "x": 160,
+          "y": 19,
+          "width": 182,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-49b6396d-709f-4314-abe5-05662948e304.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Sport Chevron Bomber, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHEVRON STYLE: retain the source's cream contrast chevron panels across chest, back and sleeves, cream striped ribbing and ivory branding. Apply the requested target colour only to the main body and sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1768577,
+      "sha256": "52239ac660382a392aa97a779dc5d715e4584fd62dd7d1bf98611c78812e9f7d",
+      "frames": [
+        {
+          "x": 166,
+          "y": 28,
+          "width": 178,
+          "height": 460
+        },
+        {
+          "x": 149,
+          "y": 27,
+          "width": 200,
+          "height": 471
+        },
+        {
+          "x": 133,
+          "y": 27,
+          "width": 234,
+          "height": 462
+        },
+        {
+          "x": 120,
+          "y": 26,
+          "width": 284,
+          "height": 466
+        },
+        {
+          "x": 89,
+          "y": 26,
+          "width": 334,
+          "height": 457
+        },
+        {
+          "x": 58,
+          "y": 46,
+          "width": 395,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-3e596cf5-a3bc-4bd2-94b5-9f5a00fb0c0b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Sport Chevron Bomber, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHEVRON STYLE: retain the source's cream contrast chevron panels across chest, back and sleeves, cream striped ribbing and ivory branding. Apply the requested target colour only to the main body and sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1797322,
+      "sha256": "970132213e7f716a15f9a174215790b397f44f62af592d0a81b7e15a7c583edc",
+      "frames": [
+        {
+          "x": 44,
+          "y": 48,
+          "width": 422,
+          "height": 427
+        },
+        {
+          "x": 76,
+          "y": 46,
+          "width": 369,
+          "height": 438
+        },
+        {
+          "x": 105,
+          "y": 46,
+          "width": 303,
+          "height": 441
+        },
+        {
+          "x": 138,
+          "y": 25,
+          "width": 236,
+          "height": 466
+        },
+        {
+          "x": 143,
+          "y": 21,
+          "width": 219,
+          "height": 470
+        },
+        {
+          "x": 152,
+          "y": 24,
+          "width": 190,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-7df20eee-2e6e-4105-bd47-c5fb862056eb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Sport Chevron Bomber, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHEVRON STYLE: retain the source's cream contrast chevron panels across chest, back and sleeves, cream striped ribbing and ivory branding. Apply the requested target colour only to the main body and sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1772548,
+      "sha256": "e991eacb0b64b95ad616fdbdde24adc19a30d7643f1e870b693ba99591acf503",
+      "frames": [
+        {
+          "x": 171,
+          "y": 30,
+          "width": 170,
+          "height": 460
+        },
+        {
+          "x": 135,
+          "y": 26,
+          "width": 207,
+          "height": 468
+        },
+        {
+          "x": 101,
+          "y": 24,
+          "width": 267,
+          "height": 469
+        },
+        {
+          "x": 91,
+          "y": 23,
+          "width": 329,
+          "height": 460
+        },
+        {
+          "x": 65,
+          "y": 24,
+          "width": 375,
+          "height": 463
+        },
+        {
+          "x": 46,
+          "y": 21,
+          "width": 411,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views on the complete contact sheet and the full-resolution burgundy front anchor. Burgundy body/sleeves and cream chevron panels remain assigned consistently through front, profile and back views; cream ribbing carries burgundy stripes matching the anchor. Correct pocket/zip construction, front monogram and rear cursive text are preserved with complete garments in all cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

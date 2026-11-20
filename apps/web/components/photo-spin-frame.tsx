@@ -3,7 +3,7 @@ import {preparedSpinSource} from "../lib/prepared-media";
 import "../app/photo-spin-frame.css";
 
 // Uniformly aligned adjacent photos blend while Three.js damping settles.
-export function PhotoSpinFrame({spin,frame,bounds,zoom=1,name,profile='detail'}:{spin:PhotoSpin;frame:number;bounds:{width:number;height:number};zoom?:number;name:string;profile?:'card'|'detail'}) {
+export function PhotoSpinFrame({spin,frame,bounds,zoom=1,name,profile='detail',sources}:{spin:PhotoSpin;frame:number;bounds:{width:number;height:number};zoom?:number;name:string;profile?:'card'|'detail';sources?:Record<string,string>}) {
   const first=Math.floor(frame),mix=frame-first;
   const width=Math.min(bounds.width,bounds.height*.8),height=width/.8;
   const widest=Math.max(...spin.atlases.flatMap(a=>a.frames?.map(b=>b.width/b.height)||[.9]));
@@ -16,7 +16,7 @@ export function PhotoSpinFrame({spin,frame,bounds,zoom=1,name,profile='detail'}:
   const inset=(atlas.inset||2)*scale,padding=Math.max(4,Math.min(cellWidth,cellHeight)*.015);
   const cropLeft=Math.max(inset,(box.x-padding)*scale),cropTop=Math.max(inset,(box.y-padding)*scale);
   const cropRight=Math.max(inset,(cellWidth-box.x-box.width-padding)*scale),cropBottom=Math.max(inset,(cellHeight-box.y-box.height-padding)*scale);
-  return <div className="photo-spin-placement" aria-hidden={blend?true:undefined} style={{left,top,width:cellWidth*scale,height:cellHeight*scale,opacity:blend?mix:1}}><div className="photo-spin-crop" style={{left:cropLeft,top:cropTop,right:cropRight,bottom:cropBottom}}><div className={blend?"photo-spin-blend-sheet":"photo-spin-sheet"} style={{width:atlas.width*scale,height:atlas.height*scale,left:-column*cellWidth*scale-cropLeft,top:-row*cellHeight*scale-cropTop,backgroundImage:`url("${photoSpinImageSource(atlas.src,profile)}")`}}/></div></div>;
+  return <div className="photo-spin-placement" aria-hidden={blend?true:undefined} style={{left,top,width:cellWidth*scale,height:cellHeight*scale,opacity:blend?mix:1}}><div className="photo-spin-crop" style={{left:cropLeft,top:cropTop,right:cropRight,bottom:cropBottom}}><div className={blend?"photo-spin-blend-sheet":"photo-spin-sheet"} style={{width:atlas.width*scale,height:atlas.height*scale,left:-column*cellWidth*scale-cropLeft,top:-row*cellHeight*scale-cropTop,backgroundImage:`url("${sources?.[atlas.src]||photoSpinImageSource(atlas.src,profile)}")`}}/></div></div>;
   }
   return <div className="photo-spin-frame" role="img" aria-label={`${name} — góc ảnh ${first+1}/${spin.frameCount}`} style={{width,height,transform:`scale(${zoom})`}}>{layer(first,false)}{mix>.001&&layer((first+1)%spin.frameCount,true)}</div>;
 }

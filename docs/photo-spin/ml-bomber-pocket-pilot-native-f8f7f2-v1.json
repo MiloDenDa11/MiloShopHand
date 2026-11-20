@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-pocket-pilot",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T05:35:25.569Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6a25a345-bb89-450f-a5e3-93634c43cb3a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Pilot Bomber, Trắng #f8f7f2, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: nylon-canvas.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1813487,
+      "sha256": "b0340ed3c2b5a7927556fd6e19aef047928e51f1e157c0a21093aa20efa2c834",
+      "frames": [
+        {
+          "x": 46,
+          "y": 29,
+          "width": 425,
+          "height": 438
+        },
+        {
+          "x": 60,
+          "y": 22,
+          "width": 400,
+          "height": 455
+        },
+        {
+          "x": 83,
+          "y": 20,
+          "width": 348,
+          "height": 462
+        },
+        {
+          "x": 124,
+          "y": 17,
+          "width": 284,
+          "height": 470
+        },
+        {
+          "x": 156,
+          "y": 13,
+          "width": 219,
+          "height": 478
+        },
+        {
+          "x": 167,
+          "y": 12,
+          "width": 187,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-07d927f9-751e-4b93-a9c6-c5014860c6af.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Pilot Bomber, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its main fabric, contrast ribbing/trim, hardware and brand ink consistently across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed nylon-canvas, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1696773,
+      "sha256": "115bb389764f9c4136e5b90de61e41b3f839304b6d1225264b4934a589f0fcc1",
+      "frames": [
+        {
+          "x": 176,
+          "y": 27,
+          "width": 171,
+          "height": 469
+        },
+        {
+          "x": 159,
+          "y": 27,
+          "width": 194,
+          "height": 470
+        },
+        {
+          "x": 146,
+          "y": 89,
+          "width": 224,
+          "height": 407
+        },
+        {
+          "x": 126,
+          "y": 86,
+          "width": 276,
+          "height": 407
+        },
+        {
+          "x": 94,
+          "y": 89,
+          "width": 327,
+          "height": 400
+        },
+        {
+          "x": 60,
+          "y": 92,
+          "width": 399,
+          "height": 395
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-fb4efbfb-485b-4dd4-b04d-a0794c772d9a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Pilot Bomber, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its main fabric, contrast ribbing/trim, hardware and brand ink consistently across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed nylon-canvas, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1726052,
+      "sha256": "5e3b1e81da0a65ed382e36d057997ab22b40e3206e5b580b3ed6e591998a8c46",
+      "frames": [
+        {
+          "x": 44,
+          "y": 86,
+          "width": 426,
+          "height": 390
+        },
+        {
+          "x": 60,
+          "y": 84,
+          "width": 384,
+          "height": 397
+        },
+        {
+          "x": 92,
+          "y": 84,
+          "width": 317,
+          "height": 404
+        },
+        {
+          "x": 125,
+          "y": 77,
+          "width": 257,
+          "height": 415
+        },
+        {
+          "x": 143,
+          "y": 16,
+          "width": 220,
+          "height": 477
+        },
+        {
+          "x": 155,
+          "y": 16,
+          "width": 206,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-2ad00d8c-759b-4c2f-b6ff-4090b7d30486.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Pilot Bomber, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its main fabric, contrast ribbing/trim, hardware and brand ink consistently across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed nylon-canvas, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1713689,
+      "sha256": "e4267105a33ec73379f468dbfe5f4b2e4bf2604b9c70908d025ae16bc11bf26b",
+      "frames": [
+        {
+          "x": 163,
+          "y": 29,
+          "width": 175,
+          "height": 462
+        },
+        {
+          "x": 149,
+          "y": 25,
+          "width": 207,
+          "height": 465
+        },
+        {
+          "x": 129,
+          "y": 25,
+          "width": 254,
+          "height": 463
+        },
+        {
+          "x": 100,
+          "y": 24,
+          "width": 324,
+          "height": 458
+        },
+        {
+          "x": 72,
+          "y": 24,
+          "width": 369,
+          "height": 456
+        },
+        {
+          "x": 49,
+          "y": 25,
+          "width": 410,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views on the complete contact sheet plus the new full-resolution rear/side/front quarters. Warm white fabric and utility pocket panels retain tan ribbing, straps and warm metal hardware consistently; charcoal lettering remains readable. Full garment margins, sleeve utility pocket, cargo buckle placement and front zip are preserved across the nominal rotation with no added marks or obvious colour overlay artifacts.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

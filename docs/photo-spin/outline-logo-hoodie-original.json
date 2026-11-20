@@ -1,0 +1,222 @@
+{
+  "slug": "outline-logo-hoodie",
+  "colorKey": "original",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:51:50.411Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/outline-logo-hoodie/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0c9c12f3-8d0a-4935-a712-b2150778f15e.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Outline Logo Hoodie, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream cotton pullover hoodie WITHOUT drawcords and WITHOUT front kangaroo pocket, chest ML, rib cuffs/hem, floral M and MiloShopHand back. Follow photo over metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1709745,
+      "sha256": "e9f0e6c88dc175dc5b71dce3925e52c5d28cecdcdb826b53a48bd1dd1c695158",
+      "frames": [
+        {
+          "x": 57,
+          "y": 23,
+          "width": 398,
+          "height": 451
+        },
+        {
+          "x": 69,
+          "y": 21,
+          "width": 366,
+          "height": 458
+        },
+        {
+          "x": 87,
+          "y": 20,
+          "width": 305,
+          "height": 461
+        },
+        {
+          "x": 132,
+          "y": 17,
+          "width": 252,
+          "height": 474
+        },
+        {
+          "x": 153,
+          "y": 16,
+          "width": 197,
+          "height": 476
+        },
+        {
+          "x": 161,
+          "y": 15,
+          "width": 194,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/outline-logo-hoodie/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-20463f73-4fe4-4e65-b972-b96a9db5ecc0.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Outline Logo Hoodie, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream cotton pullover hoodie WITHOUT drawcords and WITHOUT front kangaroo pocket, chest ML, rib cuffs/hem, floral M and MiloShopHand back. Follow photo over metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1592630,
+      "sha256": "9fa5ea81925eb048907b1724a46e1d428260f5e7db081b064f65db57dce22c33",
+      "frames": [
+        {
+          "x": 148,
+          "y": 21,
+          "width": 199,
+          "height": 477
+        },
+        {
+          "x": 137,
+          "y": 19,
+          "width": 210,
+          "height": 479
+        },
+        {
+          "x": 117,
+          "y": 18,
+          "width": 236,
+          "height": 479
+        },
+        {
+          "x": 101,
+          "y": 15,
+          "width": 303,
+          "height": 477
+        },
+        {
+          "x": 76,
+          "y": 15,
+          "width": 352,
+          "height": 475
+        },
+        {
+          "x": 52,
+          "y": 15,
+          "width": 402,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/outline-logo-hoodie/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f8a23691-ad0b-4bb0-8982-18a507f76551.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Outline Logo Hoodie, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream cotton pullover hoodie WITHOUT drawcords and WITHOUT front kangaroo pocket, chest ML, rib cuffs/hem, floral M and MiloShopHand back. Follow photo over metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1758054,
+      "sha256": "4ca991191bd24b0ce6f0ff282d028d43ab5ef52c1e8af6b0ac47adb6784968d3",
+      "frames": [
+        {
+          "x": 51,
+          "y": 19,
+          "width": 412,
+          "height": 448
+        },
+        {
+          "x": 67,
+          "y": 21,
+          "width": 379,
+          "height": 453
+        },
+        {
+          "x": 104,
+          "y": 22,
+          "width": 298,
+          "height": 457
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 237,
+          "height": 467
+        },
+        {
+          "x": 159,
+          "y": 18,
+          "width": 205,
+          "height": 467
+        },
+        {
+          "x": 161,
+          "y": 18,
+          "width": 193,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/outline-logo-hoodie/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-1807ea16-b697-4ef6-bd8a-57e460754b3a.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Outline Logo Hoodie, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream cotton pullover hoodie WITHOUT drawcords and WITHOUT front kangaroo pocket, chest ML, rib cuffs/hem, floral M and MiloShopHand back. Follow photo over metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1561029,
+      "sha256": "fb468a57b58d6023a0dd53d2162097646589b84dcf4f6b59aecff4edfcaf2e12",
+      "frames": [
+        {
+          "x": 153,
+          "y": 19,
+          "width": 190,
+          "height": 474
+        },
+        {
+          "x": 152,
+          "y": 19,
+          "width": 208,
+          "height": 475
+        },
+        {
+          "x": 125,
+          "y": 19,
+          "width": 263,
+          "height": 472
+        },
+        {
+          "x": 98,
+          "y": 17,
+          "width": 325,
+          "height": 472
+        },
+        {
+          "x": 76,
+          "y": 16,
+          "width": 362,
+          "height": 469
+        },
+        {
+          "x": 58,
+          "y": 15,
+          "width": 395,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

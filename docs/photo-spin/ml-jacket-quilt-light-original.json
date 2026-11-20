@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-quilt-light",
+  "colorKey": "original",
+  "colorHex": "#8d795e",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:35:58.231Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-quilt-light/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-58793e8d-ac4c-4482-9d61-06f0f1d15c08.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Quilt Light Jacket, base colour #8d795e. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"diamond-quilt\",\"collar\":\"band\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"patch\"}, Nylon chần bông. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1886543,
+      "sha256": "26cd811d552064a684ef7c56c39e56c4734dcb887bb21a9028c6855fec8f181b",
+      "frames": [
+        {
+          "x": 39,
+          "y": 31,
+          "width": 436,
+          "height": 432
+        },
+        {
+          "x": 47,
+          "y": 27,
+          "width": 418,
+          "height": 438
+        },
+        {
+          "x": 65,
+          "y": 25,
+          "width": 365,
+          "height": 440
+        },
+        {
+          "x": 105,
+          "y": 16,
+          "width": 312,
+          "height": 455
+        },
+        {
+          "x": 137,
+          "y": 27,
+          "width": 224,
+          "height": 445
+        },
+        {
+          "x": 136,
+          "y": 26,
+          "width": 204,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-quilt-light/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-62f02649-c2f9-4aaa-9377-fc3782ccba4b.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Quilt Light Jacket, base colour #8d795e. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"diamond-quilt\",\"collar\":\"band\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"patch\"}, Nylon chần bông. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1947791,
+      "sha256": "26982a5420b4b36f685e6deffaace0a6f865d85c439502d85f804f4d697208a4",
+      "frames": [
+        {
+          "x": 161,
+          "y": 42,
+          "width": 178,
+          "height": 442
+        },
+        {
+          "x": 151,
+          "y": 42,
+          "width": 194,
+          "height": 444
+        },
+        {
+          "x": 144,
+          "y": 42,
+          "width": 215,
+          "height": 445
+        },
+        {
+          "x": 147,
+          "y": 40,
+          "width": 236,
+          "height": 448
+        },
+        {
+          "x": 93,
+          "y": 39,
+          "width": 310,
+          "height": 449
+        },
+        {
+          "x": 56,
+          "y": 38,
+          "width": 382,
+          "height": 452
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-quilt-light/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c6ecd178-62e5-437e-80b9-083c9e41c089.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Quilt Light Jacket, base colour #8d795e. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"diamond-quilt\",\"collar\":\"band\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"patch\"}, Nylon chần bông. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2000461,
+      "sha256": "88603e833c9a5e97c08e8346ec96762e054aa05f5a0b3df45bb9114e4b675ec7",
+      "frames": [
+        {
+          "x": 41,
+          "y": 46,
+          "width": 432,
+          "height": 423
+        },
+        {
+          "x": 56,
+          "y": 46,
+          "width": 401,
+          "height": 421
+        },
+        {
+          "x": 87,
+          "y": 45,
+          "width": 331,
+          "height": 420
+        },
+        {
+          "x": 139,
+          "y": 45,
+          "width": 251,
+          "height": 419
+        },
+        {
+          "x": 152,
+          "y": 23,
+          "width": 219,
+          "height": 438
+        },
+        {
+          "x": 150,
+          "y": 20,
+          "width": 217,
+          "height": 434
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-quilt-light/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-960eea8f-e4c0-4cc4-9632-67aeb78ca28a.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Quilt Light Jacket, base colour #8d795e. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"diamond-quilt\",\"collar\":\"band\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"patch\"}, Nylon chần bông. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1907182,
+      "sha256": "186958198593f7532966289b03d862142ac285434e14555a7dc1abe262f969b9",
+      "frames": [
+        {
+          "x": 155,
+          "y": 40,
+          "width": 178,
+          "height": 443
+        },
+        {
+          "x": 137,
+          "y": 27,
+          "width": 210,
+          "height": 456
+        },
+        {
+          "x": 114,
+          "y": 25,
+          "width": 267,
+          "height": 458
+        },
+        {
+          "x": 99,
+          "y": 24,
+          "width": 327,
+          "height": 454
+        },
+        {
+          "x": 61,
+          "y": 23,
+          "width": 388,
+          "height": 449
+        },
+        {
+          "x": 41,
+          "y": 22,
+          "width": 420,
+          "height": 447
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

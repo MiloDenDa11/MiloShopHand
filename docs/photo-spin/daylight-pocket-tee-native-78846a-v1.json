@@ -1,0 +1,222 @@
+{
+  "slug": "daylight-pocket-tee",
+  "colorKey": "native-78846a-v1",
+  "colorHex": "#78846a",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T07:00:17.806Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-78846a-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2e8d5a56-a384-436f-b5af-b48ff98886b6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Xanh olive #78846a, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Xanh olive #78846a main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1873673,
+      "sha256": "48d0fb8635226ced79fbd7562b79e0f602cbd6ab69ae3d05ee9d5d0462aa9b71",
+      "frames": [
+        {
+          "x": 50,
+          "y": 18,
+          "width": 413,
+          "height": 454
+        },
+        {
+          "x": 68,
+          "y": 19,
+          "width": 379,
+          "height": 454
+        },
+        {
+          "x": 96,
+          "y": 15,
+          "width": 324,
+          "height": 459
+        },
+        {
+          "x": 136,
+          "y": 13,
+          "width": 261,
+          "height": 467
+        },
+        {
+          "x": 155,
+          "y": 12,
+          "width": 209,
+          "height": 468
+        },
+        {
+          "x": 162,
+          "y": 12,
+          "width": 188,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-78846a-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-458733a8-63e3-41f4-a1b8-0c4036475446.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Xanh olive #78846a, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh olive #78846a main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1698125,
+      "sha256": "0080cce75c4b7370952ddde58e0cf4318176427463ef4c2fadd2daf48c64a76a",
+      "frames": [
+        {
+          "x": 169,
+          "y": 17,
+          "width": 183,
+          "height": 478
+        },
+        {
+          "x": 150,
+          "y": 17,
+          "width": 204,
+          "height": 478
+        },
+        {
+          "x": 145,
+          "y": 17,
+          "width": 224,
+          "height": 478
+        },
+        {
+          "x": 133,
+          "y": 17,
+          "width": 279,
+          "height": 476
+        },
+        {
+          "x": 97,
+          "y": 16,
+          "width": 332,
+          "height": 477
+        },
+        {
+          "x": 63,
+          "y": 17,
+          "width": 393,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-78846a-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0cda6071-696a-4d31-b3f5-657ea0874540.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Xanh olive #78846a, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh olive #78846a main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1791078,
+      "sha256": "31c015d615c730446a083b4637a1f4b5da20e15480c91b662221e02d682c1594",
+      "frames": [
+        {
+          "x": 50,
+          "y": 28,
+          "width": 413,
+          "height": 460
+        },
+        {
+          "x": 68,
+          "y": 26,
+          "width": 385,
+          "height": 463
+        },
+        {
+          "x": 95,
+          "y": 24,
+          "width": 309,
+          "height": 465
+        },
+        {
+          "x": 137,
+          "y": 21,
+          "width": 233,
+          "height": 468
+        },
+        {
+          "x": 152,
+          "y": 21,
+          "width": 206,
+          "height": 468
+        },
+        {
+          "x": 157,
+          "y": 21,
+          "width": 200,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-78846a-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f62940b3-1dfa-4dca-b0eb-ee5821bea353.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Xanh olive #78846a, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh olive #78846a main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1579137,
+      "sha256": "c2093504cb4d54eb49003de15ae1bef0dcb14f99ab23a65687e519dd880635ba",
+      "frames": [
+        {
+          "x": 170,
+          "y": 18,
+          "width": 175,
+          "height": 477
+        },
+        {
+          "x": 154,
+          "y": 18,
+          "width": 201,
+          "height": 477
+        },
+        {
+          "x": 123,
+          "y": 18,
+          "width": 257,
+          "height": 477
+        },
+        {
+          "x": 94,
+          "y": 17,
+          "width": 334,
+          "height": 478
+        },
+        {
+          "x": 61,
+          "y": 17,
+          "width": 399,
+          "height": 476
+        },
+        {
+          "x": 38,
+          "y": 18,
+          "width": 432,
+          "height": 474
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 native views and contact sheet: consistent restrained fabric colour, readable single chest ML and clean back artwork, correct upright front/left/back/right order, matching pocket and contrast-band geometry, no ghost marks, blotchy recolouring or clipped garments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

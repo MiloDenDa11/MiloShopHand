@@ -27,10 +27,12 @@ import {
   WebhookController,
 } from "./commerce";
 import { AdminController } from "./admin";
+import { InventoryController } from "./inventory";
 import { AttachmentsController } from "./attachments";
 import { describeApi } from "./openapi";
 import { ExchangeController, AdminExchangeController } from "./exchanges";
 import { ShippingController } from "./shipping";
+import { proxyTrust, validateRuntimeConfig } from "./security-policy";
 @Global()
 @Module({
   providers: [Db, AuthGuard, AdminGuard, CatalogCache],
@@ -55,13 +57,14 @@ class CatalogModule {}
   exports: [CommerceService],
 })
 class CommerceModule {}
-@Module({ controllers: [AdminController, AdminExchangeController] })
+@Module({ controllers: [AdminController, AdminExchangeController, InventoryController] })
 class AdminModule {}
 @Module({
   imports: [CoreModule, AuthModule, CatalogModule, CommerceModule, AdminModule],
 })
 class AppModule {}
 async function bootstrap() {
+  validateRuntimeConfig(env);
   for (const key of ["SESSION_SECRET", "MFA_ENCRYPTION_KEY"])
     if (!env[key] || env[key]!.length < 64)
       throw new Error(`Configure ${key} using npm run setup`);
@@ -77,11 +80,17 @@ async function bootstrap() {
   });
   app.setGlobalPrefix("api/v1");
   const server = app.getHttpAdapter().getInstance();
-  server.set("trust proxy", production ? 1 : false);
+  server.set("trust proxy", proxyTrust(env.TRUST_PROXY));
+  server.disable('x-powered-by');
   server.set("json replacer", (_: string, v: any) =>
     typeof v === "bigint" ? Number(v) : v,
   );
-  app.use(helmet({ contentSecurityPolicy: false }));
+  app.use(helmet({ contentSecurityPolicy: false, frameguard: { action: 'deny' }, strictTransportSecurity: production ? { maxAge: 31536000 } : false, referrerPolicy: { policy: 'same-origin' } }));
+  app.use('/api/v1', (_req: any, res: any, next: any) => {
+    res.setHeader('Content-Security-Policy', "default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'");
+    res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=(), usb=()');
+    next();
+  });
   app.use((req: any, res: any, next: any) => {
     req.requestId = randomUUID();
     res.setHeader("X-Request-ID", req.requestId);
@@ -94,6 +103,8 @@ async function bootstrap() {
     "/uploads",
     express.static(resolve(projectRoot, env.UPLOAD_DIR || "uploads"), {
       dotfiles: "deny",
+      index: false,
+      redirect: false,
       setHeaders: (res) => {
         res.setHeader("Content-Security-Policy", "default-src 'none'");
         res.setHeader("X-Content-Type-Options", "nosniff");
@@ -113,10 +124,12 @@ async function bootstrap() {
     .addApiKey({ type: "apiKey", in: "header", name: "X-CSRF-Token" }, "csrf")
     .build();
   const doc = describeApi(SwaggerModule.createDocument(app, config));
-  SwaggerModule.setup("api/docs", app, doc, {
-    jsonDocumentUrl: "/api/openapi.json",
-  });
-  await app.listen(Number(env.API_PORT || 4000), "0.0.0.0");
+  if (!production || env.ENABLE_API_DOCS === 'true') {
+    if (production) app.use(['/api/docs', '/api/openapi.json'], (req: any, res: any, next: any) => req.actor?.role === 'ADMIN' ? next() : res.status(404).json({ code: 'NOT_FOUND', message: 'Không tìm thấy đường dẫn yêu cầu.', requestId: req.requestId }));
+    SwaggerModule.setup("api/docs", app, doc, { jsonDocumentUrl: "/api/openapi.json" });
+  }
+  const http = await app.listen(Number(env.API_PORT || 4000), env.API_HOST || '127.0.0.1');
+  http.requestTimeout = 30000; http.headersTimeout = 10000; http.keepAliveTimeout = 5000; http.maxHeadersCount = 100; http.maxRequestsPerSocket = 1000;
   console.log(`API ready http://localhost:${env.API_PORT || 4000}/api/docs`);
   app.enableShutdownHooks();
 }

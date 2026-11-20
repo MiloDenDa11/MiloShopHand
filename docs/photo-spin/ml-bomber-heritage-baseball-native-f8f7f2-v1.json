@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-heritage-baseball",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T05:33:34.175Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-heritage-baseball/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4e3ff125-5638-4dc1-ae60-2c99bf4a0398.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heritage Baseball Bomber, Trắng #f8f7f2, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1901033,
+      "sha256": "dd6a033292515ca14100daf252b6219568fd35ed4f6d20c56a0255afca3992bc",
+      "frames": [
+        {
+          "x": 38,
+          "y": 29,
+          "width": 438,
+          "height": 440
+        },
+        {
+          "x": 50,
+          "y": 27,
+          "width": 413,
+          "height": 445
+        },
+        {
+          "x": 75,
+          "y": 26,
+          "width": 349,
+          "height": 452
+        },
+        {
+          "x": 126,
+          "y": 21,
+          "width": 286,
+          "height": 463
+        },
+        {
+          "x": 153,
+          "y": 18,
+          "width": 220,
+          "height": 468
+        },
+        {
+          "x": 164,
+          "y": 17,
+          "width": 181,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-heritage-baseball/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-422018fe-07e5-466f-874c-e14d50439f82.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heritage Baseball Bomber, Trắng #f8f7f2, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1759419,
+      "sha256": "8a25dc85afbd750b35d7162abb0d01bb5cbcc00f5a268e369fe074df8174c33d",
+      "frames": [
+        {
+          "x": 166,
+          "y": 20,
+          "width": 184,
+          "height": 483
+        },
+        {
+          "x": 154,
+          "y": 19,
+          "width": 207,
+          "height": 484
+        },
+        {
+          "x": 146,
+          "y": 96,
+          "width": 232,
+          "height": 406
+        },
+        {
+          "x": 129,
+          "y": 91,
+          "width": 268,
+          "height": 401
+        },
+        {
+          "x": 92,
+          "y": 94,
+          "width": 323,
+          "height": 392
+        },
+        {
+          "x": 60,
+          "y": 95,
+          "width": 375,
+          "height": 390
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-heritage-baseball/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-cc57c943-459b-4e36-bc56-985d905885a1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heritage Baseball Bomber, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its main fabric, contrast ribbing/trim, hardware and brand ink consistently across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1805029,
+      "sha256": "64edf506ed9c53d2b25e40b640ba6692656b5b6d5a3b20460067cf6e77c6ba1a",
+      "frames": [
+        {
+          "x": 40,
+          "y": 96,
+          "width": 432,
+          "height": 373
+        },
+        {
+          "x": 61,
+          "y": 87,
+          "width": 391,
+          "height": 398
+        },
+        {
+          "x": 93,
+          "y": 74,
+          "width": 316,
+          "height": 417
+        },
+        {
+          "x": 149,
+          "y": 79,
+          "width": 224,
+          "height": 412
+        },
+        {
+          "x": 149,
+          "y": 17,
+          "width": 218,
+          "height": 474
+        },
+        {
+          "x": 153,
+          "y": 17,
+          "width": 195,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-heritage-baseball/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-9d8e8a34-2e1d-4425-9a97-7811a1bd1a00.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heritage Baseball Bomber, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its main fabric, contrast ribbing/trim, hardware and brand ink consistently across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1660095,
+      "sha256": "78bd3b23d82f7a19a535b502ce212cca84388dfa45a9446637cdc12ab4986337",
+      "frames": [
+        {
+          "x": 155,
+          "y": 16,
+          "width": 191,
+          "height": 481
+        },
+        {
+          "x": 136,
+          "y": 17,
+          "width": 225,
+          "height": 480
+        },
+        {
+          "x": 110,
+          "y": 17,
+          "width": 279,
+          "height": 480
+        },
+        {
+          "x": 89,
+          "y": 16,
+          "width": 341,
+          "height": 478
+        },
+        {
+          "x": 64,
+          "y": 16,
+          "width": 380,
+          "height": 475
+        },
+        {
+          "x": 48,
+          "y": 16,
+          "width": 418,
+          "height": 474
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views plus full-resolution new rear and final quarters. Warm white twill, brown stripes on light ribbing, light snaps and charcoal brand lettering match the saved anchor. Sleeve/body construction, pockets and snap closure stay consistent, with readable cursive MiloShopHand on the back and a single front chest ML; garments fit inside all cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "chill-out-hoodie",
+  "colorKey": "original",
+  "colorHex": "#242426",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:11.248Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9c80053f-36ad-4855-84d0-4994f20e2de4.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Chill Out Hoodie. Preserve the EXACT physical garment and colour #242426, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 0,15,30,45,60,75 degrees: exact FRONT first, gradually turn the garment's FRONT towards the LEFT of each image, ending almost LEFT-FACING PROFILE. Front chest ML gradually foreshortens. No back artwork visible. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1654621,
+      "sha256": "eab094dfce0925036ad57a3d646a3c42a9a4a2e27fb100dfb08779fcc57c3a94",
+      "frames": [
+        {
+          "x": 64,
+          "y": 23,
+          "width": 396,
+          "height": 459
+        },
+        {
+          "x": 71,
+          "y": 22,
+          "width": 372,
+          "height": 465
+        },
+        {
+          "x": 93,
+          "y": 21,
+          "width": 308,
+          "height": 472
+        },
+        {
+          "x": 130,
+          "y": 14,
+          "width": 244,
+          "height": 484
+        },
+        {
+          "x": 147,
+          "y": 11,
+          "width": 205,
+          "height": 487
+        },
+        {
+          "x": 160,
+          "y": 11,
+          "width": 184,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-928e3a70-0f40-46bf-8188-580833fd001b.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Chill Out Hoodie. Preserve the EXACT physical garment and colour #242426, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 90,105,120,135,150,165 degrees: start pure LEFT-FACING PROFILE (front opening/neck points LEFT, back points RIGHT), gradually turn to almost BACK. Front ML is hidden. Back artwork gradually appears. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1822036,
+      "sha256": "7cd39ae29244ec9851f2ee4260fe9d464e4f88214521ffe52103672859a07a54",
+      "frames": [
+        {
+          "x": 156,
+          "y": 18,
+          "width": 207,
+          "height": 470
+        },
+        {
+          "x": 143,
+          "y": 16,
+          "width": 211,
+          "height": 470
+        },
+        {
+          "x": 130,
+          "y": 16,
+          "width": 236,
+          "height": 469
+        },
+        {
+          "x": 114,
+          "y": 15,
+          "width": 285,
+          "height": 470
+        },
+        {
+          "x": 84,
+          "y": 14,
+          "width": 332,
+          "height": 467
+        },
+        {
+          "x": 57,
+          "y": 15,
+          "width": 385,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-61bb4c83-56b5-46f5-bc0d-e6d5c3c53176.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Chill Out Hoodie. Preserve the EXACT physical garment and colour #242426, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 180,195,210,225,240,255 degrees: exact BACK first, gradually turn from the back towards RIGHT-FACING PROFILE (front opening/neck ends pointing RIGHT). Back artwork progressively foreshortens. No chest ML. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1877858,
+      "sha256": "66db51c669e1d97c63f23dfd3236280d6ad622ab03c86f534d35548e2209ad9a",
+      "frames": [
+        {
+          "x": 51,
+          "y": 17,
+          "width": 421,
+          "height": 455
+        },
+        {
+          "x": 71,
+          "y": 17,
+          "width": 380,
+          "height": 460
+        },
+        {
+          "x": 104,
+          "y": 17,
+          "width": 302,
+          "height": 465
+        },
+        {
+          "x": 156,
+          "y": 16,
+          "width": 232,
+          "height": 468
+        },
+        {
+          "x": 156,
+          "y": 16,
+          "width": 212,
+          "height": 472
+        },
+        {
+          "x": 162,
+          "y": 16,
+          "width": 200,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-5b15c803-3b1a-499b-92c6-386f2b4ef6c4.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Chill Out Hoodie. Preserve the EXACT physical garment and colour #242426, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 270,285,300,315,330,345 degrees: first pure RIGHT-FACING PROFILE (front opening/neck points RIGHT, back points LEFT), then turn TOWARDS FRONT, until almost exact FRONT last. NEVER show a back view or back artwork in these six cells. Front ML gradually appears. This MUST be the OPPOSITE SIDE from the 90-degree view. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1831468,
+      "sha256": "02df26dcb9346fa5c43da45a8fdc9ee266bd103bce5d08df57b8dbf3f7da0017",
+      "frames": [
+        {
+          "x": 167,
+          "y": 15,
+          "width": 182,
+          "height": 474
+        },
+        {
+          "x": 154,
+          "y": 16,
+          "width": 209,
+          "height": 470
+        },
+        {
+          "x": 126,
+          "y": 18,
+          "width": 259,
+          "height": 468
+        },
+        {
+          "x": 119,
+          "y": 17,
+          "width": 313,
+          "height": 466
+        },
+        {
+          "x": 85,
+          "y": 16,
+          "width": 361,
+          "height": 465
+        },
+        {
+          "x": 51,
+          "y": 15,
+          "width": 409,
+          "height": 463
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

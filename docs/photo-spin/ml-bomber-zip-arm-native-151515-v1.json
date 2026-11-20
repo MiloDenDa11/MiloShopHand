@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-zip-arm",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:58:30.028Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-b9d0ab44-6eac-4710-8a51-e30e49690714.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1758873,
+      "sha256": "d1f1583bc0422838dea92fbee0694e5545998602ab6186253511f78c39502a01",
+      "frames": [
+        {
+          "x": 49,
+          "y": 23,
+          "width": 415,
+          "height": 442
+        },
+        {
+          "x": 61,
+          "y": 22,
+          "width": 396,
+          "height": 453
+        },
+        {
+          "x": 84,
+          "y": 20,
+          "width": 347,
+          "height": 461
+        },
+        {
+          "x": 119,
+          "y": 15,
+          "width": 290,
+          "height": 474
+        },
+        {
+          "x": 151,
+          "y": 14,
+          "width": 224,
+          "height": 475
+        },
+        {
+          "x": 175,
+          "y": 13,
+          "width": 182,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-dbc25741-aa2c-4816-9645-cebde3ddba67.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1695029,
+      "sha256": "824853cb1298cae40e91803d6309bda507a33300a1e0b8f6c084b45594ae9d0e",
+      "frames": [
+        {
+          "x": 160,
+          "y": 20,
+          "width": 191,
+          "height": 473
+        },
+        {
+          "x": 149,
+          "y": 20,
+          "width": 217,
+          "height": 473
+        },
+        {
+          "x": 146,
+          "y": 19,
+          "width": 230,
+          "height": 473
+        },
+        {
+          "x": 121,
+          "y": 19,
+          "width": 272,
+          "height": 473
+        },
+        {
+          "x": 95,
+          "y": 20,
+          "width": 317,
+          "height": 471
+        },
+        {
+          "x": 74,
+          "y": 19,
+          "width": 367,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-701cd1c0-5054-4c82-b819-aa459acaf1eb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1672384,
+      "sha256": "6ad836adbf687a463ee025a9896659bd53388e0840268bc8448a33c3167cc4f9",
+      "frames": [
+        {
+          "x": 44,
+          "y": 24,
+          "width": 431,
+          "height": 435
+        },
+        {
+          "x": 62,
+          "y": 23,
+          "width": 396,
+          "height": 448
+        },
+        {
+          "x": 86,
+          "y": 22,
+          "width": 346,
+          "height": 454
+        },
+        {
+          "x": 135,
+          "y": 20,
+          "width": 269,
+          "height": 468
+        },
+        {
+          "x": 152,
+          "y": 20,
+          "width": 216,
+          "height": 468
+        },
+        {
+          "x": 147,
+          "y": 20,
+          "width": 211,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-4ea22b8d-bd61-46f2-9f69-2e6998f8be12.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Arm Bomber, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon flight, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's two sleeve utility zipper pockets and stitched webbing loops, both snapped hip pockets and silver metal zippers. Keep the collar, cuffs and hem in a slightly darker coordinated tone of the target fabric colour. Same nylon material on body and sleeves; no contrasting sleeve fabric.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1757882,
+      "sha256": "8e8359c9ff776a987e2ca265f1b78254c96e79844be9e6bb0fe77251a972f6a3",
+      "frames": [
+        {
+          "x": 172,
+          "y": 20,
+          "width": 183,
+          "height": 476
+        },
+        {
+          "x": 144,
+          "y": 20,
+          "width": 225,
+          "height": 475
+        },
+        {
+          "x": 106,
+          "y": 21,
+          "width": 286,
+          "height": 474
+        },
+        {
+          "x": 91,
+          "y": 18,
+          "width": 343,
+          "height": 473
+        },
+        {
+          "x": 71,
+          "y": 18,
+          "width": 377,
+          "height": 472
+        },
+        {
+          "x": 48,
+          "y": 18,
+          "width": 413,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: black nylon flight fabric, coordinated rib trim, silver front/sleeve zippers and two snapped hip pockets are coherent across the rotation. Sleeve webbing and pocket outlines remain intact, ivory chest and back script are correctly visible.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

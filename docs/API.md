@@ -2,7 +2,7 @@
 
 Prefix `/api/v1`, Swagger `/api/docs`, JSON `/api/openapi.json`. Lỗi thống nhất `{code,message,fieldErrors?,requestId}`. HTTP 401 cần đăng nhập, 403 quyền/CSRF/email/reauth, 404 tài nguyên không thuộc chủ sở hữu cũng trả 404, 409 xung đột kho/trạng thái/key, 422 validation, 429 rate limit, 503 provider thiếu cấu hình/tạm lỗi. Không trả passwordHash, token, MFA secret, giá vốn hoặc ghi chú nội bộ qua DTO cửa hàng.
 
-GET `/auth/csrf` nhận cookie và token. Mọi mutation cookie cần header `X-CSRF-Token`, cookie và `Origin` khớp APP_URL. Webhook có xác thực provider riêng. Swagger nên mở qua cổng frontend cùng origin. ADMIN có TOTP bắt buộc; các thao tác thu tiền, hoàn tiền, khóa khách, đối soát cần reauth trong 10 phút bằng POST `/auth/reauth`.
+GET `/auth/csrf` nhận cookie và token. Mọi mutation cookie cần header `X-CSRF-Token`, cookie và `Origin` khớp APP_URL. Webhook có xác thực provider riêng. Swagger nên mở qua cổng frontend cùng origin. POST `/auth/login` nhận `{email,password}` cho cả USER và ADMIN; quyền quản trị dựa trên vai trò `ADMIN`, không cần OTP/TOTP. Các thao tác thu tiền, hoàn tiền, khóa khách, đối soát cần reauth trong 10 phút bằng POST `/auth/reauth` với `{password}`. Trường `otp` từ client cũ được chấp nhận nhưng bỏ qua để giữ tương thích.
 
 | Nhóm | Endpoint chính |
 |---|---|
@@ -22,6 +22,8 @@ GET `/auth/csrf` nhận cookie và token. Mọi mutation cookie cần header `X-
 Catalog limit ≤48, page ≤100; q ≤100 ký tự; kết hợp size/color/material/fit/category/collection/style/season/min/max/stock, sort newest/price-asc/price-desc/bestseller/rating. Search text đã bỏ dấu, có pg_trgm index. Không cache tồn kho checkout. Dashboard cohort theo ngày tạo đơn, hiển thị thời gian Việt Nam; đây không phải báo cáo kế toán theo ngày phát sinh tiền mặt.
 
 ## Tính tiền
+
+Quản lý kho Admin đã có bảng sản phẩm/màu/size, nhập/xuất/kiểm kê có idempotency và nhật ký tồn trước/sau. Các endpoint `/admin/inventory/overview`, `/options`, `/history`, `/:id/movements` và quy tắc tồn được mô tả trong [Quản lý kho](INVENTORY.md). API danh sách/adjust cũ được giữ tương thích.
 
 Tiền dùng Int PostgreSQL (VND), không float. Tổng = subtotal − goods discount + shippingFee − shippingDiscount + tax. Mặc định tax=0, shippingDiscount=0, không có phụ phí ẩn. Một coupon mỗi đơn, không cộng dồn. Scope sản phẩm và user kiểm tra backend; hạn, lượt tổng, lượt mỗi khách được kiểm soát transaction và khóa coupon row. Lượt dùng tiêu thụ tại tạo đơn, không tự trả lại sau hủy để tránh lạm dụng.
 

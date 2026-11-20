@@ -4,7 +4,7 @@ import {createHash} from "node:crypto";
 import sharp from "sharp";
 const originals=JSON.parse(fs.readFileSync("apps/web/content/collection-designs.json","utf8")),legacy=JSON.parse(fs.readFileSync("apps/web/content/legacy-photo-designs.json","utf8"));
 const specifications=[...originals,...legacy];
-// Human-reviewed provenance is promoted explicitly, never inferred from a
+// Visually reviewed provenance is promoted explicitly, never inferred from a
 // directory containing a partial generation job.
 const approved=JSON.parse(fs.readFileSync("docs/photo-spin/approved.json","utf8"));
 const result=[];

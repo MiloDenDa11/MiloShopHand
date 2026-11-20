@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-reversible-day",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T05:53:47.648Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-41466068-8c47-4878-ae91-948c4cf7db8f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Reversible Day Bomber, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1821139,
+      "sha256": "2bac533b86d55c31fa92cae1234ec4cae4fd2612e7ac6e5ce44d76dea4141641",
+      "frames": [
+        {
+          "x": 38,
+          "y": 29,
+          "width": 438,
+          "height": 440
+        },
+        {
+          "x": 51,
+          "y": 27,
+          "width": 410,
+          "height": 454
+        },
+        {
+          "x": 72,
+          "y": 23,
+          "width": 357,
+          "height": 469
+        },
+        {
+          "x": 117,
+          "y": 19,
+          "width": 285,
+          "height": 478
+        },
+        {
+          "x": 148,
+          "y": 17,
+          "width": 221,
+          "height": 480
+        },
+        {
+          "x": 177,
+          "y": 16,
+          "width": 184,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-751b1bac-94be-4cad-a30e-ce50c45b02a6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Reversible Day Bomber, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1676828,
+      "sha256": "4823da7bff0db7362b40448f50f39bbc304b4813d8f06e120c8438a0a445112d",
+      "frames": [
+        {
+          "x": 179,
+          "y": 21,
+          "width": 176,
+          "height": 470
+        },
+        {
+          "x": 161,
+          "y": 19,
+          "width": 189,
+          "height": 472
+        },
+        {
+          "x": 144,
+          "y": 18,
+          "width": 208,
+          "height": 472
+        },
+        {
+          "x": 146,
+          "y": 18,
+          "width": 248,
+          "height": 471
+        },
+        {
+          "x": 106,
+          "y": 18,
+          "width": 304,
+          "height": 470
+        },
+        {
+          "x": 72,
+          "y": 18,
+          "width": 358,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-949ce83e-bc32-4a1a-bc0d-fb396c0140b3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Reversible Day Bomber, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1664527,
+      "sha256": "63d3b68adf8ad52415343d2c998605140c4508f47aafea8d5129c4519908264a",
+      "frames": [
+        {
+          "x": 32,
+          "y": 23,
+          "width": 447,
+          "height": 447
+        },
+        {
+          "x": 53,
+          "y": 23,
+          "width": 407,
+          "height": 455
+        },
+        {
+          "x": 80,
+          "y": 22,
+          "width": 340,
+          "height": 463
+        },
+        {
+          "x": 126,
+          "y": 20,
+          "width": 265,
+          "height": 473
+        },
+        {
+          "x": 151,
+          "y": 19,
+          "width": 217,
+          "height": 474
+        },
+        {
+          "x": 162,
+          "y": 19,
+          "width": 190,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-reversible-day/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-f05acb7e-048e-4f7e-a091-262f27fca344.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Reversible Day Bomber, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1710712,
+      "sha256": "23d7f01b9296fb4b2d3fdf6dc33cf777b8c06328ef6ee297fd30cfd5a93f9ac8",
+      "frames": [
+        {
+          "x": 161,
+          "y": 16,
+          "width": 167,
+          "height": 476
+        },
+        {
+          "x": 137,
+          "y": 17,
+          "width": 208,
+          "height": 474
+        },
+        {
+          "x": 105,
+          "y": 17,
+          "width": 286,
+          "height": 473
+        },
+        {
+          "x": 84,
+          "y": 17,
+          "width": 350,
+          "height": 474
+        },
+        {
+          "x": 61,
+          "y": 17,
+          "width": 397,
+          "height": 473
+        },
+        {
+          "x": 46,
+          "y": 17,
+          "width": 430,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all 24 views together, including the generated full-resolution rear and final quarter. Burgundy main fabric, olive contrast rib collar/cuffs/hem and ivory branding match the front anchor throughout. Source zip and welt pockets remain intact, rear cursive text stays on the back, and no additional sleeve or duplicate chest marks appear in the nominal rotation.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

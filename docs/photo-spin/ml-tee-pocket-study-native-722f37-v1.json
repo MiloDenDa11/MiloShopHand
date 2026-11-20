@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-pocket-study",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T07:34:08.039Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4041ec68-a61b-47b0-9a52-a68663189a33.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đỏ mận #722f37, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1617376,
+      "sha256": "39ddff67bdd45ac8bb161240f5ba858cf33279e7a8c53f49e41c263d6d329b23",
+      "frames": [
+        {
+          "x": 59,
+          "y": 29,
+          "width": 397,
+          "height": 441
+        },
+        {
+          "x": 68,
+          "y": 28,
+          "width": 377,
+          "height": 441
+        },
+        {
+          "x": 80,
+          "y": 28,
+          "width": 336,
+          "height": 442
+        },
+        {
+          "x": 131,
+          "y": 29,
+          "width": 266,
+          "height": 445
+        },
+        {
+          "x": 137,
+          "y": 29,
+          "width": 232,
+          "height": 448
+        },
+        {
+          "x": 133,
+          "y": 31,
+          "width": 220,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ac5bcb75-8c45-4ab4-8ded-fd189f164de5.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đỏ mận #722f37, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1624971,
+      "sha256": "9ca48597b22ee2b0643d103583b1d09341b2b6149e62a6e72a0be01161747e0b",
+      "frames": [
+        {
+          "x": 149,
+          "y": 37,
+          "width": 193,
+          "height": 455
+        },
+        {
+          "x": 128,
+          "y": 37,
+          "width": 218,
+          "height": 455
+        },
+        {
+          "x": 101,
+          "y": 37,
+          "width": 268,
+          "height": 455
+        },
+        {
+          "x": 89,
+          "y": 43,
+          "width": 315,
+          "height": 450
+        },
+        {
+          "x": 46,
+          "y": 43,
+          "width": 376,
+          "height": 450
+        },
+        {
+          "x": 21,
+          "y": 43,
+          "width": 424,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0901f4a1-a5a7-4cce-99d2-e1bfcee1cca6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đỏ mận #722f37, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1784116,
+      "sha256": "c45621b2d2da5bc272ad5592a1054abc1de35615018bb2246d771f604953b61f",
+      "frames": [
+        {
+          "x": 50,
+          "y": 47,
+          "width": 399,
+          "height": 419
+        },
+        {
+          "x": 58,
+          "y": 47,
+          "width": 385,
+          "height": 420
+        },
+        {
+          "x": 63,
+          "y": 42,
+          "width": 336,
+          "height": 425
+        },
+        {
+          "x": 112,
+          "y": 42,
+          "width": 298,
+          "height": 432
+        },
+        {
+          "x": 137,
+          "y": 42,
+          "width": 235,
+          "height": 435
+        },
+        {
+          "x": 108,
+          "y": 42,
+          "width": 235,
+          "height": 436
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-a033ba48-7fb5-43c0-963c-78b38ed199ae.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đỏ mận #722f37, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đỏ mận #722f37 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton twill.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1892870,
+      "sha256": "2810a2b92e6eaa53311c50eda4809168da1fd03f7f008bae4ae008644a4e5d80",
+      "frames": [
+        {
+          "x": 131,
+          "y": 36,
+          "width": 211,
+          "height": 457
+        },
+        {
+          "x": 133,
+          "y": 35,
+          "width": 244,
+          "height": 458
+        },
+        {
+          "x": 133,
+          "y": 36,
+          "width": 266,
+          "height": 456
+        },
+        {
+          "x": 82,
+          "y": 42,
+          "width": 312,
+          "height": 447
+        },
+        {
+          "x": 71,
+          "y": 41,
+          "width": 359,
+          "height": 448
+        },
+        {
+          "x": 59,
+          "y": 41,
+          "width": 405,
+          "height": 447
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected the full24-view JPEG contact sheet and available native quarters: even burgundy cloth and clean ivory branding, one complete chest monogram, consistent collars, pockets, hems and contrast bands, upright front/left/back/right order; no tint halos, duplicate graphic fragments or garment clipping.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

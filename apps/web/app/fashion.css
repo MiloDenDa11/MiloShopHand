@@ -1,4 +1,9 @@
 /* MILOSHOPHAND / THE EVERYDAY ISSUE. Self-hosted Vietnamese display/body fonts. */
+.product-try-on-link { display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 40px; margin-top: 14px; border: 1px solid var(--line); font-size: 11px; color: var(--olive-ink); transition: background .18s; }
+.product-try-on-link:hover { background: #e5e7da; color: var(--olive-ink); }
+.product-try-on-link > svg:last-child { margin-left: auto; }
+.product-try-on-link > svg:first-child { margin-left: auto; }
+.product-try-on-detail { margin-bottom: 16px; gap: 12px !important; }
 :root {
   --paper: #f2efe7;
   --ink: #252522;
@@ -1224,6 +1229,13 @@ small {
 }
 .product-card-preview[data-card-spin=true]{touch-action:pan-y;cursor:ew-resize}
 .product-card-static{width:100%;height:100%}
+.product-card-color-pending{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:12px 12px 36px;text-align:center;background:var(--paper,#f0ece4);color:var(--ink);line-height:1.5}
+.product-card-color-pending strong{font-size:clamp(14px,1.3vw,17px)}
+.product-card-color-pending>span:not(.product-card-pending-swatch){font-size:13px}
+.product-card-pending-swatch{width:32px;height:32px;flex-shrink:0;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 1px var(--line)}
+.product-card-selected-color{margin:9px 0 0;font-size:12px;color:var(--muted)}
+.product-card-reference-link{align-self:flex-start;margin-top:8px;padding:3px 0;border:0;background:none;color:var(--olive-ink,var(--ink));font:inherit;font-size:12px;text-align:left;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.swatches button[data-photo-ready=false]{border-style:dashed}
 .product-card-preview[data-spin-active=true] .product-card-static{visibility:hidden}
 .product-card-spin-stage{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;background:#f0ece4;pointer-events:none}
 .product-card-spin-hint{position:absolute;bottom:10px;left:10px;right:10px;width:fit-content;max-width:calc(100% - 20px);padding:5px 8px;background:rgb(250 249 245 / .94);border:1px solid var(--line);color:var(--ink);font-size:10px;line-height:1.5;pointer-events:none}
@@ -2319,6 +2331,77 @@ label small {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 23px;
   margin-block: 40px 20px;
+}
+.collection-directory--illustrated {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.collection-directory.collection-directory--illustrated article {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+  min-height: 0;
+}
+.collection-directory--illustrated article > .eyebrow {
+  margin: 0;
+  line-height: 1.6;
+}
+.collection-directory--illustrated .collection-directory-visual {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 9 / 5;
+  margin: 19px 0 23px;
+  overflow: hidden;
+  border: 1px solid #76533c0c;
+  border-radius: var(--radius-lg);
+  background: #f1ebe2;
+}
+.collection-directory--illustrated .collection-directory-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 280ms ease;
+}
+.collection-directory--illustrated .collection-directory-visual > .product-photo-frame {
+  height: 100%;
+  aspect-ratio: auto;
+}
+.collection-directory--illustrated .collection-directory-visual:hover img {
+  transform: scale(1.035);
+}
+.collection-directory--illustrated article h2 {
+  margin: 0;
+  font-size: clamp(29px, 2.65vw, 37px);
+  line-height: 1.25;
+}
+.collection-directory--illustrated article > .collection-directory-campaign {
+  margin: 10px 0 24px;
+  line-height: 1.7;
+}
+.collection-directory--illustrated article > .text-link {
+  align-self: flex-start;
+  margin-top: auto;
+  min-height: 32px;
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+  .collection-directory.collection-directory--illustrated {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .collection-directory.collection-directory--illustrated {
+    grid-template-columns: 1fr;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .collection-directory--illustrated .collection-directory-visual img {
+    transition: none;
+  }
+  .collection-directory--illustrated .collection-directory-visual:hover img {
+    transform: none;
+  }
 }
 .collection-directory article {
   padding: 28px;

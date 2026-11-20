@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-collar-flight",
+  "colorKey": "original",
+  "colorHex": "#525e62",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:18:04.741Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-collar-flight/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d4431635-b7f1-4d08-928c-3a10f2f11cd5.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Collar Flight Bomber, base colour #525e62. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"collared\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"flap\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1623209,
+      "sha256": "3f3faa88ec0ea69b331b04b949dcb42f6e6f0037b0d273f7195dcd1905201e00",
+      "frames": [
+        {
+          "x": 46,
+          "y": 27,
+          "width": 421,
+          "height": 436
+        },
+        {
+          "x": 60,
+          "y": 22,
+          "width": 394,
+          "height": 453
+        },
+        {
+          "x": 86,
+          "y": 18,
+          "width": 333,
+          "height": 459
+        },
+        {
+          "x": 129,
+          "y": 13,
+          "width": 284,
+          "height": 471
+        },
+        {
+          "x": 162,
+          "y": 11,
+          "width": 215,
+          "height": 476
+        },
+        {
+          "x": 161,
+          "y": 10,
+          "width": 203,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-collar-flight/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-662ef12f-975b-4a6b-a6ac-b87522278c40.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Collar Flight Bomber, base colour #525e62. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"collared\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"flap\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1749264,
+      "sha256": "50942f4c5b2ba365e851f3bfed8a0eac50b94bbf4012c07f54033afa03525f2c",
+      "frames": [
+        {
+          "x": 157,
+          "y": 17,
+          "width": 197,
+          "height": 474
+        },
+        {
+          "x": 147,
+          "y": 16,
+          "width": 218,
+          "height": 474
+        },
+        {
+          "x": 135,
+          "y": 16,
+          "width": 241,
+          "height": 474
+        },
+        {
+          "x": 127,
+          "y": 17,
+          "width": 261,
+          "height": 473
+        },
+        {
+          "x": 98,
+          "y": 17,
+          "width": 308,
+          "height": 467
+        },
+        {
+          "x": 69,
+          "y": 18,
+          "width": 372,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-collar-flight/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-494e9179-e84b-4dfd-90f7-b4ffcf0ccafe.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Collar Flight Bomber, base colour #525e62. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"collared\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"flap\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1711825,
+      "sha256": "ff7daf24f8dce183a5d20747f7fb27a139aab1b48d35da37cbd0173fb6765850",
+      "frames": [
+        {
+          "x": 51,
+          "y": 27,
+          "width": 420,
+          "height": 427
+        },
+        {
+          "x": 72,
+          "y": 25,
+          "width": 377,
+          "height": 440
+        },
+        {
+          "x": 99,
+          "y": 24,
+          "width": 309,
+          "height": 453
+        },
+        {
+          "x": 141,
+          "y": 19,
+          "width": 239,
+          "height": 466
+        },
+        {
+          "x": 148,
+          "y": 19,
+          "width": 230,
+          "height": 466
+        },
+        {
+          "x": 141,
+          "y": 19,
+          "width": 235,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-collar-flight/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b3231aee-8f95-4dd2-a268-5915d9c21fec.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Collar Flight Bomber, base colour #525e62. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"collared\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"flap\"}, Cotton nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1872947,
+      "sha256": "8a0dbc870da9ba23c6902474bfbe60212be72e1d7785a74d29a7a1e7200646f5",
+      "frames": [
+        {
+          "x": 177,
+          "y": 19,
+          "width": 171,
+          "height": 471
+        },
+        {
+          "x": 151,
+          "y": 20,
+          "width": 209,
+          "height": 470
+        },
+        {
+          "x": 120,
+          "y": 20,
+          "width": 257,
+          "height": 470
+        },
+        {
+          "x": 101,
+          "y": 20,
+          "width": 328,
+          "height": 467
+        },
+        {
+          "x": 74,
+          "y": 21,
+          "width": 369,
+          "height": 465
+        },
+        {
+          "x": 52,
+          "y": 21,
+          "width": 414,
+          "height": 464
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

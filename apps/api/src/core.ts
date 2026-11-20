@@ -35,7 +35,7 @@ import {
   createDecipheriv,
 } from "node:crypto";
 import type { Request, Response, NextFunction } from "express";
-import Redis from "ioredis";
+import { privilegedDatabaseRole } from "./security-policy";
 import { z, ZodError, ZodTypeAny, output } from "zod";
 z.config(z.locales.vi());
 export const env = process.env;
@@ -97,11 +97,20 @@ export type AppRequest = Request & {
   };
   session?: any;
   requestId: string;
+  securityLog?: (event: string, details?: { code?: string; scope?: string; accountHash?: string; count?: number }) => Promise<void>;
 };
 @Injectable()
 export class Db extends PrismaClient implements OnModuleInit {
   async onModuleInit() {
     await this.$connect();
+    if (production) {
+      const [role] = await this.$queryRaw<any[]>`SELECT r.rolsuper,r.rolcreaterole,r.rolcreatedb,r.rolbypassrls,
+        (pg_has_role(current_user,d.datdba,'MEMBER') OR has_database_privilege(current_user,d.oid,'CREATE')) AS "ownsDatabase",
+        (pg_has_role(current_user,n.nspowner,'MEMBER') OR has_schema_privilege(current_user,n.oid,'CREATE')) AS "ownsSchema"
+        FROM pg_roles r JOIN pg_database d ON d.datname=current_database()
+        JOIN pg_namespace n ON n.nspname='public' WHERE r.rolname=current_user`;
+      if (!role || privilegedDatabaseRole(role)) throw new Error('Production runtime must use a non-owner database role without administrative privileges');
+    }
   }
 }
 export async function transaction<T>(
@@ -174,7 +183,8 @@ export class AdminGuard extends AuthGuard {
   }
 }
 export function reauth(r: AppRequest) {
-  if (Date.now() - new Date(r.session.reauthenticatedAt).getTime() > 10 * 60000)
+  const at = new Date(r.session?.reauthenticatedAt).getTime();
+  if (!Number.isFinite(at) || at > Date.now() + 1000 || Date.now() - at > 10 * 60000)
     fail(
       "REAUTH_REQUIRED",
       "Vui lòng xác thực lại để thực hiện thao tác này.",
@@ -244,6 +254,7 @@ export class Errors implements ExceptionFilter {
           code: e.code,
         }),
       );
+    if (status === 429 && !res.getHeader('Retry-After')) res.setHeader('Retry-After', '60');
     res
       .status(status)
       .json({ code, message, fieldErrors, requestId: r.requestId });
@@ -263,115 +274,6 @@ export function setCsrf(res: Response, token: string) {
   res.cookie("milo_csrf", token, { ...cookieOptions, httpOnly: false });
 }
 export async function security(db: Db) {
-  const redis = new Redis(env.REDIS_URL || "redis://localhost:6379", {
-    lazyConnect: true,
-    maxRetriesPerRequest: 1,
-    retryStrategy: () => null,
-  });
-  redis.on("error", () => {});
-  try {
-    await redis.connect();
-  } catch {
-    if (production) throw new Error("Redis is required in production");
-  }
-  const memory = new Map<string, { count: number; until: number }>();
-  return async (r: AppRequest, res: Response, next: NextFunction) => {
-    try {
-      r.requestId = randomBytes(12).toString("hex");
-      res.setHeader("X-Request-ID", r.requestId);
-      const isAuth = /\/auth\/(login|register|forgot|reset|verify|reauth)/.test(
-        r.path,
-      );
-      const key = `rate:${r.ip}:${isAuth ? "auth" : "api"}`;
-      const max = isAuth ? 30 : 300;
-      let count: number;
-      if (redis.status === "ready") {
-        count = await redis.incr(key);
-        if (count === 1) await redis.expire(key, 60);
-      } else {
-        if (production)
-          fail("SERVICE_UNAVAILABLE", "Dịch vụ tạm thời chưa sẵn sàng.", 503);
-        const t = Date.now();
-        if (memory.size > 10000)
-          for (const [k, v] of memory) if (v.until < t) memory.delete(k);
-        let entry = memory.get(key);
-        if (!entry || entry.until < t) {
-          entry = { count: 0, until: t + 60000 };
-          memory.set(key, entry);
-        }
-        count = ++entry.count;
-      }
-      if (count > max) {
-        res.setHeader("Retry-After", "60");
-        fail("RATE_LIMITED", "Thao tác quá nhanh. Vui lòng chờ một phút.", 429);
-      }
-      const raw = r.cookies?.milo_sid;
-      if (raw) {
-        const session = await db.session.findUnique({
-          where: { id: hash(raw) },
-          include: {
-            user: {
-              select: {
-                id: true,
-                email: true,
-                name: true,
-                role: true,
-                verifiedAt: true,
-                disabled: true,
-              },
-            },
-          },
-        });
-        if (
-          session &&
-          session.expiresAt.getTime() > Date.now() &&
-          session.lastSeenAt.getTime() > Date.now() - 30 * 60000 &&
-          !session.user.disabled
-        ) {
-          r.actor = session.user;
-          r.session = session;
-          if (session.lastSeenAt.getTime() < Date.now() - 60000)
-            await db.session.update({
-              where: { id: session.id },
-              data: { lastSeenAt: new Date() },
-            });
-        }
-      }
-      if (
-        !["GET", "HEAD", "OPTIONS"].includes(r.method) &&
-        !r.path.startsWith("/api/v1/webhooks/")
-      ) {
-        if (r.headers.origin !== env.APP_URL)
-          fail("CSRF_ORIGIN", "Nguồn yêu cầu không hợp lệ.", 403);
-        const token = String(r.headers["x-csrf-token"] || "");
-        const expected = r.session?.csrf || r.cookies?.milo_csrf || "";
-        const [n, sig] = token.split(".");
-        const valid =
-          n &&
-          sig &&
-          safeEqual(
-            sig,
-            createHmac("sha256", env.SESSION_SECRET!).update(n).digest("hex"),
-          );
-        if (!valid || !safeEqual(token, expected))
-          fail(
-            "CSRF_INVALID",
-            "Phiên biểu mẫu đã hết hạn. Vui lòng tải lại.",
-            403,
-          );
-      }
-      next();
-    } catch (e: any) {
-      const b =
-        e instanceof HttpException
-          ? (e.getResponse() as any)
-          : {
-              code: "SERVICE_UNAVAILABLE",
-              message: "Dịch vụ tạm thời chưa sẵn sàng.",
-            };
-      res
-        .status(e instanceof HttpException ? e.getStatus() : 503)
-        .json({ ...b, requestId: r.requestId });
-    }
-  };
+  const { requestSecurity } = await import("./request-security");
+  return requestSecurity(db);
 }

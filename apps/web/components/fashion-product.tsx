@@ -14,6 +14,7 @@ import {
   ShieldCheck,
   X,
   Maximize2,
+  Sparkles,
 } from "lucide-react";
 import { useResource } from "../hooks/use-resource";
 import {
@@ -27,24 +28,27 @@ import {
 import { ProductPhoto, realProductImages, productImagesForColor } from "./product-media";
 import { EditorialHeading } from "./fashion-home";
 import { Product360 } from "./product-360";
-import { photoSpinFor } from "../lib/photo-spin";
+import { displaySpinFor } from "../lib/display-spin";
 import { miloDesignText } from "../lib/milo-design";
+import { selectedProductColor, selectedProductSize } from "../lib/product-selection";
+import { tryOnHref } from "../lib/try-on";
+import { serializeJsonLd } from "../../../packages/shared/src/security";
 import "../app/product-360.css";
-export function FashionProductDetail({ slug, initialData }: { slug: string; initialData?: any }) {
+export function FashionProductDetail({ slug, initialData, initialColor, initialSize, nonce }: { slug: string; initialData?: any; initialColor?: string; initialSize?: string; nonce?: string }) {
   const { data: p, error, loading, retry } = useResource(`/products/${slug}`, initialData);
   const { add, notify, config } = useShop();
   const router = useRouter();
   const [viewRequest, setViewRequest] = useState({ serial: 0, view: "front" });
   const [interactive,setInteractive]=useState(false);
   useEffect(()=>setInteractive(true),[]);
-  const [color, setColor] = useState(initialData?.variants?.[0]?.color || ""),
-    [size, setSize] = useState(""),
+  const [color, setColor] = useState(selectedProductColor(initialData, initialColor)),
+    [size, setSize] = useState(selectedProductSize(initialData, selectedProductColor(initialData, initialColor), initialSize)),
     [quantity, setQuantity] = useState(1),
     [busy, setBusy] = useState(false);
   useEffect(() => {
     if (!p) return;
-    setColor(p.variants[0]?.color || "");
-    setSize("");
+    setColor(selectedProductColor(p, initialColor));
+    setSize(selectedProductSize(p, selectedProductColor(p, initialColor), initialSize));
     setQuantity(1);
     try {
       const recent = JSON.parse(localStorage.getItem("milo-recent") || "[]");
@@ -63,7 +67,7 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
         ),
       );
     } catch {}
-  }, [p]);
+  }, [p, initialColor, initialSize]);
   if (loading)
     return (
       <div className="container section">
@@ -131,12 +135,12 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
       >
         <div className="detail-gallery">
           {photos.length ? (
-            <PhotoGallery photos={photos} color={color} onOpen360={photoSpinFor(p,p.variants.find((v:any)=>v.color===color)?.colorHex) ? (view) => setViewRequest(previous => ({ serial: previous.serial + 1, view })) : undefined} />
+            <PhotoGallery photos={photos} color={color} onOpen360={displaySpinFor(p,p.variants.find((v:any)=>v.color===color)?.colorHex) ? (view) => setViewRequest(previous => ({ serial: previous.serial + 1, view })) : undefined} />
           ) : (
             <GarmentNotes product={p} />
           )}
           {p.design && <p className="product-design-label">Milo Design</p>}
-          {photos.some((image:any)=>image.url.includes("miloColor="))&&<p className="product-design-label">Milo Design · Phối màu {color} xem trước.</p>}
+          {!photos.some((image:any)=>image.color===color)&&<p className="product-design-label" role="status">Ảnh mẫu tham khảo. Bộ ảnh riêng màu {color} đang cập nhật.</p>}
           <Product360 product={p} color={color} colorHex={p.variants.find((v: any) => v.color === color)?.colorHex} request={viewRequest} onColorChange={value => { setColor(value); setSize(""); setQuantity(1); }} />
         </div>
         <div className="detail-copy">
@@ -257,7 +261,7 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
               />
               <button
                 className="button"
-                disabled={busy || variant?.available === 0}
+                aria-busy={busy} disabled={busy || variant?.available === 0}
                 onClick={() => purchase(false)}
               >
                 {busy ? "Đang thêm…" : "Thêm vào giỏ hàng"}
@@ -266,7 +270,7 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
             </div>
             <button
               className="button secondary full buy-now"
-              disabled={busy || variant?.available === 0}
+              aria-busy={busy} disabled={busy || variant?.available === 0}
               onClick={() => purchase(true)}
             >
               Mua ngay
@@ -274,6 +278,9 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
             </button>
           </div>
           <div className="detail-perks">
+            <Link className="button secondary full product-try-on-detail" href={tryOnHref(p.slug, color, size)}>
+              <Sparkles size={18} /> Dùng thử cùng ảnh của bạn <ArrowUpRight size={18} />
+            </Link>
             <p>
               <Truck size={18} />
               Phí giao hàng được xác nhận trước khi đặt đơn.
@@ -406,8 +413,9 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
       </section>
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: serializeJsonLd({
             "@context": "https://schema.org",
             "@type": "Product",
             name: p.name,
@@ -421,7 +429,7 @@ export function FashionProductDetail({ slug, initialData }: { slug: string; init
                 ? "https://schema.org/InStock"
                 : "https://schema.org/OutOfStock",
             },
-          }).replace(/</g, "\u003c"),
+          }),
         }}
       />
     </div>
@@ -478,8 +486,18 @@ function PhotoGallery({ photos, color, onOpen360 }: { photos: any[]; color: stri
     setSelected(Math.max(0, i));
   }, [color]);
   useEffect(() => {
-    if (zoom) ref.current?.showModal();
-    else ref.current?.close();
+    const dialog = ref.current;
+    if (!zoom) {
+      dialog?.close();
+      return;
+    }
+    dialog?.showModal();
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      dialog?.close();
+      document.body.style.overflow = previousOverflow;
+    };
   }, [zoom]);
   const image = photos[selected] || photos[0];
   function move(step: number) {

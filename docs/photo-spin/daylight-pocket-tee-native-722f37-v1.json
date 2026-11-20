@@ -1,0 +1,222 @@
+{
+  "slug": "daylight-pocket-tee",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:19:55.692Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9f59e9d1-1f94-464a-b299-b06125498604.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nEdit target image1: Daylight Pocket Tee original six-view product atlas. Preserve EXACTLY the six upright garment poses, perspective, cut, sleeve length, neckline, pockets, seams, fabric folds, scale, layout and studio background.\nDesign its new Đỏ mận colourway: entire MAIN fabric is restrained burgundy #722f37, even realistic dyed cloth with natural shadows. Not a translucent tint. Preserve structural contrasting rib trim/panels in soft ivory #e8dfcd if present, consistently across views.\nOne clean intact interwoven ML chest monogram in soft ivory #f3e9db in its source location. No stray, duplicated or fragmented marks anywhere else on front. The pocket and any contrast bands keep exact shape.\nExactly3columns x2rows, native1536x1024, six equal512px square cells. Whole garment with margin in everycell. Match source poses0,15,30,45,60,75degrees from FRONT towards LEFT-facing profile, garmentfrontpointsLEFT. No back artwork visible.\nNo captions, borders, grid, mannequins, hanger, watermark. Natural commercial fashion product photography; calm, consistent burgundy across all six views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1621879,
+      "sha256": "cc16b6ceaaa36bd9df9371916dc065cfd451f657ba8c550034bee6e2dfacf0cb",
+      "frames": [
+        {
+          "x": 49,
+          "y": 19,
+          "width": 413,
+          "height": 452
+        },
+        {
+          "x": 67,
+          "y": 18,
+          "width": 380,
+          "height": 455
+        },
+        {
+          "x": 95,
+          "y": 15,
+          "width": 325,
+          "height": 458
+        },
+        {
+          "x": 135,
+          "y": 14,
+          "width": 261,
+          "height": 465
+        },
+        {
+          "x": 157,
+          "y": 13,
+          "width": 206,
+          "height": 466
+        },
+        {
+          "x": 163,
+          "y": 12,
+          "width": 186,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9087b5ea-c621-4ba5-ad3f-6c1867af74b7.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Daylight Pocket Tee six-angle source atlas, part1. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 90,105,120,135,150,165 degrees, LEFT-FACING profile towards BACK; no front chest logo visible.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1858875,
+      "sha256": "5db9d0181b0044039c69dcbdee5356bdaf935d305b42a65529479c3cf5bf920b",
+      "frames": [
+        {
+          "x": 168,
+          "y": 16,
+          "width": 184,
+          "height": 480
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 208,
+          "height": 480
+        },
+        {
+          "x": 142,
+          "y": 16,
+          "width": 228,
+          "height": 479
+        },
+        {
+          "x": 128,
+          "y": 16,
+          "width": 284,
+          "height": 478
+        },
+        {
+          "x": 93,
+          "y": 16,
+          "width": 336,
+          "height": 478
+        },
+        {
+          "x": 58,
+          "y": 16,
+          "width": 396,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c1ac11dd-ac3b-4d50-a50d-bc2a5551e540.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Daylight Pocket Tee six-angle source atlas, part2. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 180,195,210,225,240,255 degrees, BACK towards RIGHT-FACING profile, source back artwork gradually disappears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1833487,
+      "sha256": "1e952587c27ee3a3e72be4c42a8fe1da41c3518cc96a6bdbe1a2a79bf8618340",
+      "frames": [
+        {
+          "x": 51,
+          "y": 27,
+          "width": 413,
+          "height": 460
+        },
+        {
+          "x": 66,
+          "y": 25,
+          "width": 386,
+          "height": 464
+        },
+        {
+          "x": 94,
+          "y": 24,
+          "width": 308,
+          "height": 465
+        },
+        {
+          "x": 134,
+          "y": 20,
+          "width": 237,
+          "height": 469
+        },
+        {
+          "x": 150,
+          "y": 20,
+          "width": 210,
+          "height": 469
+        },
+        {
+          "x": 154,
+          "y": 20,
+          "width": 202,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f957e0f8-0d39-48f2-b904-82ebc4ac6862.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Daylight Pocket Tee six-angle source atlas, part3. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 270,285,300,315,330,345 degrees, RIGHT-FACING profile towards FRONT. Back artwork is completely hidden; chest ML gradually appears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1752685,
+      "sha256": "c3834f78938736a5c7acd36bc5429272e6c94e146a921e0351c48af38d1075ec",
+      "frames": [
+        {
+          "x": 169,
+          "y": 18,
+          "width": 176,
+          "height": 478
+        },
+        {
+          "x": 153,
+          "y": 18,
+          "width": 201,
+          "height": 478
+        },
+        {
+          "x": 121,
+          "y": 18,
+          "width": 256,
+          "height": 478
+        },
+        {
+          "x": 93,
+          "y": 17,
+          "width": 338,
+          "height": 478
+        },
+        {
+          "x": 60,
+          "y": 17,
+          "width": 401,
+          "height": 476
+        },
+        {
+          "x": 38,
+          "y": 18,
+          "width": 435,
+          "height": 474
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 source-size views and contact sheet: even burgundy fabric, intact single chest ML, clean back branding, consistent trim and pockets across front/left/back/right; no tint halos or duplicate logo fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

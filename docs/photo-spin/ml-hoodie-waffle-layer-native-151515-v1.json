@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-waffle-layer",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T09:55:26.887Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-waffle-layer/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ed23b5e8-f98d-41bb-aae4-9e8b15d4a569.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Waffle Layer Hoodie, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton waffle, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nWAFFLE LAYER construction: preserve the fine square waffle knit texture over all body, sleeves and hood, straight stitched hem without rib waistband, no pockets and no zipper. Keep deep olive hood edging, cords and rib cuffs. Main waffle fabric and hood lining are target colour; do not smooth the knit into fleece.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1940426,
+      "sha256": "21bb3195aa32d9910257746f471a76ead24c67a972b46e4a1a5b64304cf645c9",
+      "frames": [
+        {
+          "x": 70,
+          "y": 24,
+          "width": 376,
+          "height": 449
+        },
+        {
+          "x": 74,
+          "y": 24,
+          "width": 350,
+          "height": 449
+        },
+        {
+          "x": 85,
+          "y": 20,
+          "width": 298,
+          "height": 458
+        },
+        {
+          "x": 130,
+          "y": 12,
+          "width": 266,
+          "height": 478
+        },
+        {
+          "x": 150,
+          "y": 10,
+          "width": 193,
+          "height": 482
+        },
+        {
+          "x": 146,
+          "y": 7,
+          "width": 189,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-waffle-layer/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-d9bf4fed-6f24-4f93-baf5-2c1b71e7f9ec.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Waffle Layer Hoodie, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton waffle, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nWAFFLE LAYER construction: preserve the fine square waffle knit texture over all body, sleeves and hood, straight stitched hem without rib waistband, no pockets and no zipper. Keep deep olive hood edging, cords and rib cuffs. Main waffle fabric and hood lining are target colour; do not smooth the knit into fleece.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1940909,
+      "sha256": "9a7e1fbf1dd0e065815c68cc9b78cb44575fd557a2af6819098221184cea03f6",
+      "frames": [
+        {
+          "x": 180,
+          "y": 14,
+          "width": 170,
+          "height": 480
+        },
+        {
+          "x": 163,
+          "y": 14,
+          "width": 191,
+          "height": 478
+        },
+        {
+          "x": 139,
+          "y": 14,
+          "width": 215,
+          "height": 475
+        },
+        {
+          "x": 123,
+          "y": 10,
+          "width": 271,
+          "height": 477
+        },
+        {
+          "x": 94,
+          "y": 10,
+          "width": 311,
+          "height": 477
+        },
+        {
+          "x": 73,
+          "y": 9,
+          "width": 358,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-waffle-layer/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-46aafb83-d1a3-4450-886d-e9cce4a98189.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Waffle Layer Hoodie, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton waffle, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nWAFFLE LAYER construction: preserve the fine square waffle knit texture over all body, sleeves and hood, straight stitched hem without rib waistband, no pockets and no zipper. Keep deep olive hood edging, cords and rib cuffs. Main waffle fabric and hood lining are target colour; do not smooth the knit into fleece.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1733901,
+      "sha256": "dc38edb822ced4213e28891e3f60078a26633792abe621cb4c064ba3fee772d7",
+      "frames": [
+        {
+          "x": 63,
+          "y": 16,
+          "width": 383,
+          "height": 457
+        },
+        {
+          "x": 85,
+          "y": 16,
+          "width": 349,
+          "height": 457
+        },
+        {
+          "x": 119,
+          "y": 16,
+          "width": 276,
+          "height": 457
+        },
+        {
+          "x": 158,
+          "y": 13,
+          "width": 215,
+          "height": 465
+        },
+        {
+          "x": 146,
+          "y": 13,
+          "width": 206,
+          "height": 467
+        },
+        {
+          "x": 139,
+          "y": 14,
+          "width": 203,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-waffle-layer/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-7f4fbda9-7526-45ad-b33c-f0714a86a1ef.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Waffle Layer Hoodie, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton waffle, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nWAFFLE LAYER construction: preserve the fine square waffle knit texture over all body, sleeves and hood, straight stitched hem without rib waistband, no pockets and no zipper. Keep deep olive hood edging, cords and rib cuffs. Main waffle fabric and hood lining are target colour; do not smooth the knit into fleece.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1980669,
+      "sha256": "9ed689353fc904dd2a296b8e353163ab6e9b64e257bd0be3b4a8baf3c2709653",
+      "frames": [
+        {
+          "x": 120,
+          "y": 20,
+          "width": 207,
+          "height": 485
+        },
+        {
+          "x": 136,
+          "y": 21,
+          "width": 228,
+          "height": 485
+        },
+        {
+          "x": 102,
+          "y": 23,
+          "width": 286,
+          "height": 483
+        },
+        {
+          "x": 92,
+          "y": 29,
+          "width": 317,
+          "height": 472
+        },
+        {
+          "x": 71,
+          "y": 29,
+          "width": 359,
+          "height": 471
+        },
+        {
+          "x": 43,
+          "y": 28,
+          "width": 397,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views across four original generated atlases. native-151515-v1 main waffle knit fabric is consistent with the inspected front anchor; square knit texture remains visible, olive hood edge, cords and cuffs are retained, and the straight stitched hem has no rib waistband. No added pockets or closures. Chest monogram and floral MiloShopHand rear crest follow the source, with natural side occlusion and complete garment margins on the cream backdrop.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

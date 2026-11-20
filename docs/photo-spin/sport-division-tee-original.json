@@ -1,0 +1,222 @@
+{
+  "slug": "sport-division-tee",
+  "colorKey": "original",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:54:42.041Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c4a80d8c-2d24-40e0-9f77-227099421054.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Sport Division Tee, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream raglan sleeve crew neck sports tee, small chest ML, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1810154,
+      "sha256": "12c0f589025ae892f75e02a7948eb953a744a7ed5b22514e2f038ea594c84f8d",
+      "frames": [
+        {
+          "x": 47,
+          "y": 23,
+          "width": 420,
+          "height": 457
+        },
+        {
+          "x": 57,
+          "y": 21,
+          "width": 403,
+          "height": 459
+        },
+        {
+          "x": 85,
+          "y": 19,
+          "width": 343,
+          "height": 463
+        },
+        {
+          "x": 129,
+          "y": 16,
+          "width": 258,
+          "height": 468
+        },
+        {
+          "x": 157,
+          "y": 15,
+          "width": 197,
+          "height": 472
+        },
+        {
+          "x": 164,
+          "y": 15,
+          "width": 185,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b63ccdd3-cbeb-4bb6-a4a3-4e441fe72878.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Sport Division Tee, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream raglan sleeve crew neck sports tee, small chest ML, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1794640,
+      "sha256": "69d2d01909ae22ac0d864ec24a6f521168df53e71882896b5760ecb68dfe8ea6",
+      "frames": [
+        {
+          "x": 172,
+          "y": 14,
+          "width": 184,
+          "height": 482
+        },
+        {
+          "x": 154,
+          "y": 14,
+          "width": 207,
+          "height": 483
+        },
+        {
+          "x": 144,
+          "y": 14,
+          "width": 223,
+          "height": 483
+        },
+        {
+          "x": 115,
+          "y": 15,
+          "width": 287,
+          "height": 481
+        },
+        {
+          "x": 80,
+          "y": 15,
+          "width": 341,
+          "height": 481
+        },
+        {
+          "x": 57,
+          "y": 16,
+          "width": 395,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-12260935-8131-4567-8680-948af2e2ee41.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Sport Division Tee, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream raglan sleeve crew neck sports tee, small chest ML, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1848843,
+      "sha256": "99b4ae2d00e4a17d8e8994a87a4e170c0e6d979836aaa3c9b62a8b4e25e10a24",
+      "frames": [
+        {
+          "x": 51,
+          "y": 23,
+          "width": 412,
+          "height": 464
+        },
+        {
+          "x": 70,
+          "y": 22,
+          "width": 384,
+          "height": 465
+        },
+        {
+          "x": 104,
+          "y": 21,
+          "width": 311,
+          "height": 466
+        },
+        {
+          "x": 148,
+          "y": 20,
+          "width": 235,
+          "height": 470
+        },
+        {
+          "x": 158,
+          "y": 19,
+          "width": 209,
+          "height": 472
+        },
+        {
+          "x": 160,
+          "y": 18,
+          "width": 195,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b480dd5e-f20e-4ae4-a59c-7f12e2ea5c15.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Sport Division Tee, base colour #e8dfcd. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Cream raglan sleeve crew neck sports tee, small chest ML, floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1721537,
+      "sha256": "3b174babfc4d7adf155947e9615d8ddb248de188018ab9d28203de858264cc4a",
+      "frames": [
+        {
+          "x": 164,
+          "y": 23,
+          "width": 172,
+          "height": 463
+        },
+        {
+          "x": 153,
+          "y": 23,
+          "width": 209,
+          "height": 463
+        },
+        {
+          "x": 118,
+          "y": 24,
+          "width": 264,
+          "height": 462
+        },
+        {
+          "x": 92,
+          "y": 25,
+          "width": 331,
+          "height": 461
+        },
+        {
+          "x": 61,
+          "y": 25,
+          "width": 388,
+          "height": 461
+        },
+        {
+          "x": 49,
+          "y": 27,
+          "width": 427,
+          "height": 459
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

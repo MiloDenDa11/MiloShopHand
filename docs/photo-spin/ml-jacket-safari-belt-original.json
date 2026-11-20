@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-safari-belt",
+  "colorKey": "original",
+  "colorHex": "#c3b08e",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:07.610Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-safari-belt/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-715fa325-abec-446e-ba43-8f2fde2a84c6.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Safari Belt Jacket, sand linen canvas #c3b08e, olive pointed collar and button cuffs, four button-flap front patch pockets, button front (NO ZIPPER), matching olive waist belt with rectangular buckle that continues around the back, shoulder epaulettes, long straight hem, long sleeves. Olive small ML at left chest and olive MiloShopHand script upper back. Retain the four pockets, belt/buckle, epaulettes and longline cut EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames0-5 in row-major order: 0 EXACT FRONT,15,30,45,60,75degrees. Slowly turn from the front towards the wearer's left side. Chest logo progressively foreshortens, back script is not visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1917466,
+      "sha256": "5bfa86b349a2c1ff6ab28971d62b168456dd285dd90983b275aa9c082e57103c",
+      "frames": [
+        {
+          "x": 79,
+          "y": 25,
+          "width": 354,
+          "height": 461
+        },
+        {
+          "x": 89,
+          "y": 24,
+          "width": 335,
+          "height": 462
+        },
+        {
+          "x": 105,
+          "y": 22,
+          "width": 282,
+          "height": 464
+        },
+        {
+          "x": 147,
+          "y": 18,
+          "width": 214,
+          "height": 469
+        },
+        {
+          "x": 172,
+          "y": 15,
+          "width": 161,
+          "height": 475
+        },
+        {
+          "x": 174,
+          "y": 14,
+          "width": 154,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-safari-belt/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-97572edd-eb55-4520-b9e4-165b627af6d6.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Safari Belt Jacket, sand linen canvas #c3b08e, olive pointed collar and button cuffs, four button-flap front patch pockets, button front (NO ZIPPER), matching olive waist belt with rectangular buckle that continues around the back, shoulder epaulettes, long straight hem, long sleeves. Olive small ML at left chest and olive MiloShopHand script upper back. Retain the four pockets, belt/buckle, epaulettes and longline cut EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames6-11 row-major: 90 EXACT SIDE,105,120,135,150,165degrees. Continue in the SAME direction from side towards nearly back. Chest ML hidden; upper-back script progressively becomes visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1730983,
+      "sha256": "144856bf0d3c5f82540c80ecfd40e7c1bb33c49e442050372ed92c00be58ce7e",
+      "frames": [
+        {
+          "x": 187,
+          "y": 17,
+          "width": 131,
+          "height": 472
+        },
+        {
+          "x": 180,
+          "y": 16,
+          "width": 148,
+          "height": 472
+        },
+        {
+          "x": 171,
+          "y": 17,
+          "width": 171,
+          "height": 471
+        },
+        {
+          "x": 150,
+          "y": 16,
+          "width": 211,
+          "height": 472
+        },
+        {
+          "x": 123,
+          "y": 17,
+          "width": 260,
+          "height": 471
+        },
+        {
+          "x": 95,
+          "y": 17,
+          "width": 319,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-safari-belt/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-36042728-c346-4bf8-b795-6394a84ec3de.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Safari Belt Jacket, sand linen canvas #c3b08e, olive pointed collar and button cuffs, four button-flap front patch pockets, button front (NO ZIPPER), matching olive waist belt with rectangular buckle that continues around the back, shoulder epaulettes, long straight hem, long sleeves. Olive small ML at left chest and olive MiloShopHand script upper back. Retain the four pockets, belt/buckle, epaulettes and longline cut EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames12-17 row-major: 180 EXACT BACK,195,210,225,240,255degrees. Start exact back, continue towards the opposite side. Show back construction and back script naturally foreshortening, never show chest ML prematurely. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1653222,
+      "sha256": "bf3b20fab90d534187c2df3101c8e4711249a62de7504e08fef0e8d9ba804cdc",
+      "frames": [
+        {
+          "x": 77,
+          "y": 20,
+          "width": 360,
+          "height": 471
+        },
+        {
+          "x": 90,
+          "y": 21,
+          "width": 332,
+          "height": 470
+        },
+        {
+          "x": 113,
+          "y": 20,
+          "width": 275,
+          "height": 471
+        },
+        {
+          "x": 158,
+          "y": 19,
+          "width": 201,
+          "height": 472
+        },
+        {
+          "x": 172,
+          "y": 19,
+          "width": 171,
+          "height": 472
+        },
+        {
+          "x": 174,
+          "y": 19,
+          "width": 169,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-safari-belt/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-21062e72-795a-4cf0-8b64-138f81081100.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Safari Belt Jacket, sand linen canvas #c3b08e, olive pointed collar and button cuffs, four button-flap front patch pockets, button front (NO ZIPPER), matching olive waist belt with rectangular buckle that continues around the back, shoulder epaulettes, long straight hem, long sleeves. Olive small ML at left chest and olive MiloShopHand script upper back. Retain the four pockets, belt/buckle, epaulettes and longline cut EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames18-23 row-major: 270 EXACT OPPOSITE SIDE,285,300,315,330,345degrees. Continue towards nearly front. Back script disappears, chest ML gradually becomes visible, last frame nearly front but distinct from zero. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1855098,
+      "sha256": "6a047a4defd586db75f0824aec1914cde8f4e55021717e7110bc37a6fe8d518c",
+      "frames": [
+        {
+          "x": 184,
+          "y": 18,
+          "width": 146,
+          "height": 475
+        },
+        {
+          "x": 176,
+          "y": 18,
+          "width": 160,
+          "height": 474
+        },
+        {
+          "x": 155,
+          "y": 18,
+          "width": 184,
+          "height": 474
+        },
+        {
+          "x": 128,
+          "y": 17,
+          "width": 249,
+          "height": 475
+        },
+        {
+          "x": 105,
+          "y": 17,
+          "width": 301,
+          "height": 475
+        },
+        {
+          "x": 86,
+          "y": 17,
+          "width": 336,
+          "height": 475
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

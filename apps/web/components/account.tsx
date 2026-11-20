@@ -1,4 +1,5 @@
 "use client";
+import { Select } from "./ui/select";
 import { useState, useEffect, FormEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -24,6 +25,7 @@ import AddressMap from "./address-map";
 import { ProductPhoto, realProductImages } from "./product-media";
 import { ReturnPhotos } from "./return-photos";
 import { MyExchanges } from "./exchanges";
+import { safeLocalRedirect } from "../../../packages/shared/src/security";
 const labels: Record<string, string> = {
   PENDING_PAYMENT: "Chờ thanh toán",
   PENDING_CONFIRMATION: "Chờ xác nhận",
@@ -92,7 +94,6 @@ export function AuthForm({
         data = {
           email: f.get("email"),
           password: f.get("password"),
-          ...(f.get("otp") ? { otp: f.get("otp") } : {}),
         };
         path = "/auth/login";
       } else if (mode === "register") {
@@ -118,11 +119,7 @@ export function AuthForm({
         await afterLogin();
         notify("Đăng nhập thành công.");
         const next = params.get("next");
-        router.push(
-          next && next.startsWith("/") && !next.startsWith("//")
-            ? next
-            : "/tai-khoan",
-        );
+        router.push(safeLocalRedirect(next));
       } else setMessage(r.message);
     } catch (e: any) {
       setError(e.message);
@@ -224,20 +221,9 @@ export function AuthForm({
               </label>
             )}
             {mode === "login" && (
-              <>
-                <label>
-                  Mã xác thực Admin <span className="muted">(nếu có)</span>
-                  <input
-                    name="otp"
-                    autoComplete="one-time-code"
-                    placeholder="TOTP hoặc mã khôi phục"
-                    maxLength={100}
-                  />
-                </label>
-                <Link className="text-link small" href="/quen-mat-khau">
-                  Quên mật khẩu?
-                </Link>
-              </>
+              <Link className="text-link small" href="/quen-mat-khau">
+                Quên mật khẩu?
+              </Link>
             )}
             {mode === "register" && (
               <label className="checkbox">
@@ -246,7 +232,7 @@ export function AuthForm({
               </label>
             )}
             {error && <ErrorBox message={error} />}
-            <button className="button full" disabled={busy}>
+            <button className="button full" aria-busy={busy} disabled={busy}>
               {busy
                 ? "Đang xử lý…"
                 : mode === "login"
@@ -364,7 +350,7 @@ export function Account() {
     <div className="container section">
       <p className="eyebrow">YOUR PERSONAL SPACE</p>
       <div className="row between">
-        <h1>Xin chào, {user.name.split(" ").at(-1)}.</h1>
+        <div className="account-greeting"><span className="account-avatar" aria-hidden="true">{user.name.trim().split(/\s+/).slice(0,2).map((part: string) => part[0]).join("").toUpperCase()}</span><h1>Xin chào, {user.name.split(" ").at(-1)}.</h1></div>
         {user.role === "ADMIN" && (
           <Link className="button secondary" href="/admin">
             Trang quản trị <ArrowUpRight size={17} />
@@ -377,6 +363,7 @@ export function Account() {
             <button
               key={key}
               className={tab === key ? "selected" : ""}
+              aria-pressed={tab === key}
               onClick={() => {
                 setTab(key);
                 setData(null);
@@ -447,7 +434,7 @@ export function Account() {
                 />{" "}
                 Đồng ý nhận email marketing
               </label>
-              <button className="button" disabled={busy}>
+              <button className="button" aria-busy={busy} disabled={busy}>
                 Lưu thay đổi <Check size={16} />
               </button>
               {user.preferences.length > 0 && (
@@ -474,7 +461,7 @@ export function Account() {
                       {date(o.createdAt)} · {o.items.length} dòng sản phẩm
                     </small>
                   </div>
-                  <span className="badge">{statusText(o.status)}</span>
+                  <span className="badge" data-status={o.status}>{statusText(o.status)}</span>
                   <b>{money(o.total)}</b>
                   <ArrowRight size={17} />
                 </Link>
@@ -605,7 +592,7 @@ export function Account() {
                     <p>{r.reason}</p>
                     <small>{date(r.createdAt)}</small>
                   </div>
-                  <span className="badge">{statusText(r.status)}</span>
+                  <span className="badge" data-status={r.status}>{statusText(r.status)}</span>
                 </div>
               ))
             ) : (
@@ -648,7 +635,6 @@ export function SecurityForm() {
           try {
             await send("/auth/reauth", {
               password: f.get("password"),
-              ...(f.get("otp") ? { otp: f.get("otp") } : {}),
             });
             notify("Đã xác thực lại trong 10 phút.");
           } catch (e: any) {
@@ -665,10 +651,6 @@ export function SecurityForm() {
             autoComplete="current-password"
             required
           />
-        </label>
-        <label>
-          Mã Admin TOTP / khôi phục (nếu có)
-          <input name="otp" autoComplete="one-time-code" />
         </label>
         <button className="button secondary">Xác thực lại</button>
       </form>
@@ -855,7 +837,7 @@ export function OrderDetail({ id }: { id: string }) {
           <h1>Đơn hàng {o.code}</h1>
           <p className="muted">{date(o.createdAt)}</p>
         </div>
-        <span className="badge large-badge">{statusText(o.status)}</span>
+        <span className="badge large-badge" data-status={o.status}>{statusText(o.status)}</span>
       </div>
       <div className="checkout-layout">
         <section>
@@ -893,7 +875,7 @@ export function OrderDetail({ id }: { id: string }) {
           {o.method === "QR" && (
             <div className="form-panel payment-panel">
               <h2>Thanh toán QR</h2>
-              <span className="badge">{statusText(o.payment.status)}</span>
+              <span className="badge" data-status={o.payment.status}>{statusText(o.payment.status)}</span>
               {o.payment.provider === "mock" && (
                 <p className="development-note">
                   QR PHÁT TRIỂN — KHÔNG CHUYỂN TIỀN THẬT. Kết quả chỉ thay đổi
@@ -985,13 +967,13 @@ export function OrderDetail({ id }: { id: string }) {
                     >
                       <label>
                         Điểm đánh giá
-                        <select name="rating">
+                        <Select name="rating">
                           {[5, 4, 3, 2, 1].map((n) => (
                             <option key={n} value={n}>
                               {n} sao
                             </option>
                           ))}
-                        </select>
+                        </Select>
                       </label>
                       <label>
                         Nội dung
@@ -1094,7 +1076,7 @@ export function OrderDetail({ id }: { id: string }) {
                 <p key={r.id}>
                   {r.reason}
                   <br />
-                  <span className="badge">{statusText(r.status)}</span>
+                  <span className="badge" data-status={r.status}>{statusText(r.status)}</span>
                 </p>
               ))}
             </div>

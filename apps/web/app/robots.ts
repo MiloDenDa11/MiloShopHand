@@ -11,6 +11,7 @@ export default function robots(): MetadataRoute.Robots {
         "/don-hang",
         "/thanh-toan",
         "/gio-hang",
+        "/dung-thu",
       ],
     },
     sitemap: `${process.env.APP_URL || "http://localhost:3000"}/sitemap.xml`,

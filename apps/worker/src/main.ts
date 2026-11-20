@@ -16,6 +16,7 @@ import {
 } from "../../api/src/core";
 import { CommerceService } from "../../api/src/commerce";
 import { payments, shipping } from "../../api/src/providers";
+import { validateRuntimeConfig } from "../../api/src/security-policy";
 const db = new Db();
 const commerce = new CommerceService(db);
 const redis = new Redis(env.REDIS_URL || "redis://localhost:6379", {
@@ -45,6 +46,8 @@ async function email(data: any) {
       : undefined,
     connectionTimeout: 10000,
     socketTimeout: 15000,
+    requireTLS: production && env.SMTP_SECURE !== 'true',
+    tls: { minVersion: 'TLSv1.2', rejectUnauthorized: true },
   });
   await transport.sendMail({
     from: env.MAIL_FROM,
@@ -477,7 +480,8 @@ async function expiry() {
   }
 }
 async function main() {
-  await db.$connect();
+  validateRuntimeConfig(env);
+  await db.onModuleInit();
   try {
     await redis.connect();
     queue = new Queue("milo-jobs", { connection: redis as any });

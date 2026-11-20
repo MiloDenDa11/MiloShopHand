@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-athletic-ringer",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:19:56.862Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-726ccf20-2593-4c4f-876b-f05c70d1eb52.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nEdit target image1: ML Athletic Ringer Basic Tee original six-view product atlas. Preserve EXACTLY the six upright garment poses, perspective, cut, sleeve length, neckline, pockets, seams, fabric folds, scale, layout and studio background.\nDesign its new Đỏ mận colourway: entire MAIN fabric is restrained burgundy #722f37, even realistic dyed cloth with natural shadows. Not a translucent tint. Preserve structural contrasting rib trim/panels in soft ivory #e8dfcd if present, consistently across views.\nOne clean intact interwoven ML chest monogram in soft ivory #f3e9db in its source location. No stray, duplicated or fragmented marks anywhere else on front. The pocket and any contrast bands keep exact shape.\nExactly3columns x2rows, native1536x1024, six equal512px square cells. Whole garment with margin in everycell. Match source poses0,15,30,45,60,75degrees from FRONT towards LEFT-facing profile, garmentfrontpointsLEFT. No back artwork visible.\nNo captions, borders, grid, mannequins, hanger, watermark. Natural commercial fashion product photography; calm, consistent burgundy across all six views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1761857,
+      "sha256": "98a8ace01002d07815cfd231efbfc6f58550c5ff2cfe8a8ddffecbaccfe3311e",
+      "frames": [
+        {
+          "x": 72,
+          "y": 34,
+          "width": 380,
+          "height": 437
+        },
+        {
+          "x": 75,
+          "y": 32,
+          "width": 371,
+          "height": 440
+        },
+        {
+          "x": 79,
+          "y": 31,
+          "width": 333,
+          "height": 441
+        },
+        {
+          "x": 131,
+          "y": 36,
+          "width": 280,
+          "height": 443
+        },
+        {
+          "x": 120,
+          "y": 34,
+          "width": 252,
+          "height": 446
+        },
+        {
+          "x": 117,
+          "y": 33,
+          "width": 238,
+          "height": 449
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-bd434ec7-cc54-4c1a-a413-ba5288deea78.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: ML Athletic Ringer Basic Tee six-angle source atlas, part1. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 90,105,120,135,150,165 degrees, LEFT-FACING profile towards BACK; no front chest logo visible.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1727523,
+      "sha256": "f3903a9dbbb439f3b90f3b245e4d5af9e5f4e3c6a86d5845336a4275156e0b57",
+      "frames": [
+        {
+          "x": 130,
+          "y": 31,
+          "width": 218,
+          "height": 468
+        },
+        {
+          "x": 129,
+          "y": 31,
+          "width": 239,
+          "height": 469
+        },
+        {
+          "x": 104,
+          "y": 24,
+          "width": 278,
+          "height": 476
+        },
+        {
+          "x": 76,
+          "y": 45,
+          "width": 340,
+          "height": 449
+        },
+        {
+          "x": 55,
+          "y": 45,
+          "width": 373,
+          "height": 448
+        },
+        {
+          "x": 26,
+          "y": 53,
+          "width": 425,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9e4f7ed2-a34b-454c-8b66-818443a6a8df.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: ML Athletic Ringer Basic Tee six-angle source atlas, part2. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 180,195,210,225,240,255 degrees, BACK towards RIGHT-FACING profile, source back artwork gradually disappears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1841541,
+      "sha256": "ec0859cd4e0e4b66e48760238fca58072f4fbc9e60f2543881eb1b556fe50700",
+      "frames": [
+        {
+          "x": 35,
+          "y": 48,
+          "width": 404,
+          "height": 422
+        },
+        {
+          "x": 59,
+          "y": 45,
+          "width": 389,
+          "height": 426
+        },
+        {
+          "x": 78,
+          "y": 43,
+          "width": 348,
+          "height": 429
+        },
+        {
+          "x": 104,
+          "y": 39,
+          "width": 309,
+          "height": 439
+        },
+        {
+          "x": 121,
+          "y": 38,
+          "width": 259,
+          "height": 440
+        },
+        {
+          "x": 123,
+          "y": 39,
+          "width": 239,
+          "height": 441
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-98fedb74-489e-423b-b1dc-41ccf8bba3ff.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: ML Athletic Ringer Basic Tee six-angle source atlas, part3. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 270,285,300,315,330,345 degrees, RIGHT-FACING profile towards FRONT. Back artwork is completely hidden; chest ML gradually appears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1767899,
+      "sha256": "6ba59e4a2ec2ad4b5f92a9db3be3c93d2ec09a04b7e2e6a1ba83a42c5e84d5f1",
+      "frames": [
+        {
+          "x": 127,
+          "y": 39,
+          "width": 219,
+          "height": 455
+        },
+        {
+          "x": 108,
+          "y": 38,
+          "width": 250,
+          "height": 456
+        },
+        {
+          "x": 59,
+          "y": 33,
+          "width": 295,
+          "height": 461
+        },
+        {
+          "x": 77,
+          "y": 39,
+          "width": 337,
+          "height": 450
+        },
+        {
+          "x": 40,
+          "y": 40,
+          "width": 383,
+          "height": 449
+        },
+        {
+          "x": 3,
+          "y": 42,
+          "width": 442,
+          "height": 446
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 source-size views and contact sheet: even burgundy fabric, intact single chest ML, clean back branding, consistent trim and pockets across front/left/back/right; no tint halos or duplicate logo fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

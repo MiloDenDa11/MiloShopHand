@@ -75,8 +75,8 @@ export function SiteHeader() {
             <Link
               key={href}
               href={href}
-              className={path === href ? "active" : ""}
-              aria-current={path === href ? "page" : undefined}
+              className={path === href || href === "/san-pham" && (path.startsWith("/san-pham/") || path.startsWith("/dung-thu/")) ? "active" : ""}
+              aria-current={path === href || href === "/san-pham" && (path.startsWith("/san-pham/") || path.startsWith("/dung-thu/")) ? "page" : undefined}
             >
               {label}
               {label === "Hàng mới" && <span className="nav-new-dot" />}
@@ -87,6 +87,7 @@ export function SiteHeader() {
           <button
             type="button"
             aria-label="Tìm kiếm"
+            data-tooltip="Tìm kiếm"
             onClick={() => setSearch(true)}
             aria-haspopup="dialog"
           >
@@ -95,6 +96,7 @@ export function SiteHeader() {
           <Link
             href="/tai-khoan"
             aria-label={user ? "Tài khoản" : "Đăng nhập"}
+            data-tooltip={user ? "Tài khoản" : "Đăng nhập"}
             className={user ? "has-account" : ""}
           >
             <UserRound size={21} />
@@ -103,6 +105,7 @@ export function SiteHeader() {
             type="button"
             className="bag-button"
             aria-label={`Giỏ hàng, ${count} sản phẩm`}
+            data-tooltip="Giỏ hàng"
             onClick={() => setDrawer(true)}
           >
             <ShoppingBag size={20} />

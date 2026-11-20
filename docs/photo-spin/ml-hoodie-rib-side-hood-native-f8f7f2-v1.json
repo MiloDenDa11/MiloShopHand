@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-rib-side-hood",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T09:40:11.151Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-e7a140cb-980f-4b8e-9961-6d1cd0201269.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Side Hood Hoodie, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRIB SIDE construction: preserve deep olive vertical rib knit panels on both side seams from underarm to waistband, deep olive hood edging/drawstrings/cuffs/hem. Main fleece body, sleeves, hood and kangaroo pocket become target colour. No new zipper or contrasting shoulder yoke; keep knit side panels distinct in profile views.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1847145,
+      "sha256": "0a85693f74f1f301d45ff67632ac8d91c37865e30e6c81f5c76bccf161b791e8",
+      "frames": [
+        {
+          "x": 47,
+          "y": 20,
+          "width": 419,
+          "height": 461
+        },
+        {
+          "x": 57,
+          "y": 20,
+          "width": 398,
+          "height": 467
+        },
+        {
+          "x": 77,
+          "y": 19,
+          "width": 345,
+          "height": 471
+        },
+        {
+          "x": 119,
+          "y": 19,
+          "width": 276,
+          "height": 475
+        },
+        {
+          "x": 146,
+          "y": 20,
+          "width": 225,
+          "height": 474
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 201,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-9a5e77e4-8819-452d-a761-8f87fb156ed4.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Side Hood Hoodie, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRIB SIDE construction: preserve deep olive vertical rib knit panels on both side seams from underarm to waistband, deep olive hood edging/drawstrings/cuffs/hem. Main fleece body, sleeves, hood and kangaroo pocket become target colour. No new zipper or contrasting shoulder yoke; keep knit side panels distinct in profile views.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1785193,
+      "sha256": "532f213870426207338e8c0adb997fc41b196305f74c6db40ccebe4af143d5ae",
+      "frames": [
+        {
+          "x": 152,
+          "y": 20,
+          "width": 182,
+          "height": 467
+        },
+        {
+          "x": 128,
+          "y": 20,
+          "width": 197,
+          "height": 467
+        },
+        {
+          "x": 106,
+          "y": 22,
+          "width": 221,
+          "height": 465
+        },
+        {
+          "x": 105,
+          "y": 20,
+          "width": 277,
+          "height": 470
+        },
+        {
+          "x": 62,
+          "y": 20,
+          "width": 330,
+          "height": 469
+        },
+        {
+          "x": 26,
+          "y": 19,
+          "width": 394,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-c4956de5-b58b-4b9f-b68b-01e9acea31fe.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Side Hood Hoodie, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRIB SIDE construction: preserve deep olive vertical rib knit panels on both side seams from underarm to waistband, deep olive hood edging/drawstrings/cuffs/hem. Main fleece body, sleeves, hood and kangaroo pocket become target colour. No new zipper or contrasting shoulder yoke; keep knit side panels distinct in profile views.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1770571,
+      "sha256": "e1efe483d736d2007714d6396e0c66182fa9a8f88102ffc9046b1669dfc1b367",
+      "frames": [
+        {
+          "x": 51,
+          "y": 15,
+          "width": 408,
+          "height": 465
+        },
+        {
+          "x": 63,
+          "y": 20,
+          "width": 366,
+          "height": 464
+        },
+        {
+          "x": 81,
+          "y": 20,
+          "width": 323,
+          "height": 465
+        },
+        {
+          "x": 109,
+          "y": 16,
+          "width": 274,
+          "height": 476
+        },
+        {
+          "x": 122,
+          "y": 18,
+          "width": 236,
+          "height": 474
+        },
+        {
+          "x": 146,
+          "y": 19,
+          "width": 207,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-rib-side-hood/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-fd9eab28-4f35-44d0-b896-44cd0aaad794.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Side Hood Hoodie, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRIB SIDE construction: preserve deep olive vertical rib knit panels on both side seams from underarm to waistband, deep olive hood edging/drawstrings/cuffs/hem. Main fleece body, sleeves, hood and kangaroo pocket become target colour. No new zipper or contrasting shoulder yoke; keep knit side panels distinct in profile views.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1712202,
+      "sha256": "55fb8184e4bf4e06df2f5a0672e7a5e667241f8f47a5f98574270ce711cfbeac",
+      "frames": [
+        {
+          "x": 157,
+          "y": 12,
+          "width": 172,
+          "height": 478
+        },
+        {
+          "x": 136,
+          "y": 12,
+          "width": 198,
+          "height": 479
+        },
+        {
+          "x": 112,
+          "y": 13,
+          "width": 242,
+          "height": 478
+        },
+        {
+          "x": 97,
+          "y": 15,
+          "width": 294,
+          "height": 476
+        },
+        {
+          "x": 56,
+          "y": 14,
+          "width": 356,
+          "height": 476
+        },
+        {
+          "x": 39,
+          "y": 15,
+          "width": 412,
+          "height": 470
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: warm white fleece with olive rib side panels, hem/cuffs and hood edging/cords. Charcoal chest and rear floral branding remain correctly occluded; side insert boundaries and kangaroo pocket stay consistent across four quarters with full garment margins.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

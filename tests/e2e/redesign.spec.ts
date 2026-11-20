@@ -99,7 +99,11 @@ for (const path of responsiveRoutes) test(`responsive media/fonts: ${path}`, asy
     await page.locator(".header").waitFor();
     if (path === "/") await expect(page.locator(".product-card")).toHaveCount(8);
     if (path === "/san-pham") await expect(page.locator(".product-card").first()).toBeVisible();
-    if (path.includes("everyday-essential")) await expect(page.locator(".size-choices")).toBeVisible();
+    if (path.includes("everyday-essential")) {
+      const sizes = page.getByRole('group', { name: 'Chọn kích thước', exact: true });
+      await expect(sizes).toHaveCount(1);
+      await expect(sizes).toBeVisible();
+    }
     for (const width of [360, 768, 1440]) {
       await page.setViewportSize({ width, height: 900 });
       await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), {message:`overflow ${path} at ${width}px`}).toBe(true);

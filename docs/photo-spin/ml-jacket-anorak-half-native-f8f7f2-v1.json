@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-anorak-half",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:09:15.181Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-912c5b57-8d49-4e94-91a9-21b3f6c78c6a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Anorak Half Jacket, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nANORAK HALF construction: preserve fine ripstop nylon grid, half-length centre front zipper, hood with cream edge and short toggle cords, large single kangaroo pocket with two angled entrances, plain straight stitched hem, narrow cream elastic cuff binding. Target colour for body, sleeves, pocket and hood lining. Keep cream zipper tape, hood trim and cuffs. Rear branding is the exact cursive MiloShopHand word only, no floral back crest.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1789375,
+      "sha256": "d58df25fcc735804e9d3e35e8dffe942feb3119a1435493a935e07e70fbd7d4e",
+      "frames": [
+        {
+          "x": 62,
+          "y": 15,
+          "width": 391,
+          "height": 460
+        },
+        {
+          "x": 73,
+          "y": 16,
+          "width": 362,
+          "height": 459
+        },
+        {
+          "x": 93,
+          "y": 16,
+          "width": 313,
+          "height": 460
+        },
+        {
+          "x": 127,
+          "y": 9,
+          "width": 271,
+          "height": 475
+        },
+        {
+          "x": 150,
+          "y": 7,
+          "width": 221,
+          "height": 478
+        },
+        {
+          "x": 161,
+          "y": 7,
+          "width": 195,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-00e5227b-7f16-4755-a9a6-abad53de2bd2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Anorak Half Jacket, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nANORAK HALF construction: preserve fine ripstop nylon grid, half-length centre front zipper, hood with cream edge and short toggle cords, large single kangaroo pocket with two angled entrances, plain straight stitched hem, narrow cream elastic cuff binding. Target colour for body, sleeves, pocket and hood lining. Keep cream zipper tape, hood trim and cuffs. Rear branding is the exact cursive MiloShopHand word only, no floral back crest.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1662778,
+      "sha256": "179f63c24258881b7d3398c6b82de50883cd960d837f858c4b6a3df5893fef0d",
+      "frames": [
+        {
+          "x": 166,
+          "y": 15,
+          "width": 178,
+          "height": 474
+        },
+        {
+          "x": 155,
+          "y": 14,
+          "width": 185,
+          "height": 475
+        },
+        {
+          "x": 148,
+          "y": 14,
+          "width": 205,
+          "height": 475
+        },
+        {
+          "x": 136,
+          "y": 13,
+          "width": 252,
+          "height": 480
+        },
+        {
+          "x": 105,
+          "y": 13,
+          "width": 298,
+          "height": 481
+        },
+        {
+          "x": 69,
+          "y": 13,
+          "width": 363,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-655aac37-0459-4a39-b8ed-ce8086e9bbcb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Anorak Half Jacket, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nANORAK HALF construction: preserve fine ripstop nylon grid, half-length centre front zipper, hood with cream edge and short toggle cords, large single kangaroo pocket with two angled entrances, plain straight stitched hem, narrow cream elastic cuff binding. Target colour for body, sleeves, pocket and hood lining. Keep cream zipper tape, hood trim and cuffs. Rear branding is the exact cursive MiloShopHand word only, no floral back crest.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1815684,
+      "sha256": "501c87c6ee615bc2660111b8c5a2fffab85b9823d2c9f5e56f603d5fc911a1fc",
+      "frames": [
+        {
+          "x": 52,
+          "y": 17,
+          "width": 413,
+          "height": 466
+        },
+        {
+          "x": 78,
+          "y": 18,
+          "width": 365,
+          "height": 465
+        },
+        {
+          "x": 106,
+          "y": 21,
+          "width": 303,
+          "height": 462
+        },
+        {
+          "x": 151,
+          "y": 17,
+          "width": 232,
+          "height": 468
+        },
+        {
+          "x": 149,
+          "y": 16,
+          "width": 247,
+          "height": 469
+        },
+        {
+          "x": 149,
+          "y": 17,
+          "width": 205,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-anorak-half/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-36ab212f-43f1-4f6f-977a-81d127e9c8f1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Anorak Half Jacket, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nANORAK HALF construction: preserve fine ripstop nylon grid, half-length centre front zipper, hood with cream edge and short toggle cords, large single kangaroo pocket with two angled entrances, plain straight stitched hem, narrow cream elastic cuff binding. Target colour for body, sleeves, pocket and hood lining. Keep cream zipper tape, hood trim and cuffs. Rear branding is the exact cursive MiloShopHand word only, no floral back crest.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1747624,
+      "sha256": "0874a0bc36d35cc8c729556a1d711e6279e9a83943de48288a5d8d89913c8ca4",
+      "frames": [
+        {
+          "x": 164,
+          "y": 18,
+          "width": 190,
+          "height": 475
+        },
+        {
+          "x": 154,
+          "y": 18,
+          "width": 207,
+          "height": 475
+        },
+        {
+          "x": 118,
+          "y": 16,
+          "width": 277,
+          "height": 476
+        },
+        {
+          "x": 102,
+          "y": 14,
+          "width": 320,
+          "height": 477
+        },
+        {
+          "x": 79,
+          "y": 14,
+          "width": 357,
+          "height": 476
+        },
+        {
+          "x": 59,
+          "y": 14,
+          "width": 388,
+          "height": 477
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually checked all 24 nominal views of #f8f7f2. Fine ripstop grid and target-colour nylon body remain consistent, with cream half zipper, short hood cords, edge binding and narrow cuffs. The single kangaroo pocket has two angled entrances and the hem remains straight. Small chest ML and cursive MiloShopHand across the rear shoulder yoke follow the reference without adding floral artwork. Rear and side perspectives retain correct occlusion, spacing and full garment framing.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

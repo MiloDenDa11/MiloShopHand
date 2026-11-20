@@ -1,0 +1,244 @@
+{
+  "at": "2026-11-19T05:21:11.676Z",
+  "scope": "Authorized local source, QA and isolated restore only; production deployment not performed",
+  "findings": {
+    "total": 15,
+    "contextualSeverity": {
+      "HIGH": 6,
+      "MEDIUM": 7,
+      "LOW": 2
+    },
+    "pendingDatabaseFinding": "F06",
+    "note": "F04 has two CRITICAL npm package records in one development toolchain. F05 verifies configuration/image locally, not production rollout."
+  },
+  "tests": {
+    "unitBefore": {
+      "tests": 39,
+      "passed": 39,
+      "failed": 0,
+      "skipped": 0,
+      "log": ".local/security-audit-20261119/unit-before.log"
+    },
+    "unitAfter": {
+      "tests": 48,
+      "passed": 48,
+      "failed": 0,
+      "skipped": 0,
+      "log": ".local/security-audit-20261119/unit-verified.log"
+    },
+    "integrationBefore": {
+      "tests": 29,
+      "passed": 29,
+      "failed": 0,
+      "skipped": 0,
+      "log": ".local/security-audit-20261119/integration-before.log"
+    },
+    "integrationAfter": {
+      "tests": 42,
+      "passed": 42,
+      "failed": 0,
+      "skipped": 0,
+      "log": ".local/security-audit-20261119/integration-verified.log"
+    },
+    "initialSecurityApiRegression": {
+      "tests": 10,
+      "passedBefore": 4,
+      "failedBefore": 6,
+      "passedAfter": 10,
+      "extendedTestsAfter": 13,
+      "beforeLog": ".local/security-audit-20261119/security-before.log",
+      "afterLog": ".local/security-audit-20261119/integration-verified.log"
+    },
+    "initialXssCspBrowser": {
+      "tests": 2,
+      "failedBefore": 2,
+      "passedAfter": 2,
+      "markerBefore": 1,
+      "beforeLog": ".local/security-audit-20261119/browser-before.log"
+    },
+    "e2eProduction": {
+      "tests": 71,
+      "passed": 71,
+      "failed": 0,
+      "skipped": 0,
+      "browser": "Chromium",
+      "securityTests": 4,
+      "log": ".local/security-audit-20261119/browser-approved.log"
+    },
+    "cartRace": {
+      "reproducedBefore": true,
+      "passedAfter": true,
+      "beforeLog": ".local/security-audit-20261119/cart-race-before.log",
+      "afterTest": "SEC-CART",
+      "afterLog": ".local/security-audit-20261119/browser-approved.log"
+    },
+    "build": {
+      "passed": true,
+      "workspaces": [
+        "shared",
+        "api",
+        "worker",
+        "web"
+      ],
+      "log": ".local/security-audit-20261119/build-verified.log"
+    },
+    "typecheck": {
+      "passed": true,
+      "processExitCode": 0,
+      "log": ".local/security-audit-20261119/typecheck-approved.log"
+    }
+  },
+  "dependencies": {
+    "before": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 2,
+      "total": 2
+    },
+    "after": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "productionAfter": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "updated": [
+      {
+        "name": "concurrently",
+        "before": "9.2.1",
+        "after": "9.2.5"
+      },
+      {
+        "name": "shell-quote",
+        "before": "1.8.3",
+        "after": "1.12.0",
+        "transitive": true
+      },
+      {
+        "name": "nginx",
+        "before": "1.28.0",
+        "after": "1.30.7-alpine",
+        "imageDigest": "sha256:bef154735288bc38d99fac41ae63730684bcc661503673a04a0f9bc526ba8598"
+      }
+    ]
+  },
+  "database": {
+    "mainDatabase": "milo",
+    "tablesCompared": 42,
+    "allCountsAndFingerprintsUnchanged": true,
+    "beforeAt": "2026-11-19T03:53:01.294Z",
+    "afterAt": "2026-11-19T05:20:32.447Z",
+    "mainRoleUnchanged": {
+      "name": "milo",
+      "rolsuper": true,
+      "rolcreaterole": true,
+      "rolcreatedb": true,
+      "rolbypassrls": true
+    },
+    "backup": {
+      "file": ".local/backups/milo-2026-11-19T03-55-54-485Z.dump",
+      "bytes": 318435,
+      "sha256": "0ac5834e5cdcb4dec269773794389d07dbaf2905f8c5997df0b2899280df584c",
+      "encrypted": false,
+      "offsite": false
+    },
+    "restore": {
+      "database": "milo_security_restore_20261119",
+      "matchingTables": 42,
+      "workerStarted": false
+    },
+    "runtimeRoleTest": {
+      "rollbackOnly": true,
+      "permissions": [
+        {
+          "operation": "SELECT",
+          "allowed": true
+        },
+        {
+          "operation": "UPDATE",
+          "allowed": true
+        },
+        {
+          "operation": "INSERT",
+          "allowed": true
+        },
+        {
+          "operation": "DDL",
+          "denied": true
+        },
+        {
+          "operation": "AUDIT_DELETE",
+          "denied": true
+        },
+        {
+          "operation": "MIGRATION_READ",
+          "denied": true
+        }
+      ],
+      "persisted": false
+    }
+  },
+  "ingress": {
+    "imagePulledAndVerified": true,
+    "developmentConfigSyntax": true,
+    "productionConfigSyntax": true,
+    "redirectStatus": 308,
+    "redirectHostFixed": true,
+    "sensitiveDotfileStatus": 403,
+    "tls10Rejected": true,
+    "tls12Accepted": true,
+    "tls13Accepted": true,
+    "certificate": "Self-signed QA only; not production",
+    "httpConflictingFramingStatus": 400
+  },
+  "scans": {
+    "sourceSecretAndSast": {
+      "command": "npm run security:scan",
+      "findings": 0,
+      "log": ".local/security-audit-20261119/secret-sast-approved.json",
+      "limitation": "Bounded custom pattern checks of local source/public and reachable local Git history; no completeness claim"
+    },
+    "dockerOsCve": {
+      "completed": false,
+      "reason": "Docker Scout requires authentication",
+      "logs": [
+        ".local/security-audit-20261119/postgres-image-scan.log",
+        ".local/security-audit-20261119/redis-image-scan.log"
+      ]
+    }
+  },
+  "preservedArtifacts": {
+    "historicalPreviewsVerified": 26,
+    "qaScreenshots": ".local/security-audit-20261119/ui-previews",
+    "generatedDeclarationsRestored": true,
+    "sourceSnapshot": ".local/security-audit-20261119/source-before",
+    "sourceBeforeManifest": ".local/security-audit-20261119/source-before.json",
+    "supplementalManifest": ".local/security-audit-20261119/source-before-supplemental.json"
+  },
+  "unchangedPolicies": {
+    "roles": [
+      "USER",
+      "ADMIN"
+    ],
+    "adminOtpRequired": false,
+    "productionCredentialsChanged": false,
+    "mainDatabaseSchemaChanged": false
+  },
+  "remaining": [
+    "Main local DB role has excessive privileges and a development password; approved runtime credential transition required before production",
+    "Real TLS/domain, providers, host/cloud access controls and image OS CVEs not verified",
+    "No external alert delivery/SIEM, offsite encrypted backup schedule or volumetric DDoS validation",
+    "No MFA per existing user policy; Chromium only; real Maps key/physical mobile testing pending"
+  ]
+}

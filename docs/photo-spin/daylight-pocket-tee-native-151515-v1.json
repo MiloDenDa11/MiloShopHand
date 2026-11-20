@@ -1,0 +1,222 @@
+{
+  "slug": "daylight-pocket-tee",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T07:00:17.220Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-18ce4d88-f40c-4880-a337-9567b1e7e155.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Đen #151515, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1580822,
+      "sha256": "08326fd96dec9a4d829847d0681e8cae47c4e0af27619c28dcc11840d94a3d0c",
+      "frames": [
+        {
+          "x": 49,
+          "y": 18,
+          "width": 414,
+          "height": 454
+        },
+        {
+          "x": 66,
+          "y": 18,
+          "width": 382,
+          "height": 455
+        },
+        {
+          "x": 95,
+          "y": 15,
+          "width": 325,
+          "height": 459
+        },
+        {
+          "x": 137,
+          "y": 13,
+          "width": 259,
+          "height": 467
+        },
+        {
+          "x": 156,
+          "y": 12,
+          "width": 207,
+          "height": 468
+        },
+        {
+          "x": 162,
+          "y": 11,
+          "width": 188,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-98c15cec-7405-44ae-bd50-bced9c5b137a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Đen #151515, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1777202,
+      "sha256": "61cae69f627cc642a7aaa1a98db8a8441b856b68b24bf5e39b91c05527134672",
+      "frames": [
+        {
+          "x": 168,
+          "y": 16,
+          "width": 184,
+          "height": 480
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 208,
+          "height": 480
+        },
+        {
+          "x": 143,
+          "y": 16,
+          "width": 226,
+          "height": 480
+        },
+        {
+          "x": 131,
+          "y": 17,
+          "width": 279,
+          "height": 478
+        },
+        {
+          "x": 93,
+          "y": 16,
+          "width": 337,
+          "height": 479
+        },
+        {
+          "x": 58,
+          "y": 16,
+          "width": 397,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d0f37a39-e686-4e4f-a240-e51d9119c3f0.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Đen #151515, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1713268,
+      "sha256": "0c071d2d7e158107c981038fa0d6fb92436faea09d3db219899805cc2acc7d12",
+      "frames": [
+        {
+          "x": 51,
+          "y": 26,
+          "width": 413,
+          "height": 460
+        },
+        {
+          "x": 68,
+          "y": 25,
+          "width": 384,
+          "height": 463
+        },
+        {
+          "x": 95,
+          "y": 23,
+          "width": 307,
+          "height": 465
+        },
+        {
+          "x": 135,
+          "y": 22,
+          "width": 239,
+          "height": 467
+        },
+        {
+          "x": 153,
+          "y": 21,
+          "width": 206,
+          "height": 468
+        },
+        {
+          "x": 155,
+          "y": 21,
+          "width": 203,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/daylight-pocket-tee/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-59630a03-bc87-49d4-9bb1-fddfd1585608.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Daylight Pocket Tee, Đen #151515, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1512295,
+      "sha256": "cff4c7b596d6d38d7f27efce9283ef278832664ca7a8d64844ac1a5d4b8e1181",
+      "frames": [
+        {
+          "x": 170,
+          "y": 17,
+          "width": 176,
+          "height": 479
+        },
+        {
+          "x": 152,
+          "y": 17,
+          "width": 204,
+          "height": 479
+        },
+        {
+          "x": 124,
+          "y": 17,
+          "width": 257,
+          "height": 480
+        },
+        {
+          "x": 93,
+          "y": 16,
+          "width": 337,
+          "height": 480
+        },
+        {
+          "x": 60,
+          "y": 16,
+          "width": 406,
+          "height": 478
+        },
+        {
+          "x": 38,
+          "y": 17,
+          "width": 435,
+          "height": 476
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 native views and contact sheet: consistent restrained fabric colour, readable single chest ML and clean back artwork, correct upright front/left/back/right order, matching pocket and contrast-band geometry, no ghost marks, blotchy recolouring or clipped garments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

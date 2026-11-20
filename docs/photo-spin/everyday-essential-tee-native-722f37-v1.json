@@ -1,0 +1,222 @@
+{
+  "slug": "everyday-essential-tee",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:19:54.134Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e0685b54-9ff7-4933-ae71-5b14a53f46da.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: a native colour-specific six-angle product atlas for MILOSHOPHAND.\nInput image1 is the authoritative source six-view atlas for Everyday Essential Tee. Preserve EXACTLY the six upright garment poses, camera angles, silhouettes, sewing, sleeve lengths, collar, cloth folds, scale, cell layout and studio background.\nChange the ENTIRE main T-shirt fabric to clean deep BURGUNDY / Đỏ mận #722f37, including collar and sleeves. It is a newly finished burgundy garment, with realistic dyed cotton texture and natural shadows, not a translucent tint, not a hue filter. The colour is even and restrained; no bright blotches, no patchy halos or ghost fragments.\nBranding: ONE small clean interwoven ML monogram at wearer's left chest, in soft ivory #f3e9db, in the exact source location. The monogram's strokes must be continuous and intact. Remove any stray partial mark or duplicated ink outside that single monogram. No other front graphics. Preserve branding perspective naturally across the six source poses.\nOutput EXACTLY 3 columns x2 rows, SIX equal cells, native1536x1024 or larger, at least512px per cell. Whole garment in each cell with margin, no person/mannequin/hanger, no borders, grid lines, gutters, angle labels or watermark.\nThese are the first six of24 views: source order0,15,30,45,60,75degrees, from FRONT towards LEFT-FACING profile (garment front points toward LEFT edge). Do not change view order. No back artwork visible in these front views.\nCommercial fashion studio quality, crisp edges, natural soft fabric detail, same burgundy shade throughout all six views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1764197,
+      "sha256": "5d8862d85a9c7d29b798fd1df73fef87164064e492f60c21142e4a47b06bb343",
+      "frames": [
+        {
+          "x": 47,
+          "y": 22,
+          "width": 426,
+          "height": 470
+        },
+        {
+          "x": 58,
+          "y": 20,
+          "width": 400,
+          "height": 471
+        },
+        {
+          "x": 89,
+          "y": 17,
+          "width": 326,
+          "height": 475
+        },
+        {
+          "x": 136,
+          "y": 15,
+          "width": 260,
+          "height": 477
+        },
+        {
+          "x": 145,
+          "y": 14,
+          "width": 230,
+          "height": 478
+        },
+        {
+          "x": 144,
+          "y": 13,
+          "width": 216,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-46db0d5d-5598-419e-bc0d-7a940a2a32dd.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: native colour-specific six-angle product atlas for MILOSHOPHAND, Everyday Essential Tee.\nImage1 is the authoritative edit target: preserve its EXACT six garment poses, direction, silhouette, cut, stitching, folds, scale, layout and studio background.\nImage2 is the approved new BURGUNDY colour anchor. Match its finished dyed cotton fabric colour #722f37 on the entire body, collar and sleeves with natural shadows. Restrained, even burgundy colour, no patchy tint, glowing patches, halos or ghost fragments.\nBrand graphics must retain source shapes and position in soft ivory #f3e9db. Back: source floral M above exact text \"MiloShopHand\". Front: ONE intact interwoven ML in source left-chest location only when visible. No duplicate/stray logo fragments.\nExactly 3 columns x2 rows, six equal cells, native1536x1024 or larger, at least512px/cell. Whole upright garment inside each cell with margin. No person, mannequin, hanger, captions, grid lines, borders or watermark.\nSource pose order 90,105,120,135,150,165 degrees: LEFT-FACING profile towards BACK. Front points LEFT at90degrees. Back print gradually appears; no front chest logo.\nChange only the garment's colour; preserve every source camera angle. Realistic studio product photography. All six views must match colour anchor consistently.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1636477,
+      "sha256": "3d7956a2ae96a1d2ad9282478e40253dd44d29db7b48554a08fcfce854807e69",
+      "frames": [
+        {
+          "x": 161,
+          "y": 22,
+          "width": 179,
+          "height": 471
+        },
+        {
+          "x": 156,
+          "y": 22,
+          "width": 190,
+          "height": 471
+        },
+        {
+          "x": 152,
+          "y": 21,
+          "width": 212,
+          "height": 472
+        },
+        {
+          "x": 142,
+          "y": 20,
+          "width": 236,
+          "height": 471
+        },
+        {
+          "x": 109,
+          "y": 21,
+          "width": 302,
+          "height": 469
+        },
+        {
+          "x": 71,
+          "y": 21,
+          "width": 370,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2e043f17-db1a-4f78-9723-591f344c90a8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: native colour-specific six-angle product atlas for MILOSHOPHAND, Everyday Essential Tee.\nImage1 is the authoritative edit target: preserve its EXACT six garment poses, direction, silhouette, cut, stitching, folds, scale, layout and studio background.\nImage2 is the approved new BURGUNDY colour anchor. Match its finished dyed cotton fabric colour #722f37 on the entire body, collar and sleeves with natural shadows. Restrained, even burgundy colour, no patchy tint, glowing patches, halos or ghost fragments.\nBrand graphics must retain source shapes and position in soft ivory #f3e9db. Back: source floral M above exact text \"MiloShopHand\". Front: ONE intact interwoven ML in source left-chest location only when visible. No duplicate/stray logo fragments.\nExactly 3 columns x2 rows, six equal cells, native1536x1024 or larger, at least512px/cell. Whole upright garment inside each cell with margin. No person, mannequin, hanger, captions, grid lines, borders or watermark.\nSource pose order 180,195,210,225,240,255 degrees: BACK towards RIGHT-FACING profile. Back print gradually disappears by profile.\nChange only the garment's colour; preserve every source camera angle. Realistic studio product photography. All six views must match colour anchor consistently.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1765093,
+      "sha256": "6b882cdcf408e6b5031930e8af0230fd1f41441a9307daa99a74164953c42396",
+      "frames": [
+        {
+          "x": 43,
+          "y": 24,
+          "width": 426,
+          "height": 467
+        },
+        {
+          "x": 67,
+          "y": 20,
+          "width": 390,
+          "height": 472
+        },
+        {
+          "x": 99,
+          "y": 19,
+          "width": 318,
+          "height": 473
+        },
+        {
+          "x": 135,
+          "y": 18,
+          "width": 253,
+          "height": 473
+        },
+        {
+          "x": 155,
+          "y": 18,
+          "width": 219,
+          "height": 473
+        },
+        {
+          "x": 162,
+          "y": 18,
+          "width": 207,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-907711cf-1702-415c-b49f-1c1c0a1937ed.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: native colour-specific six-angle product atlas for MILOSHOPHAND, Everyday Essential Tee.\nImage1 is the authoritative edit target: preserve its EXACT six garment poses, direction, silhouette, cut, stitching, folds, scale, layout and studio background.\nImage2 is the approved new BURGUNDY colour anchor. Match its finished dyed cotton fabric colour #722f37 on the entire body, collar and sleeves with natural shadows. Restrained, even burgundy colour, no patchy tint, glowing patches, halos or ghost fragments.\nBrand graphics must retain source shapes and position in soft ivory #f3e9db. Back: source floral M above exact text \"MiloShopHand\". Front: ONE intact interwoven ML in source left-chest location only when visible. No duplicate/stray logo fragments.\nExactly 3 columns x2 rows, six equal cells, native1536x1024 or larger, at least512px/cell. Whole upright garment inside each cell with margin. No person, mannequin, hanger, captions, grid lines, borders or watermark.\nSource pose order 270,285,300,315,330,345 degrees: RIGHT-FACING profile towards FRONT. No back artwork is visible at all; one small chest ML gradually appears.\nChange only the garment's colour; preserve every source camera angle. Realistic studio product photography. All six views must match colour anchor consistently.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1733983,
+      "sha256": "091652720e5236adab90efe20c8203105d9fd9422d5740fea2b6bef758655889",
+      "frames": [
+        {
+          "x": 157,
+          "y": 15,
+          "width": 186,
+          "height": 479
+        },
+        {
+          "x": 140,
+          "y": 16,
+          "width": 224,
+          "height": 479
+        },
+        {
+          "x": 117,
+          "y": 16,
+          "width": 270,
+          "height": 479
+        },
+        {
+          "x": 89,
+          "y": 16,
+          "width": 334,
+          "height": 480
+        },
+        {
+          "x": 65,
+          "y": 17,
+          "width": 382,
+          "height": 479
+        },
+        {
+          "x": 48,
+          "y": 17,
+          "width": 427,
+          "height": 479
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 source-size views and contact sheet: even burgundy fabric, intact single chest ML, clean back branding, consistent trim and pockets across front/left/back/right; no tint halos or duplicate logo fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

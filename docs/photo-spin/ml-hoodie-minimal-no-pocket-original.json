@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-minimal-no-pocket",
+  "colorKey": "original",
+  "colorHex": "#dbd2bf",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:08.861Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-minimal-no-pocket/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e1e5885d-1f8b-4bd9-8e66-100301a61074.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Minimal No Pocket Hoodie, pale cream cotton interlock #dbd2bf, olive hood opening binding and rib cuffs #57634d, plain STRAIGHT cream hem, relaxed long sleeves. NO pockets, NO kangaroo pouch, NO drawstrings, NO zipper, NO ribbed waist. Hood naturally folded down on the back view, not sticking straight upward. Olive small ML at left chest, olive MiloShopHand script upper back. Preserve this minimal pocketless construction EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames0-5 in row-major order: 0 EXACT FRONT,15,30,45,60,75degrees. Slowly turn from the front towards the wearer's left side. Chest logo progressively foreshortens, back script is not visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1514053,
+      "sha256": "5ea2b7e2727da7077283bb0cadd1874dce09632bd642da3bd805fd855f79d1a9",
+      "frames": [
+        {
+          "x": 68,
+          "y": 21,
+          "width": 381,
+          "height": 448
+        },
+        {
+          "x": 79,
+          "y": 21,
+          "width": 356,
+          "height": 448
+        },
+        {
+          "x": 97,
+          "y": 21,
+          "width": 305,
+          "height": 448
+        },
+        {
+          "x": 139,
+          "y": 17,
+          "width": 225,
+          "height": 455
+        },
+        {
+          "x": 159,
+          "y": 15,
+          "width": 192,
+          "height": 460
+        },
+        {
+          "x": 162,
+          "y": 14,
+          "width": 187,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-minimal-no-pocket/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2a5ced1b-e9ad-47ca-ae93-5dcd9f39c00a.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Minimal No Pocket Hoodie, pale cream cotton interlock #dbd2bf, olive hood opening binding and rib cuffs #57634d, plain STRAIGHT cream hem, relaxed long sleeves. NO pockets, NO kangaroo pouch, NO drawstrings, NO zipper, NO ribbed waist. Hood naturally folded down on the back view, not sticking straight upward. Olive small ML at left chest, olive MiloShopHand script upper back. Preserve this minimal pocketless construction EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames6-11 row-major: 90 EXACT SIDE,105,120,135,150,165degrees. Continue in the SAME direction from side towards nearly back. Chest ML hidden; upper-back script progressively becomes visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1569457,
+      "sha256": "586380b10a6be8989f361fc0d124886ab8a00aa76e600d4875ab66b65defe936",
+      "frames": [
+        {
+          "x": 178,
+          "y": 24,
+          "width": 162,
+          "height": 465
+        },
+        {
+          "x": 167,
+          "y": 23,
+          "width": 177,
+          "height": 467
+        },
+        {
+          "x": 143,
+          "y": 22,
+          "width": 211,
+          "height": 467
+        },
+        {
+          "x": 115,
+          "y": 21,
+          "width": 279,
+          "height": 468
+        },
+        {
+          "x": 95,
+          "y": 21,
+          "width": 329,
+          "height": 468
+        },
+        {
+          "x": 63,
+          "y": 20,
+          "width": 388,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-minimal-no-pocket/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ff176ce8-e977-460c-977b-8c88987c8797.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Minimal No Pocket Hoodie, pale cream cotton interlock #dbd2bf, olive hood opening binding and rib cuffs #57634d, plain STRAIGHT cream hem, relaxed long sleeves. NO pockets, NO kangaroo pouch, NO drawstrings, NO zipper, NO ribbed waist. Hood naturally folded down on the back view, not sticking straight upward. Olive small ML at left chest, olive MiloShopHand script upper back. Preserve this minimal pocketless construction EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames12-17 row-major: 180 EXACT BACK,195,210,225,240,255degrees. Start exact back, continue towards the opposite side. Show back construction and back script naturally foreshortening, never show chest ML prematurely. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1489025,
+      "sha256": "f4eb83538e36a5fd3b2292ea310f5da8be7ed13202f84647ff4270f878c101fc",
+      "frames": [
+        {
+          "x": 57,
+          "y": 13,
+          "width": 398,
+          "height": 456
+        },
+        {
+          "x": 71,
+          "y": 13,
+          "width": 376,
+          "height": 456
+        },
+        {
+          "x": 98,
+          "y": 13,
+          "width": 316,
+          "height": 458
+        },
+        {
+          "x": 131,
+          "y": 15,
+          "width": 257,
+          "height": 459
+        },
+        {
+          "x": 150,
+          "y": 16,
+          "width": 207,
+          "height": 460
+        },
+        {
+          "x": 160,
+          "y": 17,
+          "width": 188,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-minimal-no-pocket/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-01a1382c-e7f5-4e3e-877e-7308489ac312.png",
+      "prompt": "Use case: product-mockup. Correct the LAST SIX viewpoints of an upright hoodie turntable. Image1 is garment identity (LEFT FRONT / RIGHT BACK), image2 is the FIRST-quarter turntable appearance to match. Create exactly 3 columns x 2 rows, 1536x1024 native, six cells of THE SAME cream Minimal No Pocket Hoodie, olive hood opening and cuffs, plain straight cream hem, no pocket, no drawstring, no zipper, chest ML, soft cream cotton. Render ONLY the final quarter 270,285,300,315,330,345 degrees in row-major order. CRITICAL CAMERA DIRECTION: first cell is the OPPOSITE SIDE from the side shown at the end of image2: hoodie FRONT/HOOD OPENING POINTS TO THE RIGHT of the image, hood rear droops to the LEFT. First cell is narrow true RIGHT-FACING PROFILE with near sleeve in front of torso, NO chest logo or back lettering visible. Then rotate gradually from right-facing profile TOWARDS THE FRONT: second cell barely front, third front-right threequarter, fourth frontthreequarter, fifth nearlyfront, last almoststraight FRONT. Never show the back surface or the MiloShopHand BACK lettering ANYWHERE in this atlas. Front ML should only gradually appear, same correct chest placement, no mirrored text. Absolutely NO back view at the start, no rear-threequarter views. Keep same construction, material, hood shape, sleeve pose, height and scale. Whole garment visible, 5% margin within each equal cell. Uniform warm ivory backdrop, level camera and vertical Y axis only, no roll/pitch/tilt. No mannequin/person/hanger, no gridlines, labels, captions, numbers, borders or watermark.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1677800,
+      "sha256": "5c76f9b05f4af0711f46beadce1a498702a09d886321c672472a08f53ed11a14",
+      "frames": [
+        {
+          "x": 148,
+          "y": 18,
+          "width": 180,
+          "height": 467
+        },
+        {
+          "x": 147,
+          "y": 18,
+          "width": 197,
+          "height": 466
+        },
+        {
+          "x": 130,
+          "y": 19,
+          "width": 257,
+          "height": 464
+        },
+        {
+          "x": 107,
+          "y": 18,
+          "width": 310,
+          "height": 464
+        },
+        {
+          "x": 79,
+          "y": 16,
+          "width": 355,
+          "height": 468
+        },
+        {
+          "x": 62,
+          "y": 15,
+          "width": 391,
+          "height": 470
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

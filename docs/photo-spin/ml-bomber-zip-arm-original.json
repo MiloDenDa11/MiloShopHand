@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-zip-arm",
+  "colorKey": "original",
+  "colorHex": "#969a88",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:28:10.009Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7c71b9a8-bbd4-482f-b785-24eb300c660e.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Zip Arm Bomber, base colour #969a88. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"arm-utility\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"arm-zip\"}, Nylon flight. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1879863,
+      "sha256": "189e8946668e4697078612bec7496a1b5b607dab2d4393818af5731b80f923e6",
+      "frames": [
+        {
+          "x": 48,
+          "y": 24,
+          "width": 416,
+          "height": 440
+        },
+        {
+          "x": 61,
+          "y": 22,
+          "width": 397,
+          "height": 453
+        },
+        {
+          "x": 84,
+          "y": 20,
+          "width": 347,
+          "height": 460
+        },
+        {
+          "x": 118,
+          "y": 15,
+          "width": 291,
+          "height": 474
+        },
+        {
+          "x": 151,
+          "y": 14,
+          "width": 226,
+          "height": 475
+        },
+        {
+          "x": 176,
+          "y": 14,
+          "width": 179,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-dc3e7697-13f4-4d59-ac7c-a1b4baf1fd35.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Zip Arm Bomber, base colour #969a88. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"arm-utility\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"arm-zip\"}, Nylon flight. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1761223,
+      "sha256": "69adff67f84bfff800138954794cacea873f8f905602f74af4c3507fb1f3c173",
+      "frames": [
+        {
+          "x": 161,
+          "y": 20,
+          "width": 190,
+          "height": 473
+        },
+        {
+          "x": 149,
+          "y": 19,
+          "width": 216,
+          "height": 474
+        },
+        {
+          "x": 146,
+          "y": 19,
+          "width": 229,
+          "height": 473
+        },
+        {
+          "x": 121,
+          "y": 20,
+          "width": 270,
+          "height": 472
+        },
+        {
+          "x": 95,
+          "y": 20,
+          "width": 316,
+          "height": 470
+        },
+        {
+          "x": 74,
+          "y": 20,
+          "width": 366,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b98cca77-8272-419f-b760-7988edef8559.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Zip Arm Bomber, base colour #969a88. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"arm-utility\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"arm-zip\"}, Nylon flight. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1860545,
+      "sha256": "d2b93a471d1cae8cdcb34562d4bf231de15b87ca6958abd0f9e37d85bcd88d2c",
+      "frames": [
+        {
+          "x": 42,
+          "y": 24,
+          "width": 435,
+          "height": 435
+        },
+        {
+          "x": 62,
+          "y": 23,
+          "width": 396,
+          "height": 447
+        },
+        {
+          "x": 86,
+          "y": 22,
+          "width": 344,
+          "height": 454
+        },
+        {
+          "x": 134,
+          "y": 21,
+          "width": 269,
+          "height": 466
+        },
+        {
+          "x": 152,
+          "y": 21,
+          "width": 216,
+          "height": 467
+        },
+        {
+          "x": 148,
+          "y": 21,
+          "width": 209,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-zip-arm/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-fe04e8bf-bd8f-454f-9ac8-f02c1e21a24f.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Zip Arm Bomber, base colour #969a88. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"arm-utility\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"arm-zip\"}, Nylon flight. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1874329,
+      "sha256": "564a4170ff0895a0b55cffd7c631400aabeb2790a2fc81ff29043cdee5294cf7",
+      "frames": [
+        {
+          "x": 175,
+          "y": 20,
+          "width": 179,
+          "height": 476
+        },
+        {
+          "x": 145,
+          "y": 20,
+          "width": 221,
+          "height": 475
+        },
+        {
+          "x": 107,
+          "y": 21,
+          "width": 282,
+          "height": 474
+        },
+        {
+          "x": 92,
+          "y": 18,
+          "width": 338,
+          "height": 472
+        },
+        {
+          "x": 71,
+          "y": 18,
+          "width": 377,
+          "height": 471
+        },
+        {
+          "x": 49,
+          "y": 19,
+          "width": 410,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

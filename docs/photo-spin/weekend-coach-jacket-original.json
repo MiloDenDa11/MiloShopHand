@@ -1,0 +1,222 @@
+{
+  "slug": "weekend-coach-jacket",
+  "colorKey": "original",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:55:18.717Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/weekend-coach-jacket/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0f78b82b-5cd3-48d5-b7e1-060892e8bce5.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Weekend Coach Jacket, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy coach jacket, point collar, SNAP front, two welt pockets, elastic cuffs, drawcord hem. Light chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1767634,
+      "sha256": "de2ddc1847cf76286063fff80f7259fa0bda8e0921f4106b1afaad909df43209",
+      "frames": [
+        {
+          "x": 45,
+          "y": 14,
+          "width": 422,
+          "height": 472
+        },
+        {
+          "x": 54,
+          "y": 13,
+          "width": 402,
+          "height": 472
+        },
+        {
+          "x": 86,
+          "y": 13,
+          "width": 341,
+          "height": 471
+        },
+        {
+          "x": 121,
+          "y": 8,
+          "width": 277,
+          "height": 474
+        },
+        {
+          "x": 150,
+          "y": 7,
+          "width": 217,
+          "height": 475
+        },
+        {
+          "x": 160,
+          "y": 7,
+          "width": 193,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/weekend-coach-jacket/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f8893f2a-998c-4b4a-9511-6bbf17fa6a54.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Weekend Coach Jacket, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy coach jacket, point collar, SNAP front, two welt pockets, elastic cuffs, drawcord hem. Light chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1797049,
+      "sha256": "9e0c01c1377d942c2636690111d83f07bea763412b52489804b1f7ae5238be3b",
+      "frames": [
+        {
+          "x": 154,
+          "y": 15,
+          "width": 196,
+          "height": 482
+        },
+        {
+          "x": 141,
+          "y": 14,
+          "width": 215,
+          "height": 483
+        },
+        {
+          "x": 127,
+          "y": 14,
+          "width": 238,
+          "height": 483
+        },
+        {
+          "x": 130,
+          "y": 14,
+          "width": 276,
+          "height": 481
+        },
+        {
+          "x": 98,
+          "y": 14,
+          "width": 330,
+          "height": 479
+        },
+        {
+          "x": 67,
+          "y": 14,
+          "width": 379,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/weekend-coach-jacket/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-420b25a0-2232-427c-9001-bded503a2cd8.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Weekend Coach Jacket, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy coach jacket, point collar, SNAP front, two welt pockets, elastic cuffs, drawcord hem. Light chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1738089,
+      "sha256": "b34391a1838d40d1427fd4c8b79fa1322e859105add2ec2ecb917b46b586a6d8",
+      "frames": [
+        {
+          "x": 41,
+          "y": 15,
+          "width": 433,
+          "height": 453
+        },
+        {
+          "x": 53,
+          "y": 15,
+          "width": 417,
+          "height": 455
+        },
+        {
+          "x": 76,
+          "y": 15,
+          "width": 350,
+          "height": 456
+        },
+        {
+          "x": 118,
+          "y": 9,
+          "width": 280,
+          "height": 475
+        },
+        {
+          "x": 137,
+          "y": 6,
+          "width": 259,
+          "height": 486
+        },
+        {
+          "x": 156,
+          "y": 7,
+          "width": 213,
+          "height": 484
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/weekend-coach-jacket/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-49f1b13a-19db-43c7-8e76-55926871e2b6.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Weekend Coach Jacket, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy coach jacket, point collar, SNAP front, two welt pockets, elastic cuffs, drawcord hem. Light chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1656747,
+      "sha256": "c61919643ae343f96d368e9ece0d9511b2724daf480c891a3c7a313cc63bf0f4",
+      "frames": [
+        {
+          "x": 171,
+          "y": 16,
+          "width": 180,
+          "height": 466
+        },
+        {
+          "x": 143,
+          "y": 16,
+          "width": 219,
+          "height": 472
+        },
+        {
+          "x": 108,
+          "y": 16,
+          "width": 280,
+          "height": 473
+        },
+        {
+          "x": 85,
+          "y": 18,
+          "width": 345,
+          "height": 477
+        },
+        {
+          "x": 63,
+          "y": 19,
+          "width": 386,
+          "height": 457
+        },
+        {
+          "x": 42,
+          "y": 19,
+          "width": 425,
+          "height": 479
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

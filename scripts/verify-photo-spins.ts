@@ -67,8 +67,9 @@ if(!process.argv.includes("--files-only")){
   }finally{await db.$disconnect();}
 }
 const pending=specs.filter((s:any)=>!known.has(`${s.slug}:${s.colorHex.toLowerCase()}`));
-if(process.argv.includes("--require-all"))check(pending.length===0,`${pending.length} original-colour AI designs still need 24-view photos`);
-console.log(`${entries.length} approved colour spins, ${entries.length*24} views, ${assets.size} native PNG atlases. Pending original AI designs: ${pending.length}/${specs.length}.`);
+const pendingLegacy=legacyPhotos.filter((s:any)=>!known.has(`${s.slug}:${s.colorHex.toLowerCase()}`));
+if(process.argv.includes("--require-all"))check(pending.length+pendingLegacy.length===0,`${pending.length+pendingLegacy.length} catalog designs still need original-colour 24-view photos`);
+console.log(`${entries.length} approved colour spins, ${entries.length*24} views, ${assets.size} native PNG atlases. Pending original AI designs: ${pending.length}/${specs.length}; legacy designs: ${pendingLegacy.length}/${legacyPhotos.length}.`);
 if(failures.length){console.error(failures.join("\n"));process.exitCode=1;}
 else console.log("All currently approved spins and product image paths passed. Coverage is reported separately; this does not certify ungenerated designs.");
 }

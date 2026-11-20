@@ -1,4 +1,5 @@
 "use client";
+import { Select } from "./ui/select";
 import { useState } from "react";
 import { api, useShop } from "./client";
 import { productImagesForColor } from "./product-media";
@@ -28,13 +29,13 @@ export function VariantSwitcher({ line }: { line: any }) {
         product && (
           <label>
             Biến thể mới
-            <select
+            <Select
               value={line.variantId}
               onChange={async (e) => {
                 const v = product.variants.find(
                   (v: any) => v.id === e.target.value,
                 );
-                if (!v?.available) return;
+                if (!v?.available || v.id === line.variantId) return;
                 const existing = cart.find((c: any) => c.variantId === v.id);
                 const quantity = Math.min(
                   20,
@@ -45,7 +46,7 @@ export function VariantSwitcher({ line }: { line: any }) {
                   (c: any) =>
                     c.variantId !== line.variantId && c.variantId !== v.id,
                 );
-                await changeCart([
+                const saved = await changeCart([
                   ...next,
                   {
                     ...line,
@@ -54,9 +55,10 @@ export function VariantSwitcher({ line }: { line: any }) {
                     size: v.size,
                     price: v.price,
                     quantity,
-                    image: productImagesForColor(product,v.color)[0]?.url || "",
+                    image: productImagesForColor(product,v.color,v)[0]?.url || "",
                   },
                 ]);
+                if (saved === false) return;
                 notify(
                   "Đã đổi biến thể và kiểm tra lại số lượng theo tồn kho.",
                 );
@@ -68,7 +70,7 @@ export function VariantSwitcher({ line }: { line: any }) {
                   {v.available ? "còn " + v.available : "hết hàng"}
                 </option>
               ))}
-            </select>
+            </Select>
           </label>
         )
       )}

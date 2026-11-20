@@ -1,0 +1,1884 @@
+{
+  "at": "2026-11-18T14:47:15.962Z",
+  "routes": [
+    "/",
+    "/admin",
+    "/bo-suu-tap",
+    "/chinh-sach",
+    "/dang-ky",
+    "/dang-nhap",
+    "/dat-lai-mat-khau",
+    "/don-hang/[id]",
+    "/dung-thu/[slug]",
+    "/gio-hang",
+    "/phong-cach",
+    "/quen-mat-khau",
+    "/san-pham",
+    "/san-pham/[slug]",
+    "/tai-khoan",
+    "/thanh-toan",
+    "/xac-minh"
+  ],
+  "controls": {
+    "input": 92,
+    "select": 19,
+    "textarea": 7,
+    "table": 2,
+    "dialog": 6,
+    "details": 16,
+    "button": 133,
+    "progress": 0
+  },
+  "files": [
+    {
+      "file": "apps/api/src/admin.ts",
+      "lines": 1241,
+      "exports": [
+        "AdminController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/attachments.ts",
+      "lines": 104,
+      "exports": [
+        "AttachmentsController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/auth.ts",
+      "lines": 504,
+      "exports": [
+        "passwordHash",
+        "passwordPolicy",
+        "phone",
+        "AuthController",
+        "MeController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/cache.ts",
+      "lines": 57,
+      "exports": [
+        "CatalogCache"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/catalog.ts",
+      "lines": 246,
+      "exports": [
+        "publicProduct",
+        "loadPublicProducts",
+        "CatalogController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/commerce.ts",
+      "lines": 1050,
+      "exports": [
+        "orderDto",
+        "CommerceService",
+        "CommerceController",
+        "WebhookController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/core.ts",
+      "lines": 378,
+      "exports": [
+        "projectRoot",
+        "env",
+        "production",
+        "fail",
+        "hash",
+        "secret",
+        "safeEqual",
+        "parse",
+        "json",
+        "seal",
+        "unseal",
+        "Db",
+        "transaction",
+        "audit",
+        "outbox",
+        "AuthGuard",
+        "AdminGuard",
+        "reauth",
+        "Errors",
+        "csrfToken",
+        "cookieOptions",
+        "setCsrf",
+        "security"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/exchanges.ts",
+      "lines": 372,
+      "exports": [
+        "ExchangeController",
+        "AdminExchangeController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/main.ts",
+      "lines": 127,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/openapi.ts",
+      "lines": 107,
+      "exports": [
+        "describeApi"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/providers.ts",
+      "lines": 267,
+      "exports": [
+        "MockPaymentProvider",
+        "PayosProvider",
+        "payments",
+        "MockShippingProvider",
+        "GhnProvider",
+        "shipping"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/recommendations.ts",
+      "lines": 87,
+      "exports": [
+        "RecommendationsController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/api/src/shipping.ts",
+      "lines": 43,
+      "exports": [
+        "ShippingController"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/admin/page.tsx",
+      "lines": 9,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/bo-suu-tap/page.tsx",
+      "lines": 9,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/chinh-sach/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/dang-ky/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/dang-nhap/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/dat-lai-mat-khau/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/don-hang/[id]/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/dung-thu/[slug]/page.tsx",
+      "lines": 23,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/error.tsx",
+      "lines": 13,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/fashion.css",
+      "lines": 4583,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": [
+        "checkbox",
+        "radio"
+      ]
+    },
+    {
+      "file": "apps/web/app/gio-hang/page.tsx",
+      "lines": 6,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/globals.css",
+      "lines": 3306,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": [
+        "checkbox",
+        "radio",
+        "number"
+      ]
+    },
+    {
+      "file": "apps/web/app/layout.tsx",
+      "lines": 34,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/loading.tsx",
+      "lines": 10,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/milo-ui.css",
+      "lines": 37,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/not-found.tsx",
+      "lines": 5,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/page.tsx",
+      "lines": 11,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/phong-cach/page.tsx",
+      "lines": 9,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/photo-spin-frame.css",
+      "lines": 5,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/product-360.css",
+      "lines": 32,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/quen-mat-khau/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/robots.ts",
+      "lines": 20,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/san-pham/page.tsx",
+      "lines": 25,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/san-pham/[slug]/page.tsx",
+      "lines": 33,
+      "exports": [
+        "generateMetadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/sitemap.ts",
+      "lines": 27,
+      "exports": [
+        "dynamic"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/tai-khoan/page.tsx",
+      "lines": 6,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/thanh-toan/page.tsx",
+      "lines": 6,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/try-on.css",
+      "lines": 156,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/app/xac-minh/page.tsx",
+      "lines": 11,
+      "exports": [
+        "metadata"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/account.tsx",
+      "lines": 1171,
+      "exports": [
+        "statusText",
+        "AuthForm",
+        "Account",
+        "SecurityForm",
+        "OrderDetail"
+      ],
+      "controls": {
+        "input": 22,
+        "select": 1,
+        "textarea": 2,
+        "table": 0,
+        "dialog": 0,
+        "details": 3,
+        "button": 14,
+        "progress": 0
+      },
+      "types": [
+        "email",
+        "password",
+        "checkbox",
+        "tel",
+        "number"
+      ]
+    },
+    {
+      "file": "apps/web/components/address-map.tsx",
+      "lines": 245,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 2,
+        "progress": 0
+      },
+      "types": [
+        "button"
+      ]
+    },
+    {
+      "file": "apps/web/components/admin.tsx",
+      "lines": 1984,
+      "exports": [
+        "Admin"
+      ],
+      "controls": {
+        "input": 45,
+        "select": 3,
+        "textarea": 4,
+        "table": 1,
+        "dialog": 1,
+        "details": 3,
+        "button": 39,
+        "progress": 0
+      },
+      "types": [
+        "date",
+        "number",
+        "checkbox",
+        "file",
+        "button",
+        "datetime-local"
+      ]
+    },
+    {
+      "file": "apps/web/components/brand-font.tsx",
+      "lines": 21,
+      "exports": [
+        "bodyFont",
+        "displayFont"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/checkout.tsx",
+      "lines": 591,
+      "exports": [
+        "CartPage",
+        "Checkout"
+      ],
+      "controls": {
+        "input": 7,
+        "select": 4,
+        "textarea": 1,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 4,
+        "progress": 0
+      },
+      "types": [
+        "tel",
+        "checkbox",
+        "button",
+        "radio"
+      ]
+    },
+    {
+      "file": "apps/web/components/client.tsx",
+      "lines": 482,
+      "exports": [
+        "brand",
+        "money",
+        "api",
+        "send",
+        "useShop",
+        "Providers",
+        "CartDrawer",
+        "Quantity",
+        "Empty",
+        "ErrorBox",
+        "Skeleton"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 1,
+        "details": 0,
+        "button": 6,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/color-photo.tsx",
+      "lines": 72,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/configured-banners.tsx",
+      "lines": 80,
+      "exports": [
+        "ConfiguredBanners",
+        "BannerFields"
+      ],
+      "controls": {
+        "input": 1,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 2,
+        "progress": 0
+      },
+      "types": [
+        "button"
+      ]
+    },
+    {
+      "file": "apps/web/components/editorial.tsx",
+      "lines": 162,
+      "exports": [
+        "Policies"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 1,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/exchanges.tsx",
+      "lines": 237,
+      "exports": [
+        "MyExchanges",
+        "ExchangeOffer",
+        "AdminExchanges"
+      ],
+      "controls": {
+        "input": 6,
+        "select": 2,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 2,
+        "button": 4,
+        "progress": 0
+      },
+      "types": [
+        "number"
+      ]
+    },
+    {
+      "file": "apps/web/components/fashion-editorial.tsx",
+      "lines": 142,
+      "exports": [
+        "FashionCollections",
+        "FashionJournal"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/fashion-home.tsx",
+      "lines": 507,
+      "exports": [
+        "EditorialHeading",
+        "FashionHome"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 2,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/fashion-product.tsx",
+      "lines": 587,
+      "exports": [
+        "FashionProductDetail"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 1,
+        "dialog": 1,
+        "details": 4,
+        "button": 11,
+        "progress": 0
+      },
+      "types": [
+        "application/ld+json"
+      ]
+    },
+    {
+      "file": "apps/web/components/garment-viewer.tsx",
+      "lines": 183,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 8,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/hero-3d.tsx",
+      "lines": 144,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/photo-spin-frame.tsx",
+      "lines": 25,
+      "exports": [
+        "PhotoSpinFrame",
+        "photoSpinImageSource"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/photo-spin-viewer.tsx",
+      "lines": 62,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 8,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/product-360.tsx",
+      "lines": 38,
+      "exports": [
+        "Product360"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 1,
+        "details": 0,
+        "button": 3,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/product-card-preview.tsx",
+      "lines": 58,
+      "exports": [
+        "ProductCardPreview"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/product-card.tsx",
+      "lines": 179,
+      "exports": [
+        "ProductCard"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 3,
+        "progress": 0
+      },
+      "types": [
+        "button"
+      ]
+    },
+    {
+      "file": "apps/web/components/product-media.tsx",
+      "lines": 123,
+      "exports": [
+        "isRealPhoto",
+        "realProductImages",
+        "productImagesForColor",
+        "productPhotoSource",
+        "ProductPhoto"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 1,
+        "progress": 0
+      },
+      "types": [
+        "button"
+      ]
+    },
+    {
+      "file": "apps/web/components/recommendations.tsx",
+      "lines": 49,
+      "exports": [
+        "Recommendations"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 1,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/return-photos.tsx",
+      "lines": 69,
+      "exports": [
+        "ReturnPhotos"
+      ],
+      "controls": {
+        "input": 1,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 1,
+        "progress": 0
+      },
+      "types": [
+        "file",
+        "button"
+      ]
+    },
+    {
+      "file": "apps/web/components/reveal.tsx",
+      "lines": 35,
+      "exports": [
+        "Reveal"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/components/site-shell.tsx",
+      "lines": 413,
+      "exports": [
+        "SiteHeader",
+        "SiteFooter"
+      ],
+      "controls": {
+        "input": 1,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 2,
+        "details": 0,
+        "button": 6,
+        "progress": 0
+      },
+      "types": [
+        "button",
+        "search",
+        "submit"
+      ]
+    },
+    {
+      "file": "apps/web/components/store.tsx",
+      "lines": 294,
+      "exports": [
+        "Catalog"
+      ],
+      "controls": {
+        "input": 6,
+        "select": 8,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 1,
+        "button": 3,
+        "progress": 0
+      },
+      "types": [
+        "number",
+        "checkbox",
+        "hidden"
+      ]
+    },
+    {
+      "file": "apps/web/components/try-on.tsx",
+      "lines": 143,
+      "exports": [
+        "TryOnPage"
+      ],
+      "controls": {
+        "input": 3,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 16,
+        "progress": 0
+      },
+      "types": [
+        "button",
+        "file",
+        "checkbox"
+      ]
+    },
+    {
+      "file": "apps/web/components/variant-switcher.tsx",
+      "lines": 79,
+      "exports": [
+        "VariantSwitcher"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 1,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 1,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/content/brand.ts",
+      "lines": 52,
+      "exports": [
+        "editorialAssets",
+        "journalArticles"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/hooks/use-photo-motion.ts",
+      "lines": 30,
+      "exports": [
+        "usePhotoMotion"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/hooks/use-resource.ts",
+      "lines": 66,
+      "exports": [
+        "useResource"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/hooks/use-spin-assets.ts",
+      "lines": 25,
+      "exports": [
+        "spinImageSource",
+        "useSpinAssets"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/hooks/use-try-on-photo.ts",
+      "lines": 68,
+      "exports": [
+        "useTryOnPhoto"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/hooks/use-wishlist.ts",
+      "lines": 77,
+      "exports": [
+        "useWishlist"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/display-spin.ts",
+      "lines": 9,
+      "exports": [
+        "displaySpinFor"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/garment-photo-mask.ts",
+      "lines": 116,
+      "exports": [
+        "garmentPhotoMask",
+        "srgbToLinear",
+        "paintGarmentFallback"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/milo-design.ts",
+      "lines": 9,
+      "exports": [
+        "miloDesignText"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/photo-spin.ts",
+      "lines": 35,
+      "exports": [
+        "isPhotoSpin",
+        "photoSpinFor",
+        "normalizedFrame",
+        "spinFrame"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/prepared-media.ts",
+      "lines": 30,
+      "exports": [
+        "preparedPhoto",
+        "preparedSpinSource"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/product-selection.ts",
+      "lines": 17,
+      "exports": [
+        "selectedProductColor",
+        "selectedProductSize",
+        "productSelectionHref"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/server-api.ts",
+      "lines": 18,
+      "exports": [
+        "serverApi"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/lib/try-on.ts",
+      "lines": 75,
+      "exports": [
+        "TRY_ON_MAX_BYTES",
+        "TRY_ON_MIN_EDGE",
+        "TRY_ON_MAX_PIXELS",
+        "TRY_ON_ACCEPT",
+        "tryOnHref",
+        "tryOnSupports",
+        "tryOnReference",
+        "initialTryOnSelection",
+        "tryOnPhotoError",
+        "tryOnDimensionsError",
+        "tryOnImageSignature"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/next-env.d.ts",
+      "lines": 8,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/next.config.mjs",
+      "lines": 64,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/web/postcss.config.mjs",
+      "lines": 2,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "apps/worker/src/main.ts",
+      "lines": 523,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "packages/shared/src/design-photo.ts",
+      "lines": 8,
+      "exports": [
+        "designPhotoUrl"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "packages/shared/src/garment-palette.mjs",
+      "lines": 49,
+      "exports": [
+        "CORE_GARMENT_COLORS",
+        "GARMENT_BRAND_VERSION",
+        "luminance",
+        "contrastRatio",
+        "garmentPalette",
+        "applyGarmentPalette"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "packages/shared/src/index.ts",
+      "lines": 130,
+      "exports": [
+        "fold",
+        "money",
+        "itemSchema",
+        "cartSchema",
+        "addressSchema",
+        "checkoutSchema",
+        "transitions",
+        "assertTransition",
+        "amounts",
+        "allocateDiscount",
+        "refundableLine",
+        "orderLabels"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "prisma/brand-variants.ts",
+      "lines": 77,
+      "exports": [
+        "applyBrandedColorways"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "prisma/collection.ts",
+      "lines": 93,
+      "exports": [
+        "seedCollection"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "prisma/photo-presentation.ts",
+      "lines": 62,
+      "exports": [
+        "applyPhotoPresentation"
+      ],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "prisma/schema.prisma",
+      "lines": 604,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "prisma/seed.ts",
+      "lines": 22,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    },
+    {
+      "file": "infra/compose.yaml",
+      "lines": 90,
+      "exports": [],
+      "controls": {
+        "input": 0,
+        "select": 0,
+        "textarea": 0,
+        "table": 0,
+        "dialog": 0,
+        "details": 0,
+        "button": 0,
+        "progress": 0
+      },
+      "types": []
+    }
+  ]
+}

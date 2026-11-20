@@ -26,7 +26,7 @@ export function Policies() {
       <div className="policy-layout" style={{ marginTop: 35 }}>
         <nav className="policy-nav">
           {links.map(([id, label]) => (
-            <Link key={id} href={`/chinh-sach?tab=${id}`}>
+            <Link key={id} href={`/chinh-sach?tab=${id}`} aria-current={tab === id ? "page" : undefined}>
               {label}
             </Link>
           ))}

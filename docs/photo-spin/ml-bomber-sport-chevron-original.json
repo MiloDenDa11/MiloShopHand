@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-sport-chevron",
+  "colorKey": "original",
+  "colorHex": "#49534c",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:28:08.939Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-045f1ef7-e83e-4d4d-ba9b-de6ccdb006dd.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Sport Chevron Bomber, base colour #49534c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"chevron\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1801933,
+      "sha256": "9ab3c6acea3fa69bf56c901315dbcd80c674ce80105c7ddc5c32a21d8df55d14",
+      "frames": [
+        {
+          "x": 53,
+          "y": 28,
+          "width": 408,
+          "height": 433
+        },
+        {
+          "x": 65,
+          "y": 24,
+          "width": 383,
+          "height": 450
+        },
+        {
+          "x": 86,
+          "y": 23,
+          "width": 322,
+          "height": 459
+        },
+        {
+          "x": 135,
+          "y": 15,
+          "width": 259,
+          "height": 476
+        },
+        {
+          "x": 157,
+          "y": 13,
+          "width": 195,
+          "height": 478
+        },
+        {
+          "x": 160,
+          "y": 13,
+          "width": 180,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-8259bcb1-a20d-4512-8303-c18669177e95.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Sport Chevron Bomber, base colour #49534c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"chevron\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1796861,
+      "sha256": "10c411f4b52bfebdf7d5d9253818478fc86c3110741375d9483aea72f69e18ce",
+      "frames": [
+        {
+          "x": 167,
+          "y": 22,
+          "width": 177,
+          "height": 476
+        },
+        {
+          "x": 150,
+          "y": 22,
+          "width": 199,
+          "height": 476
+        },
+        {
+          "x": 134,
+          "y": 22,
+          "width": 234,
+          "height": 477
+        },
+        {
+          "x": 121,
+          "y": 22,
+          "width": 283,
+          "height": 470
+        },
+        {
+          "x": 90,
+          "y": 20,
+          "width": 331,
+          "height": 473
+        },
+        {
+          "x": 59,
+          "y": 46,
+          "width": 395,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-00ee0072-99a8-407c-ab4e-6452e904a3b7.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Sport Chevron Bomber, base colour #49534c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"chevron\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1738244,
+      "sha256": "18d107ca29023cb4a26b393c94e677e51d8701fca2e57b20d202f16957e665a4",
+      "frames": [
+        {
+          "x": 45,
+          "y": 45,
+          "width": 421,
+          "height": 429
+        },
+        {
+          "x": 77,
+          "y": 24,
+          "width": 367,
+          "height": 459
+        },
+        {
+          "x": 106,
+          "y": 22,
+          "width": 300,
+          "height": 465
+        },
+        {
+          "x": 141,
+          "y": 20,
+          "width": 231,
+          "height": 470
+        },
+        {
+          "x": 144,
+          "y": 18,
+          "width": 217,
+          "height": 473
+        },
+        {
+          "x": 153,
+          "y": 18,
+          "width": 189,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-sport-chevron/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7a78dbac-ed99-41f5-b0b5-b91368addd1a.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Sport Chevron Bomber, base colour #49534c. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"chevron\",\"collar\":\"rib\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1680654,
+      "sha256": "3589c7b6f208e57808fe5cc5a51749c2da08125c21ff963a522d95bc02268dbd",
+      "frames": [
+        {
+          "x": 171,
+          "y": 22,
+          "width": 170,
+          "height": 472
+        },
+        {
+          "x": 135,
+          "y": 23,
+          "width": 208,
+          "height": 470
+        },
+        {
+          "x": 102,
+          "y": 23,
+          "width": 267,
+          "height": 469
+        },
+        {
+          "x": 91,
+          "y": 22,
+          "width": 330,
+          "height": 470
+        },
+        {
+          "x": 65,
+          "y": 22,
+          "width": 376,
+          "height": 466
+        },
+        {
+          "x": 46,
+          "y": 19,
+          "width": 412,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

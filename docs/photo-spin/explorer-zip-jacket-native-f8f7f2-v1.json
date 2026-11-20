@@ -1,0 +1,222 @@
+{
+  "slug": "explorer-zip-jacket",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T08:04:22.231Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b0426096-4d39-4e17-8554-5d5308d44406.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Explorer Zip Jacket, Trắng #f8f7f2, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1867766,
+      "sha256": "da4a991f2b92bab1dcfbf985e52a3110742d8098fd4dcafc2e16913ce5cd0f30",
+      "frames": [
+        {
+          "x": 54,
+          "y": 18,
+          "width": 410,
+          "height": 454
+        },
+        {
+          "x": 62,
+          "y": 16,
+          "width": 388,
+          "height": 456
+        },
+        {
+          "x": 78,
+          "y": 15,
+          "width": 339,
+          "height": 459
+        },
+        {
+          "x": 117,
+          "y": 15,
+          "width": 277,
+          "height": 469
+        },
+        {
+          "x": 144,
+          "y": 13,
+          "width": 218,
+          "height": 476
+        },
+        {
+          "x": 148,
+          "y": 12,
+          "width": 197,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d191dbf2-4a83-4351-98d7-6b5f233128a1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Explorer Zip Jacket, Trắng #f8f7f2, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1841142,
+      "sha256": "70352c11b4c1a44ad9bc2eaf8a57aa902435f92abb4373e8a0723499bda5f59d",
+      "frames": [
+        {
+          "x": 164,
+          "y": 15,
+          "width": 196,
+          "height": 476
+        },
+        {
+          "x": 155,
+          "y": 15,
+          "width": 207,
+          "height": 477
+        },
+        {
+          "x": 141,
+          "y": 15,
+          "width": 225,
+          "height": 474
+        },
+        {
+          "x": 127,
+          "y": 84,
+          "width": 265,
+          "height": 410
+        },
+        {
+          "x": 92,
+          "y": 92,
+          "width": 319,
+          "height": 392
+        },
+        {
+          "x": 57,
+          "y": 92,
+          "width": 374,
+          "height": 401
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-74d776db-1a3e-46e1-83fe-392d18adda6b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Explorer Zip Jacket, Trắng #f8f7f2, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1797791,
+      "sha256": "61e84912e76220fb867ab11b831d59edc553ceac1d46612c78349725348aba2a",
+      "frames": [
+        {
+          "x": 46,
+          "y": 93,
+          "width": 418,
+          "height": 392
+        },
+        {
+          "x": 62,
+          "y": 24,
+          "width": 390,
+          "height": 459
+        },
+        {
+          "x": 96,
+          "y": 23,
+          "width": 310,
+          "height": 459
+        },
+        {
+          "x": 147,
+          "y": 17,
+          "width": 224,
+          "height": 469
+        },
+        {
+          "x": 159,
+          "y": 17,
+          "width": 201,
+          "height": 469
+        },
+        {
+          "x": 153,
+          "y": 17,
+          "width": 193,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/explorer-zip-jacket/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-51a9b0ab-516f-4260-97bd-7622e286566f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Explorer Zip Jacket, Trắng #f8f7f2, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1823957,
+      "sha256": "c9cf989b387f819cda441da479b90caf0865c5f34bc5371ba1daac5b20f79080",
+      "frames": [
+        {
+          "x": 160,
+          "y": 17,
+          "width": 188,
+          "height": 479
+        },
+        {
+          "x": 147,
+          "y": 18,
+          "width": 204,
+          "height": 477
+        },
+        {
+          "x": 129,
+          "y": 17,
+          "width": 245,
+          "height": 478
+        },
+        {
+          "x": 109,
+          "y": 18,
+          "width": 308,
+          "height": 474
+        },
+        {
+          "x": 78,
+          "y": 18,
+          "width": 364,
+          "height": 469
+        },
+        {
+          "x": 52,
+          "y": 18,
+          "width": 412,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all 24 views in the contact sheet for this exact colour. Stand collar, zip, pockets, sleeve seams and natural nylon highlights remain intact. Colour stays even around front, side and back with isolated branding and no blotchy tint, white sleeve fragments or colour spill.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

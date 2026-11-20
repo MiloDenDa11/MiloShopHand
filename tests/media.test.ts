@@ -1,11 +1,23 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { productSelectionHref, selectedProductColor } from "../apps/web/lib/product-selection";
 import { isRealPhoto, productPhotoSource, realProductImages, productImagesForColor } from "../apps/web/components/product-media";
 import { designPhotoUrl } from "../packages/shared/src/design-photo";
 import { miloDesignText } from "../apps/web/lib/milo-design";
 import { garmentPhotoMask } from "../apps/web/lib/garment-photo-mask";
 import { preparedPhoto, preparedSpinSource } from "../apps/web/lib/prepared-media";
 import preparedSources from "../apps/web/content/prepared-media.json";
+
+test("selected colour survives product links and rejects an unknown variant colour", () => {
+  const product = { variants: [{ color: "Kem" }, { color: "Đỏ mận" }] };
+  const href = new URL(productSelectionHref("milo-tee", "Đỏ mận"), "https://milo.test");
+  assert.equal(href.pathname, "/san-pham/milo-tee");
+  assert.equal(href.searchParams.get("color"), "Đỏ mận");
+  assert.equal(selectedProductColor(product, href.searchParams.get("color")!), "Đỏ mận");
+  assert.equal(selectedProductColor(product, "Màu không tồn tại"), "Kem");
+  assert.equal(selectedProductColor(undefined, "Đỏ mận"), "");
+  assert.equal(productSelectionHref("milo-tee"), "/san-pham/milo-tee");
+});
 
 test("catalog displays valid illustrations and AI mockups without allowing executable URLs", () => {
   assert.equal(isRealPhoto({ url: "/products/tee.svg", alt: "Minh họa thiết kế" }), true);
@@ -56,18 +68,20 @@ test("delivery photos keep front/back distinct and never reuse an unknown source
   assert.equal(preparedSpinSource(`${atlas}?v=unknown`),undefined);
 });
 
-test("missing colour photos carry a reversible display recipe, exact photos retain identity",()=>{
+test("native image identity is preserved and legacy tint recipes no longer recolour photographs",()=>{
   const image={url:"/collection-ai/tee.png?view=back&v=ab12",color:"Kem"};
   const design={mediaPresentation:"photo",photoReferenceColorHex:"#eee7d7"};
   const url=designPhotoUrl(image,{color:"Đỏ mận",colorHex:"#722f37"},design);
   const parsed=productPhotoSource(url);
   assert.equal(parsed.src,"/collection-ai/tee.png?v=ab12");assert.equal(parsed.view,"back");
-  assert.deepEqual(parsed.colorPreview,{sourceHex:"#eee7d7",targetHex:"#722f37"});
+  assert.equal(url,image.url);
+  assert.deepEqual(productPhotoSource(`${url}&miloColor=722f37&baseColor=eee7d7`),parsed);
   assert.equal(designPhotoUrl(image,{color:"Kem",colorHex:"#eee7d7"},design),image.url);
   assert.equal(designPhotoUrl({...image,url:"https://example.test/photo.png"},{color:"Đỏ",colorHex:"#722f37"},design),"https://example.test/photo.png");
-  assert.equal(productPhotoSource("/collection-ai/tee.png?miloColor=javascript&baseColor=eeeeee").colorPreview,undefined);
+  assert.deepEqual(productPhotoSource("/collection-ai/tee.png?miloColor=javascript&baseColor=eeeeee"),{src:"/collection-ai/tee.png",view:"front"});
   const displayed=productImagesForColor({name:"Milo",design,images:[{...image,alt:"Milo — Kem"}],variants:[{color:"Đỏ mận",colorHex:"#722f37"}]},"Đỏ mận")[0];
-  assert.equal(displayed.color,"Đỏ mận");assert.equal(displayed.alt,"Milo — Đỏ mận");
+  assert.equal(displayed.color,"Kem");assert.equal(displayed.alt,"Milo — Kem");
+  assert.equal(displayed.url,image.url);
 });
 
 test("runtime mask keeps the paper background unchanged and separates contrast embroidery",()=>{

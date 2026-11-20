@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-suede-dusk",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:49:04.337Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-suede-dusk/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-3245c841-0148-4c09-87a5-a729dcf5a589.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Suede Dusk Bomber, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Da lộn thực vật, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\n\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1753601,
+      "sha256": "ee3a6477b1a9b20a830511a19e9d3d8cfe94193e6c5e82e0f4f17de8c36f321c",
+      "frames": [
+        {
+          "x": 63,
+          "y": 22,
+          "width": 415,
+          "height": 411
+        },
+        {
+          "x": 62,
+          "y": 21,
+          "width": 387,
+          "height": 417
+        },
+        {
+          "x": 69,
+          "y": 21,
+          "width": 337,
+          "height": 428
+        },
+        {
+          "x": 140,
+          "y": 19,
+          "width": 284,
+          "height": 448
+        },
+        {
+          "x": 147,
+          "y": 18,
+          "width": 230,
+          "height": 453
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 191,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-suede-dusk/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-62ed5a86-3ac1-4a99-8440-f040e24d9da3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Suede Dusk Bomber, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Da lộn thực vật, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\n\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1891451,
+      "sha256": "1f42e98ff15a793eceef80537868e3f84149ea2e3649c834f217c7e064a77b8f",
+      "frames": [
+        {
+          "x": 182,
+          "y": 25,
+          "width": 175,
+          "height": 454
+        },
+        {
+          "x": 151,
+          "y": 25,
+          "width": 213,
+          "height": 453
+        },
+        {
+          "x": 120,
+          "y": 24,
+          "width": 260,
+          "height": 454
+        },
+        {
+          "x": 117,
+          "y": 22,
+          "width": 296,
+          "height": 454
+        },
+        {
+          "x": 79,
+          "y": 21,
+          "width": 347,
+          "height": 450
+        },
+        {
+          "x": 56,
+          "y": 20,
+          "width": 373,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-suede-dusk/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-cfd5c6a3-35f2-4c05-b55a-986d6640aad9.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Suede Dusk Bomber, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Da lộn thực vật, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\n\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1889994,
+      "sha256": "11560365ab2f95ec1e55f81feeeab0dd244a1c7cd799ccfb0ec83daf558a2495",
+      "frames": [
+        {
+          "x": 60,
+          "y": 22,
+          "width": 417,
+          "height": 438
+        },
+        {
+          "x": 61,
+          "y": 22,
+          "width": 395,
+          "height": 442
+        },
+        {
+          "x": 76,
+          "y": 43,
+          "width": 345,
+          "height": 425
+        },
+        {
+          "x": 143,
+          "y": 43,
+          "width": 289,
+          "height": 431
+        },
+        {
+          "x": 149,
+          "y": 20,
+          "width": 230,
+          "height": 456
+        },
+        {
+          "x": 139,
+          "y": 19,
+          "width": 196,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-suede-dusk/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-68a19e54-b2bc-43a4-80b5-c7076cf958bb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Suede Dusk Bomber, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Da lộn thực vật, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\n\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1824449,
+      "sha256": "f2dd6c9d310e9811b521fba192f70731dc2bc5d465979c013ba5b16baef53115",
+      "frames": [
+        {
+          "x": 197,
+          "y": 51,
+          "width": 180,
+          "height": 434
+        },
+        {
+          "x": 156,
+          "y": 29,
+          "width": 187,
+          "height": 456
+        },
+        {
+          "x": 113,
+          "y": 28,
+          "width": 235,
+          "height": 455
+        },
+        {
+          "x": 145,
+          "y": 27,
+          "width": 283,
+          "height": 452
+        },
+        {
+          "x": 83,
+          "y": 27,
+          "width": 336,
+          "height": 449
+        },
+        {
+          "x": 39,
+          "y": 27,
+          "width": 390,
+          "height": 443
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: burgundy suede body and sleeves maintain the same colour and soft texture through rotation; tan rib trim, cream chest and back branding, zipper and pocket construction remain coherent in the four quarters.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

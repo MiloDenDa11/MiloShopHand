@@ -3,17 +3,18 @@ import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { PrismaClient } from "@prisma/client";
 import { randomBytes, createHmac } from "node:crypto";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { CommerceService } from "../apps/api/src/commerce";
 import { passwordHash } from "../apps/api/src/auth";
 import { hash } from "../apps/api/src/core";
-import { unseal, seal } from "../apps/api/src/core";
+import { unseal } from "../apps/api/src/core";
 import { AdminController } from "../apps/api/src/admin";
 import { CommerceController } from "../apps/api/src/commerce";
 import {
   AdminExchangeController,
   ExchangeController,
 } from "../apps/api/src/exchanges";
-import { TOTP, Secret } from "otpauth";
 import { AttachmentsController } from "../apps/api/src/attachments";
 import sharp from "sharp";
 import { applyBrandedColorways } from "../prisma/brand-variants";
@@ -166,13 +167,13 @@ test("checkout lưu ảnh đúng màu đã chọn thay vì ảnh đầu tiên", 
     await commerce.transition(order.id, "CANCELLED", a.id, "Kết thúc kiểm tra ảnh theo màu");
   } finally { await db.productImage.delete({where:{id:image.id}}); }
 });
-test("checkout giữ công thức phối màu khi màu mới chưa có ảnh riêng",async()=>{
+test("checkout không tạo công thức nhuộm ảnh khi màu mới chưa có ảnh riêng",async()=>{
   const product=await db.product.findUniqueOrThrow({where:{slug:"ml-tee-heavy-box"}});
   const variant=await db.productVariant.create({data:{productId:product.id,sku:key(),color:`Phối màu thử nghiệm ${key()}`,colorHex:"#722f37",size:"M",inventories:{create:{onHand:3}}}});
   const order=await commerce.checkout(a,payload(variant),key());
   const image=new URL(order.items[0].image,"https://milo.local");
-  assert.equal(image.searchParams.get("miloColor"),"722f37");
-  assert.equal(image.searchParams.get("baseColor"),"262925");
+  assert.equal(image.searchParams.get("miloColor"),null);
+  assert.equal(image.searchParams.get("baseColor"),null);
   await commerce.transition(order.id,"CANCELLED",a.id,"Kết thúc kiểm tra phối màu");
 });
 
@@ -456,36 +457,79 @@ test("đăng ký → xác minh một lần → đăng nhập → reset thu hồi
     400,
   );
 });
-test("Admin bắt buộc TOTP và mã không được phát lại", async () => {
-  const password = "Admin unique " + randomBytes(20).toString("hex"),
-    secret = new Secret({ size: 20 });
+test("cấp quyền ADMIN qua CLI, đăng nhập và xác thực lại chỉ bằng mật khẩu", async () => {
+  assert(new URL(process.env.DATABASE_URL!).pathname.endsWith("_test"));
+  const password = "Admin unique " + randomBytes(20).toString("hex");
   const u = await db.user.create({
     data: {
       email: `${key()}@example.test`,
-      name: "Admin thử MFA",
-      role: "ADMIN",
+      name: "Admin cấp quyền",
       verifiedAt: new Date(),
       passwordHash: await passwordHash(password),
-      mfa: {
-        create: { encryptedSecret: seal(secret.base32), recoveryHashes: [] },
-      },
     },
   });
+  const runAdmin = (...args: string[]) => promisify(execFile)(process.execPath, [
+    "node_modules/tsx/dist/cli.mjs", "--tsconfig", "apps/api/tsconfig.json",
+    "scripts/admin.ts", "--grant", ...args,
+  ], { env: process.env, timeout: 30000, windowsHide: true });
   const c = await client();
+  assert.equal((await c.request("/admin/dashboard")).status, 401);
+  assert.equal(
+    (await c.request("/auth/login", { email: u.email, password: "wrong password" })).status,
+    401,
+  );
   assert.equal(
     (await c.request("/auth/login", { email: u.email, password })).status,
-    401,
-  );
-  const otp = new TOTP({ secret }).generate();
-  assert.equal(
-    (await c.request("/auth/login", { email: u.email, password, otp })).status,
     201,
   );
+  assert.equal((await c.request("/admin/dashboard")).status, 403);
+  await runAdmin(u.email.toUpperCase());
+  await runAdmin(u.email); // Granting the same role twice is safe.
+  const granted = await db.user.findUniqueOrThrow({ where: { id: u.id } });
+  assert.equal(granted.role, "ADMIN");
+  assert.equal(granted.passwordHash, u.passwordHash);
+  assert.equal(granted.verifiedAt?.getTime(), u.verifiedAt?.getTime());
+  assert.equal(await db.mFA.count({ where: { userId: u.id } }), 0);
+  assert.equal(await db.auditLog.count({ where: { entityId: u.id, action: "ADMIN_ROLE_GRANTED" } }), 1);
+  // Privilege elevation revokes previous sessions; the next login still needs no OTP.
+  assert.equal((await c.request("/me")).status, 401, 'Role changes revoke earlier sessions');
+  assert.equal((await c.request('/auth/login', { email: u.email, password })).status, 201);
+  assert.equal((await c.request("/me")).body.role, "ADMIN");
   assert.equal((await c.request("/admin/dashboard")).status, 200);
-  assert.equal(
-    (await c.request("/auth/login", { email: u.email, password, otp })).status,
-    401,
-  );
+  const old = new Date(Date.now() - 11 * 60000);
+  await db.session.updateMany({ where: { userId: u.id }, data: { reauthenticatedAt: old } });
+  assert.equal((await c.request("/auth/reauth", { password: "wrong password" })).status, 401);
+  assert.equal((await db.session.findFirstOrThrow({ where: { userId: u.id } })).reauthenticatedAt.getTime(), old.getTime());
+  assert.equal((await c.request("/auth/reauth", { password })).status, 201);
+  assert((await db.session.findFirstOrThrow({ where: { userId: u.id } })).reauthenticatedAt > old);
+  assert.equal((await c.request("/auth/login", { email: u.email, password })).status, 201);
+  await db.user.update({ where: { id: u.id }, data: { role: "USER" } });
+  assert.equal((await c.request("/admin/dashboard")).status, 403);
+  await db.user.update({ where: { id: u.id }, data: { role: "ADMIN", disabled: true } });
+  assert.equal((await c.request("/admin/dashboard")).status, 401);
+  assert.equal((await c.request("/auth/login", { email: u.email, password })).status, 401);
+  await assert.rejects(runAdmin(u.email));
+  await assert.rejects(runAdmin(`${key()}@example.test`));
+  await assert.rejects(runAdmin());
+});
+
+test("Admin có MFA cũ cũng đăng nhập và xác thực lại không cần mã", async () => {
+  const password = "Legacy admin " + randomBytes(20).toString("hex");
+  const u = await db.user.create({
+    data: {
+      email: `${key()}@example.test`, name: "Admin cũ", role: "ADMIN",
+      verifiedAt: new Date(), passwordHash: await passwordHash(password),
+      mfa: { create: { encryptedSecret: "legacy-unused-secret", recoveryHashes: [hash("unused-recovery")] } },
+    },
+  });
+  const before = await db.mFA.findUniqueOrThrow({ where: { userId: u.id } });
+  const c = await client();
+  assert.equal((await c.request("/auth/login", { email: u.email, password })).status, 201);
+  assert.equal((await c.request("/admin/dashboard")).status, 200);
+  assert.equal((await c.request("/auth/reauth", { password })).status, 201);
+  // Older clients may still submit this field; it has no authentication role.
+  assert.equal((await c.request("/auth/login", { email: u.email, password, otp: "unused" })).status, 201);
+  assert.deepEqual(await db.mFA.findUniqueOrThrow({ where: { userId: u.id } }), before);
 });
 test("COD: giao hàng, thu tiền, chuyển về độc lập; hoàn một phần không vượt tiền nhận", async () => {
   const user = await db.user.create({
@@ -763,7 +807,7 @@ test("private return photos enforce owner and reject executable formats", async 
   })
     .png()
     .toBuffer();
-  const result = await files.upload({ buffer: image }, { actor: a } as any);
+  const result = await files.upload({ buffer: image, mimetype: 'image/png' }, { actor: a } as any);
   const id = result.url.split("/").pop()!;
   await assert.rejects(() =>
     files.download(id, { actor: b } as any, {} as any),

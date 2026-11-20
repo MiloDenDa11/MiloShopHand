@@ -1,0 +1,1240 @@
+{
+  "at": "2026-11-19T05:21:15.984Z",
+  "comparison": "Current working tree versus exact pre-audit source snapshot; .env.example supplementary baseline recovered and independently verified against Git HEAD",
+  "excludes": [
+    "Pre-existing dirty working-tree changes",
+    "Build output and local evidence",
+    "Historical screenshots restored byte-for-byte",
+    "Generated next-env.d.ts restored byte-for-byte"
+  ],
+  "filesChanged": 51,
+  "modified": 33,
+  "added": 18,
+  "deleted": 0,
+  "files": [
+    {
+      "file": ".dockerignore",
+      "status": "modified",
+      "purpose": "Environment, secret and build-context hardening",
+      "beforeSha256": "26075d79f2c2e3b627f8c144f8d3fa7b70f15a1125f800aa8821eaaf8c3e2253",
+      "afterSha256": "5aa2099789ae7458ee5ab053a6b3285ac2f4ba270b5f578260da9ab6b0f89de8",
+      "beforeBytes": 148,
+      "afterBytes": 274,
+      "changedLines": [
+        {
+          "beforeLine": 3,
+          "beforeCount": 0,
+          "afterLine": 4,
+          "afterCount": 9
+        },
+        {
+          "beforeLine": 6,
+          "beforeCount": 0,
+          "afterLine": 16,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": ".env.example",
+      "status": "modified",
+      "purpose": "Environment, secret and build-context hardening",
+      "beforeSha256": "331c3fd68f905069db6a606556da70945a073fd195278ced29e8869fdf4df779",
+      "afterSha256": "d0c2750087167ce74c9ecbec3f1a6c4df4033cbeb8a5bcceac22062887db8021",
+      "beforeBytes": 1349,
+      "afterBytes": 1638,
+      "changedLines": [
+        {
+          "beforeLine": 9,
+          "beforeCount": 0,
+          "afterLine": 10,
+          "afterCount": 6
+        }
+      ]
+    },
+    {
+      "file": ".gitignore",
+      "status": "modified",
+      "purpose": "Environment, secret and build-context hardening",
+      "beforeSha256": "1bdc1db4a0b94645f526f11d77c1c5d833ed176b788b7d8d8242bca5fdcf1c58",
+      "afterSha256": "cbe86a020f2e6603985ac13cf3200b70b70baa64010ebcc249cc8c62aa28ff7e",
+      "beforeBytes": 206,
+      "afterBytes": 258,
+      "changedLines": [
+        {
+          "beforeLine": 2,
+          "beforeCount": 0,
+          "afterLine": 3,
+          "afterCount": 7
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/admin.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "6b6077e484eedbdab518bfc6ba40084d3920f2998102db07377d9e4a589f423e",
+      "afterSha256": "32bab431165a2b8742d5ad2425a5eeb261e0f85d639a6b0b8a6e3552bed29783",
+      "beforeBytes": 39826,
+      "afterBytes": 39301,
+      "changedLines": [
+        {
+          "beforeLine": 40,
+          "beforeCount": 1,
+          "afterLine": 40,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 1049,
+          "beforeCount": 1,
+          "afterLine": 1050,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 1140,
+          "beforeCount": 1,
+          "afterLine": 1141,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 1146,
+          "beforeCount": 27,
+          "afterLine": 1147,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/attachments.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "237aeac6ee9840769964019b02fe696bed3bfff80f5d160c104ae1c867fa8a84",
+      "afterSha256": "25d91c00fde7ac1a4d53e0653378576dcf97989d99eb57ec38ff29eaadc1b06c",
+      "beforeBytes": 3105,
+      "afterBytes": 3027,
+      "changedLines": [
+        {
+          "beforeLine": 16,
+          "beforeCount": 1,
+          "afterLine": 16,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 19,
+          "beforeCount": 1,
+          "afterLine": 19,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 29,
+          "beforeCount": 1,
+          "afterLine": 29,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 35,
+          "beforeCount": 24,
+          "afterLine": 34,
+          "afterCount": 0
+        },
+        {
+          "beforeLine": 66,
+          "beforeCount": 0,
+          "afterLine": 43,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 73,
+          "beforeCount": 5,
+          "afterLine": 50,
+          "afterCount": 11
+        },
+        {
+          "beforeLine": 96,
+          "beforeCount": 5,
+          "afterLine": 79,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/auth.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "6e0468db2cd8bf2be79a43e3eacf524583668486f2748cf3b4cbe6828aea6f00",
+      "afterSha256": "8bad6e42f51873a2c1e40fb20594a785b2586a3cac1db8b06925e05904121a75",
+      "beforeBytes": 14358,
+      "afterBytes": 16571,
+      "changedLines": [
+        {
+          "beforeLine": 38,
+          "beforeCount": 0,
+          "afterLine": 39,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 48,
+          "beforeCount": 0,
+          "afterLine": 50,
+          "afterCount": 6
+        },
+        {
+          "beforeLine": 50,
+          "beforeCount": 1,
+          "afterLine": 57,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 55,
+          "beforeCount": 1,
+          "afterLine": 62,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 139,
+          "beforeCount": 0,
+          "afterLine": 147,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 144,
+          "beforeCount": 1,
+          "afterLine": 151,
+          "afterCount": 0
+        },
+        {
+          "beforeLine": 145,
+          "beforeCount": 0,
+          "afterLine": 153,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 178,
+          "beforeCount": 1,
+          "afterLine": 186,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 196,
+          "beforeCount": 1,
+          "afterLine": 204,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 209,
+          "beforeCount": 36,
+          "afterLine": 217,
+          "afterCount": 22
+        },
+        {
+          "beforeLine": 246,
+          "beforeCount": 4,
+          "afterLine": 240,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 256,
+          "beforeCount": 3,
+          "afterLine": 247,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 261,
+          "beforeCount": 2,
+          "afterLine": 250,
+          "afterCount": 6
+        },
+        {
+          "beforeLine": 264,
+          "beforeCount": 1,
+          "afterLine": 257,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 268,
+          "beforeCount": 1,
+          "afterLine": 261,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 269,
+          "beforeCount": 0,
+          "afterLine": 264,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 295,
+          "beforeCount": 1,
+          "afterLine": 291,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 334,
+          "beforeCount": 1,
+          "afterLine": 330,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 336,
+          "beforeCount": 0,
+          "afterLine": 333,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 353,
+          "beforeCount": 0,
+          "afterLine": 352,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 369,
+          "beforeCount": 1,
+          "afterLine": 368,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 448,
+          "beforeCount": 2,
+          "afterLine": 447,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 451,
+          "beforeCount": 1,
+          "afterLine": 450,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 452,
+          "beforeCount": 0,
+          "afterLine": 452,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/commerce.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "ed1572f02839b66fda01975998f8913202dc799eee9bf7baf832f0b01ba1cf0b",
+      "afterSha256": "523c8ba6a7b090212075dfc6cf0322a3125bf46bb280436fdf8fa8896b1f1cd2",
+      "beforeBytes": 33955,
+      "afterBytes": 34493,
+      "changedLines": [
+        {
+          "beforeLine": 720,
+          "beforeCount": 1,
+          "afterLine": 720,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 736,
+          "beforeCount": 0,
+          "afterLine": 737,
+          "afterCount": 6
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/core.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "ede273b3493a9be9ecbd7bf63a58c567235fe320f5caf03ae51a911a3561d606",
+      "afterSha256": "fcaa3279c087b67e294b944f8c9415e0a45104615035a51f72fe4930da603123",
+      "beforeBytes": 11551,
+      "afterBytes": 8946,
+      "changedLines": [
+        {
+          "beforeLine": 38,
+          "beforeCount": 1,
+          "afterLine": 38,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 99,
+          "beforeCount": 0,
+          "afterLine": 100,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 104,
+          "beforeCount": 0,
+          "afterLine": 106,
+          "afterCount": 8
+        },
+        {
+          "beforeLine": 177,
+          "beforeCount": 1,
+          "afterLine": 186,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 246,
+          "beforeCount": 0,
+          "afterLine": 257,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 266,
+          "beforeCount": 111,
+          "afterLine": 277,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/exchanges.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "49b53ecb7974b676761ca6f7be9d0cf04ecc031dc0bffa61f163b0d605bb31d6",
+      "afterSha256": "773fc90259c0bebdeb153be292660a30c0e5a5739ef79716b7dcd19b8486588b",
+      "beforeBytes": 11574,
+      "afterBytes": 11762,
+      "changedLines": [
+        {
+          "beforeLine": 44,
+          "beforeCount": 1,
+          "afterLine": 44,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/main.ts",
+      "status": "modified",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": "e61b26b5d5e877b54e765c2224f22fe3d2655742c51d65b567a7c2fcaa7df0fa",
+      "afterSha256": "0e4a9bae636217cccb535124e62d8fa41c6042d7e518b99d760f6f622be05378",
+      "beforeBytes": 4310,
+      "afterBytes": 5453,
+      "changedLines": [
+        {
+          "beforeLine": 34,
+          "beforeCount": 0,
+          "afterLine": 35,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 65,
+          "beforeCount": 0,
+          "afterLine": 67,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 81,
+          "beforeCount": 1,
+          "afterLine": 83,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 85,
+          "beforeCount": 1,
+          "afterLine": 88,
+          "afterCount": 6
+        },
+        {
+          "beforeLine": 97,
+          "beforeCount": 0,
+          "afterLine": 106,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 117,
+          "beforeCount": 4,
+          "afterLine": 127,
+          "afterCount": 6
+        }
+      ]
+    },
+    {
+      "file": "apps/api/src/request-security.ts",
+      "status": "added",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": null,
+      "afterSha256": "9ecf284074b230d4567fed8a6e92fd33b5d0a81d5fc829a9dbc86c966f2d86b3",
+      "beforeBytes": 0,
+      "afterBytes": 7354,
+      "firstLine": 1
+    },
+    {
+      "file": "apps/api/src/security-policy.ts",
+      "status": "added",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": null,
+      "afterSha256": "835877acf7854f0cb80315a26665e6beeb589f181bcef524bb00ee703d152bad",
+      "beforeBytes": 0,
+      "afterBytes": 2833,
+      "firstLine": 1
+    },
+    {
+      "file": "apps/api/src/upload-policy.ts",
+      "status": "added",
+      "purpose": "Authorization, auth concurrency, response minimization, logging, validation or secure defaults",
+      "beforeSha256": null,
+      "afterSha256": "02f4adb4b52e23128754d3389dd1d29a8c128b2f7a14f8a9efa4b551864e074d",
+      "beforeBytes": 0,
+      "afterBytes": 1887,
+      "firstLine": 1
+    },
+    {
+      "file": "apps/web/app/layout.tsx",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "4d65b2435548e641d92b1144e1224f81461dc9c6f12a0713842a9456590306cf",
+      "afterSha256": "fea8d684f62044d69b7feca3d0e4ec5749beff6b1050fa1470fbc7817e3f5781",
+      "beforeBytes": 1267,
+      "afterBytes": 1403,
+      "changedLines": [
+        {
+          "beforeLine": 1,
+          "beforeCount": 0,
+          "afterLine": 2,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 19,
+          "beforeCount": 1,
+          "afterLine": 20,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "file": "apps/web/app/san-pham/[slug]/page.tsx",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "166208a2cf5ca050b9c04dc61abe8e3bbe2da517d5f77664749a8831329ba3de",
+      "afterSha256": "41ef08c90060fcf3f5305cbad02e19c578a6bbcb80b66b459ad5e2b384575859",
+      "beforeBytes": 1144,
+      "afterBytes": 1238,
+      "changedLines": [
+        {
+          "beforeLine": 3,
+          "beforeCount": 0,
+          "afterLine": 4,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 31,
+          "beforeCount": 1,
+          "afterLine": 32,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/web/components/account.tsx",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "a34aa8a5b46dbc293f66622eacbc3c6742d35bed7e6ef162ab5b63bcb6685188",
+      "afterSha256": "afbb0fd476da6bccf874f55cd98e0e9c80e322d539a67077094101d8d087e266",
+      "beforeBytes": 38973,
+      "afterBytes": 38950,
+      "changedLines": [
+        {
+          "beforeLine": 27,
+          "beforeCount": 0,
+          "afterLine": 28,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 121,
+          "beforeCount": 5,
+          "afterLine": 122,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/web/components/client.tsx",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "d958ab8adb79784ab9c0e0909fb9526a9428ad8da13f4696a4c2baeb83de6cd5",
+      "afterSha256": "c3f7d72263989a6f10e56765b97346279e4689c92d9ccc4d3ee2dfbbdb5ec179",
+      "beforeBytes": 13203,
+      "afterBytes": 13820,
+      "changedLines": [
+        {
+          "beforeLine": 106,
+          "beforeCount": 0,
+          "afterLine": 107,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 112,
+          "beforeCount": 0,
+          "afterLine": 114,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 115,
+          "beforeCount": 0,
+          "afterLine": 118,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 118,
+          "beforeCount": 0,
+          "afterLine": 122,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 124,
+          "beforeCount": 1,
+          "afterLine": 128,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 127,
+          "beforeCount": 0,
+          "afterLine": 132,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 129,
+          "beforeCount": 0,
+          "afterLine": 135,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 143,
+          "beforeCount": 1,
+          "afterLine": 149,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 161,
+          "beforeCount": 0,
+          "afterLine": 168,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 179,
+          "beforeCount": 0,
+          "afterLine": 187,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 194,
+          "beforeCount": 0,
+          "afterLine": 203,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 199,
+          "beforeCount": 0,
+          "afterLine": 209,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 238,
+          "beforeCount": 0,
+          "afterLine": 249,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/web/components/fashion-product.tsx",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "e685f61e8799453c02139e22be9bc5d9de12dbd4e8f3e09ec43be253d9573ae6",
+      "afterSha256": "a29b65262c7bd719be14ff89403bbb0b12e593e5db09aa059a50af436f2bccdf",
+      "beforeBytes": 20491,
+      "afterBytes": 20586,
+      "changedLines": [
+        {
+          "beforeLine": 34,
+          "beforeCount": 0,
+          "afterLine": 35,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 36,
+          "beforeCount": 1,
+          "afterLine": 37,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 414,
+          "beforeCount": 0,
+          "afterLine": 416,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 416,
+          "beforeCount": 1,
+          "afterLine": 418,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 430,
+          "beforeCount": 1,
+          "afterLine": 432,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "apps/web/next.config.mjs",
+      "status": "modified",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": "0958ff9e6f7989699a6294e35b53ea18abf089567114cbbbbc06069ce08ad295",
+      "afterSha256": "8dd2ff9a78daa58477791ac80bfec776b07769a700760d65b48f9b708e7a49cd",
+      "beforeBytes": 2498,
+      "afterBytes": 2043,
+      "changedLines": [
+        {
+          "beforeLine": 3,
+          "beforeCount": 3,
+          "afterLine": 2,
+          "afterCount": 0
+        },
+        {
+          "beforeLine": 6,
+          "beforeCount": 0,
+          "afterLine": 4,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 52,
+          "beforeCount": 7,
+          "afterLine": 50,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": "apps/web/proxy.ts",
+      "status": "added",
+      "purpose": "CSP nonce, JSON-LD escaping, local redirects and stale session/cart response guards",
+      "beforeSha256": null,
+      "afterSha256": "23b636c3d440f87576c0ac37e02ff3a529ec470cc89e6bcd8a417c8eff22c0c2",
+      "beforeBytes": 0,
+      "afterBytes": 1755,
+      "firstLine": 1
+    },
+    {
+      "file": "apps/worker/src/main.ts",
+      "status": "modified",
+      "purpose": "Production configuration and SMTP TLS validation",
+      "beforeSha256": "b2a00bf547dd7483c9783c4344db1adf8232364fa2f4380ed60da010d0d425aa",
+      "afterSha256": "c55078c9938f4f2a0428f0763a6a7956bc240aba8dcde4ab73019091e6716886",
+      "beforeBytes": 15669,
+      "afterBytes": 15894,
+      "changedLines": [
+        {
+          "beforeLine": 18,
+          "beforeCount": 0,
+          "afterLine": 19,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 47,
+          "beforeCount": 0,
+          "afterLine": 49,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 480,
+          "beforeCount": 1,
+          "afterLine": 483,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": "docs/ADMIN-AUTH.md",
+      "status": "modified",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": "3c770a5f691b365754cd5e62e1f1afb7c637e5cbc3ab9b7a167888e656d89285",
+      "afterSha256": "e54a31bc0f36f038a3447ad753d3bf03ecb2dd099d203a866db5636295ddbd9f",
+      "beforeBytes": 3437,
+      "afterBytes": 3909,
+      "changedLines": [
+        {
+          "beforeLine": 9,
+          "beforeCount": 0,
+          "afterLine": 10,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 24,
+          "beforeCount": 1,
+          "afterLine": 25,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 33,
+          "beforeCount": 1,
+          "afterLine": 34,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "docs/OPERATIONS.md",
+      "status": "modified",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": "6cfd141fceef38baa6d12f431b0877374ae43c90c3687d45574321eac9da5833",
+      "afterSha256": "dc33a59f45bbba97964eb0d4802911cc005737bf493d3879869b04c4ec25e689",
+      "beforeBytes": 7729,
+      "afterBytes": 8159,
+      "changedLines": [
+        {
+          "beforeLine": 35,
+          "beforeCount": 1,
+          "afterLine": 35,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "file": "docs/SECURITY.md",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "450a1ac0539ac648b5e312d8a89139f82bb0102bf02dccb5653d04ba556474e0",
+      "beforeBytes": 0,
+      "afterBytes": 1315,
+      "firstLine": 1
+    },
+    {
+      "file": "docs/security/AUDIT-20261119.md",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "56b7d08771fc897d437263709346c648049a215da9b05c2194e63a3b963b7b17",
+      "beforeBytes": 0,
+      "afterBytes": 25848,
+      "firstLine": 1
+    },
+    {
+      "file": "docs/security/CHECKLIST.md",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "05d99f176730406b66c4bfc87990f3dfa5eb80699e30389a99de09341a7fe276",
+      "beforeBytes": 0,
+      "afterBytes": 3504,
+      "firstLine": 1
+    },
+    {
+      "file": "docs/security/PRODUCTION.md",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "87d7ba885f4dd609ea52272edba11b731801449fe9d91a0cba2b43017646fc21",
+      "beforeBytes": 0,
+      "afterBytes": 10602,
+      "firstLine": 1
+    },
+    {
+      "file": "docs/security/changes.json",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "afterSha256": null,
+      "note": "Self-containing manifest; final hash recorded by source-after.json"
+    },
+    {
+      "file": "docs/security/endpoints.json",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "4cced4aa9278e48a93093a250c59047aa9647f515bcaceb9dce30da6d9dd8415",
+      "beforeBytes": 0,
+      "afterBytes": 10461,
+      "firstLine": 1
+    },
+    {
+      "file": "docs/security/verification.json",
+      "status": "added",
+      "purpose": "Audit findings/evidence, runtime instructions and periodic checklist",
+      "beforeSha256": null,
+      "afterSha256": "e478bee7973fe88f889adcff4b9aecf2d8c9245d604e26fc354e0a0cb635edb5",
+      "beforeBytes": 0,
+      "afterBytes": 6830,
+      "firstLine": 1
+    },
+    {
+      "file": "infra/compose.yaml",
+      "status": "modified",
+      "purpose": "Patched ingress image, secure proxy/TLS templates or least-privilege role template",
+      "beforeSha256": "5846f84597b54e30ea2c4590d9685bb86a3b1d758b88618339fe861974787d9f",
+      "afterSha256": "39fe0bad103761bc89275b68f9f0bb491f8cc61e84d78d859c335eced530858f",
+      "beforeBytes": 3123,
+      "afterBytes": 3216,
+      "changedLines": [
+        {
+          "beforeLine": 52,
+          "beforeCount": 0,
+          "afterLine": 53,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 81,
+          "beforeCount": 1,
+          "afterLine": 82,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "infra/nginx.conf",
+      "status": "modified",
+      "purpose": "Patched ingress image, secure proxy/TLS templates or least-privilege role template",
+      "beforeSha256": "de66840ddc056638c8e8c9cb0a79bc80dc1752cb8e9e40400dae94608cdbf5c3",
+      "afterSha256": "b515059cba999a127761de8ef451b4442649f62797e986d92edf1e93dca4adf6",
+      "beforeBytes": 520,
+      "afterBytes": 968,
+      "changedLines": [
+        {
+          "beforeLine": 0,
+          "beforeCount": 0,
+          "afterLine": 1,
+          "afterCount": 3
+        },
+        {
+          "beforeLine": 4,
+          "beforeCount": 0,
+          "afterLine": 8,
+          "afterCount": 8
+        },
+        {
+          "beforeLine": 6,
+          "beforeCount": 1,
+          "afterLine": 17,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": "infra/nginx.production.conf",
+      "status": "added",
+      "purpose": "Patched ingress image, secure proxy/TLS templates or least-privilege role template",
+      "beforeSha256": null,
+      "afterSha256": "f3b3ff02a5619ad5b227b2062ed966f0abc739b958ae6ac5bb42e76c51ad0c1d",
+      "beforeBytes": 0,
+      "afterBytes": 1863,
+      "firstLine": 1
+    },
+    {
+      "file": "infra/postgres-runtime-role.sql",
+      "status": "added",
+      "purpose": "Patched ingress image, secure proxy/TLS templates or least-privilege role template",
+      "beforeSha256": null,
+      "afterSha256": "f91eb438ddd6e4bb2bed0dc58e916e69bf853928a8d9d2f7b26d96b714a25fdd",
+      "beforeBytes": 0,
+      "afterBytes": 1260,
+      "firstLine": 1
+    },
+    {
+      "file": "package-lock.json",
+      "status": "modified",
+      "purpose": "Patched development dependency and repeatable security commands",
+      "beforeSha256": "e45df9346e5875761a66bc828e5b2c42a79447ae6136a7bd294a9d647ff3b38c",
+      "afterSha256": "4f0198cbdac6670bf772c6638ad337cb6c10f2f80241bafadea1eb3190c11034",
+      "beforeBytes": 232092,
+      "afterBytes": 232095,
+      "changedLines": [
+        {
+          "beforeLine": 22,
+          "beforeCount": 1,
+          "afterLine": 22,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 3568,
+          "beforeCount": 3,
+          "afterLine": 3568,
+          "afterCount": 3
+        },
+        {
+          "beforeLine": 3576,
+          "beforeCount": 1,
+          "afterLine": 3576,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 5966,
+          "beforeCount": 3,
+          "afterLine": 5966,
+          "afterCount": 3
+        }
+      ]
+    },
+    {
+      "file": "package.json",
+      "status": "modified",
+      "purpose": "Patched development dependency and repeatable security commands",
+      "beforeSha256": "fb5d666735a517a44bf820f24700e71a8f15db6d8e0c3490c266b8408c54d27c",
+      "afterSha256": "0aee6cf13a1f31ed58be1759e71e190a51ccf49819b1e92fbabcdefefc70b552",
+      "beforeBytes": 3716,
+      "afterBytes": 3899,
+      "changedLines": [
+        {
+          "beforeLine": 30,
+          "beforeCount": 1,
+          "afterLine": 30,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 38,
+          "beforeCount": 0,
+          "afterLine": 39,
+          "afterCount": 2
+        },
+        {
+          "beforeLine": 60,
+          "beforeCount": 1,
+          "afterLine": 62,
+          "afterCount": 3
+        },
+        {
+          "beforeLine": 63,
+          "beforeCount": 3,
+          "afterLine": 67,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "packages/shared/src/security.ts",
+      "status": "added",
+      "purpose": "Shared JSON-LD serializer and local redirect validation",
+      "beforeSha256": null,
+      "afterSha256": "3ee7570e3b2bacdefd8d8593e7bf12ecff6e699769728ecaf7d542950811bf4c",
+      "beforeBytes": 0,
+      "afterBytes": 747,
+      "firstLine": 1
+    },
+    {
+      "file": "scripts/admin.ts",
+      "status": "modified",
+      "purpose": "Session revocation on privilege change, bounded scanning and isolated QA runner storage/cleanup",
+      "beforeSha256": "1d1d9187d94b334a04d96f111324b907291a2b9017b384466a9d5d97f002fb83",
+      "afterSha256": "f398aba39dcf4124305e21763d3fed89c792e7a91e7fe7a2d66c3ba863f0ba32",
+      "beforeBytes": 2945,
+      "afterBytes": 3012,
+      "changedLines": [
+        {
+          "beforeLine": 27,
+          "beforeCount": 0,
+          "afterLine": 28,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "scripts/redesign-preview.mjs",
+      "status": "modified",
+      "purpose": "Session revocation on privilege change, bounded scanning and isolated QA runner storage/cleanup",
+      "beforeSha256": "914a677216efe7b3aa4d581e060119cac287c0c2bbf9cac19e2acba3b8161477",
+      "afterSha256": "ecf8010b104b65fb72ee02c3ab75d808063b4f36d5906e216893f26bd327a933",
+      "beforeBytes": 4779,
+      "afterBytes": 4945,
+      "changedLines": [
+        {
+          "beforeLine": 5,
+          "beforeCount": 0,
+          "afterLine": 6,
+          "afterCount": 1
+        },
+        {
+          "beforeLine": 18,
+          "beforeCount": 1,
+          "afterLine": 19,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "scripts/security-scan.mjs",
+      "status": "added",
+      "purpose": "Session revocation on privilege change, bounded scanning and isolated QA runner storage/cleanup",
+      "beforeSha256": null,
+      "afterSha256": "2bd0a275eedf70a55916e2e1df28011cee19618da76c5b5647d7f42be9a45455",
+      "beforeBytes": 0,
+      "afterBytes": 4028,
+      "firstLine": 1
+    },
+    {
+      "file": "scripts/test-integration.mjs",
+      "status": "modified",
+      "purpose": "Session revocation on privilege change, bounded scanning and isolated QA runner storage/cleanup",
+      "beforeSha256": "1cdc1a48afaa55721d91566fa0dda4df682d902ec4c57681e98deafa97835386",
+      "afterSha256": "4ba471c2517d0fc60e2bc7af4fe92a4b88eb5e3785f03e2a3168a96e562f693b",
+      "beforeBytes": 2906,
+      "afterBytes": 3119,
+      "changedLines": [
+        {
+          "beforeLine": 18,
+          "beforeCount": 0,
+          "afterLine": 19,
+          "afterCount": 4
+        },
+        {
+          "beforeLine": 84,
+          "beforeCount": 0,
+          "afterLine": 89,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/admin-login.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "d0f5d684ffdfb2dc5772e2038ca0f99fdf6339dbd589527a944ca7755f62b802",
+      "afterSha256": "16e35ae9098a93f5fc1262ff50c3d9eae48cb5edbce0fa2a489317104f16cfb9",
+      "beforeBytes": 3220,
+      "afterBytes": 3292,
+      "changedLines": [
+        {
+          "beforeLine": 25,
+          "beforeCount": 2,
+          "afterLine": 25,
+          "afterCount": 2
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/font-media.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "6f384fee52688c644ff617de8fe449e44875a772146552e8a573541c484e4d3d",
+      "afterSha256": "289ab518309e184bb299eff9541ba1361397d60efad2e52ee1e4b6af0c169c61",
+      "beforeBytes": 2740,
+      "afterBytes": 3121,
+      "changedLines": [
+        {
+          "beforeLine": 28,
+          "beforeCount": 3,
+          "afterLine": 28,
+          "afterCount": 6
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/modern-ui.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "923995a4fb653b1c0bedb0e46128a9d727bc99c837179231bf2e8c48859715ba",
+      "afterSha256": "316c0191cc1e539725b91e51b133d728df0b691b8c87c1d24dd81c1b3a3664cf",
+      "beforeBytes": 12172,
+      "afterBytes": 12202,
+      "changedLines": [
+        {
+          "beforeLine": 148,
+          "beforeCount": 1,
+          "afterLine": 148,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/redesign.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "273848839f0d2fc102d14fbd11bd20db37f6fbe8c6b89cc9c2cbf2f57d7c8c2a",
+      "afterSha256": "2f17dd36c9befe29ff8e4b1899973f5fbdd03012e06b4391b356242fe547af36",
+      "beforeBytes": 6473,
+      "afterBytes": 6598,
+      "changedLines": [
+        {
+          "beforeLine": 102,
+          "beforeCount": 1,
+          "afterLine": 102,
+          "afterCount": 5
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/security.spec.ts",
+      "status": "added",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": null,
+      "afterSha256": "2d474e2f37a5501f14e2dfe7c7a08080a92c6870186f5945e9e4977210415e1e",
+      "beforeBytes": 0,
+      "afterBytes": 6745,
+      "firstLine": 1
+    },
+    {
+      "file": "tests/e2e/shop.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "df145c9304943ee1b2a1a13209ff816669170605d956285ba07057416e4b50c9",
+      "afterSha256": "3b6c2d8c3b8960bac46bd3d0d61315b404d07406cc04b5cd6a80f917b3fa0250",
+      "beforeBytes": 9813,
+      "afterBytes": 9870,
+      "changedLines": [
+        {
+          "beforeLine": 33,
+          "beforeCount": 3,
+          "afterLine": 33,
+          "afterCount": 4
+        }
+      ]
+    },
+    {
+      "file": "tests/e2e/shopping-continuity.spec.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "62d9a1648eda3be020914854886dd688f3bb25597af9b6d2be24b6022e7346b9",
+      "afterSha256": "34873b5a635362934b126277c836dea7fb33cb67827b93b18e07a91c62d97551",
+      "beforeBytes": 6646,
+      "afterBytes": 6703,
+      "changedLines": [
+        {
+          "beforeLine": 25,
+          "beforeCount": 3,
+          "afterLine": 25,
+          "afterCount": 4
+        }
+      ]
+    },
+    {
+      "file": "tests/integration.test.ts",
+      "status": "modified",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": "a2a10c7a9d26509010eecd2c36850d55db0440faefb46ef423717bf997f62238",
+      "afterSha256": "f15b34d489f4958f95e93e31c06c3a1b46eab2b588730288cf55e2c9ee5a464c",
+      "beforeBytes": 28248,
+      "afterBytes": 28462,
+      "changedLines": [
+        {
+          "beforeLine": 494,
+          "beforeCount": 1,
+          "afterLine": 494,
+          "afterCount": 3
+        },
+        {
+          "beforeLine": 808,
+          "beforeCount": 1,
+          "afterLine": 810,
+          "afterCount": 1
+        }
+      ]
+    },
+    {
+      "file": "tests/security.integration.test.ts",
+      "status": "added",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": null,
+      "afterSha256": "9e036fa2b17f9add3922738f30f316b997708fe99a046a1624adbcced59ef1ce",
+      "beforeBytes": 0,
+      "afterBytes": 12917,
+      "firstLine": 1
+    },
+    {
+      "file": "tests/security.test.ts",
+      "status": "added",
+      "purpose": "Security regression coverage, QA fixtures, session revocation assertions or accessible selectors for streamed HTML",
+      "beforeSha256": null,
+      "afterSha256": "1fa40fd2cd85bd0f7e506c47ba2bc8719b8cd0f1c096da343193d018c891f140",
+      "beforeBytes": 0,
+      "afterBytes": 5609,
+      "firstLine": 1
+    }
+  ]
+}

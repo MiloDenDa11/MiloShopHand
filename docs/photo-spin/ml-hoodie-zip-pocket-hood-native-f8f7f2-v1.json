@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-zip-pocket-hood",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T06:06:52.072Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f9a66756-d2cd-43b1-8942-13017368219d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Pocket Hood Hoodie, Trắng #f8f7f2, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton nylon.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1701158,
+      "sha256": "3773d0a31f77fdf4174302ed84a47a901e39b95ad1a7fe2286763026fc601140",
+      "frames": [
+        {
+          "x": 65,
+          "y": 19,
+          "width": 386,
+          "height": 417
+        },
+        {
+          "x": 77,
+          "y": 19,
+          "width": 356,
+          "height": 421
+        },
+        {
+          "x": 97,
+          "y": 18,
+          "width": 303,
+          "height": 426
+        },
+        {
+          "x": 137,
+          "y": 3,
+          "width": 244,
+          "height": 399
+        },
+        {
+          "x": 145,
+          "y": 3,
+          "width": 208,
+          "height": 399
+        },
+        {
+          "x": 127,
+          "y": 3,
+          "width": 215,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0eaaf5da-abd0-475f-87ca-da5f879d31ae.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Pocket Hood Hoodie, Trắng #f8f7f2, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton nylon.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1795184,
+      "sha256": "6a0c2e5179e00dce93f647bf16b10d32d50ef62c3b2be24b5d0b914c23e5a49f",
+      "frames": [
+        {
+          "x": 137,
+          "y": 14,
+          "width": 231,
+          "height": 466
+        },
+        {
+          "x": 117,
+          "y": 14,
+          "width": 253,
+          "height": 467
+        },
+        {
+          "x": 97,
+          "y": 13,
+          "width": 276,
+          "height": 469
+        },
+        {
+          "x": 99,
+          "y": 14,
+          "width": 313,
+          "height": 471
+        },
+        {
+          "x": 69,
+          "y": 13,
+          "width": 363,
+          "height": 473
+        },
+        {
+          "x": 38,
+          "y": 12,
+          "width": 418,
+          "height": 475
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-faad03b1-97fe-4b56-8051-e97bbc8eceeb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Pocket Hood Hoodie, Trắng #f8f7f2, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton nylon.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1730077,
+      "sha256": "d9add49771989960079660646a73ca3a938d4c036d365bd1482857adc81b534e",
+      "frames": [
+        {
+          "x": 57,
+          "y": 16,
+          "width": 405,
+          "height": 447
+        },
+        {
+          "x": 63,
+          "y": 18,
+          "width": 388,
+          "height": 445
+        },
+        {
+          "x": 76,
+          "y": 18,
+          "width": 348,
+          "height": 446
+        },
+        {
+          "x": 118,
+          "y": 16,
+          "width": 303,
+          "height": 450
+        },
+        {
+          "x": 125,
+          "y": 15,
+          "width": 257,
+          "height": 452
+        },
+        {
+          "x": 121,
+          "y": 15,
+          "width": 249,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-pocket-hood/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0dc57411-efaf-47a1-9e2b-99e1de1470be.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Pocket Hood Hoodie, Trắng #f8f7f2, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Trắng #f8f7f2 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton nylon.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1659463,
+      "sha256": "f91b4efb09f771b7d9949eafa57794388824946bfc8f487026aeb54718c167f4",
+      "frames": [
+        {
+          "x": 169,
+          "y": 15,
+          "width": 199,
+          "height": 466
+        },
+        {
+          "x": 156,
+          "y": 16,
+          "width": 222,
+          "height": 464
+        },
+        {
+          "x": 141,
+          "y": 17,
+          "width": 241,
+          "height": 463
+        },
+        {
+          "x": 136,
+          "y": 14,
+          "width": 277,
+          "height": 464
+        },
+        {
+          "x": 104,
+          "y": 14,
+          "width": 315,
+          "height": 464
+        },
+        {
+          "x": 66,
+          "y": 14,
+          "width": 377,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 views and contact sheet: Trắng #f8f7f2 fabric has natural even shading, complete garment edges, intact single chest ML and clean source back branding. Pockets, closures and contrast trim remain coherent around the full front/left/back/right sequence; no ghost fragments or runtime tint. ",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

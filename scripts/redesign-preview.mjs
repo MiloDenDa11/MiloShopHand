@@ -3,6 +3,7 @@ import 'dotenv/config';
 import {spawn, spawnSync} from 'node:child_process';
 import {resolve} from 'node:path';
 import pg from 'pg';
+import {randomBytes} from 'node:crypto';
 import {prepareE2e} from './prepare-e2e.mjs';
 
 const root=process.cwd();
@@ -15,7 +16,7 @@ database.pathname='/milo_redesign_test';
 const redisUrl=new URL(process.env.REDIS_URL||'redis://localhost:6379');
 redisUrl.pathname='/2';
 // Separate PostgreSQL database and Redis logical database from the store and integration tests.
-const env={...process.env,DATABASE_URL:database.toString(),REDIS_URL:redisUrl.toString(),APP_URL:'http://localhost:3100',API_PORT:'4100',API_INTERNAL_URL:'http://localhost:4100',PLAYWRIGHT_BASE_URL:'http://localhost:3100',TEST_API_URL:'http://localhost:4100/api/v1',NEXT_BUILD_DIR:production?'.next-redesign-production':'.next-redesign',PAYMENT_PROVIDER:'mock',SHIPPING_PROVIDER:'mock',EMAIL_PROVIDER:'file',SKIP_BREACH_CHECK:'true',NODE_ENV:'development',SESSION_SECRET:process.env.SESSION_SECRET||'redesign-local-only-session-secret-at-least-32-characters',DEV_WEBHOOK_SECRET:process.env.DEV_WEBHOOK_SECRET||'redesign-development-only'};
+const env={...process.env,DATABASE_URL:database.toString(),REDIS_URL:redisUrl.toString(),APP_URL:'http://localhost:3100',API_PORT:'4100',API_HOST:'127.0.0.1',TRUST_PROXY:'',API_INTERNAL_URL:'http://localhost:4100',PLAYWRIGHT_BASE_URL:'http://localhost:3100',TEST_API_URL:'http://localhost:4100/api/v1',NEXT_BUILD_DIR:production?'.next-redesign-production':'.next-redesign',PAYMENT_PROVIDER:'mock',SHIPPING_PROVIDER:'mock',EMAIL_PROVIDER:'file',SKIP_BREACH_CHECK:'true',NODE_ENV:'development',UPLOAD_DIR:'.local/test-storage/redesign/uploads',RETURN_UPLOAD_DIR:'.local/test-storage/redesign/return-images',SESSION_SECRET:process.env.SESSION_SECRET||randomBytes(32).toString('hex'),DEV_WEBHOOK_SECRET:process.env.DEV_WEBHOOK_SECRET||randomBytes(32).toString('hex')};
 const webEnv=production?{...env,NODE_ENV:'production'}:env;
 const children=[];
 let stopping=false;

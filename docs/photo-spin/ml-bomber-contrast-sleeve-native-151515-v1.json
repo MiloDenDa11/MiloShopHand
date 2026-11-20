@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-contrast-sleeve",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T08:06:16.567Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ab855656-9022-469d-ad9f-cb4ce7c7b79f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Contrast Sleeve Bomber, Đen #151515, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Wool cotton.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1837269,
+      "sha256": "a7cc99e8b7dcf36d95e249e09dc998887b038518230a8693b94365fb8f1709e4",
+      "frames": [
+        {
+          "x": 49,
+          "y": 28,
+          "width": 419,
+          "height": 426
+        },
+        {
+          "x": 56,
+          "y": 22,
+          "width": 393,
+          "height": 441
+        },
+        {
+          "x": 63,
+          "y": 22,
+          "width": 366,
+          "height": 449
+        },
+        {
+          "x": 79,
+          "y": 14,
+          "width": 330,
+          "height": 463
+        },
+        {
+          "x": 105,
+          "y": 15,
+          "width": 283,
+          "height": 464
+        },
+        {
+          "x": 132,
+          "y": 14,
+          "width": 233,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f9783c77-4b2f-4c9d-9dc0-6e22b7a40eb7.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Contrast Sleeve Bomber, Đen #151515, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Wool cotton.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1760091,
+      "sha256": "5d05b1db8a84173aa180dbc17fbc37fc0e98aadd1bf78ce4deef2f61a4cc0265",
+      "frames": [
+        {
+          "x": 185,
+          "y": 41,
+          "width": 167,
+          "height": 413
+        },
+        {
+          "x": 146,
+          "y": 43,
+          "width": 189,
+          "height": 421
+        },
+        {
+          "x": 113,
+          "y": 43,
+          "width": 227,
+          "height": 421
+        },
+        {
+          "x": 131,
+          "y": 42,
+          "width": 285,
+          "height": 426
+        },
+        {
+          "x": 88,
+          "y": 42,
+          "width": 312,
+          "height": 427
+        },
+        {
+          "x": 36,
+          "y": 42,
+          "width": 369,
+          "height": 427
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-43c4717e-2188-4c9e-a88e-5448393019d4.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Contrast Sleeve Bomber, Đen #151515, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Wool cotton.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1816840,
+      "sha256": "3336506e9aed581a9c828c18e61499593f62857863ec458a8d1d0eaaa7861ff5",
+      "frames": [
+        {
+          "x": 87,
+          "y": 39,
+          "width": 374,
+          "height": 416
+        },
+        {
+          "x": 78,
+          "y": 44,
+          "width": 343,
+          "height": 416
+        },
+        {
+          "x": 83,
+          "y": 21,
+          "width": 294,
+          "height": 447
+        },
+        {
+          "x": 148,
+          "y": 12,
+          "width": 254,
+          "height": 462
+        },
+        {
+          "x": 143,
+          "y": 12,
+          "width": 228,
+          "height": 463
+        },
+        {
+          "x": 135,
+          "y": 14,
+          "width": 204,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-contrast-sleeve/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-bad4b880-3156-4a55-ab24-58f9c78ecc09.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Contrast Sleeve Bomber, Đen #151515, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Đen #151515 main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Wool cotton.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1853557,
+      "sha256": "4a7b44bd4c0d010be9f4d818c2323ca9ba8b10ba9258e11dd24c092f032baef3",
+      "frames": [
+        {
+          "x": 162,
+          "y": 23,
+          "width": 180,
+          "height": 467
+        },
+        {
+          "x": 136,
+          "y": 23,
+          "width": 210,
+          "height": 467
+        },
+        {
+          "x": 105,
+          "y": 23,
+          "width": 257,
+          "height": 467
+        },
+        {
+          "x": 83,
+          "y": 20,
+          "width": 319,
+          "height": 468
+        },
+        {
+          "x": 49,
+          "y": 19,
+          "width": 375,
+          "height": 467
+        },
+        {
+          "x": 30,
+          "y": 21,
+          "width": 425,
+          "height": 460
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected every one of the 24 views in the contact sheet. Main body colour and contrasting sleeves or ribbing remain on the same panels around the sequence; the zip or snap front, pocket shape and fabric sheen stay intact. Chest and back artwork appear only on their intended surfaces, without sleeve ghosts, blotchy tint or detached white fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-pocket-pilot",
+  "colorKey": "original",
+  "colorHex": "#363d3c",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:08.216Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-44426e81-939a-4cd3-a39d-8cc9b6cba06a.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Pocket Pilot Bomber, charcoal grey-green nylon canvas #363d3c, beige ribbed bomber collar/cuffs/waistband #cfbc98, full central metal zipper, TWO lower cargo flap pockets each with TWO beige straps and buckles, utility zip flap pockets on upper sleeves, relaxed long sleeves. Beige small ML left chest, beige MiloShopHand script upper back. Retain all pocket/strap/zipper locations and correct rib trim EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames0-5 in row-major order: 0 EXACT FRONT,15,30,45,60,75degrees. Slowly turn from the front towards the wearer's left side. Chest logo progressively foreshortens, back script is not visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1622832,
+      "sha256": "2490895b5a6a03ae3902e2e9b786c9c7750e01e481dedc3a8b2fd4adc96ee7a9",
+      "frames": [
+        {
+          "x": 46,
+          "y": 30,
+          "width": 425,
+          "height": 437
+        },
+        {
+          "x": 60,
+          "y": 23,
+          "width": 400,
+          "height": 454
+        },
+        {
+          "x": 83,
+          "y": 21,
+          "width": 349,
+          "height": 460
+        },
+        {
+          "x": 124,
+          "y": 18,
+          "width": 285,
+          "height": 469
+        },
+        {
+          "x": 156,
+          "y": 15,
+          "width": 219,
+          "height": 475
+        },
+        {
+          "x": 167,
+          "y": 14,
+          "width": 187,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-5d20428b-7ec9-4c06-a0f3-3182b0fdc905.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Pocket Pilot Bomber, charcoal grey-green nylon canvas #363d3c, beige ribbed bomber collar/cuffs/waistband #cfbc98, full central metal zipper, TWO lower cargo flap pockets each with TWO beige straps and buckles, utility zip flap pockets on upper sleeves, relaxed long sleeves. Beige small ML left chest, beige MiloShopHand script upper back. Retain all pocket/strap/zipper locations and correct rib trim EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames6-11 row-major: 90 EXACT SIDE,105,120,135,150,165degrees. Continue in the SAME direction from side towards nearly back. Chest ML hidden; upper-back script progressively becomes visible. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1768928,
+      "sha256": "4226c8fe292b38957bbe85b4ad0df48a143600021529a32920fb525a232074a1",
+      "frames": [
+        {
+          "x": 176,
+          "y": 29,
+          "width": 171,
+          "height": 467
+        },
+        {
+          "x": 160,
+          "y": 28,
+          "width": 193,
+          "height": 468
+        },
+        {
+          "x": 147,
+          "y": 28,
+          "width": 225,
+          "height": 468
+        },
+        {
+          "x": 127,
+          "y": 28,
+          "width": 276,
+          "height": 465
+        },
+        {
+          "x": 96,
+          "y": 28,
+          "width": 325,
+          "height": 461
+        },
+        {
+          "x": 61,
+          "y": 28,
+          "width": 399,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e22533ff-eefa-4a99-8395-36048687de37.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Pocket Pilot Bomber, charcoal grey-green nylon canvas #363d3c, beige ribbed bomber collar/cuffs/waistband #cfbc98, full central metal zipper, TWO lower cargo flap pockets each with TWO beige straps and buckles, utility zip flap pockets on upper sleeves, relaxed long sleeves. Beige small ML left chest, beige MiloShopHand script upper back. Retain all pocket/strap/zipper locations and correct rib trim EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames12-17 row-major: 180 EXACT BACK,195,210,225,240,255degrees. Start exact back, continue towards the opposite side. Show back construction and back script naturally foreshortening, never show chest ML prematurely. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1578885,
+      "sha256": "58d4f607befa89937b52e005fcc3a37e420c52977de16d5bf7fa798c41c75c55",
+      "frames": [
+        {
+          "x": 45,
+          "y": 27,
+          "width": 425,
+          "height": 449
+        },
+        {
+          "x": 60,
+          "y": 26,
+          "width": 387,
+          "height": 455
+        },
+        {
+          "x": 93,
+          "y": 25,
+          "width": 315,
+          "height": 463
+        },
+        {
+          "x": 127,
+          "y": 21,
+          "width": 255,
+          "height": 470
+        },
+        {
+          "x": 145,
+          "y": 21,
+          "width": 217,
+          "height": 471
+        },
+        {
+          "x": 156,
+          "y": 20,
+          "width": 204,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-pocket-pilot/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-1cff8c6c-02e7-4f03-b56e-211337ed9de3.png",
+      "prompt": "Use case: product-mockup. Generate SIX distinct consecutive turntable viewpoints of the exact SAME garment in the reference. Reference is the design identity sheet, LEFT front, RIGHT back. Pocket Pilot Bomber, charcoal grey-green nylon canvas #363d3c, beige ribbed bomber collar/cuffs/waistband #cfbc98, full central metal zipper, TWO lower cargo flap pockets each with TWO beige straps and buckles, utility zip flap pockets on upper sleeves, relaxed long sleeves. Beige small ML left chest, beige MiloShopHand script upper back. Retain all pocket/strap/zipper locations and correct rib trim EXACTLY as reference. Create exactly THREE COLUMNS by TWO ROWS, 6 equal-sized cells, native 1536x1024 or larger (512px per cell). Frames18-23 row-major: 270 EXACT OPPOSITE SIDE,285,300,315,330,345degrees. Continue towards nearly front. Back script disappears, chest ML gradually becomes visible, last frame nearly front but distinct from zero. Rotate the physical garment about the UPRIGHT VERTICAL Y axis only. Camera fixed and level; no pitch, roll, leaning or flat-picture tilting. Same entire garment centered and fully visible in every cell, same scale, soft cloth folds, sleeve pose and lighting. Thin sides must really appear narrow. Logo perspective must be natural, never mirror text. Uniform pale warm ivory studio background, soft even editorial light. Empty garment, no body, mannequin, hanger, stand, labels, angle numbers, borders, gutters, grid lines or watermark. Keep 5% margin in each cell. Match the reference's fabric, colour, cut, seams, drape, all pockets and closures. Do not simplify or redesign the garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1576732,
+      "sha256": "12d426df73761a12d31089705ea2d385f47a34c71095d20fcfc95911e071bdb6",
+      "frames": [
+        {
+          "x": 162,
+          "y": 25,
+          "width": 176,
+          "height": 468
+        },
+        {
+          "x": 148,
+          "y": 25,
+          "width": 208,
+          "height": 466
+        },
+        {
+          "x": 129,
+          "y": 26,
+          "width": 254,
+          "height": 462
+        },
+        {
+          "x": 99,
+          "y": 25,
+          "width": 326,
+          "height": 457
+        },
+        {
+          "x": 71,
+          "y": 26,
+          "width": 371,
+          "height": 454
+        },
+        {
+          "x": 49,
+          "y": 27,
+          "width": 412,
+          "height": 450
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

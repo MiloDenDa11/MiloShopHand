@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-track-stripe",
+  "colorKey": "original",
+  "colorHex": "#424d49",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:46:32.987Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-track-stripe/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-503409fd-bfcf-4f90-9da8-5a31c7f540b2.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Track Stripe Jacket, base colour #424d49. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"sleeve-stripe\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Tricot. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1801967,
+      "sha256": "39c6fa0127f61afb578031e3ddf989b7b96640f27f90e7cad516b9268b3b0d50",
+      "frames": [
+        {
+          "x": 47,
+          "y": 22,
+          "width": 420,
+          "height": 452
+        },
+        {
+          "x": 61,
+          "y": 21,
+          "width": 395,
+          "height": 461
+        },
+        {
+          "x": 82,
+          "y": 20,
+          "width": 345,
+          "height": 466
+        },
+        {
+          "x": 122,
+          "y": 16,
+          "width": 280,
+          "height": 473
+        },
+        {
+          "x": 152,
+          "y": 16,
+          "width": 208,
+          "height": 474
+        },
+        {
+          "x": 173,
+          "y": 15,
+          "width": 175,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-track-stripe/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-72d3a31e-3021-4806-838c-a7ebfdd44960.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Track Stripe Jacket, base colour #424d49. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"sleeve-stripe\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Tricot. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1692852,
+      "sha256": "b486fd7c3e384f188c5d4c26167fc0dd1586f564cf37bad90835fd286b1923b4",
+      "frames": [
+        {
+          "x": 179,
+          "y": 15,
+          "width": 161,
+          "height": 482
+        },
+        {
+          "x": 164,
+          "y": 14,
+          "width": 184,
+          "height": 480
+        },
+        {
+          "x": 152,
+          "y": 14,
+          "width": 211,
+          "height": 479
+        },
+        {
+          "x": 127,
+          "y": 14,
+          "width": 262,
+          "height": 480
+        },
+        {
+          "x": 99,
+          "y": 14,
+          "width": 311,
+          "height": 478
+        },
+        {
+          "x": 79,
+          "y": 14,
+          "width": 358,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-track-stripe/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-998e8d27-0a19-4fde-a6d9-4247fe8a5759.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Track Stripe Jacket, base colour #424d49. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"sleeve-stripe\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Tricot. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1728058,
+      "sha256": "6ea87eea697fc75789a63ad3c29b36b5cb0d34848654d54357c78ee9208cb61b",
+      "frames": [
+        {
+          "x": 46,
+          "y": 26,
+          "width": 421,
+          "height": 448
+        },
+        {
+          "x": 72,
+          "y": 26,
+          "width": 374,
+          "height": 455
+        },
+        {
+          "x": 98,
+          "y": 25,
+          "width": 315,
+          "height": 460
+        },
+        {
+          "x": 132,
+          "y": 24,
+          "width": 251,
+          "height": 466
+        },
+        {
+          "x": 154,
+          "y": 23,
+          "width": 193,
+          "height": 468
+        },
+        {
+          "x": 152,
+          "y": 22,
+          "width": 213,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-track-stripe/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0454e621-9172-4e3f-bf15-3917bdadfec1.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Track Stripe Jacket, base colour #424d49. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"rib\",\"panel\":\"sleeve-stripe\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":true,\"zipper\":true,\"pockets\":\"welt\"}, Tricot. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1602059,
+      "sha256": "d7df4a7ad8996fd59bf26b67cbaa15d6a3d0781620f5f0dcfd76e59338c97f85",
+      "frames": [
+        {
+          "x": 175,
+          "y": 20,
+          "width": 171,
+          "height": 472
+        },
+        {
+          "x": 154,
+          "y": 20,
+          "width": 195,
+          "height": 470
+        },
+        {
+          "x": 123,
+          "y": 20,
+          "width": 268,
+          "height": 468
+        },
+        {
+          "x": 101,
+          "y": 19,
+          "width": 320,
+          "height": 469
+        },
+        {
+          "x": 76,
+          "y": 19,
+          "width": 369,
+          "height": 467
+        },
+        {
+          "x": 50,
+          "y": 19,
+          "width": 414,
+          "height": 465
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

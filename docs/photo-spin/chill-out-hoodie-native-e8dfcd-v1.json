@@ -1,0 +1,222 @@
+{
+  "slug": "chill-out-hoodie",
+  "colorKey": "native-e8dfcd-v1",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T08:02:56.477Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/native-e8dfcd-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-0534963c-05be-44de-9d9e-143cc5e0f507.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Chill Out Hoodie, Kem #e8dfcd, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1838321,
+      "sha256": "31ef3f1889c4e2cb38fbf9ddc73c021ce3a767d0805c2aab886e1eef7163127b",
+      "frames": [
+        {
+          "x": 3,
+          "y": 23,
+          "width": 456,
+          "height": 461
+        },
+        {
+          "x": 71,
+          "y": 22,
+          "width": 371,
+          "height": 466
+        },
+        {
+          "x": 93,
+          "y": 20,
+          "width": 416,
+          "height": 473
+        },
+        {
+          "x": 3,
+          "y": 14,
+          "width": 371,
+          "height": 484
+        },
+        {
+          "x": 147,
+          "y": 12,
+          "width": 205,
+          "height": 486
+        },
+        {
+          "x": 160,
+          "y": 11,
+          "width": 349,
+          "height": 486
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/native-e8dfcd-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7819debb-d7a5-4b80-93c0-380315eae888.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Chill Out Hoodie, Kem #e8dfcd, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1794481,
+      "sha256": "77597771b25d15856e11c8fc7958902c6e16ae2edbf6b74b16f87ed0737d29de",
+      "frames": [
+        {
+          "x": 156,
+          "y": 18,
+          "width": 206,
+          "height": 470
+        },
+        {
+          "x": 140,
+          "y": 17,
+          "width": 213,
+          "height": 469
+        },
+        {
+          "x": 129,
+          "y": 16,
+          "width": 236,
+          "height": 469
+        },
+        {
+          "x": 114,
+          "y": 14,
+          "width": 285,
+          "height": 472
+        },
+        {
+          "x": 83,
+          "y": 14,
+          "width": 333,
+          "height": 467
+        },
+        {
+          "x": 56,
+          "y": 13,
+          "width": 386,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/native-e8dfcd-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-75acf764-838c-4797-a46a-ea37dd3127b9.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Chill Out Hoodie, Kem #e8dfcd, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1847474,
+      "sha256": "3782904a000d506ba97e8faefdb84d07dbcdac4e32b5baceb13cd31f070c1211",
+      "frames": [
+        {
+          "x": 51,
+          "y": 17,
+          "width": 420,
+          "height": 458
+        },
+        {
+          "x": 72,
+          "y": 17,
+          "width": 380,
+          "height": 461
+        },
+        {
+          "x": 104,
+          "y": 17,
+          "width": 301,
+          "height": 467
+        },
+        {
+          "x": 155,
+          "y": 16,
+          "width": 236,
+          "height": 470
+        },
+        {
+          "x": 154,
+          "y": 16,
+          "width": 216,
+          "height": 473
+        },
+        {
+          "x": 159,
+          "y": 16,
+          "width": 205,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/chill-out-hoodie/native-e8dfcd-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-759773f9-4017-4bc3-9830-d097c0c557ef.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Chill Out Hoodie, Kem #e8dfcd, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1831234,
+      "sha256": "c44d6d3b7a636a6e8cea32aa82f80fc716282af762cdc16bf672c0a72eaf7c55",
+      "frames": [
+        {
+          "x": 168,
+          "y": 17,
+          "width": 181,
+          "height": 472
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 215,
+          "height": 471
+        },
+        {
+          "x": 125,
+          "y": 20,
+          "width": 258,
+          "height": 465
+        },
+        {
+          "x": 117,
+          "y": 18,
+          "width": 315,
+          "height": 466
+        },
+        {
+          "x": 83,
+          "y": 15,
+          "width": 361,
+          "height": 467
+        },
+        {
+          "x": 52,
+          "y": 15,
+          "width": 403,
+          "height": 467
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all 24 views in the JPEG contact sheet for this exact product and colour. Hood, pocket, cuffs and soft fleece shading remain coherent. The selected fabric colour is even across panels with natural shadows, isolated chest/back branding, and no duplicate sleeve logo fragments, blotchy tint or colour spill.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

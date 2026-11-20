@@ -25,9 +25,12 @@ test("editorial Vietnamese uses the local italic face for all accented glyphs", 
   }
 });
 
-test("catalog media renders instead of being silently filtered; dimensions stay stable", async ({ page }) => {
-  await page.goto("/san-pham");
-  const card = page.locator(".product-card").first();
+test("catalog media renders instead of being silently filtered; dimensions stay stable", async ({ page, request }) => {
+  // A repeated QA run also contains inventory fixtures and pending colour media.
+  // Verify the approved seed product rather than whichever fixture was newest.
+  const product = await (await request.get('/api/v1/products/milo-signature-tee')).json();
+  await page.goto('/san-pham?' + new URLSearchParams({ q: product.name }));
+  const card = page.locator('#main .product-card').filter({ has: page.locator('a.product-name[href*="/milo-signature-tee"]') });
   await expect(card).toBeVisible();
   const frame = card.locator(".product-photo-frame").first();
   const image = frame.locator("img");

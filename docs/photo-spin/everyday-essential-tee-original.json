@@ -1,0 +1,222 @@
+{
+  "slug": "everyday-essential-tee",
+  "colorKey": "original",
+  "colorHex": "#242426",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:14:22.180Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-dee887c4-1c69-4d46-ab43-a6f5338c4118.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Everyday Essential Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Washed-black plain crew-neck T-shirt, short sleeves, small light chest ML, light floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1565450,
+      "sha256": "cf940de1eddba9ae7668700ae6782cf823837cf3df12f6e81861af6c7f9b34df",
+      "frames": [
+        {
+          "x": 47,
+          "y": 23,
+          "width": 426,
+          "height": 469
+        },
+        {
+          "x": 58,
+          "y": 20,
+          "width": 400,
+          "height": 472
+        },
+        {
+          "x": 90,
+          "y": 17,
+          "width": 325,
+          "height": 475
+        },
+        {
+          "x": 135,
+          "y": 15,
+          "width": 260,
+          "height": 477
+        },
+        {
+          "x": 147,
+          "y": 14,
+          "width": 226,
+          "height": 478
+        },
+        {
+          "x": 146,
+          "y": 13,
+          "width": 214,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b35bbb5b-b05b-4ba2-a2c8-21a16420340c.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Everyday Essential Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Washed-black plain crew-neck T-shirt, short sleeves, small light chest ML, light floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1665860,
+      "sha256": "2252caab3b5d4bd0753cd171e16b8ae0762cb8229892502ccc6cdb9cf49bbcdd",
+      "frames": [
+        {
+          "x": 161,
+          "y": 22,
+          "width": 179,
+          "height": 471
+        },
+        {
+          "x": 155,
+          "y": 21,
+          "width": 193,
+          "height": 472
+        },
+        {
+          "x": 151,
+          "y": 21,
+          "width": 214,
+          "height": 472
+        },
+        {
+          "x": 142,
+          "y": 20,
+          "width": 236,
+          "height": 471
+        },
+        {
+          "x": 109,
+          "y": 20,
+          "width": 302,
+          "height": 471
+        },
+        {
+          "x": 71,
+          "y": 20,
+          "width": 371,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-a3c617b6-d600-4212-98fb-77a5518c9db5.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Everyday Essential Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Washed-black plain crew-neck T-shirt, short sleeves, small light chest ML, light floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1684936,
+      "sha256": "d110be9cbf852ffb2d8a0f063122791fae904e36dd7ab36e115d183c5a3548ce",
+      "frames": [
+        {
+          "x": 44,
+          "y": 23,
+          "width": 425,
+          "height": 467
+        },
+        {
+          "x": 68,
+          "y": 19,
+          "width": 388,
+          "height": 471
+        },
+        {
+          "x": 101,
+          "y": 18,
+          "width": 316,
+          "height": 472
+        },
+        {
+          "x": 136,
+          "y": 18,
+          "width": 251,
+          "height": 473
+        },
+        {
+          "x": 156,
+          "y": 18,
+          "width": 217,
+          "height": 473
+        },
+        {
+          "x": 162,
+          "y": 18,
+          "width": 206,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4553ce0e-f1d3-4bab-9016-006ddc5cf8c6.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Everyday Essential Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Washed-black plain crew-neck T-shirt, short sleeves, small light chest ML, light floral M and MiloShopHand back art. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1604003,
+      "sha256": "afa9efd391d44919d287532be94b5d93f35fee41aff173d741ef2662d6ec3d49",
+      "frames": [
+        {
+          "x": 157,
+          "y": 15,
+          "width": 186,
+          "height": 478
+        },
+        {
+          "x": 139,
+          "y": 15,
+          "width": 224,
+          "height": 479
+        },
+        {
+          "x": 117,
+          "y": 16,
+          "width": 270,
+          "height": 478
+        },
+        {
+          "x": 89,
+          "y": 16,
+          "width": 333,
+          "height": 480
+        },
+        {
+          "x": 66,
+          "y": 17,
+          "width": 380,
+          "height": 479
+        },
+        {
+          "x": 48,
+          "y": 17,
+          "width": 428,
+          "height": 479
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

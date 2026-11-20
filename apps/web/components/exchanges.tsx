@@ -1,4 +1,5 @@
 "use client";
+import { Select } from "./ui/select";
 import { useEffect, useState } from "react";
 import { useResource } from "./store";
 import { api, send, useShop, money, ErrorBox } from "./client";
@@ -98,14 +99,14 @@ export function ExchangeOffer({
       >
         <label>
           SKU thay thế (cùng sản phẩm)
-          <select name="variant" required>
+          <Select name="variant" required>
             {data.map((i) => (
               <option key={i.id} value={i.variantId}>
                 {i.variant.product.name} / {i.variant.sku} / có thể bán{" "}
                 {i.onHand - i.reserved}
               </option>
             ))}
-          </select>
+          </Select>
         </label>
         <label>
           Phí giao hàng thay thế VND
@@ -171,12 +172,12 @@ export function AdminExchanges() {
               <input name="reason" minLength={5} required />
             </label>
             <div className="row">
-              <select name="action" aria-label="Thao tác đổi size">
+              <Select name="action" aria-label="Thao tác đổi size">
                 <option value="CREATE_SHIPMENT">Tạo vận đơn</option>
                 <option value="SHIP">Đã bàn giao, xuất kho</option>
                 <option value="DELIVER">Đã giao có chứng cứ</option>
                 <option value="CANCEL">Hủy chưa có vận đơn / thu tiền</option>
-              </select>
+              </Select>
               <button className="button secondary small-button">
                 Thực hiện
               </button>

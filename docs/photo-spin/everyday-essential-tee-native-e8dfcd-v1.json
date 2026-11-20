@@ -1,0 +1,222 @@
+{
+  "slug": "everyday-essential-tee",
+  "colorKey": "native-e8dfcd-v1",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:40:00.110Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-e8dfcd-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-566f70ca-c2de-4161-88dc-323b4b5c9c02.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Everyday Essential Tee, Kem #e8dfcd, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source. Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1739924,
+      "sha256": "b510e25ca019ecbb031216b5764e051e8f83591517ca04a3d333aec1f7f55b09",
+      "frames": [
+        {
+          "x": 47,
+          "y": 23,
+          "width": 425,
+          "height": 469
+        },
+        {
+          "x": 58,
+          "y": 21,
+          "width": 399,
+          "height": 471
+        },
+        {
+          "x": 90,
+          "y": 17,
+          "width": 322,
+          "height": 476
+        },
+        {
+          "x": 133,
+          "y": 15,
+          "width": 262,
+          "height": 477
+        },
+        {
+          "x": 148,
+          "y": 13,
+          "width": 225,
+          "height": 479
+        },
+        {
+          "x": 145,
+          "y": 13,
+          "width": 215,
+          "height": 479
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-e8dfcd-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6f205de3-1c5f-4e50-a904-faa3253f461a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Everyday Essential Tee, Kem #e8dfcd, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source. Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1641686,
+      "sha256": "333b9bf449020a0a67d73603c61bc14c0b285c0859e0866d080d47665a2a5d38",
+      "frames": [
+        {
+          "x": 159,
+          "y": 22,
+          "width": 183,
+          "height": 471
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 196,
+          "height": 471
+        },
+        {
+          "x": 151,
+          "y": 22,
+          "width": 213,
+          "height": 471
+        },
+        {
+          "x": 142,
+          "y": 20,
+          "width": 236,
+          "height": 471
+        },
+        {
+          "x": 108,
+          "y": 20,
+          "width": 303,
+          "height": 471
+        },
+        {
+          "x": 70,
+          "y": 20,
+          "width": 371,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-e8dfcd-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d5310ee0-340b-4b84-90e4-c572ce7d1dff.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Everyday Essential Tee, Kem #e8dfcd, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source. Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1702218,
+      "sha256": "0bd0ac91c3556fc33bfc1318030ccc835b6fb1eba7c47d0f596f97854d55455e",
+      "frames": [
+        {
+          "x": 44,
+          "y": 25,
+          "width": 425,
+          "height": 466
+        },
+        {
+          "x": 68,
+          "y": 22,
+          "width": 388,
+          "height": 470
+        },
+        {
+          "x": 101,
+          "y": 20,
+          "width": 316,
+          "height": 471
+        },
+        {
+          "x": 134,
+          "y": 18,
+          "width": 253,
+          "height": 471
+        },
+        {
+          "x": 156,
+          "y": 17,
+          "width": 216,
+          "height": 473
+        },
+        {
+          "x": 162,
+          "y": 18,
+          "width": 207,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/everyday-essential-tee/native-e8dfcd-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-dfd9cc22-2547-44ad-bb85-0414a25efd04.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Everyday Essential Tee, Kem #e8dfcd, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Kem #e8dfcd main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source. Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1538719,
+      "sha256": "9bff12ea41d303cf6d6854d3391960537f665e946c6c7ef29b66a96311433043",
+      "frames": [
+        {
+          "x": 157,
+          "y": 16,
+          "width": 186,
+          "height": 477
+        },
+        {
+          "x": 139,
+          "y": 17,
+          "width": 226,
+          "height": 476
+        },
+        {
+          "x": 117,
+          "y": 17,
+          "width": 272,
+          "height": 477
+        },
+        {
+          "x": 89,
+          "y": 16,
+          "width": 334,
+          "height": 479
+        },
+        {
+          "x": 66,
+          "y": 16,
+          "width": 382,
+          "height": 479
+        },
+        {
+          "x": 49,
+          "y": 16,
+          "width": 428,
+          "height": 478
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 views: cream/white dyed cotton and charcoal graphics remain clean and consistent, chest monogram intact, correct profile/back/front sequence, no clipping, ghost fragments or runtime tint.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

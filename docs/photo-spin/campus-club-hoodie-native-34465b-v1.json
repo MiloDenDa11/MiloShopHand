@@ -1,0 +1,222 @@
+{
+  "slug": "campus-club-hoodie",
+  "colorKey": "native-34465b-v1",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T07:59:16.742Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/native-34465b-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-841f1740-f419-4215-9ed3-f1495e81292d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Campus Club Hoodie, Xanh navy #34465b, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Xanh navy #34465b main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1784586,
+      "sha256": "8c6df41ef7a10200f955744c7b5adbd2f6da8cc94b7c91fc9a74ee7462f3c157",
+      "frames": [
+        {
+          "x": 80,
+          "y": 16,
+          "width": 387,
+          "height": 436
+        },
+        {
+          "x": 75,
+          "y": 16,
+          "width": 364,
+          "height": 440
+        },
+        {
+          "x": 84,
+          "y": 14,
+          "width": 323,
+          "height": 447
+        },
+        {
+          "x": 135,
+          "y": 11,
+          "width": 277,
+          "height": 463
+        },
+        {
+          "x": 144,
+          "y": 8,
+          "width": 222,
+          "height": 474
+        },
+        {
+          "x": 146,
+          "y": 6,
+          "width": 194,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/native-34465b-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b62f1413-8eb2-45b9-93d1-9c26eab6d6bb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Campus Club Hoodie, Xanh navy #34465b, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh navy #34465b main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1886139,
+      "sha256": "6c40b2dcd969b6aa742da63c0953d8a511207404d01dac6da578daf9cb53d91b",
+      "frames": [
+        {
+          "x": 168,
+          "y": 18,
+          "width": 193,
+          "height": 473
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 206,
+          "height": 474
+        },
+        {
+          "x": 130,
+          "y": 15,
+          "width": 229,
+          "height": 475
+        },
+        {
+          "x": 118,
+          "y": 14,
+          "width": 288,
+          "height": 476
+        },
+        {
+          "x": 87,
+          "y": 13,
+          "width": 342,
+          "height": 474
+        },
+        {
+          "x": 61,
+          "y": 11,
+          "width": 401,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/native-34465b-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d1050501-b964-4e2a-82b4-6fdc17732a86.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Campus Club Hoodie, Xanh navy #34465b, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh navy #34465b main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1880592,
+      "sha256": "e529119974ec6856e7c5d1bea8e94ce128f68020da3e8c5064c271bddc2b81ea",
+      "frames": [
+        {
+          "x": 48,
+          "y": 10,
+          "width": 419,
+          "height": 448
+        },
+        {
+          "x": 68,
+          "y": 11,
+          "width": 386,
+          "height": 454
+        },
+        {
+          "x": 103,
+          "y": 12,
+          "width": 306,
+          "height": 455
+        },
+        {
+          "x": 154,
+          "y": 12,
+          "width": 242,
+          "height": 464
+        },
+        {
+          "x": 155,
+          "y": 12,
+          "width": 216,
+          "height": 466
+        },
+        {
+          "x": 149,
+          "y": 11,
+          "width": 206,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/native-34465b-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e057b170-b0d1-4945-99c8-07c56e6e8df8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Campus Club Hoodie, Xanh navy #34465b, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xanh navy #34465b main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Cotton 100% định lượng cao.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use soft ivory #f3e9db for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1793016,
+      "sha256": "8cd2968ceef079bf209ca5f74491d26d23c7b49eaff3aa0dbbdb1e59ddb73b35",
+      "frames": [
+        {
+          "x": 147,
+          "y": 14,
+          "width": 201,
+          "height": 467
+        },
+        {
+          "x": 145,
+          "y": 15,
+          "width": 220,
+          "height": 466
+        },
+        {
+          "x": 113,
+          "y": 15,
+          "width": 282,
+          "height": 464
+        },
+        {
+          "x": 104,
+          "y": 13,
+          "width": 334,
+          "height": 463
+        },
+        {
+          "x": 63,
+          "y": 12,
+          "width": 391,
+          "height": 461
+        },
+        {
+          "x": 46,
+          "y": 11,
+          "width": 422,
+          "height": 459
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views in the contact sheet. Muted navy fabric is consistent on body, sleeves and hood, with clean cream front/back branding and preserved cuff and pocket details; no colour spill or duplicate fragments observed.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

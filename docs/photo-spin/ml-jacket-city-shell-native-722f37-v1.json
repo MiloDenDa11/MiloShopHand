@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-city-shell",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:11:58.330Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-city-shell/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ccdc72f3-5244-4cac-bb63-cefa335c059d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML City Shell Jacket, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCITY SHELL construction: preserve light ripstop nylon grid, stand collar with deep olive lining, raglan shoulder seams, curved front cross-chest seam and sleeve seams, full central zip and two slanted vertical zipper pockets. Keep olive zipper tapes and narrow elastic cuff binding; main shell and stand-collar exterior use target colour. Preserve overhanging rear storm vent yoke with centre tab, floral MiloShopHand mark on this upper back panel and chest ML. No hood, rib waistband or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1830122,
+      "sha256": "119006f84be7bba51613a84cc7144fd8e60905115921ab20d245839b10d3e804",
+      "frames": [
+        {
+          "x": 75,
+          "y": 24,
+          "width": 384,
+          "height": 412
+        },
+        {
+          "x": 83,
+          "y": 23,
+          "width": 357,
+          "height": 423
+        },
+        {
+          "x": 94,
+          "y": 23,
+          "width": 311,
+          "height": 430
+        },
+        {
+          "x": 141,
+          "y": 23,
+          "width": 266,
+          "height": 439
+        },
+        {
+          "x": 151,
+          "y": 22,
+          "width": 226,
+          "height": 445
+        },
+        {
+          "x": 156,
+          "y": 22,
+          "width": 207,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-city-shell/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-4cdfc7b0-95d5-4075-a13c-fb8a0b901c4a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML City Shell Jacket, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCITY SHELL construction: preserve light ripstop nylon grid, stand collar with deep olive lining, raglan shoulder seams, curved front cross-chest seam and sleeve seams, full central zip and two slanted vertical zipper pockets. Keep olive zipper tapes and narrow elastic cuff binding; main shell and stand-collar exterior use target colour. Preserve overhanging rear storm vent yoke with centre tab, floral MiloShopHand mark on this upper back panel and chest ML. No hood, rib waistband or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1903719,
+      "sha256": "8e7d0b4254c3d8c33324bb353d61ec049d26594a1c6554be9e95dc0274fbe82f",
+      "frames": [
+        {
+          "x": 185,
+          "y": 14,
+          "width": 185,
+          "height": 464
+        },
+        {
+          "x": 144,
+          "y": 13,
+          "width": 214,
+          "height": 464
+        },
+        {
+          "x": 90,
+          "y": 13,
+          "width": 270,
+          "height": 464
+        },
+        {
+          "x": 113,
+          "y": 10,
+          "width": 313,
+          "height": 464
+        },
+        {
+          "x": 60,
+          "y": 10,
+          "width": 349,
+          "height": 463
+        },
+        {
+          "x": 20,
+          "y": 11,
+          "width": 396,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-city-shell/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-696300df-3fc6-478a-b752-2d46c4ec515c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML City Shell Jacket, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCITY SHELL construction: preserve light ripstop nylon grid, stand collar with deep olive lining, raglan shoulder seams, curved front cross-chest seam and sleeve seams, full central zip and two slanted vertical zipper pockets. Keep olive zipper tapes and narrow elastic cuff binding; main shell and stand-collar exterior use target colour. Preserve overhanging rear storm vent yoke with centre tab, floral MiloShopHand mark on this upper back panel and chest ML. No hood, rib waistband or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1942291,
+      "sha256": "fa73b56cff7b03e813cbd4344f4c4e6a48ab5a519b06f968990406a4a8461bcf",
+      "frames": [
+        {
+          "x": 59,
+          "y": 17,
+          "width": 398,
+          "height": 431
+        },
+        {
+          "x": 75,
+          "y": 16,
+          "width": 367,
+          "height": 433
+        },
+        {
+          "x": 102,
+          "y": 15,
+          "width": 310,
+          "height": 442
+        },
+        {
+          "x": 137,
+          "y": 11,
+          "width": 272,
+          "height": 450
+        },
+        {
+          "x": 147,
+          "y": 11,
+          "width": 223,
+          "height": 451
+        },
+        {
+          "x": 141,
+          "y": 11,
+          "width": 209,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-city-shell/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-1ef43811-9bac-4c69-ab75-d9654c2a7a40.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML City Shell Jacket, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Nylon ripstop, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCITY SHELL construction: preserve light ripstop nylon grid, stand collar with deep olive lining, raglan shoulder seams, curved front cross-chest seam and sleeve seams, full central zip and two slanted vertical zipper pockets. Keep olive zipper tapes and narrow elastic cuff binding; main shell and stand-collar exterior use target colour. Preserve overhanging rear storm vent yoke with centre tab, floral MiloShopHand mark on this upper back panel and chest ML. No hood, rib waistband or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1837115,
+      "sha256": "b5354a1ecd790d9d75890a0a262f93fd2af7b880a02e9571ffa5329d1f95c6e4",
+      "frames": [
+        {
+          "x": 171,
+          "y": 15,
+          "width": 178,
+          "height": 445
+        },
+        {
+          "x": 151,
+          "y": 15,
+          "width": 194,
+          "height": 444
+        },
+        {
+          "x": 137,
+          "y": 13,
+          "width": 240,
+          "height": 447
+        },
+        {
+          "x": 122,
+          "y": 15,
+          "width": 290,
+          "height": 442
+        },
+        {
+          "x": 90,
+          "y": 14,
+          "width": 326,
+          "height": 442
+        },
+        {
+          "x": 61,
+          "y": 15,
+          "width": 372,
+          "height": 438
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 nominal views for target #722f37. The ripstop shell, stand collar, raglan seams and curved front seam remain intact. Olive inner collar, zipper tapes, two slanted zip pockets and narrow elastic cuffs match the reference. Rear storm-vent yoke and centre tab remain visible as the jacket turns, with floral MiloShopHand crest on the upper panel and small chest ML. Target fabric colour and full garment margins remain consistent across front, rear and side cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-soft-cord",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:19:30.995Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-soft-cord/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-8f0befd6-c5ea-47d2-8790-fc76c298ac0d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Soft Cord Bomber, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nhung tăm, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1778530,
+      "sha256": "1f28dc0f614a7ffe1bbeb5079fc711055554e5a542aba91f2341c4aa6b23c1fd",
+      "frames": [
+        {
+          "x": 31,
+          "y": 29,
+          "width": 451,
+          "height": 438
+        },
+        {
+          "x": 54,
+          "y": 26,
+          "width": 398,
+          "height": 448
+        },
+        {
+          "x": 80,
+          "y": 22,
+          "width": 343,
+          "height": 463
+        },
+        {
+          "x": 120,
+          "y": 16,
+          "width": 276,
+          "height": 478
+        },
+        {
+          "x": 150,
+          "y": 15,
+          "width": 210,
+          "height": 480
+        },
+        {
+          "x": 167,
+          "y": 15,
+          "width": 188,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-soft-cord/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-55774cf0-205a-4126-a1ad-8e95a1faab9e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Soft Cord Bomber, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nhung tăm, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1697426,
+      "sha256": "7e0a9482340e7b6a3dc599fc74cc79d514d88dcfddc107df1742b6be7e92b682",
+      "frames": [
+        {
+          "x": 164,
+          "y": 23,
+          "width": 181,
+          "height": 465
+        },
+        {
+          "x": 153,
+          "y": 22,
+          "width": 202,
+          "height": 466
+        },
+        {
+          "x": 145,
+          "y": 85,
+          "width": 219,
+          "height": 403
+        },
+        {
+          "x": 122,
+          "y": 89,
+          "width": 269,
+          "height": 396
+        },
+        {
+          "x": 86,
+          "y": 89,
+          "width": 335,
+          "height": 395
+        },
+        {
+          "x": 56,
+          "y": 89,
+          "width": 398,
+          "height": 391
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-soft-cord/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-bfd7a0e1-2a0b-4d3d-9a7c-16a38e06300c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Soft Cord Bomber, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nhung tăm, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1698927,
+      "sha256": "d1e32c3e58c9dc0aed22e70968c715a7bec119bccb6d65aa7a27465fc79749a9",
+      "frames": [
+        {
+          "x": 41,
+          "y": 24,
+          "width": 432,
+          "height": 434
+        },
+        {
+          "x": 58,
+          "y": 21,
+          "width": 398,
+          "height": 445
+        },
+        {
+          "x": 99,
+          "y": 20,
+          "width": 318,
+          "height": 454
+        },
+        {
+          "x": 133,
+          "y": 16,
+          "width": 252,
+          "height": 459
+        },
+        {
+          "x": 153,
+          "y": 15,
+          "width": 206,
+          "height": 462
+        },
+        {
+          "x": 151,
+          "y": 15,
+          "width": 214,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-soft-cord/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-f6aec381-fd8f-4b25-81e4-9a731dd0e70c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Soft Cord Bomber, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Nhung tăm, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1713524,
+      "sha256": "bfa92b2e202cb833092eed111abb8b973361b2561179e2a1ea9cc016e7c7f1b9",
+      "frames": [
+        {
+          "x": 161,
+          "y": 22,
+          "width": 175,
+          "height": 467
+        },
+        {
+          "x": 138,
+          "y": 24,
+          "width": 230,
+          "height": 463
+        },
+        {
+          "x": 116,
+          "y": 24,
+          "width": 278,
+          "height": 459
+        },
+        {
+          "x": 87,
+          "y": 22,
+          "width": 337,
+          "height": 458
+        },
+        {
+          "x": 61,
+          "y": 23,
+          "width": 389,
+          "height": 455
+        },
+        {
+          "x": 43,
+          "y": 25,
+          "width": 424,
+          "height": 451
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views together and the full-resolution white front/final-quarter images. Warm white fine-wale corduroy, cream ribbing and charcoal monogram/cursive rear text match across the nominal rotation. Patch pockets, zip and garment proportions remain faithful to the source, and the complete garment fits inside every cell with an ivory background.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

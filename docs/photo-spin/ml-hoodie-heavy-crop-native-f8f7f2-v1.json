@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-heavy-crop",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T08:26:33.713Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-heavy-crop/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-57600f8f-7007-4a38-8d06-39b907a3a37c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heavy Crop Hoodie, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the cropped short body, very wide long balloon sleeves, dropped shoulders, compact kangaroo pocket and cream hood drawstrings. Keep cream rib cuffs/hem and cream hood edging, with hood lining in coordinated target fabric. Maintain the source garment proportions, not a long regular hoodie.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1747692,
+      "sha256": "d7b9137780668df961c81a40eef08641e2e610c2df059da09f2a0623da9b1ab5",
+      "frames": [
+        {
+          "x": 54,
+          "y": 21,
+          "width": 408,
+          "height": 442
+        },
+        {
+          "x": 62,
+          "y": 19,
+          "width": 392,
+          "height": 452
+        },
+        {
+          "x": 79,
+          "y": 19,
+          "width": 344,
+          "height": 458
+        },
+        {
+          "x": 124,
+          "y": 14,
+          "width": 283,
+          "height": 470
+        },
+        {
+          "x": 150,
+          "y": 13,
+          "width": 221,
+          "height": 473
+        },
+        {
+          "x": 150,
+          "y": 13,
+          "width": 212,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-heavy-crop/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-6168c57f-ab84-4160-96ec-cadbfb442e0a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heavy Crop Hoodie, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the cropped short body, very wide long balloon sleeves, dropped shoulders, compact kangaroo pocket and cream hood drawstrings. Keep cream rib cuffs/hem and cream hood edging, with hood lining in coordinated target fabric. Maintain the source garment proportions, not a long regular hoodie.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1455658,
+      "sha256": "35648a1f828453ae63d80013e0fbaa28295f550194aa5da44dd8b02f73e003b6",
+      "frames": [
+        {
+          "x": 179,
+          "y": 13,
+          "width": 206,
+          "height": 456
+        },
+        {
+          "x": 145,
+          "y": 15,
+          "width": 218,
+          "height": 453
+        },
+        {
+          "x": 114,
+          "y": 15,
+          "width": 272,
+          "height": 453
+        },
+        {
+          "x": 101,
+          "y": 9,
+          "width": 319,
+          "height": 462
+        },
+        {
+          "x": 67,
+          "y": 9,
+          "width": 356,
+          "height": 459
+        },
+        {
+          "x": 47,
+          "y": 9,
+          "width": 398,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-heavy-crop/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-35647a96-7c7e-4130-b64a-807fcf1fec71.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heavy Crop Hoodie, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the cropped short body, very wide long balloon sleeves, dropped shoulders, compact kangaroo pocket and cream hood drawstrings. Keep cream rib cuffs/hem and cream hood edging, with hood lining in coordinated target fabric. Maintain the source garment proportions, not a long regular hoodie.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1720024,
+      "sha256": "d8e87516a418161a440920300fd22b880f9d7e13f97eb89791ef6bc7a14585f9",
+      "frames": [
+        {
+          "x": 52,
+          "y": 21,
+          "width": 415,
+          "height": 433
+        },
+        {
+          "x": 68,
+          "y": 20,
+          "width": 396,
+          "height": 441
+        },
+        {
+          "x": 107,
+          "y": 20,
+          "width": 327,
+          "height": 448
+        },
+        {
+          "x": 152,
+          "y": 16,
+          "width": 248,
+          "height": 459
+        },
+        {
+          "x": 155,
+          "y": 14,
+          "width": 211,
+          "height": 465
+        },
+        {
+          "x": 133,
+          "y": 17,
+          "width": 206,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-heavy-crop/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-51a0796b-d2a7-4287-bf5b-fcc655e63198.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Heavy Crop Hoodie, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the cropped short body, very wide long balloon sleeves, dropped shoulders, compact kangaroo pocket and cream hood drawstrings. Keep cream rib cuffs/hem and cream hood edging, with hood lining in coordinated target fabric. Maintain the source garment proportions, not a long regular hoodie.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1727209,
+      "sha256": "1b20735d9f9f9121c12adabdfe714d5732fe42607e0b23a7065255f23a3b711b",
+      "frames": [
+        {
+          "x": 182,
+          "y": 21,
+          "width": 193,
+          "height": 457
+        },
+        {
+          "x": 158,
+          "y": 21,
+          "width": 201,
+          "height": 457
+        },
+        {
+          "x": 108,
+          "y": 22,
+          "width": 291,
+          "height": 453
+        },
+        {
+          "x": 92,
+          "y": 21,
+          "width": 353,
+          "height": 451
+        },
+        {
+          "x": 57,
+          "y": 18,
+          "width": 397,
+          "height": 451
+        },
+        {
+          "x": 41,
+          "y": 19,
+          "width": 407,
+          "height": 445
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: warm white heavy fleece, pale cream drawstrings/hood edging/rib trim and charcoal branding. Cropped hem, broad sleeves and compact kangaroo pocket match the construction through all quarters without cropped garments or added objects.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

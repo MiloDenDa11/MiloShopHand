@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-zip-everyday",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:06:45.563Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-everyday/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-39cf406d-a049-4f7d-8321-f0654a2edc0a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Everyday Hoodie, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nZIP EVERYDAY construction: preserve full-length central silver zipper, two split kangaroo pockets, drop shoulders and thick soft cotton fleece. Cream hood edge, drawstrings, rib cuffs and rib waistband remain cream across target colours. Main hood lining and body use the target fabric colour. Preserve floral MiloShopHand back mark and chest ML monogram.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1779063,
+      "sha256": "9fe49faf9aabc3f77bba44858016f15f804679922626a3c9af4284ec9b8a7898",
+      "frames": [
+        {
+          "x": 62,
+          "y": 18,
+          "width": 388,
+          "height": 418
+        },
+        {
+          "x": 64,
+          "y": 17,
+          "width": 379,
+          "height": 421
+        },
+        {
+          "x": 82,
+          "y": 17,
+          "width": 326,
+          "height": 423
+        },
+        {
+          "x": 133,
+          "y": 16,
+          "width": 272,
+          "height": 430
+        },
+        {
+          "x": 138,
+          "y": 15,
+          "width": 218,
+          "height": 437
+        },
+        {
+          "x": 137,
+          "y": 13,
+          "width": 201,
+          "height": 439
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-everyday/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-13e9ca07-82ac-4917-902b-470f0ac98d5d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Everyday Hoodie, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nZIP EVERYDAY construction: preserve full-length central silver zipper, two split kangaroo pockets, drop shoulders and thick soft cotton fleece. Cream hood edge, drawstrings, rib cuffs and rib waistband remain cream across target colours. Main hood lining and body use the target fabric colour. Preserve floral MiloShopHand back mark and chest ML monogram.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1769984,
+      "sha256": "e6e128b3cb0686320bb660fa5d631d6b9ff873a22cbbcd73b5bd66227b6715c9",
+      "frames": [
+        {
+          "x": 174,
+          "y": 14,
+          "width": 192,
+          "height": 458
+        },
+        {
+          "x": 148,
+          "y": 14,
+          "width": 203,
+          "height": 458
+        },
+        {
+          "x": 143,
+          "y": 13,
+          "width": 220,
+          "height": 459
+        },
+        {
+          "x": 141,
+          "y": 10,
+          "width": 259,
+          "height": 462
+        },
+        {
+          "x": 89,
+          "y": 9,
+          "width": 322,
+          "height": 457
+        },
+        {
+          "x": 57,
+          "y": 9,
+          "width": 385,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-everyday/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-7faa5389-35e6-4a8b-a39d-8ee0a0248043.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Everyday Hoodie, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nZIP EVERYDAY construction: preserve full-length central silver zipper, two split kangaroo pockets, drop shoulders and thick soft cotton fleece. Cream hood edge, drawstrings, rib cuffs and rib waistband remain cream across target colours. Main hood lining and body use the target fabric colour. Preserve floral MiloShopHand back mark and chest ML monogram.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1798992,
+      "sha256": "cfcfa9fae18bd967a940347fdc50a52436017e7bc0ecf3b3c3dbe7443b8d62e7",
+      "frames": [
+        {
+          "x": 67,
+          "y": 13,
+          "width": 377,
+          "height": 437
+        },
+        {
+          "x": 67,
+          "y": 15,
+          "width": 374,
+          "height": 435
+        },
+        {
+          "x": 91,
+          "y": 13,
+          "width": 321,
+          "height": 442
+        },
+        {
+          "x": 135,
+          "y": 13,
+          "width": 249,
+          "height": 460
+        },
+        {
+          "x": 140,
+          "y": 11,
+          "width": 205,
+          "height": 464
+        },
+        {
+          "x": 142,
+          "y": 11,
+          "width": 193,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-zip-everyday/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-7d3919c6-d14c-490a-8631-80635709e1e2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Zip Everyday Hoodie, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nZIP EVERYDAY construction: preserve full-length central silver zipper, two split kangaroo pockets, drop shoulders and thick soft cotton fleece. Cream hood edge, drawstrings, rib cuffs and rib waistband remain cream across target colours. Main hood lining and body use the target fabric colour. Preserve floral MiloShopHand back mark and chest ML monogram.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1783526,
+      "sha256": "f8f16ad770b28bd343e06270971ed6e6b6413d46f329e9b5dbad9a4af4c405ab",
+      "frames": [
+        {
+          "x": 162,
+          "y": 11,
+          "width": 196,
+          "height": 464
+        },
+        {
+          "x": 154,
+          "y": 13,
+          "width": 206,
+          "height": 461
+        },
+        {
+          "x": 126,
+          "y": 13,
+          "width": 259,
+          "height": 459
+        },
+        {
+          "x": 110,
+          "y": 11,
+          "width": 322,
+          "height": 459
+        },
+        {
+          "x": 78,
+          "y": 11,
+          "width": 364,
+          "height": 458
+        },
+        {
+          "x": 54,
+          "y": 11,
+          "width": 404,
+          "height": 454
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected the full 24-view contact board and native front anchor for #f8f7f2. Main cotton fleece and hood lining keep the target colour, with cream hood edge, drawstrings, rib cuffs and waistband. Full central silver zipper and split kangaroo pockets retain their shapes across front, side and rear turns. Chest ML and floral MiloShopHand rear crest remain correctly placed and naturally hidden in side profiles. All garments fit within their cells on the matching cream background.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

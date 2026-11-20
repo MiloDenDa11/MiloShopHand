@@ -1,0 +1,222 @@
+{
+  "slug": "mono-boxy-tee",
+  "colorKey": "original",
+  "colorHex": "#242426",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:51:48.778Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-03e47ab8-1717-4bd7-9ed6-e20936fdad61.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Mono Boxy Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Black oversized boxy tee, light chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1861582,
+      "sha256": "be46ac3db8e9fdaa2286a52e02c5fc85c93cdd404e66391cb646ec341623adf4",
+      "frames": [
+        {
+          "x": 18,
+          "y": 26,
+          "width": 475,
+          "height": 457
+        },
+        {
+          "x": 36,
+          "y": 24,
+          "width": 442,
+          "height": 460
+        },
+        {
+          "x": 60,
+          "y": 22,
+          "width": 391,
+          "height": 463
+        },
+        {
+          "x": 112,
+          "y": 20,
+          "width": 318,
+          "height": 469
+        },
+        {
+          "x": 139,
+          "y": 17,
+          "width": 237,
+          "height": 473
+        },
+        {
+          "x": 148,
+          "y": 17,
+          "width": 214,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-70ba4b73-a374-4016-b26c-2790488855fc.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Mono Boxy Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Black oversized boxy tee, light chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1806521,
+      "sha256": "ba83fcb729c1068ad21a7a3a5bfeebeb66418ea81ec3d7318f34ea5163b02f99",
+      "frames": [
+        {
+          "x": 149,
+          "y": 21,
+          "width": 209,
+          "height": 470
+        },
+        {
+          "x": 139,
+          "y": 21,
+          "width": 232,
+          "height": 470
+        },
+        {
+          "x": 127,
+          "y": 20,
+          "width": 257,
+          "height": 472
+        },
+        {
+          "x": 101,
+          "y": 21,
+          "width": 305,
+          "height": 470
+        },
+        {
+          "x": 70,
+          "y": 21,
+          "width": 370,
+          "height": 470
+        },
+        {
+          "x": 41,
+          "y": 21,
+          "width": 429,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-fa46e8e4-5810-4a6e-be8e-74d00946c241.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Mono Boxy Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Black oversized boxy tee, light chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1657550,
+      "sha256": "79b0649968fa0e72ccd5c4784f6d62134f50d7dd87218903e6f57ef063c97018",
+      "frames": [
+        {
+          "x": 19,
+          "y": 29,
+          "width": 473,
+          "height": 457
+        },
+        {
+          "x": 41,
+          "y": 26,
+          "width": 442,
+          "height": 459
+        },
+        {
+          "x": 69,
+          "y": 22,
+          "width": 373,
+          "height": 466
+        },
+        {
+          "x": 114,
+          "y": 20,
+          "width": 300,
+          "height": 468
+        },
+        {
+          "x": 150,
+          "y": 20,
+          "width": 229,
+          "height": 470
+        },
+        {
+          "x": 161,
+          "y": 20,
+          "width": 207,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c17ea7b0-69cf-4734-bfdf-05f8ae205c1e.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Mono Boxy Tee, base colour #242426. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Black oversized boxy tee, light chest ML and floral M and MiloShopHand back. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1821756,
+      "sha256": "9b9107cb7dee8be53cee5fff604eca55e9b7341e3f2e2f292667f8c15f8406a0",
+      "frames": [
+        {
+          "x": 145,
+          "y": 21,
+          "width": 223,
+          "height": 475
+        },
+        {
+          "x": 125,
+          "y": 21,
+          "width": 249,
+          "height": 475
+        },
+        {
+          "x": 100,
+          "y": 21,
+          "width": 307,
+          "height": 474
+        },
+        {
+          "x": 74,
+          "y": 21,
+          "width": 366,
+          "height": 472
+        },
+        {
+          "x": 44,
+          "y": 22,
+          "width": 424,
+          "height": 470
+        },
+        {
+          "x": 15,
+          "y": 22,
+          "width": 478,
+          "height": 469
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

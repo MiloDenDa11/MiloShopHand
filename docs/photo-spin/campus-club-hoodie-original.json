@@ -1,0 +1,222 @@
+{
+  "slug": "campus-club-hoodie",
+  "colorKey": "original",
+  "colorHex": "#a3a5aa",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:08:10.716Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-e5410a9f-6549-41d5-91bb-57bd2fbeb9f8.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Campus Club Hoodie. Preserve the EXACT physical garment and colour #a3a5aa, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 0,15,30,45,60,75 degrees: exact FRONT first, gradually turn the garment's FRONT towards the LEFT of each image, ending almost LEFT-FACING PROFILE. Front chest ML gradually foreshortens. No back artwork visible. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2002605,
+      "sha256": "2b6d4e7e10f12ef4213e2cbab5ada6566e6556f2b79583f88c0ae83e52baf268",
+      "frames": [
+        {
+          "x": 81,
+          "y": 16,
+          "width": 385,
+          "height": 436
+        },
+        {
+          "x": 75,
+          "y": 16,
+          "width": 364,
+          "height": 440
+        },
+        {
+          "x": 83,
+          "y": 15,
+          "width": 323,
+          "height": 446
+        },
+        {
+          "x": 136,
+          "y": 12,
+          "width": 275,
+          "height": 462
+        },
+        {
+          "x": 144,
+          "y": 9,
+          "width": 220,
+          "height": 472
+        },
+        {
+          "x": 146,
+          "y": 7,
+          "width": 193,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d962b072-d296-4494-922f-7b63fcdb3891.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Campus Club Hoodie. Preserve the EXACT physical garment and colour #a3a5aa, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 90,105,120,135,150,165 degrees: start pure LEFT-FACING PROFILE (front opening/neck points LEFT, back points RIGHT), gradually turn to almost BACK. Front ML is hidden. Back artwork gradually appears. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2033796,
+      "sha256": "c01a0d3684175bf00a54596188bc2f960fc1756df5b6faa68305e30b0206b3b5",
+      "frames": [
+        {
+          "x": 169,
+          "y": 20,
+          "width": 191,
+          "height": 470
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 204,
+          "height": 472
+        },
+        {
+          "x": 132,
+          "y": 17,
+          "width": 224,
+          "height": 473
+        },
+        {
+          "x": 118,
+          "y": 16,
+          "width": 285,
+          "height": 473
+        },
+        {
+          "x": 87,
+          "y": 15,
+          "width": 340,
+          "height": 472
+        },
+        {
+          "x": 62,
+          "y": 13,
+          "width": 398,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4c0da77d-9579-4194-a5b0-7b7967850c88.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Campus Club Hoodie. Preserve the EXACT physical garment and colour #a3a5aa, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 180,195,210,225,240,255 degrees: exact BACK first, gradually turn from the back towards RIGHT-FACING PROFILE (front opening/neck ends pointing RIGHT). Back artwork progressively foreshortens. No chest ML. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2030442,
+      "sha256": "8cb95cc956444724bc4e81797549c22a98ea935c2dba13b5eb2ad35a4a0023ba",
+      "frames": [
+        {
+          "x": 49,
+          "y": 12,
+          "width": 417,
+          "height": 446
+        },
+        {
+          "x": 69,
+          "y": 12,
+          "width": 383,
+          "height": 452
+        },
+        {
+          "x": 104,
+          "y": 13,
+          "width": 304,
+          "height": 454
+        },
+        {
+          "x": 156,
+          "y": 13,
+          "width": 239,
+          "height": 462
+        },
+        {
+          "x": 158,
+          "y": 14,
+          "width": 211,
+          "height": 462
+        },
+        {
+          "x": 150,
+          "y": 14,
+          "width": 203,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/campus-club-hoodie/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-58813ac8-160b-4879-9d85-989432a28dc1.png",
+      "prompt": "Use case: product-mockup. SIX-view 360 turntable atlas, exactly 3 columns by 2 rows, native1536x1024 or larger. Design identity reference: LEFT front and RIGHT back of the SAME Campus Club Hoodie. Preserve the EXACT physical garment and colour #a3a5aa, Cotton 100% định lượng cao, Oversized; exact neckline/hood, sleeve length and pose, cloth drape and folds, all seams/pockets/closures/trim/hem from that reference. Construction hints {\"hem\":\"rib\",\"panel\":\"none\",\"collar\":\"hood\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"kangaroo\"}; the image is authoritative if hints differ. Preserve small front ML and the original back artwork exactly: if the reference has floral M plus MiloShopHand, keep that artwork; if it has script only, keep script only. Never invent text or mirror artwork. Frames 270,285,300,315,330,345 degrees: first pure RIGHT-FACING PROFILE (front opening/neck points RIGHT, back points LEFT), then turn TOWARDS FRONT, until almost exact FRONT last. NEVER show a back view or back artwork in these six cells. Front ML gradually appears. This MUST be the OPPOSITE SIDE from the 90-degree view. Read the 6 angles in row-major order. Physical upright VERTICAL Y-axis rotation, fixed level camera, no pitch, roll, leaning, or rotating a flat image. Every cell shows full garment, same height and center, 5% margin, accurate narrow side silhouette. Only ONE garment per cell; no person/mannequin/hanger/stand. Soft premium photographic cloth, neutral pale ivory background and consistent light. No labels, numbers, angle captions, borders, grids, gutters or watermark. Six DISTINCT views, no repeated front or rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1887617,
+      "sha256": "06ea980a8b4909eba91d43a7ade7c6328fc18f871dab3f75359a0e67507f2752",
+      "frames": [
+        {
+          "x": 147,
+          "y": 14,
+          "width": 198,
+          "height": 466
+        },
+        {
+          "x": 147,
+          "y": 15,
+          "width": 215,
+          "height": 465
+        },
+        {
+          "x": 115,
+          "y": 15,
+          "width": 279,
+          "height": 464
+        },
+        {
+          "x": 105,
+          "y": 14,
+          "width": 332,
+          "height": 463
+        },
+        {
+          "x": 64,
+          "y": 13,
+          "width": 389,
+          "height": 460
+        },
+        {
+          "x": 46,
+          "y": 13,
+          "width": 422,
+          "height": 456
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

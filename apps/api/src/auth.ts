@@ -15,7 +15,6 @@ import {
 import { ApiTags, ApiOperation, ApiBody, ApiCookieAuth } from "@nestjs/swagger";
 import { z } from "zod";
 import argon2 from "argon2";
-import { TOTP } from "otpauth";
 import { parsePhoneNumberFromString } from "libphonenumber-js";
 import { Response } from "express";
 import {
@@ -34,10 +33,10 @@ import {
   outbox,
   env,
   production,
-  unseal,
   reauth,
   audit,
 } from "./core";
+import { securityEvent, securityIdentity } from "./request-security";
 const email = z
   .string()
   .trim()
@@ -48,13 +47,19 @@ const password = z
   .string()
   .min(15, "Mật khẩu cần ít nhất 15 ký tự.")
   .max(256, "Mật khẩu tối đa 256 ký tự.");
+let passwordWorkActive = 0;
+async function passwordWork<T>(work: () => Promise<T>): Promise<T> {
+  if (passwordWorkActive >= 4) fail('AUTH_BUSY', 'Hệ thống đang xử lý nhiều yêu cầu xác thực. Vui lòng thử lại.', 503);
+  passwordWorkActive++;
+  try { return await work(); } finally { passwordWorkActive--; }
+}
 export const passwordHash = (p: string) =>
-  argon2.hash(p, {
+  passwordWork(() => argon2.hash(p, {
     type: argon2.argon2id,
     memoryCost: 65536,
     timeCost: 3,
     parallelism: 1,
-  });
+  }));
 export async function passwordPolicy(p: string) {
   if (
     ["password", "123456", "qwerty", "matkhau", "miloshophand"].some(
@@ -139,12 +144,13 @@ export class AuthController {
       body,
     );
     await passwordPolicy(d.password);
+    const ph = await passwordHash(d.password);
     const existing = await this.db.user.findUnique({
       where: { email: d.email },
     });
     if (!existing) {
-      const ph = await passwordHash(d.password);
       await transaction(this.db, async (tx) => {
+        if (await tx.user.findUnique({ where: { email: d.email }, select: { id: true } })) return;
         const u = await tx.user.create({
           data: {
             name: d.name,
@@ -177,7 +183,7 @@ export class AuthController {
   }
   @Post("verify") async verify(@Body() body: unknown) {
     const { token } = parse(
-      z.object({ token: z.string().min(20) }).strict(),
+      z.object({ token: z.string().min(20).max(256) }).strict(),
       body,
     );
     await transaction(this.db, async (tx) => {
@@ -195,108 +201,68 @@ export class AuthController {
     });
     return { message: "Email đã được xác minh. Bạn có thể đăng nhập." };
   }
-  async otp(userId: string, code: string | undefined) {
-    const m = await this.db.mFA.findUnique({ where: { userId } });
-    if (!m || !code)
-      fail(
-        "MFA_REQUIRED",
-        "Nhập mã xác thực hoặc mã khôi phục của Admin.",
-        401,
-      );
-    const totp = new TOTP({
-      secret: unseal(m.encryptedSecret),
-      digits: 6,
-      period: 30,
-      algorithm: "SHA1",
-    });
-    const delta = totp.validate({ token: code, window: 1 });
-    if (delta !== null) {
-      const counter = Math.floor(Date.now() / 30000) + delta;
-      const updated = await this.db.mFA.updateMany({
-        where: { userId, lastCounter: { lt: counter } },
-        data: { lastCounter: counter },
-      });
-      if (updated.count) return;
-    }
-    const recovery = hash(code);
-    const result = await this.db
-      .$executeRaw`UPDATE "MFA" SET "recoveryHashes"=array_remove("recoveryHashes",${recovery}) WHERE "userId"=${userId} AND ${recovery}=ANY("recoveryHashes")`;
-    if (!result) fail("LOGIN_FAILED", "Thông tin đăng nhập không đúng.", 401);
-  }
-  async credentials(value: any) {
+  async credentials(value: any, request?: AppRequest) {
     const d = parse(
       z
         .object({
           email,
           password: z.string().max(256),
+          // Accept and ignore this legacy field for already-open login forms.
           otp: z.string().max(100).optional(),
         })
         .strict(),
       value,
     );
     const bucket = hash(d.email);
-    const lock = await this.db.storeSetting.findUnique({
-      where: { key: `login:${bucket}` },
-    });
-    const v = lock?.value as any;
-    if (v?.until > Date.now())
-      fail("LOGIN_THROTTLED", "Vui lòng chờ trước khi thử đăng nhập lại.", 429);
-    const u = await this.db.user.findUnique({ where: { email: d.email } });
-    const valid = u
-      ? await argon2.verify(u.passwordHash, d.password).catch(() => false)
-      : await argon2
-          .verify(
-            "$argon2id$v=19$m=65536,t=3,p=1$MDEyMzQ1Njc4OWFiY2RlZg$3baKmRwByNOnyEiRjTb3j5LG8p3PFG2ZYPXWY2V8ejI",
-            d.password,
-          )
-          .catch(() => false);
-    if (!u || !valid || u.disabled) {
-      const count = (v?.count || 0) + 1;
-      await this.db.storeSetting.upsert({
-        where: { key: `login:${bucket}` },
-        create: {
-          key: `login:${bucket}`,
-          value: {
-            count,
-            until:
-              Date.now() + Math.min(600000, Math.max(0, count - 4) * 10000),
-          },
-        },
-        update: {
-          value: {
-            count,
-            until:
-              Date.now() + Math.min(600000, Math.max(0, count - 4) * 10000),
-          },
-        },
-      });
-      fail("LOGIN_FAILED", "Thông tin đăng nhập không đúng.", 401);
+    const result = await this.db.$transaction(async tx => {
+      // Serialize per account before reading its counter; failures must commit.
+      await tx.$queryRaw`SELECT 1 AS locked FROM pg_advisory_xact_lock(hashtextextended(${bucket},0))`;
+      const lock = await tx.storeSetting.findUnique({ where: { key: `login:${bucket}` } });
+      const now = Date.now(), previous = lock?.value as any;
+      if (previous?.until > now) return { user: null, throttled: true, count: previous.count as number };
+      const user = await tx.user.findUnique({ where: { email: d.email } });
+      const dummy = '$argon2id$v=19$m=65536,t=3,p=1$MDEyMzQ1Njc4OWFiY2RlZg$3baKmRwByNOnyEiRjTb3j5LG8p3PFG2ZYPXWY2V8ejI';
+      const valid = await passwordWork(() => argon2.verify(user?.passwordHash || dummy, d.password).catch(() => false));
+      if (!user || !valid || user.disabled) {
+        const count = (previous?.resetAt > now ? Number(previous.count) || 0 : 0) + 1;
+        const value = { count, until: now + Math.min(600000, Math.max(0, count - 4) * 10000), resetAt: now + 900000 };
+        await tx.storeSetting.upsert({ where: { key: `login:${bucket}` }, create: { key: `login:${bucket}`, value }, update: { value } });
+        return { user: null, throttled: false, count };
+      }
+      await tx.storeSetting.deleteMany({ where: { key: `login:${bucket}` } });
+      return { user, throttled: false, count: 0 };
+    }, { isolationLevel: 'ReadCommitted', timeout: 15000, maxWait: 10000 });
+    if (!result.user) {
+      await securityEvent(this.db, request, result.throttled ? 'LOGIN_THROTTLED' : 'LOGIN_FAILURE', { accountHash: securityIdentity(d.email), count: result.count });
+      if (result.throttled) fail('LOGIN_THROTTLED', 'Vui lòng chờ trước khi thử đăng nhập lại.', 429);
+      fail('LOGIN_FAILED', 'Thông tin đăng nhập không đúng.', 401);
     }
-    if (u.role === "ADMIN") await this.otp(u.id, d.otp);
-    await this.db.storeSetting.deleteMany({
-      where: { key: `login:${bucket}` },
-    });
-    return u;
+    return result.user;
   }
   @Post("login") async login(
     @Body() body: unknown,
     @Req() r: AppRequest,
     @Res({ passthrough: true }) res: Response,
   ) {
-    const u = await this.credentials(body);
-    if (r.session)
-      await this.db.session.deleteMany({ where: { id: r.session.id } });
+    const checked = await this.credentials(body, r);
     const raw = secret(),
       csrf = csrfToken();
-    await this.db.session.create({
-      data: {
+    const u = await transaction(this.db, async tx => {
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${checked.id} FOR UPDATE`;
+      const current = await tx.user.findUniqueOrThrow({ where: { id: checked.id } });
+      if (current.disabled || current.passwordHash !== checked.passwordHash) fail('LOGIN_FAILED', 'Thông tin đăng nhập không đúng.', 401);
+      if (r.session) await tx.session.deleteMany({ where: { id: r.session.id } });
+      await tx.session.create({ data: {
         id: hash(raw),
-        userId: u.id,
+        userId: current.id,
         csrf,
         expiresAt: new Date(Date.now() + 7 * 86400000),
         agent: String(r.headers["user-agent"] || "Unknown").slice(0, 200),
-      },
+      } });
+      return current;
     });
+    r.actor = { id: u.id, email: u.email, name: u.name, role: u.role, verifiedAt: u.verifiedAt, disabled: u.disabled };
+    await securityEvent(this.db, r, 'LOGIN_SUCCESS');
     res.cookie("milo_sid", raw, { ...cookieOptions, maxAge: 7 * 86400000 });
     setCsrf(res, csrf);
     return {
@@ -322,7 +288,7 @@ export class AuthController {
     @Body() body: any,
     @Req() r: AppRequest,
   ) {
-    await this.credentials({ ...body, email: r.actor!.email });
+    await this.credentials({ ...body, email: r.actor!.email }, r);
     await this.db.session.update({
       where: { id: r.session.id },
       data: { reauthenticatedAt: new Date() },
@@ -361,9 +327,11 @@ export class AuthController {
   }
   @Post("reset") async reset(@Body() body: unknown) {
     const d = parse(
-      z.object({ token: z.string().min(20), password }).strict(),
+      z.object({ token: z.string().min(20).max(256), password }).strict(),
       body,
     );
+    const candidate = await this.db.authToken.findUnique({ where: { hash: hash(d.token) } });
+    if (!candidate || candidate.purpose !== 'RESET' || candidate.usedAt || candidate.expiresAt < new Date()) fail('TOKEN_INVALID', 'Liên kết không hợp lệ hoặc đã hết hạn.');
     await passwordPolicy(d.password);
     const ph = await passwordHash(d.password);
     await transaction(this.db, async (tx) => {
@@ -381,6 +349,7 @@ export class AuthController {
         data: { passwordHash: ph },
       });
       await tx.session.deleteMany({ where: { userId: t.userId } });
+      await audit(tx, t.userId, 'PASSWORD_RESET', 'User', t.userId);
     });
     return { message: "Đã đặt lại mật khẩu và thu hồi các phiên đăng nhập." };
   }
@@ -396,7 +365,7 @@ export class AuthController {
     const u = await this.db.user.findUniqueOrThrow({
       where: { id: r.actor!.id },
     });
-    if (!(await argon2.verify(u.passwordHash, d.currentPassword)))
+    if (!(await passwordWork(() => argon2.verify(u.passwordHash, d.currentPassword))))
       fail("PASSWORD_INVALID", "Mật khẩu hiện tại không đúng.", 401);
     await passwordPolicy(d.password);
     const ph = await passwordHash(d.password);
@@ -475,11 +444,12 @@ export class MeController {
       take: 50,
     });
   }
-  @Get("wishlist") wishlist(@Req() r: AppRequest) {
-    return this.db.wishlist.findMany({
+  @Get("wishlist") async wishlist(@Req() r: AppRequest) {
+    const rows = await this.db.wishlist.findMany({
       where: { userId: r.actor!.id },
-      include: { product: { include: { images: true, category: true } } },
+      select: { productId: true, product: { select: { id: true, slug: true, name: true, description: true, price: true, originalPrice: true, material: true, fit: true, care: true, featured: true, createdAt: true, design: true, images: true, category: true } } },
     });
+    return rows;
   }
   @Post("wishlist/:id") async wish(
     @Param("id") productId: string,

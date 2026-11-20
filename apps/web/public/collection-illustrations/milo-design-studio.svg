@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" fill="none">
+  <rect width="720" height="400" fill="#EDE6D8"/>
+  <circle cx="358" cy="203" r="154" fill="#E2D8C3"/>
+  <g transform="rotate(-7 351 203)">
+    <rect x="235" y="64" width="240" height="280" rx="9" fill="#FBF7ED" stroke="#D3C6AF" stroke-width="2"/>
+    <path d="M252 94H457M252 310H457M265 81V327M444 81V327" stroke="#E7DECC" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <path d="M311 119L283 130L253 183L287 205L304 180V285H410V180L427 205L461 183L430 130L402 119C379 136 334 136 311 119Z" fill="#86916D" stroke="#626C4C" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M311 119C327 156 385 155 402 119" stroke="#E8DEC7" stroke-width="7"/>
+    <path d="M313 278H400M285 138L264 179M430 138L452 179" stroke="#CBD0B3" stroke-width="2" stroke-dasharray="4 5"/>
+    <path d="M374 178H396V205C387 211 382 210 374 205Z" stroke="#D7D9C2" stroke-width="2"/>
+  </g>
+  <g transform="rotate(13 173 252)">
+    <path d="M153 213H195V294H153Z" fill="#C3946D"/>
+    <path d="M151 223H197M151 233H197M151 243H197M151 253H197M151 263H197M151 273H197M151 283H197" stroke="#E3BE95" stroke-width="3"/>
+    <rect x="143" y="207" width="62" height="14" rx="5" fill="#9A7154"/>
+    <rect x="143" y="288" width="62" height="14" rx="5" fill="#9A7154"/>
+    <path d="M198 259C232 259 207 321 247 325C275 328 277 301 296 302" stroke="#A97D5A" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(17 548 139)">
+    <rect x="501" y="82" width="69" height="91" rx="6" fill="#FAF6EC" stroke="#CABCA3" stroke-width="2"/>
+    <rect x="516" y="94" width="69" height="91" rx="6" fill="#B37B59" stroke="#F6EFE1" stroke-width="4"/>
+    <rect x="532" y="107" width="69" height="91" rx="6" fill="#7E8967" stroke="#F6EFE1" stroke-width="4"/>
+    <circle cx="543" cy="119" r="3" fill="#EDE6D8"/>
+  </g>
+  <path d="M536 251L491 302M538 252L572 311" stroke="#8A745D" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="488" cy="310" r="14" stroke="#8A745D" stroke-width="5"/>
+  <ellipse cx="579" cy="321" rx="13" ry="16" transform="rotate(-29 579 321)" stroke="#8A745D" stroke-width="5"/>
+  <circle cx="536" cy="252" r="4" fill="#D6C09D"/>
+  <path d="M142 109V129M132 119H152M598 244V260M590 252H606" stroke="#AF916C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M124 178H155M139 163V194" stroke="#C6B79C" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="582" cy="64" r="4" fill="#AF916C"/>
+</svg>

@@ -1,0 +1,231 @@
+{
+    "feature":  "Admin inventory",
+    "handoverDate":  "2026-11-19",
+    "timezone":  "Asia/Ho_Chi_Minh",
+    "typecheck":  {
+                      "status":  "PASS",
+                      "command":  "npm run typecheck",
+                      "rerunDuringHandover":  true
+                  },
+    "integration":  {
+                        "passed":  29,
+                        "database":  "milo_integration_test",
+                        "redisDatabase":  1,
+                        "source":  "Recorded successful implementation run before pause",
+                        "rerunDuringHandover":  false
+                    },
+    "productionFrontendBuild":  {
+                                    "status":  "PASS",
+                                    "artifact":  "apps/web/.next-redesign-production/BUILD_ID",
+                                    "artifactCreatedAt":  "2026-11-19T01:46:50+07:00"
+                                },
+    "productionE2E":  {
+                          "source":  "Persisted playwright-report/index.html, embedded report.json",
+                          "startedAt":  "2026-11-18T18:46:59.2440000+00:00",
+                          "durationMs":  57826.174,
+                          "stats":  {
+                                        "total":  14,
+                                        "expected":  14,
+                                        "unexpected":  0,
+                                        "flaky":  0,
+                                        "skipped":  0,
+                                        "ok":  true
+                                    },
+                          "database":  "milo_redesign_test",
+                          "redisDatabase":  2,
+                          "frontendPort":  3100,
+                          "apiPort":  4100,
+                          "mockPaymentAndShipping":  true,
+                          "rerunDuringHandover":  false,
+                          "files":  [
+                                        {
+                                            "file":  "admin-login.spec.ts",
+                                            "stats":  {
+                                                          "total":  1,
+                                                          "expected":  1,
+                                                          "unexpected":  0,
+                                                          "flaky":  0,
+                                                          "skipped":  0,
+                                                          "ok":  true
+                                                      },
+                                            "tests":  [
+                                                          {
+                                                              "title":  "Admin đăng nhập và xác thực lại bằng mật khẩu, không hiển thị ô mã OTP",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  2530
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "file":  "inventory.spec.ts",
+                                            "stats":  {
+                                                          "total":  3,
+                                                          "expected":  3,
+                                                          "unexpected":  0,
+                                                          "flaky":  0,
+                                                          "skipped":  0,
+                                                          "ok":  true
+                                                      },
+                                            "tests":  [
+                                                          {
+                                                              "title":  "kho: mở từng size, nhập/xuất/chỉnh sửa có xác nhận, lưu DB và lịch sử đúng",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  7609
+                                                          },
+                                                          {
+                                                              "title":  "kho: tìm SKU, lọc size/trạng thái, phân trang và mobile không tràn",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  4561
+                                                          },
+                                                          {
+                                                              "title":  "kho: chọn sản phẩm/size từ thanh công cụ và xử lý tồn vừa thay đổi",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  4107
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "file":  "modern-ui.spec.ts",
+                                            "stats":  {
+                                                          "total":  6,
+                                                          "expected":  6,
+                                                          "unexpected":  0,
+                                                          "flaky":  0,
+                                                          "skipped":  0,
+                                                          "ok":  true
+                                                      },
+                                            "tests":  [
+                                                          {
+                                                              "title":  "dropdown dùng bàn phím, chọn giá thật, Escape và resize không lỗi",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  1039
+                                                          },
+                                                          {
+                                                              "title":  "dropdown dài tìm tiếng Việt không dấu và đổi đúng SKU trong giỏ",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  1903
+                                                          },
+                                                          {
+                                                              "title":  "mọi tab quản trị dùng theme chung; sidebar thu gọn và 360px không tràn",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  6950
+                                                          },
+                                                          {
+                                                              "title":  "bảng quản trị tìm kiếm và phân trang không làm mất dữ liệu",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  1443
+                                                          },
+                                                          {
+                                                              "title":  "CRUD danh mục qua modal giữ FormData; select trong modal và focus hoạt động",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  3228
+                                                          },
+                                                          {
+                                                              "title":  "độ tương phản footer, control states và reduced-motion",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  535
+                                                          }
+                                                      ]
+                                        },
+                                        {
+                                            "file":  "shop.spec.ts",
+                                            "stats":  {
+                                                          "total":  4,
+                                                          "expected":  4,
+                                                          "unexpected":  0,
+                                                          "flaky":  0,
+                                                          "skipped":  0,
+                                                          "ok":  true
+                                                      },
+                                            "tests":  [
+                                                          {
+                                                              "title":  "360px, reduced motion và WebGL tắt vẫn chọn áo/thêm giỏ được",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  1582
+                                                          },
+                                                          {
+                                                              "title":  "Mua COD xuyên suốt và xử lý đơn Admin",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  6851
+                                                          },
+                                                          {
+                                                              "title":  "Mua QR xuyên suốt và xử lý đơn Admin",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  6624
+                                                          },
+                                                          {
+                                                              "title":  "bộ lọc tiếng Việt không dấu được lưu trong URL và tải lại",
+                                                              "outcome":  "expected",
+                                                              "durationMs":  801
+                                                          }
+                                                      ]
+                                        }
+                                    ]
+                      },
+    "visualReview":  {
+                         "status":  "PASS",
+                         "widths":  [
+                                        360,
+                                        768,
+                                        1280,
+                                        1440
+                                    ],
+                         "screenshotsReviewed":  6,
+                         "directory":  "docs/inventory/previews",
+                         "fixtureDatabase":  "milo_redesign_test",
+                         "historicalPreviewsVerified":  26,
+                         "regressionScreenshotsPreserved":  9
+                     },
+    "runtime":  {
+                    "at":  "2026-11-19T03:37:05.866Z",
+                    "database":  "milo",
+                    "mode":  "read-only",
+                    "products":  90,
+                    "variants":  1520,
+                    "inventories":  1520,
+                    "invalidBalances":  0,
+                    "inventoryQaFixtures":  0,
+                    "migration":  {
+                                      "migration_name":  "202611190009_inventory_ledger",
+                                      "finished_at":  "2026-11-18T18:29:57.713Z"
+                                  },
+                    "http":  [
+                                 {
+                                     "url":  "http://localhost:3000/",
+                                     "status":  200,
+                                     "expected":  200
+                                 },
+                                 {
+                                     "url":  "http://localhost:3000/admin",
+                                     "status":  200,
+                                     "expected":  200
+                                 },
+                                 {
+                                     "url":  "http://localhost:4000/api/v1/config",
+                                     "status":  200,
+                                     "expected":  200
+                                 },
+                                 {
+                                     "url":  "http://localhost:3000/api/v1/admin/inventory/overview",
+                                     "status":  401,
+                                     "expected":  401
+                                 },
+                                 {
+                                     "url":  "http://localhost:3000/api/v1/admin/inventory/options",
+                                     "status":  401,
+                                     "expected":  401
+                                 },
+                                 {
+                                     "url":  "http://localhost:3000/api/v1/admin/inventory/history",
+                                     "status":  401,
+                                     "expected":  401
+                                 }
+                             ]
+                },
+    "limitations":  [
+                        "Single MAIN warehouse",
+                        "Legacy ledger has no historical balance snapshots",
+                        "Chromium automation; physical iOS/Android not tested",
+                        "Provider mock tests do not verify live payments or shipping"
+                    ]
+}

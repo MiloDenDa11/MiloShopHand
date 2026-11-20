@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-panel-wind",
+  "colorKey": "original",
+  "colorHex": "#d2c6ad",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:35:57.760Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-panel-wind/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-5dc4d549-ec25-4482-8d4a-4496079a2558.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Panel Wind Jacket, base colour #d2c6ad. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"contrast-yoke\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"zip\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1923265,
+      "sha256": "abce54fe5ec89c557085fa4536d8acebf4eb3307e529a0d39a5f8a6a05c9ddfe",
+      "frames": [
+        {
+          "x": 43,
+          "y": 18,
+          "width": 430,
+          "height": 459
+        },
+        {
+          "x": 56,
+          "y": 15,
+          "width": 404,
+          "height": 462
+        },
+        {
+          "x": 81,
+          "y": 14,
+          "width": 337,
+          "height": 463
+        },
+        {
+          "x": 137,
+          "y": 10,
+          "width": 270,
+          "height": 471
+        },
+        {
+          "x": 149,
+          "y": 9,
+          "width": 216,
+          "height": 477
+        },
+        {
+          "x": 153,
+          "y": 9,
+          "width": 196,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-panel-wind/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2ee572b8-fc75-4813-a328-ca0aa8f1f819.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Panel Wind Jacket, base colour #d2c6ad. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"contrast-yoke\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"zip\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1865425,
+      "sha256": "6b524a4120a595ebfbb351b1ad1ba1c591fdcba3eb8a75c54ec5c89534a8d3a8",
+      "frames": [
+        {
+          "x": 172,
+          "y": 14,
+          "width": 174,
+          "height": 483
+        },
+        {
+          "x": 160,
+          "y": 14,
+          "width": 192,
+          "height": 484
+        },
+        {
+          "x": 143,
+          "y": 14,
+          "width": 213,
+          "height": 484
+        },
+        {
+          "x": 131,
+          "y": 14,
+          "width": 263,
+          "height": 482
+        },
+        {
+          "x": 92,
+          "y": 14,
+          "width": 313,
+          "height": 481
+        },
+        {
+          "x": 63,
+          "y": 14,
+          "width": 370,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-panel-wind/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-06b33b38-62cf-4a41-a830-fb674f4011b7.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Panel Wind Jacket, base colour #d2c6ad. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"contrast-yoke\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"zip\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1818062,
+      "sha256": "1c35548d2646442c22b0485820b464aa8ebf81c1987d3c48ad8d5e02c465b90c",
+      "frames": [
+        {
+          "x": 37,
+          "y": 16,
+          "width": 435,
+          "height": 453
+        },
+        {
+          "x": 60,
+          "y": 16,
+          "width": 399,
+          "height": 454
+        },
+        {
+          "x": 95,
+          "y": 16,
+          "width": 340,
+          "height": 456
+        },
+        {
+          "x": 143,
+          "y": 16,
+          "width": 249,
+          "height": 467
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 215,
+          "height": 468
+        },
+        {
+          "x": 166,
+          "y": 16,
+          "width": 200,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-panel-wind/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7f91153b-ffe6-4f58-978f-7baff9ebbacd.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Panel Wind Jacket, base colour #d2c6ad. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"contrast-yoke\",\"collar\":\"stand\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"zip\"}, Nylon. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1768300,
+      "sha256": "d800080466743c59d9215c2a318e5f8cc7a5dedb43dd5edb2c4e039f07112ff1",
+      "frames": [
+        {
+          "x": 158,
+          "y": 14,
+          "width": 175,
+          "height": 479
+        },
+        {
+          "x": 151,
+          "y": 16,
+          "width": 198,
+          "height": 469
+        },
+        {
+          "x": 127,
+          "y": 16,
+          "width": 266,
+          "height": 469
+        },
+        {
+          "x": 98,
+          "y": 17,
+          "width": 331,
+          "height": 467
+        },
+        {
+          "x": 69,
+          "y": 17,
+          "width": 379,
+          "height": 462
+        },
+        {
+          "x": 45,
+          "y": 16,
+          "width": 432,
+          "height": 461
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

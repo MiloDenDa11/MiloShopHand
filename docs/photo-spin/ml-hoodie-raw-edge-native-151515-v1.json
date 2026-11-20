@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-raw-edge",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T09:29:28.920Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-raw-edge/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-7ea21e77-2cfe-4f1f-a973-6401921074e0.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raw Edge Hoodie, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRAW EDGE construction: preserve cream frayed exposed shoulder seams, frayed hood opening and raw frayed straight hem. Preserve cream knotted drawstrings, cream rib cuffs and frayed kangaroo pocket edging; no rib waistband. Main loopback body/sleeves/hood are target colour. Same raw edge construction in every view.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1765895,
+      "sha256": "b21670a0fd05428ec5719047da3d9d97e1588429ccdb3dd23b585274f4b26c38",
+      "frames": [
+        {
+          "x": 80,
+          "y": 20,
+          "width": 368,
+          "height": 411
+        },
+        {
+          "x": 81,
+          "y": 21,
+          "width": 348,
+          "height": 414
+        },
+        {
+          "x": 86,
+          "y": 20,
+          "width": 304,
+          "height": 418
+        },
+        {
+          "x": 134,
+          "y": 3,
+          "width": 264,
+          "height": 408
+        },
+        {
+          "x": 145,
+          "y": 3,
+          "width": 220,
+          "height": 413
+        },
+        {
+          "x": 132,
+          "y": 3,
+          "width": 203,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-raw-edge/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-2177d838-241f-4b55-9ee9-6b6e2bcfc17b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raw Edge Hoodie, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRAW EDGE construction: preserve cream frayed exposed shoulder seams, frayed hood opening and raw frayed straight hem. Preserve cream knotted drawstrings, cream rib cuffs and frayed kangaroo pocket edging; no rib waistband. Main loopback body/sleeves/hood are target colour. Same raw edge construction in every view.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1768499,
+      "sha256": "2a93a020952e650a83ef093ace7058760cae851bfc762273d2f49e962ce15782",
+      "frames": [
+        {
+          "x": 164,
+          "y": 22,
+          "width": 201,
+          "height": 454
+        },
+        {
+          "x": 137,
+          "y": 21,
+          "width": 215,
+          "height": 454
+        },
+        {
+          "x": 101,
+          "y": 21,
+          "width": 260,
+          "height": 449
+        },
+        {
+          "x": 100,
+          "y": 16,
+          "width": 311,
+          "height": 459
+        },
+        {
+          "x": 66,
+          "y": 17,
+          "width": 364,
+          "height": 457
+        },
+        {
+          "x": 46,
+          "y": 16,
+          "width": 395,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-raw-edge/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-b092bdbd-bada-464c-885c-5452dec6bde4.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raw Edge Hoodie, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRAW EDGE construction: preserve cream frayed exposed shoulder seams, frayed hood opening and raw frayed straight hem. Preserve cream knotted drawstrings, cream rib cuffs and frayed kangaroo pocket edging; no rib waistband. Main loopback body/sleeves/hood are target colour. Same raw edge construction in every view.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1735620,
+      "sha256": "1e4e28dda3c2991b13d9d327fb8c83f2aa2cf909879d6a9a0a3b50589f58cdd0",
+      "frames": [
+        {
+          "x": 77,
+          "y": 22,
+          "width": 393,
+          "height": 436
+        },
+        {
+          "x": 73,
+          "y": 24,
+          "width": 367,
+          "height": 435
+        },
+        {
+          "x": 86,
+          "y": 24,
+          "width": 314,
+          "height": 435
+        },
+        {
+          "x": 147,
+          "y": 19,
+          "width": 245,
+          "height": 444
+        },
+        {
+          "x": 134,
+          "y": 17,
+          "width": 229,
+          "height": 446
+        },
+        {
+          "x": 141,
+          "y": 18,
+          "width": 204,
+          "height": 445
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-raw-edge/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-c193a779-fcc7-437e-a476-3fb98d4de5bc.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raw Edge Hoodie, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRAW EDGE construction: preserve cream frayed exposed shoulder seams, frayed hood opening and raw frayed straight hem. Preserve cream knotted drawstrings, cream rib cuffs and frayed kangaroo pocket edging; no rib waistband. Main loopback body/sleeves/hood are target colour. Same raw edge construction in every view.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1693009,
+      "sha256": "30015b5427656cd41a70a2335b3f27bdbf8b7049c0fb152bbcc1fbfad6d0bed8",
+      "frames": [
+        {
+          "x": 114,
+          "y": 20,
+          "width": 217,
+          "height": 470
+        },
+        {
+          "x": 114,
+          "y": 20,
+          "width": 216,
+          "height": 470
+        },
+        {
+          "x": 107,
+          "y": 21,
+          "width": 280,
+          "height": 468
+        },
+        {
+          "x": 92,
+          "y": 19,
+          "width": 327,
+          "height": 470
+        },
+        {
+          "x": 66,
+          "y": 20,
+          "width": 367,
+          "height": 469
+        },
+        {
+          "x": 47,
+          "y": 18,
+          "width": 398,
+          "height": 466
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 views: black loopback hoodie preserves cream frayed shoulder/hood/pocket/hem edges, cream knotted cords and cream rib cuffs. Straight raw hem has no rib waistband; ivory chest/back art and pocket construction remain coherent across all four quarters.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

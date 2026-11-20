@@ -1,0 +1,222 @@
+{
+  "slug": "heavyweight-zip-hoodie",
+  "colorKey": "original",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:14:23.332Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/heavyweight-zip-hoodie/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-b913bfc4-79f6-486c-88c8-794b9bfbaed9.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Heavyweight Zip Hoodie, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy cotton hooded sweatshirt with drawcords and FULL CENTRE ZIP, split kangaroo pockets and rib cuffs/hem; floral M and MiloShopHand back art. Reference overrides metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1612518,
+      "sha256": "1b4658c6909a58b5b44671a32a7c2271e82db9084a8d57ae60c096aead67fda1",
+      "frames": [
+        {
+          "x": 63,
+          "y": 21,
+          "width": 396,
+          "height": 440
+        },
+        {
+          "x": 66,
+          "y": 21,
+          "width": 377,
+          "height": 447
+        },
+        {
+          "x": 89,
+          "y": 19,
+          "width": 312,
+          "height": 452
+        },
+        {
+          "x": 142,
+          "y": 13,
+          "width": 249,
+          "height": 466
+        },
+        {
+          "x": 160,
+          "y": 9,
+          "width": 192,
+          "height": 476
+        },
+        {
+          "x": 155,
+          "y": 7,
+          "width": 194,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/heavyweight-zip-hoodie/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ac313743-11c8-45bd-a3c0-faa089135079.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Heavyweight Zip Hoodie, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy cotton hooded sweatshirt with drawcords and FULL CENTRE ZIP, split kangaroo pockets and rib cuffs/hem; floral M and MiloShopHand back art. Reference overrides metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1902251,
+      "sha256": "9bf9fb3b84d4c48518e07f8f5c97f1c796a15a9c1bbdd9562c2c63a4d7f71c13",
+      "frames": [
+        {
+          "x": 159,
+          "y": 11,
+          "width": 193,
+          "height": 483
+        },
+        {
+          "x": 157,
+          "y": 11,
+          "width": 197,
+          "height": 483
+        },
+        {
+          "x": 151,
+          "y": 11,
+          "width": 203,
+          "height": 483
+        },
+        {
+          "x": 143,
+          "y": 10,
+          "width": 234,
+          "height": 483
+        },
+        {
+          "x": 116,
+          "y": 10,
+          "width": 280,
+          "height": 483
+        },
+        {
+          "x": 79,
+          "y": 11,
+          "width": 347,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/heavyweight-zip-hoodie/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-8d33bd1a-08d3-485b-9d9f-779d1bca1de2.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Heavyweight Zip Hoodie, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy cotton hooded sweatshirt with drawcords and FULL CENTRE ZIP, split kangaroo pockets and rib cuffs/hem; floral M and MiloShopHand back art. Reference overrides metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1645963,
+      "sha256": "9ce35006490f8ece4c8aeeee8cca18f47761b20d6c54d4a26eabf8f18b794bfd",
+      "frames": [
+        {
+          "x": 50,
+          "y": 14,
+          "width": 411,
+          "height": 458
+        },
+        {
+          "x": 69,
+          "y": 19,
+          "width": 373,
+          "height": 459
+        },
+        {
+          "x": 90,
+          "y": 19,
+          "width": 314,
+          "height": 466
+        },
+        {
+          "x": 147,
+          "y": 16,
+          "width": 248,
+          "height": 476
+        },
+        {
+          "x": 149,
+          "y": 14,
+          "width": 247,
+          "height": 479
+        },
+        {
+          "x": 145,
+          "y": 14,
+          "width": 203,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/heavyweight-zip-hoodie/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-2dd4458b-b7e1-46a2-90fa-f31921a78c04.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Heavyweight Zip Hoodie, base colour #34465b. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Navy cotton hooded sweatshirt with drawcords and FULL CENTRE ZIP, split kangaroo pockets and rib cuffs/hem; floral M and MiloShopHand back art. Reference overrides metadata. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1731304,
+      "sha256": "d9b690e12607099eebcdb407137734967b84440d074b31d9c1dd63605b7f4860",
+      "frames": [
+        {
+          "x": 155,
+          "y": 13,
+          "width": 195,
+          "height": 492
+        },
+        {
+          "x": 145,
+          "y": 13,
+          "width": 235,
+          "height": 491
+        },
+        {
+          "x": 109,
+          "y": 13,
+          "width": 290,
+          "height": 486
+        },
+        {
+          "x": 95,
+          "y": 13,
+          "width": 339,
+          "height": 486
+        },
+        {
+          "x": 65,
+          "y": 13,
+          "width": 387,
+          "height": 480
+        },
+        {
+          "x": 40,
+          "y": 13,
+          "width": 423,
+          "height": 480
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

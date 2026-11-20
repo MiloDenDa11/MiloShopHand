@@ -1,5 +1,9 @@
 # Báo cáo bàn giao — 05/11/2026 (Asia/Ho_Chi_Minh)
 
+> Bàn giao quản lý kho ngày 19/11/2026: [tồn theo màu/size, nhập/xuất/kiểm kê và lịch sử](INVENTORY.md). Đã xác nhận 29/29 integration và 14/14 E2E trên frontend production build; kiểm tra trực quan desktop/tablet/mobile hoàn tất. TypeScript được kiểm tra lại thành công khi tiếp tục bàn giao. Database cửa hàng có 90 sản phẩm/1.520 SKU, không có fixture kho QA hoặc số tồn vi phạm ràng buộc; xem [bằng chứng tổng hợp](inventory/verification.json).
+
+> Cập nhật quyền Admin ngày 19/11/2026: [đăng nhập bằng mật khẩu và phân quyền ADMIN](ADMIN-AUTH.md). Các kết quả TOTP bên dưới là lịch sử, không còn là yêu cầu đăng nhập hiện tại.
+
 > Cập nhật UI ngày 06/11/2026: [Milo Design — nút bo tròn, nền hoa lá, đổi màu và chuyển động Three.js](MILO-DESIGN-UI.md), kèm kết quả kiểm thử mới. Các mốc bàn giao bên dưới được giữ làm lịch sử.
 
 > Cập nhật mới nhất: [ảnh gốc và bộ ảnh 24 góc xoay quanh Oy](PHOTO-SPIN.md). Viewer GLB đã được thay trên giao diện; báo cáo GLB bên dưới là lịch sử. Phạm vi ảnh mới và số còn thiếu được ghi riêng, không coi toàn bộ danh mục đã có ảnh 360°.

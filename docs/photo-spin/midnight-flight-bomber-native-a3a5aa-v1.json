@@ -1,0 +1,222 @@
+{
+  "slug": "midnight-flight-bomber",
+  "colorKey": "native-a3a5aa-v1",
+  "colorHex": "#a3a5aa",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T08:04:27.841Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/native-a3a5aa-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-ef7b2b5d-ea0d-4ee5-b71b-e4c2684c5b49.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Midnight Flight Bomber, Xám #a3a5aa, quarter0.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\n\nDesign a finished Xám #a3a5aa main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT. No back artwork visible.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1950617,
+      "sha256": "af72e7775cd11f757e75cdf7362bded5261dc56725393b7a51a0bde6f5b1a89a",
+      "frames": [
+        {
+          "x": 34,
+          "y": 36,
+          "width": 443,
+          "height": 439
+        },
+        {
+          "x": 40,
+          "y": 34,
+          "width": 426,
+          "height": 449
+        },
+        {
+          "x": 63,
+          "y": 32,
+          "width": 381,
+          "height": 453
+        },
+        {
+          "x": 87,
+          "y": 28,
+          "width": 326,
+          "height": 464
+        },
+        {
+          "x": 117,
+          "y": 28,
+          "width": 275,
+          "height": 464
+        },
+        {
+          "x": 145,
+          "y": 28,
+          "width": 213,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/native-a3a5aa-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-f39f1e7d-7a72-4c2d-8938-bcb924187750.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Midnight Flight Bomber, Xám #a3a5aa, quarter1.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xám #a3a5aa main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; front chest ML is hidden.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1836271,
+      "sha256": "334930c9862f1ae4be29a167aa944fc127b70b7339e05c70a4bec2505897335c",
+      "frames": [
+        {
+          "x": 149,
+          "y": 25,
+          "width": 209,
+          "height": 467
+        },
+        {
+          "x": 127,
+          "y": 27,
+          "width": 223,
+          "height": 465
+        },
+        {
+          "x": 104,
+          "y": 28,
+          "width": 248,
+          "height": 464
+        },
+        {
+          "x": 102,
+          "y": 25,
+          "width": 313,
+          "height": 466
+        },
+        {
+          "x": 82,
+          "y": 25,
+          "width": 345,
+          "height": 466
+        },
+        {
+          "x": 42,
+          "y": 25,
+          "width": 402,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/native-a3a5aa-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-4d01b62a-c705-4e98-8b5f-ae617c775df3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Midnight Flight Bomber, Xám #a3a5aa, quarter2.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xám #a3a5aa main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile, back graphic naturally foreshortens and disappears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1866352,
+      "sha256": "c42b6f3113997ee69230901844223ea5a8e414f9557f6e631c6eb5a1a4ddfa58",
+      "frames": [
+        {
+          "x": 57,
+          "y": 23,
+          "width": 427,
+          "height": 454
+        },
+        {
+          "x": 62,
+          "y": 22,
+          "width": 385,
+          "height": 461
+        },
+        {
+          "x": 92,
+          "y": 21,
+          "width": 311,
+          "height": 467
+        },
+        {
+          "x": 140,
+          "y": 20,
+          "width": 261,
+          "height": 473
+        },
+        {
+          "x": 143,
+          "y": 18,
+          "width": 228,
+          "height": 477
+        },
+        {
+          "x": 159,
+          "y": 18,
+          "width": 207,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/midnight-flight-bomber/native-a3a5aa-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-6f871d05-2cb5-4a84-a54f-4154fec92a47.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Midnight Flight Bomber, Xám #a3a5aa, quarter3.\nInput image1 is the authoritative EDIT TARGET. Preserve EXACT source six upright poses, camera angles, garment cut, seams, collar/hood, sleeve length, pockets, closures, panel shapes, cloth folds, scale, cell layout and warm ivory studio background.\nInput image2 is the approved new colour anchor; match fabric, contrast panels, trim and brand ink exactly.\nDesign a finished Xám #a3a5aa main fabric with even, natural dyed cloth and realistic light/shadow. No translucent colour filter, neon patches, blotches, halos or grey overpaint. Preserve source material texture: Nylon chống gió, lót thoáng.\nKeep structural contrast trim and panels tastefully contrasting if present in source.  Never change their shapes or swap body/sleeve material roles at side angles. Keep pockets same main fabric unless source is contrasted.\nBranding: preserve source graphic shapes/position, use charcoal #30302f for readable ink. ONE intact interwoven ML on wearer's left chest only when front is visible; source back artwork and exact text \"MiloShopHand\" only when back is visible. Continuous clean strokes, no fragmented or duplicated marks, no extra front or sleeve graphics.\nEXACTLY3columns x2rows, six equal square cells, native1536x1024 resolution. Full garment in every cell with margin. Read order row-major. These exact source views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; NO BACK graphics visible, single chest ML gradually appears.\nNo labels, captions, borders, grid lines, mannequins, people, hanger or watermark. Commercial studio product photography. Change only colour styling; maintain the identity of this specific garment.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1936287,
+      "sha256": "b14367b24201a6684e520730a95742ffff3a3c18a5ba0d30e2f661bc917edb2d",
+      "frames": [
+        {
+          "x": 155,
+          "y": 19,
+          "width": 195,
+          "height": 470
+        },
+        {
+          "x": 131,
+          "y": 20,
+          "width": 228,
+          "height": 470
+        },
+        {
+          "x": 100,
+          "y": 20,
+          "width": 275,
+          "height": 470
+        },
+        {
+          "x": 81,
+          "y": 19,
+          "width": 335,
+          "height": 472
+        },
+        {
+          "x": 46,
+          "y": 18,
+          "width": 391,
+          "height": 472
+        },
+        {
+          "x": 24,
+          "y": 19,
+          "width": 443,
+          "height": 461
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all 24 views in the contact sheet for this exact colour. Flight pocket, ribbed collar, zip and satin highlights remain coherent. Colour stays even around front, side and back with isolated branding and no blotchy tint, white sleeve fragments or colour spill.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

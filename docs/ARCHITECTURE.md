@@ -2,13 +2,13 @@
 
 Một cửa hàng, một kho MAIN ban đầu. Next.js storefront/Admin gọi NestJS /api/v1 cùng origin qua reverse proxy. Prisma/PostgreSQL là nguồn sự thật. Redis phục vụ cache/rate limit/BullMQ; worker xử lý transactional outbox, expiry và đối soát. Module auth, catalog, commerce, providers, admin; không có đa nhà bán hàng.
 
-VND nguyên, thời điểm UTC, UI Asia/Ho_Chi_Minh. Một coupon/đơn, không cộng dồn. Thuế mặc định 0. Phí phát triển 30.000đ, miễn từ 699.000đ; production dùng GHN. QR mock là dữ liệu kiểm thử, không chuyển tiền. Admin tạo qua CLI, không có mật khẩu mặc định; bắt buộc TOTP. Season/climate/campaign là thuộc tính Collection cấu hình được.
+VND nguyên, thời điểm UTC, UI Asia/Ho_Chi_Minh. Một coupon/đơn, không cộng dồn. Thuế mặc định 0. Phí phát triển 30.000đ, miễn từ 699.000đ; production dùng GHN. QR mock là dữ liệu kiểm thử, không chuyển tiền. Admin tạo hoặc cấp quyền qua CLI, không có mật khẩu mặc định; đăng nhập email/mật khẩu, kiểm tra vai trò ADMIN, không yêu cầu OTP. Season/climate/campaign là thuộc tính Collection cấu hình được.
 
 ```mermaid
 erDiagram
  User ||--o{ Session : owns
  User ||--o{ AuthToken : verification_reset
- User ||--o| MFA : protects
+ User ||--o| MFA : legacy_unused
  User ||--o{ Address : owns
  Category ||--o{ Product : contains
  Product }o--o{ Collection : belongs
@@ -44,9 +44,11 @@ erDiagram
  Order ||--o{ OutboxEvent : emits
 ```
 
-AuthToken gộp verification/reset bằng purpose; token và recovery codes lưu hash. Snapshot đơn giữ tên, SKU, thuộc tính, đơn giá, giá vốn, phân bổ giảm và địa chỉ. Lưu location chỉ cho giao hàng, marketing opt-in riêng.
+AuthToken gộp verification/reset bằng purpose; token lưu hash. Bảng MFA cũ được giữ để không thay schema/dữ liệu, không tham gia đăng nhập hoặc xác thực lại. Snapshot đơn giữ tên, SKU, thuộc tính, đơn giá, giá vốn, phân bổ giảm và địa chỉ. Lưu location chỉ cho giao hàng, marketing opt-in riêng.
 
-| Quyền | Khách | USER | ADMIN + MFA |
+Quản lý kho nhóm Product → SKU màu/size → Inventory MAIN. StockMovement bổ sung loại giao dịch và snapshot tồn trước/sau bằng trigger khi ghi movement; lịch sử cũ không suy đoán số tồn. Nhập/xuất/kiểm kê dùng chung Serializable transaction, khóa dòng, expectedOnHand, idempotency và audit, bảo toàn reserved. Xem [Quản lý kho](INVENTORY.md).
+
+| Quyền | Khách | USER | ADMIN |
 |---|---|---|---|
 | Catalog, chính sách | đọc | đọc | đọc |
 | Cart | local | của mình, merge | của mình |
@@ -62,7 +64,7 @@ AuthToken gộp verification/reset bằng purpose; token và recovery codes lưu
 | checkout → PENDING_PAYMENT | verified user, QR | reserve nguyên tử; deadline đồng bộ link |
 | checkout → PENDING_CONFIRMATION | verified user, COD dưới hạn | reserve; UNPAID; hạn xác nhận |
 | PENDING_PAYMENT → PENDING_CONFIRMATION | provider evidence, đúng tiền/VND/còn hạn | PAID; reference unique; notification |
-| PENDING_CONFIRMATION → CONFIRMED → PACKING → READY_TO_SHIP | admin MFA | history và outbox |
+| PENDING_CONFIRMATION → CONFIRMED → PACKING → READY_TO_SHIP | admin | history và outbox |
 | READY_TO_SHIP → SHIPPED | admin/carrier; QR PAID; vận đơn có thật | giảm onHand và reserved đúng một lần |
 | SHIPPED → DELIVERED → COMPLETED | carrier đã đối soát/admin có chứng cứ | COD collected tách remitted |
 | trước SHIPPED → CANCELLED | owner ở giai đoạn cho phép/admin/expiry đã reconcile | release ACTIVE đúng một lần; paid mở refund |

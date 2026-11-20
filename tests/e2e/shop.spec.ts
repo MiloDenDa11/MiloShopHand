@@ -30,9 +30,10 @@ async function fixture() {
 }
 async function login(page: any, u: any) {
   await page.goto("/dang-nhap");
-  await page.getByLabel("Email", { exact: true }).fill(u.email);
-  await page.getByLabel("Mật khẩu", { exact: true }).fill(u.password);
-  await page.getByRole("button", { name: "Đăng nhập", exact: true }).click();
+  const form = page.locator('#main .auth-form:visible');
+  await form.getByLabel("Email", { exact: true }).fill(u.email);
+  await form.getByLabel("Mật khẩu", { exact: true }).fill(u.password);
+  await form.getByRole("button", { name: "Đăng nhập", exact: true }).click();
   await expect(
     page.getByRole("heading", { name: "Xin chào, E2E." }),
   ).toBeVisible();
@@ -148,7 +149,7 @@ for (const method of ["COD", "QR"])
       await page.evaluate(() => window.scrollTo({ top: 0, behavior: "instant" }));
       await page.screenshot({ path: "docs/ui-redesign/previews/order-QR.png", fullPage: true });
     }
-    // Test-only authenticated admin session; production bootstrap uses TOTP CLI.
+    // Test-only authenticated admin session; normal Admin login uses email/password.
     const admin = await db.user.create({
       data: {
         email: `e2e-admin-${randomBytes(8).toString("hex")}@example.test`,

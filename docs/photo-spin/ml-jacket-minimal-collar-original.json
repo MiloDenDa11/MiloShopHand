@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-minimal-collar",
+  "colorKey": "original",
+  "colorHex": "#e4d7be",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:28:28.829Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-minimal-collar/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-7ffa5e62-a3fd-4fe5-bcb6-c016555a6354.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Minimal Collar Jacket, base colour #e4d7be. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"minimal\",\"collar\":\"collarless\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton twill. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1899984,
+      "sha256": "a6be31b8e9cbd63eaa03c717964c2af18b04861bc5b057882ba1f126a290b3d1",
+      "frames": [
+        {
+          "x": 40,
+          "y": 31,
+          "width": 434,
+          "height": 442
+        },
+        {
+          "x": 50,
+          "y": 28,
+          "width": 412,
+          "height": 447
+        },
+        {
+          "x": 72,
+          "y": 28,
+          "width": 366,
+          "height": 447
+        },
+        {
+          "x": 120,
+          "y": 24,
+          "width": 290,
+          "height": 453
+        },
+        {
+          "x": 144,
+          "y": 20,
+          "width": 228,
+          "height": 462
+        },
+        {
+          "x": 171,
+          "y": 20,
+          "width": 193,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-minimal-collar/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-c757693a-c071-4a5e-bd4f-16dab1edfa92.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Minimal Collar Jacket, base colour #e4d7be. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"minimal\",\"collar\":\"collarless\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton twill. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1786524,
+      "sha256": "7648b1ed2a2b2cb7b2332980111b18b6a3b8f3b9f56d38549a956ce0a36cf20d",
+      "frames": [
+        {
+          "x": 165,
+          "y": 23,
+          "width": 184,
+          "height": 467
+        },
+        {
+          "x": 153,
+          "y": 23,
+          "width": 199,
+          "height": 467
+        },
+        {
+          "x": 139,
+          "y": 23,
+          "width": 220,
+          "height": 467
+        },
+        {
+          "x": 126,
+          "y": 22,
+          "width": 274,
+          "height": 466
+        },
+        {
+          "x": 88,
+          "y": 22,
+          "width": 336,
+          "height": 464
+        },
+        {
+          "x": 59,
+          "y": 23,
+          "width": 394,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-minimal-collar/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-9e82140e-df55-4f06-ba1f-79a323dfa4cf.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Minimal Collar Jacket, base colour #e4d7be. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"minimal\",\"collar\":\"collarless\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton twill. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1785601,
+      "sha256": "afa611e86a8f3afa811fba4b3ad902c1d0ae4c79518b14eb9d9146c8ca0a62f7",
+      "frames": [
+        {
+          "x": 43,
+          "y": 27,
+          "width": 426,
+          "height": 446
+        },
+        {
+          "x": 68,
+          "y": 25,
+          "width": 380,
+          "height": 449
+        },
+        {
+          "x": 97,
+          "y": 24,
+          "width": 325,
+          "height": 456
+        },
+        {
+          "x": 128,
+          "y": 20,
+          "width": 251,
+          "height": 465
+        },
+        {
+          "x": 149,
+          "y": 19,
+          "width": 218,
+          "height": 467
+        },
+        {
+          "x": 154,
+          "y": 18,
+          "width": 211,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-minimal-collar/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-1d6cdabd-f92e-4ea7-92e4-c529ad307e76.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Minimal Collar Jacket, base colour #e4d7be. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"straight\",\"panel\":\"minimal\",\"collar\":\"collarless\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":true,\"pockets\":\"welt\"}, Cotton twill. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1586248,
+      "sha256": "bf17eadbf1aae5542e789966dea9b946f368f85f9cb498b4ce84fd5a90eb10d6",
+      "frames": [
+        {
+          "x": 170,
+          "y": 21,
+          "width": 176,
+          "height": 472
+        },
+        {
+          "x": 147,
+          "y": 22,
+          "width": 209,
+          "height": 468
+        },
+        {
+          "x": 118,
+          "y": 24,
+          "width": 269,
+          "height": 458
+        },
+        {
+          "x": 99,
+          "y": 23,
+          "width": 321,
+          "height": 458
+        },
+        {
+          "x": 78,
+          "y": 24,
+          "width": 357,
+          "height": 453
+        },
+        {
+          "x": 56,
+          "y": 26,
+          "width": 405,
+          "height": 446
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

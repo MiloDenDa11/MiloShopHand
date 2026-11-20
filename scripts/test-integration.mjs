@@ -16,6 +16,10 @@ const testEnv = {
   EMAIL_PROVIDER: "file",
   SKIP_BREACH_CHECK: "true",
   NODE_ENV: "development",
+  API_HOST: '127.0.0.1',
+  TRUST_PROXY: '',
+  UPLOAD_DIR: '.local/test-storage/integration/uploads',
+  RETURN_UPLOAD_DIR: '.local/test-storage/integration/return-images',
 };
 const adminUrl = new URL(process.env.DATABASE_URL);
 adminUrl.pathname = "/postgres";
@@ -59,9 +63,13 @@ try {
   api.stdout.on("data", (b) => process.stdout.write(b));
   api.stderr.on("data", (b) => process.stderr.write(b));
   let ready = false;
-  for (let n = 0; n < 150; n++) {
+  // Cold Windows/OneDrive TypeScript imports can take longer than 30 seconds.
+  // Keep the health probe bounded and surface an actual process exit promptly.
+  const readinessDeadline = Date.now() + 90_000;
+  while (Date.now() < readinessDeadline) {
+    if (api.exitCode !== null) throw new Error(`Test API exited ${api.exitCode} before readiness`);
     try {
-      const r = await fetch(testEnv.TEST_API_URL + "/config");
+      const r = await fetch(testEnv.TEST_API_URL + "/config", {signal: AbortSignal.timeout(2000)});
       if (r.ok) {
         ready = true;
         break;
@@ -77,6 +85,8 @@ try {
     "--test-concurrency=1",
     "tests/integration.test.ts",
     "tests/catalog.integration.test.ts",
+    "tests/inventory.integration.test.ts",
+    "tests/security.integration.test.ts",
   ]);
 } catch (e) {
   console.error(e.message);

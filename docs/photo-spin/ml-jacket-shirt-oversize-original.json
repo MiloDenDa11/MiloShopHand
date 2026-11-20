@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-shirt-oversize",
+  "colorKey": "original",
+  "colorHex": "#8a8b7d",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:46:32.245Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-shirt-oversize/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-adc1a3f0-e344-42af-8711-5bd334274e2b.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Shirt Oversize Jacket, base colour #8a8b7d. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"overshirt\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"two-chest\"}, Cotton chải. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2001589,
+      "sha256": "809641314a171d9b5055594e38afea80e3abb4efffd973f92c944b3dbd9dd1ea",
+      "frames": [
+        {
+          "x": 39,
+          "y": 17,
+          "width": 436,
+          "height": 463
+        },
+        {
+          "x": 56,
+          "y": 17,
+          "width": 401,
+          "height": 463
+        },
+        {
+          "x": 77,
+          "y": 16,
+          "width": 342,
+          "height": 465
+        },
+        {
+          "x": 138,
+          "y": 12,
+          "width": 267,
+          "height": 471
+        },
+        {
+          "x": 164,
+          "y": 13,
+          "width": 215,
+          "height": 470
+        },
+        {
+          "x": 177,
+          "y": 25,
+          "width": 197,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-shirt-oversize/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-d2422d82-b9b8-499b-8246-001ab3904417.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Shirt Oversize Jacket, base colour #8a8b7d. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"overshirt\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"two-chest\"}, Cotton chải. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1856702,
+      "sha256": "f798e97acf6aef2d92f856cb86f38f7f0d1cc8488967778cec1939983099000a",
+      "frames": [
+        {
+          "x": 165,
+          "y": 39,
+          "width": 189,
+          "height": 453
+        },
+        {
+          "x": 157,
+          "y": 39,
+          "width": 207,
+          "height": 457
+        },
+        {
+          "x": 138,
+          "y": 31,
+          "width": 236,
+          "height": 466
+        },
+        {
+          "x": 107,
+          "y": 25,
+          "width": 289,
+          "height": 472
+        },
+        {
+          "x": 79,
+          "y": 27,
+          "width": 349,
+          "height": 470
+        },
+        {
+          "x": 51,
+          "y": 41,
+          "width": 406,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-shirt-oversize/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-dea7c57a-25eb-49cb-8f1e-01e8d852b013.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Shirt Oversize Jacket, base colour #8a8b7d. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"overshirt\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"two-chest\"}, Cotton chải. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 2002794,
+      "sha256": "3491c0d12c4a1955c38fa42904de1ef873d627004c3df5a8ef173d52870dc2e9",
+      "frames": [
+        {
+          "x": 37,
+          "y": 37,
+          "width": 441,
+          "height": 453
+        },
+        {
+          "x": 54,
+          "y": 17,
+          "width": 406,
+          "height": 472
+        },
+        {
+          "x": 85,
+          "y": 16,
+          "width": 316,
+          "height": 473
+        },
+        {
+          "x": 128,
+          "y": 13,
+          "width": 257,
+          "height": 477
+        },
+        {
+          "x": 144,
+          "y": 27,
+          "width": 238,
+          "height": 460
+        },
+        {
+          "x": 143,
+          "y": 27,
+          "width": 216,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-shirt-oversize/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-1de140bf-cffe-4489-8f98-7058864dee64.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT ML Shirt Oversize Jacket, base colour #8a8b7d. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Preserve exact source garment construction: {\"hem\":\"curved\",\"panel\":\"overshirt\",\"collar\":\"point\",\"sleeve\":\"long\",\"stripe\":false,\"zipper\":false,\"pockets\":\"two-chest\"}, Cotton chải. Preserve exact chest ML and BACK script as visible in source; do NOT substitute floral artwork if source has just script. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1711246,
+      "sha256": "a28a180a9230c1e0e70b403ebf4072d4ed8b3ba5c8830906c008987f3226054a",
+      "frames": [
+        {
+          "x": 160,
+          "y": 42,
+          "width": 177,
+          "height": 441
+        },
+        {
+          "x": 151,
+          "y": 23,
+          "width": 203,
+          "height": 453
+        },
+        {
+          "x": 125,
+          "y": 22,
+          "width": 264,
+          "height": 458
+        },
+        {
+          "x": 109,
+          "y": 17,
+          "width": 304,
+          "height": 464
+        },
+        {
+          "x": 81,
+          "y": 17,
+          "width": 353,
+          "height": 464
+        },
+        {
+          "x": 58,
+          "y": 17,
+          "width": 393,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

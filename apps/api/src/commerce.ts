@@ -717,7 +717,7 @@ export class CommerceController {
     @Inject(CommerceService) private commerce: CommerceService,
   ) {}
   @Get("cart") async cart(@Req() r: AppRequest) {
-    return this.db.cart.findUnique({
+    const cart = await this.db.cart.findUnique({
       where: { userId: r.actor!.id },
       include: {
         items: {
@@ -734,6 +734,12 @@ export class CommerceController {
         },
       },
     });
+    if (!cart) return null;
+    return { id: cart.id, items: cart.items.map(item => ({ id: item.id, variantId: item.variantId, quantity: item.quantity,
+      variant: { id: item.variant.id, sku: item.variant.sku, color: item.variant.color, colorHex: item.variant.colorHex, size: item.variant.size,
+        active: item.variant.active, price: item.variant.price, product: item.variant.product,
+        available: item.variant.inventories.reduce((sum, inventory) => sum + inventory.onHand - inventory.reserved, 0) },
+    })) };
   }
   @Post("cart/merge") async merge(@Body() body: any, @Req() r: AppRequest) {
     const d = parse(cartSchema, body);

@@ -248,9 +248,14 @@ model StockMovement {
   reason      String
   reference   String    @unique
   actorId     String?
+  kind        String    @default("ADJUSTMENT")
+  onHandBefore Int?
+  onHandAfter Int?
+  requestHash String?
   createdAt   DateTime  @default(now())
 
   @@index([inventoryId, createdAt])
+  @@index([createdAt, id])
 }
 
 model Cart {

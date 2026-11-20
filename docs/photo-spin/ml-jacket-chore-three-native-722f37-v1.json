@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-chore-three",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:10:51.609Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-chore-three/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-275ee13d-3f0b-4731-b344-43dbe24a6ee5.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Chore Three Jacket, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHORE THREE construction: preserve cotton twill work jacket, cream point collar, cream button cuffs and narrow cream bindings at all three patch pocket openings, one left chest patch pocket and two lower front patch pockets, five visible buttons, straight stitched hem and rear shoulder yoke. Main body, sleeves, pocket cloth and inner collar area use target colour. Preserve floral MiloShopHand rear crest and small ML chest monogram; do not add zipper or hood.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1895427,
+      "sha256": "9028c583e494f620f2b3794c3a78b31f1d0352601bb4efe00093d49242bbd99a",
+      "frames": [
+        {
+          "x": 58,
+          "y": 20,
+          "width": 428,
+          "height": 445
+        },
+        {
+          "x": 61,
+          "y": 21,
+          "width": 382,
+          "height": 447
+        },
+        {
+          "x": 54,
+          "y": 21,
+          "width": 356,
+          "height": 449
+        },
+        {
+          "x": 115,
+          "y": 9,
+          "width": 310,
+          "height": 465
+        },
+        {
+          "x": 114,
+          "y": 12,
+          "width": 261,
+          "height": 465
+        },
+        {
+          "x": 112,
+          "y": 13,
+          "width": 226,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-chore-three/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-89f8d17b-032f-4a90-996c-155db607ca50.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Chore Three Jacket, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHORE THREE construction: preserve cotton twill work jacket, cream point collar, cream button cuffs and narrow cream bindings at all three patch pocket openings, one left chest patch pocket and two lower front patch pockets, five visible buttons, straight stitched hem and rear shoulder yoke. Main body, sleeves, pocket cloth and inner collar area use target colour. Preserve floral MiloShopHand rear crest and small ML chest monogram; do not add zipper or hood.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1605165,
+      "sha256": "c0b7aedfd57f5ce90a3a821763e4c5b6d1c43d1356a71ced8ec6c235e601bc60",
+      "frames": [
+        {
+          "x": 167,
+          "y": 41,
+          "width": 180,
+          "height": 439
+        },
+        {
+          "x": 153,
+          "y": 40,
+          "width": 194,
+          "height": 447
+        },
+        {
+          "x": 135,
+          "y": 40,
+          "width": 215,
+          "height": 447
+        },
+        {
+          "x": 131,
+          "y": 39,
+          "width": 264,
+          "height": 447
+        },
+        {
+          "x": 101,
+          "y": 39,
+          "width": 306,
+          "height": 446
+        },
+        {
+          "x": 57,
+          "y": 39,
+          "width": 371,
+          "height": 443
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-chore-three/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-3e12693a-b579-4dfb-a0fa-2528b3c921ed.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Chore Three Jacket, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHORE THREE construction: preserve cotton twill work jacket, cream point collar, cream button cuffs and narrow cream bindings at all three patch pocket openings, one left chest patch pocket and two lower front patch pockets, five visible buttons, straight stitched hem and rear shoulder yoke. Main body, sleeves, pocket cloth and inner collar area use target colour. Preserve floral MiloShopHand rear crest and small ML chest monogram; do not add zipper or hood.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1860204,
+      "sha256": "198f8fad89423fdc188eff396da3f6d65a0686196007be7d414d8f57cd093088",
+      "frames": [
+        {
+          "x": 79,
+          "y": 35,
+          "width": 385,
+          "height": 443
+        },
+        {
+          "x": 86,
+          "y": 35,
+          "width": 334,
+          "height": 442
+        },
+        {
+          "x": 87,
+          "y": 35,
+          "width": 289,
+          "height": 448
+        },
+        {
+          "x": 131,
+          "y": 30,
+          "width": 269,
+          "height": 462
+        },
+        {
+          "x": 135,
+          "y": 30,
+          "width": 237,
+          "height": 461
+        },
+        {
+          "x": 134,
+          "y": 31,
+          "width": 207,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-chore-three/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-c67a6c78-31a6-48dc-8558-da017c0813a8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Chore Three Jacket, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCHORE THREE construction: preserve cotton twill work jacket, cream point collar, cream button cuffs and narrow cream bindings at all three patch pocket openings, one left chest patch pocket and two lower front patch pockets, five visible buttons, straight stitched hem and rear shoulder yoke. Main body, sleeves, pocket cloth and inner collar area use target colour. Preserve floral MiloShopHand rear crest and small ML chest monogram; do not add zipper or hood.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1780971,
+      "sha256": "1880a4803e5b225e7ea4c11e992cd2f8ea705e479f6f90732f74609c5def2643",
+      "frames": [
+        {
+          "x": 174,
+          "y": 39,
+          "width": 177,
+          "height": 429
+        },
+        {
+          "x": 152,
+          "y": 23,
+          "width": 205,
+          "height": 444
+        },
+        {
+          "x": 109,
+          "y": 18,
+          "width": 258,
+          "height": 450
+        },
+        {
+          "x": 105,
+          "y": 13,
+          "width": 318,
+          "height": 452
+        },
+        {
+          "x": 74,
+          "y": 13,
+          "width": 351,
+          "height": 452
+        },
+        {
+          "x": 45,
+          "y": 14,
+          "width": 387,
+          "height": 452
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 nominal views for target #722f37. Cotton twill, cream point collar, cream button cuffs, three cream-bound patch pocket openings and straight stitched hem match the source construction. Five buttons and the rear shoulder yoke stay intact. Colour is consistent across the turns, chest ML and floral MiloShopHand back crest follow the source with natural occlusion, and garment margins remain complete.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

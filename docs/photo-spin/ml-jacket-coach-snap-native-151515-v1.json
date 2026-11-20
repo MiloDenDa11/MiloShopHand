@@ -1,0 +1,222 @@
+{
+  "slug": "ml-jacket-coach-snap",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T10:38:28.435Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-coach-snap/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-a153632a-91d8-430c-ab93-86cecc75e786.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Coach Snap Jacket, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCOACH SNAP construction: preserve softly reflective nylon shell, cream point collar, six cream snap fasteners, two slim welt hand pockets, cream gathered narrow cuffs, straight stitched hem, regular dropped shoulder. Target colour for shell including sleeves and pockets; preserve cream collar and cuffs. Preserve the cream floral MiloShopHand rear crest and chest ML, using legible dark branding on the white variant. No hood, zipper, rib waistband or extra patch pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1614479,
+      "sha256": "2c71a133b46dd9ec9050172742a9cc027feee1c0d909b8dde85f48309ae53142",
+      "frames": [
+        {
+          "x": 68,
+          "y": 38,
+          "width": 385,
+          "height": 384
+        },
+        {
+          "x": 83,
+          "y": 38,
+          "width": 348,
+          "height": 388
+        },
+        {
+          "x": 104,
+          "y": 37,
+          "width": 301,
+          "height": 394
+        },
+        {
+          "x": 133,
+          "y": 35,
+          "width": 269,
+          "height": 408
+        },
+        {
+          "x": 153,
+          "y": 36,
+          "width": 221,
+          "height": 413
+        },
+        {
+          "x": 158,
+          "y": 36,
+          "width": 186,
+          "height": 417
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-coach-snap/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-292bbc36-e194-4529-83d7-89e4806004b8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Coach Snap Jacket, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCOACH SNAP construction: preserve softly reflective nylon shell, cream point collar, six cream snap fasteners, two slim welt hand pockets, cream gathered narrow cuffs, straight stitched hem, regular dropped shoulder. Target colour for shell including sleeves and pockets; preserve cream collar and cuffs. Preserve the cream floral MiloShopHand rear crest and chest ML, using legible dark branding on the white variant. No hood, zipper, rib waistband or extra patch pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1644577,
+      "sha256": "33b41478af5f488b09edb35d32f0a6f1f04655201d4ad07963d0c830c455eee8",
+      "frames": [
+        {
+          "x": 185,
+          "y": 45,
+          "width": 153,
+          "height": 432
+        },
+        {
+          "x": 165,
+          "y": 44,
+          "width": 176,
+          "height": 421
+        },
+        {
+          "x": 136,
+          "y": 45,
+          "width": 223,
+          "height": 419
+        },
+        {
+          "x": 120,
+          "y": 44,
+          "width": 288,
+          "height": 419
+        },
+        {
+          "x": 85,
+          "y": 44,
+          "width": 339,
+          "height": 417
+        },
+        {
+          "x": 69,
+          "y": 44,
+          "width": 371,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-coach-snap/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-f9c1408c-ea47-412d-93b3-166306bb4df1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Coach Snap Jacket, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCOACH SNAP construction: preserve softly reflective nylon shell, cream point collar, six cream snap fasteners, two slim welt hand pockets, cream gathered narrow cuffs, straight stitched hem, regular dropped shoulder. Target colour for shell including sleeves and pockets; preserve cream collar and cuffs. Preserve the cream floral MiloShopHand rear crest and chest ML, using legible dark branding on the white variant. No hood, zipper, rib waistband or extra patch pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1657695,
+      "sha256": "55dbc5155a0055adc1de7e631596679661e2439b6697e763baff53c2509e3600",
+      "frames": [
+        {
+          "x": 66,
+          "y": 56,
+          "width": 388,
+          "height": 390
+        },
+        {
+          "x": 78,
+          "y": 56,
+          "width": 363,
+          "height": 391
+        },
+        {
+          "x": 99,
+          "y": 55,
+          "width": 308,
+          "height": 394
+        },
+        {
+          "x": 143,
+          "y": 53,
+          "width": 267,
+          "height": 400
+        },
+        {
+          "x": 151,
+          "y": 48,
+          "width": 219,
+          "height": 410
+        },
+        {
+          "x": 150,
+          "y": 52,
+          "width": 191,
+          "height": 409
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-jacket-coach-snap/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-a7531d7d-c18d-443e-9f63-3250b439e863.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Coach Snap Jacket, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Nylon, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nCOACH SNAP construction: preserve softly reflective nylon shell, cream point collar, six cream snap fasteners, two slim welt hand pockets, cream gathered narrow cuffs, straight stitched hem, regular dropped shoulder. Target colour for shell including sleeves and pockets; preserve cream collar and cuffs. Preserve the cream floral MiloShopHand rear crest and chest ML, using legible dark branding on the white variant. No hood, zipper, rib waistband or extra patch pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1647623,
+      "sha256": "05ca51d6bdcc309ca7a934685eed209c351bc275d1c916aae3265d49b3414dba",
+      "frames": [
+        {
+          "x": 187,
+          "y": 46,
+          "width": 170,
+          "height": 437
+        },
+        {
+          "x": 172,
+          "y": 46,
+          "width": 182,
+          "height": 437
+        },
+        {
+          "x": 149,
+          "y": 25,
+          "width": 205,
+          "height": 458
+        },
+        {
+          "x": 138,
+          "y": 24,
+          "width": 266,
+          "height": 455
+        },
+        {
+          "x": 88,
+          "y": 24,
+          "width": 333,
+          "height": 452
+        },
+        {
+          "x": 56,
+          "y": 24,
+          "width": 383,
+          "height": 438
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 nominal views for target #151515. Soft nylon shell retains the six snap buttons, cream point collar and narrow gathered cuffs, two welt pockets and straight hem. Target-colour body and sleeves are consistent with each inspected front anchor. Chest monogram and floral MiloShopHand rear crest remain placed as on the source, in cream for dark variants and charcoal for white. Correct side occlusion, matching ivory background and unclipped garment framing across all cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

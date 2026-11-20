@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { Box, X } from "lucide-react";
-import { photoSpinFor } from "../lib/photo-spin";
+import { displaySpinFor } from "../lib/display-spin";
 const PhotoSpinViewer = dynamic(() => import("./photo-spin-viewer"), { ssr: false, loading: () => <div className="garment-viewer-boot" role="status">Đang mở bộ ảnh 360°…</div> });
 export function Product360({ product, colorHex, color, onColorChange, request }: { product: any; colorHex?: string; color: string; onColorChange: (color: string) => void; request?: { serial: number; view: string } }) {
   const [open, setOpen] = useState(false);
@@ -10,8 +10,7 @@ export function Product360({ product, colorHex, color, onColorChange, request }:
   useEffect(()=>setInteractive(true),[]);
   const [initialView, setInitialView] = useState("front");
   const dialog = useRef<HTMLDialogElement>(null);
-  const design = product.design;
-  const spin = photoSpinFor(product,colorHex);
+  const spin = useMemo(()=>displaySpinFor(product,colorHex),[product,colorHex]);
   useEffect(() => { if (request?.serial) { setInitialView(request.view); setOpen(true); } }, [request]);
   useEffect(() => {
     if (!open) { dialog.current?.close(); return; }

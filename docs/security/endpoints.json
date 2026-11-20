@@ -1,0 +1,396 @@
+{
+  "at": "2026-11-19T05:09:34.784Z",
+  "source": "Local development OpenAPI; classification cross-checked against controller guards",
+  "endpoints": [
+    {
+      "path": "/api/v1/auth/csrf",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/register",
+      "method": "POST",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/verify",
+      "method": "POST",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "authentication": "Authenticated cookie session"
+    },
+    {
+      "path": "/api/v1/auth/reauth",
+      "method": "POST",
+      "authentication": "Authenticated cookie session"
+    },
+    {
+      "path": "/api/v1/auth/forgot",
+      "method": "POST",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/reset",
+      "method": "POST",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/auth/password",
+      "method": "POST",
+      "authentication": "Authenticated cookie session"
+    },
+    {
+      "path": "/api/v1/me",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me",
+      "method": "PATCH",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/sessions",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/sessions/{id}",
+      "method": "DELETE",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/notifications",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/wishlist",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/wishlist/{id}",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/wishlist/{id}",
+      "method": "DELETE",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/me/recommendations",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/config",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/catalog",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/products",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/products/{slug}",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/shipping/areas",
+      "method": "GET",
+      "authentication": "Public; validation/CSRF/rate-limit as applicable"
+    },
+    {
+      "path": "/api/v1/cart",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/cart",
+      "method": "PATCH",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/cart/merge",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/checkout/quote",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/checkout",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/orders",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/orders/{id}",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/orders/{id}/cancel",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/addresses",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/addresses",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/addresses/{id}",
+      "method": "PATCH",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/addresses/{id}",
+      "method": "DELETE",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/reviews",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/returns",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/returns",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/webhooks/payos",
+      "method": "POST",
+      "authentication": "Provider signature or reconciliation-only callback"
+    },
+    {
+      "path": "/api/v1/webhooks/ghn",
+      "method": "POST",
+      "authentication": "Provider signature or reconciliation-only callback"
+    },
+    {
+      "path": "/api/v1/exchanges",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/exchanges/{id}/accept",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/returns/attachments",
+      "method": "POST",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/returns/attachments/{id}",
+      "method": "GET",
+      "authentication": "Authenticated; owner/business checks"
+    },
+    {
+      "path": "/api/v1/admin/data/{kind}/{id}",
+      "method": "DELETE",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/dashboard",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders/{id}/status",
+      "method": "PATCH",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders/{id}/note",
+      "method": "PATCH",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders/{id}/shipment",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders/{id}/shipment/cancel",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/orders/{id}/reconcile",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory/{id}/adjust",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/products",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/products",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/products/{id}",
+      "method": "PATCH",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/data/{kind}",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/data/{kind}",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/users/{id}",
+      "method": "PATCH",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/reviews/{id}/moderate",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/cod/{id}/collect",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/cod/{id}/settle",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/refunds",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/refunds/{id}/process",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/returns/{id}/process",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/settings",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/jobs/{id}/retry",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/export.csv",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/uploads",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/exchanges",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/exchanges",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/exchanges/{id}/reconcile",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/exchanges/{id}/action",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory/options",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory/overview",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory/history",
+      "method": "GET",
+      "authentication": "ADMIN guard"
+    },
+    {
+      "path": "/api/v1/admin/inventory/{id}/movements",
+      "method": "POST",
+      "authentication": "ADMIN guard"
+    }
+  ]
+}

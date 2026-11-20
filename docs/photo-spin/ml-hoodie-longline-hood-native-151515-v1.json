@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-longline-hood",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T08:47:08.318Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-f414cf20-9dc6-4aac-a539-a670a2fbb93e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Hood Hoodie, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's elongated longline torso, low kangaroo pocket, cream flat drawstrings and cream cuffs/hem. Main body, sleeves and hood are the target colour. Keep the hem long and straight and the exact source poses; no cropped or regular-length body, zipper or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1617044,
+      "sha256": "192bcc460d63188d9f6cc5286512434bc31426c5884f08cd2787cefb028b26a4",
+      "frames": [
+        {
+          "x": 87,
+          "y": 18,
+          "width": 339,
+          "height": 472
+        },
+        {
+          "x": 93,
+          "y": 19,
+          "width": 326,
+          "height": 471
+        },
+        {
+          "x": 98,
+          "y": 18,
+          "width": 295,
+          "height": 472
+        },
+        {
+          "x": 125,
+          "y": 14,
+          "width": 263,
+          "height": 477
+        },
+        {
+          "x": 140,
+          "y": 14,
+          "width": 222,
+          "height": 477
+        },
+        {
+          "x": 153,
+          "y": 14,
+          "width": 184,
+          "height": 477
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-1589b438-a4c3-43b0-85a5-bbefa67f09c1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Hood Hoodie, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's elongated longline torso, low kangaroo pocket, cream flat drawstrings and cream cuffs/hem. Main body, sleeves and hood are the target colour. Keep the hem long and straight and the exact source poses; no cropped or regular-length body, zipper or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1606143,
+      "sha256": "ac9ab05a540e49d26e07286cdcf2d99cb1e05e5089c45f1f6e8fb31ab87b41ac",
+      "frames": [
+        {
+          "x": 152,
+          "y": 16,
+          "width": 168,
+          "height": 476
+        },
+        {
+          "x": 130,
+          "y": 16,
+          "width": 174,
+          "height": 477
+        },
+        {
+          "x": 108,
+          "y": 15,
+          "width": 203,
+          "height": 478
+        },
+        {
+          "x": 123,
+          "y": 12,
+          "width": 257,
+          "height": 482
+        },
+        {
+          "x": 70,
+          "y": 12,
+          "width": 304,
+          "height": 482
+        },
+        {
+          "x": 40,
+          "y": 12,
+          "width": 346,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-304c31ba-4c67-4cd5-8189-66fe9a2c18e3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Hood Hoodie, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's elongated longline torso, low kangaroo pocket, cream flat drawstrings and cream cuffs/hem. Main body, sleeves and hood are the target colour. Keep the hem long and straight and the exact source poses; no cropped or regular-length body, zipper or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1722215,
+      "sha256": "8e06dce401d83fe5caf780e5712d85364e030242297609dba46675a3291b9db9",
+      "frames": [
+        {
+          "x": 56,
+          "y": 13,
+          "width": 397,
+          "height": 461
+        },
+        {
+          "x": 59,
+          "y": 13,
+          "width": 380,
+          "height": 475
+        },
+        {
+          "x": 79,
+          "y": 13,
+          "width": 336,
+          "height": 475
+        },
+        {
+          "x": 118,
+          "y": 12,
+          "width": 280,
+          "height": 484
+        },
+        {
+          "x": 127,
+          "y": 12,
+          "width": 236,
+          "height": 484
+        },
+        {
+          "x": 148,
+          "y": 13,
+          "width": 192,
+          "height": 483
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-longline-hood/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-9a66af32-78a0-4a26-a2af-6545f0fa03e0.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Hood Hoodie, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton loopback, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the source's elongated longline torso, low kangaroo pocket, cream flat drawstrings and cream cuffs/hem. Main body, sleeves and hood are the target colour. Keep the hem long and straight and the exact source poses; no cropped or regular-length body, zipper or new pockets.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1632689,
+      "sha256": "bc365499566e8c2c3088e7f96680a41f613314acc8bd3cd9071f4ec8e7bba247",
+      "frames": [
+        {
+          "x": 165,
+          "y": 16,
+          "width": 161,
+          "height": 474
+        },
+        {
+          "x": 132,
+          "y": 16,
+          "width": 193,
+          "height": 474
+        },
+        {
+          "x": 105,
+          "y": 19,
+          "width": 236,
+          "height": 472
+        },
+        {
+          "x": 95,
+          "y": 14,
+          "width": 278,
+          "height": 476
+        },
+        {
+          "x": 65,
+          "y": 12,
+          "width": 325,
+          "height": 478
+        },
+        {
+          "x": 37,
+          "y": 8,
+          "width": 371,
+          "height": 460
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views: elongated black loopback torso, low kangaroo pocket and cream flat drawstrings/cuffs/hem remain consistent. Long straight body proportions and ivory chest/rear floral branding are maintained, with all garments fully inside their cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

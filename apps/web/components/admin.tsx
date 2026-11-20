@@ -1,5 +1,9 @@
 "use client";
-import { useState, useEffect, useRef, ReactNode, FormEvent } from "react";
+import { Select } from "./ui/select";
+import { useState, useEffect, useRef, FormEvent } from "react";
+import { AdminDialog as Modal } from "./ui/admin-dialog";
+import { InventoryManager } from "./inventory";
+import { DataTable as Table } from "./ui/data-table";
 import Link from "next/link";
 import {
   X,
@@ -10,6 +14,9 @@ import {
   Package,
   Search,
   Printer,
+  LayoutDashboard, ShoppingBag, Boxes, Tag, Layers3, Tags, TicketPercent,
+  CreditCard, Banknote, RotateCcw, ArrowLeftRight, Users, Star, Settings2,
+  ScrollText, Workflow, ShieldCheck, PanelLeftClose, PanelLeftOpen,
 } from "lucide-react";
 import { api, send, useShop, money, Empty, ErrorBox } from "./client";
 import { statusText, SecurityForm } from "./account";
@@ -37,6 +44,12 @@ const menus = [
   ["jobs", "Tác vụ nền"],
   ["security", "Xác thực lại"],
 ];
+const menuIcons: Record<string, typeof Package> = {
+  dashboard: LayoutDashboard, orders: ShoppingBag, products: Package, inventory: Boxes,
+  categories: Tag, collections: Layers3, styles: Tags, coupons: TicketPercent,
+  payments: CreditCard, refunds: Banknote, returns: RotateCcw, exchanges: ArrowLeftRight,
+  users: Users, reviews: Star, settings: Settings2, audit: ScrollText, jobs: Workflow, security: ShieldCheck,
+};
 const states: Record<string, string[]> = {
   PENDING_PAYMENT: ["CANCELLED"],
   PENDING_CONFIRMATION: ["CONFIRMED", "CANCELLED"],
@@ -48,58 +61,6 @@ const states: Record<string, string[]> = {
 };
 const date = (d: string) =>
   new Date(d).toLocaleString("vi-VN", { timeZone: "Asia/Ho_Chi_Minh" });
-function Modal({
-  title,
-  children,
-  onClose,
-}: {
-  title: string;
-  children: ReactNode;
-  onClose: () => void;
-}) {
-  const ref = useRef<HTMLDialogElement>(null);
-  useEffect(() => {
-    ref.current?.showModal();
-    return () => ref.current?.close();
-  }, []);
-  return (
-    <dialog ref={ref} className="admin-dialog" onCancel={onClose}>
-      <header>
-        <h2>{title}</h2>
-        <button onClick={onClose} aria-label="Đóng">
-          <X size={22} />
-        </button>
-      </header>
-      {children}
-    </dialog>
-  );
-}
-function Table({ headers, rows }: { headers: string[]; rows: ReactNode[][] }) {
-  return rows.length ? (
-    <div className="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            {headers.map((h, i) => (
-              <th key={i}>{h}</th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((r, i) => (
-            <tr key={i}>
-              {r.map((v, j) => (
-                <td key={j}>{v}</td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  ) : (
-    <div className="no-data">Chưa có dữ liệu trong phạm vi này.</div>
-  );
-}
 export function Admin() {
   const { user, ready, authError, loadUser } = useShop();
   if (authError)
@@ -113,7 +74,7 @@ export function Admin() {
   if (!user)
     return (
       <Empty
-        title="Đăng nhập tài khoản Admin đã bật MFA."
+        title="Đăng nhập bằng tài khoản có quyền Admin."
         href="/dang-nhap?next=/admin"
         text="Đăng nhập Admin"
       />
@@ -131,9 +92,10 @@ export function Admin() {
   return <AdminWorkspace />;
 }
 function AdminWorkspace() {
+  const [collapsed, setCollapsed] = useState(false);
   const { notify, config } = useShop();
   const [tab, setTab] = useState("dashboard"),
-    [data, setData] = useState<any>(null),
+    [responseData, setData] = useState<any>(null),
     [error, setError] = useState(""),
     [loading, setLoading] = useState(true),
     [selected, setSelected] = useState<any>(null),
@@ -144,7 +106,14 @@ function AdminWorkspace() {
       new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10),
     ),
     [to, setTo] = useState(new Date().toISOString().slice(0, 10));
+  const [loadedFor, setLoadedFor] = useState("");
+  const requestVersion = useRef(0), currentTab = useRef(tab);
+  currentTab.current = tab;
+  // A newly selected tab must never render the previous tab's payload shape.
+  const data = loadedFor === tab ? responseData : null;
   async function load() {
+    if (currentTab.current !== tab) return;
+    const version = ++requestVersion.current;
     setLoading(true);
     setError("");
     try {
@@ -156,11 +125,14 @@ function AdminWorkspace() {
             : ["products", "inventory"].includes(tab)
               ? `/admin/${tab}`
               : `/admin/data/${tab}`;
-      if (!["security", "exchanges"].includes(tab)) setData(await api(path));
+      if (!["security", "exchanges", "inventory"].includes(tab)) {
+        const result = await api(path);
+        if (version === requestVersion.current && currentTab.current === tab) { setData(result); setLoadedFor(tab); }
+      }
     } catch (e: any) {
-      setError(e.message);
+      if (version === requestVersion.current && currentTab.current === tab) setError(e.message);
     } finally {
-      setLoading(false);
+      if (version === requestVersion.current && currentTab.current === tab) setLoading(false);
     }
   }
   useEffect(() => {
@@ -191,20 +163,23 @@ function AdminWorkspace() {
     "coupons",
   ].includes(tab);
   return (
-    <div className="admin-layout">
+    <div className={`admin-layout ${collapsed ? "is-collapsed" : ""}`}>
       <aside className="admin-sidebar">
-        <h2>MILO / ADMIN</h2>
+        <div className="admin-sidebar-heading"><h2>MILO / ADMIN</h2><button type="button" aria-label={collapsed ? "Mở rộng thanh quản trị" : "Thu gọn thanh quản trị"} aria-expanded={!collapsed} aria-controls="admin-navigation" onClick={() => setCollapsed(!collapsed)}>{collapsed ? <PanelLeftOpen size={18} /> : <PanelLeftClose size={18} />}</button></div>
         <p>CỬA HÀNG · MỘT KHO MAIN</p>
-        <nav aria-label="Quản trị">
-          {menus.map(([key, title]) => (
+        <nav id="admin-navigation" aria-label="Quản trị">
+          {menus.map(([key, title]) => { const Icon = menuIcons[key]; return (
             <button
               key={key}
+              aria-label={title}
+              aria-pressed={tab === key}
+              title={collapsed ? title : undefined}
               className={tab === key ? "selected" : ""}
               onClick={() => setTab(key)}
             >
-              {title}
+              <Icon size={17} aria-hidden="true" /><span>{title}</span>
             </button>
-          ))}
+          ); })}
         </nav>
       </aside>
       <section className="admin-main">
@@ -218,7 +193,7 @@ function AdminWorkspace() {
           </Link>
         </header>
         {error && <ErrorBox message={error} retry={load} />}
-        <div className="admin-toolbar">
+        {tab !== "inventory" && <div className="admin-toolbar">
           {tab === "dashboard" && (
             <>
               <label>
@@ -256,7 +231,7 @@ function AdminWorkspace() {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
-              <select
+              <Select
                 aria-label="Lọc trạng thái đơn"
                 value={filter}
                 onChange={(e) => setFilter(e.target.value)}
@@ -269,7 +244,7 @@ function AdminWorkspace() {
                       {statusText(s)}
                     </option>
                   ))}
-              </select>
+              </Select>
               <button className="button small-button">
                 <Search size={15} />
                 Tìm
@@ -301,7 +276,7 @@ function AdminWorkspace() {
               Xuất CSV
             </a>
           )}
-        </div>
+        </div>}
         {loading && !data ? (
           <p className="no-data">Đang tải dữ liệu…</p>
         ) : (
@@ -329,7 +304,7 @@ function AdminWorkspace() {
                       <p>{o.user.email}</p>
                       <p>{o.address.phone}</p>
                     </>,
-                    <span className="badge">{statusText(o.status)}</span>,
+                    <span className="badge" data-status={o.status}>{statusText(o.status)}</span>,
                     <>
                       {o.method}
                       <p>{statusText(o.payment.status)}</p>
@@ -382,38 +357,7 @@ function AdminWorkspace() {
               />
             )}
             {tab === "inventory" && (
-              <Table
-                headers={[
-                  "SKU / sản phẩm",
-                  "Kho",
-                  "Thực tế",
-                  "Đang giữ",
-                  "Có thể bán",
-                  "Cảnh báo",
-                  "",
-                ]}
-                rows={list.map((i: any) => [
-                  <>
-                    <b>{i.variant.sku}</b>
-                    <p>{i.variant.product.name}</p>
-                    <p>
-                      {i.variant.color} / {i.variant.size}
-                    </p>
-                  </>,
-                  i.warehouse,
-                  i.onHand,
-                  i.reserved,
-                  i.onHand - i.reserved,
-                  i.onHand - i.reserved <= i.lowThreshold ? (
-                    <span className="badge">Sắp hết</span>
-                  ) : (
-                    "—"
-                  ),
-                  <button onClick={() => setSelected(i)}>
-                    Điều chỉnh / nhật ký
-                  </button>,
-                ])}
-              />
+              <InventoryManager />
             )}
             {["categories", "collections", "styles", "coupons"].includes(
               tab,
@@ -490,7 +434,7 @@ function AdminWorkspace() {
                   rows={list.map((p: any) => [
                     p.order.code,
                     p.provider,
-                    <span className="badge">{statusText(p.status)}</span>,
+                    <span className="badge" data-status={p.status}>{statusText(p.status)}</span>,
                     money(p.amount),
                     <>
                       {money(p.received)}
@@ -959,19 +903,19 @@ function ProductForm({
           <input
             name="slug"
             defaultValue={p?.slug}
-            pattern="[a-z0-9-]+"
+            pattern={"[a-z0-9\\-]+"}
             required
           />
         </label>
         <label>
           Danh mục
-          <select name="categoryId" defaultValue={p?.categoryId} required>
+          <Select name="categoryId" defaultValue={p?.categoryId} required>
             {meta?.categories.map((c: any) => (
               <option key={c.id} value={c.id}>
                 {miloDesignText(c.name)}
               </option>
             ))}
-          </select>
+          </Select>
         </label>
         <label>
           Chất liệu
@@ -1232,7 +1176,7 @@ function ProductForm({
       >
         ＋ Thêm biến thể
       </button>
-      <button className="button full" disabled={busy} style={{ marginTop: 20 }}>
+      <button className="button full" aria-busy={busy} disabled={busy} style={{ marginTop: 20 }}>
         {busy ? "Đang lưu…" : "Lưu sản phẩm"}
       </button>
     </form>
@@ -1296,10 +1240,10 @@ function MetadataForm({
           <div className="form-row">
             <label>
               Kiểu giảm
-              <select name="type" defaultValue={i?.type || "PERCENT"}>
+              <Select name="type" defaultValue={i?.type || "PERCENT"}>
                 <option value="PERCENT">Phần trăm</option>
                 <option value="FIXED">Số tiền VND</option>
-              </select>
+              </Select>
             </label>
             {[
               ["value", "Giá trị", 10],
@@ -1368,7 +1312,7 @@ function MetadataForm({
             <input
               name="slug"
               defaultValue={i?.slug}
-              pattern="[a-z0-9-]+"
+              pattern={"[a-z0-9\\-]+"}
               required
             />
           </label>
@@ -1403,15 +1347,15 @@ function MetadataForm({
           Đang áp dụng
         </label>
       )}
-      <button className="button" disabled={busy}>
+      <button className="button" aria-busy={busy} disabled={busy}>
         Lưu cấu hình
       </button>
       {onRemove && (
         <button
           type="button"
-          className="button secondary"
+          className="button danger"
           onClick={onRemove}
-          disabled={busy}
+          aria-busy={busy} disabled={busy}
           style={{ marginLeft: 12 }}
         >
           {["coupons", "collections"].includes(kind)
@@ -1535,7 +1479,7 @@ function AdminAction({
             <button
               key={s}
               className="button secondary"
-              disabled={busy}
+              aria-busy={busy} disabled={busy}
               onClick={() =>
                 run(
                   `/admin/orders/${i.id}/status`,
@@ -1608,53 +1552,6 @@ function AdminAction({
             </p>
           ))}
         </details>
-      </>
-    );
-  if (tab === "inventory")
-    return (
-      <>
-        <p>
-          {i.variant.sku} · {i.variant.product.name}
-        </p>
-        <p>
-          Thực tế {i.onHand} · Đang giữ {i.reserved} · Có thể bán{" "}
-          {i.onHand - i.reserved}
-        </p>
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            const f = new FormData(e.currentTarget);
-            run(`/admin/inventory/${i.id}/adjust`, {
-              delta: Number(f.get("delta")),
-              reason,
-              key: crypto.randomUUID(),
-            });
-          }}
-        >
-          <label>
-            Lượng tăng/giảm (dùng số âm để giảm)
-            <input name="delta" type="number" required />
-          </label>
-          <label>
-            Lý do
-            <input
-              value={reason}
-              minLength={5}
-              required
-              onChange={(e) => setReason(e.target.value)}
-            />
-          </label>
-          <button className="button">Ghi nhận điều chỉnh</button>
-        </form>
-        <Table
-          headers={["Ngày", "Biến động", "Lý do", "Tham chiếu"]}
-          rows={i.movements.map((m: any) => [
-            date(m.createdAt),
-            m.delta,
-            m.reason,
-            m.reference,
-          ])}
-        />
       </>
     );
   if (tab === "payments")

@@ -1,0 +1,222 @@
+{
+  "slug": "milo-signature-tee",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-18T05:19:56.253Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/milo-signature-tee/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3c099418-a3fc-4434-b079-a8abf85fbde3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nEdit target image1: Milo Signature Tee original six-view product atlas. Preserve EXACTLY the six upright garment poses, perspective, cut, sleeve length, neckline, pockets, seams, fabric folds, scale, layout and studio background.\nDesign its new Đỏ mận colourway: entire MAIN fabric is restrained burgundy #722f37, even realistic dyed cloth with natural shadows. Not a translucent tint. Preserve structural contrasting rib trim/panels in soft ivory #e8dfcd if present, consistently across views.\nOne clean intact interwoven ML chest monogram in soft ivory #f3e9db in its source location. No stray, duplicated or fragmented marks anywhere else on front. The pocket and any contrast bands keep exact shape.\nExactly3columns x2rows, native1536x1024, six equal512px square cells. Whole garment with margin in everycell. Match source poses0,15,30,45,60,75degrees from FRONT towards LEFT-facing profile, garmentfrontpointsLEFT. No back artwork visible.\nNo captions, borders, grid, mannequins, hanger, watermark. Natural commercial fashion product photography; calm, consistent burgundy across all six views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1666691,
+      "sha256": "42dc716a57212588c2f5685fc228a928887c3cc4bf3c66448b1b9705efdaa954",
+      "frames": [
+        {
+          "x": 60,
+          "y": 27,
+          "width": 406,
+          "height": 447
+        },
+        {
+          "x": 68,
+          "y": 25,
+          "width": 382,
+          "height": 452
+        },
+        {
+          "x": 91,
+          "y": 26,
+          "width": 328,
+          "height": 451
+        },
+        {
+          "x": 130,
+          "y": 26,
+          "width": 270,
+          "height": 456
+        },
+        {
+          "x": 154,
+          "y": 22,
+          "width": 200,
+          "height": 460
+        },
+        {
+          "x": 156,
+          "y": 22,
+          "width": 197,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/milo-signature-tee/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-85bb2e0b-5538-4682-b921-0b157304a5f3.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Milo Signature Tee six-angle source atlas, part1. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 90,105,120,135,150,165 degrees, LEFT-FACING profile towards BACK; no front chest logo visible.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1720533,
+      "sha256": "9c1d7b3812b64f999e49129eaf6f75ea74584d665d27564825f0fc96db7c0054",
+      "frames": [
+        {
+          "x": 170,
+          "y": 41,
+          "width": 177,
+          "height": 447
+        },
+        {
+          "x": 156,
+          "y": 42,
+          "width": 198,
+          "height": 446
+        },
+        {
+          "x": 144,
+          "y": 43,
+          "width": 211,
+          "height": 445
+        },
+        {
+          "x": 122,
+          "y": 44,
+          "width": 262,
+          "height": 441
+        },
+        {
+          "x": 87,
+          "y": 45,
+          "width": 333,
+          "height": 440
+        },
+        {
+          "x": 63,
+          "y": 44,
+          "width": 385,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/milo-signature-tee/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-37630e7b-f74a-4904-937e-5ebc63e0f039.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Milo Signature Tee six-angle source atlas, part2. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 180,195,210,225,240,255 degrees, BACK towards RIGHT-FACING profile, source back artwork gradually disappears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1822392,
+      "sha256": "9b593202e1310f1912132a7e8ce91600210322394a256810cb36df40d7952a0f",
+      "frames": [
+        {
+          "x": 52,
+          "y": 36,
+          "width": 410,
+          "height": 444
+        },
+        {
+          "x": 76,
+          "y": 34,
+          "width": 368,
+          "height": 448
+        },
+        {
+          "x": 106,
+          "y": 34,
+          "width": 294,
+          "height": 450
+        },
+        {
+          "x": 153,
+          "y": 29,
+          "width": 221,
+          "height": 457
+        },
+        {
+          "x": 155,
+          "y": 29,
+          "width": 205,
+          "height": 457
+        },
+        {
+          "x": 166,
+          "y": 30,
+          "width": 189,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/milo-signature-tee/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3353b038-8bdc-4a87-9145-fef2cd55f217.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nImage1 is edit target: Milo Signature Tee six-angle source atlas, part3. Preserve EXACT poses, cut, silhouette, collar, pockets, structural contrast trim, folds, stitching, scale, camera, cell positions and warm studio background.\nImage2 is approved Đỏ mận colour anchor: match its finished restrained burgundy #722f37 fabric and any soft ivory contrast trim EXACTLY across every pose. Same consistent colour, no patchy tint, glowing marks or halos.\nBranding in soft ivory: one intact ML at source left chest only when visible; preserve source back artwork shapes and exact \"MiloShopHand\" lettering when back is visible. No duplicate or stray partial graphics, no random other logos.\nSix source poses in exact row-major order: 270,285,300,315,330,345 degrees, RIGHT-FACING profile towards FRONT. Back artwork is completely hidden; chest ML gradually appears.\nExactly3columns x2rows, native1536x1024, six square512px cells, full garment with margin, no grid, captions, borders, mannequins, hangers or watermark. Realistic fashion studio photograph quality.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1711544,
+      "sha256": "54adef8e8ee323f07d93ccd2e433decc088b73cc626131e57329e592fd413e7c",
+      "frames": [
+        {
+          "x": 170,
+          "y": 28,
+          "width": 179,
+          "height": 465
+        },
+        {
+          "x": 156,
+          "y": 28,
+          "width": 201,
+          "height": 465
+        },
+        {
+          "x": 126,
+          "y": 24,
+          "width": 243,
+          "height": 469
+        },
+        {
+          "x": 103,
+          "y": 21,
+          "width": 317,
+          "height": 471
+        },
+        {
+          "x": 66,
+          "y": 22,
+          "width": 371,
+          "height": 470
+        },
+        {
+          "x": 36,
+          "y": 23,
+          "width": 435,
+          "height": 469
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root visually reviewed all24 source-size views and contact sheet: even burgundy fabric, intact single chest ML, clean back branding, consistent trim and pockets across front/left/back/right; no tint halos or duplicate logo fragments.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

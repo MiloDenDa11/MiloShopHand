@@ -1,5 +1,6 @@
 import { OpenAPIObject } from "@nestjs/swagger";
 import { z } from "zod";
+import { stockChangeSchema } from "./inventory";
 import {
   checkoutSchema,
   addressSchema,
@@ -26,8 +27,9 @@ export function describeApi(doc: OpenAPIObject) {
     Login: z.object({
       email: z.email(),
       password: z.string().max(256),
-      otp: z.string().optional(),
     }),
+    Reauth: z.object({ password: z.string().max(256) }).strict(),
+    StockChange: stockChangeSchema,
     Register: z
       .object({
         name: z.string().min(2),
@@ -52,6 +54,8 @@ export function describeApi(doc: OpenAPIObject) {
     "/api/v1/cart": "Cart",
     "/api/v1/cart/merge": "Cart",
     "/api/v1/auth/login": "Login",
+    "/api/v1/auth/reauth": "Reauth",
+    "/api/v1/admin/inventory/{id}/movements": "StockChange",
     "/api/v1/auth/register": "Register",
     "/api/v1/auth/forgot": "Forgot",
     "/api/v1/auth/verify": "Verify",

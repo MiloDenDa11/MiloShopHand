@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-satin-evening",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:17:07.755Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-satin-evening/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-8f5e6609-abbc-41ec-8204-1dabd522ec28.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Satin Evening Bomber, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Satin, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1659149,
+      "sha256": "a790bb74305ffd5d597512ced74b2e22ab3432fed75b874b596ac571554c9003",
+      "frames": [
+        {
+          "x": 66,
+          "y": 24,
+          "width": 405,
+          "height": 423
+        },
+        {
+          "x": 80,
+          "y": 23,
+          "width": 363,
+          "height": 434
+        },
+        {
+          "x": 101,
+          "y": 23,
+          "width": 308,
+          "height": 440
+        },
+        {
+          "x": 140,
+          "y": 21,
+          "width": 260,
+          "height": 449
+        },
+        {
+          "x": 145,
+          "y": 21,
+          "width": 226,
+          "height": 451
+        },
+        {
+          "x": 143,
+          "y": 22,
+          "width": 202,
+          "height": 450
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-satin-evening/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-804774cf-9f9b-4877-b779-64ed2a66dbdb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Satin Evening Bomber, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Satin, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1697437,
+      "sha256": "8d5d627872b68c18fc19020e52bba8ffff7f10e876808b57bd64ce94009cdfe9",
+      "frames": [
+        {
+          "x": 200,
+          "y": 23,
+          "width": 190,
+          "height": 455
+        },
+        {
+          "x": 147,
+          "y": 23,
+          "width": 204,
+          "height": 454
+        },
+        {
+          "x": 106,
+          "y": 24,
+          "width": 227,
+          "height": 453
+        },
+        {
+          "x": 167,
+          "y": 22,
+          "width": 252,
+          "height": 458
+        },
+        {
+          "x": 109,
+          "y": 21,
+          "width": 295,
+          "height": 459
+        },
+        {
+          "x": 57,
+          "y": 21,
+          "width": 337,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-satin-evening/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-a9d47773-837c-4115-8760-61c3bd5f8e16.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Satin Evening Bomber, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Satin, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1782594,
+      "sha256": "215f352902d311930676a820a934b23f92b92d2ce90b1acbdef0f02e39f0056b",
+      "frames": [
+        {
+          "x": 80,
+          "y": 55,
+          "width": 375,
+          "height": 378
+        },
+        {
+          "x": 88,
+          "y": 52,
+          "width": 331,
+          "height": 390
+        },
+        {
+          "x": 91,
+          "y": 52,
+          "width": 293,
+          "height": 396
+        },
+        {
+          "x": 136,
+          "y": 26,
+          "width": 267,
+          "height": 446
+        },
+        {
+          "x": 158,
+          "y": 23,
+          "width": 208,
+          "height": 453
+        },
+        {
+          "x": 148,
+          "y": 21,
+          "width": 202,
+          "height": 453
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-satin-evening/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-3629dfd2-e37d-4be3-a22c-5caf17022728.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Satin Evening Bomber, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Satin, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1817533,
+      "sha256": "8ee99bf8f27d476514313b138018cd42b25816f6770277a5cb9287a758e6a5d0",
+      "frames": [
+        {
+          "x": 180,
+          "y": 26,
+          "width": 171,
+          "height": 452
+        },
+        {
+          "x": 152,
+          "y": 27,
+          "width": 199,
+          "height": 451
+        },
+        {
+          "x": 108,
+          "y": 26,
+          "width": 262,
+          "height": 452
+        },
+        {
+          "x": 105,
+          "y": 26,
+          "width": 307,
+          "height": 447
+        },
+        {
+          "x": 62,
+          "y": 25,
+          "width": 374,
+          "height": 446
+        },
+        {
+          "x": 42,
+          "y": 27,
+          "width": 425,
+          "height": 440
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views on the complete board and full-resolution burgundy front/rear/side images. Burgundy satin body/sleeves retain realistic highlights and an even dye tone across the four quarters; cream ribbing and ivory branding are consistent. Source construction, metal zip, welt pockets and rear floral MiloShopHand artwork remain intact with full-garment cell margins.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

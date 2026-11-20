@@ -1,0 +1,222 @@
+{
+  "slug": "ml-hoodie-drop-shoulder-hood",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T08:15:39.091Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-drop-shoulder-hood/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-a35c3feb-0cd2-4cb4-bb84-1a5874e0c07c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Hood Hoodie, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the very dropped shoulder seam, oversized sleeves and kangaroo pocket. Keep the source's contrasting deep olive hood edging and rib cuffs/hem for every target colour; only the main body, sleeves and outer hood become the requested colour. No drawstrings or zipper.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1753707,
+      "sha256": "59717dbdc1360827fabdf4511056a38119409f8b80162f558b523a8393d81ed1",
+      "frames": [
+        {
+          "x": 51,
+          "y": 19,
+          "width": 410,
+          "height": 454
+        },
+        {
+          "x": 59,
+          "y": 19,
+          "width": 386,
+          "height": 456
+        },
+        {
+          "x": 65,
+          "y": 17,
+          "width": 352,
+          "height": 461
+        },
+        {
+          "x": 117,
+          "y": 15,
+          "width": 298,
+          "height": 470
+        },
+        {
+          "x": 119,
+          "y": 14,
+          "width": 256,
+          "height": 471
+        },
+        {
+          "x": 114,
+          "y": 13,
+          "width": 225,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-drop-shoulder-hood/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-55d367df-fd49-4442-8442-24a05722b9de.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Hood Hoodie, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the very dropped shoulder seam, oversized sleeves and kangaroo pocket. Keep the source's contrasting deep olive hood edging and rib cuffs/hem for every target colour; only the main body, sleeves and outer hood become the requested colour. No drawstrings or zipper.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1762690,
+      "sha256": "2b4f736599a3b2bc1cef25c05fe3191991a67bcd33f4ae57a964b27708961b64",
+      "frames": [
+        {
+          "x": 159,
+          "y": 12,
+          "width": 211,
+          "height": 434
+        },
+        {
+          "x": 132,
+          "y": 12,
+          "width": 224,
+          "height": 432
+        },
+        {
+          "x": 108,
+          "y": 12,
+          "width": 272,
+          "height": 431
+        },
+        {
+          "x": 103,
+          "y": 14,
+          "width": 322,
+          "height": 433
+        },
+        {
+          "x": 70,
+          "y": 15,
+          "width": 355,
+          "height": 432
+        },
+        {
+          "x": 47,
+          "y": 15,
+          "width": 389,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-drop-shoulder-hood/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-24b7932e-302a-4a9c-9364-84b5fa743c44.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Hood Hoodie, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the very dropped shoulder seam, oversized sleeves and kangaroo pocket. Keep the source's contrasting deep olive hood edging and rib cuffs/hem for every target colour; only the main body, sleeves and outer hood become the requested colour. No drawstrings or zipper.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1534769,
+      "sha256": "08ca03364cc32eb5021b6489318609e0b06473f226bfe44c678b1921ff3dd396",
+      "frames": [
+        {
+          "x": 59,
+          "y": 16,
+          "width": 413,
+          "height": 441
+        },
+        {
+          "x": 59,
+          "y": 16,
+          "width": 398,
+          "height": 443
+        },
+        {
+          "x": 82,
+          "y": 16,
+          "width": 336,
+          "height": 443
+        },
+        {
+          "x": 128,
+          "y": 16,
+          "width": 296,
+          "height": 447
+        },
+        {
+          "x": 134,
+          "y": 15,
+          "width": 247,
+          "height": 448
+        },
+        {
+          "x": 129,
+          "y": 15,
+          "width": 222,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-hoodie-drop-shoulder-hood/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-6ca1c83e-c5bc-4dcf-9a52-41564c3fcd2d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Hood Hoodie, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton fleece, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve the very dropped shoulder seam, oversized sleeves and kangaroo pocket. Keep the source's contrasting deep olive hood edging and rib cuffs/hem for every target colour; only the main body, sleeves and outer hood become the requested colour. No drawstrings or zipper.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1606869,
+      "sha256": "b3267e7a22f13e3e0aec32cd40fc4b123255b4ae9e372d36b91e3fde0e2b0d99",
+      "frames": [
+        {
+          "x": 116,
+          "y": 20,
+          "width": 217,
+          "height": 481
+        },
+        {
+          "x": 115,
+          "y": 20,
+          "width": 242,
+          "height": 483
+        },
+        {
+          "x": 97,
+          "y": 20,
+          "width": 299,
+          "height": 483
+        },
+        {
+          "x": 68,
+          "y": 21,
+          "width": 336,
+          "height": 473
+        },
+        {
+          "x": 50,
+          "y": 21,
+          "width": 381,
+          "height": 472
+        },
+        {
+          "x": 34,
+          "y": 21,
+          "width": 411,
+          "height": 468
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views: black fleece, deep olive hood edge/cuffs/hem, very dropped shoulders and wide sleeves remain consistent. Kangaroo pocket and ivory chest/back floral branding are correctly positioned with visibility changing around the sides. Full garment margins retained.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

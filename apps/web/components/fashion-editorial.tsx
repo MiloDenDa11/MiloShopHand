@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { useResource } from "../hooks/use-resource";
 import { ErrorBox, useShop } from "./client";
 import { ProductPhoto, isRealPhoto } from "./product-media";
 import { journalArticles } from "../content/brand";
+import { collectionIllustration } from "../content/collection-illustrations";
 import { miloDesignText } from "../lib/milo-design";
 export function FashionCollections() {
   const { data, error, loading, retry } = useResource("/catalog");
@@ -23,7 +25,7 @@ export function FashionCollections() {
         </p>
       </header>
       {error && <ErrorBox message={error} retry={retry} />}
-      <div className="collection-directory">
+      <div className="collection-directory collection-directory--illustrated">
         {loading ? (
           <p role="status">Đang mở những trang bộ sưu tập…</p>
         ) : (
@@ -32,15 +34,26 @@ export function FashionCollections() {
               <p className="eyebrow">
                 0{i + 1} / {c.season} / {c.climate}
               </p>
-              {isRealPhoto(c.image) && (
-                <Link href={`/san-pham?collection=${c.slug}`}>
+              <Link
+                className="collection-directory-visual"
+                href={`/san-pham?collection=${c.slug}`}
+                aria-label={`Khám phá bộ sưu tập ${miloDesignText(c.name)}`}
+              >
+                {isRealPhoto(c.image) ? (
                   <ProductPhoto src={c.image} alt={`Bộ sưu tập ${c.name}`} />
-                </Link>
-              )}
+                ) : (
+                  <Image
+                    {...collectionIllustration(c)}
+                    width={720}
+                    height={400}
+                    unoptimized
+                  />
+                )}
+              </Link>
               <h2>
                 <Link href={`/san-pham?collection=${c.slug}`}>{miloDesignText(c.name)}</Link>
               </h2>
-              <p>
+              <p className="collection-directory-campaign">
                 {c.campaign ||
                   "Những thiết kế được Milo chọn để phối cùng bạn mỗi ngày."}
               </p>

@@ -1,0 +1,222 @@
+{
+  "slug": "varsity-club-bomber",
+  "colorKey": "original",
+  "colorHex": "#b6a4d4",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-17T14:55:17.670Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/varsity-club-bomber/original/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-25e728ab-1ceb-40b8-848e-16018ec549de.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Varsity Club Bomber, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple varsity snap-front bomber, CONTRAST CREAM sleeves, cream/purple striped rib collar cuffs and hem, welt pockets. Dark chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames0..5 ONLY, row-major: 0 FRONT,15,30,45,60,75degrees. Progress from front towards LEFT-FACING profile: the FRONT of the garment points towards the LEFT edge of the image. Chest ML visible then foreshortens; no back artwork yet.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1786955,
+      "sha256": "ae4e37275350a87a436a3568a6d0e0411615954dbda532c491a003a369452810",
+      "frames": [
+        {
+          "x": 47,
+          "y": 33,
+          "width": 424,
+          "height": 416
+        },
+        {
+          "x": 59,
+          "y": 31,
+          "width": 389,
+          "height": 424
+        },
+        {
+          "x": 76,
+          "y": 25,
+          "width": 327,
+          "height": 438
+        },
+        {
+          "x": 119,
+          "y": 16,
+          "width": 272,
+          "height": 453
+        },
+        {
+          "x": 144,
+          "y": 12,
+          "width": 216,
+          "height": 458
+        },
+        {
+          "x": 141,
+          "y": 10,
+          "width": 207,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/varsity-club-bomber/original/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-83bd2990-7b9a-489e-9488-60f349596b76.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Varsity Club Bomber, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple varsity snap-front bomber, CONTRAST CREAM sleeves, cream/purple striped rib collar cuffs and hem, welt pockets. Dark chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames6..11 ONLY, row-major: 90 EXACT LEFT-FACING PROFILE,105,120,135,150,165degrees. The FRONT points towards the LEFT image edge in the first frame. Progress from this profile to almost BACK. Chest ML is hidden; the back artwork appears progressively.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1832927,
+      "sha256": "66bea8132e1e4ad8be4265555b77812d753a35fcc5e8fe2943b361c7535b57d2",
+      "frames": [
+        {
+          "x": 173,
+          "y": 19,
+          "width": 174,
+          "height": 476
+        },
+        {
+          "x": 165,
+          "y": 18,
+          "width": 192,
+          "height": 477
+        },
+        {
+          "x": 153,
+          "y": 17,
+          "width": 220,
+          "height": 478
+        },
+        {
+          "x": 144,
+          "y": 16,
+          "width": 255,
+          "height": 478
+        },
+        {
+          "x": 102,
+          "y": 16,
+          "width": 316,
+          "height": 473
+        },
+        {
+          "x": 62,
+          "y": 38,
+          "width": 385,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/varsity-club-bomber/original/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-3e3d93bd-7c23-4b29-bf47-22af22fe582b.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Varsity Club Bomber, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple varsity snap-front bomber, CONTRAST CREAM sleeves, cream/purple striped rib collar cuffs and hem, welt pockets. Dark chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames12..17 ONLY, row-major: 180 EXACT BACK,195,210,225,240,255degrees. Progress from back toward RIGHT-FACING profile: the FRONT points towards the RIGHT edge by last frame. Back artwork naturally foreshortens then disappears.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1763882,
+      "sha256": "f62b7bd1839e84f77a306af43c846749f533573bd3ec7870e60d1f1cda133ca2",
+      "frames": [
+        {
+          "x": 37,
+          "y": 56,
+          "width": 442,
+          "height": 418
+        },
+        {
+          "x": 62,
+          "y": 30,
+          "width": 389,
+          "height": 450
+        },
+        {
+          "x": 103,
+          "y": 30,
+          "width": 293,
+          "height": 453
+        },
+        {
+          "x": 154,
+          "y": 23,
+          "width": 224,
+          "height": 463
+        },
+        {
+          "x": 150,
+          "y": 22,
+          "width": 217,
+          "height": 465
+        },
+        {
+          "x": 154,
+          "y": 22,
+          "width": 202,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/varsity-club-bomber/original/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1a787-c253-7071-84a2-38d6cb75d485\\exec-51987203-dc79-4d98-89d9-a7b3c53d629d.png",
+      "prompt": "Use case: product-mockup. Create ONE HIGH DETAIL photographic turntable atlas of EXACT Varsity Club Bomber, base colour #b6a4d4. Attached front/back source plate is the AUTHORITATIVE garment IDENTITY reference. Purple varsity snap-front bomber, CONTRAST CREAM sleeves, cream/purple striped rib collar cuffs and hem, welt pockets. Dark chest ML and floral M and MiloShopHand back. Not a zip. Recreate exactly its neckline, hood, closure, pockets, seam panels, contrasting trim, artwork and fit. Do not invent features from product name. Fixed level camera, upright Y axis, unchanged garment scale, cloth/material/folds across views. Output EXACTLY 3 COLUMNS x 2 ROWS, SIX equal 512px cells, native1536x1024 or larger. Whole garment in every cell with5%clear margin; no clipping. Neutral ivory uniform studio background, soft realistic fabric and light. No person/mannequin/hanger/stand, labels, numbers, grid lines, borders, gutters or watermark. No mirrored logos. Frames18..23 ONLY, row-major: 270 EXACT RIGHT-FACING PROFILE,285,300,315,330,345degrees. The FRONT of garment points towards the RIGHT image edge in first frame. Progress towards almost FRONT. NO BACK ARTWORK visible in ANY of these six views. The chest ML appears from right-facing profile towards frontal view. NEVER repeat rear views.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1725580,
+      "sha256": "1e18d28c4cbf8172353be9e3b40e090a9ea8855034c9fdd59f958b5bb34d06d0",
+      "frames": [
+        {
+          "x": 163,
+          "y": 18,
+          "width": 188,
+          "height": 475
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 219,
+          "height": 475
+        },
+        {
+          "x": 122,
+          "y": 19,
+          "width": 263,
+          "height": 473
+        },
+        {
+          "x": 104,
+          "y": 17,
+          "width": 317,
+          "height": 470
+        },
+        {
+          "x": 74,
+          "y": 18,
+          "width": 373,
+          "height": 466
+        },
+        {
+          "x": 53,
+          "y": 18,
+          "width": 412,
+          "height": 464
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root reviewed source front/back and all four native atlases: same garment construction and colour, whole garment visible, left profile then rear then right profile then front; 24 nominal AI views. Source PNG bytes retained. AI mockup, not physical product photography.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,9 +1,7 @@
 import { config } from "dotenv";
 config({ path: "../../.env" });
-const storageOrigin = process.env.S3_PUBLIC_URL
-  ? new URL(process.env.S3_PUBLIC_URL).origin
-  : "";
 export default {
+  poweredByHeader: false,
   devIndicators: false,
   distDir: process.env.NEXT_BUILD_DIR || ".next",
   transpilePackages: ["@milo/shared"],
@@ -49,13 +47,8 @@ export default {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-          {
-            key: "Content-Security-Policy",
-            value:
-              "default-src 'self'; script-src 'self' 'unsafe-inline' https://maps.googleapis.com https://maps.gstatic.com" +
-              (process.env.NODE_ENV === "production" ? "" : " 'unsafe-eval'") +
-              `; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: ${storageOrigin} https://*.googleapis.com https://*.gstatic.com https://*.google.com; connect-src 'self' blob: https://*.googleapis.com https://*.gstatic.com; worker-src 'self' blob:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'`,
-          },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(self), payment=(), usb=(), browsing-topics=()' },
+          ...(process.env.NODE_ENV === 'production' && process.env.APP_URL?.startsWith('https://') ? [{ key: 'Strict-Transport-Security', value: 'max-age=31536000' }] : []),
         ],
       },
     ];

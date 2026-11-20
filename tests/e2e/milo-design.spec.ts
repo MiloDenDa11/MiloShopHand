@@ -9,13 +9,13 @@ async function garmentTone(element:any){
   return rgb.map(v=>v/(info.width*info.height));
 }
 
-test("Milo Design, nút bo tròn và nền hoa lá hiển thị đúng ở desktop/mobile",async({page,request})=>{
+test("Milo Design và theme Modern Vintage hiển thị đúng ở desktop/mobile",async({page})=>{
   await page.goto("/san-pham?q=ML");
   await expect(page.locator("#main .product-card").first()).toContainText("Milo Design");
-  expect(await page.locator("#main").evaluate(el=>getComputedStyle(el).backgroundImage)).toContain("milo-garden.svg");
-  expect((await request.get("/brand/milo-garden.svg")).ok()).toBe(true);
+  expect(await page.locator("#main").evaluate(el=>getComputedStyle(el).backgroundImage)).toBe("none");
+  expect(await page.locator("body").evaluate(el=>getComputedStyle(el).getPropertyValue("--color-primary").trim())).toBe("#76533c");
   await expect(page.locator('#main select[name="collection"] option').filter({hasText:"Milo Design"})).toHaveCount(1);
-  const square=await page.locator('button:visible,a.button:visible').evaluateAll(nodes=>nodes.filter(el=>parseFloat(getComputedStyle(el).borderTopLeftRadius)<1).map(el=>el.textContent));
+  const square=await page.locator('button:visible,a.button:visible').evaluateAll(nodes=>nodes.filter(el=>parseFloat(getComputedStyle(el).borderTopLeftRadius)<1).map(el=>({label:el.getAttribute('aria-label')||el.textContent,className:el.className,radius:getComputedStyle(el).borderTopLeftRadius})));
   expect(square).toEqual([]);
   for(const width of [360,768,1440]){await page.setViewportSize({width,height:950});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
   await page.goto("/san-pham/ml-tee-heavy-box");
@@ -23,33 +23,35 @@ test("Milo Design, nút bo tròn và nền hoa lá hiển thị đúng ở deskt
   expect(await page.locator("#main").innerText()).not.toMatch(/mockup AI|thiết kế AI|ý tưởng AI/i);
 });
 
-test("chọn trắng/đen/đỏ mận nhuộm đúng phần áo bằng Three.js và giữ giỏ đúng màu",async({page})=>{
+test("ảnh riêng trắng/đen/đỏ mận hiển thị đúng và giữ giỏ đúng màu",async({page})=>{
   await page.setViewportSize({width:1440,height:1000});
-  await page.goto("/san-pham/ml-tee-heavy-box");await expect(page.locator("canvas")).toHaveCount(0);
+  await page.goto("/san-pham/everyday-essential-tee");await expect(page.locator("canvas")).toHaveCount(0);
   const tones:Record<string,number[]>={};
   for(const [name,hex]of [["Trắng","#f8f7f2"],["Đen","#151515"],["Đỏ mận","#722f37"]]){
     await page.locator("#main .color-choices").getByRole("button",{name,exact:true}).click();
-    const preview=page.locator("#main .detail-main .color-photo-stage");
-    await expect(preview).toHaveAttribute("data-state","ready");await expect(preview).toHaveAttribute("data-color",hex);
-    await expect(preview).toHaveAttribute("data-engine","three");await expect(preview).toHaveAttribute("data-progress","1");
+    const preview=page.locator("#main .detail-main .product-photo-frame").first();
+    await expect.poll(()=>preview.locator("img").evaluate(image=>(image as HTMLImageElement).complete&&(image as HTMLImageElement).naturalWidth>0)).toBe(true);
+    await expect(page.locator(".color-photo-stage,canvas")).toHaveCount(0);
     tones[name]=await garmentTone(preview);
   }
   expect(tones["Trắng"][0]).toBeGreaterThan(tones["Đen"][0]+70);
   expect(tones["Đỏ mận"][0]).toBeGreaterThan(tones["Đỏ mận"][1]*1.3);
   await page.getByRole("button",{name:"M",exact:true}).click();await page.getByRole("button",{name:"Thêm vào giỏ hàng",exact:true}).click();
   await expect(page.locator(".cart-line").first()).toContainText("Đỏ mận");
-  await expect(page.locator(".cart-line .color-photo-stage").first()).toHaveAttribute("data-color","#722f37");
+  await expect(page.locator(".cart-line .product-photo-frame img").first()).toBeVisible();
+  await expect(page.locator(".cart-line .color-photo-stage")).toHaveCount(0);
 });
 
-test("WebGL tắt vẫn đổi màu áo bằng bản dự phòng, reduced motion được tôn trọng",async({page})=>{
+test("WebGL tắt vẫn dùng ảnh riêng theo màu, reduced motion được tôn trọng",async({page})=>{
   await page.emulateMedia({reducedMotion:"reduce"});
   await page.addInitScript(()=>{const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type:any,...args:any[]){if(String(type).startsWith("webgl"))return null;return original.call(this,type,...args as any);}as any;});
-  await page.goto("/san-pham/ml-hoodie-zip-pocket-hood");
+  await page.goto("/san-pham/everyday-essential-tee");
   const colors=[];
   for(const name of ["Trắng","Đỏ mận"]){
     await page.locator("#main .color-choices").getByRole("button",{name,exact:true}).click();
-    const preview=page.locator("#main .detail-main .color-photo-stage");
-    await expect(preview).toHaveAttribute("data-state","ready");await expect(preview).toHaveAttribute("data-engine","canvas-fallback");colors.push(await garmentTone(preview));
+    const preview=page.locator("#main .detail-main .product-photo-frame").first();
+    await expect.poll(()=>preview.locator("img").evaluate(image=>(image as HTMLImageElement).complete&&(image as HTMLImageElement).naturalWidth>0)).toBe(true);
+    await expect(page.locator(".color-photo-stage,canvas")).toHaveCount(0);colors.push(await garmentTone(preview));
   }
   expect(colors[0][0]).toBeGreaterThan(colors[1][0]+40);
 });

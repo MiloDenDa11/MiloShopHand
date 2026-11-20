@@ -1,0 +1,222 @@
+{
+  "slug": "ml-bomber-varsity-club",
+  "colorKey": "native-722f37-v1",
+  "colorHex": "#722f37",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-19T06:57:45.968Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-varsity-club/native-722f37-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-136253ca-7dde-4510-919e-015b702f360b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Varsity Club Bomber, Đỏ mận #722f37, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Wool cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nVARSITY STYLE: preserve the source's fine cream raglan piping, cream welt accents, cream snaps, striped ribbing and ivory branding. Keep both body and sleeves the requested main fabric colour and retain the source wool texture; no new contrasting leather panels.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1833882,
+      "sha256": "99acc01a014d4af4879023c48390722939853c3503b5ed594c6b6ad60d75aea4",
+      "frames": [
+        {
+          "x": 79,
+          "y": 31,
+          "width": 394,
+          "height": 391
+        },
+        {
+          "x": 77,
+          "y": 31,
+          "width": 361,
+          "height": 399
+        },
+        {
+          "x": 78,
+          "y": 31,
+          "width": 321,
+          "height": 405
+        },
+        {
+          "x": 143,
+          "y": 29,
+          "width": 289,
+          "height": 430
+        },
+        {
+          "x": 140,
+          "y": 28,
+          "width": 252,
+          "height": 434
+        },
+        {
+          "x": 143,
+          "y": 26,
+          "width": 205,
+          "height": 437
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-varsity-club/native-722f37-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-acd3116f-b184-4e2e-aeaf-16c3fd0f3d2d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Varsity Club Bomber, Đỏ mận #722f37, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Wool cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nVARSITY STYLE: preserve the source's fine cream raglan piping, cream welt accents, cream snaps, striped ribbing and ivory branding. Keep both body and sleeves the requested main fabric colour and retain the source wool texture; no new contrasting leather panels.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1949161,
+      "sha256": "2411fe454b878bea32033eebea6aded7daa8c9649c54c61424d25839ad10d49e",
+      "frames": [
+        {
+          "x": 209,
+          "y": 27,
+          "width": 182,
+          "height": 445
+        },
+        {
+          "x": 147,
+          "y": 28,
+          "width": 209,
+          "height": 444
+        },
+        {
+          "x": 85,
+          "y": 30,
+          "width": 260,
+          "height": 442
+        },
+        {
+          "x": 115,
+          "y": 29,
+          "width": 305,
+          "height": 447
+        },
+        {
+          "x": 66,
+          "y": 28,
+          "width": 346,
+          "height": 445
+        },
+        {
+          "x": 20,
+          "y": 27,
+          "width": 391,
+          "height": 442
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-varsity-club/native-722f37-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-4562b57b-389e-4203-b1fc-54be365bc72e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Varsity Club Bomber, Đỏ mận #722f37, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Wool cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nVARSITY STYLE: preserve the source's fine cream raglan piping, cream welt accents, cream snaps, striped ribbing and ivory branding. Keep both body and sleeves the requested main fabric colour and retain the source wool texture; no new contrasting leather panels.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1690019,
+      "sha256": "d85f2fb0fbf449fb8f7565d7de4050fcac8297bd088f6968a1c06c8e559f0d15",
+      "frames": [
+        {
+          "x": 65,
+          "y": 54,
+          "width": 397,
+          "height": 393
+        },
+        {
+          "x": 69,
+          "y": 53,
+          "width": 377,
+          "height": 402
+        },
+        {
+          "x": 96,
+          "y": 31,
+          "width": 326,
+          "height": 430
+        },
+        {
+          "x": 135,
+          "y": 29,
+          "width": 285,
+          "height": 428
+        },
+        {
+          "x": 141,
+          "y": 28,
+          "width": 246,
+          "height": 440
+        },
+        {
+          "x": 143,
+          "y": 28,
+          "width": 210,
+          "height": 444
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-bomber-varsity-club/native-722f37-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f1c3-7a05-7a63-b990-01e49eaa6045\\exec-ca4b3604-381f-47da-8177-b3cdca58e547.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Varsity Club Bomber, Đỏ mận #722f37, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đỏ mận #722f37; realistic dyed Wool cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nVARSITY STYLE: preserve the source's fine cream raglan piping, cream welt accents, cream snaps, striped ribbing and ivory branding. Keep both body and sleeves the requested main fabric colour and retain the source wool texture; no new contrasting leather panels.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1828626,
+      "sha256": "65b7fa8fbfa11eeb55429e3908ee8cfc8264693c6448ea6464060edbc42c06ba",
+      "frames": [
+        {
+          "x": 184,
+          "y": 28,
+          "width": 167,
+          "height": 454
+        },
+        {
+          "x": 174,
+          "y": 28,
+          "width": 178,
+          "height": 454
+        },
+        {
+          "x": 148,
+          "y": 24,
+          "width": 217,
+          "height": 454
+        },
+        {
+          "x": 136,
+          "y": 25,
+          "width": 282,
+          "height": 448
+        },
+        {
+          "x": 99,
+          "y": 25,
+          "width": 329,
+          "height": 433
+        },
+        {
+          "x": 67,
+          "y": 26,
+          "width": 369,
+          "height": 426
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Inspected all 24 views: burgundy wool, cream piping, snap buttons, welt accents and striped cuffs/hem remain consistent across all four quarters. Front chest monogram and rear floral branding stay correctly positioned; no extra objects or cropped sleeves.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}
