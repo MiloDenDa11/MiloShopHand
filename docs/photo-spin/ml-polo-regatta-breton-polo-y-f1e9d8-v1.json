@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-regatta-breton",
+  "colorKey": "polo-y-f1e9d8-v1",
+  "colorHex": "#f1e9d8",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:18.297Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-f1e9d8-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-dad1d372-e167-4f99-99e5-268eb2692428.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Regatta Breton Polo, Ngà kẻ navy #f1e9d8, quarter 0 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. \nConstruction MUST match the approved plate: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nMain cloth #f1e9d8 (Ngà kẻ navy); the existing specified structural accents/stripes/panels are #28394d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 0, 15, 30 / 45, 60, 75 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1510532,
+      "sha256": "13a394d1f80a98bc049702fc27e77550dfc32481fb1479cffa235e6e6c39a8dc",
+      "frames": [
+        {
+          "x": 92,
+          "y": 32,
+          "width": 367,
+          "height": 448
+        },
+        {
+          "x": 93,
+          "y": 29,
+          "width": 339,
+          "height": 456
+        },
+        {
+          "x": 102,
+          "y": 25,
+          "width": 283,
+          "height": 464
+        },
+        {
+          "x": 181,
+          "y": 19,
+          "width": 214,
+          "height": 466
+        },
+        {
+          "x": 169,
+          "y": 18,
+          "width": 181,
+          "height": 469
+        },
+        {
+          "x": 157,
+          "y": 14,
+          "width": 168,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-f1e9d8-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c091e1cd-12be-47f6-b54e-78cdb498d2c3.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Regatta Breton Polo, Ngà kẻ navy #f1e9d8, quarter 1 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nMain cloth #f1e9d8 (Ngà kẻ navy); the existing specified structural accents/stripes/panels are #28394d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 90, 105, 120 / 135, 150, 165 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1503463,
+      "sha256": "fef5b83a8e720444345ea4337f58d0d317eef6eadfe3302f7d7fe91a618d3e21",
+      "frames": [
+        {
+          "x": 184,
+          "y": 28,
+          "width": 160,
+          "height": 454
+        },
+        {
+          "x": 160,
+          "y": 28,
+          "width": 191,
+          "height": 454
+        },
+        {
+          "x": 121,
+          "y": 27,
+          "width": 244,
+          "height": 454
+        },
+        {
+          "x": 113,
+          "y": 23,
+          "width": 302,
+          "height": 459
+        },
+        {
+          "x": 83,
+          "y": 23,
+          "width": 341,
+          "height": 458
+        },
+        {
+          "x": 68,
+          "y": 23,
+          "width": 365,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-f1e9d8-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-49241327-3178-41d2-ac71-feebaa331351.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Regatta Breton Polo, Ngà kẻ navy #f1e9d8, quarter 2 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nMain cloth #f1e9d8 (Ngà kẻ navy); the existing specified structural accents/stripes/panels are #28394d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 180, 195, 210 / 225, 240, 255 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1449132,
+      "sha256": "3e7c950f75cb2ab4df6b6216d8371aaeba863cada23c3f5add90ceef79729c9d",
+      "frames": [
+        {
+          "x": 83,
+          "y": 32,
+          "width": 380,
+          "height": 448
+        },
+        {
+          "x": 87,
+          "y": 30,
+          "width": 341,
+          "height": 453
+        },
+        {
+          "x": 97,
+          "y": 29,
+          "width": 280,
+          "height": 458
+        },
+        {
+          "x": 165,
+          "y": 22,
+          "width": 227,
+          "height": 458
+        },
+        {
+          "x": 166,
+          "y": 21,
+          "width": 184,
+          "height": 460
+        },
+        {
+          "x": 159,
+          "y": 21,
+          "width": 169,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-f1e9d8-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8535c160-a61f-4b94-9ff9-c7acc79f6389.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Regatta Breton Polo, Ngà kẻ navy #f1e9d8, quarter 3 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nMain cloth #f1e9d8 (Ngà kẻ navy); the existing specified structural accents/stripes/panels are #28394d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 270, 285, 300 / 315, 330, 345 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1457215,
+      "sha256": "e13476fae09cb85745f208f50587aa231fa43af522af2258f3e4bd09fc3e7aac",
+      "frames": [
+        {
+          "x": 182,
+          "y": 28,
+          "width": 146,
+          "height": 453
+        },
+        {
+          "x": 164,
+          "y": 28,
+          "width": 172,
+          "height": 453
+        },
+        {
+          "x": 129,
+          "y": 29,
+          "width": 230,
+          "height": 452
+        },
+        {
+          "x": 112,
+          "y": 25,
+          "width": 282,
+          "height": 455
+        },
+        {
+          "x": 85,
+          "y": 25,
+          "width": 325,
+          "height": 454
+        },
+        {
+          "x": 67,
+          "y": 25,
+          "width": 365,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Regatta Breton Polo, Ngà kẻ navy. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.794Z"
+  }
+}

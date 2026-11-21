@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-oxford-pocket",
+  "colorKey": "polo-y-9faeb8-v1",
+  "colorHex": "#9faeb8",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:16.956Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-9faeb8-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-73b636eb-4387-4ebc-843d-925507456965.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Oxford Pocket Polo, Xanh nhạt #9faeb8, quarter 0 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. \nConstruction MUST match the approved plate: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nMain cloth #9faeb8 (Xanh nhạt); all structural cloth trim tonal as approved. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest on its chest pocket; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 0, 15, 30 / 45, 60, 75 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1494041,
+      "sha256": "bfbaee06c584b9be727d1d0dc3e89dd5ae70b02b0094662eda2b3adf719d6d00",
+      "frames": [
+        {
+          "x": 67,
+          "y": 30,
+          "width": 387,
+          "height": 446
+        },
+        {
+          "x": 75,
+          "y": 24,
+          "width": 367,
+          "height": 454
+        },
+        {
+          "x": 92,
+          "y": 22,
+          "width": 321,
+          "height": 456
+        },
+        {
+          "x": 135,
+          "y": 17,
+          "width": 271,
+          "height": 465
+        },
+        {
+          "x": 160,
+          "y": 14,
+          "width": 183,
+          "height": 468
+        },
+        {
+          "x": 163,
+          "y": 14,
+          "width": 179,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-9faeb8-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6c26c1b9-029d-42b7-ae57-1dd75f4b282d.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Oxford Pocket Polo, Xanh nhạt #9faeb8, quarter 1 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nMain cloth #9faeb8 (Xanh nhạt); all structural cloth trim tonal as approved. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest on its chest pocket; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 90, 105, 120 / 135, 150, 165 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1462530,
+      "sha256": "abda93bd5aeb2c89942f9cea508bde3ad0fc604de231f2cd81662f13e20708a2",
+      "frames": [
+        {
+          "x": 190,
+          "y": 21,
+          "width": 167,
+          "height": 461
+        },
+        {
+          "x": 170,
+          "y": 22,
+          "width": 181,
+          "height": 460
+        },
+        {
+          "x": 150,
+          "y": 22,
+          "width": 221,
+          "height": 460
+        },
+        {
+          "x": 135,
+          "y": 21,
+          "width": 276,
+          "height": 462
+        },
+        {
+          "x": 106,
+          "y": 22,
+          "width": 310,
+          "height": 461
+        },
+        {
+          "x": 81,
+          "y": 22,
+          "width": 353,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-9faeb8-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-a7d4cd78-0a1a-4cf8-a0ee-686238f2bdf4.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Oxford Pocket Polo, Xanh nhạt #9faeb8, quarter 2 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nMain cloth #9faeb8 (Xanh nhạt); all structural cloth trim tonal as approved. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest on its chest pocket; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 180, 195, 210 / 225, 240, 255 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1476314,
+      "sha256": "f94dc538784d0dcb4b708d93efac3662f7f0a5cfec24ab2af515c2a736c7a8fb",
+      "frames": [
+        {
+          "x": 67,
+          "y": 29,
+          "width": 385,
+          "height": 444
+        },
+        {
+          "x": 85,
+          "y": 26,
+          "width": 332,
+          "height": 450
+        },
+        {
+          "x": 105,
+          "y": 26,
+          "width": 279,
+          "height": 450
+        },
+        {
+          "x": 141,
+          "y": 18,
+          "width": 237,
+          "height": 464
+        },
+        {
+          "x": 159,
+          "y": 18,
+          "width": 188,
+          "height": 464
+        },
+        {
+          "x": 160,
+          "y": 18,
+          "width": 171,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-9faeb8-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-2a96574a-3d3b-4451-a4c3-a5776002ee58.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Oxford Pocket Polo, Xanh nhạt #9faeb8, quarter 3 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nMain cloth #9faeb8 (Xanh nhạt); all structural cloth trim tonal as approved. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest on its chest pocket; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 270, 285, 300 / 315, 330, 345 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1494634,
+      "sha256": "062718bbccb88469aef08bffdb59cd16990e89e0aeb9fb90434a6665bae76243",
+      "frames": [
+        {
+          "x": 180,
+          "y": 28,
+          "width": 161,
+          "height": 449
+        },
+        {
+          "x": 165,
+          "y": 29,
+          "width": 178,
+          "height": 447
+        },
+        {
+          "x": 138,
+          "y": 29,
+          "width": 212,
+          "height": 447
+        },
+        {
+          "x": 115,
+          "y": 26,
+          "width": 270,
+          "height": 452
+        },
+        {
+          "x": 90,
+          "y": 26,
+          "width": 313,
+          "height": 452
+        },
+        {
+          "x": 74,
+          "y": 25,
+          "width": 356,
+          "height": 452
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Oxford Pocket Polo, Xanh nhạt. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.789Z"
+  }
+}

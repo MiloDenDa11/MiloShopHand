@@ -3,7 +3,8 @@ import path from "node:path";
 import {createHash} from "node:crypto";
 import sharp from "sharp";
 const originals=JSON.parse(fs.readFileSync("apps/web/content/collection-designs.json","utf8")),legacy=JSON.parse(fs.readFileSync("apps/web/content/legacy-photo-designs.json","utf8"));
-const specifications=[...originals,...legacy];
+const polos=JSON.parse(fs.readFileSync("apps/web/content/polo-designs.json","utf8")).map(spec=>({...spec,colorHex:spec.colors[0].hex}));
+const specifications=[...originals,...legacy,...polos];
 // Visually reviewed provenance is promoted explicitly, never inferred from a
 // directory containing a partial generation job.
 const approved=JSON.parse(fs.readFileSync("docs/photo-spin/approved.json","utf8"));

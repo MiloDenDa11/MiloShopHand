@@ -15,6 +15,7 @@ export default {
       { pathname: "/collection-spin/**" },
       { pathname: "/uploads/**" },
       { pathname: "/products/**" },
+      { pathname: "/editorial/**" },
       { pathname: "/hero-shirt.svg" },
     ],
   },

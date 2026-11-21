@@ -1,0 +1,376 @@
+{
+  "at": "2026-11-20T16:42:55.299Z",
+  "mode": "built-in ImageGen edit",
+  "usage": "AI editorial concepts wearing MiloShopHand catalogue designs; not actual boutique or product photographs",
+  "previousManifest": "docs/vintage-editorial/images-v1.json",
+  "images": [
+    {
+      "id": "boutique-atmosphere",
+      "orientation": "landscape 1536x1024",
+      "scene": "Keep the same boutique interior and architecture. Replace the prominent hanging olive bomber with the exact ML Flight MA1 Bomber from Image 2, including ivory trim and its correct left-chest ML. The nearby ivory tees must be the actual Airy Cotton Tee in Image 4, some naturally front-facing with small ML and one naturally back-facing with the floral MiloShopHand artwork from Image 5. On the table, fold one branded tee so its ML is visible. All visible branding follows the referenced garments, not generic logos stamped over every object. Preserve warm light, rails, plants, fitting curtain and restrained neutral garments; no invented store address or unrequested signage.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, boutique-atmosphere.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual ml-bomber-flight-ma1 FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nImage 4 is the actual airy-cotton-tee FRONT garment and logo reference; Image 5 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Keep the same boutique interior and architecture. Replace the prominent hanging olive bomber with the exact ML Flight MA1 Bomber from Image 2, including ivory trim and its correct left-chest ML. The nearby ivory tees must be the actual Airy Cotton Tee in Image 4, some naturally front-facing with small ML and one naturally back-facing with the floral MiloShopHand artwork from Image 5. On the table, fold one branded tee so its ML is visible. All visible branding follows the referenced garments, not generic logos stamped over every object. Preserve warm light, rails, plants, fitting curtain and restrained neutral garments; no invented store address or unrequested signage.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ea53ec65-2871-456f-8faf-aad12aa7c7df.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:36:58.986Z",
+      "editTarget": "/editorial/vintage-20261120/sources/boutique-atmosphere.png",
+      "editTargetSHA256": "06df585f6744ff79eb771b06bcaa7c00382b01140a60adff50944661fc9e8a1c",
+      "productReferences": [
+        {
+          "slug": "ml-bomber-flight-ma1",
+          "hex": "#656e53",
+          "front": "/product-media/54e019a04d8f-v1-cell-512.webp",
+          "back": "/product-media/0c51e5ba3f27-v1-cell-512.webp",
+          "frontSHA256": "908ac9b90da37bcf6db31a434cdb81e7de45de9eaaa93fbbd80fca44604ddfd1",
+          "backSHA256": "a2938d0e4827a3bdf07bb4f7bdb7aa005bd0012e800b791b3b37f71da2502ba5"
+        },
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/boutique-atmosphere.png",
+      "delivery": "/editorial/branded-20261120-v2/boutique-atmosphere.webp",
+      "sha256": "d4449eb3d5985c40940ddee23cb992d6b2e78dcebda4831193e916cb5f94b757",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2541676,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "customer-service",
+      "orientation": "portrait 1024x1536",
+      "scene": "Preserve the same two people, faces, posture and helpful interaction. Dress the female assistant in the actual ivory Airy Cotton Tee from Image 2 with its small charcoal ML left-chest mark visible. Dress the male customer in the actual olive ML Flight MA1 Bomber from Image 4; where his back/side is visible, the floral MiloShopHand back artwork from Image 5 must follow the fabric perspective and be naturally partly occluded. Fold the tee on the counter to reveal its small ML. Keep hands, notebook, counter and background; no extra people or duplicated marks.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, customer-service.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nImage 4 is the actual ml-bomber-flight-ma1 FRONT garment and logo reference; Image 5 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Preserve the same two people, faces, posture and helpful interaction. Dress the female assistant in the actual ivory Airy Cotton Tee from Image 2 with its small charcoal ML left-chest mark visible. Dress the male customer in the actual olive ML Flight MA1 Bomber from Image 4; where his back/side is visible, the floral MiloShopHand back artwork from Image 5 must follow the fabric perspective and be naturally partly occluded. Fold the tee on the counter to reveal its small ML. Keep hands, notebook, counter and background; no extra people or duplicated marks.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7faac79d-0f11-44db-baa5-05968b53175d.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:38:52.266Z",
+      "editTarget": "/editorial/vintage-20261120/sources/customer-service.png",
+      "editTargetSHA256": "4c3a70f047a73ea2456be27e92e76904cd01a4845f2abd307553be0b4bede86f",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        },
+        {
+          "slug": "ml-bomber-flight-ma1",
+          "hex": "#656e53",
+          "front": "/product-media/54e019a04d8f-v1-cell-512.webp",
+          "back": "/product-media/0c51e5ba3f27-v1-cell-512.webp",
+          "frontSHA256": "908ac9b90da37bcf6db31a434cdb81e7de45de9eaaa93fbbd80fca44604ddfd1",
+          "backSHA256": "a2938d0e4827a3bdf07bb4f7bdb7aa005bd0012e800b791b3b37f71da2502ba5"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/customer-service.png",
+      "delivery": "/editorial/branded-20261120-v2/customer-service.webp",
+      "sha256": "5dfc7ddecf2b4f045d31b9ba224fb50129ea089acde3b2acf2061bd988a2a72a",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2255097,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "everyday-basic",
+      "orientation": "portrait 1024x1536",
+      "scene": "Replace the model's plain ivory tee with the exact Airy Cotton Tee from Image 2, retaining its ivory crewneck cut and the charcoal interwoven ML on the wearer's LEFT chest (viewer right). Keep his face, hair, body, stance, trousers, shoes and background identical. Make the real ML mark recognizable and sharp with natural fabric folds; no large invented central wordmark.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, everyday-basic.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Replace the model's plain ivory tee with the exact Airy Cotton Tee from Image 2, retaining its ivory crewneck cut and the charcoal interwoven ML on the wearer's LEFT chest (viewer right). Keep his face, hair, body, stance, trousers, shoes and background identical. Make the real ML mark recognizable and sharp with natural fabric folds; no large invented central wordmark.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-57870a9f-b220-4746-b0f9-b8e53e155e55.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:35:36.062Z",
+      "editTarget": "/editorial/vintage-20261120/sources/everyday-basic.png",
+      "editTargetSHA256": "c5e0f928038613885c18a39f4d879a09073170a33f1042b828cd23cf42c07438",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/everyday-basic.png",
+      "delivery": "/editorial/branded-20261120-v2/everyday-basic.webp",
+      "sha256": "cc2e90a828d4b163e8f08329a5f41eafc279b9b5b8f64a399dc9b8f5dc100912",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2398041,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "garment-care",
+      "orientation": "landscape 1536x1024",
+      "scene": "The tee being washed must be the actual ivory Airy Cotton Tee in Image 2, with its charcoal ML left-chest print clearly visible on a natural exposed portion of the chest fabric above the basin water. Reposition that fold minimally if needed for visibility, respecting the collar and seam orientation. Replace the caregiver's visible generic blouse with the same brand tee where visible. Keep the original two hands, gentle washing action, basin, water, table, light and quiet vintage mood. No floating logo or print on the hand.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, garment-care.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: The tee being washed must be the actual ivory Airy Cotton Tee in Image 2, with its charcoal ML left-chest print clearly visible on a natural exposed portion of the chest fabric above the basin water. Reposition that fold minimally if needed for visibility, respecting the collar and seam orientation. Replace the caregiver's visible generic blouse with the same brand tee where visible. Keep the original two hands, gentle washing action, basin, water, table, light and quiet vintage mood. No floating logo or print on the hand.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-067b9fab-49ad-49d8-b2c4-92a7bcc8a32c.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:38:46.676Z",
+      "editTarget": "/editorial/vintage-20261120/sources/garment-care.png",
+      "editTargetSHA256": "f96e7d4ef10a2576ba863e059b4638aaf0422975a5b3facd1eab010a9780e865",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/garment-care.png",
+      "delivery": "/editorial/branded-20261120-v2/garment-care.webp",
+      "sha256": "68a6838cf2142b7b2ed47f5c52b112a7d7e47619ffd2747b64ef2d635d3ac841",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2316487,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "order-packaging",
+      "orientation": "landscape 1536x1024",
+      "scene": "The folded tee inside the box must be the actual Airy Cotton Tee from Image 2, folded so its small charcoal ML left-chest print is plainly visible and not hidden beneath the olive ribbon. Replace the packer's generic linen blouse with the same branded ivory cotton tee and a correctly placed small ML chest mark wherever her chest is in frame. Retain realistic hands, packing action, box, tissue, table and sunlight. Do not put a giant logo onto unrelated paper or into open air.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, order-packaging.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: The folded tee inside the box must be the actual Airy Cotton Tee from Image 2, folded so its small charcoal ML left-chest print is plainly visible and not hidden beneath the olive ribbon. Replace the packer's generic linen blouse with the same branded ivory cotton tee and a correctly placed small ML chest mark wherever her chest is in frame. Retain realistic hands, packing action, box, tissue, table and sunlight. Do not put a giant logo onto unrelated paper or into open air.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-5a9a0946-7aa2-4c9e-a617-b87086a1e1ba.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:35:38.884Z",
+      "editTarget": "/editorial/vintage-20261120/sources/order-packaging.png",
+      "editTargetSHA256": "4812d510c1fd73800b17bd43762d7978e8ad269af9c22b227483f6839a7e1c69",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/order-packaging.png",
+      "delivery": "/editorial/branded-20261120-v2/order-packaging.webp",
+      "sha256": "d5b110e5a24da06230b83bdb97846bcd9297f280ae69cc20233e45a1a19e24c1",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2261428,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "oversized-outfit",
+      "orientation": "portrait 1024x1536",
+      "scene": "Replace the loose plain tee with the actual cream Mono Boxy Tee in Image 2. Preserve the comfortably oversized fit, dropped shoulders and drape, with its charcoal interwoven ML on wearer's LEFT chest (viewer right), clearly recognizable. Keep the same woman, face, hair, posture, dark trousers, sneakers and location; keep head and feet fully framed.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, oversized-outfit.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual mono-boxy-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Replace the loose plain tee with the actual cream Mono Boxy Tee in Image 2. Preserve the comfortably oversized fit, dropped shoulders and drape, with its charcoal interwoven ML on wearer's LEFT chest (viewer right), clearly recognizable. Keep the same woman, face, hair, posture, dark trousers, sneakers and location; keep head and feet fully framed.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-b7a8a82d-7852-44b7-b471-f43b73ec5ba4.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:37:35.793Z",
+      "editTarget": "/editorial/vintage-20261120/sources/oversized-outfit.png",
+      "editTargetSHA256": "e3d266b201a5c58eed8eabbff5820d1dd4f9bd99d1a39153bec35e98461c0902",
+      "productReferences": [
+        {
+          "slug": "mono-boxy-tee",
+          "hex": "#e8dfcd",
+          "front": "/product-media/a2f2675730fd-v1-cell-512.webp",
+          "back": "/product-media/2ee06bb6b3d2-v1-cell-512.webp",
+          "frontSHA256": "2dd542536ab7c4b6138d90631434a6f3b8420a5380bd69e7404c93afafb02e1b",
+          "backSHA256": "cccd276f745397f815ca7c6f671dcdb9feabe66997e1624afc0d7dbda783035a"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/oversized-outfit.png",
+      "delivery": "/editorial/branded-20261120-v2/oversized-outfit.webp",
+      "sha256": "d7526a2e22c3b94437f8d1e3896c4fe9b81b5044566c6069a83ca0abd6a47d5c",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2317745,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "parcel-delivery",
+      "orientation": "landscape 1536x1024",
+      "scene": "Keep the handover of the kraft parcel at the warm boutique doorway. Reframe slightly upwards only as needed to show the receiver's upper torso (neck-down, no new face), wearing the actual Airy Cotton Tee from Image 2 with its charcoal ML visible on wearer's LEFT chest. Preserve natural hands, parcel, twine, light and setting. Add a small, elegant MiloShopHand brand mark to the parcel only as supplementary packaging; the branded garment must actually be visible. No invented address or shipping company.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, parcel-delivery.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Keep the handover of the kraft parcel at the warm boutique doorway. Reframe slightly upwards only as needed to show the receiver's upper torso (neck-down, no new face), wearing the actual Airy Cotton Tee from Image 2 with its charcoal ML visible on wearer's LEFT chest. Preserve natural hands, parcel, twine, light and setting. Add a small, elegant MiloShopHand brand mark to the parcel only as supplementary packaging; the branded garment must actually be visible. No invented address or shipping company.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d626dac4-6661-4400-a517-e2827448d76f.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:36:57.009Z",
+      "editTarget": "/editorial/vintage-20261120/sources/parcel-delivery.png",
+      "editTargetSHA256": "324f2b28c665fcdcc9739fbd93d9beaa48e655856bec6b511e8131e4968bf59d",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/parcel-delivery.png",
+      "delivery": "/editorial/branded-20261120-v2/parcel-delivery.webp",
+      "sha256": "e9775884e718b5d47d04dbb083e77dcaf70aa3d80d9480223681cab6ae483f69",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2405313,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "privacy-still-life",
+      "orientation": "landscape 1536x1024",
+      "scene": "Preserve the closed blank envelope, brown ledger, brass key and warm wooden desk as the primary privacy still life. Replace the plain fabric swatch beside the ledger with a neatly folded ivory Airy Cotton Tee from Image 2, showing the actual small charcoal ML on the folded left-chest panel. Keep the garment secondary to the privacy objects, visible and in scale, with natural folds. No readable personal data, no invented security guarantees, no print on the envelope and no futuristic graphics.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, privacy-still-life.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Preserve the closed blank envelope, brown ledger, brass key and warm wooden desk as the primary privacy still life. Replace the plain fabric swatch beside the ledger with a neatly folded ivory Airy Cotton Tee from Image 2, showing the actual small charcoal ML on the folded left-chest panel. Keep the garment secondary to the privacy objects, visible and in scale, with natural folds. No readable personal data, no invented security guarantees, no print on the envelope and no futuristic graphics.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-5e9d8e3f-08bd-4f67-87b8-fb301875b285.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:41:10.936Z",
+      "editTarget": "/editorial/vintage-20261120/sources/privacy-still-life.png",
+      "editTargetSHA256": "2319fb0232c82d4f96252b9403e62712b6bcd46a6c7a87af867c2773ddb3538e",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/privacy-still-life.png",
+      "delivery": "/editorial/branded-20261120-v2/privacy-still-life.webp",
+      "sha256": "9a20393d48322c8d3ad3e79bebb10b0eeaa7a28866e2d0acc96cd2f14633c843",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2575078,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "quality-inspection",
+      "orientation": "landscape 1536x1024",
+      "scene": "Use the actual Airy Cotton Tee in Image 2 for the garment being inspected. Keep the hands checking the lower hem; slightly broaden the visible shirt area if needed so the correctly placed charcoal ML left-chest mark is also visible, oriented consistently with the collar and torso. Do not print ML on the hem or palms. Preserve stitching detail, fabric texture, hands, wooden table and natural lighting.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, quality-inspection.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Use the actual Airy Cotton Tee in Image 2 for the garment being inspected. Keep the hands checking the lower hem; slightly broaden the visible shirt area if needed so the correctly placed charcoal ML left-chest mark is also visible, oriented consistently with the collar and torso. Do not print ML on the hem or palms. Preserve stitching detail, fabric texture, hands, wooden table and natural lighting.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4ae057c9-d341-4f00-bc12-8988f501bf7a.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:36:15.306Z",
+      "editTarget": "/editorial/vintage-20261120/sources/quality-inspection.png",
+      "editTargetSHA256": "eb086b623cd3c503281f0c0d8eaf48d535d51fff37eada7c26fd9f87e65d63cb",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/quality-inspection.png",
+      "delivery": "/editorial/branded-20261120-v2/quality-inspection.webp",
+      "sha256": "52490673fde019b03bc95abcaa2bc27996aec83d5d3e38c527f1e999150cdf34",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2367120,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "size-measurement",
+      "orientation": "landscape 1536x1024",
+      "scene": "Replace the flat unbranded tee with the actual ivory Airy Cotton Tee from Image 2: same crewneck, short sleeves and straight hem, and its clearly visible charcoal ML on the wearer's LEFT chest (viewer right in this flat front view). Maintain the entire tee within frame and a straight measuring tape across the underarms below the logo. Preserve hands and table, do not create a fake size chart or legible measurement numbers.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, size-measurement.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual airy-cotton-tee FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Replace the flat unbranded tee with the actual ivory Airy Cotton Tee from Image 2: same crewneck, short sleeves and straight hem, and its clearly visible charcoal ML on the wearer's LEFT chest (viewer right in this flat front view). Maintain the entire tee within frame and a straight measuring tape across the underarms below the logo. Preserve hands and table, do not create a fake size chart or legible measurement numbers.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-bcf26ef3-a17c-4265-90a6-ec78db19c245.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:38:05.026Z",
+      "editTarget": "/editorial/vintage-20261120/sources/size-measurement.png",
+      "editTargetSHA256": "ad6f673e643a269fd37d5fe49edd4fe0343c516c342d1a9d083fdaa8338a973f",
+      "productReferences": [
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/size-measurement.png",
+      "delivery": "/editorial/branded-20261120-v2/size-measurement.webp",
+      "sha256": "09dae8832b4bf3663b96de4147770166142eb1166cf20a9b939cec54974bd136",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2465089,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "streetwear-outfit",
+      "orientation": "portrait 1024x1536",
+      "scene": "Replace the generic dark outer layer with the actual ML Racer Clean Jacket from Image 2: charcoal fabric, stand collar, ivory piping along shoulders and cuffs, zipper pockets and ivory ML on wearer's LEFT chest. Wear it open over Airy Cotton Tee from Image 4, with shirt ML only if not covered. Preserve the man, face, pose, cargo trousers, bag, shoes, lighting and background. Keep actual garment construction and brand placement, no invented work-shirt logos.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, streetwear-outfit.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual ml-jacket-racer-clean FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nImage 4 is the actual airy-cotton-tee FRONT garment and logo reference; Image 5 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Replace the generic dark outer layer with the actual ML Racer Clean Jacket from Image 2: charcoal fabric, stand collar, ivory piping along shoulders and cuffs, zipper pockets and ivory ML on wearer's LEFT chest. Wear it open over Airy Cotton Tee from Image 4, with shirt ML only if not covered. Preserve the man, face, pose, cargo trousers, bag, shoes, lighting and background. Keep actual garment construction and brand placement, no invented work-shirt logos.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8a5f9b9a-5788-49ec-9170-0b5435ca75e2.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:40:25.945Z",
+      "editTarget": "/editorial/vintage-20261120/sources/streetwear-outfit.png",
+      "editTargetSHA256": "8ddc4aae0f59a8c5af2f97d6b4ac1351c3240f31181520cd0144d55619fe2934",
+      "productReferences": [
+        {
+          "slug": "ml-jacket-racer-clean",
+          "hex": "#303332",
+          "front": "/product-media/cf2e8e7c12d4-v1-cell-512.webp",
+          "back": "/product-media/6809293032b1-v1-cell-512.webp",
+          "frontSHA256": "928bcaee36f8e28296799c927045119fd7dcb9dd33f97d6e16235548bfa74ac2",
+          "backSHA256": "c6800f2caaa8d824213d5d5983690ae2108ca30dc4f54d4008edad5871ebde07"
+        },
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/streetwear-outfit.png",
+      "delivery": "/editorial/branded-20261120-v2/streetwear-outfit.webp",
+      "sha256": "0fb95259af934f7d83ddca30258e23376e714b8321e6a0973d99caeaf949c722",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2519033,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    },
+    {
+      "id": "vintage-bomber",
+      "orientation": "portrait 1024x1536",
+      "scene": "Dress the same woman in the exact ML Flight MA1 Bomber from Image 2: olive body, warm ivory rib collar/cuffs/hem, sleeve utility pocket, and soft ivory ML on wearer's LEFT chest. Open the zipper naturally as in the edit target, over the branded Airy Cotton Tee in Image 4; show its chest mark only where not covered by the jacket. Preserve her identity, pose, trousers, shoes and architectural background. Do not copy the garment's back artwork onto the front.",
+      "prompt": "Use case: precise-object-edit / identity-preserve / product-mockup.\nAsset: MiloShopHand branded editorial photograph, vintage-bomber.\nImage 1 is the EDIT TARGET: preserve this photographic scene.\nImage 2 is the actual ml-bomber-flight-ma1 FRONT garment and logo reference; Image 3 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nImage 4 is the actual airy-cotton-tee FRONT garment and logo reference; Image 5 is its BACK artwork/garment reference. Use these precise products, construction and marks.\nRequested change: Dress the same woman in the exact ML Flight MA1 Bomber from Image 2: olive body, warm ivory rib collar/cuffs/hem, sleeve utility pocket, and soft ivory ML on wearer's LEFT chest. Open the zipper naturally as in the edit target, over the branded Airy Cotton Tee in Image 4; show its chest mark only where not covered by the jacket. Preserve her identity, pose, trousers, shoes and architectural background. Do not copy the garment's back artwork onto the front.\nBrand fidelity: Use the exact interwoven ML shapes and, only on a visible BACK, floral MiloShopHand artwork from the garment references. Treat them as actual fabric print or embroidery, with correct perspective, scale, folds and light. FRONT has a small left-chest ML; BACK has floral M + the exact word MiloShopHand. Do not exchange these placements, invent another logo, add extra letters, glow or an overlay/watermark.\nPreserve the original photographic style: natural 35mm film grain, warm ivory/espresso/muted olive, realistic skin and cloth. Keep original composition, camera, lighting and subject framing except the minimal garment/reframing changes requested. Keep all visible anatomy natural.\nReturn one finished photorealistic photograph at the SAME orientation and dimensions as Image 1. No collage, labels, borders, instruction text, captions, split panels or before/after grid.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-35c4b60e-964c-48de-8b05-c3cad483e7f3.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T16:36:17.937Z",
+      "editTarget": "/editorial/vintage-20261120/sources/vintage-bomber.png",
+      "editTargetSHA256": "4c47161311227241d86133be7840bb10985acb0f6d4db70a3e2e8bb3df9df0da",
+      "productReferences": [
+        {
+          "slug": "ml-bomber-flight-ma1",
+          "hex": "#656e53",
+          "front": "/product-media/54e019a04d8f-v1-cell-512.webp",
+          "back": "/product-media/0c51e5ba3f27-v1-cell-512.webp",
+          "frontSHA256": "908ac9b90da37bcf6db31a434cdb81e7de45de9eaaa93fbbd80fca44604ddfd1",
+          "backSHA256": "a2938d0e4827a3bdf07bb4f7bdb7aa005bd0012e800b791b3b37f71da2502ba5"
+        },
+        {
+          "slug": "airy-cotton-tee",
+          "hex": "#f8f7f2",
+          "front": "/product-media/2c11cbca7317-v1-cell-512.webp",
+          "back": "/product-media/0162dd5bf288-v1-cell-512.webp",
+          "frontSHA256": "a9e74800e420ad9faf10869540310e70eabda9e822db65ba735de5c06bd621e6",
+          "backSHA256": "940d34baad8f5b92f0bffef9faba4ad15870a92e88d4a2fca8e28bcaaf0598f8"
+        }
+      ],
+      "original": "/editorial/branded-20261120-v2/sources/vintage-bomber.png",
+      "delivery": "/editorial/branded-20261120-v2/vintage-bomber.webp",
+      "sha256": "763d823a99b39517585d31f2eb966dc172c0df50e00d57035926e14a8408d98d",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2519651,
+      "visualReview": "Original reviewed: MiloShopHand garments and visible chest ML/back floral artwork follow supplied catalogue references, fabric folds and scene lighting. Original editorial topic, warm film palette and natural people/hands retained. AI concept imagery, not factual product/store photography. Responsive crop reviewed separately in branded-verification.json."
+    }
+  ]
+}

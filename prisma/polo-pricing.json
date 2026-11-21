@@ -1,0 +1,16 @@
+{
+  "status": "draft-estimate",
+  "basis": "User requested drafts; estimated cost 200000–250000 VND and retail price 500000–600000 VND per design, 2026-11-21. All stock stays zero and sizes remain unconfirmed.",
+  "products": [
+    { "slug": "ml-polo-heritage-pique", "price": 500000, "cost": 200000 },
+    { "slug": "ml-polo-riviera-open-collar", "price": 550000, "cost": 225000 },
+    { "slug": "ml-polo-club-tipped", "price": 530000, "cost": 215000 },
+    { "slug": "ml-polo-milano-rib", "price": 560000, "cost": 230000 },
+    { "slug": "ml-polo-mercer-zip", "price": 550000, "cost": 225000 },
+    { "slug": "ml-polo-oxford-pocket", "price": 540000, "cost": 220000 },
+    { "slug": "ml-polo-regatta-breton", "price": 530000, "cost": 215000 },
+    { "slug": "ml-polo-court-raglan", "price": 520000, "cost": 210000 },
+    { "slug": "ml-polo-atelier-side-panel", "price": 560000, "cost": 235000 },
+    { "slug": "ml-polo-cable-heritage", "price": 600000, "cost": 250000 }
+  ]
+}

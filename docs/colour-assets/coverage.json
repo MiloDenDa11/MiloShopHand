@@ -1,11 +1,11 @@
 {
-  "at": "2026-11-19T10:49:50.984Z",
+  "at": "2026-11-20T09:12:54.452Z",
   "products": 90,
   "colours": 380,
-  "nativeColours": 281,
-  "missingColours": 99,
-  "remainingPNGAtlases": 396,
-  "remainingViews": 2376,
+  "nativeColours": 321,
+  "missingColours": 59,
+  "remainingPNGAtlases": 236,
+  "remainingViews": 1416,
   "remaining": [
     {
       "slug": "ml-jacket-minimal-collar",
@@ -164,192 +164,6 @@
       "native": false
     },
     {
-      "slug": "ml-tee-athletic-ringer",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-athletic-ringer",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-breton-line",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-breton-line",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-double-hem",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-double-hem",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-drop-shoulder",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-drop-shoulder",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-henley-three",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-henley-three",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-longline-basic",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-longline-basic",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-mock-neck",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-mock-neck",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-pocket-study",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-pocket-study",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-raglan-day",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-raglan-day",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-rib-neck",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-rib-neck",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-slit-side",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-slit-side",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-split-panel",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-split-panel",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-wide-neck",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "ml-tee-wide-neck",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "mono-boxy-tee",
-      "color": "Kem",
-      "colorHex": "#e8dfcd",
-      "native": false
-    },
-    {
-      "slug": "mono-boxy-tee",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "no-rules-graphic-tee",
-      "color": "Xanh navy",
-      "colorHex": "#34465b",
-      "native": false
-    },
-    {
-      "slug": "no-rules-graphic-tee",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "no-rules-graphic-tee",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
       "slug": "olive-field-bomber",
       "color": "Kem",
       "colorHex": "#e8dfcd",
@@ -482,24 +296,6 @@
       "native": false
     },
     {
-      "slug": "sport-division-tee",
-      "color": "Tím",
-      "colorHex": "#b6a4d4",
-      "native": false
-    },
-    {
-      "slug": "sport-division-tee",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "sport-division-tee",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
       "slug": "studio-nylon-bomber",
       "color": "Xanh navy",
       "colorHex": "#34465b",
@@ -521,42 +317,6 @@
       "slug": "studio-nylon-bomber",
       "color": "Đỏ mận",
       "colorHex": "#722f37",
-      "native": false
-    },
-    {
-      "slug": "sunday-club-tee",
-      "color": "Xám",
-      "colorHex": "#a3a5aa",
-      "native": false
-    },
-    {
-      "slug": "sunday-club-tee",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "sunday-club-tee",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
-      "native": false
-    },
-    {
-      "slug": "urban-motion-tee",
-      "color": "Xanh olive",
-      "colorHex": "#78846a",
-      "native": false
-    },
-    {
-      "slug": "urban-motion-tee",
-      "color": "Đen",
-      "colorHex": "#151515",
-      "native": false
-    },
-    {
-      "slug": "urban-motion-tee",
-      "color": "Trắng",
-      "colorHex": "#f8f7f2",
       "native": false
     },
     {

@@ -1,0 +1,222 @@
+{
+  "slug": "sport-division-tee",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T07:54:40.095Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-391dcc2c-f1cf-4286-8da0-4964bc99fdf1.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sport Division Tee, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the source's fine dark shoulder piping front and back, matching target-colour body and sleeves, ribbed crew collar, and small side-slit hem. Piping stays charcoal on light or purple fabric and subtle contrasting soft grey on black. Preserve small ML chest and floral MiloShopHand back print, ink charcoal on purple/white and soft ivory on black.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1606538,
+      "sha256": "17945f77df450ccad51533dcd634b82fd2e033c62b035c566d038f8014f2c0ac",
+      "frames": [
+        {
+          "x": 47,
+          "y": 23,
+          "width": 419,
+          "height": 457
+        },
+        {
+          "x": 56,
+          "y": 20,
+          "width": 403,
+          "height": 460
+        },
+        {
+          "x": 82,
+          "y": 19,
+          "width": 346,
+          "height": 463
+        },
+        {
+          "x": 129,
+          "y": 15,
+          "width": 262,
+          "height": 470
+        },
+        {
+          "x": 158,
+          "y": 15,
+          "width": 196,
+          "height": 472
+        },
+        {
+          "x": 167,
+          "y": 15,
+          "width": 184,
+          "height": 472
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-370f2eed-f12e-4e49-bb91-aa43053eb6b9.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sport Division Tee, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the source's fine dark shoulder piping front and back, matching target-colour body and sleeves, ribbed crew collar, and small side-slit hem. Piping stays charcoal on light or purple fabric and subtle contrasting soft grey on black. Preserve small ML chest and floral MiloShopHand back print, ink charcoal on purple/white and soft ivory on black.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1652210,
+      "sha256": "90d237ed12e7769c384d977e9222702d9683b1cacab42f82bde97f0dad3e8f02",
+      "frames": [
+        {
+          "x": 170,
+          "y": 13,
+          "width": 187,
+          "height": 484
+        },
+        {
+          "x": 151,
+          "y": 12,
+          "width": 212,
+          "height": 485
+        },
+        {
+          "x": 141,
+          "y": 12,
+          "width": 227,
+          "height": 486
+        },
+        {
+          "x": 114,
+          "y": 14,
+          "width": 290,
+          "height": 483
+        },
+        {
+          "x": 78,
+          "y": 14,
+          "width": 347,
+          "height": 484
+        },
+        {
+          "x": 55,
+          "y": 14,
+          "width": 400,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6307e8f2-2b14-43c6-b390-03cab86718d0.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sport Division Tee, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the source's fine dark shoulder piping front and back, matching target-colour body and sleeves, ribbed crew collar, and small side-slit hem. Piping stays charcoal on light or purple fabric and subtle contrasting soft grey on black. Preserve small ML chest and floral MiloShopHand back print, ink charcoal on purple/white and soft ivory on black.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1669369,
+      "sha256": "dc3b2e9eded50eaf8903c91b8f29feab014a321be758eccec8a2b76bcf5e3486",
+      "frames": [
+        {
+          "x": 50,
+          "y": 23,
+          "width": 412,
+          "height": 466
+        },
+        {
+          "x": 67,
+          "y": 21,
+          "width": 390,
+          "height": 467
+        },
+        {
+          "x": 102,
+          "y": 20,
+          "width": 315,
+          "height": 468
+        },
+        {
+          "x": 147,
+          "y": 19,
+          "width": 239,
+          "height": 472
+        },
+        {
+          "x": 154,
+          "y": 19,
+          "width": 214,
+          "height": 473
+        },
+        {
+          "x": 160,
+          "y": 18,
+          "width": 199,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/sport-division-tee/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-0487d4c4-5ee4-4767-a7af-2dcfd2aab2ff.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Sport Division Tee, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the source's fine dark shoulder piping front and back, matching target-colour body and sleeves, ribbed crew collar, and small side-slit hem. Piping stays charcoal on light or purple fabric and subtle contrasting soft grey on black. Preserve small ML chest and floral MiloShopHand back print, ink charcoal on purple/white and soft ivory on black.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1634546,
+      "sha256": "a1ebc58513be7ea60e30ee9da5e44a50f4dd110c5e82264d882ab56dd707c142",
+      "frames": [
+        {
+          "x": 163,
+          "y": 22,
+          "width": 176,
+          "height": 465
+        },
+        {
+          "x": 151,
+          "y": 22,
+          "width": 214,
+          "height": 465
+        },
+        {
+          "x": 117,
+          "y": 23,
+          "width": 267,
+          "height": 464
+        },
+        {
+          "x": 89,
+          "y": 24,
+          "width": 338,
+          "height": 463
+        },
+        {
+          "x": 60,
+          "y": 24,
+          "width": 391,
+          "height": 463
+        },
+        {
+          "x": 49,
+          "y": 26,
+          "width": 428,
+          "height": 461
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views in four native atlases and contact sheet. Shoulder piping, relaxed short sleeves and small side slits remain intact. #151515 fabric is consistent across front/profiles/rear; small chest ML and floral MiloShopHand rear print remain on correct faces with complete garment margins.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

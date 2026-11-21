@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-mercer-zip",
+  "colorKey": "polo-y-b6b1a3-v1",
+  "colorHex": "#b6b1a3",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:14.267Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-mercer-zip/polo-y-b6b1a3-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-057b61db-e428-4dbc-b204-0a0a711e5f59.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, Xám đá #b6b1a3, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xám đá, #b6b1a3. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1687419,
+      "sha256": "4914767d9b042a5fd71cb070ef6b1ee5d9aee59ecad18f8640c0f29d2f882e14",
+      "frames": [
+        {
+          "x": 86,
+          "y": 35,
+          "width": 374,
+          "height": 450
+        },
+        {
+          "x": 82,
+          "y": 32,
+          "width": 348,
+          "height": 452
+        },
+        {
+          "x": 91,
+          "y": 31,
+          "width": 303,
+          "height": 454
+        },
+        {
+          "x": 158,
+          "y": 21,
+          "width": 247,
+          "height": 463
+        },
+        {
+          "x": 151,
+          "y": 17,
+          "width": 202,
+          "height": 467
+        },
+        {
+          "x": 141,
+          "y": 17,
+          "width": 191,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-mercer-zip/polo-y-b6b1a3-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4657fafa-b8e7-4d4f-bbe5-b49f85c60d50.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, Xám đá #b6b1a3, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xám đá, #b6b1a3. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1415355,
+      "sha256": "68b5e066a180e5f3db2240956917f496d1c4f8c05120601b33c6cc82553aa201",
+      "frames": [
+        {
+          "x": 186,
+          "y": 25,
+          "width": 168,
+          "height": 461
+        },
+        {
+          "x": 164,
+          "y": 25,
+          "width": 182,
+          "height": 461
+        },
+        {
+          "x": 142,
+          "y": 25,
+          "width": 211,
+          "height": 461
+        },
+        {
+          "x": 142,
+          "y": 24,
+          "width": 267,
+          "height": 462
+        },
+        {
+          "x": 102,
+          "y": 24,
+          "width": 309,
+          "height": 461
+        },
+        {
+          "x": 66,
+          "y": 24,
+          "width": 355,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-mercer-zip/polo-y-b6b1a3-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-3a9b7ad7-c15b-443c-bbe3-7ab45c8e0724.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, Xám đá #b6b1a3, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xám đá, #b6b1a3. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1686723,
+      "sha256": "01c0e702d632ac4beb8360c1f25e2f2cd380c7cf22691323ffb8bbd0d4470e0c",
+      "frames": [
+        {
+          "x": 85,
+          "y": 29,
+          "width": 381,
+          "height": 455
+        },
+        {
+          "x": 93,
+          "y": 29,
+          "width": 330,
+          "height": 455
+        },
+        {
+          "x": 111,
+          "y": 28,
+          "width": 264,
+          "height": 456
+        },
+        {
+          "x": 177,
+          "y": 27,
+          "width": 204,
+          "height": 458
+        },
+        {
+          "x": 168,
+          "y": 26,
+          "width": 186,
+          "height": 459
+        },
+        {
+          "x": 152,
+          "y": 26,
+          "width": 181,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-mercer-zip/polo-y-b6b1a3-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-cfc7d686-1042-4511-8ac7-7446c992aaa8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, Xám đá #b6b1a3, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xám đá, #b6b1a3. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1371072,
+      "sha256": "d5195508510d7ad1fc44aec08f971379c86ffca34a76ffa9c6b3fae418c7dd8e",
+      "frames": [
+        {
+          "x": 177,
+          "y": 26,
+          "width": 171,
+          "height": 461
+        },
+        {
+          "x": 166,
+          "y": 26,
+          "width": 189,
+          "height": 461
+        },
+        {
+          "x": 147,
+          "y": 26,
+          "width": 223,
+          "height": 461
+        },
+        {
+          "x": 136,
+          "y": 25,
+          "width": 271,
+          "height": 461
+        },
+        {
+          "x": 99,
+          "y": 25,
+          "width": 325,
+          "height": 461
+        },
+        {
+          "x": 74,
+          "y": 24,
+          "width": 371,
+          "height": 462
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Mercer Zip Polo, Xám đá. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.786Z"
+  }
+}

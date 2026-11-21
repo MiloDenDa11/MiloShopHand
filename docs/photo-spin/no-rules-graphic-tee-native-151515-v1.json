@@ -1,0 +1,222 @@
+{
+  "slug": "no-rules-graphic-tee",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T07:44:15.806Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-90620511-0491-43d5-b4ab-85e682879113.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour cotton jersey with matching crew collar, no contrasting panels. Retain the exact small ML chest and floral MiloShopHand back artwork; ivory ink on black, charcoal ink on white. Preserve source garment fit and sleeve width.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1488486,
+      "sha256": "b033a01e6ce5af2f0e5032477fcb9e4c190526f74642831040779f2ffedc31f1",
+      "frames": [
+        {
+          "x": 53,
+          "y": 24,
+          "width": 417,
+          "height": 450
+        },
+        {
+          "x": 60,
+          "y": 21,
+          "width": 395,
+          "height": 453
+        },
+        {
+          "x": 88,
+          "y": 20,
+          "width": 332,
+          "height": 456
+        },
+        {
+          "x": 136,
+          "y": 17,
+          "width": 271,
+          "height": 465
+        },
+        {
+          "x": 149,
+          "y": 15,
+          "width": 218,
+          "height": 469
+        },
+        {
+          "x": 145,
+          "y": 14,
+          "width": 206,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-55a82a6d-1bce-46b9-83ba-821d95924959.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour cotton jersey with matching crew collar, no contrasting panels. Retain the exact small ML chest and floral MiloShopHand back artwork; ivory ink on black, charcoal ink on white. Preserve source garment fit and sleeve width.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1394713,
+      "sha256": "60aa07978d8265395e1940555070824a36672206fc76e1f05cf3baf4d9a65dc8",
+      "frames": [
+        {
+          "x": 160,
+          "y": 18,
+          "width": 194,
+          "height": 476
+        },
+        {
+          "x": 149,
+          "y": 17,
+          "width": 212,
+          "height": 478
+        },
+        {
+          "x": 145,
+          "y": 17,
+          "width": 222,
+          "height": 478
+        },
+        {
+          "x": 136,
+          "y": 17,
+          "width": 248,
+          "height": 478
+        },
+        {
+          "x": 98,
+          "y": 17,
+          "width": 313,
+          "height": 478
+        },
+        {
+          "x": 72,
+          "y": 17,
+          "width": 365,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-a28f7d33-6c5c-42c9-9bf6-6e04b5f72a34.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour cotton jersey with matching crew collar, no contrasting panels. Retain the exact small ML chest and floral MiloShopHand back artwork; ivory ink on black, charcoal ink on white. Preserve source garment fit and sleeve width.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1551616,
+      "sha256": "728cf75b47fd989c05b5ec4e499d72140f86d44e0cc38b0bd304d6f3415ead14",
+      "frames": [
+        {
+          "x": 43,
+          "y": 23,
+          "width": 434,
+          "height": 458
+        },
+        {
+          "x": 68,
+          "y": 23,
+          "width": 391,
+          "height": 460
+        },
+        {
+          "x": 101,
+          "y": 23,
+          "width": 310,
+          "height": 462
+        },
+        {
+          "x": 141,
+          "y": 22,
+          "width": 246,
+          "height": 461
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 216,
+          "height": 462
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 207,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-bc18aadb-8406-41a8-a614-3a904c515ede.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour cotton jersey with matching crew collar, no contrasting panels. Retain the exact small ML chest and floral MiloShopHand back artwork; ivory ink on black, charcoal ink on white. Preserve source garment fit and sleeve width.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1393444,
+      "sha256": "2fd90058162c96ccee41e15b9b243e2167e0bbe8c2a3bdb14e0fd222b1631159",
+      "frames": [
+        {
+          "x": 168,
+          "y": 19,
+          "width": 174,
+          "height": 473
+        },
+        {
+          "x": 161,
+          "y": 19,
+          "width": 197,
+          "height": 473
+        },
+        {
+          "x": 132,
+          "y": 20,
+          "width": 262,
+          "height": 472
+        },
+        {
+          "x": 97,
+          "y": 19,
+          "width": 324,
+          "height": 472
+        },
+        {
+          "x": 64,
+          "y": 19,
+          "width": 385,
+          "height": 472
+        },
+        {
+          "x": 39,
+          "y": 19,
+          "width": 436,
+          "height": 472
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "24 nominal views reviewed together: consistent black jersey, same relaxed cut and rib collar, ivory chest monogram and floral rear wordmark. All six cells per atlas contain full garments; chest and rear marks disappear correctly at profiles.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

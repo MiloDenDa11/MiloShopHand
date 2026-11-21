@@ -1,0 +1,447 @@
+{
+  "at": "2026-11-21T02:36:53.173Z",
+  "result": "PASS",
+  "scope": "Local project and shop; no GitHub push or public deployment",
+  "userConfirmed": {
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stockPerColorSize": 20
+  },
+  "publication": {
+    "products": 10,
+    "colors": 40,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "saleSKUs": 160,
+    "openingUnits": 3200,
+    "stockPerColorSize": 20,
+    "existingPricesPreserved": true,
+    "changed": 10,
+    "preserved": 0,
+    "createdVariants": 160,
+    "initializedStockUnits": 3200
+  },
+  "replay": {
+    "products": 10,
+    "colors": 40,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "saleSKUs": 160,
+    "openingUnits": 3200,
+    "stockPerColorSize": 20,
+    "existingPricesPreserved": true,
+    "changed": 0,
+    "preserved": 10,
+    "createdVariants": 0,
+    "initializedStockUnits": 0
+  },
+  "checks": {
+    "unitTests": {
+      "result": "PASS",
+      "tests": 57,
+      "command": "npm test"
+    },
+    "typecheck": {
+      "result": "PASS",
+      "projects": [
+        "api",
+        "worker",
+        "web"
+      ],
+      "command": "npm run typecheck"
+    },
+    "database": {
+      "at": "2026-11-21T02:33:23.595Z",
+      "tables": [
+        {
+          "name": "Address",
+          "before": 1,
+          "after": 1,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "AuditLog",
+          "before": 46,
+          "after": 56,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "AuthToken",
+          "before": 2,
+          "after": 2,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "CODSettlement",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Cart",
+          "before": 5,
+          "after": 5,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "CartItem",
+          "before": 1,
+          "after": 1,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Category",
+          "before": 5,
+          "after": 5,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Collection",
+          "before": 5,
+          "after": 5,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Coupon",
+          "before": 1,
+          "after": 1,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "CouponRedemption",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Exchange",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ExchangeReceipt",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Inventory",
+          "before": 1560,
+          "after": 1720,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "InventoryReservation",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "MFA",
+          "before": 1,
+          "after": 1,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Notification",
+          "before": 9,
+          "after": 9,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Order",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "OrderItem",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "OrderStatusHistory",
+          "before": 9,
+          "after": 9,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "OutboxEvent",
+          "before": 22,
+          "after": 22,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Payment",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "PaymentEvent",
+          "before": 2,
+          "after": 2,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "PaymentTransaction",
+          "before": 2,
+          "after": 2,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Product",
+          "before": 100,
+          "after": 100,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ProductImage",
+          "before": 722,
+          "after": 722,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ProductVariant",
+          "before": 1560,
+          "after": 1720,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Refund",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ReturnItem",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ReturnRequest",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Review",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Session",
+          "before": 12,
+          "after": 12,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Shipment",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "ShipmentEvent",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "StockMovement",
+          "before": 1524,
+          "after": 1684,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "StoreSetting",
+          "before": 1,
+          "after": 1,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "StyleTag",
+          "before": 4,
+          "after": 4,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "User",
+          "before": 10,
+          "after": 10,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "UserUpload",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "Wishlist",
+          "before": 0,
+          "after": 0,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "_CollectionToProduct",
+          "before": 100,
+          "after": 100,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "_ProductToStyleTag",
+          "before": 100,
+          "after": 100,
+          "priorDataPreserved": true
+        },
+        {
+          "name": "_prisma_migrations",
+          "before": 9,
+          "after": 9,
+          "priorDataPreserved": true
+        }
+      ],
+      "failures": [],
+      "productsActivated": 10,
+      "draftVariantsRetired": 40,
+      "newSaleVariants": 160,
+      "newInventories": 160,
+      "openingUnits": 3200,
+      "newStockMovements": 160,
+      "newSaleAuditEvents": 10,
+      "result": "PASS"
+    },
+    "browser": {
+      "at": "2026-11-21T02:32:15.903Z",
+      "base": "http://localhost:3000",
+      "products": 10,
+      "colours": 40,
+      "publicVariants": 160,
+      "availableUnits": 3200,
+      "sizeChoicesChecked": 320,
+      "cartProductsChecked": 20,
+      "checkoutNavigation": true,
+      "consoleErrors": [],
+      "failedAssets": [],
+      "blockedCommerceWrites": [],
+      "screenshots": [
+        "docs/polo-sale-20261121/previews/catalogue-desktop.png",
+        "docs/polo-sale-20261121/previews/detail-desktop.png",
+        "docs/polo-sale-20261121/previews/catalogue-mobile.png",
+        "docs/polo-sale-20261121/previews/detail-mobile.png"
+      ],
+      "result": "PASS"
+    }
+  },
+  "preserved": {
+    "prices": true,
+    "costs": true,
+    "priorIds": true,
+    "productImages": true,
+    "photoSpins": true,
+    "orders": true,
+    "otherProducts": true
+  },
+  "backup": {
+    "at": "2026-11-21T02:25:14.269Z",
+    "file": ".local/polo-sale-20261121/launch/database-before.rows.json.gz",
+    "format": "PostgreSQL native row_to_json text, no numeric JSON parsing; includes implicit relation tables",
+    "tables": 42,
+    "rows": 5833,
+    "bytes": 308788,
+    "sha256": "500399cde057bd323d1c578a337aa024840e793764d11543b59174bef29bea00",
+    "roundTrip": "PASS",
+    "limitation": "Row backup for existing schema, not a pg_dump/full server restore. No schema is modified by this task."
+  },
+  "files": [
+    {
+      "file": "prisma/polo-sale.json",
+      "bytes": 64,
+      "sha256": "368d08331d8b6bbc60a6cc707fbefecf383074e439c2ae0ce33f630a0e098ae9"
+    },
+    {
+      "file": "prisma/polo.ts",
+      "bytes": 20927,
+      "sha256": "d92d20b703b0032b7ade7f40b2106c8b7281007408de776403e54cf9497d376a"
+    },
+    {
+      "file": "package.json",
+      "bytes": 4256,
+      "sha256": "67e5ea65e38427b5cfb51da44d73daaa5ac2cabaef0323ffd695faa7ae3a50ae"
+    },
+    {
+      "file": "tests/polo-catalog.test.ts",
+      "bytes": 6078,
+      "sha256": "90a58f7443d5c86612e6653587db52d7172369b7f7559e8cb9cd5ea6ad137345"
+    },
+    {
+      "file": "scripts/smoke-polo-sale.mjs",
+      "bytes": 7021,
+      "sha256": "97b11bc4a2ebdf8df6d4137774466ada9fbb8d99b31a8d0b258805f3d2fe3d71"
+    },
+    {
+      "file": "scripts/smoke-polo-spins.mjs",
+      "bytes": 9935,
+      "sha256": "7b5fa96759d8f338fb00fd5409dd6cdeed76e51737185554599af9c512d54f06"
+    },
+    {
+      "file": "docs/polo-20261121/README.md",
+      "bytes": 9173,
+      "sha256": "43d5d70fe591223b8fe1ca47811973c616af565e532c1df8961c203d3194856a"
+    },
+    {
+      "file": "docs/polo-spin-20261121/README.md",
+      "bytes": 7330,
+      "sha256": "fc1647f0a84a7835859691d553c54827edab25d58f79c979e99a00f720d8d493"
+    },
+    {
+      "file": "docs/polo-sale-20261121/README.md",
+      "bytes": 5994,
+      "sha256": "1b1b8d25528799846270144b7cdb8ef98828a6a8423ebff177d0f77f1a9deb7c"
+    },
+    {
+      "file": "docs/polo-sale-20261121/previews/catalogue-desktop.png",
+      "bytes": 277731,
+      "sha256": "1955a66b5c6317719ce52914d3357649eeeae4884a4a130a78f31520acfd8c2f"
+    },
+    {
+      "file": "docs/polo-sale-20261121/previews/detail-desktop.png",
+      "bytes": 438195,
+      "sha256": "afa07193ece721437d3265111d8a6b0a7e98c93d186c227fbfcf915268c18b0a"
+    },
+    {
+      "file": "docs/polo-sale-20261121/previews/catalogue-mobile.png",
+      "bytes": 60574,
+      "sha256": "2496ee6060c4f0d75b4a5807eb0c21fb58f8f7ece8eb316c387def7785afc502"
+    },
+    {
+      "file": "docs/polo-sale-20261121/previews/detail-mobile.png",
+      "bytes": 60192,
+      "sha256": "89fbab76583e3f23a61bec43e46802232a656a4302f16936171aad73bf0de66b"
+    }
+  ],
+  "limitations": [
+    "Opening stock is 20 per colour/size at launch; later orders and stock operations can change availability.",
+    "Browser QA used Chromium desktop/mobile emulation, without browser extensions.",
+    "Guest carts and checkout navigation were tested; no order, reservation or real payment was created.",
+    "The database backup was read back successfully; a full server restore was not performed.",
+    "No production deployment or GitHub push was performed."
+  ]
+}

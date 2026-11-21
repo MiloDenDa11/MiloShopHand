@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-court-raglan",
+  "colorKey": "polo-y-66735b-v1",
+  "colorHex": "#66735b",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:19.475Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-66735b-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-b6e182b6-6378-4df3-a015-dc015d4a0277.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Court Raglan Polo, Xanh olive #66735b, quarter 0 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. \nConstruction MUST match the approved plate: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nMain cloth #66735b (Xanh olive); the existing specified structural accents/stripes/panels are #e8dfca. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 0, 15, 30 / 45, 60, 75 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1545778,
+      "sha256": "53a5ac2b49da26f4928cf5ab1ab25a988ca141ebdb8380ed739c85379e675c0d",
+      "frames": [
+        {
+          "x": 76,
+          "y": 29,
+          "width": 386,
+          "height": 445
+        },
+        {
+          "x": 86,
+          "y": 26,
+          "width": 359,
+          "height": 449
+        },
+        {
+          "x": 107,
+          "y": 24,
+          "width": 307,
+          "height": 452
+        },
+        {
+          "x": 168,
+          "y": 23,
+          "width": 226,
+          "height": 456
+        },
+        {
+          "x": 173,
+          "y": 20,
+          "width": 180,
+          "height": 460
+        },
+        {
+          "x": 172,
+          "y": 20,
+          "width": 165,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-66735b-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-076c6fa2-5015-44f2-ba72-3dc7789fd673.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Court Raglan Polo, Xanh olive #66735b, quarter 1 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nMain cloth #66735b (Xanh olive); the existing specified structural accents/stripes/panels are #e8dfca. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 90, 105, 120 / 135, 150, 165 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1453674,
+      "sha256": "651c4ed5f1b1b3694d39be580eec6b968f625efac2acff70c2ed6ed3df34d6e4",
+      "frames": [
+        {
+          "x": 193,
+          "y": 22,
+          "width": 161,
+          "height": 459
+        },
+        {
+          "x": 162,
+          "y": 22,
+          "width": 183,
+          "height": 459
+        },
+        {
+          "x": 142,
+          "y": 21,
+          "width": 202,
+          "height": 461
+        },
+        {
+          "x": 148,
+          "y": 15,
+          "width": 247,
+          "height": 469
+        },
+        {
+          "x": 100,
+          "y": 15,
+          "width": 304,
+          "height": 468
+        },
+        {
+          "x": 63,
+          "y": 16,
+          "width": 349,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-66735b-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ad60837b-d7f9-4d5f-a167-709468bcd281.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Court Raglan Polo, Xanh olive #66735b, quarter 2 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nMain cloth #66735b (Xanh olive); the existing specified structural accents/stripes/panels are #e8dfca. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 180, 195, 210 / 225, 240, 255 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1483182,
+      "sha256": "272db06b0b0d7cb0b2b1a1d7d8e1b58397e8bef19bce5cc7e446359e1415ad87",
+      "frames": [
+        {
+          "x": 76,
+          "y": 31,
+          "width": 384,
+          "height": 442
+        },
+        {
+          "x": 88,
+          "y": 28,
+          "width": 336,
+          "height": 446
+        },
+        {
+          "x": 103,
+          "y": 27,
+          "width": 284,
+          "height": 447
+        },
+        {
+          "x": 154,
+          "y": 25,
+          "width": 234,
+          "height": 454
+        },
+        {
+          "x": 172,
+          "y": 23,
+          "width": 191,
+          "height": 456
+        },
+        {
+          "x": 157,
+          "y": 22,
+          "width": 173,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-66735b-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-65677ac1-ab5d-494a-8d1a-856ea62ad058.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Court Raglan Polo, Xanh olive #66735b, quarter 3 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nMain cloth #66735b (Xanh olive); the existing specified structural accents/stripes/panels are #e8dfca. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 270, 285, 300 / 315, 330, 345 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1500880,
+      "sha256": "015185901c9f5b81de2e696eda64d6afd3c498f644ffb8999a340956685260c6",
+      "frames": [
+        {
+          "x": 184,
+          "y": 20,
+          "width": 158,
+          "height": 463
+        },
+        {
+          "x": 164,
+          "y": 20,
+          "width": 177,
+          "height": 463
+        },
+        {
+          "x": 138,
+          "y": 21,
+          "width": 213,
+          "height": 461
+        },
+        {
+          "x": 130,
+          "y": 22,
+          "width": 263,
+          "height": 459
+        },
+        {
+          "x": 97,
+          "y": 23,
+          "width": 313,
+          "height": 458
+        },
+        {
+          "x": 70,
+          "y": 23,
+          "width": 367,
+          "height": 458
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Court Raglan Polo, Xanh olive. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.803Z"
+  }
+}

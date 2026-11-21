@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ML-POLO-01",
+    "slug": "ml-polo-heritage-pique",
+    "name": "ML Heritage Piqué Polo",
+    "detail": "Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.",
+    "material": "Cotton piqué",
+    "fit": "Regular fit",
+    "description": "Polo piqué cổ bẻ, nẹp hai nút và bo tay gọn; lựa chọn thanh lịch cho trang phục hằng ngày.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Trắng ngà",
+        "hex": "#f2ede2",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-f2ede2.png"
+      },
+      {
+        "key": "2",
+        "name": "Xanh navy",
+        "hex": "#27384c",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-27384c.png"
+      },
+      {
+        "key": "3",
+        "name": "Xanh olive",
+        "hex": "#66715b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-66715b.png"
+      },
+      {
+        "key": "4",
+        "name": "Nâu espresso",
+        "hex": "#4b3930",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-4b3930.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-02",
+    "slug": "ml-polo-riviera-open-collar",
+    "name": "ML Riviera Open Collar Polo",
+    "detail": "Refined short-sleeve fine-gauge smooth knit resort polo with a true fold-down spread JOHNNY COLLAR and shallow clean open V neck, NO buttons, NO zipper. Tidy ribbed sleeve cuffs and ribbed hem, straight gently fitted mature silhouette, no pocket, no stripes. Fully fashioned knitting at shoulders.",
+    "material": "Dệt kim mịn",
+    "fit": "Regular fit",
+    "description": "Cổ mở Riviera không nút, thân dệt mịn và gấu bo nhẹ, mang vẻ thư thái nhưng chỉn chu.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Yến mạch",
+        "hex": "#cfc1a7",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-cfc1a7.png"
+      },
+      {
+        "key": "2",
+        "name": "Kem",
+        "hex": "#eee5d5",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-eee5d5.png"
+      },
+      {
+        "key": "3",
+        "name": "Nâu chocolate",
+        "hex": "#594033",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-594033.png"
+      },
+      {
+        "key": "4",
+        "name": "Đen",
+        "hex": "#202522",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-202522.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-03",
+    "slug": "ml-polo-club-tipped",
+    "name": "ML Club Tipped Polo",
+    "detail": "Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.",
+    "material": "Cotton piqué phối viền",
+    "fit": "Regular fit",
+    "description": "Hai đường viền mảnh ở cổ và bo tay, nẹp ba nút, gợi tinh thần câu lạc bộ cổ điển.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Xanh navy",
+        "hex": "#28394d",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-28394d.png"
+      },
+      {
+        "key": "2",
+        "name": "Trắng ngà",
+        "hex": "#f3eee3",
+        "accentHex": "#28394d",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-f3eee3.png"
+      },
+      {
+        "key": "3",
+        "name": "Đỏ rượu",
+        "hex": "#6c3940",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-6c3940.png"
+      },
+      {
+        "key": "4",
+        "name": "Xanh rêu đậm",
+        "hex": "#344c43",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-344c43.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-04",
+    "slug": "ml-polo-milano-rib",
+    "name": "ML Milano Rib Polo",
+    "detail": "Elegant slim-regular short-sleeve knit polo with fine close vertical ribs across front and back body, smooth fine-rib fold-down collar, THREE small tonal buttons, refined compact rib sleeve ends and narrow rib hem. Vertical rib is uniform not cable-knit and not printed stripes. No pockets, no panels.",
+    "material": "Dệt gân dọc mịn",
+    "fit": "Tailored fit",
+    "description": "Bề mặt gân dọc nhỏ kết hợp cổ bẻ và nẹp ba nút, tạo phom gọn gàng, trưởng thành.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Cát",
+        "hex": "#c7b599",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-c7b599.png"
+      },
+      {
+        "key": "2",
+        "name": "Nâu caramel",
+        "hex": "#70523e",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-70523e.png"
+      },
+      {
+        "key": "3",
+        "name": "Xám than",
+        "hex": "#454845",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-454845.png"
+      },
+      {
+        "key": "4",
+        "name": "Xanh sage",
+        "hex": "#88917c",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-88917c.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-05",
+    "slug": "ml-polo-mercer-zip",
+    "name": "ML Mercer Zip Polo",
+    "detail": "Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.",
+    "material": "Cotton interlock",
+    "fit": "Regular fit",
+    "description": "Nẹp khóa kéo ngắn cùng cổ bẻ đứng phom, thân interlock trơn và tay may gọn, lịch sự theo cách hiện đại.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Xanh mực",
+        "hex": "#222f3b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222f3b.png"
+      },
+      {
+        "key": "2",
+        "name": "Xám đá",
+        "hex": "#b6b1a3",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-b6b1a3.png"
+      },
+      {
+        "key": "3",
+        "name": "Xanh olive đậm",
+        "hex": "#5b6250",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-5b6250.png"
+      },
+      {
+        "key": "4",
+        "name": "Đen",
+        "hex": "#222322",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222322.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-06",
+    "slug": "ml-polo-oxford-pocket",
+    "name": "ML Oxford Pocket Polo",
+    "detail": "Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.",
+    "material": "Cotton dệt vân Oxford",
+    "fit": "Tailored fit",
+    "description": "Cổ bẻ sắc gọn, nẹp nút ẩn và túi ngực thêu ML; thiết kế dành cho những bộ phối chỉn chu.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Xanh nhạt",
+        "hex": "#9faeb8",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-9faeb8.png"
+      },
+      {
+        "key": "2",
+        "name": "Trắng ngà",
+        "hex": "#efe8d9",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-efe8d9.png"
+      },
+      {
+        "key": "3",
+        "name": "Nâu tobacco",
+        "hex": "#a17c58",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-a17c58.png"
+      },
+      {
+        "key": "4",
+        "name": "Xanh navy",
+        "hex": "#314354",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-314354.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-07",
+    "slug": "ml-polo-regatta-breton",
+    "name": "ML Regatta Breton Polo",
+    "detail": "Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.",
+    "material": "Cotton jersey kẻ ngang",
+    "fit": "Regular fit",
+    "description": "Kẻ ngang Breton tiết chế, cổ và nẹp trơn tạo sự cân bằng cho phong cách lịch lãm ven biển.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Ngà kẻ navy",
+        "hex": "#f1e9d8",
+        "accentHex": "#28394d",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-f1e9d8.png"
+      },
+      {
+        "key": "2",
+        "name": "Navy kẻ ngà",
+        "hex": "#293c50",
+        "accentHex": "#eee5d3",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-293c50.png"
+      },
+      {
+        "key": "3",
+        "name": "Sage kẻ kem",
+        "hex": "#83907a",
+        "accentHex": "#eee5d3",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-83907a.png"
+      },
+      {
+        "key": "4",
+        "name": "Taupe kẻ nâu",
+        "hex": "#a28f79",
+        "accentHex": "#4b3930",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-a28f79.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-08",
+    "slug": "ml-polo-court-raglan",
+    "name": "ML Court Raglan Polo",
+    "detail": "Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.",
+    "material": "Cotton phối đường raglan",
+    "fit": "Regular fit",
+    "description": "Đường raglan viền mảnh tạo dấu ấn kín đáo, kết hợp cổ bẻ và nẹp ba nút lịch sự.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Xanh olive",
+        "hex": "#66735b",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-66735b.png"
+      },
+      {
+        "key": "2",
+        "name": "Xám than",
+        "hex": "#343a3b",
+        "accentHex": "#d6cdbb",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-343a3b.png"
+      },
+      {
+        "key": "3",
+        "name": "Cát",
+        "hex": "#cab89b",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-cab89b.png"
+      },
+      {
+        "key": "4",
+        "name": "Đỏ rượu",
+        "hex": "#713d44",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-713d44.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-09",
+    "slug": "ml-polo-atelier-side-panel",
+    "name": "ML Atelier Side Panel Polo",
+    "detail": "Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.",
+    "material": "Cotton interlock phối mảng",
+    "fit": "Tailored fit",
+    "description": "Mảng phối dọc hai bên thân và bo tay tương phản nhẹ, làm mới áo polo trong bảng màu điềm đạm.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Ngà phối camel",
+        "hex": "#ede5d6",
+        "accentHex": "#aa8e6d",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-ede5d6.png"
+      },
+      {
+        "key": "2",
+        "name": "Navy phối charcoal",
+        "hex": "#2a3c4b",
+        "accentHex": "#484f50",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-2a3c4b.png"
+      },
+      {
+        "key": "3",
+        "name": "Mocha phối kem",
+        "hex": "#80634e",
+        "accentHex": "#d1c3a7",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-80634e.png"
+      },
+      {
+        "key": "4",
+        "name": "Sage phối olive",
+        "hex": "#8e9881",
+        "accentHex": "#59654c",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-8e9881.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  },
+  {
+    "id": "ML-POLO-10",
+    "slug": "ml-polo-cable-heritage",
+    "name": "ML Cable Heritage Polo",
+    "detail": "Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.",
+    "material": "Dệt kim vặn thừng nhỏ",
+    "fit": "Regular fit",
+    "description": "Họa tiết dệt vặn thừng nhỏ, cổ bẻ ba nút và bo gấu tinh tế, gợi nét old money kín đáo.",
+    "colors": [
+      {
+        "key": "1",
+        "name": "Kem",
+        "hex": "#eee3ce",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-eee3ce.png"
+      },
+      {
+        "key": "2",
+        "name": "Xanh navy",
+        "hex": "#2c3b4b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-2c3b4b.png"
+      },
+      {
+        "key": "3",
+        "name": "Xanh rừng",
+        "hex": "#354c3f",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-354c3f.png"
+      },
+      {
+        "key": "4",
+        "name": "Nâu walnut",
+        "hex": "#7c624a",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-7c624a.png"
+      }
+    ],
+    "kind": "polo",
+    "assetStatus": "ready",
+    "commercialStatus": "draft"
+  }
+]

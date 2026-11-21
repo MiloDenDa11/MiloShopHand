@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-club-tipped",
+  "colorKey": "polo-y-f3eee3-v1",
+  "colorHex": "#f3eee3",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:45:43.396Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-f3eee3-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-83c14dc6-0e20-4eb2-a9b8-11258ad7b438.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, Trắng ngà #f3eee3, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Trắng ngà, #f3eee3. The existing specified structural accents/stripes/panels/piping become #28394d, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1611115,
+      "sha256": "a4496a468d4a588e5766a7ecbaacc3b94af2957a6cd74c2e72f9d46198282b3d",
+      "frames": [
+        {
+          "x": 65,
+          "y": 28,
+          "width": 383,
+          "height": 451
+        },
+        {
+          "x": 78,
+          "y": 26,
+          "width": 353,
+          "height": 453
+        },
+        {
+          "x": 98,
+          "y": 24,
+          "width": 305,
+          "height": 457
+        },
+        {
+          "x": 153,
+          "y": 20,
+          "width": 233,
+          "height": 463
+        },
+        {
+          "x": 157,
+          "y": 17,
+          "width": 195,
+          "height": 468
+        },
+        {
+          "x": 164,
+          "y": 17,
+          "width": 182,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-f3eee3-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-e573d7bd-e72c-4276-a96d-129ddba449ac.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, Trắng ngà #f3eee3, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Trắng ngà, #f3eee3. The existing specified structural accents/stripes/panels/piping become #28394d, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1384287,
+      "sha256": "f2401c5ff05d30c2485122c4ecb7c2796f08e0a098b849cb3dd5fae6cfbbd4c7",
+      "frames": [
+        {
+          "x": 180,
+          "y": 24,
+          "width": 172,
+          "height": 459
+        },
+        {
+          "x": 161,
+          "y": 25,
+          "width": 187,
+          "height": 457
+        },
+        {
+          "x": 143,
+          "y": 25,
+          "width": 225,
+          "height": 458
+        },
+        {
+          "x": 139,
+          "y": 23,
+          "width": 271,
+          "height": 461
+        },
+        {
+          "x": 106,
+          "y": 23,
+          "width": 312,
+          "height": 461
+        },
+        {
+          "x": 82,
+          "y": 24,
+          "width": 348,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-f3eee3-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-37c0e25f-42c1-42e8-be8b-ba89443b5d24.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, Trắng ngà #f3eee3, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Trắng ngà, #f3eee3. The existing specified structural accents/stripes/panels/piping become #28394d, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1524750,
+      "sha256": "67b3e12148aeb507f91ea84fe8b9ac3d7da3e78f103613b51ebaded763a3b8fe",
+      "frames": [
+        {
+          "x": 75,
+          "y": 26,
+          "width": 377,
+          "height": 452
+        },
+        {
+          "x": 93,
+          "y": 25,
+          "width": 327,
+          "height": 454
+        },
+        {
+          "x": 125,
+          "y": 24,
+          "width": 264,
+          "height": 456
+        },
+        {
+          "x": 165,
+          "y": 22,
+          "width": 210,
+          "height": 463
+        },
+        {
+          "x": 170,
+          "y": 22,
+          "width": 190,
+          "height": 463
+        },
+        {
+          "x": 172,
+          "y": 22,
+          "width": 177,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-f3eee3-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f56b78e0-ceee-4dc8-b3fa-499c2ab05fe8.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, Trắng ngà #f3eee3, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Trắng ngà, #f3eee3. The existing specified structural accents/stripes/panels/piping become #28394d, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1367079,
+      "sha256": "98cb4a4d8854f614bc3c385e9ec87db72f4ced565da89e046ab2129587809518",
+      "frames": [
+        {
+          "x": 182,
+          "y": 26,
+          "width": 160,
+          "height": 455
+        },
+        {
+          "x": 170,
+          "y": 26,
+          "width": 173,
+          "height": 455
+        },
+        {
+          "x": 146,
+          "y": 26,
+          "width": 207,
+          "height": 455
+        },
+        {
+          "x": 141,
+          "y": 24,
+          "width": 240,
+          "height": 459
+        },
+        {
+          "x": 109,
+          "y": 24,
+          "width": 289,
+          "height": 459
+        },
+        {
+          "x": 77,
+          "y": 24,
+          "width": 347,
+          "height": 459
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Club Tipped Polo, Trắng ngà. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.779Z"
+  }
+}

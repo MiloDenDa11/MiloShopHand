@@ -6,6 +6,9 @@ import { useResource } from "../hooks/use-resource";
 import { ErrorBox, useShop } from "./client";
 import { ProductPhoto, isRealPhoto } from "./product-media";
 import { journalArticles } from "../content/brand";
+import { journalPhotoIds } from "../content/editorial-photos";
+import { EditorialPhoto } from "./editorial-photo";
+import { useEditorialFragment } from "../hooks/use-editorial-fragment";
 import { collectionIllustration } from "../content/collection-illustrations";
 import { miloDesignText } from "../lib/milo-design";
 export function FashionCollections() {
@@ -80,6 +83,7 @@ export function FashionCollections() {
 }
 export function FashionJournal() {
   const { config } = useShop();
+  useEditorialFragment(["brand-story", ...journalArticles.map(article => article.id)]);
   return (
     <div className="container section">
       <header className="edition-page-heading">
@@ -120,7 +124,8 @@ export function FashionJournal() {
       </section>
       <div className="journal-reading-list">
         {journalArticles.map((a, i) => (
-          <article className="journal-reading-article" id={a.id} key={a.id}>
+          <article className="journal-reading-article editorial-reading-article" id={a.id} key={a.id}>
+            <EditorialPhoto photo={journalPhotoIds[a.id as keyof typeof journalPhotoIds]} sizes="(max-width: 760px) 92vw, 40vw" />
             <span className="journal-reading-index">0{i + 1}</span>
             <div>
               <p className="eyebrow">{a.category}</p>
@@ -137,6 +142,7 @@ export function FashionJournal() {
           </article>
         ))}
       </div>
+      <p className="editorial-concept-note">Ảnh editorial là ảnh cảm hứng được tạo bằng AI; hướng dẫn chăm sóc ưu tiên nhãn của từng sản phẩm.</p>
       <div className="journal-story-end">
         <span className="eyebrow">THE LAST WORD</span>
         <p>

@@ -1,0 +1,311 @@
+{
+  "at": "2026-11-20T16:54:46.783Z",
+  "result": "PASS_WITH_OBSERVATION",
+  "scope": "Local replacement of all 12 editorial photos with MiloShopHand branded garment concepts. No production deployment, commit or GitHub push.",
+  "sourceChanges": [
+    "apps/web/content/editorial-photos.ts",
+    "apps/web/components/fashion-home.tsx"
+  ],
+  "backendOrSchemaChanged": false,
+  "dependenciesChanged": false,
+  "imagery": {
+    "mode": "built-in ImageGen edit",
+    "originalPNGs": 12,
+    "deliveryWebPs": 12,
+    "deliveryBytes": 1572990,
+    "prompts": "docs/vintage-editorial/images.json",
+    "previousManifest": "docs/vintage-editorial/images-v1.json",
+    "folder": "apps/web/public/editorial/branded-20261120-v2",
+    "originalBytesPreserved": true,
+    "previousOriginalPNGsUnchanged": 12,
+    "catalogueReferenceHashesUnchanged": true,
+    "visualReview": "Reviewed all 12 originals, four desktop style cards, Journal desktop/mobile, care cover/mobile and contextual rails. Set right focal point for parcel-delivery, quality-inspection and privacy-still-life so their ML marks remain visible in narrow cards. Editorial AI labels retained.",
+    "http": {
+      "at": "2026-11-20T16:48:03.273Z",
+      "base": "http://127.0.0.1:3110",
+      "images": [
+        {
+          "id": "boutique-atmosphere",
+          "sourceSHA256": "d4449eb3d5985c40940ddee23cb992d6b2e78dcebda4831193e916cb5f94b757",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 185006,
+          "pixelMAE": 2.838057469504415,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "customer-service",
+          "sourceSHA256": "5dfc7ddecf2b4f045d31b9ba224fb50129ea089acde3b2acf2061bd988a2a72a",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 112500,
+          "pixelMAE": 2.007968054877387,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "everyday-basic",
+          "sourceSHA256": "cc2e90a828d4b163e8f08329a5f41eafc279b9b5b8f64a399dc9b8f5dc100912",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 130000,
+          "pixelMAE": 2.160477532280816,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "garment-care",
+          "sourceSHA256": "68a6838cf2142b7b2ed47f5c52b112a7d7e47619ffd2747b64ef2d635d3ac841",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 105494,
+          "pixelMAE": 2.1238488235594346,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "order-packaging",
+          "sourceSHA256": "d5b110e5a24da06230b83bdb97846bcd9297f280ae69cc20233e45a1a19e24c1",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 104158,
+          "pixelMAE": 2.1219083346092993,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "oversized-outfit",
+          "sourceSHA256": "d7526a2e22c3b94437f8d1e3896c4fe9b81b5044566c6069a83ca0abd6a47d5c",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 131490,
+          "pixelMAE": 2.1854186587863498,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "parcel-delivery",
+          "sourceSHA256": "e9775884e718b5d47d04dbb083e77dcaf70aa3d80d9480223681cab6ae483f69",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 110432,
+          "pixelMAE": 2.1822365130403716,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "privacy-still-life",
+          "sourceSHA256": "9a20393d48322c8d3ad3e79bebb10b0eeaa7a28866e2d0acc96cd2f14633c843",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 150490,
+          "pixelMAE": 2.4638985862297758,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "quality-inspection",
+          "sourceSHA256": "52490673fde019b03bc95abcaa2bc27996aec83d5d3e38c527f1e999150cdf34",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 97254,
+          "pixelMAE": 2.093014597049967,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "size-measurement",
+          "sourceSHA256": "09dae8832b4bf3663b96de4147770166142eb1166cf20a9b939cec54974bd136",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 117234,
+          "pixelMAE": 2.4075996529372734,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "streetwear-outfit",
+          "sourceSHA256": "0fb95259af934f7d83ddca30258e23376e714b8321e6a0973d99caeaf949c722",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 174562,
+          "pixelMAE": 2.3434874216715493,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "vintage-bomber",
+          "sourceSHA256": "763d823a99b39517585d31f2eb966dc172c0df50e00d57035926e14a8408d98d",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 154370,
+          "pixelMAE": 2.3103162977430554,
+          "optimizedWidth": 640
+        }
+      ],
+      "requests": 36,
+      "errors": [],
+      "result": "PASS"
+    }
+  },
+  "validation": {
+    "webProductionBuild": {
+      "result": "PASS",
+      "log": ".local/branded-editorial/build.log"
+    },
+    "finalWebTypecheck": {
+      "result": "PASS",
+      "log": ".local/branded-editorial/typecheck.log",
+      "generatedNextEnvTypesRestored": true
+    },
+    "chromium": {
+      "result": "PASS",
+      "scenarios": 7,
+      "log": ".local/branded-editorial/chromium.log"
+    },
+    "microsoftEdge": {
+      "result": "PASS",
+      "scenarios": 7,
+      "log": ".local/branded-editorial/edge.log"
+    },
+    "responsiveWidths": [
+      360,
+      768,
+      1024,
+      1440
+    ],
+    "coverage": "Existing read-only cases: four distinct style destinations, three Journal cards/anchors, all five care tabs with live policy fidelity and contextual imagery, no horizontal overflow, no editorial image HTTP failures or page errors, reduced motion.",
+    "productionRouteCapture": {
+      "at": "2026-11-20T16:50:27.762Z",
+      "base": "http://127.0.0.1:3110",
+      "result": "PASS",
+      "results": [
+        {
+          "width": 1440,
+          "route": "/",
+          "photos": 8,
+          "staleReferences": 0
+        },
+        {
+          "width": 1440,
+          "route": "/chinh-sach?tab=giao-hang",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 1440,
+          "route": "/chinh-sach?tab=doi-tra",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 1440,
+          "route": "/chinh-sach?tab=bao-mat",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 1440,
+          "route": "/chinh-sach?tab=faq",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 1440,
+          "route": "/chinh-sach?tab=lien-he",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/",
+          "photos": 8,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/chinh-sach?tab=giao-hang",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/chinh-sach?tab=doi-tra",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/chinh-sach?tab=bao-mat",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/chinh-sach?tab=faq",
+          "photos": 3,
+          "staleReferences": 0
+        },
+        {
+          "width": 360,
+          "route": "/chinh-sach?tab=lien-he",
+          "photos": 3,
+          "staleReferences": 0
+        }
+      ]
+    },
+    "captureNote": "Standalone home section previews hide sticky masthead/skip-link during screenshots only. An initial refresh helper saw transient duplicate streamed nodes; waiting for settled 4/3 image counts fixed the capture. No application styling changed.",
+    "previewFolder": "docs/vintage-editorial/previews/branded",
+    "qaServer": "Temporary 127.0.0.1:3110 production server stopped; existing 3000/4000 services retained.",
+    "notRerun": "Unit/commerce suites from the previous UI implementation were not rerun: this change edits imagery/metadata only. Firefox and Safari were not tested."
+  },
+  "dataIntegrity": {
+    "scannedModels": 39,
+    "unchangedModels": [
+      "User",
+      "AuthToken",
+      "MFA",
+      "Address",
+      "Category",
+      "Collection",
+      "StyleTag",
+      "Product",
+      "ProductVariant",
+      "ProductImage",
+      "Inventory",
+      "InventoryReservation",
+      "StockMovement",
+      "Cart",
+      "CartItem",
+      "Wishlist",
+      "Order",
+      "OrderItem",
+      "OrderStatusHistory",
+      "Payment",
+      "PaymentTransaction",
+      "PaymentEvent",
+      "Shipment",
+      "ShipmentEvent",
+      "CODSettlement",
+      "Coupon",
+      "CouponRedemption",
+      "Review",
+      "ReturnRequest",
+      "ReturnItem",
+      "Refund",
+      "Notification",
+      "AuditLog",
+      "OutboxEvent",
+      "StoreSetting",
+      "Exchange",
+      "ExchangeReceipt",
+      "UserUpload"
+    ],
+    "changedModels": [
+      {
+        "model": "Session",
+        "beforeCount": 12,
+        "afterCount": 12,
+        "beforeSHA256": "5a179ce96f8acb4220ef57b0898467611b7b2614a80633dabf8c166afbe1f64f",
+        "afterSHA256": "eb86bb7005a0e9f9ccf5f97191e5b3dbc768f29f3aa09aeb25eae47f3fb086be"
+      }
+    ],
+    "observation": "38 of 39 model hashes match, including products, product images, prices, stock, orders, settings, users and audit logs. Session has 12 rows before/after but a different hash. This was a live local database; the existing request-security.ts:70 can refresh lastSeenAt on authenticated requests. Whole-model baseline hashes cannot establish which Session field/request changed, so no claim is made that all database data stayed identical. No sessions or logs were restored/deleted.",
+    "snapshots": [
+      ".local/branded-editorial/commerce-before.json",
+      ".local/branded-editorial/commerce-after-first.json",
+      ".local/branded-editorial/commerce-after.json"
+    ],
+    "testBoundary": "Fresh anonymous browser contexts; /api/v1/me mocked. Product/config requests read-only. No login, order creation, payment, migration or seed."
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "at": "2026-11-21T01:55:58.622Z",
+  "result": "PASS",
+  "scope": "Local project and shop; no GitHub push or production deployment",
+  "before": {
+    "poloProducts": 10,
+    "colours": 40,
+    "visible": false,
+    "approvedPoloSpins": 0,
+    "purchasable": false
+  },
+  "after": {
+    "poloProducts": 10,
+    "colours": 40,
+    "visible": true,
+    "commercialStatus": "preview",
+    "approvedPoloSpins": 40,
+    "viewsPerColour": 24,
+    "purchasable": false,
+    "size": "Chưa chốt",
+    "inventory": 0
+  },
+  "images": {
+    "mode": "Built-in ImageGen",
+    "nativeAtlases": 160,
+    "nativeCellSize": [
+      512,
+      512
+    ],
+    "views": 960,
+    "nativeBytes": 244324651,
+    "webpDerivatives": 480,
+    "webpBytes": 9879608,
+    "prompts": [
+      "docs/photo-spin/ml-polo-heritage-pique-polo-y-f2ede2-v1.json",
+      "docs/photo-spin/ml-polo-heritage-pique-polo-y-27384c-v1.json",
+      "docs/photo-spin/ml-polo-heritage-pique-polo-y-66715b-v1.json",
+      "docs/photo-spin/ml-polo-heritage-pique-polo-y-4b3930-v1.json",
+      "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-cfc1a7-v1.json",
+      "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-eee5d5-v1.json",
+      "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-594033-v1.json",
+      "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-202522-v1.json",
+      "docs/photo-spin/ml-polo-club-tipped-polo-y-28394d-v1.json",
+      "docs/photo-spin/ml-polo-club-tipped-polo-y-f3eee3-v1.json",
+      "docs/photo-spin/ml-polo-club-tipped-polo-y-6c3940-v1.json",
+      "docs/photo-spin/ml-polo-club-tipped-polo-y-344c43-v1.json",
+      "docs/photo-spin/ml-polo-milano-rib-polo-y-c7b599-v1.json",
+      "docs/photo-spin/ml-polo-milano-rib-polo-y-70523e-v1.json",
+      "docs/photo-spin/ml-polo-milano-rib-polo-y-454845-v1.json",
+      "docs/photo-spin/ml-polo-milano-rib-polo-y-88917c-v1.json",
+      "docs/photo-spin/ml-polo-mercer-zip-polo-y-222f3b-v1.json",
+      "docs/photo-spin/ml-polo-mercer-zip-polo-y-b6b1a3-v1.json",
+      "docs/photo-spin/ml-polo-mercer-zip-polo-y-5b6250-v1.json",
+      "docs/photo-spin/ml-polo-mercer-zip-polo-y-222322-v1.json",
+      "docs/photo-spin/ml-polo-oxford-pocket-polo-y-9faeb8-v1.json",
+      "docs/photo-spin/ml-polo-oxford-pocket-polo-y-efe8d9-v1.json",
+      "docs/photo-spin/ml-polo-oxford-pocket-polo-y-a17c58-v1.json",
+      "docs/photo-spin/ml-polo-oxford-pocket-polo-y-314354-v1.json",
+      "docs/photo-spin/ml-polo-regatta-breton-polo-y-f1e9d8-v1.json",
+      "docs/photo-spin/ml-polo-regatta-breton-polo-y-293c50-v1.json",
+      "docs/photo-spin/ml-polo-regatta-breton-polo-y-83907a-v1.json",
+      "docs/photo-spin/ml-polo-regatta-breton-polo-y-a28f79-v1.json",
+      "docs/photo-spin/ml-polo-court-raglan-polo-y-66735b-v1.json",
+      "docs/photo-spin/ml-polo-court-raglan-polo-y-343a3b-v1.json",
+      "docs/photo-spin/ml-polo-court-raglan-polo-y-cab89b-v1.json",
+      "docs/photo-spin/ml-polo-court-raglan-polo-y-713d44-v1.json",
+      "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-ede5d6-v1.json",
+      "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-2a3c4b-v1.json",
+      "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-80634e-v1.json",
+      "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-8e9881-v1.json",
+      "docs/photo-spin/ml-polo-cable-heritage-polo-y-eee3ce-v1.json",
+      "docs/photo-spin/ml-polo-cable-heritage-polo-y-2c3b4b-v1.json",
+      "docs/photo-spin/ml-polo-cable-heritage-polo-y-354c3f-v1.json",
+      "docs/photo-spin/ml-polo-cable-heritage-polo-y-7c624a-v1.json"
+    ],
+    "nativeBitmapsPreserved": true,
+    "angles": "Nominal illustrated yaw viewpoints, not a measured scan or GLB model"
+  },
+  "checks": {
+    "unitTests": {
+      "result": "PASS",
+      "tests": 54
+    },
+    "projectTypecheck": {
+      "result": "PASS",
+      "projects": [
+        "api",
+        "worker",
+        "web"
+      ]
+    },
+    "productionWebBuild": {
+      "result": "PASS",
+      "buildDir": ".next-vintage-final"
+    },
+    "assetPaths": {
+      "result": "PASS",
+      "paths": 640
+    },
+    "previousAssets": {
+      "result": "PASS",
+      "spins": 321,
+      "deliveryMappings": 1413
+    },
+    "allApprovedSpins": {
+      "result": "PASS",
+      "colours": 361,
+      "viewpoints": 8664,
+      "atlases": 1444,
+      "limitation": "Approved entries only; does not certify every possible catalogue colour"
+    },
+    "browser": {
+      "at": "2026-11-21T01:49:18.252Z",
+      "base": "http://127.0.0.1:3110",
+      "products": 10,
+      "colours": 40,
+      "detailPoses": 320,
+      "cardPoses": 320,
+      "touchGestures": 40,
+      "detailTouchGestures": 40,
+      "fullCycleFrames": 48,
+      "keyboardWrap": true,
+      "zoomReset": true,
+      "errors": [],
+      "failedAssets": [],
+      "screenshots": [
+        "docs/polo-spin-20261121/previews/rotation-desktop.png",
+        "docs/polo-spin-20261121/previews/rotation-mobile.png"
+      ],
+      "result": "PASS"
+    },
+    "localShop": {
+      "at": "2026-11-21T01:55:55.420Z",
+      "result": "PASS",
+      "products": 10,
+      "colors": 40,
+      "publicCostsAbsent": true,
+      "inventoryZero": true,
+      "previewPurchaseDisabled": true
+    },
+    "database": {
+      "result": "PASS",
+      "tables": [
+        {
+          "name": "Address",
+          "before": 1,
+          "after": 1,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "AuditLog",
+          "before": 22,
+          "after": 43,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "AuthToken",
+          "before": 2,
+          "after": 2,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "CODSettlement",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Cart",
+          "before": 5,
+          "after": 5,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "CartItem",
+          "before": 1,
+          "after": 1,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Category",
+          "before": 5,
+          "after": 5,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Collection",
+          "before": 5,
+          "after": 5,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Coupon",
+          "before": 1,
+          "after": 1,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "CouponRedemption",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Exchange",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ExchangeReceipt",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Inventory",
+          "before": 1560,
+          "after": 1560,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "InventoryReservation",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "MFA",
+          "before": 1,
+          "after": 1,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Notification",
+          "before": 9,
+          "after": 9,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Order",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "OrderItem",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "OrderStatusHistory",
+          "before": 9,
+          "after": 9,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "OutboxEvent",
+          "before": 22,
+          "after": 22,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Payment",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "PaymentEvent",
+          "before": 2,
+          "after": 2,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "PaymentTransaction",
+          "before": 2,
+          "after": 2,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Product",
+          "before": 100,
+          "after": 100,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ProductImage",
+          "before": 722,
+          "after": 722,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ProductVariant",
+          "before": 1560,
+          "after": 1560,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Refund",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ReturnItem",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ReturnRequest",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Review",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Session",
+          "before": 12,
+          "after": 12,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Shipment",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "ShipmentEvent",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "StockMovement",
+          "before": 1524,
+          "after": 1524,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "StoreSetting",
+          "before": 1,
+          "after": 1,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "StyleTag",
+          "before": 4,
+          "after": 4,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "User",
+          "before": 10,
+          "after": 10,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "UserUpload",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "Wishlist",
+          "before": 0,
+          "after": 0,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "_CollectionToProduct",
+          "before": 100,
+          "after": 100,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "_ProductToStyleTag",
+          "before": 100,
+          "after": 100,
+          "expectedChangesOnly": true
+        },
+        {
+          "name": "_prisma_migrations",
+          "before": 9,
+          "after": 9,
+          "expectedChangesOnly": true
+        }
+      ],
+      "changes": {
+        "products": 10,
+        "colourVariants": 40,
+        "collections": 1
+      },
+      "auditAppends": {
+        "PRODUCT_DESIGN_PREVIEW_PUBLISH": 10,
+        "COLLECTION_PREVIEW_PUBLISH": 1,
+        "PRODUCT_SPIN_PUBLISH": 10
+      },
+      "inventoryPricesAndOtherTablesPreserved": true
+    },
+    "idempotency": {
+      "result": "PASS",
+      "changed": 0,
+      "variantsShown": 0
+    }
+  },
+  "backup": {
+    "file": ".local/polo-spin-20261121/database-before.rows.json.gz",
+    "tables": 42,
+    "rows": 5809,
+    "roundTrip": "PASS",
+    "limitation": "Row backup for existing schema, not a pg_dump/full server restore. No schema is modified by this task."
+  },
+  "limitations": [
+    "Products remain display previews until merchant confirms real sizes, stock and final sale details.",
+    "Images are AI garment design illustrations, not photographs of manufactured stock.",
+    "Browser checks used Chromium desktop/mobile emulation; physical devices and other browser engines were not tested.",
+    "No production server or GitHub repository was changed."
+  ],
+  "fileList": "files.json"
+}

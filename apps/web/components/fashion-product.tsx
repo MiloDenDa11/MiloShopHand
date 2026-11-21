@@ -1,4 +1,5 @@
 "use client";
+import { sampleSizeGuide } from "../content/size-guide";
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -31,7 +32,8 @@ import { Product360 } from "./product-360";
 import { displaySpinFor } from "../lib/display-spin";
 import { miloDesignText } from "../lib/milo-design";
 import { selectedProductColor, selectedProductSize } from "../lib/product-selection";
-import { tryOnHref } from "../lib/try-on";
+import { tryOnHref, tryOnSupports } from "../lib/try-on";
+import { isUnreleasedDesign } from "../lib/product-preview";
 import { serializeJsonLd } from "../../../packages/shared/src/security";
 import "../app/product-360.css";
 export function FashionProductDetail({ slug, initialData, initialColor, initialSize, nonce }: { slug: string; initialData?: any; initialColor?: string; initialSize?: string; nonce?: string }) {
@@ -86,11 +88,13 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
     (v: any) => v.color === color && v.size === size,
   );
   const price = variant?.price ?? p.price;
+  const preview = isUnreleasedDesign(p);
   const reviews = p.reviews || [];
   const average = reviews.length
     ? reviews.reduce((n: number, r: any) => n + r.rating, 0) / reviews.length
     : 0;
   async function purchase(now: boolean) {
+    if (preview) { notify("Mẫu thiết kế đang trưng bày, chưa mở bán."); return; }
     if (!variant) {
       notify("Vui lòng chọn kích thước.");
       document.getElementById("size-options")?.focus();
@@ -159,7 +163,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
             )}
           </div>
           <div className="detail-prices">
-            <b>{money(price)}</b>
+            <b>{preview && "Giá dự kiến "}{money(price)}</b>
             {p.originalPrice > price && (
               <>
                 <del>{money(p.originalPrice)}</del>
@@ -204,12 +208,12 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
           <div className="choice-block">
             <div className="row between">
               <p>
-                Kích thước: <b>{size || "Chọn size của bạn"}</b>
+                Kích thước: <b>{preview ? "Đang hoàn thiện" : size || "Chọn size của bạn"}</b>
               </p>
-              <button className="text-link small" onClick={sizeGuide}>
+              {!preview && <button className="text-link small" onClick={sizeGuide}>
                 Bảng size
                 <ArrowUpRight size={14} />
-              </button>
+              </button>}
             </div>
             <div
               className="size-choices"
@@ -218,7 +222,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
               role="group"
               aria-label="Chọn kích thước"
             >
-              {p.variants
+              {preview ? <p className="muted">Mẫu trưng bày, chưa mở bán. Size và tồn kho đang được hoàn thiện.</p> : p.variants
                 .filter((v: any) => v.color === color)
                 .map((v: any) => (
                   <button
@@ -240,7 +244,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
               className={`stock-caption ${variant?.available ? "stock-ok" : "muted"}`}
               aria-live="polite"
             >
-              {variant ? (
+              {preview ? "Bạn có thể chọn màu, xem ảnh và xoay áo trước khi mẫu được mở bán." : variant ? (
                 <>
                   <Check size={14} />
                   {variant.available
@@ -253,34 +257,34 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
             </p>
           </div>
           <div className="purchase-controls">
-            <div className="add-row">
-              <Quantity
+            <div className="add-row" style={preview ? {gridTemplateColumns:"1fr"} : undefined}>
+              {!preview && <Quantity
                 value={quantity}
                 max={variant ? Math.min(20, variant.available) : 20}
                 onChange={setQuantity}
-              />
+              />}
               <button
                 className="button"
-                aria-busy={busy} disabled={busy || variant?.available === 0}
+                aria-busy={busy} disabled={busy || preview || variant?.available === 0}
                 onClick={() => purchase(false)}
               >
-                {busy ? "Đang thêm…" : "Thêm vào giỏ hàng"}
-                <Plus size={18} />
+                {preview ? "Chưa mở bán" : busy ? "Đang thêm…" : "Thêm vào giỏ hàng"}
+                {!preview && <Plus size={18} />}
               </button>
             </div>
-            <button
+            {!preview && <button
               className="button secondary full buy-now"
               aria-busy={busy} disabled={busy || variant?.available === 0}
               onClick={() => purchase(true)}
             >
               Mua ngay
               <ArrowUpRight size={19} />
-            </button>
+            </button>}
           </div>
           <div className="detail-perks">
-            <Link className="button secondary full product-try-on-detail" href={tryOnHref(p.slug, color, size)}>
+            {tryOnSupports(p) && <Link className="button secondary full product-try-on-detail" href={tryOnHref(p.slug, color, size)}>
               <Sparkles size={18} /> Dùng thử cùng ảnh của bạn <ArrowUpRight size={18} />
-            </Link>
+            </Link>}
             <p>
               <Truck size={18} />
               Phí giao hàng được xác nhận trước khi đặt đơn.
@@ -316,7 +320,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
             <summary>Hướng dẫn bảo quản</summary>
             <p>{p.care}</p>
           </details>
-          <details id="size-guide">
+          {!preview && <details id="size-guide">
             <summary>Bảng size & cách chọn</summary>
             <p>
               Số đo mẫu (cm). So với một chiếc áo bạn đang mặc thoải mái; tham
@@ -333,14 +337,9 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    ["S", 104, 68, 48],
-                    ["M", 110, 71, 51],
-                    ["L", 116, 74, 54],
-                    ["XL", 122, 77, 57],
-                  ].map((row) => (
-                    <tr key={row[0]}>
-                      {row.map((cell, i) => (
+                  {sampleSizeGuide.map((row) => (
+                    <tr key={row.size}>
+                      {[row.size, row.chest, row.length, row.shoulder].map((cell, i) => (
                         <td key={i}>{cell}</td>
                       ))}
                     </tr>
@@ -348,7 +347,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
                 </tbody>
               </table>
             </div>
-          </details>
+          </details>}
           <details>
             <summary>Giao hàng & đổi trả</summary>
             <p>
@@ -421,7 +420,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
             name: p.name,
             description: miloDesignText(p.description),
             ...(photos.length ? { image: photos.map((i: any) => i.url) } : {}),
-            offers: {
+            offers: preview ? undefined : {
               "@type": "Offer",
               price: p.price,
               priceCurrency: "VND",

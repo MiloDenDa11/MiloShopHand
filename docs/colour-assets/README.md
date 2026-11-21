@@ -1,6 +1,6 @@
 # Bộ ảnh riêng theo màu — MILOSHOPHAND
 
-**Tiến độ 19/11/2026:** 281/380 bộ màu đã được duyệt và cập nhật vào website local; còn 99 bộ. Lần tiếp tục này bổ sung 88 bộ, đồng thời lưu bảy phần PNG của năm bộ đang dở. ImageGen đã trả lỗi 429 `usage_limit_reached`, báo mở lại khoảng 12:23:29 ngày 20/11/2026 (giờ Việt Nam). Xem [báo cáo bàn giao hiện tại](STATUS.md); toàn bộ catalog chưa hoàn tất.
+**Tiến độ 20/11/2026:** 321/380 bộ màu đã được duyệt và cập nhật vào website local; còn 59 bộ ngoài Tee. **Toàn bộ 24 mẫu Tee / 102 màu đã có ảnh riêng**, sau khi bổ sung 40 bộ màu trong lượt này. Xem [báo cáo bàn giao hiện tại](STATUS.md) và [chi tiết cập nhật Tee](TEE-20261120.md); toàn bộ catalog chưa hoàn tất.
 
 Ảnh được tạo bằng ImageGen tích hợp, chỉnh từ đúng bộ ảnh của từng mẫu áo. Mỗi màu có bốn PNG nguyên bản, mỗi PNG gồm sáu góc, tổng 24 góc danh nghĩa quanh trục đứng. Không dùng bộ lọc màu, canvas nhuộm vải hay blob tạm để giả lập màu mới. Đây là ảnh mô phỏng thiết kế, không phải ảnh chụp hàng hóa đã sản xuất.
 

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-henley-three",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T08:35:01.728Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-22499e7c-04cf-4dec-a0de-e5b2edadc10c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Henley Three Basic Tee, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve HENLEY construction: three pale buttons on short dark olive placket, dark olive collar and narrow olive sleeve cuffs stay olive on both black and white target body/sleeve fabric. Do not turn collar into plain crew or add buttons to back. Keep chest ML and floral MiloShopHand rear print, ivory on black and dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1452113,
+      "sha256": "87818155c3215682c5e142f312c1dad7bf7a56b81b78f5fd0da505b479ac3a55",
+      "frames": [
+        {
+          "x": 54,
+          "y": 33,
+          "width": 416,
+          "height": 446
+        },
+        {
+          "x": 71,
+          "y": 28,
+          "width": 382,
+          "height": 451
+        },
+        {
+          "x": 79,
+          "y": 27,
+          "width": 341,
+          "height": 454
+        },
+        {
+          "x": 117,
+          "y": 26,
+          "width": 300,
+          "height": 459
+        },
+        {
+          "x": 119,
+          "y": 22,
+          "width": 262,
+          "height": 466
+        },
+        {
+          "x": 110,
+          "y": 18,
+          "width": 257,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ff4ff6ef-f421-4511-985e-451bd7d00b68.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Henley Three Basic Tee, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve HENLEY construction: three pale buttons on short dark olive placket, dark olive collar and narrow olive sleeve cuffs stay olive on both black and white target body/sleeve fabric. Do not turn collar into plain crew or add buttons to back. Keep chest ML and floral MiloShopHand rear print, ivory on black and dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1444410,
+      "sha256": "bff194d9366d2cc30f364dfb15369b16e880a933f0cd1db7dc17e7b68b2c7346",
+      "frames": [
+        {
+          "x": 130,
+          "y": 20,
+          "width": 219,
+          "height": 480
+        },
+        {
+          "x": 119,
+          "y": 19,
+          "width": 249,
+          "height": 481
+        },
+        {
+          "x": 96,
+          "y": 20,
+          "width": 291,
+          "height": 480
+        },
+        {
+          "x": 69,
+          "y": 33,
+          "width": 350,
+          "height": 457
+        },
+        {
+          "x": 36,
+          "y": 36,
+          "width": 399,
+          "height": 455
+        },
+        {
+          "x": 13,
+          "y": 37,
+          "width": 440,
+          "height": 454
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-78d44a02-9810-47df-aaba-0190544bb873.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Henley Three Basic Tee, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve HENLEY construction: three pale buttons on short dark olive placket, dark olive collar and narrow olive sleeve cuffs stay olive on both black and white target body/sleeve fabric. Do not turn collar into plain crew or add buttons to back. Keep chest ML and floral MiloShopHand rear print, ivory on black and dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1529751,
+      "sha256": "9b39875f902cdad427ca43c0a515c9afc8362028e73da0ace6a5964c6ae6fd8b",
+      "frames": [
+        {
+          "x": 53,
+          "y": 34,
+          "width": 404,
+          "height": 456
+        },
+        {
+          "x": 67,
+          "y": 33,
+          "width": 385,
+          "height": 457
+        },
+        {
+          "x": 77,
+          "y": 33,
+          "width": 340,
+          "height": 457
+        },
+        {
+          "x": 114,
+          "y": 33,
+          "width": 287,
+          "height": 458
+        },
+        {
+          "x": 136,
+          "y": 33,
+          "width": 243,
+          "height": 458
+        },
+        {
+          "x": 118,
+          "y": 33,
+          "width": 239,
+          "height": 458
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-henley-three/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8568846f-aba5-4562-9aaa-a21014a3fbea.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Henley Three Basic Tee, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve HENLEY construction: three pale buttons on short dark olive placket, dark olive collar and narrow olive sleeve cuffs stay olive on both black and white target body/sleeve fabric. Do not turn collar into plain crew or add buttons to back. Keep chest ML and floral MiloShopHand rear print, ivory on black and dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1404492,
+      "sha256": "cae03b54500852dc0fe64c8774ddff6ddecbd68a9e3a269be86ed73cbc13a294",
+      "frames": [
+        {
+          "x": 135,
+          "y": 24,
+          "width": 186,
+          "height": 467
+        },
+        {
+          "x": 129,
+          "y": 25,
+          "width": 221,
+          "height": 465
+        },
+        {
+          "x": 115,
+          "y": 26,
+          "width": 289,
+          "height": 465
+        },
+        {
+          "x": 69,
+          "y": 36,
+          "width": 333,
+          "height": 456
+        },
+        {
+          "x": 58,
+          "y": 37,
+          "width": 371,
+          "height": 455
+        },
+        {
+          "x": 50,
+          "y": 40,
+          "width": 420,
+          "height": 452
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views across the four native atlases and contact sheet. Three pale buttons and short olive placket are intact; olive collar/cuffs remain consistent, no buttons or placket on the back. Target fabric #151515 agrees front to back. Chest ML and floral rear wordmark are correctly placed and occluded; full garment inside each cell.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

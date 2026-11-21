@@ -1,45 +1,42 @@
-# Tình trạng ảnh riêng theo màu — 19/11/2026
+# Tình trạng ảnh riêng theo màu — 20/11/2026
 
-Đang tạm dừng vì ImageGen trả lỗi hạn mức; xem bằng chứng trong checkpoint. **Toàn bộ 380 bộ màu chưa hoàn tất.** Chỉ tính bộ đã được xem đủ 24 góc, duyệt và cập nhật vào database. Dùng **ImageGen tích hợp**, không dùng CLI/API trả phí dự phòng hoặc ảnh nhuộm bằng bộ lọc.
-
-ImageGen trả lỗi HTTP 429 `usage_limit_reached`; công cụ báo thời điểm mở lại **2026-11-20 12:23:29–12:23:30 +07:00**. Đây là thời điểm do công cụ trả về, không phải cam kết tự chạy lại. Đã kết thúc tất cả cell tạo ảnh; bảy phần PNG của năm bộ đang dở được lưu cùng prompt, nguồn và hash trong `partial-checkpoints-final.json`.
+**Nhóm Tee đã hoàn tất: 24 mẫu / 102 màu đang bán đều có bộ ảnh riêng 24 góc.** Lượt này bổ sung 40 bộ màu cho 18 mẫu, gồm No Rules Graphic Tee xanh navy và Sunday Club Tee xám trong ảnh người dùng gửi. Đã tích hợp vào website và database local, kiểm tra đổi màu và xoay ảnh. Xem [báo cáo Tee và danh sách file](TEE-20261120.md).
 
 | Phạm vi | Kết quả |
 |---|---:|
-| Mẫu sản phẩm | 90 |
+| Mẫu sản phẩm toàn catalog | 90 |
 | Bộ màu đang bán | 380 |
-| Bộ màu riêng đã đưa vào website/database | 281 |
-| Bộ còn thiếu | 99 |
-| Mẫu đã đủ mọi màu | 54/90 |
-| PNG nguyên bản đã đưa vào website | 1124 |
-| Góc ảnh danh nghĩa đã đưa vào website | 6744 |
-| Bộ mới thêm trong lần tiếp tục sau 12:00 | 88 |
-| Phần PNG đã lưu của các bộ còn thiếu | 7 |
-| Lượt tạo phần ảnh còn cần, chưa tính tạo lại khi không đạt | 389 |
+| Bộ màu riêng đã duyệt và đưa vào website/database | 321 |
+| Bộ còn thiếu, thuộc các nhóm ngoài Tee | 59 |
+| Mẫu đã đủ mọi màu | 72/90 |
+| PNG nguyên bản đã đưa vào website | 1284 |
+| Góc ảnh danh nghĩa đã đưa vào website | 7704 |
+| Bộ Tee mới trong lượt 20/11 | 40 |
+| PNG mới / góc mới / WebP mới | 160 / 960 / 480 |
+| Phần PNG giữ lại của các bộ ngoài Tee còn dở | 7 |
+| Lượt tạo phần ảnh còn cần, chưa tính tạo lại | 229 |
 
-Số liệu lấy từ [coverage.json](coverage.json); cập nhật 2026-11-19T11:05:33.792Z. Bộ đang tạo hoặc chưa duyệt không tính vào số đã hoàn thành. Ảnh AI là mô phỏng thiết kế và các góc danh nghĩa, không phải ảnh chụp hàng hóa thật hoặc bộ quay đã hiệu chuẩn.
+Số liệu toàn catalog lấy từ [coverage.json](coverage.json), cập nhật 2026-11-20T09:12:54.452Z. Ảnh được tạo bằng **ImageGen tích hợp**, chế độ chỉnh từ ảnh tham chiếu của đúng mẫu; PNG giữ nguyên byte. Không dùng API/CLI trả phí dự phòng hoặc bộ lọc nhuộm màu. Đây là ảnh AI mô phỏng thiết kế và góc danh nghĩa, không phải ảnh chụp hàng hóa thật hay bộ quay đã hiệu chuẩn.
 
 ## Ảnh, prompt và checkpoint
 
-- Ảnh cuối: `apps/web/public/collection-spin/<slug>/native-<hex>-v1/part-0..3.png`. Mỗi bộ có bốn PNG, sáu góc mỗi PNG; yêu cầu tối thiểu 450 pixel nguyên bản mỗi ô, không nâng ảnh nhỏ để tính đủ chuẩn.
+- Ảnh cuối: `apps/web/public/collection-spin/<slug>/native-<hex>-v1/part-0..3.png`. Mỗi màu có bốn PNG 1536×1024, sáu ô 512×512 mỗi PNG.
 - [Danh sách duyệt](../photo-spin/approved.json) liên kết hồ sơ từng bộ trong `docs/photo-spin`, gồm prompt cuối, nguồn tham chiếu, ghi chú duyệt, kích thước và SHA-256.
-- Ghi chú duyệt mới: `.local/native-colours/reviewed-batch-10.json` trở đi. Checkpoint từng phần ở `.local/native-colours/generated/<id>/part-N.json`; PNG nguyên byte được sao lưu trong `.local/native-colours/staged`.
-- Kết quả theo lượt này: `.local/native-colours/resume-20261119/progress.json`, log publish từng batch, HTTP/browser và snapshot dữ liệu. Báo cáo trước khi tiếp tục được giữ tại `.local/native-colours/resume-20261119/STATUS-before-resume.md`.
+- Lượt Tee: `.local/native-colours/tee-20261120/`, review batch 40–46; checkpoint từng phần tại `.local/native-colours/generated/<id>/part-N.json`. Toàn bộ 160 PNG gốc được sao lưu nguyên byte trong `.local/native-colours/staged`.
+- Báo cáo trước lượt Tee giữ tại `.local/native-colours/tee-20261120/STATUS-before-tee.md`. Lỗi hạn mức 429 ngày 19/11 thuộc lịch sử; lượt Tee ngày 20/11 đã tạo xong đủ ảnh.
 
-## Kiểm tra đã có bằng chứng
+## Kết quả kiểm tra
 
-- Publish dùng `npm run assets:photos` rồi `npm run db:seed:photos`. Chỉ cấu hình trình bày và ảnh do hệ thống quản lý được cập nhật; không seed lại catalog gốc.
-- Verifier toàn thư viện lần chốt: PASS, 281 bộ / 6744 góc / 1124 PNG; đối chiếu SHA-256, kích thước, ô góc không trùng nguyên byte và đường dẫn ảnh trong database. Log `verify-published-final.log`.
-- Verifier ảnh phân phối WebP lần chốt: PASS; 1213 nguồn, 3904 ảnh WebP. Đối chiếu giải mã, kích thước, tỷ lệ và sai số pixel với ảnh nguồn. Gồm hai phạm vi không trùng nhau: 1.185 nguồn trước batch cuối và 28 PNG cuối kiểm tra riêng bằng cùng verifier. Log `verify-media-base-274.log`, `verify-media-tail.log`; báo cáo gộp `media-verification-final.json`.
-- HTTP mới nhất: PASS, 88 bộ màu mới, 1087 request; đối chiếu nội dung PNG/WebP nhận được với file local, kích thước nguyên bản và hash URL.
-- Chromium mới nhất: PASS_APPROVED_SUBSET, 3 sản phẩm, 10 màu có bộ riêng; bốn nhóm góc mỗi màu, đúng màu native, không canvas nhuộm/GLB, 0 lỗi JavaScript. Đây là kiểm tra trên bản development hiện tại, không phải build production mới. Request hồ sơ ẩn danh được mock tại trình duyệt để không ghi thêm AuditLog lên DB cửa hàng; API sản phẩm và ảnh dùng dữ liệu thật local.
-- Tổng hợp bằng chứng Chromium của cả lượt: PASS, bao phủ 88 bộ màu mới trên 31 mẫu; xem `browser-evidence-matrix.json`. Các mẫu chưa thay đổi giữ bằng chứng đã đạt, không gán phạm vi ba mẫu cuối cho toàn bộ catalog.
-- Đối chiếu 38 mô hình dữ liệu kinh doanh trước/sau: hash không đổi, gồm giá, tồn kho, đơn hàng và tài khoản; loại trừ riêng ảnh quản lý và cấu hình trình bày sản phẩm. Snapshot của lượt này nằm trong thư mục resume-20261119.
-- Kiểm tra bắt buộc đủ màu riêng `audit-rotation-coverage.ts --require-native` vẫn chưa đạt: còn 99 bộ màu thiếu; 54/90 mẫu đã đủ mọi màu. Không tính bảy phần PNG đang dở là bộ hoàn thành. Log `coverage-final.log`.
-- Backup đầy đủ trước đợt ảnh: `.local/backups/milo-2026-11-19T03-55-54-485Z.dump`, đã được restore và đối chiếu 42 bảng trong đợt audit ngay trước đó.
+- Toàn thư viện đã duyệt: **PASS**, 321 bộ / 7704 góc / 1284 PNG; kiểm tra hash URL, kích thước, ô góc không trùng nguyên byte và đường dẫn ảnh trong DB. `assets:photos:verify -- --require-all` xác nhận đủ màu gốc của 90 mẫu; tiêu chí này khác với đủ mọi màu đang bán.
+- WebP mới: **PASS**, giải mã và đối chiếu 480 ảnh phân phối với 160 PNG nguồn mới, kiểm tra SHA-256, kích thước, tỷ lệ và sai số pixel. 1213 nguồn / 3904 WebP trước lượt này giữ bằng chứng kiểm tra ngày 19/11; không tuyên bố đã chạy lại toàn bộ verifier WebP cũ.
+- HTTP mới: **PASS**, 40 bộ màu / 18 mẫu / 498 request; nội dung PNG và WebP nhận từ web trùng file local, URL có hash mới, không có 404.
+- Chromium trang chi tiết: **PASS**, toàn bộ 24 mẫu Tee / 102 màu / 0 màu thiếu; kiểm tra bốn nhóm góc 0, 6, 12, 18 ở mỗi màu trên màn hình 360 px, đúng màu native, không canvas hoặc GLB, 0 lỗi JavaScript.
+- Chromium thẻ sản phẩm: **PASS**, 40 màu mới × 2 chiều rộng 1440/360 px = 80 lượt; ảnh tĩnh đúng hash màu, link chi tiết giữ màu, bốn nhóm góc xoay mỗi lượt, không ô báo đang cập nhật, không tràn ngang.
+- Dữ liệu kinh doanh: **PASS**, hash 38 mô hình trước/sau không đổi; loại trừ riêng ảnh quản lý và cấu hình trình bày sản phẩm. Không đổi giá, variant, kho, đơn hàng hoặc tài khoản.
+- Kiểm tra bắt buộc toàn catalog `audit-rotation-coverage.ts --require-native`: **chưa đạt**, còn 59 bộ ngoài Tee. Không hạ tiêu chuẩn hoặc tính bảy phần PNG dở thành bộ hoàn tất.
 
-Các kiểm thử 48 unit, 42 integration, 71 E2E và build/typecheck đạt thuộc đợt [security audit](../security/AUDIT-20261119.md) trước khi thêm các ảnh lần này; không coi đó là kết quả chạy lại sau mọi batch ảnh. Không thay đổi mã nghiệp vụ hoặc thư viện trong lượt tạo ảnh này. Audit bắt buộc đủ mọi màu vẫn chưa đạt khi còn bộ thiếu; không hạ tiêu chuẩn kiểm tra để báo hoàn thành.
+Bằng chứng có thể đọc trong [báo cáo kiểm tra Tee](TEE-20261120-verification.json); log và screenshot đầy đủ nằm trong thư mục local của lượt này. Kiểm tra trình duyệt dùng API sản phẩm và ảnh local thật, chỉ mock request hồ sơ ẩn danh `/api/v1/me` để không ghi thêm AuditLog. Đây là kiểm tra development hiện tại, chưa triển khai production hoặc đẩy GitHub.
 
-## Tiếp tục
+## Tiếp tục các nhóm khác
 
-Làm mới kế hoạch bằng `npx tsx scripts/plan-native-colours.ts` rồi `node scripts/prepare-native-colour-resume.mjs`. Tiếp tục các phần còn thiếu bằng công cụ ImageGen, bỏ qua checkpoint có sẵn, kiểm tra trực quan trước khi đăng ký. Không khởi chạy trùng với một cell ImageGen còn hoạt động. Xem [quy trình](README.md) và [sửa phản hồi nút màu](SWATCH-FIX.md).
+Làm mới kế hoạch bằng `npx tsx scripts/plan-native-colours.ts` rồi `node scripts/prepare-native-colour-resume.mjs`. Tiếp tục 59 bộ ngoài Tee, bỏ qua checkpoint có sẵn và duyệt trực quan trước khi đăng ký. Xem [quy trình](README.md) và [sửa phản hồi nút màu](SWATCH-FIX.md).

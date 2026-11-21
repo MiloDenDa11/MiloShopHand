@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-pocket-study",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T09:11:06.705Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c93d3321-934e-4ee3-bf75-a72177962394.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve one rounded-corner patch pocket on wearer's left chest, same target colour as main body, with one ML printed ON the pocket. Do not remove pocket or add a second chest logo. Keep narrow collar and sleeve bands ivory on BLACK fabric, charcoal on WHITE fabric. Retain twill cotton texture and floral MiloShopHand rear wordmark.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1612391,
+      "sha256": "58c73a64237bc9c58de4b354de5b1df1883dab84326fc244e73acd503fdcbf29",
+      "frames": [
+        {
+          "x": 67,
+          "y": 32,
+          "width": 391,
+          "height": 445
+        },
+        {
+          "x": 78,
+          "y": 30,
+          "width": 369,
+          "height": 446
+        },
+        {
+          "x": 93,
+          "y": 29,
+          "width": 327,
+          "height": 448
+        },
+        {
+          "x": 141,
+          "y": 29,
+          "width": 256,
+          "height": 452
+        },
+        {
+          "x": 147,
+          "y": 28,
+          "width": 220,
+          "height": 453
+        },
+        {
+          "x": 144,
+          "y": 32,
+          "width": 211,
+          "height": 449
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-52299afc-5d66-4ff8-a97f-5d855baf3e61.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve one rounded-corner patch pocket on wearer's left chest, same target colour as main body, with one ML printed ON the pocket. Do not remove pocket or add a second chest logo. Keep narrow collar and sleeve bands ivory on BLACK fabric, charcoal on WHITE fabric. Retain twill cotton texture and floral MiloShopHand rear wordmark.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1820962,
+      "sha256": "0ef4384194fe8614eff06834e38dcec003a637c3b396c4022412cdf3f521c49f",
+      "frames": [
+        {
+          "x": 147,
+          "y": 36,
+          "width": 191,
+          "height": 454
+        },
+        {
+          "x": 126,
+          "y": 36,
+          "width": 221,
+          "height": 454
+        },
+        {
+          "x": 94,
+          "y": 36,
+          "width": 284,
+          "height": 454
+        },
+        {
+          "x": 93,
+          "y": 44,
+          "width": 323,
+          "height": 449
+        },
+        {
+          "x": 57,
+          "y": 45,
+          "width": 382,
+          "height": 448
+        },
+        {
+          "x": 40,
+          "y": 45,
+          "width": 410,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8df7573b-b501-4a7f-abd3-a5e0e9f23a52.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve one rounded-corner patch pocket on wearer's left chest, same target colour as main body, with one ML printed ON the pocket. Do not remove pocket or add a second chest logo. Keep narrow collar and sleeve bands ivory on BLACK fabric, charcoal on WHITE fabric. Retain twill cotton texture and floral MiloShopHand rear wordmark.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1691239,
+      "sha256": "05c13edb9c58ac9a6cb72d8533ef9ec140c234f96d8d6ccb716dba5ee7379391",
+      "frames": [
+        {
+          "x": 39,
+          "y": 50,
+          "width": 400,
+          "height": 417
+        },
+        {
+          "x": 72,
+          "y": 51,
+          "width": 384,
+          "height": 416
+        },
+        {
+          "x": 93,
+          "y": 47,
+          "width": 334,
+          "height": 420
+        },
+        {
+          "x": 109,
+          "y": 49,
+          "width": 292,
+          "height": 430
+        },
+        {
+          "x": 146,
+          "y": 47,
+          "width": 238,
+          "height": 432
+        },
+        {
+          "x": 144,
+          "y": 46,
+          "width": 226,
+          "height": 437
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-pocket-study/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-96ee7341-adba-4629-802d-80b400c6fa40.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Pocket Study Basic Tee, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton twill, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve one rounded-corner patch pocket on wearer's left chest, same target colour as main body, with one ML printed ON the pocket. Do not remove pocket or add a second chest logo. Keep narrow collar and sleeve bands ivory on BLACK fabric, charcoal on WHITE fabric. Retain twill cotton texture and floral MiloShopHand rear wordmark.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1726308,
+      "sha256": "45ddc0a78abb8163ff2a3eeaabdb69fad076b98d6759ebf7016f0a493de78771",
+      "frames": [
+        {
+          "x": 130,
+          "y": 36,
+          "width": 210,
+          "height": 456
+        },
+        {
+          "x": 133,
+          "y": 35,
+          "width": 244,
+          "height": 457
+        },
+        {
+          "x": 113,
+          "y": 35,
+          "width": 264,
+          "height": 457
+        },
+        {
+          "x": 82,
+          "y": 38,
+          "width": 316,
+          "height": 456
+        },
+        {
+          "x": 70,
+          "y": 37,
+          "width": 359,
+          "height": 457
+        },
+        {
+          "x": 46,
+          "y": 36,
+          "width": 406,
+          "height": 457
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all four original native sheets together, covering 24 nominal views. Single rounded rectangular chest patch pocket with the small ML placed on that pocket, no duplicate chest mark; warm ivory crew collar and cuffs match the anchor. Body colour #151515 stays consistent front/profile/back. Small chest ML and floral MiloShopHand back artwork occupy the correct visible surfaces. All garments fit within the six individual cells without clipping.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

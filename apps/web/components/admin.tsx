@@ -24,6 +24,7 @@ import { ExchangeOffer, AdminExchanges } from "./exchanges";
 import { BannerFields } from "./configured-banners";
 import { ProductPhoto } from "./product-media";
 import { miloDesignText } from "../lib/milo-design";
+import { isUnreleasedDesign } from "../lib/product-preview";
 const menus = [
   ["dashboard", "Tổng quan"],
   ["orders", "Đơn hàng"],
@@ -344,7 +345,7 @@ function AdminWorkspace() {
                     <p>Vốn {money(p.cost)}</p>
                   </>,
                   p.variants.filter((v: any) => v.active).length,
-                  p.active ? "Đang bán" : "Đã ẩn",
+                  p.active ? (isUnreleasedDesign(p) ? "Trưng bày · Chưa mở bán" : "Đang bán") : "Đã ẩn",
                   <button
                     onClick={() => {
                       setSelected(p);
@@ -979,7 +980,7 @@ function ProductForm({
             type="checkbox"
             defaultChecked={p?.active ?? true}
           />
-          Đang bán
+          {isUnreleasedDesign(p || {}) ? "Hiển thị mẫu trên shop" : "Đang bán"}
         </label>
         <label className="checkbox">
           <input name="featured" type="checkbox" defaultChecked={p?.featured} />

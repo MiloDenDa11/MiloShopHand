@@ -1,0 +1,263 @@
+{
+  "at": "2026-11-20T18:42:40.240Z",
+  "result": "PASS_WITH_OBSERVATION",
+  "scope": "Local project: ten inactive polo drafts, forty colourways, original AI media and review gallery. User chose drafts and estimated retail 500000–600000 VND, cost 200000–250000 VND. No GitHub push or production deployment.",
+  "imagery": {
+    "mode": "built-in ImageGen: ten model anchors generated with actual brand reference; thirty native colour edits",
+    "originalPNGs": 40,
+    "views": 80,
+    "deliveryWebPs": 240,
+    "originalPNGBytes": 79407899,
+    "deliveryWebPBytes": 3519494,
+    "originalBytesPreserved": true,
+    "promptSet": "docs/polo-20261121/images.json",
+    "sourceFolder": "apps/web/public/collection-ai/polo-20261121",
+    "visualReview": "All ten full model anchors and ten four-colour front/back contact sheets reviewed. Oxford navy checked at native resolution; its ivory ML was already correct, no regeneration needed. Sand raglan approved with reference ivory piping; metadata adjusted, original prompt and PNG retained. No programmatic recolouring, garment generation or logo overlays.",
+    "no360Or3DClaim": true
+  },
+  "catalog": {
+    "before": 90,
+    "after": 100,
+    "newProducts": [
+      {
+        "slug": "ml-polo-heritage-pique",
+        "price": 500000,
+        "cost": 200000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-riviera-open-collar",
+        "price": 550000,
+        "cost": 225000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-club-tipped",
+        "price": 530000,
+        "cost": 215000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-milano-rib",
+        "price": 560000,
+        "cost": 230000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-mercer-zip",
+        "price": 550000,
+        "cost": 225000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-oxford-pocket",
+        "price": 540000,
+        "cost": 220000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-regatta-breton",
+        "price": 530000,
+        "cost": 215000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-court-raglan",
+        "price": 520000,
+        "cost": 210000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-atelier-side-panel",
+        "price": 560000,
+        "cost": 235000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      },
+      {
+        "slug": "ml-polo-cable-heritage",
+        "price": 600000,
+        "cost": 250000,
+        "active": false,
+        "colors": 4,
+        "images": 8,
+        "size": "Chưa chốt",
+        "inventory": 0
+      }
+    ],
+    "category": "ao-polo",
+    "collection": "milo-polo-studio-2026",
+    "collectionActive": false,
+    "productActive": false,
+    "variantActive": false,
+    "draftColorSKUs": 40,
+    "images": 80,
+    "inventoryRows": 40,
+    "allNewOnHand": 0,
+    "allNewReserved": 0,
+    "size": "Chưa chốt",
+    "pricingStatus": "draft-estimate",
+    "costSeparation": "Seed-only prices/costs in prisma/polo-pricing.json. Costs are not stored in public product design metadata or web/public assets."
+  },
+  "validation": {
+    "typecheck": "PASS: API/worker/web plus separate strict typecheck for polo importer/test",
+    "unitTests": {
+      "passed": 53,
+      "failed": 0,
+      "log": ".local/polo-20261121/unit-tests-final.log"
+    },
+    "poloContracts": {
+      "passed": 5,
+      "log": ".local/polo-20261121/polo-tests.log"
+    },
+    "media": {
+      "sourcePlates": 40,
+      "webPs": 240,
+      "requests": 320,
+      "maxPixelMAE": 2.4128841824001737,
+      "source": ".local/polo-20261121/verification-first.json; completed media phase, before strict audit-count assertion"
+    },
+    "reviewGallery": {
+      "at": "2026-11-20T18:35:47.626Z",
+      "widths": [
+        1440,
+        360
+      ],
+      "states": 160,
+      "errors": [],
+      "result": "PASS"
+    },
+    "draftPublicList": "PASS: zero public products",
+    "idempotency": {
+      "at": "2026-11-20T18:37:16.595Z",
+      "result": "PASS",
+      "created": 0,
+      "preserved": 10,
+      "productAndVariantImageInventoryHashesUnchanged": true,
+      "noDuplicateDraftAudits": true
+    },
+    "oldRows": {
+      "result": "PASS",
+      "tables": 42,
+      "changedOrRemoved": 0,
+      "implicitRelationsIncluded": true,
+      "proof": ".local/polo-20261121/row-verification.json"
+    },
+    "modelChanges": [
+      {
+        "model": "Category",
+        "before": 4,
+        "after": 5,
+        "removedHashes": 0,
+        "addedHashes": 1
+      },
+      {
+        "model": "Collection",
+        "before": 4,
+        "after": 5,
+        "removedHashes": 0,
+        "addedHashes": 1
+      },
+      {
+        "model": "Product",
+        "before": 90,
+        "after": 100,
+        "removedHashes": 0,
+        "addedHashes": 10
+      },
+      {
+        "model": "ProductVariant",
+        "before": 1520,
+        "after": 1560,
+        "removedHashes": 0,
+        "addedHashes": 40
+      },
+      {
+        "model": "ProductImage",
+        "before": 642,
+        "after": 722,
+        "removedHashes": 0,
+        "addedHashes": 80
+      },
+      {
+        "model": "Inventory",
+        "before": 1520,
+        "after": 1560,
+        "removedHashes": 0,
+        "addedHashes": 40
+      },
+      {
+        "model": "AuditLog",
+        "before": 11,
+        "after": 22,
+        "removedHashes": 0,
+        "addedHashes": 11
+      }
+    ],
+    "observations": [
+      {
+        "model": "AuditLog",
+        "createdDraftEvents": 10,
+        "runtimeEvents": 1,
+        "action": "SECURITY_ACCESS_DENIED",
+        "code": "401",
+        "scope": "me",
+        "allPriorRowsUnchanged": true,
+        "note": "Existing runtime recorded anonymous/expired profile access while the development site was running. No logs deleted; requester not attributed."
+      }
+    ],
+    "initialChecks": "The first unpriced draft insertion was rejected by the existing product_money constraint and transaction rolled back. The constraint/schema was retained. Import succeeded only after the user supplied actual estimate ranges. The first strict database verifier flagged one additional runtime 401 /me security audit; inspected and classified, all prior audit rows preserved.",
+    "notRun": "No production build/deployment or authenticated Admin E2E; application UI/backend/schema unchanged. The interactive review-gallery browser checks use the generated local HTML and actual product WebPs. Firefox/Safari not tested."
+  },
+  "backup": {
+    "at": "2026-11-20T18:19:44.212Z",
+    "file": ".local/polo-20261121/database-before.rows.json.gz",
+    "format": "PostgreSQL native row_to_json text, no numeric JSON parsing; includes implicit relation tables",
+    "tables": 42,
+    "rows": 5606,
+    "bytes": 283438,
+    "sha256": "cd5c05101fd4de3a9f724c471e18566ee4e088073ce2bf6a86cf3d48e3da9d91",
+    "roundTrip": "PASS",
+    "limitation": "Row backup for existing schema, not a pg_dump/full server restore. No schema is modified by this task.",
+    "sensitiveRowsPublished": false
+  },
+  "files": "docs/polo-20261121/files.json",
+  "evidence": ".local/polo-20261121",
+  "dependenciesChanged": false,
+  "backendOrSchemaChanged": false
+}

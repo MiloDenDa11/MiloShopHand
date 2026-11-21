@@ -1,5 +1,7 @@
 # MILOSHOPHAND
 
+**Vintage Editorial — 20/11/2026:** card phong cách và Milo Journal có ảnh riêng, trung tâm chăm sóc khách hàng có bố cục ba cột, ảnh theo từng mục, tìm kiếm FAQ và bảng size dùng chung. Bộ 12 ảnh editorial AI được lưu local và ghi rõ là ảnh ý tưởng. Xem [giao diện, file thay đổi và kiểm chứng](docs/vintage-editorial/README.md).
+
 **Quản lý kho — 19/11/2026:** đã hoàn tất bảng tồn theo sản phẩm/màu/size, nhập/xuất/kiểm kê có xác nhận, bảo toàn hàng đang giữ và lịch sử tồn trước/sau. Đạt 29 kiểm thử tích hợp và 14 kiểm thử production; xem [hướng dẫn, ảnh nghiệm thu và kết quả kiểm chứng](docs/INVENTORY.md). Vào **Admin → Tồn kho** để sử dụng.
 
 **Modern Vintage UI:** design system nâu cà phê/ivory, 19 dropdown dùng chung có tìm kiếm/bàn phím, bảng quản trị có tìm nhanh/phân trang và sidebar thu gọn; đồng bộ cửa hàng, tài khoản, checkout, 360° và phòng thử đồ. Xem [audit, các file thay đổi và kiểm thử](docs/modern-ui/README.md).

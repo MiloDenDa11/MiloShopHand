@@ -6,8 +6,13 @@ import {createHash} from "node:crypto";
 import sharp from "sharp";
 const job=JSON.parse(fs.readFileSync(process.argv[2],"utf8"));
 if(!/^[a-z0-9-]+$/.test(job.slug)||!/^[a-z0-9-]+$/.test(job.colorKey)||!/^#[a-f0-9]{6}$/i.test(job.colorHex)||job.parts.length!==4)throw new Error("Invalid colour job");
+// Pale horizontal stripes can interrupt dark-fabric detection. A reviewed job
+// may bridge short row gaps during bounds analysis; native pixels are untouched.
+const maxRowGap=job.alignmentRowGap??0;
+if(!Number.isInteger(maxRowGap)||maxRowGap<0||maxRowGap>12)throw new Error("Invalid alignment row gap");
 const lightFabric=[1,3,5].reduce((sum,offset,c)=>sum+parseInt(job.colorHex.slice(offset,offset+2),16)*[.2126,.7152,.0722][c],0)>190;
 const report={slug:job.slug,colorKey:job.colorKey,colorHex:job.colorHex,mode:"built-in image_gen",status:"ready-for-review",axis:"y",camera:"fixed-level",frameCount:24,nominalAngles:true,generatedAt:new Date().toISOString(),parts:[],qa:{visual:job.visualReview||"Root visual review required before promotion.",alignmentAnalysis:"Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."}};
+if(maxRowGap)report.qa.alignmentAnalysis=`Read-only garment bounds; bridge up to ${maxRowGap} rows for visually reviewed pale stripes. Adjacent-cell fragments excluded; native bitmaps unchanged.`;
 for(const [index,part]of job.parts.entries()){
   if(part.part!==index)throw new Error("Colour parts must cover all four quarters in order");
   const source=fs.readFileSync(part.sourcePath),meta=await sharp(source).metadata();
@@ -34,8 +39,11 @@ for(const [index,part]of job.parts.entries()){
       }
       rows.push({y,left,right,on:count>=Math.max(5,cw*.012)});
     }
-    const bands=[];let band=[];
-    for(const row of rows){if(row.on)band.push(row);else if(band.length){bands.push(band);band=[];}}
+    const bands=[];let band=[],gap=[];
+    for(const row of rows){
+      if(row.on){if(band.length)band.push(...gap);band.push(row);gap=[];}
+      else if(band.length){gap.push(row);if(gap.length>maxRowGap){bands.push(band);band=[];gap=[];}}
+    }
     if(band.length)bands.push(band);
     const main=bands.sort((a,b)=>b.length-a.length)[0];
     if(!main||main.length<ch*.5)throw new Error(`Unreliable garment bounds ${src} frame${f}; inspect manually`);

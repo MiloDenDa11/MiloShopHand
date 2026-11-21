@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-longline-basic",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T08:58:24.329Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-longline-basic/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d31a8087-ea6a-44ce-8397-c5c98393013c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Basic Basic Tee, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the LONG LINE elongated torso, plain straight single hem, crew collar and narrow sleeve cuff bands. On black body keep source ivory collar/cuffs, on white body use charcoal collar/cuffs. Do not shorten to boxy length, do not add double hem. Preserve chest ML and floral MiloShopHand rear artwork.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1354778,
+      "sha256": "2ca9fe0dfd4be8ca8354ef8ac18303c1ece3a6da8968d0197ca15afc864e7cf3",
+      "frames": [
+        {
+          "x": 88,
+          "y": 25,
+          "width": 356,
+          "height": 451
+        },
+        {
+          "x": 92,
+          "y": 21,
+          "width": 330,
+          "height": 457
+        },
+        {
+          "x": 89,
+          "y": 19,
+          "width": 306,
+          "height": 459
+        },
+        {
+          "x": 145,
+          "y": 18,
+          "width": 255,
+          "height": 464
+        },
+        {
+          "x": 136,
+          "y": 17,
+          "width": 227,
+          "height": 466
+        },
+        {
+          "x": 121,
+          "y": 17,
+          "width": 224,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-longline-basic/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d8b7feaf-4a65-43f3-8cc7-cf8472449410.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Basic Basic Tee, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the LONG LINE elongated torso, plain straight single hem, crew collar and narrow sleeve cuff bands. On black body keep source ivory collar/cuffs, on white body use charcoal collar/cuffs. Do not shorten to boxy length, do not add double hem. Preserve chest ML and floral MiloShopHand rear artwork.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1644154,
+      "sha256": "506bb0eddb345fc98488897f1460fa1258fecf32dfdeae95ff49ac35222cc4a5",
+      "frames": [
+        {
+          "x": 145,
+          "y": 69,
+          "width": 186,
+          "height": 425
+        },
+        {
+          "x": 140,
+          "y": 73,
+          "width": 205,
+          "height": 422
+        },
+        {
+          "x": 101,
+          "y": 77,
+          "width": 268,
+          "height": 418
+        },
+        {
+          "x": 78,
+          "y": 73,
+          "width": 335,
+          "height": 422
+        },
+        {
+          "x": 55,
+          "y": 77,
+          "width": 372,
+          "height": 418
+        },
+        {
+          "x": 27,
+          "y": 80,
+          "width": 416,
+          "height": 416
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-longline-basic/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f70b9a8c-bb6a-4237-9624-0874a0c6eac4.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Basic Basic Tee, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the LONG LINE elongated torso, plain straight single hem, crew collar and narrow sleeve cuff bands. On black body keep source ivory collar/cuffs, on white body use charcoal collar/cuffs. Do not shorten to boxy length, do not add double hem. Preserve chest ML and floral MiloShopHand rear artwork.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1551161,
+      "sha256": "0b344c64e90c883270e3d926ab6656f664bfcc5e0d6c5c0ff59968e67085599e",
+      "frames": [
+        {
+          "x": 72,
+          "y": 72,
+          "width": 357,
+          "height": 405
+        },
+        {
+          "x": 88,
+          "y": 65,
+          "width": 339,
+          "height": 412
+        },
+        {
+          "x": 99,
+          "y": 30,
+          "width": 303,
+          "height": 447
+        },
+        {
+          "x": 136,
+          "y": 29,
+          "width": 272,
+          "height": 450
+        },
+        {
+          "x": 147,
+          "y": 29,
+          "width": 220,
+          "height": 451
+        },
+        {
+          "x": 144,
+          "y": 29,
+          "width": 208,
+          "height": 451
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-longline-basic/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7c66148e-03c6-4506-abed-3b1d2bb9f4c6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Longline Basic Basic Tee, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the LONG LINE elongated torso, plain straight single hem, crew collar and narrow sleeve cuff bands. On black body keep source ivory collar/cuffs, on white body use charcoal collar/cuffs. Do not shorten to boxy length, do not add double hem. Preserve chest ML and floral MiloShopHand rear artwork.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1557333,
+      "sha256": "ee5c68d1c1a26899c4064a30882219b5f441d2e8210b5ad78d222ae30cbd1b00",
+      "frames": [
+        {
+          "x": 135,
+          "y": 27,
+          "width": 180,
+          "height": 477
+        },
+        {
+          "x": 121,
+          "y": 27,
+          "width": 221,
+          "height": 477
+        },
+        {
+          "x": 105,
+          "y": 28,
+          "width": 262,
+          "height": 476
+        },
+        {
+          "x": 87,
+          "y": 35,
+          "width": 293,
+          "height": 459
+        },
+        {
+          "x": 60,
+          "y": 37,
+          "width": 346,
+          "height": 457
+        },
+        {
+          "x": 45,
+          "y": 40,
+          "width": 395,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all four native sheets and 24 nominal views together. Elongated longline torso and single straight hem retained; contrast crew collar and cuffs match front anchor on black/white body. Target fabric #f8f7f2 consistent front/profiles/back; small chest ML and floral MiloShopHand back artwork in correct visible locations. Full garment inside all six cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

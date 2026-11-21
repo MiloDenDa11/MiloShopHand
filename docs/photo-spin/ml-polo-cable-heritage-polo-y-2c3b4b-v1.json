@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-cable-heritage",
+  "colorKey": "polo-y-2c3b4b-v1",
+  "colorHex": "#2c3b4b",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T20:02:50.508Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-cable-heritage/polo-y-2c3b4b-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-060e8f05-f0ca-45d3-ab53-1249768c8a2e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, Xanh navy #2c3b4b, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh navy, #2c3b4b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1778616,
+      "sha256": "723f235ab8a5c7253acfd1c92853901c77fef764b0435ccb17f755759976e57f",
+      "frames": [
+        {
+          "x": 78,
+          "y": 30,
+          "width": 373,
+          "height": 455
+        },
+        {
+          "x": 75,
+          "y": 25,
+          "width": 359,
+          "height": 461
+        },
+        {
+          "x": 88,
+          "y": 23,
+          "width": 310,
+          "height": 464
+        },
+        {
+          "x": 148,
+          "y": 22,
+          "width": 250,
+          "height": 467
+        },
+        {
+          "x": 160,
+          "y": 17,
+          "width": 180,
+          "height": 473
+        },
+        {
+          "x": 156,
+          "y": 17,
+          "width": 173,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-cable-heritage/polo-y-2c3b4b-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-156cc496-1164-4602-b8c5-b2cd87574fa7.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, Xanh navy #2c3b4b, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh navy, #2c3b4b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1775092,
+      "sha256": "63da2da3cb8c05c581c2d4e250acc7ffb277300233e527256c439481f0fc5803",
+      "frames": [
+        {
+          "x": 188,
+          "y": 24,
+          "width": 167,
+          "height": 457
+        },
+        {
+          "x": 159,
+          "y": 23,
+          "width": 180,
+          "height": 458
+        },
+        {
+          "x": 121,
+          "y": 23,
+          "width": 207,
+          "height": 458
+        },
+        {
+          "x": 145,
+          "y": 20,
+          "width": 263,
+          "height": 468
+        },
+        {
+          "x": 99,
+          "y": 20,
+          "width": 318,
+          "height": 468
+        },
+        {
+          "x": 55,
+          "y": 20,
+          "width": 363,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-cable-heritage/polo-y-2c3b4b-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d6b8788f-9216-4443-b369-93d000f5a1ff.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, Xanh navy #2c3b4b, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh navy, #2c3b4b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1712435,
+      "sha256": "a48b534da196f3f859517127ad9e6db8979b42fc1534ab0ca5c0e89d49bc24d5",
+      "frames": [
+        {
+          "x": 64,
+          "y": 26,
+          "width": 394,
+          "height": 457
+        },
+        {
+          "x": 76,
+          "y": 26,
+          "width": 361,
+          "height": 457
+        },
+        {
+          "x": 99,
+          "y": 26,
+          "width": 310,
+          "height": 457
+        },
+        {
+          "x": 146,
+          "y": 25,
+          "width": 244,
+          "height": 460
+        },
+        {
+          "x": 166,
+          "y": 24,
+          "width": 186,
+          "height": 463
+        },
+        {
+          "x": 166,
+          "y": 21,
+          "width": 171,
+          "height": 466
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-cable-heritage/polo-y-2c3b4b-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-0ba38b14-562c-4076-9fad-6c740a9d3f58.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, Xanh navy #2c3b4b, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh navy, #2c3b4b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1632948,
+      "sha256": "15bbfc85f7403257999274d83955b67aee724935692e1206d5126ef30ef4d810",
+      "frames": [
+        {
+          "x": 175,
+          "y": 26,
+          "width": 154,
+          "height": 458
+        },
+        {
+          "x": 157,
+          "y": 26,
+          "width": 175,
+          "height": 458
+        },
+        {
+          "x": 144,
+          "y": 26,
+          "width": 199,
+          "height": 458
+        },
+        {
+          "x": 129,
+          "y": 23,
+          "width": 255,
+          "height": 463
+        },
+        {
+          "x": 99,
+          "y": 23,
+          "width": 295,
+          "height": 463
+        },
+        {
+          "x": 69,
+          "y": 23,
+          "width": 350,
+          "height": 463
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Cable Heritage Polo, Xanh navy. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.814Z"
+  }
+}

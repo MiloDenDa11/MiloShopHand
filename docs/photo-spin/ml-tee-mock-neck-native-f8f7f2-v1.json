@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-mock-neck",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T08:58:25.653Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-mock-neck/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-02545fd1-f761-4e16-9f84-fe681c414465.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Mock Neck Basic Tee, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed heavy-jersey, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the raised MOCK NECK and narrow sleeve-end bands in source dark cocoa brown on both target black and white body fabric. Collar stands up, not a flat crew neckline. Preserve heavy jersey texture, straight single hem, small chest ML and floral MiloShopHand rear wordmark; ivory ink on black, cocoa ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1388852,
+      "sha256": "bf1dd3f40b735ee57563218f226187008a97eea19e9ee70b10bca979b53f354c",
+      "frames": [
+        {
+          "x": 63,
+          "y": 31,
+          "width": 405,
+          "height": 428
+        },
+        {
+          "x": 66,
+          "y": 27,
+          "width": 386,
+          "height": 434
+        },
+        {
+          "x": 78,
+          "y": 27,
+          "width": 340,
+          "height": 435
+        },
+        {
+          "x": 132,
+          "y": 27,
+          "width": 280,
+          "height": 450
+        },
+        {
+          "x": 131,
+          "y": 24,
+          "width": 248,
+          "height": 453
+        },
+        {
+          "x": 122,
+          "y": 25,
+          "width": 237,
+          "height": 452
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-mock-neck/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d70db278-1555-4f97-860e-d4c04d235bca.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Mock Neck Basic Tee, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed heavy-jersey, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the raised MOCK NECK and narrow sleeve-end bands in source dark cocoa brown on both target black and white body fabric. Collar stands up, not a flat crew neckline. Preserve heavy jersey texture, straight single hem, small chest ML and floral MiloShopHand rear wordmark; ivory ink on black, cocoa ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1664694,
+      "sha256": "53d16a646a75851eb9a12446ff10b2b0cbf573c7b37f514ce32a59de5b8b5a51",
+      "frames": [
+        {
+          "x": 129,
+          "y": 75,
+          "width": 219,
+          "height": 417
+        },
+        {
+          "x": 147,
+          "y": 87,
+          "width": 233,
+          "height": 405
+        },
+        {
+          "x": 113,
+          "y": 91,
+          "width": 276,
+          "height": 401
+        },
+        {
+          "x": 81,
+          "y": 93,
+          "width": 333,
+          "height": 397
+        },
+        {
+          "x": 63,
+          "y": 94,
+          "width": 377,
+          "height": 396
+        },
+        {
+          "x": 39,
+          "y": 93,
+          "width": 413,
+          "height": 397
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-mock-neck/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-5336606e-81ee-4957-99c6-873923babc84.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Mock Neck Basic Tee, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed heavy-jersey, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the raised MOCK NECK and narrow sleeve-end bands in source dark cocoa brown on both target black and white body fabric. Collar stands up, not a flat crew neckline. Preserve heavy jersey texture, straight single hem, small chest ML and floral MiloShopHand rear wordmark; ivory ink on black, cocoa ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1595577,
+      "sha256": "62ef14f17bd37da820508841dcaffbef406d2dad63d55bd3cd78a2b0de4b78d0",
+      "frames": [
+        {
+          "x": 46,
+          "y": 38,
+          "width": 403,
+          "height": 440
+        },
+        {
+          "x": 64,
+          "y": 36,
+          "width": 384,
+          "height": 443
+        },
+        {
+          "x": 88,
+          "y": 35,
+          "width": 333,
+          "height": 444
+        },
+        {
+          "x": 112,
+          "y": 39,
+          "width": 293,
+          "height": 442
+        },
+        {
+          "x": 137,
+          "y": 37,
+          "width": 231,
+          "height": 446
+        },
+        {
+          "x": 133,
+          "y": 38,
+          "width": 229,
+          "height": 445
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-mock-neck/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-86ee35ed-c53a-4e00-983b-86bebbfb4346.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Mock Neck Basic Tee, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed heavy-jersey, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nKeep the raised MOCK NECK and narrow sleeve-end bands in source dark cocoa brown on both target black and white body fabric. Collar stands up, not a flat crew neckline. Preserve heavy jersey texture, straight single hem, small chest ML and floral MiloShopHand rear wordmark; ivory ink on black, cocoa ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1396659,
+      "sha256": "de43f2c2e4b61b5ec570234911d6a574998d668be4284e471e4a9130294a8b8e",
+      "frames": [
+        {
+          "x": 123,
+          "y": 23,
+          "width": 215,
+          "height": 469
+        },
+        {
+          "x": 124,
+          "y": 24,
+          "width": 251,
+          "height": 468
+        },
+        {
+          "x": 111,
+          "y": 24,
+          "width": 270,
+          "height": 468
+        },
+        {
+          "x": 71,
+          "y": 29,
+          "width": 324,
+          "height": 462
+        },
+        {
+          "x": 64,
+          "y": 32,
+          "width": 375,
+          "height": 459
+        },
+        {
+          "x": 33,
+          "y": 36,
+          "width": 427,
+          "height": 455
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all four native sheets and 24 nominal views together. Raised cocoa mock collar and cocoa narrow sleeve bands retained consistently on black/white body; heavy jersey and straight hem preserved. Target fabric #f8f7f2 consistent front/profiles/back; small chest ML and floral MiloShopHand back artwork in correct visible locations. Full garment inside all six cells.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-raglan-day",
+  "colorKey": "native-151515-v1",
+  "colorHex": "#151515",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T09:11:08.094Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-raglan-day/native-151515-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-73599fe1-9962-4958-afcb-7f578f40fc26.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raglan Day Basic Tee, Đen #151515, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RAGLAN diagonal shoulder seam from collar to underarm front and back; both body and main sleeve panels use target colour. Source olive collar and narrow olive sleeve-end cuffs stay olive on both black and white. No contrasting entire sleeves, no drop-shoulder seam. Keep small chest ML and floral MiloShopHand back wordmark; ivory ink on black, dark olive ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1670080,
+      "sha256": "e29cdcf5843dd4746af7f56a9b89d479cc8da2544f2895aa8209d0f5649b127c",
+      "frames": [
+        {
+          "x": 55,
+          "y": 31,
+          "width": 410,
+          "height": 435
+        },
+        {
+          "x": 62,
+          "y": 28,
+          "width": 385,
+          "height": 439
+        },
+        {
+          "x": 65,
+          "y": 27,
+          "width": 344,
+          "height": 441
+        },
+        {
+          "x": 137,
+          "y": 27,
+          "width": 269,
+          "height": 449
+        },
+        {
+          "x": 125,
+          "y": 24,
+          "width": 248,
+          "height": 456
+        },
+        {
+          "x": 117,
+          "y": 24,
+          "width": 246,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-raglan-day/native-151515-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-bc8481bc-e91d-4858-8a8b-970208a3a1df.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raglan Day Basic Tee, Đen #151515, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RAGLAN diagonal shoulder seam from collar to underarm front and back; both body and main sleeve panels use target colour. Source olive collar and narrow olive sleeve-end cuffs stay olive on both black and white. No contrasting entire sleeves, no drop-shoulder seam. Keep small chest ML and floral MiloShopHand back wordmark; ivory ink on black, dark olive ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1558582,
+      "sha256": "d5e59f6798054341c6cd15b8c8f7792e7c3ac7aaa2f1f9ba671187b921596293",
+      "frames": [
+        {
+          "x": 127,
+          "y": 24,
+          "width": 226,
+          "height": 474
+        },
+        {
+          "x": 131,
+          "y": 25,
+          "width": 237,
+          "height": 474
+        },
+        {
+          "x": 101,
+          "y": 25,
+          "width": 287,
+          "height": 473
+        },
+        {
+          "x": 77,
+          "y": 26,
+          "width": 335,
+          "height": 464
+        },
+        {
+          "x": 54,
+          "y": 28,
+          "width": 385,
+          "height": 462
+        },
+        {
+          "x": 24,
+          "y": 28,
+          "width": 434,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-raglan-day/native-151515-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-49edb83f-8a8b-409f-aff3-de2c67058423.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raglan Day Basic Tee, Đen #151515, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RAGLAN diagonal shoulder seam from collar to underarm front and back; both body and main sleeve panels use target colour. Source olive collar and narrow olive sleeve-end cuffs stay olive on both black and white. No contrasting entire sleeves, no drop-shoulder seam. Keep small chest ML and floral MiloShopHand back wordmark; ivory ink on black, dark olive ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1449818,
+      "sha256": "44b4da4d9bfe67a52d8ccb44e3f9f3e4d792499f2cce91419e98611b9b911fbd",
+      "frames": [
+        {
+          "x": 37,
+          "y": 39,
+          "width": 412,
+          "height": 434
+        },
+        {
+          "x": 50,
+          "y": 38,
+          "width": 406,
+          "height": 435
+        },
+        {
+          "x": 64,
+          "y": 35,
+          "width": 370,
+          "height": 439
+        },
+        {
+          "x": 93,
+          "y": 46,
+          "width": 324,
+          "height": 436
+        },
+        {
+          "x": 112,
+          "y": 42,
+          "width": 259,
+          "height": 439
+        },
+        {
+          "x": 111,
+          "y": 42,
+          "width": 247,
+          "height": 439
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-raglan-day/native-151515-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-dd750081-92bd-4218-be1f-34a774f1a8d6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Raglan Day Basic Tee, Đen #151515, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Đen #151515; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RAGLAN diagonal shoulder seam from collar to underarm front and back; both body and main sleeve panels use target colour. Source olive collar and narrow olive sleeve-end cuffs stay olive on both black and white. No contrasting entire sleeves, no drop-shoulder seam. Keep small chest ML and floral MiloShopHand back wordmark; ivory ink on black, dark olive ink on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1453519,
+      "sha256": "bafe6f7d45b781f7102328725aa81610599e6a21cc0e14e3b58cb8e84db3d721",
+      "frames": [
+        {
+          "x": 127,
+          "y": 29,
+          "width": 210,
+          "height": 469
+        },
+        {
+          "x": 109,
+          "y": 27,
+          "width": 237,
+          "height": 472
+        },
+        {
+          "x": 55,
+          "y": 28,
+          "width": 274,
+          "height": 469
+        },
+        {
+          "x": 83,
+          "y": 43,
+          "width": 324,
+          "height": 448
+        },
+        {
+          "x": 44,
+          "y": 45,
+          "width": 465,
+          "height": 446
+        },
+        {
+          "x": 3,
+          "y": 46,
+          "width": 410,
+          "height": 444
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all four original native sheets together, covering 24 nominal views. Diagonal raglan shoulder seams, olive crew collar and narrow olive cuffs remain consistent with the front anchor in both body colours. Body colour #151515 stays consistent front/profile/back. Small chest ML and floral MiloShopHand back artwork occupy the correct visible surfaces. All garments fit within the six individual cells without clipping.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

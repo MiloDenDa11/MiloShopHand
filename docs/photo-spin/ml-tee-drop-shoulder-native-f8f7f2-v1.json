@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-drop-shoulder",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T08:35:01.101Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-drop-shoulder/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-27a691d1-b005-4cdc-9355-91716420474f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Basic Tee, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve very low dropped shoulder seam and boxy wide short sleeves. Keep narrow contrast ribbed collar and cuff bands: ivory on target BLACK main body; charcoal on target WHITE main body. Straight lower hem remains main fabric with NO double layer. Preserve small chest ML and floral rear MiloShopHand, matching anchor ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1450432,
+      "sha256": "d798c7886afa152b747238197541ed5e0e2b05f5dffcb511e0f0450711207480",
+      "frames": [
+        {
+          "x": 53,
+          "y": 30,
+          "width": 423,
+          "height": 428
+        },
+        {
+          "x": 63,
+          "y": 25,
+          "width": 390,
+          "height": 433
+        },
+        {
+          "x": 75,
+          "y": 24,
+          "width": 339,
+          "height": 434
+        },
+        {
+          "x": 127,
+          "y": 18,
+          "width": 294,
+          "height": 451
+        },
+        {
+          "x": 126,
+          "y": 18,
+          "width": 252,
+          "height": 453
+        },
+        {
+          "x": 114,
+          "y": 17,
+          "width": 237,
+          "height": 453
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-drop-shoulder/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-52ca3f37-fbf8-49c2-a5bd-bd3f56c1a3ce.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Basic Tee, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve very low dropped shoulder seam and boxy wide short sleeves. Keep narrow contrast ribbed collar and cuff bands: ivory on target BLACK main body; charcoal on target WHITE main body. Straight lower hem remains main fabric with NO double layer. Preserve small chest ML and floral rear MiloShopHand, matching anchor ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1715687,
+      "sha256": "3eee0537c85a5d7c6572599767cbd414219198ae7c2cb88e1583baee85be230a",
+      "frames": [
+        {
+          "x": 128,
+          "y": 24,
+          "width": 224,
+          "height": 472
+        },
+        {
+          "x": 135,
+          "y": 71,
+          "width": 241,
+          "height": 426
+        },
+        {
+          "x": 102,
+          "y": 69,
+          "width": 292,
+          "height": 428
+        },
+        {
+          "x": 68,
+          "y": 27,
+          "width": 360,
+          "height": 463
+        },
+        {
+          "x": 53,
+          "y": 28,
+          "width": 389,
+          "height": 462
+        },
+        {
+          "x": 34,
+          "y": 28,
+          "width": 429,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-drop-shoulder/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-b72b1556-1c37-4e18-899c-df90155010fb.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Basic Tee, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve very low dropped shoulder seam and boxy wide short sleeves. Keep narrow contrast ribbed collar and cuff bands: ivory on target BLACK main body; charcoal on target WHITE main body. Straight lower hem remains main fabric with NO double layer. Preserve small chest ML and floral rear MiloShopHand, matching anchor ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1649592,
+      "sha256": "ab3200f386579537c1df41c57c833ddc2da7978b3d71a1225c7e31df5f292523",
+      "frames": [
+        {
+          "x": 45,
+          "y": 39,
+          "width": 429,
+          "height": 434
+        },
+        {
+          "x": 55,
+          "y": 38,
+          "width": 408,
+          "height": 436
+        },
+        {
+          "x": 62,
+          "y": 35,
+          "width": 372,
+          "height": 440
+        },
+        {
+          "x": 105,
+          "y": 33,
+          "width": 317,
+          "height": 442
+        },
+        {
+          "x": 128,
+          "y": 33,
+          "width": 253,
+          "height": 443
+        },
+        {
+          "x": 106,
+          "y": 33,
+          "width": 246,
+          "height": 444
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-drop-shoulder/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-baa05f0a-52d0-468e-9e9d-2f79c1fdebd2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Drop Shoulder Basic Tee, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve very low dropped shoulder seam and boxy wide short sleeves. Keep narrow contrast ribbed collar and cuff bands: ivory on target BLACK main body; charcoal on target WHITE main body. Straight lower hem remains main fabric with NO double layer. Preserve small chest ML and floral rear MiloShopHand, matching anchor ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1424424,
+      "sha256": "e8847a3f28be52c145b4d4988c76d4dd33fe2b589565ed858986e5538bc3c878",
+      "frames": [
+        {
+          "x": 129,
+          "y": 28,
+          "width": 202,
+          "height": 467
+        },
+        {
+          "x": 114,
+          "y": 27,
+          "width": 240,
+          "height": 468
+        },
+        {
+          "x": 101,
+          "y": 27,
+          "width": 267,
+          "height": 468
+        },
+        {
+          "x": 78,
+          "y": 35,
+          "width": 324,
+          "height": 457
+        },
+        {
+          "x": 53,
+          "y": 36,
+          "width": 368,
+          "height": 456
+        },
+        {
+          "x": 24,
+          "y": 37,
+          "width": 432,
+          "height": 454
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views across the four native atlases and contact sheet. Very low shoulder seams and wide boxy sleeves remain consistent; ivory trim on black and charcoal trim on white, plain single lower hem. Target fabric #f8f7f2 agrees front to back. Chest ML and floral rear wordmark are correctly placed and occluded; full garment inside each cell.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

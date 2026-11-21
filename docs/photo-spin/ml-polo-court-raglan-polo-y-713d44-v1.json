@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-court-raglan",
+  "colorKey": "polo-y-713d44-v1",
+  "colorHex": "#713d44",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:39:59.539Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-713d44-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f4cbd168-fae7-4b29-b10f-ecfbfeb1f41e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, Đỏ rượu #713d44, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Đỏ rượu, #713d44. The existing specified structural accents/stripes/panels/piping become #e8dfca, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1619635,
+      "sha256": "f974886e020dd674ae8b6cb770a831152d4ae68f5af07ca4389f17da27a78bc6",
+      "frames": [
+        {
+          "x": 76,
+          "y": 29,
+          "width": 386,
+          "height": 445
+        },
+        {
+          "x": 85,
+          "y": 26,
+          "width": 360,
+          "height": 449
+        },
+        {
+          "x": 106,
+          "y": 24,
+          "width": 308,
+          "height": 451
+        },
+        {
+          "x": 168,
+          "y": 23,
+          "width": 226,
+          "height": 456
+        },
+        {
+          "x": 173,
+          "y": 20,
+          "width": 180,
+          "height": 460
+        },
+        {
+          "x": 172,
+          "y": 19,
+          "width": 165,
+          "height": 461
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-713d44-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9a3f5797-efc7-43de-9c12-ee919df6d378.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, Đỏ rượu #713d44, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Đỏ rượu, #713d44. The existing specified structural accents/stripes/panels/piping become #e8dfca, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1683046,
+      "sha256": "47b595e1f6b861c39a9d778a8d9b0a13e94b4612f2e3d92a787e7cca63953c26",
+      "frames": [
+        {
+          "x": 193,
+          "y": 22,
+          "width": 161,
+          "height": 459
+        },
+        {
+          "x": 162,
+          "y": 22,
+          "width": 184,
+          "height": 459
+        },
+        {
+          "x": 142,
+          "y": 21,
+          "width": 203,
+          "height": 460
+        },
+        {
+          "x": 148,
+          "y": 16,
+          "width": 249,
+          "height": 468
+        },
+        {
+          "x": 100,
+          "y": 15,
+          "width": 305,
+          "height": 469
+        },
+        {
+          "x": 63,
+          "y": 15,
+          "width": 350,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-713d44-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-3f1a62d6-424f-4e4a-8408-bb4cd263bed4.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, Đỏ rượu #713d44, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Đỏ rượu, #713d44. The existing specified structural accents/stripes/panels/piping become #e8dfca, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1511729,
+      "sha256": "e36fc7aa9b712f3295731b0be84cc758e2a0bda7894e334e4cba16bd273ea85d",
+      "frames": [
+        {
+          "x": 76,
+          "y": 30,
+          "width": 384,
+          "height": 442
+        },
+        {
+          "x": 88,
+          "y": 27,
+          "width": 334,
+          "height": 445
+        },
+        {
+          "x": 102,
+          "y": 26,
+          "width": 284,
+          "height": 447
+        },
+        {
+          "x": 153,
+          "y": 25,
+          "width": 235,
+          "height": 454
+        },
+        {
+          "x": 170,
+          "y": 22,
+          "width": 194,
+          "height": 457
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 177,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-court-raglan/polo-y-713d44-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-56653d93-8737-4b04-b8d0-22f625df34de.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, Đỏ rượu #713d44, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Đỏ rượu, #713d44. The existing specified structural accents/stripes/panels/piping become #e8dfca, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1550988,
+      "sha256": "0a5d6cef258ed2634372f06f80226e399b1b1d618017ce84ddf64df225435672",
+      "frames": [
+        {
+          "x": 184,
+          "y": 20,
+          "width": 159,
+          "height": 463
+        },
+        {
+          "x": 162,
+          "y": 20,
+          "width": 180,
+          "height": 463
+        },
+        {
+          "x": 138,
+          "y": 20,
+          "width": 216,
+          "height": 463
+        },
+        {
+          "x": 129,
+          "y": 22,
+          "width": 266,
+          "height": 458
+        },
+        {
+          "x": 97,
+          "y": 22,
+          "width": 313,
+          "height": 458
+        },
+        {
+          "x": 70,
+          "y": 23,
+          "width": 368,
+          "height": 457
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Court Raglan Polo, Đỏ rượu. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.807Z"
+  }
+}

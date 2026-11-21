@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-oxford-pocket",
+  "colorKey": "polo-y-a17c58-v1",
+  "colorHex": "#a17c58",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:45:45.759Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-a17c58-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8a5f6d74-e996-4c9c-b4db-e8325dea2ca2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, Nâu tobacco #a17c58, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Nâu tobacco, #a17c58. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest on the pocket, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1682998,
+      "sha256": "fb80d5d86f376d56c7325cc145b7960bf32d9388346e03f5103ae134491a5404",
+      "frames": [
+        {
+          "x": 67,
+          "y": 29,
+          "width": 387,
+          "height": 447
+        },
+        {
+          "x": 75,
+          "y": 24,
+          "width": 367,
+          "height": 453
+        },
+        {
+          "x": 92,
+          "y": 22,
+          "width": 321,
+          "height": 456
+        },
+        {
+          "x": 134,
+          "y": 17,
+          "width": 272,
+          "height": 465
+        },
+        {
+          "x": 160,
+          "y": 14,
+          "width": 183,
+          "height": 468
+        },
+        {
+          "x": 162,
+          "y": 13,
+          "width": 181,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-a17c58-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-faf4b88f-92bb-4751-8e9d-6f90b7677a8a.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, Nâu tobacco #a17c58, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Nâu tobacco, #a17c58. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest on the pocket, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1696598,
+      "sha256": "1873fb9d03fb2a9c43f383ab1795dc59ff69b9fa8d193c70c2034311f7e5ddad",
+      "frames": [
+        {
+          "x": 189,
+          "y": 21,
+          "width": 168,
+          "height": 461
+        },
+        {
+          "x": 169,
+          "y": 21,
+          "width": 182,
+          "height": 460
+        },
+        {
+          "x": 149,
+          "y": 21,
+          "width": 223,
+          "height": 461
+        },
+        {
+          "x": 135,
+          "y": 20,
+          "width": 277,
+          "height": 463
+        },
+        {
+          "x": 105,
+          "y": 21,
+          "width": 312,
+          "height": 462
+        },
+        {
+          "x": 80,
+          "y": 21,
+          "width": 354,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-a17c58-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-be4d7186-739e-40d8-ba25-0a2266397820.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, Nâu tobacco #a17c58, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Nâu tobacco, #a17c58. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest on the pocket, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1464943,
+      "sha256": "83053941519539018cbca0e0c1f2806a8df9e6363bb12f704424f7af7864953e",
+      "frames": [
+        {
+          "x": 67,
+          "y": 28,
+          "width": 383,
+          "height": 446
+        },
+        {
+          "x": 85,
+          "y": 25,
+          "width": 332,
+          "height": 451
+        },
+        {
+          "x": 104,
+          "y": 25,
+          "width": 280,
+          "height": 452
+        },
+        {
+          "x": 140,
+          "y": 18,
+          "width": 238,
+          "height": 464
+        },
+        {
+          "x": 159,
+          "y": 18,
+          "width": 188,
+          "height": 465
+        },
+        {
+          "x": 160,
+          "y": 18,
+          "width": 171,
+          "height": 465
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-oxford-pocket/polo-y-a17c58-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-42c14dae-c883-42a5-a9e6-74f4aebd36e2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, Nâu tobacco #a17c58, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Nâu tobacco, #a17c58. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest on the pocket, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1448335,
+      "sha256": "72e7005d0e83a04d937809f6d54c42ea7805de93acaaceac000a71252bde1d6e",
+      "frames": [
+        {
+          "x": 180,
+          "y": 28,
+          "width": 161,
+          "height": 448
+        },
+        {
+          "x": 166,
+          "y": 29,
+          "width": 177,
+          "height": 447
+        },
+        {
+          "x": 138,
+          "y": 29,
+          "width": 212,
+          "height": 447
+        },
+        {
+          "x": 114,
+          "y": 26,
+          "width": 271,
+          "height": 452
+        },
+        {
+          "x": 90,
+          "y": 26,
+          "width": 314,
+          "height": 452
+        },
+        {
+          "x": 74,
+          "y": 26,
+          "width": 356,
+          "height": 451
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Oxford Pocket Polo, Nâu tobacco. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.791Z"
+  }
+}

@@ -1340,5 +1340,405 @@
     "slug": "ml-jacket-minimal-collar",
     "colorHex": "#151515",
     "provenance": "docs/photo-spin/ml-jacket-minimal-collar-native-151515-v1.json"
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "colorHex": "#34465b",
+    "provenance": "docs/photo-spin/no-rules-graphic-tee-native-34465b-v1.json"
+  },
+  {
+    "slug": "sunday-club-tee",
+    "colorHex": "#a3a5aa",
+    "provenance": "docs/photo-spin/sunday-club-tee-native-a3a5aa-v1.json"
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/no-rules-graphic-tee-native-151515-v1.json"
+  },
+  {
+    "slug": "no-rules-graphic-tee",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/no-rules-graphic-tee-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "sunday-club-tee",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/sunday-club-tee-native-151515-v1.json"
+  },
+  {
+    "slug": "sunday-club-tee",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/sunday-club-tee-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "colorHex": "#e8dfcd",
+    "provenance": "docs/photo-spin/mono-boxy-tee-native-e8dfcd-v1.json"
+  },
+  {
+    "slug": "mono-boxy-tee",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/mono-boxy-tee-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "sport-division-tee",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/sport-division-tee-native-151515-v1.json"
+  },
+  {
+    "slug": "sport-division-tee",
+    "colorHex": "#b6a4d4",
+    "provenance": "docs/photo-spin/sport-division-tee-native-b6a4d4-v1.json"
+  },
+  {
+    "slug": "sport-division-tee",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/sport-division-tee-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "urban-motion-tee",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/urban-motion-tee-native-151515-v1.json"
+  },
+  {
+    "slug": "urban-motion-tee",
+    "colorHex": "#78846a",
+    "provenance": "docs/photo-spin/urban-motion-tee-native-78846a-v1.json"
+  },
+  {
+    "slug": "urban-motion-tee",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/urban-motion-tee-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-athletic-ringer",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-athletic-ringer-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-athletic-ringer",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-athletic-ringer-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-breton-line",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-breton-line-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-breton-line",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-breton-line-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-double-hem",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-double-hem-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-double-hem",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-double-hem-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-drop-shoulder",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-drop-shoulder-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-drop-shoulder",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-drop-shoulder-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-henley-three",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-henley-three-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-henley-three",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-henley-three-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-longline-basic",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-longline-basic-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-longline-basic",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-longline-basic-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-mock-neck",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-mock-neck-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-mock-neck",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-mock-neck-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-pocket-study",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-pocket-study-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-pocket-study",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-pocket-study-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-raglan-day",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-raglan-day-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-raglan-day",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-raglan-day-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-rib-neck",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-rib-neck-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-rib-neck",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-rib-neck-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-slit-side",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-slit-side-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-slit-side",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-slit-side-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-split-panel",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-split-panel-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-split-panel",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-split-panel-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-tee-wide-neck",
+    "colorHex": "#151515",
+    "provenance": "docs/photo-spin/ml-tee-wide-neck-native-151515-v1.json"
+  },
+  {
+    "slug": "ml-tee-wide-neck",
+    "colorHex": "#f8f7f2",
+    "provenance": "docs/photo-spin/ml-tee-wide-neck-native-f8f7f2-v1.json"
+  },
+  {
+    "slug": "ml-polo-heritage-pique",
+    "colorHex": "#f2ede2",
+    "provenance": "docs/photo-spin/ml-polo-heritage-pique-polo-y-f2ede2-v1.json"
+  },
+  {
+    "slug": "ml-polo-heritage-pique",
+    "colorHex": "#27384c",
+    "provenance": "docs/photo-spin/ml-polo-heritage-pique-polo-y-27384c-v1.json"
+  },
+  {
+    "slug": "ml-polo-heritage-pique",
+    "colorHex": "#66715b",
+    "provenance": "docs/photo-spin/ml-polo-heritage-pique-polo-y-66715b-v1.json"
+  },
+  {
+    "slug": "ml-polo-heritage-pique",
+    "colorHex": "#4b3930",
+    "provenance": "docs/photo-spin/ml-polo-heritage-pique-polo-y-4b3930-v1.json"
+  },
+  {
+    "slug": "ml-polo-riviera-open-collar",
+    "colorHex": "#cfc1a7",
+    "provenance": "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-cfc1a7-v1.json"
+  },
+  {
+    "slug": "ml-polo-riviera-open-collar",
+    "colorHex": "#eee5d5",
+    "provenance": "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-eee5d5-v1.json"
+  },
+  {
+    "slug": "ml-polo-riviera-open-collar",
+    "colorHex": "#594033",
+    "provenance": "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-594033-v1.json"
+  },
+  {
+    "slug": "ml-polo-riviera-open-collar",
+    "colorHex": "#202522",
+    "provenance": "docs/photo-spin/ml-polo-riviera-open-collar-polo-y-202522-v1.json"
+  },
+  {
+    "slug": "ml-polo-club-tipped",
+    "colorHex": "#28394d",
+    "provenance": "docs/photo-spin/ml-polo-club-tipped-polo-y-28394d-v1.json"
+  },
+  {
+    "slug": "ml-polo-club-tipped",
+    "colorHex": "#f3eee3",
+    "provenance": "docs/photo-spin/ml-polo-club-tipped-polo-y-f3eee3-v1.json"
+  },
+  {
+    "slug": "ml-polo-club-tipped",
+    "colorHex": "#6c3940",
+    "provenance": "docs/photo-spin/ml-polo-club-tipped-polo-y-6c3940-v1.json"
+  },
+  {
+    "slug": "ml-polo-club-tipped",
+    "colorHex": "#344c43",
+    "provenance": "docs/photo-spin/ml-polo-club-tipped-polo-y-344c43-v1.json"
+  },
+  {
+    "slug": "ml-polo-milano-rib",
+    "colorHex": "#c7b599",
+    "provenance": "docs/photo-spin/ml-polo-milano-rib-polo-y-c7b599-v1.json"
+  },
+  {
+    "slug": "ml-polo-milano-rib",
+    "colorHex": "#70523e",
+    "provenance": "docs/photo-spin/ml-polo-milano-rib-polo-y-70523e-v1.json"
+  },
+  {
+    "slug": "ml-polo-milano-rib",
+    "colorHex": "#454845",
+    "provenance": "docs/photo-spin/ml-polo-milano-rib-polo-y-454845-v1.json"
+  },
+  {
+    "slug": "ml-polo-milano-rib",
+    "colorHex": "#88917c",
+    "provenance": "docs/photo-spin/ml-polo-milano-rib-polo-y-88917c-v1.json"
+  },
+  {
+    "slug": "ml-polo-mercer-zip",
+    "colorHex": "#222f3b",
+    "provenance": "docs/photo-spin/ml-polo-mercer-zip-polo-y-222f3b-v1.json"
+  },
+  {
+    "slug": "ml-polo-mercer-zip",
+    "colorHex": "#b6b1a3",
+    "provenance": "docs/photo-spin/ml-polo-mercer-zip-polo-y-b6b1a3-v1.json"
+  },
+  {
+    "slug": "ml-polo-mercer-zip",
+    "colorHex": "#5b6250",
+    "provenance": "docs/photo-spin/ml-polo-mercer-zip-polo-y-5b6250-v1.json"
+  },
+  {
+    "slug": "ml-polo-mercer-zip",
+    "colorHex": "#222322",
+    "provenance": "docs/photo-spin/ml-polo-mercer-zip-polo-y-222322-v1.json"
+  },
+  {
+    "slug": "ml-polo-oxford-pocket",
+    "colorHex": "#9faeb8",
+    "provenance": "docs/photo-spin/ml-polo-oxford-pocket-polo-y-9faeb8-v1.json"
+  },
+  {
+    "slug": "ml-polo-oxford-pocket",
+    "colorHex": "#efe8d9",
+    "provenance": "docs/photo-spin/ml-polo-oxford-pocket-polo-y-efe8d9-v1.json"
+  },
+  {
+    "slug": "ml-polo-oxford-pocket",
+    "colorHex": "#a17c58",
+    "provenance": "docs/photo-spin/ml-polo-oxford-pocket-polo-y-a17c58-v1.json"
+  },
+  {
+    "slug": "ml-polo-oxford-pocket",
+    "colorHex": "#314354",
+    "provenance": "docs/photo-spin/ml-polo-oxford-pocket-polo-y-314354-v1.json"
+  },
+  {
+    "slug": "ml-polo-regatta-breton",
+    "colorHex": "#f1e9d8",
+    "provenance": "docs/photo-spin/ml-polo-regatta-breton-polo-y-f1e9d8-v1.json"
+  },
+  {
+    "slug": "ml-polo-regatta-breton",
+    "colorHex": "#293c50",
+    "provenance": "docs/photo-spin/ml-polo-regatta-breton-polo-y-293c50-v1.json"
+  },
+  {
+    "slug": "ml-polo-regatta-breton",
+    "colorHex": "#83907a",
+    "provenance": "docs/photo-spin/ml-polo-regatta-breton-polo-y-83907a-v1.json"
+  },
+  {
+    "slug": "ml-polo-regatta-breton",
+    "colorHex": "#a28f79",
+    "provenance": "docs/photo-spin/ml-polo-regatta-breton-polo-y-a28f79-v1.json"
+  },
+  {
+    "slug": "ml-polo-court-raglan",
+    "colorHex": "#66735b",
+    "provenance": "docs/photo-spin/ml-polo-court-raglan-polo-y-66735b-v1.json"
+  },
+  {
+    "slug": "ml-polo-court-raglan",
+    "colorHex": "#343a3b",
+    "provenance": "docs/photo-spin/ml-polo-court-raglan-polo-y-343a3b-v1.json"
+  },
+  {
+    "slug": "ml-polo-court-raglan",
+    "colorHex": "#cab89b",
+    "provenance": "docs/photo-spin/ml-polo-court-raglan-polo-y-cab89b-v1.json"
+  },
+  {
+    "slug": "ml-polo-court-raglan",
+    "colorHex": "#713d44",
+    "provenance": "docs/photo-spin/ml-polo-court-raglan-polo-y-713d44-v1.json"
+  },
+  {
+    "slug": "ml-polo-atelier-side-panel",
+    "colorHex": "#ede5d6",
+    "provenance": "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-ede5d6-v1.json"
+  },
+  {
+    "slug": "ml-polo-atelier-side-panel",
+    "colorHex": "#2a3c4b",
+    "provenance": "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-2a3c4b-v1.json"
+  },
+  {
+    "slug": "ml-polo-atelier-side-panel",
+    "colorHex": "#80634e",
+    "provenance": "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-80634e-v1.json"
+  },
+  {
+    "slug": "ml-polo-atelier-side-panel",
+    "colorHex": "#8e9881",
+    "provenance": "docs/photo-spin/ml-polo-atelier-side-panel-polo-y-8e9881-v1.json"
+  },
+  {
+    "slug": "ml-polo-cable-heritage",
+    "colorHex": "#eee3ce",
+    "provenance": "docs/photo-spin/ml-polo-cable-heritage-polo-y-eee3ce-v1.json"
+  },
+  {
+    "slug": "ml-polo-cable-heritage",
+    "colorHex": "#2c3b4b",
+    "provenance": "docs/photo-spin/ml-polo-cable-heritage-polo-y-2c3b4b-v1.json"
+  },
+  {
+    "slug": "ml-polo-cable-heritage",
+    "colorHex": "#354c3f",
+    "provenance": "docs/photo-spin/ml-polo-cable-heritage-polo-y-354c3f-v1.json"
+  },
+  {
+    "slug": "ml-polo-cable-heritage",
+    "colorHex": "#7c624a",
+    "provenance": "docs/photo-spin/ml-polo-cable-heritage-polo-y-7c624a-v1.json"
   }
 ]

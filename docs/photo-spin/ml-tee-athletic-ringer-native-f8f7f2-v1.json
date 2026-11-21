@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-athletic-ringer",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T08:23:21.276Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ea8fe463-a4c4-4b0d-a6e6-28f9a597c0df.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Athletic Ringer Basic Tee, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RINGER construction: the dark olive green collar ring and narrow olive green sleeve-end bands must stay olive on both target black and white main fabric. Body and main sleeve cotton change to target colour; no stripes on body. Preserve source small chest ML and large floral rear wordmark; brand ink soft ivory on black, dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1697487,
+      "sha256": "7ed4534bbc07a384c6236287d86330489f28863e049f15d8823e0a6223eeea60",
+      "frames": [
+        {
+          "x": 67,
+          "y": 34,
+          "width": 406,
+          "height": 426
+        },
+        {
+          "x": 74,
+          "y": 95,
+          "width": 376,
+          "height": 365
+        },
+        {
+          "x": 84,
+          "y": 27,
+          "width": 329,
+          "height": 434
+        },
+        {
+          "x": 138,
+          "y": 23,
+          "width": 276,
+          "height": 444
+        },
+        {
+          "x": 125,
+          "y": 24,
+          "width": 247,
+          "height": 446
+        },
+        {
+          "x": 119,
+          "y": 69,
+          "width": 234,
+          "height": 400
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-eaf63fa5-cc10-4ee0-80ed-98a4f158f64b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Athletic Ringer Basic Tee, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RINGER construction: the dark olive green collar ring and narrow olive green sleeve-end bands must stay olive on both target black and white main fabric. Body and main sleeve cotton change to target colour; no stripes on body. Preserve source small chest ML and large floral rear wordmark; brand ink soft ivory on black, dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1431771,
+      "sha256": "8ea7884455cbb6f5e308ad429c1354fb814b5a1b2dfd421329392f2378bb3e0c",
+      "frames": [
+        {
+          "x": 142,
+          "y": 71,
+          "width": 220,
+          "height": 411
+        },
+        {
+          "x": 137,
+          "y": 76,
+          "width": 228,
+          "height": 406
+        },
+        {
+          "x": 112,
+          "y": 82,
+          "width": 272,
+          "height": 400
+        },
+        {
+          "x": 91,
+          "y": 78,
+          "width": 324,
+          "height": 403
+        },
+        {
+          "x": 65,
+          "y": 84,
+          "width": 366,
+          "height": 397
+        },
+        {
+          "x": 45,
+          "y": 84,
+          "width": 416,
+          "height": 397
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ceef4637-4b09-48d8-a2db-d777e354b4d7.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Athletic Ringer Basic Tee, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RINGER construction: the dark olive green collar ring and narrow olive green sleeve-end bands must stay olive on both target black and white main fabric. Body and main sleeve cotton change to target colour; no stripes on body. Preserve source small chest ML and large floral rear wordmark; brand ink soft ivory on black, dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1641819,
+      "sha256": "8ddaa86ff079b2d5545ff3a165a8603255a0029b620d96d284eaa6f0e148b484",
+      "frames": [
+        {
+          "x": 48,
+          "y": 91,
+          "width": 392,
+          "height": 372
+        },
+        {
+          "x": 68,
+          "y": 91,
+          "width": 382,
+          "height": 373
+        },
+        {
+          "x": 83,
+          "y": 91,
+          "width": 337,
+          "height": 373
+        },
+        {
+          "x": 104,
+          "y": 90,
+          "width": 301,
+          "height": 381
+        },
+        {
+          "x": 139,
+          "y": 88,
+          "width": 241,
+          "height": 383
+        },
+        {
+          "x": 137,
+          "y": 87,
+          "width": 230,
+          "height": 386
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-athletic-ringer/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f963dc62-ec3e-4dd2-ae77-68611c8f928b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Athletic Ringer Basic Tee, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nPreserve RINGER construction: the dark olive green collar ring and narrow olive green sleeve-end bands must stay olive on both target black and white main fabric. Body and main sleeve cotton change to target colour; no stripes on body. Preserve source small chest ML and large floral rear wordmark; brand ink soft ivory on black, dark olive on white.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1639551,
+      "sha256": "7b747c4733c7693c0a0f506f250cc62d57cc161b1e2652e9c781d298523dd0a9",
+      "frames": [
+        {
+          "x": 133,
+          "y": 27,
+          "width": 207,
+          "height": 453
+        },
+        {
+          "x": 114,
+          "y": 27,
+          "width": 237,
+          "height": 454
+        },
+        {
+          "x": 96,
+          "y": 28,
+          "width": 275,
+          "height": 452
+        },
+        {
+          "x": 85,
+          "y": 29,
+          "width": 316,
+          "height": 452
+        },
+        {
+          "x": 63,
+          "y": 31,
+          "width": 359,
+          "height": 449
+        },
+        {
+          "x": 37,
+          "y": 32,
+          "width": 414,
+          "height": 448
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually reviewed all 24 nominal views on the four native atlases and contact sheet. Olive collar and narrow cuff rings retained on target body colour; straight hem and source floral rear wordmark intact. Main fabric #f8f7f2 agrees across quarters. Small chest mark only on visible front, complete garment margins, six poses per sheet.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

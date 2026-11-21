@@ -12,12 +12,13 @@ async function main(){
 const root=resolve("apps/web/public");
 const specs=JSON.parse(readFileSync("apps/web/content/collection-designs.json","utf8"));
 const legacyPhotos=JSON.parse(readFileSync("apps/web/content/legacy-photo-designs.json","utf8"));
+const polos=JSON.parse(readFileSync("apps/web/content/polo-designs.json","utf8"));
 const entries=JSON.parse(readFileSync("apps/web/content/photo-spins.json","utf8"));
 const failures:string[]=[];
 const known=new Set<string>(),assets=new Set<string>();
 const check=(condition:unknown,message:string)=>{if(!condition)failures.push(message);};
 for(const {slug,spin} of entries){
-  check([...specs,...legacyPhotos].some((s:any)=>s.slug===slug),`Unknown design ${slug}`);
+  check([...specs,...legacyPhotos,...polos].some((s:any)=>s.slug===slug),`Unknown design ${slug}`);
   check(isPhotoSpin(spin),`Invalid spin ${slug}`);
   const key=`${slug}:${spin.colorHex.toLowerCase()}`;
   check(!known.has(key),`Duplicate colour ${key}`);known.add(key);
@@ -47,7 +48,7 @@ if(!process.argv.includes("--files-only")){
   const db=new PrismaClient();
   try{
     const products=await db.product.findMany({include:{images:true,variants:true}});
-    const managed=products.filter(p=>(p.design as any)?.managedBy==="milo-collection-v1");
+    const managed=products.filter(p=>["milo-collection-v1","milo-polo-v1"].includes((p.design as any)?.managedBy));
     for(const product of managed){
       const design=product.design as any;
       check(design.mediaPresentation==="photo",`Not in photo mode: ${product.slug}`);

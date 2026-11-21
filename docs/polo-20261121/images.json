@@ -1,0 +1,1246 @@
+{
+  "at": "2026-11-20T18:24:44.780Z",
+  "mode": "built-in ImageGen: 10 generate/reference anchors + 30 native colour edits",
+  "disclosure": "MiloShopHand AI garment designs; not actual product photographs. No programmatic recolouring or invented inventory/prices.",
+  "images": [
+    {
+      "id": "ml-polo-heritage-pique-f2ede2",
+      "slug": "ml-polo-heritage-pique",
+      "color": {
+        "key": "1",
+        "name": "Trắng ngà",
+        "hex": "#f2ede2",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-f2ede2.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, colour Trắng ngà #f2ede2, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nColour: main fabric #f2ede2 (Trắng ngà). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Heritage Piqué Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:/Users/LOQ/.codex/generated_images/01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9/exec-375dec03-c125-48c3-8ab9-f55f4413637a.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:09:53Z",
+      "recoveredFrom": "native generated file; helper source-path parsing corrected without regenerating",
+      "original": "/collection-ai/polo-20261121/ml-polo-heritage-pique-f2ede2.png",
+      "sha256": "39986f1429405869096a94271ff8580245c6217434a55584ac9fe2dde1833c7c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2209103,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.195Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-heritage-pique-27384c",
+      "slug": "ml-polo-heritage-pique",
+      "color": {
+        "key": "2",
+        "name": "Xanh navy",
+        "hex": "#27384c",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-27384c.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:/Users/LOQ/.codex/generated_images/01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9/exec-375dec03-c125-48c3-8ab9-f55f4413637a.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, colour Xanh navy #27384c.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh navy #27384c. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8ef64d17-8cba-4011-8656-2b3831df13e3.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:14:52.609Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-heritage-pique-27384c.png",
+      "sha256": "c85e1a8d7932dcbbc5b671cabcc302fa9a360bc2bc766328f35eb79960c624cc",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2387999,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-heritage-pique-66715b",
+      "slug": "ml-polo-heritage-pique",
+      "color": {
+        "key": "3",
+        "name": "Xanh olive",
+        "hex": "#66715b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-66715b.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:/Users/LOQ/.codex/generated_images/01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9/exec-375dec03-c125-48c3-8ab9-f55f4413637a.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, colour Xanh olive #66715b.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh olive #66715b. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1ba33719-7d5f-4845-b3b7-4ef662fef146.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:15:11.401Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-heritage-pique-66715b.png",
+      "sha256": "655f6fcb24368dd30782785a7dbc291be163ec163563becd7db49f176d71110d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2269033,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-heritage-pique-4b3930",
+      "slug": "ml-polo-heritage-pique",
+      "color": {
+        "key": "4",
+        "name": "Nâu espresso",
+        "hex": "#4b3930",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-heritage-pique-4b3930.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:/Users/LOQ/.codex/generated_images/01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9/exec-375dec03-c125-48c3-8ab9-f55f4413637a.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, colour Nâu espresso #4b3930.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Nâu espresso #4b3930. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-53f95111-3db0-44cd-9215-499274a554f1.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:15:35.711Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-heritage-pique-4b3930.png",
+      "sha256": "559242ecaa035c9b83f2829428bead36cf11bd2832a368b616c6a7ca1fcd6837",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2289017,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-riviera-open-collar-cfc1a7",
+      "slug": "ml-polo-riviera-open-collar",
+      "color": {
+        "key": "1",
+        "name": "Yến mạch",
+        "hex": "#cfc1a7",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-cfc1a7.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Riviera Open Collar Polo, colour Yến mạch #cfc1a7, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Refined short-sleeve fine-gauge smooth knit resort polo with a true fold-down spread JOHNNY COLLAR and shallow clean open V neck, NO buttons, NO zipper. Tidy ribbed sleeve cuffs and ribbed hem, straight gently fitted mature silhouette, no pocket, no stripes. Fully fashioned knitting at shoulders.\nColour: main fabric #cfc1a7 (Yến mạch). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Riviera Open Collar Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7635e8ef-b740-4d68-913b-963d2bb9e4df.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:10:57.075Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-cfc1a7.png",
+      "sha256": "0b5ca614b10a43c0cb8b2d72de59da5793ac600d47f31771fb276799ba3aa883",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1890873,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-riviera-open-collar-eee5d5",
+      "slug": "ml-polo-riviera-open-collar",
+      "color": {
+        "key": "2",
+        "name": "Kem",
+        "hex": "#eee5d5",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-eee5d5.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7635e8ef-b740-4d68-913b-963d2bb9e4df.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Riviera Open Collar Polo, colour Kem #eee5d5.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Kem #eee5d5. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve fine-gauge smooth knit resort polo with a true fold-down spread JOHNNY COLLAR and shallow clean open V neck, NO buttons, NO zipper. Tidy ribbed sleeve cuffs and ribbed hem, straight gently fitted mature silhouette, no pocket, no stripes. Fully fashioned knitting at shoulders.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d330c9ea-c5d0-4b47-a732-25f3182a35cf.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:16:24.476Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-eee5d5.png",
+      "sha256": "9d51fcc7a5b54f64198cd5a9afc54bb47888002ec180b1fcdb0f39fddb0de2c6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1874032,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-riviera-open-collar-594033",
+      "slug": "ml-polo-riviera-open-collar",
+      "color": {
+        "key": "3",
+        "name": "Nâu chocolate",
+        "hex": "#594033",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-594033.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7635e8ef-b740-4d68-913b-963d2bb9e4df.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Riviera Open Collar Polo, colour Nâu chocolate #594033.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Nâu chocolate #594033. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve fine-gauge smooth knit resort polo with a true fold-down spread JOHNNY COLLAR and shallow clean open V neck, NO buttons, NO zipper. Tidy ribbed sleeve cuffs and ribbed hem, straight gently fitted mature silhouette, no pocket, no stripes. Fully fashioned knitting at shoulders.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-013f78c2-a726-4d3c-9001-d37ca63d5780.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:17:24.928Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-594033.png",
+      "sha256": "4d4c3a3d0fda2940f22c0a770d1e940adb07686c93ddbaaf8903b9128c044c7c",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2019283,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-riviera-open-collar-202522",
+      "slug": "ml-polo-riviera-open-collar",
+      "color": {
+        "key": "4",
+        "name": "Đen",
+        "hex": "#202522",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-202522.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7635e8ef-b740-4d68-913b-963d2bb9e4df.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Riviera Open Collar Polo, colour Đen #202522.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Đen #202522. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve fine-gauge smooth knit resort polo with a true fold-down spread JOHNNY COLLAR and shallow clean open V neck, NO buttons, NO zipper. Tidy ribbed sleeve cuffs and ribbed hem, straight gently fitted mature silhouette, no pocket, no stripes. Fully fashioned knitting at shoulders.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f16732bd-7845-4e8f-99dd-ed7819e471a0.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:18:20.892Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-riviera-open-collar-202522.png",
+      "sha256": "955207bb39bfa74136c6dcc86b18b14a2a85c7ace07b98609f7d77829a1b4171",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1856518,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-club-tipped-28394d",
+      "slug": "ml-polo-club-tipped",
+      "color": {
+        "key": "1",
+        "name": "Xanh navy",
+        "hex": "#28394d",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-28394d.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, colour Xanh navy #28394d, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nColour: main fabric #28394d (Xanh navy). Contrast detailing/stripes/panels ONLY where described above: #eee6d5.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Club Tipped Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c52f5809-a276-41d3-ad5c-df09bbb5804e.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:11:18.253Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-club-tipped-28394d.png",
+      "sha256": "cc3f2fccb1ed1ca37ddd708841172bb9abb69933f8b52f26f5e5e3072fbfed4b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2174157,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-club-tipped-f3eee3",
+      "slug": "ml-polo-club-tipped",
+      "color": {
+        "key": "2",
+        "name": "Trắng ngà",
+        "hex": "#f3eee3",
+        "accentHex": "#28394d",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-f3eee3.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c52f5809-a276-41d3-ad5c-df09bbb5804e.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, colour Trắng ngà #f3eee3.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Trắng ngà #f3eee3. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #28394d; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-e4f993d6-de61-4495-805a-9513c59dd248.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:19:02.281Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-club-tipped-f3eee3.png",
+      "sha256": "ea3eca9e2a9639f7711685ebd6c5b72cd6e0406100cbabe236859e45d02668b7",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1837131,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-club-tipped-6c3940",
+      "slug": "ml-polo-club-tipped",
+      "color": {
+        "key": "3",
+        "name": "Đỏ rượu",
+        "hex": "#6c3940",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-6c3940.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c52f5809-a276-41d3-ad5c-df09bbb5804e.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, colour Đỏ rượu #6c3940.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Đỏ rượu #6c3940. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #eee6d5; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c220003a-1c10-440a-a361-fe12a1c2f1b7.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:20:20.303Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-club-tipped-6c3940.png",
+      "sha256": "31ddf94d3124687826e01c9e597042fe44a86d56145cf3872cfbedf1224d340f",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2027794,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-club-tipped-344c43",
+      "slug": "ml-polo-club-tipped",
+      "color": {
+        "key": "4",
+        "name": "Xanh rêu đậm",
+        "hex": "#344c43",
+        "accentHex": "#eee6d5",
+        "image": "/collection-ai/polo-20261121/ml-polo-club-tipped-344c43.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c52f5809-a276-41d3-ad5c-df09bbb5804e.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Club Tipped Polo, colour Xanh rêu đậm #344c43.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh rêu đậm #344c43. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #eee6d5; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ea88c699-0594-4dd6-9cb6-1804ffcb4461.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:21:24.347Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-club-tipped-344c43.png",
+      "sha256": "7185e2371584db15973b7560fd3ebfdca3fadf52880ccf9b1492cfa7469ff8e9",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2003800,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-milano-rib-c7b599",
+      "slug": "ml-polo-milano-rib",
+      "color": {
+        "key": "1",
+        "name": "Cát",
+        "hex": "#c7b599",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-c7b599.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Milano Rib Polo, colour Cát #c7b599, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Elegant slim-regular short-sleeve knit polo with fine close vertical ribs across front and back body, smooth fine-rib fold-down collar, THREE small tonal buttons, refined compact rib sleeve ends and narrow rib hem. Vertical rib is uniform not cable-knit and not printed stripes. No pockets, no panels.\nColour: main fabric #c7b599 (Cát). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Milano Rib Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d82df2df-8b7a-4700-9809-3417f192bf02.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:11:45.328Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-milano-rib-c7b599.png",
+      "sha256": "212e221879be5dccdb361add51b2d4b915cc04a436e8916c850785658aa2095a",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1839489,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-milano-rib-70523e",
+      "slug": "ml-polo-milano-rib",
+      "color": {
+        "key": "2",
+        "name": "Nâu caramel",
+        "hex": "#70523e",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-70523e.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d82df2df-8b7a-4700-9809-3417f192bf02.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Milano Rib Polo, colour Nâu caramel #70523e.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Nâu caramel #70523e. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Elegant slim-regular short-sleeve knit polo with fine close vertical ribs across front and back body, smooth fine-rib fold-down collar, THREE small tonal buttons, refined compact rib sleeve ends and narrow rib hem. Vertical rib is uniform not cable-knit and not printed stripes. No pockets, no panels.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-484d853d-68ef-406c-9c61-420cb692ddc8.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:22:03.568Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-milano-rib-70523e.png",
+      "sha256": "73395362dc2fc3ad57f244573512406247f5945df2edaf5370e082088ddb719d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1745357,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-milano-rib-454845",
+      "slug": "ml-polo-milano-rib",
+      "color": {
+        "key": "3",
+        "name": "Xám than",
+        "hex": "#454845",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-454845.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d82df2df-8b7a-4700-9809-3417f192bf02.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Milano Rib Polo, colour Xám than #454845.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xám than #454845. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Elegant slim-regular short-sleeve knit polo with fine close vertical ribs across front and back body, smooth fine-rib fold-down collar, THREE small tonal buttons, refined compact rib sleeve ends and narrow rib hem. Vertical rib is uniform not cable-knit and not printed stripes. No pockets, no panels.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f0300298-b82b-4439-ba24-19b1e077de7c.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:15:16.935Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-milano-rib-454845.png",
+      "sha256": "6e87f9ae2a27458fe234495363f2ac5af07039f36b18c5b40326bf436f749798",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1726292,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-milano-rib-88917c",
+      "slug": "ml-polo-milano-rib",
+      "color": {
+        "key": "4",
+        "name": "Xanh sage",
+        "hex": "#88917c",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-milano-rib-88917c.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d82df2df-8b7a-4700-9809-3417f192bf02.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Milano Rib Polo, colour Xanh sage #88917c.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh sage #88917c. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Elegant slim-regular short-sleeve knit polo with fine close vertical ribs across front and back body, smooth fine-rib fold-down collar, THREE small tonal buttons, refined compact rib sleeve ends and narrow rib hem. Vertical rib is uniform not cable-knit and not printed stripes. No pockets, no panels.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c1813eba-adc0-4e0c-bca6-bb47e6e71579.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:15:54.101Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-milano-rib-88917c.png",
+      "sha256": "3fda1a46b4b8beba6c6de76d2e7115c3632826afcaef7a55fa74474daa7ffca2",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1784568,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-mercer-zip-222f3b",
+      "slug": "ml-polo-mercer-zip",
+      "color": {
+        "key": "1",
+        "name": "Xanh mực",
+        "hex": "#222f3b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222f3b.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, colour Xanh mực #222f3b, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nColour: main fabric #222f3b (Xanh mực). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Mercer Zip Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-13ef6450-d018-4030-b365-a2fac5764b82.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:11:25.936Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222f3b.png",
+      "sha256": "5d7de69107b6fcb66aa4389e4ecea88731da1e00a401272c93ff43243034ffed",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1742384,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-mercer-zip-b6b1a3",
+      "slug": "ml-polo-mercer-zip",
+      "color": {
+        "key": "2",
+        "name": "Xám đá",
+        "hex": "#b6b1a3",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-b6b1a3.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-13ef6450-d018-4030-b365-a2fac5764b82.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, colour Xám đá #b6b1a3.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xám đá #b6b1a3. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-35c89a59-5fd9-42ae-84c2-38009739521f.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:16:42.881Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-mercer-zip-b6b1a3.png",
+      "sha256": "cc0d25e3816aebcf8672de3cb19e52c84855af88d1d2de61640232ebffe78e55",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1759969,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-mercer-zip-5b6250",
+      "slug": "ml-polo-mercer-zip",
+      "color": {
+        "key": "3",
+        "name": "Xanh olive đậm",
+        "hex": "#5b6250",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-5b6250.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-13ef6450-d018-4030-b365-a2fac5764b82.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, colour Xanh olive đậm #5b6250.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh olive đậm #5b6250. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-822d1233-7e8b-44a6-b6b8-54674e43fd52.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:17:06.460Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-mercer-zip-5b6250.png",
+      "sha256": "91c988f11808925696f53e464cbb0fe4a54fae46a19d0b8e73953df77c7b2f83",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1771657,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-mercer-zip-222322",
+      "slug": "ml-polo-mercer-zip",
+      "color": {
+        "key": "4",
+        "name": "Đen",
+        "hex": "#222322",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222322.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-13ef6450-d018-4030-b365-a2fac5764b82.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Mercer Zip Polo, colour Đen #222322.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Đen #222322. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Sophisticated short-sleeve smooth heavyweight cotton interlock polo, full FOLD-DOWN pointed polo collar over a short 16cm HALF ZIP opening. A slim matte antique-silver zipper and tiny clean pull tab, no buttons. Clean set-in sleeves with flat twin-needle hems, straight hem and small side vents. No pockets, no stripes, no contrast panels. Mature tailored regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-5da1c8f1-c173-49f9-af80-d1c8626ee705.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:18:02.320Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-mercer-zip-222322.png",
+      "sha256": "3303ec03c9db652d3045871dff8b559567b32999d404f9c069c1a05fb3a84894",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1559317,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-oxford-pocket-9faeb8",
+      "slug": "ml-polo-oxford-pocket",
+      "color": {
+        "key": "1",
+        "name": "Xanh nhạt",
+        "hex": "#9faeb8",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-9faeb8.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, colour Xanh nhạt #9faeb8, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nColour: main fabric #9faeb8 (Xanh nhạt). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; place on the specified chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Oxford Pocket Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-083955c5-cfdb-4969-8f5c-a98faaa9a5cb.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:12:04.990Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-9faeb8.png",
+      "sha256": "a85d36d9b2201f4edb1b41f65d5af994d0d3df723ea30e9746cd5b79cf4122a2",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2701100,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-oxford-pocket-efe8d9",
+      "slug": "ml-polo-oxford-pocket",
+      "color": {
+        "key": "2",
+        "name": "Trắng ngà",
+        "hex": "#efe8d9",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-efe8d9.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-083955c5-cfdb-4969-8f5c-a98faaa9a5cb.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, colour Trắng ngà #efe8d9.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Trắng ngà #efe8d9. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest on the pocket, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ae197a94-931c-4532-8f9a-038804c46592.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:18:40.926Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-efe8d9.png",
+      "sha256": "5c42942bf8bed1288448b6c4f4440ba9ca7f1fbe1ec10656b0e5cffefb41e0fc",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2145653,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-oxford-pocket-a17c58",
+      "slug": "ml-polo-oxford-pocket",
+      "color": {
+        "key": "3",
+        "name": "Nâu tobacco",
+        "hex": "#a17c58",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-a17c58.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-083955c5-cfdb-4969-8f5c-a98faaa9a5cb.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, colour Nâu tobacco #a17c58.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Nâu tobacco #a17c58. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest on the pocket, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-2ed62e2d-2d56-4029-a858-a0daccd64010.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:19:21.303Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-a17c58.png",
+      "sha256": "98d2eaa2d884fbf9f6f41a8f10629ddb3833c09c5b5700dc04344af6e71e4593",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2424937,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-oxford-pocket-314354",
+      "slug": "ml-polo-oxford-pocket",
+      "color": {
+        "key": "4",
+        "name": "Xanh navy",
+        "hex": "#314354",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-314354.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-083955c5-cfdb-4969-8f5c-a98faaa9a5cb.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Oxford Pocket Polo, colour Xanh navy #314354.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh navy #314354. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Refined short-sleeve micro-textured cotton polo, tailored woven-looking fold-down pointed collar, concealed THREE-button placket whose buttons are hidden beneath a neat fabric fly, ONE small clean squared patch pocket on the WEARER LEFT chest, no flap. Small embroidered ML centered on pocket upper third instead of floating beside it. Straight sleeve hems, side vents, no stripes and no contrasting panels. Smart mature regular fit.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest on the pocket, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8127ef18-17d6-412e-b313-c12722396240.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:19:40.883Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-oxford-pocket-314354.png",
+      "sha256": "04e55cd344643a58dbc96b5a2de3125160b4d20c95bcc65f613495028aa95803",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2230745,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-regatta-breton-f1e9d8",
+      "slug": "ml-polo-regatta-breton",
+      "color": {
+        "key": "1",
+        "name": "Ngà kẻ navy",
+        "hex": "#f1e9d8",
+        "accentHex": "#28394d",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-f1e9d8.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, colour Ngà kẻ navy #f1e9d8, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nColour: main fabric #f1e9d8 (Ngà kẻ navy). Contrast detailing/stripes/panels ONLY where described above: #28394d.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Regatta Breton Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4ac1c30b-6a60-43bd-8bdd-9c03ba36dde1.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:12:33.111Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-regatta-breton-f1e9d8.png",
+      "sha256": "f2c074dc68e92571bb27a9c15260170ea1730dab6dd2c9f348b3bbf7029573c5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1808769,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-regatta-breton-293c50",
+      "slug": "ml-polo-regatta-breton",
+      "color": {
+        "key": "2",
+        "name": "Navy kẻ ngà",
+        "hex": "#293c50",
+        "accentHex": "#eee5d3",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-293c50.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4ac1c30b-6a60-43bd-8bdd-9c03ba36dde1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, colour Navy kẻ ngà #293c50.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Navy kẻ ngà #293c50. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #eee5d3; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-51d6a466-59f9-4c8b-ada8-5d7d343c867e.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:20:02.618Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-regatta-breton-293c50.png",
+      "sha256": "5eb21a15d91f78d7f18b667178057a3047cca362767ab8bf0e22ef858b2c12e6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1940609,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-regatta-breton-83907a",
+      "slug": "ml-polo-regatta-breton",
+      "color": {
+        "key": "3",
+        "name": "Sage kẻ kem",
+        "hex": "#83907a",
+        "accentHex": "#eee5d3",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-83907a.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4ac1c30b-6a60-43bd-8bdd-9c03ba36dde1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, colour Sage kẻ kem #83907a.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Sage kẻ kem #83907a. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #eee5d3; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-e9c88a83-a4e5-4515-a426-4e541817e54b.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:21:03.713Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-regatta-breton-83907a.png",
+      "sha256": "92beb0070b2d9212dd1e46f7e5ae1b18169a87a7ac4644866f2e0115cab4c87d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2050155,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-regatta-breton-a28f79",
+      "slug": "ml-polo-regatta-breton",
+      "color": {
+        "key": "4",
+        "name": "Taupe kẻ nâu",
+        "hex": "#a28f79",
+        "accentHex": "#4b3930",
+        "image": "/collection-ai/polo-20261121/ml-polo-regatta-breton-a28f79.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4ac1c30b-6a60-43bd-8bdd-9c03ba36dde1.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, colour Taupe kẻ nâu #a28f79.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Taupe kẻ nâu #a28f79. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #4b3930; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c558ce50-bcd6-43b1-a573-4a7b17d01b62.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:16:05.027Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-regatta-breton-a28f79.png",
+      "sha256": "aa46ab0f2e7cec9ab0c9e75d13d97147ec45cce3d15cc388b04b71ed3a2d90fd",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2067816,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-court-raglan-66735b",
+      "slug": "ml-polo-court-raglan",
+      "color": {
+        "key": "1",
+        "name": "Xanh olive",
+        "hex": "#66735b",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-66735b.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, colour Xanh olive #66735b, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nColour: main fabric #66735b (Xanh olive). Contrast detailing/stripes/panels ONLY where described above: #e8dfca.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Court Raglan Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1ff49ac2-2df9-4b8b-acba-980e699c8a87.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:12:10.508Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-court-raglan-66735b.png",
+      "sha256": "0f31fbbf3e372ad6842e4b239dbadf3faa059b40ebd2a42c9d9a16dd70f35430",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1924717,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-court-raglan-343a3b",
+      "slug": "ml-polo-court-raglan",
+      "color": {
+        "key": "2",
+        "name": "Xám than",
+        "hex": "#343a3b",
+        "accentHex": "#d6cdbb",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-343a3b.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1ff49ac2-2df9-4b8b-acba-980e699c8a87.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, colour Xám than #343a3b.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xám than #343a3b. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #d6cdbb; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6da6a4d0-556b-458b-a4e4-51433b8b4930.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:17:05.023Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-court-raglan-343a3b.png",
+      "sha256": "48ec9530d6963936dfe1c687dc1883f7a5e284bca280186fc2fb6a7542a8f46d",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1895927,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-court-raglan-cab89b",
+      "slug": "ml-polo-court-raglan",
+      "color": {
+        "key": "3",
+        "name": "Cát",
+        "hex": "#cab89b",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-cab89b.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1ff49ac2-2df9-4b8b-acba-980e699c8a87.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, colour Cát #cab89b.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Cát #cab89b. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #69553f; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6e4fab62-731b-4ea2-82a7-5c557376de07.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:17:43.554Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-court-raglan-cab89b.png",
+      "sha256": "3e89322f407c65f6cf5439047a4d6de9a9535c3c89c7d93e6dcb0f17300b81b3",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1948296,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      },
+      "requestedColor": {
+        "key": "3",
+        "name": "Cát",
+        "hex": "#cab89b",
+        "accentHex": "#69553f",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-cab89b.png"
+      },
+      "reviewAdjustment": "Approved the warm ivory raglan piping preserved from the reference on the sand body; colour metadata aligned to the reviewed image. Original prompt preserved verbatim."
+    },
+    {
+      "id": "ml-polo-court-raglan-713d44",
+      "slug": "ml-polo-court-raglan",
+      "color": {
+        "key": "4",
+        "name": "Đỏ rượu",
+        "hex": "#713d44",
+        "accentHex": "#e8dfca",
+        "image": "/collection-ai/polo-20261121/ml-polo-court-raglan-713d44.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1ff49ac2-2df9-4b8b-acba-980e699c8a87.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Court Raglan Polo, colour Đỏ rượu #713d44.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Đỏ rượu #713d44. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #e8dfca; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Smart understated short-sleeve cotton polo with proper FOLD-DOWN collar and THREE tonal buttons; RAGLAN sleeve construction with diagonal shoulder seams from neckline to underarm, highlighted only by very fine 2mm ivory piping along both front/back raglan seams. Main body and sleeves same solid main colour. Narrow rib cuffs, straight hem with small side vents. NOT athletic jersey, no broad contrast sleeves, no chest stripes or pockets.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9f812fe1-d456-4e37-9a1f-646f90de8613.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:18:43.559Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-court-raglan-713d44.png",
+      "sha256": "6822cec0ce4a1ea8e33d50cc4a593d5b71c9a95aabc93bbaea7c3ca77550cb11",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2025132,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-atelier-side-panel-ede5d6",
+      "slug": "ml-polo-atelier-side-panel",
+      "color": {
+        "key": "1",
+        "name": "Ngà phối camel",
+        "hex": "#ede5d6",
+        "accentHex": "#aa8e6d",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-ede5d6.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, colour Ngà phối camel #ede5d6, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nColour: main fabric #ede5d6 (Ngà phối camel). Contrast detailing/stripes/panels ONLY where described above: #aa8e6d.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Atelier Side Panel Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9242ce9f-e250-4703-b501-1c5707402cec.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:12:51.469Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-ede5d6.png",
+      "sha256": "bd4adad92f08bee6eada2bd21f9d2e28cc815fb6613c0248db42744255594cc5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1646267,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-atelier-side-panel-2a3c4b",
+      "slug": "ml-polo-atelier-side-panel",
+      "color": {
+        "key": "2",
+        "name": "Navy phối charcoal",
+        "hex": "#2a3c4b",
+        "accentHex": "#484f50",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-2a3c4b.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9242ce9f-e250-4703-b501-1c5707402cec.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, colour Navy phối charcoal #2a3c4b.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Navy phối charcoal #2a3c4b. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #484f50; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-b04a7c8c-2594-4d48-b2f3-3a47efdd3372.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:19:42.691Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-2a3c4b.png",
+      "sha256": "d373b357c7cc47b2452db7b51e34539b806e4a14a5732e2a06acdaa3a11185a7",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1755856,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-atelier-side-panel-80634e",
+      "slug": "ml-polo-atelier-side-panel",
+      "color": {
+        "key": "3",
+        "name": "Mocha phối kem",
+        "hex": "#80634e",
+        "accentHex": "#d1c3a7",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-80634e.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9242ce9f-e250-4703-b501-1c5707402cec.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, colour Mocha phối kem #80634e.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Mocha phối kem #80634e. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #d1c3a7; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-43089937-50e1-4466-89f2-93f2492f4790.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:20:39.685Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-80634e.png",
+      "sha256": "854aac29f3711a706061caa3c45f0f315f23dfd21ab6393313b233706214a5b6",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1928299,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-atelier-side-panel-8e9881",
+      "slug": "ml-polo-atelier-side-panel",
+      "color": {
+        "key": "4",
+        "name": "Sage phối olive",
+        "hex": "#8e9881",
+        "accentHex": "#59654c",
+        "image": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-8e9881.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9242ce9f-e250-4703-b501-1c5707402cec.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, colour Sage phối olive #8e9881.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Sage phối olive #8e9881. The existing structural contrast areas (only the lines, stripes, piping, panels or cuff strips specified below) become #59654c; keep their exact location, width and assignment, do not turn them into main colour.\nConstruction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained dark espresso/olive embroidery readable on this light/mid cloth. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-95ec1be7-a1d2-4bcd-ae6a-d6d77ece259f.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:21:46.065Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-atelier-side-panel-8e9881.png",
+      "sha256": "d6597c919a9205e2d2d29e0a6761222ee8ddb4e214d79c8fb7c5a1b0d1dba678",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1722981,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-cable-heritage-eee3ce",
+      "slug": "ml-polo-cable-heritage",
+      "color": {
+        "key": "1",
+        "name": "Kem",
+        "hex": "#eee3ce",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-eee3ce.png"
+      },
+      "kind": "anchor",
+      "prompt": "Use case: product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, colour Kem #eee3ce, unique mature smart-casual collared polo catalogue plate.\nReference Image 1 shows the AUTHENTIC MiloShopHand interwoven ML chest monogram. Use only that exact monogram/embroidery language as branding reference. It is a tee: DO NOT copy its crew neck or tee construction. Design the new collared polo below.\nGarment construction: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nColour: main fabric #eee3ce (Kem). All fabric details tonal with main colour; no added contrasting strips.\nBranding: ONE small elegant embroidered interwoven ML on wearer LEFT chest, about 3cm wide, correct interlocking letter shapes as reference; no chest pocket. A second tiny matching ML about 1.5cm at centre BACK just below the collar. Use muted ivory embroidery on dark cloth and dark espresso/olive embroidery on light cloth, restrained premium branding. NO big back artwork, no floral print, no invented badge, no extra typography.\nComposition: EXACTLY TWO equal-width panels side by side in ONE native landscape 1536x1024 PNG. LEFT panel is the full perfectly upright straight-on FRONT; RIGHT panel is the full straight-on BACK of the IDENTICAL polo in the IDENTICAL colour. Each panel 768x1024, equal scale, same collar/sleeves/hem/seams/material; whole garment fully visible with generous clear margins, hem and sleeve ends never clipped. Float on a warm pale ivory studio background #faf6ee, no visible panel divider, no shadows crossing panel boundaries. Short sleeves angled naturally down, symmetrical shoulder width, clean collar opening. No person, body, mannequin, hanger or props.\nStyle: photorealistic luxury boutique ecommerce product design photography, tactile authentic fabric weave, precise seams and collar construction, soft neutral daylight, honest colour, subtle warm Vintage aesthetic. One finished premium product mockup plate. No labels, captions, grid lines, borders, watermark, extra garments or accessories. Distinct ML Cable Heritage Polo construction must be unmistakable.",
+      "refs": [
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-722c956c-7e6a-4c43-ab76-49ea1e6c8965.png",
+      "mode": "built-in ImageGen generate with logo reference",
+      "generatedAt": "2026-11-20T18:13:10.288Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-cable-heritage-eee3ce.png",
+      "sha256": "8e24916c85542f4cf62f7e455d299aaf3526722b01ef35ddf993f5949993ba9b",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1877130,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-cable-heritage-2c3b4b",
+      "slug": "ml-polo-cable-heritage",
+      "color": {
+        "key": "2",
+        "name": "Xanh navy",
+        "hex": "#2c3b4b",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-2c3b4b.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-722c956c-7e6a-4c43-ab76-49ea1e6c8965.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, colour Xanh navy #2c3b4b.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh navy #2c3b4b. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-302f8918-565d-49ab-9925-1cbbf8bd96c8.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:22:21.735Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-cable-heritage-2c3b4b.png",
+      "sha256": "791de134b960af68ef826162423841090f2cac68a7fefc4321aef9d2164a1bdf",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2165910,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-cable-heritage-354c3f",
+      "slug": "ml-polo-cable-heritage",
+      "color": {
+        "key": "3",
+        "name": "Xanh rừng",
+        "hex": "#354c3f",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-354c3f.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-722c956c-7e6a-4c43-ab76-49ea1e6c8965.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, colour Xanh rừng #354c3f.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Xanh rừng #354c3f. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9d9b6589-d160-416f-9b8b-1beb8aae13c4.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:22:43.172Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-cable-heritage-354c3f.png",
+      "sha256": "5e0dc4f7284979c51bafe4706e63d09a2088bcc6028b414df99383f89cbcebc5",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2181777,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    },
+    {
+      "id": "ml-polo-cable-heritage-7c624a",
+      "slug": "ml-polo-cable-heritage",
+      "color": {
+        "key": "4",
+        "name": "Nâu walnut",
+        "hex": "#7c624a",
+        "accentHex": null,
+        "image": "/collection-ai/polo-20261121/ml-polo-cable-heritage-7c624a.png"
+      },
+      "kind": "colour-edit",
+      "refs": [
+        "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-722c956c-7e6a-4c43-ab76-49ea1e6c8965.png",
+        "C:/Users/LOQ/OneDrive/Desktop/MiloShopHand/apps/web/public/product-media/2c11cbca7317-v1-cell-512.webp"
+      ],
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Cable Heritage Polo, colour Nâu walnut #7c624a.\nImage 1 is the EDIT TARGET: the approved FRONT (left) and BACK (right) plate of this exact polo design. Preserve its two-panel layout, exact garment geometry, fold-down collar shape, opening/button/zipper construction, pockets, seams, hems, knit pattern, sleeve lengths, posture, fabric weave, embroidery placement and scale, studio background, camera, light and framing.\nImage 2 is the brand-only reference for the interwoven ML monogram shape. Do not copy the reference tee shape.\nCHANGE ONLY the main fabric colour styling to Nâu walnut #7c624a. All cloth details remain tonal with the target colour; do not add contrast panels, stripes or trims.\nConstruction invariant: Premium mature short-sleeve fine-gauge knit polo, distinctive small-scale narrow CABLE BRAIDS running vertically across front AND back body, smooth plain knit sleeves. Real fold-down finely ribbed collar and THREE small horn buttons, tidy rib cuffs and rib hem. Delicate lightweight knit rather than a bulky winter sweater. No pocket, no stripes or contrast panels. Adult regular tailored proportions.\nBranding must remain exactly in the source positions: ONE small embroidered interwoven ML on wearer LEFT chest, one tiny matching ML at centre BACK below collar. Use restrained warm ivory embroidery on dark cloth; for medium brown/sage use warm ivory for clear but subtle contrast. Keep the exact interlocking ML outline from the source/reference, woven into cloth with natural texture, no glow. No giant artwork, no words, no added sleeve branding.\nBoth FRONT and BACK must show the SAME target cloth and structural contrast colours. Realistic dyed cloth with natural shadows, no flat colour-filter overlay, halos, washed-out colour or changing the background. Preserve the unique model identity, not another generic polo.\nOutput one native landscape 1536x1024 PNG with EXACTLY TWO equal 768x1024 panels side by side, whole full upright FRONT left and BACK right, no cropped collar/sleeves/hem. No people, mannequin, hanger, captions, grid, divider, watermark or props. The existing warm pale ivory background stays unchanged.",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ba534e70-f50b-4db3-aeb0-d21cee80a43b.png",
+      "mode": "built-in ImageGen edit",
+      "generatedAt": "2026-11-20T18:23:05.797Z",
+      "original": "/collection-ai/polo-20261121/ml-polo-cable-heritage-7c624a.png",
+      "sha256": "de8845f94f29bc778277e50646038d6c270e33e10b2d199fa7f503c38ca157df",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2198050,
+      "visualReview": {
+        "status": "approved",
+        "at": "2026-11-20T18:26:46.196Z",
+        "method": "Reviewed ten full original model anchors and all forty front/back colour plates in ten four-colour QA contact sheets; Oxford navy original also checked at native size.",
+        "notes": "Distinct collared polo construction, correct front/back layout, intact garments and visible ML chest/nape embroidery; colours and model details consistent. No code recolouring or logo overlays. AI concept, not factual product photograph."
+      }
+    }
+  ]
+}

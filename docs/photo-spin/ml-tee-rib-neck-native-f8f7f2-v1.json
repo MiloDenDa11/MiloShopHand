@@ -1,0 +1,222 @@
+{
+  "slug": "ml-tee-rib-neck",
+  "colorKey": "native-f8f7f2-v1",
+  "colorHex": "#f8f7f2",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T09:11:10.026Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-rib-neck/native-f8f7f2-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-d468a38b-6ac4-4a54-a500-2b2026aad40d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Neck Basic Tee, Trắng #f8f7f2, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton dệt gân, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRetain fine vertical RIBBED cotton texture across body and sleeves, ribbed crew collar and narrow sleeve cuff bands. Collar/cuffs ivory on target BLACK base, charcoal on WHITE base. Keep plain straight single lower hem. Preserve small chest ML and floral MiloShopHand rear artwork, no added stripes or buttons.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1465397,
+      "sha256": "18016ba77ac3984ff1bb5e00aa54c97c99931c072792c52f3f1b54720beb1fd2",
+      "frames": [
+        {
+          "x": 58,
+          "y": 24,
+          "width": 399,
+          "height": 439
+        },
+        {
+          "x": 70,
+          "y": 21,
+          "width": 373,
+          "height": 443
+        },
+        {
+          "x": 83,
+          "y": 20,
+          "width": 315,
+          "height": 444
+        },
+        {
+          "x": 130,
+          "y": 11,
+          "width": 272,
+          "height": 461
+        },
+        {
+          "x": 141,
+          "y": 9,
+          "width": 230,
+          "height": 463
+        },
+        {
+          "x": 120,
+          "y": 9,
+          "width": 215,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-rib-neck/native-f8f7f2-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-515457b8-9a53-4b9c-8238-c548da56bcf6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Neck Basic Tee, Trắng #f8f7f2, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton dệt gân, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRetain fine vertical RIBBED cotton texture across body and sleeves, ribbed crew collar and narrow sleeve cuff bands. Collar/cuffs ivory on target BLACK base, warm ivory on WHITE base as the approved front anchor. Keep plain straight single lower hem. Preserve small chest ML and floral MiloShopHand rear artwork, no added stripes or buttons.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1523219,
+      "sha256": "fac2c4009238bc1feaf1468e680d0fea34a592b52ff04229f71f7985adf31c0d",
+      "frames": [
+        {
+          "x": 148,
+          "y": 20,
+          "width": 216,
+          "height": 472
+        },
+        {
+          "x": 133,
+          "y": 23,
+          "width": 235,
+          "height": 469
+        },
+        {
+          "x": 89,
+          "y": 23,
+          "width": 291,
+          "height": 469
+        },
+        {
+          "x": 88,
+          "y": 32,
+          "width": 331,
+          "height": 460
+        },
+        {
+          "x": 56,
+          "y": 32,
+          "width": 386,
+          "height": 460
+        },
+        {
+          "x": 35,
+          "y": 32,
+          "width": 407,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-rib-neck/native-f8f7f2-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-145ac9b4-03d6-469b-91a7-cb17705e47fa.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Neck Basic Tee, Trắng #f8f7f2, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton dệt gân, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRetain fine vertical RIBBED cotton texture across body and sleeves, ribbed crew collar and narrow sleeve cuff bands. Collar/cuffs ivory on target BLACK base, warm ivory on WHITE base as the approved front anchor. Keep plain straight single lower hem. Preserve small chest ML and floral MiloShopHand rear artwork, no added stripes or buttons.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1769679,
+      "sha256": "9fcd948f467a3fd391b1307b1dba4874ba251ff0beab0e530ebf09d550c61982",
+      "frames": [
+        {
+          "x": 64,
+          "y": 30,
+          "width": 383,
+          "height": 439
+        },
+        {
+          "x": 74,
+          "y": 30,
+          "width": 371,
+          "height": 439
+        },
+        {
+          "x": 76,
+          "y": 29,
+          "width": 332,
+          "height": 441
+        },
+        {
+          "x": 124,
+          "y": 24,
+          "width": 285,
+          "height": 451
+        },
+        {
+          "x": 144,
+          "y": 24,
+          "width": 220,
+          "height": 452
+        },
+        {
+          "x": 126,
+          "y": 25,
+          "width": 219,
+          "height": 452
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-tee-rib-neck/native-f8f7f2-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-150af025-91dd-4fe1-8d9b-c7918b07af60.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, ML Rib Neck Basic Tee, Trắng #f8f7f2, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Trắng #f8f7f2; realistic dyed Cotton dệt gân, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nRetain fine vertical RIBBED cotton texture across body and sleeves, ribbed crew collar and narrow sleeve cuff bands. Collar/cuffs ivory on target BLACK base, warm ivory on WHITE base as the approved front anchor. Keep plain straight single lower hem. Preserve small chest ML and floral MiloShopHand rear artwork, no added stripes or buttons.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1507218,
+      "sha256": "3c9d1019890f3a427ab439db009e365e2a5f33f1f243e4e454b193c8d312d790",
+      "frames": [
+        {
+          "x": 134,
+          "y": 21,
+          "width": 205,
+          "height": 469
+        },
+        {
+          "x": 71,
+          "y": 22,
+          "width": 253,
+          "height": 468
+        },
+        {
+          "x": 61,
+          "y": 22,
+          "width": 285,
+          "height": 468
+        },
+        {
+          "x": 79,
+          "y": 39,
+          "width": 328,
+          "height": 454
+        },
+        {
+          "x": 29,
+          "y": 38,
+          "width": 384,
+          "height": 455
+        },
+        {
+          "x": 6,
+          "y": 40,
+          "width": 438,
+          "height": 453
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Visually inspected all four original native sheets together, covering 24 nominal views. Fine vertical rib texture on body and sleeves, warm ivory crew collar and cuffs preserved from the front anchor, with no added pockets or panels. Body colour #f8f7f2 stays consistent front/profile/back. Small chest ML and floral MiloShopHand back artwork occupy the correct visible surfaces. All garments fit within the six individual cells without clipping.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

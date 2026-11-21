@@ -1,0 +1,416 @@
+{
+  "at": "2026-11-20T09:21:22.345Z",
+  "result": "PASS_TEE_SCOPE",
+  "scope": "40 added native colour sets on 18 Tee designs; final coverage all 24 Tee designs / 102 colours",
+  "mode": "built-in ImageGen; edits using original garment atlases, no raster recolour code",
+  "catalogue": {
+    "at": "2026-11-20T09:12:54.452Z",
+    "products": 90,
+    "colours": 380,
+    "nativeColours": 321,
+    "missingColours": 59,
+    "remainingPNGAtlases": 236,
+    "remainingViews": 1416
+  },
+  "tee": {
+    "products": 24,
+    "colours": 102,
+    "missingColours": 0
+  },
+  "newAssets": {
+    "colourSets": 40,
+    "nativePNGs": 160,
+    "nominalViews": 960,
+    "webPDerivatives": 480,
+    "sourceBytes": 256581501,
+    "deliveredBytes": 11252712,
+    "originalAndStagedBytesMatch": true
+  },
+  "checks": {
+    "library": {
+      "result": "PASS",
+      "colourSets": 321,
+      "nominalViews": 7704,
+      "nativePNGs": 1284,
+      "command": "npm run assets:photos:verify -- --require-all",
+      "evidence": ".local/native-colours/tee-20261120/verify-library.log"
+    },
+    "newWebP": {
+      "at": "2026-11-20T09:13:54.271Z",
+      "sources": 160,
+      "decodedDerivatives": 480,
+      "sourceBytes": 256581501,
+      "deliveredBytes": 11252712,
+      "result": "PASS",
+      "check": "source SHA256, WebP decoding, dimensions, aspect ratio, pixel comparison with correct source crop"
+    },
+    "http": {
+      "result": "PASS",
+      "colourSets": 40,
+      "products": 18,
+      "requests": 498,
+      "errors": [],
+      "evidence": ".local/native-colours/tee-20261120/http-published.json"
+    },
+    "detailBrowser": {
+      "result": "PASS",
+      "products": 24,
+      "colours": 102,
+      "pendingColours": 0,
+      "width": 360,
+      "cardinalViewsPerColour": 4,
+      "pageErrors": [],
+      "errors": [],
+      "evidence": ".local/native-colours/tee-20261120/browser-final/report.json"
+    },
+    "cardBrowser": {
+      "result": "PASS",
+      "colourSets": 40,
+      "widths": [
+        1440,
+        360
+      ],
+      "checks": 80,
+      "cardinalViewsPerCheck": 4,
+      "pageErrors": [],
+      "errors": [],
+      "evidence": ".local/native-colours/tee-20261120/browser-cards/report.json"
+    },
+    "businessData": {
+      "result": "PASS",
+      "modelsCompared": 38,
+      "changed": [],
+      "excluded": [
+        "ProductImage",
+        "Product.design",
+        "Product.updatedAt"
+      ],
+      "before": ".local/native-colours/tee-20261120/commerce-before.json",
+      "after": ".local/native-colours/tee-20261120/commerce-after.json"
+    },
+    "allCatalogueNative": {
+      "result": "INCOMPLETE_OUTSIDE_TEE",
+      "expectedExitCode": 1,
+      "missingColours": 59,
+      "completeProducts": 72,
+      "products": 90,
+      "evidence": ".local/native-colours/tee-20261120/coverage-global.log"
+    }
+  },
+  "products": [
+    {
+      "slug": "no-rules-graphic-tee",
+      "name": "No Rules Graphic Tee",
+      "colours": [
+        {
+          "name": "Xanh navy",
+          "hex": "#34465b",
+          "provenance": "docs/photo-spin/no-rules-graphic-tee-native-34465b-v1.json"
+        },
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/no-rules-graphic-tee-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/no-rules-graphic-tee-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "sunday-club-tee",
+      "name": "Sunday Club Tee",
+      "colours": [
+        {
+          "name": "Xám",
+          "hex": "#a3a5aa",
+          "provenance": "docs/photo-spin/sunday-club-tee-native-a3a5aa-v1.json"
+        },
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/sunday-club-tee-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/sunday-club-tee-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "mono-boxy-tee",
+      "name": "Mono Boxy Tee",
+      "colours": [
+        {
+          "name": "Kem",
+          "hex": "#e8dfcd",
+          "provenance": "docs/photo-spin/mono-boxy-tee-native-e8dfcd-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/mono-boxy-tee-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "sport-division-tee",
+      "name": "Sport Division Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/sport-division-tee-native-151515-v1.json"
+        },
+        {
+          "name": "Tím",
+          "hex": "#b6a4d4",
+          "provenance": "docs/photo-spin/sport-division-tee-native-b6a4d4-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/sport-division-tee-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "urban-motion-tee",
+      "name": "Urban Motion Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/urban-motion-tee-native-151515-v1.json"
+        },
+        {
+          "name": "Xanh olive",
+          "hex": "#78846a",
+          "provenance": "docs/photo-spin/urban-motion-tee-native-78846a-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/urban-motion-tee-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-athletic-ringer",
+      "name": "ML Athletic Ringer Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-athletic-ringer-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-athletic-ringer-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-breton-line",
+      "name": "ML Breton Line Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-breton-line-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-breton-line-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-double-hem",
+      "name": "ML Double Hem Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-double-hem-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-double-hem-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-drop-shoulder",
+      "name": "ML Drop Shoulder Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-drop-shoulder-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-drop-shoulder-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-henley-three",
+      "name": "ML Henley Three Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-henley-three-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-henley-three-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-longline-basic",
+      "name": "ML Longline Basic Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-longline-basic-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-longline-basic-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-mock-neck",
+      "name": "ML Mock Neck Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-mock-neck-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-mock-neck-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-pocket-study",
+      "name": "ML Pocket Study Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-pocket-study-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-pocket-study-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-raglan-day",
+      "name": "ML Raglan Day Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-raglan-day-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-raglan-day-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-rib-neck",
+      "name": "ML Rib Neck Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-rib-neck-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-rib-neck-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-slit-side",
+      "name": "ML Slit Side Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-slit-side-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-slit-side-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-split-panel",
+      "name": "ML Split Panel Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-split-panel-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-split-panel-native-f8f7f2-v1.json"
+        }
+      ]
+    },
+    {
+      "slug": "ml-tee-wide-neck",
+      "name": "ML Wide Neck Basic Tee",
+      "colours": [
+        {
+          "name": "Đen",
+          "hex": "#151515",
+          "provenance": "docs/photo-spin/ml-tee-wide-neck-native-151515-v1.json"
+        },
+        {
+          "name": "Trắng",
+          "hex": "#f8f7f2",
+          "provenance": "docs/photo-spin/ml-tee-wide-neck-native-f8f7f2-v1.json"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Local development website and database only; no GitHub push or production deployment.",
+    "Only anonymous profile request mocked in browser to avoid audit-log writes; actual catalogue API and assets used.",
+    "AI design mockups with nominal viewpoints, not calibrated photography of manufactured products.",
+    "Production build and unrelated business test suites not rerun for this assets-only change."
+  ]
+}

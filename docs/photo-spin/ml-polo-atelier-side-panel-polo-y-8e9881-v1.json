@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-atelier-side-panel",
+  "colorKey": "polo-y-8e9881-v1",
+  "colorHex": "#8e9881",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:51:03.768Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-8e9881-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-0f6e24f5-5f06-4f2d-9047-438ebcbcedd0.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Sage phối olive #8e9881, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage phối olive, #8e9881. The existing specified structural accents/stripes/panels/piping become #59654c, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1440018,
+      "sha256": "b7ba6a87fa4eda329528b69a7b46bc22e33409fb92c9c0a8149822d23f9d40b8",
+      "frames": [
+        {
+          "x": 69,
+          "y": 31,
+          "width": 378,
+          "height": 440
+        },
+        {
+          "x": 82,
+          "y": 30,
+          "width": 355,
+          "height": 442
+        },
+        {
+          "x": 110,
+          "y": 30,
+          "width": 298,
+          "height": 442
+        },
+        {
+          "x": 152,
+          "y": 22,
+          "width": 234,
+          "height": 452
+        },
+        {
+          "x": 164,
+          "y": 21,
+          "width": 179,
+          "height": 454
+        },
+        {
+          "x": 159,
+          "y": 21,
+          "width": 162,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-8e9881-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-873b675e-4743-4f65-890c-6a1c5d84e09b.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Sage phối olive #8e9881, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage phối olive, #8e9881. The existing specified structural accents/stripes/panels/piping become #59654c, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1610744,
+      "sha256": "ce88f28e2fbe6543125080810ccd2d08610c8d05a1118d3baf6017b44974cd66",
+      "frames": [
+        {
+          "x": 186,
+          "y": 29,
+          "width": 151,
+          "height": 444
+        },
+        {
+          "x": 177,
+          "y": 29,
+          "width": 174,
+          "height": 444
+        },
+        {
+          "x": 158,
+          "y": 29,
+          "width": 207,
+          "height": 445
+        },
+        {
+          "x": 142,
+          "y": 29,
+          "width": 265,
+          "height": 446
+        },
+        {
+          "x": 112,
+          "y": 30,
+          "width": 304,
+          "height": 445
+        },
+        {
+          "x": 86,
+          "y": 30,
+          "width": 342,
+          "height": 445
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-8e9881-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-8d85bc27-356e-4e00-98f3-d03e83c4bc6d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Sage phối olive #8e9881, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage phối olive, #8e9881. The existing specified structural accents/stripes/panels/piping become #59654c, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1692686,
+      "sha256": "98be547f225c7be78ec30151a0194cca8d1b2a665471696260b7a95b60db232b",
+      "frames": [
+        {
+          "x": 64,
+          "y": 37,
+          "width": 385,
+          "height": 437
+        },
+        {
+          "x": 84,
+          "y": 34,
+          "width": 342,
+          "height": 440
+        },
+        {
+          "x": 103,
+          "y": 34,
+          "width": 283,
+          "height": 440
+        },
+        {
+          "x": 149,
+          "y": 27,
+          "width": 230,
+          "height": 448
+        },
+        {
+          "x": 166,
+          "y": 24,
+          "width": 172,
+          "height": 451
+        },
+        {
+          "x": 166,
+          "y": 23,
+          "width": 166,
+          "height": 453
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-8e9881-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c6109cf8-ff2f-431d-8975-fcb258930b6c.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Sage phối olive #8e9881, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage phối olive, #8e9881. The existing specified structural accents/stripes/panels/piping become #59654c, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be dark espresso/olive with clear restrained contrast on the light cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1368170,
+      "sha256": "2c6653d05904cfe96c78a903ca842f386d5c745c61268c8029f3b0673888d7ad",
+      "frames": [
+        {
+          "x": 180,
+          "y": 29,
+          "width": 153,
+          "height": 444
+        },
+        {
+          "x": 170,
+          "y": 30,
+          "width": 164,
+          "height": 443
+        },
+        {
+          "x": 152,
+          "y": 30,
+          "width": 189,
+          "height": 443
+        },
+        {
+          "x": 145,
+          "y": 24,
+          "width": 224,
+          "height": 449
+        },
+        {
+          "x": 112,
+          "y": 23,
+          "width": 279,
+          "height": 451
+        },
+        {
+          "x": 80,
+          "y": 23,
+          "width": 334,
+          "height": 450
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Atelier Side Panel Polo, Sage phối olive. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.812Z"
+  }
+}

@@ -11,6 +11,8 @@ node_modules/
 .next/
 .next-redesign/
 .next-redesign-production/
+.next-vintage-qa/
+.next-vintage-final/
 .next-benchmark/
 .next-performance-*/
 dist/

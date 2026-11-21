@@ -1,0 +1,222 @@
+{
+  "slug": "mono-boxy-tee",
+  "colorKey": "native-e8dfcd-v1",
+  "colorHex": "#e8dfcd",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T07:44:18.603Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/native-e8dfcd-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-bab98487-31d4-47a9-9d2c-e10478a22873.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Mono Boxy Tee, Kem #e8dfcd, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Kem #e8dfcd; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour fabric and matching ribbed crew collar, no contrast panels. Preserve source fit, dropped shoulder placement, chest ML and floral MiloShopHand back artwork. Target light fabric uses charcoal brand ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1792289,
+      "sha256": "a2f2675730fdd859d2c15e992e2b7056c52715e475395dde27381d14071a96f6",
+      "frames": [
+        {
+          "x": 20,
+          "y": 27,
+          "width": 473,
+          "height": 456
+        },
+        {
+          "x": 37,
+          "y": 24,
+          "width": 441,
+          "height": 460
+        },
+        {
+          "x": 61,
+          "y": 22,
+          "width": 389,
+          "height": 463
+        },
+        {
+          "x": 112,
+          "y": 20,
+          "width": 317,
+          "height": 468
+        },
+        {
+          "x": 139,
+          "y": 19,
+          "width": 237,
+          "height": 471
+        },
+        {
+          "x": 149,
+          "y": 18,
+          "width": 215,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/native-e8dfcd-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6ae0f3c0-a870-4fa4-8836-9d6068881039.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Mono Boxy Tee, Kem #e8dfcd, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Kem #e8dfcd; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour fabric and matching ribbed crew collar, no contrast panels. Preserve source fit, dropped shoulder placement, chest ML and floral MiloShopHand back artwork. Target light fabric uses charcoal brand ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1649193,
+      "sha256": "237402ab1d794c1359ace9d2cb7132d2f71ebc64340e4c9b60056dd5a261c3bc",
+      "frames": [
+        {
+          "x": 149,
+          "y": 22,
+          "width": 209,
+          "height": 469
+        },
+        {
+          "x": 138,
+          "y": 21,
+          "width": 233,
+          "height": 470
+        },
+        {
+          "x": 127,
+          "y": 21,
+          "width": 257,
+          "height": 471
+        },
+        {
+          "x": 102,
+          "y": 22,
+          "width": 304,
+          "height": 469
+        },
+        {
+          "x": 68,
+          "y": 22,
+          "width": 373,
+          "height": 468
+        },
+        {
+          "x": 40,
+          "y": 23,
+          "width": 431,
+          "height": 467
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/native-e8dfcd-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-e3697e68-a373-4e53-8b38-137c0eff1c5d.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Mono Boxy Tee, Kem #e8dfcd, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Kem #e8dfcd; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour fabric and matching ribbed crew collar, no contrast panels. Preserve source fit, dropped shoulder placement, chest ML and floral MiloShopHand back artwork. Target light fabric uses charcoal brand ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1734580,
+      "sha256": "2ee06bb6b3d2d5b1315699ba9a77c26e73e07125374dda940a494f407b12dd08",
+      "frames": [
+        {
+          "x": 19,
+          "y": 29,
+          "width": 472,
+          "height": 459
+        },
+        {
+          "x": 40,
+          "y": 26,
+          "width": 443,
+          "height": 461
+        },
+        {
+          "x": 67,
+          "y": 22,
+          "width": 376,
+          "height": 465
+        },
+        {
+          "x": 115,
+          "y": 18,
+          "width": 301,
+          "height": 471
+        },
+        {
+          "x": 150,
+          "y": 18,
+          "width": 227,
+          "height": 473
+        },
+        {
+          "x": 157,
+          "y": 18,
+          "width": 209,
+          "height": 473
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/mono-boxy-tee/native-e8dfcd-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-da2a7e26-9823-4ca2-812a-946139f61057.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, Mono Boxy Tee, Kem #e8dfcd, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Kem #e8dfcd; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nSolid single-colour fabric and matching ribbed crew collar, no contrast panels. Preserve source fit, dropped shoulder placement, chest ML and floral MiloShopHand back artwork. Target light fabric uses charcoal brand ink.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink charcoal as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1793448,
+      "sha256": "d6128c9586b05a61794c1cc6924658ab9c2c43c47b489a0a4216b13ab255c83a",
+      "frames": [
+        {
+          "x": 144,
+          "y": 21,
+          "width": 223,
+          "height": 474
+        },
+        {
+          "x": 128,
+          "y": 21,
+          "width": 248,
+          "height": 474
+        },
+        {
+          "x": 102,
+          "y": 22,
+          "width": 305,
+          "height": 472
+        },
+        {
+          "x": 73,
+          "y": 21,
+          "width": 369,
+          "height": 471
+        },
+        {
+          "x": 44,
+          "y": 22,
+          "width": 423,
+          "height": 469
+        },
+        {
+          "x": 16,
+          "y": 22,
+          "width": 477,
+          "height": 469
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed 24 nominal angles: cream fabric retains wide boxy body, dropped shoulders, broad sleeves and matching crew collar. Charcoal chest ML and rear floral wordmark stay on correct faces. Full hems and even cream colour across quarters.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

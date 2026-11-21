@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-regatta-breton",
+  "colorKey": "polo-y-83907a-v1",
+  "colorHex": "#83907a",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T20:02:48.403Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-83907a-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c3509dcf-b7db-4664-82d1-9b30709b1b45.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, Sage kẻ kem #83907a, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage kẻ kem, #83907a. The existing specified structural accents/stripes/panels/piping become #eee5d3, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1751790,
+      "sha256": "bf78ca5a6c183feb62956194f8d2a54bf56a94d14b5680a54a379cc9044de1b7",
+      "frames": [
+        {
+          "x": 92,
+          "y": 32,
+          "width": 368,
+          "height": 450
+        },
+        {
+          "x": 92,
+          "y": 29,
+          "width": 340,
+          "height": 456
+        },
+        {
+          "x": 99,
+          "y": 25,
+          "width": 287,
+          "height": 463
+        },
+        {
+          "x": 180,
+          "y": 19,
+          "width": 216,
+          "height": 467
+        },
+        {
+          "x": 169,
+          "y": 18,
+          "width": 180,
+          "height": 469
+        },
+        {
+          "x": 156,
+          "y": 13,
+          "width": 169,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-83907a-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-9d8def4b-bc02-4734-8db8-33e99f4468f2.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, Sage kẻ kem #83907a, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage kẻ kem, #83907a. The existing specified structural accents/stripes/panels/piping become #eee5d3, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1504958,
+      "sha256": "8c7322c5c1dc34be0165e9e7a4ed3d422e17f92f6198b169d6f251f8f3e9bd37",
+      "frames": [
+        {
+          "x": 184,
+          "y": 28,
+          "width": 160,
+          "height": 454
+        },
+        {
+          "x": 160,
+          "y": 28,
+          "width": 191,
+          "height": 454
+        },
+        {
+          "x": 120,
+          "y": 28,
+          "width": 245,
+          "height": 453
+        },
+        {
+          "x": 113,
+          "y": 23,
+          "width": 302,
+          "height": 458
+        },
+        {
+          "x": 82,
+          "y": 23,
+          "width": 341,
+          "height": 457
+        },
+        {
+          "x": 67,
+          "y": 23,
+          "width": 365,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-83907a-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-dfbe2a24-e469-4b4c-ab7f-5c6ba830ca7f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, Sage kẻ kem #83907a, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage kẻ kem, #83907a. The existing specified structural accents/stripes/panels/piping become #eee5d3, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1710135,
+      "sha256": "e8f71a7a13e8a5a0bb83dc5ed05d3c3b1e5df031fb4918a6ffddde38e89b66f1",
+      "frames": [
+        {
+          "x": 82,
+          "y": 31,
+          "width": 381,
+          "height": 452
+        },
+        {
+          "x": 86,
+          "y": 29,
+          "width": 340,
+          "height": 456
+        },
+        {
+          "x": 95,
+          "y": 28,
+          "width": 280,
+          "height": 458
+        },
+        {
+          "x": 163,
+          "y": 22,
+          "width": 229,
+          "height": 460
+        },
+        {
+          "x": 164,
+          "y": 22,
+          "width": 187,
+          "height": 460
+        },
+        {
+          "x": 156,
+          "y": 22,
+          "width": 173,
+          "height": 460
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-regatta-breton/polo-y-83907a-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-cbbdb3ec-9ddb-44af-9ea6-c1027d37fa5e.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Regatta Breton Polo, Sage kẻ kem #83907a, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Sage kẻ kem, #83907a. The existing specified structural accents/stripes/panels/piping become #eee5d3, as they appear on Image 2. Preserve each accent's width, spacing and location; do not recolour the whole collar or sleeves if only a thin strip changes.\nModel construction invariant: Tasteful short-sleeve Breton-inspired jersey polo, thin evenly spaced HORIZONTAL knitted stripes across body AND sleeves, about 1cm stripe and 3cm main colour repeat, no other pattern. Plain solid main-colour structured fold-down collar and plain main-colour two-button placket and solid rib sleeve cuffs. Stripe alignment and colour must agree front and back. Mature regular fit, straight side-vent hem, no pocket.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1508110,
+      "sha256": "d67758ab006977453fb2272f776e055367ce73932442abcf6220247e19623844",
+      "frames": [
+        {
+          "x": 181,
+          "y": 29,
+          "width": 147,
+          "height": 451
+        },
+        {
+          "x": 165,
+          "y": 29,
+          "width": 172,
+          "height": 452
+        },
+        {
+          "x": 128,
+          "y": 27,
+          "width": 231,
+          "height": 454
+        },
+        {
+          "x": 112,
+          "y": 24,
+          "width": 281,
+          "height": 458
+        },
+        {
+          "x": 86,
+          "y": 25,
+          "width": 325,
+          "height": 456
+        },
+        {
+          "x": 68,
+          "y": 25,
+          "width": 364,
+          "height": 455
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Regatta Breton Polo, Sage kẻ kem. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only garment bounds; bridge up to 12 rows for visually reviewed pale stripes. Adjacent-cell fragments excluded; native bitmaps unchanged.",
+    "reviewedAt": "2026-11-20T20:04:57.797Z"
+  }
+}

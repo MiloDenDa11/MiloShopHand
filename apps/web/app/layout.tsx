@@ -3,6 +3,7 @@ import { headers } from "next/headers";
 import "./globals.css";
 import "./fashion.css";
 import "./design-system.css";
+import "./vintage-editorial.css";
 import "./inventory.css";
 import { bodyFont, displayFont } from "../components/brand-font";
 import { Providers, Header, Footer } from "../components/client";
@@ -32,7 +33,9 @@ export default async function Layout({ children }: { children: React.ReactNode }
   await headers();
   return (
     <html lang="vi" data-scroll-behavior="smooth" className={`${bodyFont.variable} ${displayFont.variable}`}>
-      <body>
+      {/* Extensions can add body attributes before hydration. Scope this
+          exception to body so descendant mismatches remain detectable. */}
+      <body suppressHydrationWarning>
         <Providers>
           <a className="skip-link" href="#main">
             Đến nội dung chính

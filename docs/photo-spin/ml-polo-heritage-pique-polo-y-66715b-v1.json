@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-heritage-pique",
+  "colorKey": "polo-y-66715b-v1",
+  "colorHex": "#66715b",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:06.199Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-heritage-pique/polo-y-66715b-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-edfd8882-766c-4401-a59a-0e0648fd63ef.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, Xanh olive #66715b, six-view Y-axis spin quarter 0.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh olive, #66715b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 0, 15, 30 / 45, 60, 75 degrees: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1641910,
+      "sha256": "5c43e1431f72da94e3ccf6956e75f6b17373a8385a8f5b826ac9ed7c6c979b70",
+      "frames": [
+        {
+          "x": 85,
+          "y": 29,
+          "width": 377,
+          "height": 444
+        },
+        {
+          "x": 84,
+          "y": 28,
+          "width": 343,
+          "height": 447
+        },
+        {
+          "x": 94,
+          "y": 26,
+          "width": 297,
+          "height": 451
+        },
+        {
+          "x": 152,
+          "y": 25,
+          "width": 247,
+          "height": 454
+        },
+        {
+          "x": 167,
+          "y": 22,
+          "width": 178,
+          "height": 457
+        },
+        {
+          "x": 158,
+          "y": 22,
+          "width": 166,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-heritage-pique/polo-y-66715b-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-4fca0fc6-e3b1-4fc3-9253-7bd6fb4c45cf.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, Xanh olive #66715b, six-view Y-axis spin quarter 1.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh olive, #66715b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 90, 105, 120 / 135, 150, 165 degrees: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1456184,
+      "sha256": "4170ddf8ce4aadb497508d4ac5ae55cbb331f2fb66e88b743003029ec65bb9ef",
+      "frames": [
+        {
+          "x": 187,
+          "y": 25,
+          "width": 163,
+          "height": 455
+        },
+        {
+          "x": 166,
+          "y": 25,
+          "width": 191,
+          "height": 455
+        },
+        {
+          "x": 132,
+          "y": 25,
+          "width": 234,
+          "height": 455
+        },
+        {
+          "x": 124,
+          "y": 22,
+          "width": 284,
+          "height": 459
+        },
+        {
+          "x": 95,
+          "y": 22,
+          "width": 325,
+          "height": 459
+        },
+        {
+          "x": 66,
+          "y": 22,
+          "width": 364,
+          "height": 459
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-heritage-pique/polo-y-66715b-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-22895575-fdba-41c1-a1e0-8f1ce6315b9f.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, Xanh olive #66715b, six-view Y-axis spin quarter 2.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh olive, #66715b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 180, 195, 210 / 225, 240, 255 degrees: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1471480,
+      "sha256": "390dc0c7cd410f7435268acae3b78b6f48ba869f154cd4c13ffa478f795caa38",
+      "frames": [
+        {
+          "x": 86,
+          "y": 24,
+          "width": 376,
+          "height": 448
+        },
+        {
+          "x": 92,
+          "y": 24,
+          "width": 338,
+          "height": 450
+        },
+        {
+          "x": 107,
+          "y": 24,
+          "width": 278,
+          "height": 451
+        },
+        {
+          "x": 162,
+          "y": 24,
+          "width": 233,
+          "height": 455
+        },
+        {
+          "x": 161,
+          "y": 24,
+          "width": 185,
+          "height": 456
+        },
+        {
+          "x": 147,
+          "y": 24,
+          "width": 168,
+          "height": 456
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-heritage-pique/polo-y-66715b-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-5963cdf7-4917-4ff2-a79e-79f7d5db4239.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MiloShopHand ML Heritage Piqué Polo, Xanh olive #66715b, six-view Y-axis spin quarter 3.\nImage 1 is the EDIT TARGET: preserve its EXACT SIX upright poses and camera yaw angles, cloth geometry, collar, sleeves, closures, pocket, seams, folds, proportions, full garment placement, 3x2 layout, neutral studio background and light. DO NOT change any pose or replace it with a front/back pair.\nImage 2 is the approved TARGET COLOUR FRONT/BACK plate of this exact design: match its main fabric colour, structural accent assignment and embroidered ML thread colour. It is a colour reference only, NOT the output pose/layout. Do not copy that two-panel arrangement.\nChange the main garment cloth styling to Xanh olive, #66715b. All structural cloth details stay tonal with the target colour; no added contrast strips or panels.\nModel construction invariant: Classic refined short-sleeve pique polo, structured softly rolled fold-down rib collar, TWO small tonal horn buttons on a short reinforced placket, subtle rib cuffs, straight hem with discreet side vents, NO pocket, no stripes, no contrast panels. Fine visible cotton pique texture, regular tailored proportions.\nThe EXISTING source interwoven ML embroidery stays in exactly the same visible positions and outline in every source cell: one on the wearer-left chest, tiny centre-back nape ML ONLY if that surface is visible. Thread must be warm ivory with clear restrained contrast on the darker cloth, matching Image 2. Preserve the interlocking M and L shape. Do not remove, duplicate or move branding, add a giant rear logo or expose a mark hidden at the source side angle.\nNominal six-view row-major yaw order is 270, 285, 300 / 315, 330, 345 degrees: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo. The image remains part of an upright Y-AXIS turntable, no X/Z rotation, mirrored frames, tilting or warping.\nOutput exactly native 1536x1024 PNG, 3 columns x 2 rows, six 512x512 cells, no cropped collar/sleeves/hem and no boundary overlaps. Keep the warm pale ivory source background unchanged. Natural dyed cloth and authentic material texture, no flat colour-filter overlay, glow, blotches or halos. No added text, labels, grid lines, border, people, mannequin, hanger or props.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1645320,
+      "sha256": "8f67ee5802093078a4c09b9ca27932c032ee4a5a7f852e7cb02991dbeca60365",
+      "frames": [
+        {
+          "x": 178,
+          "y": 31,
+          "width": 158,
+          "height": 446
+        },
+        {
+          "x": 169,
+          "y": 31,
+          "width": 175,
+          "height": 446
+        },
+        {
+          "x": 151,
+          "y": 32,
+          "width": 200,
+          "height": 445
+        },
+        {
+          "x": 137,
+          "y": 33,
+          "width": 229,
+          "height": 444
+        },
+        {
+          "x": 108,
+          "y": 34,
+          "width": 282,
+          "height": 442
+        },
+        {
+          "x": 84,
+          "y": 35,
+          "width": 324,
+          "height": 441
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Heritage Piqué Polo, Xanh olive. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.772Z"
+  }
+}

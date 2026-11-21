@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowUpRight,
   ArrowRight,
@@ -16,6 +17,9 @@ import { Recommendations } from "./recommendations";
 import { Reveal } from "./reveal";
 import { ProductPhoto, isRealPhoto } from "./product-media";
 import { editorialAssets, journalArticles } from "../content/brand";
+import { styleEdits, journalPhotoIds, editorialPhotos } from "../content/editorial-photos";
+import { EditorialPhoto } from "./editorial-photo";
+import { collectionIllustration } from "../content/collection-illustrations";
 import { miloDesignText } from "../lib/milo-design";
 
 export function EditorialHeading({
@@ -59,6 +63,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
   const taxonomy = useResource("/catalog", initialTaxonomy);
   const { config } = useShop();
   const bannerPhoto = config?.banners?.find((b: any) => isRealPhoto(b.image));
+  const editorialCover = !editorialAssets.hero && !bannerPhoto;
   const hero =
     editorialAssets.hero ||
     (bannerPhoto
@@ -68,7 +73,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
           caption: bannerPhoto.title,
           href: bannerPhoto.href,
         }
-      : { src: "/collection-ai/ml-hoodie-minimal-no-pocket.png?view=front", alt: "ML Minimal No Pocket Hoodie — Milo Design", caption: "Milo Design · ML Minimal No Pocket Hoodie", href: "/san-pham?category=ao-hoodie" });
+      : { src: editorialPhotos["everyday-basic"].src, alt: editorialPhotos["everyday-basic"].alt, caption: "THE EVERYDAY EDIT · Ảnh cảm hứng AI", href: "/san-pham?style=minimal" });
   const lookbook = editorialAssets.lookbook.filter((p) => isRealPhoto(p.src));
   const community = editorialAssets.community.filter((p) => isRealPhoto(p.src));
   return (
@@ -117,7 +122,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
           </div>
           {hero ? (
             <figure className="edition-hero-photo">
-              <ProductPhoto src={hero.src} alt={hero.alt} loading="eager" sizes="(max-width: 760px) 90vw, 50vw" />
+              {editorialCover ? <EditorialPhoto photo="everyday-basic" eager sizes="(max-width: 760px) 90vw, 50vw" /> : <ProductPhoto src={hero.src} alt={hero.alt} loading="eager" sizes="(max-width: 760px) 90vw, 50vw" />}
               <figcaption>
                 <span>{miloDesignText(hero.caption)}</span>
                 <Link href={hero.href} aria-label={`Khám phá ${hero.caption}`}>
@@ -277,37 +282,10 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
           title="Cùng một bạn. Nhiều chất riêng."
         />
         <div className="edition-style-grid">
-          {[
-            {
-              no: "01",
-              title: "Everyday basic.",
-              sub: "Ít chi tiết. Dễ phối. Mặc mỗi ngày.",
-              href: "/san-pham?style=minimal",
-              label: "BASIC",
-            },
-            {
-              no: "02",
-              title: "An old soul.",
-              sub: "Cảm hứng retro từ những lớp bomber.",
-              href: "/san-pham?category=ao-bomber",
-              label: "VINTAGE INSPIRED",
-            },
-            {
-              no: "03",
-              title: "Room to move.",
-              sub: "Phom rộng, thoải mái theo nhịp của bạn.",
-              href: "/san-pham?fit=Oversized",
-              label: "OVERSIZED",
-            },
-            {
-              no: "04",
-              title: "Street, your way.",
-              sub: "Tự tin bước ra đường theo cách riêng.",
-              href: "/san-pham?style=streetwear",
-              label: "STREETWEAR",
-            },
-          ].map((s) => (
-            <Link href={s.href} className="edition-style-card" key={s.no}>
+          {styleEdits.map((s) => (
+            <Link href={s.href} className="edition-style-card editorial-style-card" key={s.no}>
+              <EditorialPhoto photo={s.photo} sizes="(max-width: 560px) 92vw, (max-width: 1100px) 44vw, 23vw" />
+              <div className="editorial-style-copy">
               <div className="row between">
                 <span className="eyebrow">
                   {s.no} / {s.label}
@@ -316,6 +294,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
               </div>
               <h3>{s.title}</h3>
               <p>{s.sub}</p>
+              </div>
             </Link>
           ))}
         </div>
@@ -331,18 +310,22 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
         {lookbook.length ? (
           <Lookbook photos={lookbook} />
         ) : (
-          <div className="edition-lookbook-copy">
+          <div className="edition-lookbook-copy editorial-lookbook">
+            <Link href="/san-pham?category=ao-bomber" className="editorial-lookbook-image">
+              <EditorialPhoto photo="vintage-bomber" sizes="(max-width: 760px) 92vw, 45vw" />
+              <span>THE LAYERING EDIT · Ảnh cảm hứng AI<ArrowUpRight size={19} /></span>
+            </Link>
             <div>
-              <p className="eyebrow">LOOKBOOK / ĐANG BIÊN TẬP</p>
+              <p className="eyebrow">LOOKBOOK / THE ART OF EVERYDAY</p>
               <h3>
                 Những lớp áo.
                 <br />
                 <em>Những ngày rất riêng.</em>
               </h3>
               <p>
-                Bộ ảnh phối đồ sẽ được cập nhật từ các thiết kế thực tế của
-                Milo. Trong lúc chờ, chọn bộ sưu tập phù hợp với nhịp sống và
-                thời tiết của bạn.
+                Một lớp bomber, chút olive và những sắc màu trung tính.
+                Tìm cảm hứng phối đồ, rồi chọn bộ sưu tập phù hợp với nhịp sống
+                và thời tiết của bạn.
               </p>
               <Link className="text-link" href="/bo-suu-tap">
                 Tìm một bộ sưu tập
@@ -354,7 +337,7 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
                 .slice(0, 3)
                 .map((c: any, i: number) => (
                   <Link key={c.id} href={`/san-pham?collection=${c.slug}`}>
-                    <span className="eyebrow">0{i + 1}</span>
+                    <span className="editorial-collection-thumb"><Image {...collectionIllustration(c)} width={128} height={108} unoptimized /></span>
                     <div>
                       <h4>{miloDesignText(c.name)}</h4>
                       <p>
@@ -405,9 +388,11 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
             {journalArticles.map((a, i) => (
               <Link
                 href={`/phong-cach#${a.id}`}
-                className="edition-journal-card"
+                className="edition-journal-card editorial-journal-card"
                 key={a.id}
               >
+                <EditorialPhoto photo={journalPhotoIds[a.id as keyof typeof journalPhotoIds]} sizes="(max-width: 760px) 92vw, 30vw" />
+                <div className="editorial-journal-copy">
                 <div className="row between">
                   <span className="eyebrow">{a.category}</span>
                   <span className="edition-article-number">0{i + 1}</span>
@@ -418,9 +403,11 @@ export function FashionHome({ initialProducts, initialBestsellers, initialTaxono
                   <span>{a.readTime}</span>
                   <ArrowUpRight size={21} />
                 </div>
+                </div>
               </Link>
             ))}
           </div>
+          <p className="editorial-concept-note">Ảnh phối đồ & editorial là ảnh cảm hứng được tạo bằng AI.</p>
         </div>
       </Reveal>
       <Reveal className="container edition-community" id="community">

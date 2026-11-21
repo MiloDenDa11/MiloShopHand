@@ -1,0 +1,222 @@
+{
+  "slug": "no-rules-graphic-tee",
+  "colorKey": "native-34465b-v1",
+  "colorHex": "#34465b",
+  "mode": "built-in image_gen",
+  "status": "ready-for-review",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T07:31:17.812Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-34465b-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-f1629f1b-7bf4-435a-9d8e-c4f569466dde.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Xanh navy #34465b, quarter 0.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nUse the source as the construction reference. Preserve its existing contrasting trim assignment and all hardware; finish the main fabric in the requested target colour.\nChange only fabric colour styling to Xanh navy #34465b; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nThis tee has a solid single-colour body and ribbed crew collar with no contrasting sleeve panels. Preserve the delicate floral ML monogram and floral MiloShopHand back print; use soft ivory ink for navy.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 0,15,30,45,60,75 degrees, FRONT towards LEFT-facing profile; front points LEFT.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1748656,
+      "sha256": "222964d594ec285a9d0f1250e17a31a2ce4696ab6e095e22250da5df67e4cd81",
+      "frames": [
+        {
+          "x": 53,
+          "y": 23,
+          "width": 418,
+          "height": 451
+        },
+        {
+          "x": 61,
+          "y": 20,
+          "width": 394,
+          "height": 454
+        },
+        {
+          "x": 88,
+          "y": 20,
+          "width": 333,
+          "height": 456
+        },
+        {
+          "x": 135,
+          "y": 17,
+          "width": 272,
+          "height": 464
+        },
+        {
+          "x": 148,
+          "y": 15,
+          "width": 221,
+          "height": 469
+        },
+        {
+          "x": 145,
+          "y": 14,
+          "width": 208,
+          "height": 471
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-34465b-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-6dc89db2-574b-46fb-8d63-60f4b257c0e6.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Xanh navy #34465b, quarter 1.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Xanh navy #34465b; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nThis tee has a solid single-colour body and ribbed crew collar with no contrasting sleeve panels. Preserve the delicate floral ML monogram and floral MiloShopHand back print; use soft ivory ink for navy.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 90,105,120,135,150,165 degrees, LEFT-facing profile towards BACK; chest ML becomes hidden.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1490340,
+      "sha256": "46dd1276a95dbd1ca8bd6c6cf6907b2036b16c6bc027e75e90f752e1ebdc1641",
+      "frames": [
+        {
+          "x": 160,
+          "y": 17,
+          "width": 194,
+          "height": 478
+        },
+        {
+          "x": 150,
+          "y": 16,
+          "width": 212,
+          "height": 479
+        },
+        {
+          "x": 146,
+          "y": 16,
+          "width": 221,
+          "height": 479
+        },
+        {
+          "x": 137,
+          "y": 16,
+          "width": 247,
+          "height": 479
+        },
+        {
+          "x": 99,
+          "y": 17,
+          "width": 310,
+          "height": 478
+        },
+        {
+          "x": 72,
+          "y": 17,
+          "width": 363,
+          "height": 478
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-34465b-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-1aba1394-1579-4931-8af0-ec416782be60.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Xanh navy #34465b, quarter 2.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Xanh navy #34465b; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nThis tee has a solid single-colour body and ribbed crew collar with no contrasting sleeve panels. Preserve the delicate floral ML monogram and floral MiloShopHand back print; use soft ivory ink for navy.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 180,195,210,225,240,255 degrees, BACK towards RIGHT-facing profile; back lettering foreshortens and disappears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1675930,
+      "sha256": "94c005d74e3fe13855926ea17a3e8f8a590ddbaba7ee9f83fe2eadc7c9dc0191",
+      "frames": [
+        {
+          "x": 44,
+          "y": 24,
+          "width": 433,
+          "height": 456
+        },
+        {
+          "x": 67,
+          "y": 24,
+          "width": 391,
+          "height": 457
+        },
+        {
+          "x": 104,
+          "y": 24,
+          "width": 306,
+          "height": 460
+        },
+        {
+          "x": 143,
+          "y": 22,
+          "width": 245,
+          "height": 462
+        },
+        {
+          "x": 157,
+          "y": 22,
+          "width": 217,
+          "height": 462
+        },
+        {
+          "x": 153,
+          "y": 22,
+          "width": 209,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/no-rules-graphic-tee/native-34465b-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-a14f2852-5416-482c-a046-6930c0b9b5be.png",
+      "prompt": "Use case: precise-object-edit / product-mockup.\nAsset: MILOSHOPHAND native colour-specific six-view product atlas, No Rules Graphic Tee, Xanh navy #34465b, quarter 3.\nImage 1 is the EDIT TARGET: preserve exactly all six upright source poses, camera angles, garment cut, seams, collar, sleeves, pockets, closures, folds, scale, cell layout and ivory studio background.\nImage 2 is the target colour anchor for the SAME garment: match its fabric, contrast trim, hardware and brand ink across all six views.\nChange only fabric colour styling to Xanh navy #34465b; realistic dyed Cotton 100% định lượng cao, even natural shadows, clean colour edges. No colour-filter overlay, blotches, halos, extra graphics or merged marks. Keep structural contrast panels and pocket construction exactly as the sources and anchor, no swapped material roles.\nThis tee has a solid single-colour body and ribbed crew collar with no contrasting sleeve panels. Preserve the delicate floral ML monogram and floral MiloShopHand back print; use soft ivory ink for navy.\nBranding: preserve the source graphic shapes, placement and exact text \"MiloShopHand\" only where visible on the source back. One intact chest ML only where that chest is visible. Ink soft ivory as on anchor. Keep graphics occluded correctly at side angles; no duplicated front marks, no new sleeve art.\nOutput EXACTLY 3 columns by 2 rows, six equal square cells, native 1536x1024. Full garment with margins in each cell, no cropping. Row-major nominal views: 270,285,300,315,330,345 degrees, RIGHT-facing profile towards FRONT; no back artwork visible, chest ML gradually appears.\nNo labels, captions, borders, grid lines, people, hanger or mannequin. Commercial product photography, maintain this specific garment's identity.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1551693,
+      "sha256": "a9bc599b101385236719016120a8bf4bf67ddfc45ee14c6bfe589d894ad3356b",
+      "frames": [
+        {
+          "x": 169,
+          "y": 18,
+          "width": 174,
+          "height": 474
+        },
+        {
+          "x": 162,
+          "y": 19,
+          "width": 196,
+          "height": 473
+        },
+        {
+          "x": 132,
+          "y": 19,
+          "width": 261,
+          "height": 472
+        },
+        {
+          "x": 97,
+          "y": 19,
+          "width": 322,
+          "height": 472
+        },
+        {
+          "x": 66,
+          "y": 19,
+          "width": 381,
+          "height": 472
+        },
+        {
+          "x": 41,
+          "y": 19,
+          "width": 433,
+          "height": 472
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Reviewed all 24 nominal views on the four original native atlases and contact sheet. Navy cotton and crew collar stay consistent; relaxed sleeves, small ivory ML chest and floral MiloShopHand back print retain source placement. Full garment margins and correct front/back occlusion.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing."
+  }
+}

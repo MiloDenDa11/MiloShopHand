@@ -4,7 +4,8 @@ import Link from "next/link";
 import { Heart, ArrowUpRight, Sparkles } from "lucide-react";
 import { useShop, money } from "./client";
 import { productSelectionHref } from "../lib/product-selection";
-import { tryOnHref } from "../lib/try-on";
+import { tryOnHref, tryOnSupports } from "../lib/try-on";
+import { isUnreleasedDesign } from "../lib/product-preview";
 import { ProductPhoto, realProductImages, productImagesForColor } from "./product-media";
 import { ProductCardPreview } from "./product-card-preview";
 import { displaySpinFor } from "../lib/display-spin";
@@ -44,6 +45,7 @@ export function ProductCard({
   const photoPending=!!color&&colors.length>1&&!hasColorPhoto(color);
   const referenceColor=availablePhotos.find((image:any)=>colors.some(c=>c.name===image.color))?.color;
   const spin=useMemo(()=>displaySpinFor(p,colorHex),[p,colorHex]);
+  const preview = isUnreleasedDesign(p);
   const soldOut =
       p.variants?.length && p.variants.every((v: any) => v.available === 0),
     limited = p.collections?.some((c: any) =>
@@ -109,7 +111,9 @@ export function ProductCard({
       )}
       <div className="product-meta">
         <div className="product-badges">
-          {soldOut ? (
+          {preview ? (
+            <span>MẪU TRƯNG BÀY</span>
+          ) : soldOut ? (
             <span>HẾT HÀNG</span>
           ) : limited ? (
             <span>LIMITED</span>
@@ -128,7 +132,7 @@ export function ProductCard({
           {p.fit} <span>·</span> {p.material?.split(",")[0]}
         </p>
         <div className="prices">
-          <b>{money(p.price)}</b>
+          <b>{preview && "Dự kiến "}{money(p.price)}</b>
           {p.originalPrice > p.price && <del>{money(p.originalPrice)}</del>}
         </div>
         <div className="product-card-bottom">
@@ -162,9 +166,9 @@ export function ProductCard({
           </Link>
         </div>
         {color&&<p className="product-card-selected-color" aria-live="polite">{/^màu /i.test(color)?color:`Màu: ${color}`}</p>}
-        <Link className="product-try-on-link" href={tryOnHref(p.slug, color)} aria-label={`Dùng thử ${p.name}`}>
+        {tryOnSupports(p) && <Link className="product-try-on-link" href={tryOnHref(p.slug, color)} aria-label={`Dùng thử ${p.name}`}>
           <Sparkles size={15} /> Dùng thử <ArrowUpRight size={15} />
-        </Link>
+        </Link>}
         {!photos.length && (
           <p className="photo-pending-note">Ảnh thực tế đang cập nhật</p>
         )}

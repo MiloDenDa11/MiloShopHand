@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-atelier-side-panel",
+  "colorKey": "polo-y-ede5d6-v1",
+  "colorHex": "#ede5d6",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:22.250Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-ede5d6-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-3fe3fce6-84cd-438c-bccc-399da896c624.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Ngà phối camel #ede5d6, quarter 0 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. \nConstruction MUST match the approved plate: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nMain cloth #ede5d6 (Ngà phối camel); the existing specified structural accents/stripes/panels are #aa8e6d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 0, 15, 30 / 45, 60, 75 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1324366,
+      "sha256": "d9ac3a3238e2c92400310994dbfe9593258dafa1b0973fe3daaf3d5e830a3c91",
+      "frames": [
+        {
+          "x": 69,
+          "y": 32,
+          "width": 378,
+          "height": 440
+        },
+        {
+          "x": 82,
+          "y": 30,
+          "width": 357,
+          "height": 442
+        },
+        {
+          "x": 108,
+          "y": 30,
+          "width": 301,
+          "height": 442
+        },
+        {
+          "x": 155,
+          "y": 22,
+          "width": 231,
+          "height": 453
+        },
+        {
+          "x": 164,
+          "y": 21,
+          "width": 179,
+          "height": 455
+        },
+        {
+          "x": 160,
+          "y": 21,
+          "width": 161,
+          "height": 455
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-ede5d6-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-ce92c6b8-1846-4b01-89ce-a2d73dc466b8.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Ngà phối camel #ede5d6, quarter 1 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nMain cloth #ede5d6 (Ngà phối camel); the existing specified structural accents/stripes/panels are #aa8e6d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 90, 105, 120 / 135, 150, 165 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1302062,
+      "sha256": "6def291a358a28d6194ed850ed1fcdee890b83d316ade2e00c96fcd365086aac",
+      "frames": [
+        {
+          "x": 186,
+          "y": 29,
+          "width": 150,
+          "height": 445
+        },
+        {
+          "x": 178,
+          "y": 29,
+          "width": 172,
+          "height": 445
+        },
+        {
+          "x": 158,
+          "y": 29,
+          "width": 206,
+          "height": 445
+        },
+        {
+          "x": 142,
+          "y": 29,
+          "width": 263,
+          "height": 446
+        },
+        {
+          "x": 112,
+          "y": 30,
+          "width": 303,
+          "height": 445
+        },
+        {
+          "x": 86,
+          "y": 31,
+          "width": 343,
+          "height": 444
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-ede5d6-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-bc08e82a-af6d-444f-8b11-c58457384d30.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Ngà phối camel #ede5d6, quarter 2 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nMain cloth #ede5d6 (Ngà phối camel); the existing specified structural accents/stripes/panels are #aa8e6d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 180, 195, 210 / 225, 240, 255 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1360042,
+      "sha256": "e0cc9a8382e71877efddc52c5dac62ed155ba29a11593a2284525e80fa7f712b",
+      "frames": [
+        {
+          "x": 64,
+          "y": 36,
+          "width": 386,
+          "height": 438
+        },
+        {
+          "x": 85,
+          "y": 34,
+          "width": 341,
+          "height": 440
+        },
+        {
+          "x": 104,
+          "y": 34,
+          "width": 282,
+          "height": 440
+        },
+        {
+          "x": 149,
+          "y": 27,
+          "width": 230,
+          "height": 448
+        },
+        {
+          "x": 167,
+          "y": 24,
+          "width": 170,
+          "height": 453
+        },
+        {
+          "x": 169,
+          "y": 23,
+          "width": 161,
+          "height": 454
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-atelier-side-panel/polo-y-ede5d6-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-e7930b26-86e0-46be-92e8-419831c9e357.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Atelier Side Panel Polo, Ngà phối camel #ede5d6, quarter 3 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Elegant short-sleeve cotton interlock polo, three tonal buttons and a structured fold-down main-colour collar. Narrow CONTRASTING SIDE PANELS from underarm to hem along BOTH sides, about 5cm wide, and matching thin contrast sleeve cuffs. Main chest and back large central areas stay solid main colour, NO horizontal chest block, no stripes, no pocket. Precise tidy tonal tailoring and small side hem vents.\nMain cloth #ede5d6 (Ngà phối camel); the existing specified structural accents/stripes/panels are #aa8e6d. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 270, 285, 300 / 315, 330, 345 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1286271,
+      "sha256": "301cb4600adac056f4c580adc27265cd73b7cf5ba3cb770b188106db81bc9b1f",
+      "frames": [
+        {
+          "x": 182,
+          "y": 30,
+          "width": 148,
+          "height": 443
+        },
+        {
+          "x": 170,
+          "y": 30,
+          "width": 164,
+          "height": 443
+        },
+        {
+          "x": 152,
+          "y": 30,
+          "width": 187,
+          "height": 443
+        },
+        {
+          "x": 145,
+          "y": 23,
+          "width": 222,
+          "height": 450
+        },
+        {
+          "x": 112,
+          "y": 23,
+          "width": 278,
+          "height": 450
+        },
+        {
+          "x": 80,
+          "y": 23,
+          "width": 332,
+          "height": 450
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Atelier Side Panel Polo, Ngà phối camel. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.808Z"
+  }
+}

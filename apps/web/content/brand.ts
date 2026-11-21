@@ -1,5 +1,6 @@
-// Only add photographs of the corresponding MILOSHOPHAND garments, with usage rights.
-// Null/empty values deliberately render an editorial text layout, never a substitute image.
+// Optional merchant-provided photographs, with usage rights.
+// Commissioned AI editorial concepts live separately in editorial-photos.ts;
+// they are labelled and never replace product catalogue photographs.
 export type EditorialPhoto = {
   src: string;
   alt: string;

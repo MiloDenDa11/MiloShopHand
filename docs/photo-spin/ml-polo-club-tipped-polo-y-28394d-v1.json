@@ -1,0 +1,223 @@
+{
+  "slug": "ml-polo-club-tipped",
+  "colorKey": "polo-y-28394d-v1",
+  "colorHex": "#28394d",
+  "mode": "built-in image_gen",
+  "status": "approved",
+  "axis": "y",
+  "camera": "fixed-level",
+  "frameCount": 24,
+  "nominalAngles": true,
+  "generatedAt": "2026-11-20T19:32:10.864Z",
+  "parts": [
+    {
+      "startFrame": 0,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-28394d-v1/part-0.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-cef53125-5fea-46a9-8fe2-1db8a12fd063.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Club Tipped Polo, Xanh navy #28394d, quarter 0 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. \nConstruction MUST match the approved plate: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nMain cloth #28394d (Xanh navy); the existing specified structural accents/stripes/panels are #eee6d5. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true FRONT through six steadily increasing yaw angles toward LEFT-facing SIDE; front points gradually LEFT. The first frame must match the approved front photo.. Show the chest ML on the correct wearer-left chest as visible; it must become naturally hidden as the chest turns away. Do not show the nape mark from the front.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 0, 15, 30 / 45, 60, 75 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1462739,
+      "sha256": "b5c1f2962d778106c6c4b81a2fcd0652ec8eb53681ece162c93684f11359c11b",
+      "frames": [
+        {
+          "x": 67,
+          "y": 28,
+          "width": 380,
+          "height": 450
+        },
+        {
+          "x": 79,
+          "y": 25,
+          "width": 353,
+          "height": 454
+        },
+        {
+          "x": 101,
+          "y": 23,
+          "width": 302,
+          "height": 457
+        },
+        {
+          "x": 156,
+          "y": 17,
+          "width": 229,
+          "height": 466
+        },
+        {
+          "x": 159,
+          "y": 16,
+          "width": 193,
+          "height": 469
+        },
+        {
+          "x": 164,
+          "y": 15,
+          "width": 180,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "startFrame": 6,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-28394d-v1/part-1.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-3bc5ece7-89d1-4537-a488-87c9c50602ff.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Club Tipped Polo, Xanh navy #28394d, quarter 1 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nMain cloth #28394d (Xanh navy); the existing specified structural accents/stripes/panels are #eee6d5. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true LEFT-facing SIDE through six steadily increasing yaw angles toward BACK. Start with genuinely narrow side profile; front faces LEFT.. The front chest ML is hidden. The tiny back nape ML appears only when that rear surface is visible. Do not put a chest logo on the side or back.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 90, 105, 120 / 135, 150, 165 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1420400,
+      "sha256": "d74fdacc20ea781e98e69ee69484ffc42f3a378d198d3d4cd8695e57426d3629",
+      "frames": [
+        {
+          "x": 181,
+          "y": 24,
+          "width": 170,
+          "height": 460
+        },
+        {
+          "x": 162,
+          "y": 24,
+          "width": 186,
+          "height": 459
+        },
+        {
+          "x": 143,
+          "y": 24,
+          "width": 224,
+          "height": 459
+        },
+        {
+          "x": 140,
+          "y": 22,
+          "width": 269,
+          "height": 462
+        },
+        {
+          "x": 107,
+          "y": 22,
+          "width": 309,
+          "height": 462
+        },
+        {
+          "x": 82,
+          "y": 22,
+          "width": 347,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "startFrame": 12,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-28394d-v1/part-2.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-c98b6bac-2c98-4e52-aebf-6b7f9366f3ad.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Club Tipped Polo, Xanh navy #28394d, quarter 2 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nMain cloth #28394d (Xanh navy); the existing specified structural accents/stripes/panels are #eee6d5. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true BACK through six steadily increasing yaw angles toward RIGHT-facing SIDE. The first frame must match the approved back photo; front points gradually RIGHT.. Only the tiny central BACK nape ML is present where visible. The front chest ML stays hidden. Back body has exactly the approved garment pattern, no giant logos or invented floral artwork.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 180, 195, 210 / 225, 240, 255 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1423097,
+      "sha256": "b51efc757f0e5cf534d7c41c9abbdc8b7266a41be631a7585b25fc4967f94d90",
+      "frames": [
+        {
+          "x": 74,
+          "y": 27,
+          "width": 379,
+          "height": 452
+        },
+        {
+          "x": 93,
+          "y": 26,
+          "width": 328,
+          "height": 453
+        },
+        {
+          "x": 124,
+          "y": 24,
+          "width": 265,
+          "height": 456
+        },
+        {
+          "x": 171,
+          "y": 21,
+          "width": 205,
+          "height": 463
+        },
+        {
+          "x": 170,
+          "y": 21,
+          "width": 189,
+          "height": 463
+        },
+        {
+          "x": 173,
+          "y": 21,
+          "width": 173,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "startFrame": 18,
+      "count": 6,
+      "src": "/collection-spin/ml-polo-club-tipped/polo-y-28394d-v1/part-3.png",
+      "sourcePath": "C:\\Users\\LOQ\\.codex\\generated_images\\01a1f3bd-87e5-7bb2-a16d-a1c1deffc7d9\\exec-7019dc60-bba9-4d1d-a553-9db86587dccf.png",
+      "prompt": "Use case: product-mockup / identity-preserve.\nAsset: MiloShopHand ML Club Tipped Polo, Xanh navy #28394d, quarter 3 of a 24-view Y-AXIS turntable.\nImage 1 is the approved FRONT/BACK garment reference for this exact polo and colour. Image 2 is the already created FRONT-to-side quarter of the SAME spin: match its physical scale, camera level, fabric, embroidery, background and lighting.\nConstruction MUST match the approved plate: Smart short-sleeve cotton pique polo, THREE tonal buttons, fold-down rib collar and ribbed sleeve cuffs with exactly TWO very narrow parallel contrasting tipping lines near each outer edge. Main body plain, no body stripe, no pocket. Regular mature fit and side vents.\nMain cloth #28394d (Xanh navy); the existing specified structural accents/stripes/panels are #eee6d5. Use the actual embroidered interwoven ML shapes and embroidery colour on the reference. Chest ML is small, on wearer LEFT chest; a tiny ML sits centrally at the BACK nape just below the collar. No words, no big floral artwork, no invented pocket/zip/button/stripe change.\nGenerate SIX NEW views of the SAME GARMENT, not a two-panel front/back copy: true RIGHT-facing SIDE through six steadily increasing yaw angles toward FRONT. Start with genuinely narrow side profile; front faces RIGHT.. The nape logo becomes hidden; reveal the correct single wearer-left chest ML only where that FRONT chest surface turns into view. No duplicated chest mark or side logo.\nThe polo rotates upright around its fixed VERTICAL Y AXIS only. Fixed level neutral camera, believable three-dimensional turn, genuine narrow side profiles, full shoulder/sleeve/hem construction, no rolling, tilting, stretching, mirrored copies or wobbling. Distinct nominal yaw angles, evenly progressing.\nOutput EXACTLY ONE native landscape 1536x1024 PNG with EXACTLY 3 columns x 2 rows of equal 512x512 square cells, row-major yaw angles 270, 285, 300 / 315, 330, 345 degrees. Uniform warm pale ivory studio background #faf6ee, same scale and centre in all cells. Keep each entire garment inside its own cell with at least 25px clear margins; no part crosses boundaries or is cut off. Collar upright at top, hem near bottom, equal garment height in all six cells. No divider, gutter, angle labels, text, watermarks, mannequin, hanger, person or props. Realistic premium garment photography and tactile material, crisp branded embroidery. Keep the precise model identity; do not replace with a generic polo.",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "bytes": 1462464,
+      "sha256": "c927a068bdb05ba16345802e576ad6a54c8d0418b448ff4b08feffd5c86c940c",
+      "frames": [
+        {
+          "x": 182,
+          "y": 25,
+          "width": 160,
+          "height": 456
+        },
+        {
+          "x": 171,
+          "y": 25,
+          "width": 172,
+          "height": 456
+        },
+        {
+          "x": 146,
+          "y": 25,
+          "width": 207,
+          "height": 456
+        },
+        {
+          "x": 142,
+          "y": 24,
+          "width": 239,
+          "height": 458
+        },
+        {
+          "x": 109,
+          "y": 23,
+          "width": 288,
+          "height": 460
+        },
+        {
+          "x": 78,
+          "y": 23,
+          "width": 346,
+          "height": 460
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "visual": "Root inspected all four native anchor quarters and the 24-view contact sheet for ML Club Tipped Polo, Xanh navy. Upright full turn, narrow side silhouettes, collar/hem/sleeve construction, front ML and small nape ML with natural occlusion, no clipped garments or repeated front/back placeholders. Nominal angles are AI-designed views, not a measured 3D scan.",
+    "alignmentAnalysis": "Read-only pixel analysis; largest continuous garment row band excludes adjacent-cell fragments. No bitmap editing.",
+    "reviewedAt": "2026-11-20T20:04:57.778Z"
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "at": "2026-11-20T12:48:49.935Z",
+  "result": "PASS",
+  "scope": "Local Vintage Editorial UI/UX; no production deployment or GitHub push",
+  "stack": {
+    "frontend": "Next.js 16.4.5 App Router, React 19.1.10, TypeScript, existing CSS theme and self-hosted Lora/Inter",
+    "dependenciesChanged": false,
+    "backendOrSchemaChanged": false
+  },
+  "imagery": {
+    "mode": "built-in ImageGen / generate",
+    "originalPNGs": 12,
+    "deliveryWebPs": 12,
+    "deliveryBytes": 1750364,
+    "prompts": "docs/vintage-editorial/images-v1.json",
+    "originalsPreserved": true,
+    "verification": {
+      "at": "2026-11-20T12:45:57.833Z",
+      "base": "http://127.0.0.1:3110",
+      "images": [
+        {
+          "id": "boutique-atmosphere",
+          "sourceSHA256": "06df585f6744ff79eb771b06bcaa7c00382b01140a60adff50944661fc9e8a1c",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 186588,
+          "pixelMAE": 2.7661595978155464,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "customer-service",
+          "sourceSHA256": "4c3a70f047a73ea2456be27e92e76904cd01a4845f2abd307553be0b4bede86f",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 108618,
+          "pixelMAE": 2.0561911265055337,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "everyday-basic",
+          "sourceSHA256": "c5e0f928038613885c18a39f4d879a09073170a33f1042b828cd23cf42c07438",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 151166,
+          "pixelMAE": 2.4240709940592446,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "garment-care",
+          "sourceSHA256": "f96e7d4ef10a2576ba863e059b4638aaf0422975a5b3facd1eab010a9780e865",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 109696,
+          "pixelMAE": 2.1465018118715866,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "order-packaging",
+          "sourceSHA256": "4812d510c1fd73800b17bd43762d7978e8ad269af9c22b227483f6839a7e1c69",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 104342,
+          "pixelMAE": 2.170065329454397,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "oversized-outfit",
+          "sourceSHA256": "e3d266b201a5c58eed8eabbff5820d1dd4f9bd99d1a39153bec35e98461c0902",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 152444,
+          "pixelMAE": 2.4409766727023654,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "parcel-delivery",
+          "sourceSHA256": "324f2b28c665fcdcc9739fbd93d9beaa48e655856bec6b511e8131e4968bf59d",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 109708,
+          "pixelMAE": 2.2293211861379065,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "privacy-still-life",
+          "sourceSHA256": "2319fb0232c82d4f96252b9403e62712b6bcd46a6c7a87af867c2773ddb3538e",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 185014,
+          "pixelMAE": 2.5930174041749603,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "quality-inspection",
+          "sourceSHA256": "eb086b623cd3c503281f0c0d8eaf48d535d51fff37eada7c26fd9f87e65d63cb",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 116322,
+          "pixelMAE": 2.3082047159699894,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "size-measurement",
+          "sourceSHA256": "ad6f673e643a269fd37d5fe49edd4fe0343c516c342d1a9d083fdaa8338a973f",
+          "width": 1536,
+          "height": 1024,
+          "webPBytes": 130162,
+          "pixelMAE": 2.6140519573317,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "streetwear-outfit",
+          "sourceSHA256": "8ddc4aae0f59a8c5af2f97d6b4ac1351c3240f31181520cd0144d55619fe2934",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 199940,
+          "pixelMAE": 2.565455542670356,
+          "optimizedWidth": 640
+        },
+        {
+          "id": "vintage-bomber",
+          "sourceSHA256": "4c47161311227241d86133be7840bb10985acb0f6d4db70a3e2e8bb3df9df0da",
+          "width": 1024,
+          "height": 1536,
+          "webPBytes": 196364,
+          "pixelMAE": 2.655634986029731,
+          "optimizedWidth": 640
+        }
+      ],
+      "requests": 36,
+      "errors": [],
+      "result": "PASS"
+    }
+  },
+  "checks": {
+    "productionBuild": {
+      "result": "PASS",
+      "cwd": "apps/web",
+      "env": {
+        "NEXT_BUILD_DIR": ".next-vintage-final"
+      },
+      "command": "node ../../node_modules/next/dist/bin/next build --webpack",
+      "evidence": ".local/vintage-editorial/build-final-rounded.log",
+      "buildId": "A5J6hQ35opOUCdlY4_mgG"
+    },
+    "typecheck": {
+      "result": "PASS",
+      "command": "npm run typecheck; production build TypeScript check; final web tsc",
+      "evidence": [
+        ".local/vintage-editorial/typecheck.log",
+        ".local/vintage-editorial/typecheck-final-web.log",
+        ".local/vintage-editorial/build-final-rounded.log"
+      ]
+    },
+    "unit": {
+      "result": "PASS",
+      "tests": 48,
+      "passed": 48,
+      "evidence": ".local/vintage-editorial/unit.log"
+    },
+    "chromium": {
+      "result": "PASS",
+      "uniqueFunctionalScenarios": 12,
+      "fullSuite": {
+        "passed": 12,
+        "evidence": ".local/vintage-editorial/release-e2e.log"
+      },
+      "finalHomeCheck": {
+        "passed": 2,
+        "evidence": ".local/vintage-editorial/final-home-e2e.log",
+        "reason": "Only subsequent application change was hero corner radius 22px; homepage rendering and responsive checks rerun against the final build."
+      }
+    },
+    "edge": {
+      "result": "PASS_AFTER_RECHECK",
+      "uniqueFunctionalScenariosCovered": 12,
+      "earlierRun": {
+        "passed": 11,
+        "failed": 1,
+        "evidence": ".local/vintage-editorial/edge-e2e.log"
+      },
+      "finalRecheck": {
+        "passed": 3,
+        "failed": 0,
+        "evidence": ".local/vintage-editorial/edge-final-e2e.log",
+        "scope": "768px customer care reload/back navigation, style/journal cards and homepage responsive layout"
+      },
+      "note": "The earlier 768px assertion met two transient DOM nodes during reload. Added an assertion waiting for exactly one content node, then the affected case passed. Retain evidence from unchanged cases rather than claiming a fresh full-suite pass on Edge."
+    },
+    "responsive": {
+      "widths": [
+        360,
+        768,
+        1024,
+        1440
+      ],
+      "careTabs": 5,
+      "policyTextComparedWithAPI": true,
+      "photosDistinctAndLoaded": true,
+      "faqAccentInsensitiveSearch": true,
+      "sizeTableMatchesProduct": true,
+      "fragmentDirectLoadAndReload": true,
+      "keyboardAccordion": true,
+      "reducedMotion": true,
+      "guestCartUsesRealSKUAndPrice": true
+    },
+    "businessData": {
+      "at": "2026-11-20T12:46:39.025Z",
+      "result": "PASS_BUSINESS_DATA_WITH_AUDIT_APPEND",
+      "modelsCompared": 39,
+      "unchangedBusinessModels": 38,
+      "changedModels": [
+        "AuditLog"
+      ],
+      "existingAuditRowsPreserved": true,
+      "auditRowsAdded": 1,
+      "auditEvents": [
+        {
+          "action": "SECURITY_ACCESS_DENIED",
+          "scope": "me",
+          "code": "401",
+          "at": "2026-11-20T12:01:52.334Z"
+        }
+      ],
+      "note": "No business data, product media, settings or existing audit records changed. Anonymous 401 audit events were appended by the existing security logging mechanism; retained without deleting them."
+    },
+    "whitespace": {
+      "result": "PASS",
+      "command": "git diff --check"
+    }
+  },
+  "previews": [
+    "docs/vintage-editorial/previews/customer-care-1440.png",
+    "docs/vintage-editorial/previews/customer-care-360.png",
+    "docs/vintage-editorial/previews/doi-tra-1440.png",
+    "docs/vintage-editorial/previews/doi-tra-360.png",
+    "docs/vintage-editorial/previews/faq-1440.png",
+    "docs/vintage-editorial/previews/faq-360.png",
+    "docs/vintage-editorial/previews/giao-hang-1440.png",
+    "docs/vintage-editorial/previews/giao-hang-360.png",
+    "docs/vintage-editorial/previews/home-cover-1440.png",
+    "docs/vintage-editorial/previews/home-cover-360.png",
+    "docs/vintage-editorial/previews/journal-cards-1440.png",
+    "docs/vintage-editorial/previews/journal-reading-1440.png",
+    "docs/vintage-editorial/previews/lien-he-1440.png",
+    "docs/vintage-editorial/previews/lien-he-360.png",
+    "docs/vintage-editorial/previews/styles-1440.png",
+    "docs/vintage-editorial/previews/styles-360.png"
+  ],
+  "changedFiles": [
+    ".gitignore",
+    "README.md",
+    "apps/web/app/chinh-sach/page.tsx",
+    "apps/web/app/layout.tsx",
+    "apps/web/app/vintage-editorial.css",
+    "apps/web/components/customer-care.tsx",
+    "apps/web/components/editorial-photo.tsx",
+    "apps/web/components/editorial.tsx",
+    "apps/web/components/fashion-editorial.tsx",
+    "apps/web/components/fashion-home.tsx",
+    "apps/web/components/fashion-product.tsx",
+    "apps/web/content/brand.ts",
+    "apps/web/content/customer-care.ts",
+    "apps/web/content/editorial-photos.ts",
+    "apps/web/content/size-guide.ts",
+    "apps/web/hooks/use-editorial-fragment.ts",
+    "apps/web/next.config.mjs",
+    "apps/web/public/editorial/vintage-20261120/boutique-atmosphere.webp",
+    "apps/web/public/editorial/vintage-20261120/customer-service.webp",
+    "apps/web/public/editorial/vintage-20261120/everyday-basic.webp",
+    "apps/web/public/editorial/vintage-20261120/garment-care.webp",
+    "apps/web/public/editorial/vintage-20261120/order-packaging.webp",
+    "apps/web/public/editorial/vintage-20261120/oversized-outfit.webp",
+    "apps/web/public/editorial/vintage-20261120/parcel-delivery.webp",
+    "apps/web/public/editorial/vintage-20261120/privacy-still-life.webp",
+    "apps/web/public/editorial/vintage-20261120/quality-inspection.webp",
+    "apps/web/public/editorial/vintage-20261120/size-measurement.webp",
+    "apps/web/public/editorial/vintage-20261120/sources/boutique-atmosphere.png",
+    "apps/web/public/editorial/vintage-20261120/sources/customer-service.png",
+    "apps/web/public/editorial/vintage-20261120/sources/everyday-basic.png",
+    "apps/web/public/editorial/vintage-20261120/sources/garment-care.png",
+    "apps/web/public/editorial/vintage-20261120/sources/order-packaging.png",
+    "apps/web/public/editorial/vintage-20261120/sources/oversized-outfit.png",
+    "apps/web/public/editorial/vintage-20261120/sources/parcel-delivery.png",
+    "apps/web/public/editorial/vintage-20261120/sources/privacy-still-life.png",
+    "apps/web/public/editorial/vintage-20261120/sources/quality-inspection.png",
+    "apps/web/public/editorial/vintage-20261120/sources/size-measurement.png",
+    "apps/web/public/editorial/vintage-20261120/sources/streetwear-outfit.png",
+    "apps/web/public/editorial/vintage-20261120/sources/vintage-bomber.png",
+    "apps/web/public/editorial/vintage-20261120/streetwear-outfit.webp",
+    "apps/web/public/editorial/vintage-20261120/vintage-bomber.webp",
+    "docs/vintage-editorial/README.md",
+    "docs/vintage-editorial/images.json",
+    "docs/vintage-editorial/previews/customer-care-1440.png",
+    "docs/vintage-editorial/previews/customer-care-360.png",
+    "docs/vintage-editorial/previews/doi-tra-1440.png",
+    "docs/vintage-editorial/previews/doi-tra-360.png",
+    "docs/vintage-editorial/previews/faq-1440.png",
+    "docs/vintage-editorial/previews/faq-360.png",
+    "docs/vintage-editorial/previews/giao-hang-1440.png",
+    "docs/vintage-editorial/previews/giao-hang-360.png",
+    "docs/vintage-editorial/previews/home-cover-1440.png",
+    "docs/vintage-editorial/previews/home-cover-360.png",
+    "docs/vintage-editorial/previews/journal-cards-1440.png",
+    "docs/vintage-editorial/previews/journal-reading-1440.png",
+    "docs/vintage-editorial/previews/lien-he-1440.png",
+    "docs/vintage-editorial/previews/lien-he-360.png",
+    "docs/vintage-editorial/previews/styles-1440.png",
+    "docs/vintage-editorial/previews/styles-360.png",
+    "scripts/build-editorial-media.mjs",
+    "tests/e2e/vintage-editorial-commerce.spec.ts",
+    "tests/e2e/vintage-editorial.spec.ts",
+    "docs/vintage-editorial/verification.json"
+  ],
+  "limits": [
+    "Generated editorial and boutique photographs are labelled AI concepts, not actual product/customer/store photographs.",
+    "The current contact email is a development address; public phone, address and support hours were not invented.",
+    "Safari and Firefox were not run; browser evidence is Chromium and Microsoft Edge.",
+    "No checkout confirmation, real payment, database migration or seed was performed."
+  ],
+  "priorWorkPreserved": "Previously generated Tee colour assets and manifests retained; covered separately by docs/colour-assets/TEE-20261120.md.",
+  "supersededImageryBy": "docs/vintage-editorial/branded-verification.json"
+}
