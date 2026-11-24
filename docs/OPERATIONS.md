@@ -4,7 +4,7 @@ Môi trường Desktop hiện dùng PostgreSQL/Redis Docker. Xem [đồng bộ, 
 
 ## Tài khoản Admin
 
-Tạo mới bằng `npm run admin:create`, hoặc cấp vai trò ADMIN cho tài khoản đã đăng ký bằng `npm run admin:grant -- email@example.com`. Admin đăng nhập bằng email/mật khẩu, không cần mã xác thực; tài khoản bị khóa vẫn bị chặn. Cấp quyền không thay mật khẩu hay tự xác minh email. Các thao tác nhạy cảm giữ xác thực lại bằng mật khẩu trong 10 phút. Giữ biến `MFA_ENCRYPTION_KEY` vì còn dùng mã hóa email chờ gửi; không cần đổi schema hoặc xóa dữ liệu MFA cũ.
+Tạo mới bằng `npm run admin:create`, hoặc cấp vai trò ADMIN cho tài khoản đã đăng ký bằng `npm run admin:grant -- email@example.com`. Admin đăng nhập bằng email/mật khẩu; nếu tài khoản đã bật 2FA thì phải hoàn thành mã TOTP hoặc mã khôi phục. Tài khoản bị khóa vẫn bị chặn. 2FA là tùy chọn và không tự bật cho tài khoản cũ. Cấp quyền không thay mật khẩu hay tự xác minh email. Các thao tác nhạy cảm giữ xác thực lại bằng mật khẩu trong 10 phút. Giữ biến `MFA_ENCRYPTION_KEY` vì còn dùng mã hóa email chờ gửi; không cần đổi schema hoặc xóa dữ liệu MFA cũ.
 
 ## payOS
 
@@ -59,3 +59,32 @@ docker compose -f infra/compose.yaml cp postgres:/tmp/milo.dump ./milo-backup.du
 Sao lưu upload volume đồng thời, mã hóa backup và tách quyền truy cập. Giữ MFA encryption key trong secret backup riêng để giải mã MFA/email chờ gửi. Đề xuất backup hàng ngày, lưu 7 bản ngày/4 bản tuần/12 bản tháng, rà chính sách lưu trữ thực tế với cửa hàng. Diễn tập restore vào DB mới, kiểm số order/payment/reservation, kiểm checksum ảnh, chạy health/đơn thử trước chuyển kết nối. Không replay webhook hoặc outbox DONE tùy tiện sau restore; đối soát provider trước khi mở bán lại.
 
 Session hết hạn được loại khỏi quyền truy cập ngay cả khi chưa purge; nên job bảo trì xóa Session hết hạn và token used/expired sau 30 ngày, outbox DONE sau kỳ vận hành. Không tự xóa lịch sử order/payment/refund/audit khi chưa có chính sách lưu chứng từ. Chủ shop cần công bố pháp nhân, liên hệ, địa chỉ, thời hạn lưu dữ liệu và quy trình xử lý yêu cầu dữ liệu trước khi bán thật.
+
+
+## Nâng cấp trải nghiệm và vận hành 24/11/2026
+
+Phạm vi triển khai gồm bảng size riêng, mua không tài khoản, nút mua trên mobile, thống kê có đồng ý, theo dõi worker, bàn hỗ trợ và nhập hàng. Các tích hợp Google/Gmail, thanh toán và vận chuyển thật được để lại theo yêu cầu của chủ shop. Không tự bật provider hoặc gọi thử dịch vụ tính phí.
+
+Migration `202611240014_shopping_growth` thêm 12 bảng và cho phép đơn thuộc tài khoản hoặc phiên khách, luôn có đúng một chủ sở hữu. Chỉ triển khai migration sau khi được chủ shop duyệt; kết quả đã được chủ shop duyệt và áp dụng thành công vào database shop được ghi ở `shopping-growth-20261124/migration-application.json`. Không dùng seed để nâng cấp database shop. Bản rehearsal phục hồi vào database mới và đối chiếu checksum của toàn bộ 46 bảng hiện có; không ghi đè shop.
+
+Trong Admin, chọn **Bảng size**, chọn sản phẩm rồi nhập cm từ phép đo thực tế. Mỗi size cần ít nhất một số đo; bảng công bố cần đủ size đang bán. Vòng ngực/eo/mông là số đo vòng. Chiều cao và size người mẫu là tùy chọn, không dùng số liệu AI hoặc số liệu của mẫu khác. Chưa công bố thì khách chỉ thấy hướng dẫn đo và thông báo chưa có số đo riêng.
+
+Khách không tài khoản đặt đơn qua phiên HttpOnly ngẫu nhiên 30 ngày; đường dẫn đơn không đủ để xem đơn ở trình duyệt khác. Nếu mất phiên, cần liên hệ shop; chưa có tra cứu bằng OTP vì dịch vụ email thật chưa bật. Liên kết vào tài khoản cần đúng phiên mua gốc, cùng email đã xác minh và xác thực gần đây. Mã ưu đãi có giới hạn theo tài khoản vẫn yêu cầu đăng nhập. Người bán nhận đơn khách như các đơn khác, giữ quy tắc khóa tự hủy ngay khi duyệt.
+
+**Hành trình mua** đếm sự kiện, không phải người dùng duy nhất; mẫu trình duyệt chỉ ghi sau khi đồng ý và tôn trọng DNT/GPC. Đơn tạo/thanh toán xác nhận được ghi ở transaction phía server và hiển thị nguồn riêng. Không gửi tên, email, ảnh, IP hay URL đầy đủ vào bảng đo trải nghiệm. Báo cáo LCP/INP/CLS là phân bố rating, chưa phải p75 hay Lighthouse. Chưa tự xóa sự kiện hoặc lịch sử kinh doanh khi chưa có chính sách lưu trữ được duyệt.
+
+Bàn hỗ trợ tại `/ho-tro`: khách đăng nhập có thể chọn đơn của mình; khách không tài khoản mở từ trang đơn trong phiên gốc. Nhân viên nhận phụ trách, cập nhật trạng thái hỗ trợ và thêm ghi chú nội bộ. Ghi chú nội bộ bị lọc ở backend. Tin nhắn không tự duyệt đổi trả hoặc hoàn tiền; vẫn dùng nghiệp vụ hiện có. Danh sách khách tối đa 100 yêu cầu, danh sách nhân viên có nút Trước/Sau, 50 yêu cầu/trang.
+
+**Nhập hàng** chỉ dành cho Admin. Tạo nhà cung cấp thật, nhập số chứng từ và các SKU nhận thực tế. Lưu nháp chưa cộng kho; xác nhận cộng toàn bộ phiếu bằng transaction, tạo lịch sử kho và chống cộng lặp. Giá vốn ghi trên phiếu để đối chiếu, chưa tự cập nhật giá vốn sản phẩm, giá bán hoặc kế toán bình quân. Chưa có hủy/đảo phiếu đã xác nhận; cần quy trình điều chỉnh có chứng từ riêng. Người bán xem danh sách SKU chạm ngưỡng, không được xem giá vốn phiếu.
+
+**Vận hành** kiểm tra DB/Redis, heartbeat worker, job lỗi/chậm, giao dịch ngoại lệ và backup gần nhất. Worker tạo thông báo nội bộ cho mỗi đợt cảnh báo; khắc phục rồi tái diễn mới mở đợt tiếp. Chưa gửi cảnh báo ra email/SMS và chưa thay thế giám sát máy chủ.
+
+### Backup mã hóa — chưa bật lịch
+
+Chủ shop chưa có đích backup ngoài dự án, vì vậy `BACKUP_DESTINATION` và `BACKUP_ENCRYPTION_KEY` để trống và chưa tạo lịch. Công cụ không tự mua dung lượng, upload, xoay vòng hoặc xóa backup.
+
+Khi có ổ lưu/NAS được duyệt, cấu hình kín đường dẫn tuyệt đối ngoài dự án và khóa hex 32 byte ngẫu nhiên. Cất khóa riêng với bản sao; mất khóa sẽ không giải mã được. Chạy `npm run db:backup:encrypted` để nhận file AES-256-GCM `.milobak` và checksum SHA-256. Công cụ hiện dùng PostgreSQL Docker của workspace. Đường dẫn ngoài dự án không bảo đảm là một ổ vật lý độc lập; cần kiểm tra hạ tầng thực tế.
+
+Giải mã bằng `node scripts/managed-backup.mjs decrypt <file.milobak> <file.dump>` vào file mới, sau đó `npm run db:restore -- <file.dump> --database <ten_database_moi>`. Không giải mã đè file sẵn có hoặc phục hồi đè shop. Bản `.dump` đã giải mã là dữ liệu nhạy cảm; bảo vệ như database. Báo trạng thái backup không đánh dấu đã diễn tập restore nếu chưa có bằng chứng. Công cụ chỉ sao lưu database, chưa tự sao lưu ảnh/upload hoặc secret.
+
+Workflow `.github/workflows/quality.yml` chuẩn bị kiểm tra trên pull request hoặc chạy thủ công, ghim action bằng commit và chỉ dùng mock/khóa test. Chưa push hoặc chạy workflow trên GitHub. SEO `ProductGroup` dùng SKU, màu, size, giá và tồn từng biến thể; không tự thêm đánh giá, phí vận chuyển hoặc điều khoản đổi trả vào structured data khi chưa có cấu hình xác nhận.

@@ -17,6 +17,7 @@ import {
   production,
   AuthGuard,
   AdminGuard,
+  SellerGuard,
 } from "./core";
 import { AuthController, MeController } from "./auth";
 import { RecommendationsController } from "./recommendations";
@@ -32,18 +33,31 @@ import { AttachmentsController } from "./attachments";
 import { describeApi } from "./openapi";
 import { ExchangeController, AdminExchangeController } from "./exchanges";
 import { ShippingController } from "./shipping";
+import { TryOnController } from "./try-on";
+import { AvatarController } from './avatar';
+import { SellerController } from './seller';
+import { PackingController } from './packing';
+import { TwoFactorController } from './two-factor';
+import { GoogleAuthController } from './google-auth';
+import { PasswordRecoveryController } from './password-recovery';
+import { RealtimeHub, RealtimeController } from './realtime';
+import { GuestCheckoutController } from './guest-checkout';
+import { ExperienceController, ExperienceAdminController } from './experience';
+import { SupportController, SellerSupportController } from './customer-support';
+import { PurchasingController } from './purchasing';
+import { OperationsController } from './operations-health';
 import { proxyTrust, validateRuntimeConfig } from "./security-policy";
 @Global()
 @Module({
-  providers: [Db, AuthGuard, AdminGuard, CatalogCache],
-  exports: [Db, AuthGuard, AdminGuard, CatalogCache],
+  providers: [Db, AuthGuard, AdminGuard, SellerGuard, CatalogCache, RealtimeHub],
+  exports: [Db, AuthGuard, AdminGuard, SellerGuard, CatalogCache, RealtimeHub],
 })
 class CoreModule {}
 @Module({
-  controllers: [AuthController, MeController, RecommendationsController],
+  controllers: [AuthController, MeController, RecommendationsController, AvatarController, TwoFactorController, GoogleAuthController, PasswordRecoveryController, RealtimeController],
 })
 class AuthModule {}
-@Module({ controllers: [CatalogController, ShippingController] })
+@Module({ controllers: [CatalogController, ShippingController, TryOnController, ExperienceController, SupportController] })
 class CatalogModule {}
 @Global()
 @Module({
@@ -53,14 +67,17 @@ class CatalogModule {}
     WebhookController,
     ExchangeController,
     AttachmentsController,
+    GuestCheckoutController,
   ],
   exports: [CommerceService],
 })
 class CommerceModule {}
-@Module({ controllers: [AdminController, AdminExchangeController, InventoryController] })
+@Module({ controllers: [AdminController, AdminExchangeController, InventoryController, ExperienceAdminController, PurchasingController, OperationsController] })
 class AdminModule {}
+@Module({ controllers: [SellerController, PackingController, SellerSupportController] })
+class SellerModule {}
 @Module({
-  imports: [CoreModule, AuthModule, CatalogModule, CommerceModule, AdminModule],
+  imports: [CoreModule, AuthModule, CatalogModule, CommerceModule, AdminModule, SellerModule],
 })
 class AppModule {}
 async function bootstrap() {
@@ -117,7 +134,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle("MILOSHOPHAND API")
     .setDescription(
-      "REST /api/v1. Session cookie + X-CSRF-Token cho mutation. Tiền VND nguyên; lỗi {code,message,fieldErrors,requestId}. Mock chỉ development.",
+      "REST /api/v1. JWT HttpOnly cookie (15 phút) + refresh cookie xoay vòng; X-CSRF-Token và Origin cho mutation. Phiên cũ còn hiệu lực được giữ tương thích. Tiền VND nguyên; lỗi {code,message,fieldErrors,requestId}. Mock chỉ development.",
     )
     .setVersion("1.0.0")
     .addCookieAuth("milo_sid")

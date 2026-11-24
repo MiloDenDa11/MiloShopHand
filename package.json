@@ -32,7 +32,7 @@
     "admin:create": "tsx --tsconfig apps/api/tsconfig.json scripts/admin.ts",
     "admin:grant": "tsx --tsconfig apps/api/tsconfig.json scripts/admin.ts --grant",
     "setup": "node scripts/setup.mjs",
-    "test": "tsx --test tests/domain.test.ts tests/media.test.ts tests/photo-spin.test.ts tests/display-spin.test.ts tests/garment-palette.test.ts tests/try-on.test.ts tests/security.test.ts tests/polo-catalog.test.ts && node --test tests/sync-project.test.mjs tests/garment-geometry.test.mjs tests/local-services.test.mjs",
+    "test": "tsx --test tests/domain.test.ts tests/media.test.ts tests/photo-spin.test.ts tests/display-spin.test.ts tests/garment-palette.test.ts tests/try-on.test.ts tests/try-on-api.test.ts tests/security.test.ts tests/polo-catalog.test.ts && node --test tests/sync-project.test.mjs tests/garment-geometry.test.mjs tests/local-services.test.mjs",
     "assets:rotation:verify": "tsx scripts/audit-rotation-coverage.ts --require-all",
     "assets:rotation:smoke": "node scripts/smoke-rotation-coverage.mjs",
     "assets:photos": "node scripts/build-photo-spin-manifest.mjs && node scripts/build-product-media.mjs",
@@ -44,6 +44,13 @@
     "security:scan": "node scripts/security-scan.mjs --history",
     "test:security": "tsx --test tests/security.test.ts && node scripts/test-integration.mjs",
     "test:e2e": "node scripts/redesign-preview.mjs --test",
+    "test:try-on": "node scripts/test-try-on.mjs",
+    "test:try-on:api": "node scripts/test-try-on-api.mjs",
+    "test:commerce-upgrade": "node scripts/test-try-on-api.mjs --commerce",
+    "test:seller-ops": "node scripts/test-try-on-api.mjs --seller-ops",
+    "test:auth-upgrade": "node scripts/test-try-on-api.mjs --auth-upgrade",
+    "test:fulfillment": "node scripts/test-try-on-api.mjs --fulfillment",
+    "test:shopping-growth": "node scripts/test-try-on-api.mjs --shopping-growth",
     "test:e2e:production": "node scripts/redesign-preview.mjs --production --test",
     "dev:preview": "node scripts/redesign-preview.mjs",
     "db:local": "node scripts/local-db.mjs",
@@ -53,6 +60,7 @@
     "infra:status": "docker compose --env-file .env -f infra/compose.yaml ps postgres redis",
     "infra:logs": "docker compose --env-file .env -f infra/compose.yaml logs --tail=100 postgres redis",
     "db:backup": "node scripts/docker-db.mjs backup",
+    "db:backup:encrypted": "node scripts/managed-backup.mjs backup",
     "db:restore": "node scripts/docker-db.mjs restore",
     "sync:project": "node scripts/sync-project.mjs"
   },
@@ -72,6 +80,9 @@
     "typescript": "5.9.3"
   },
   "overrides": {
-    "deepmerge-ts": "8.0.0"
+    "deepmerge-ts": "8.0.0",
+    "@prisma/config": {
+      "effect": "3.22.1"
+    }
   }
 }

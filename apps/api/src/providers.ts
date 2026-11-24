@@ -14,7 +14,7 @@ export class MockPaymentProvider implements PaymentProvider {
   async create(p: any, o: any) {
     return {
       linkId: `mock-${p.id}`,
-      checkoutUrl: `${env.APP_URL}/don-hang/${o.id}`,
+      checkoutUrl: `${env.APP_URL}/${o.userId ? 'don-hang' : 'don-khach'}/${o.id}`,
       qrData: `MILOSHOPHAND DEVELOPMENT ONLY ${o.code} ${p.amount} VND`,
     };
   }
@@ -61,8 +61,8 @@ export class PayosProvider implements PaymentProvider {
       orderCode: Number(p.providerCode),
       amount: p.amount,
       description: o.code.slice(-25),
-      returnUrl: `${env.APP_URL}/don-hang/${o.id}`,
-      cancelUrl: `${env.APP_URL}/don-hang/${o.id}`,
+      returnUrl: `${env.APP_URL}/${o.userId ? 'don-hang' : 'don-khach'}/${o.id}`,
+      cancelUrl: `${env.APP_URL}/${o.userId ? 'don-hang' : 'don-khach'}/${o.id}`,
       expiredAt: Math.floor(p.expiresAt.getTime() / 1000),
     });
     return {

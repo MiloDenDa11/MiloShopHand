@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import { AuthForm } from "../../components/account";
-export const metadata = { title: "T?i kho?n", robots: { index: false } };
+import { PasswordRecovery } from '../../components/password-recovery';
+export const metadata = { title: 'Khôi phục tài khoản', robots: { index: false } };
 export default function Page() {
   return (
-    <Suspense fallback={<p>?ang t?i?</p>}>
-      <AuthForm mode="forgot" />
+    <Suspense fallback={<p>Đang tải…</p>}>
+      <PasswordRecovery />
     </Suspense>
   );
 }

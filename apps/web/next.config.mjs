@@ -3,6 +3,8 @@ config({ path: "../../.env" });
 export default {
   poweredByHeader: false,
   devIndicators: false,
+  // OAuth authorization codes and legacy recovery tokens are URL credentials.
+  logging: { incomingRequests: { ignore: [/^\/api\/v1\/auth\/google\/callback(?:\?|$)/, /^\/dat-lai-mat-khau(?:\?|$)/, /^\/xac-minh(?:\?|$)/] } },
   distDir: process.env.NEXT_BUILD_DIR || ".next",
   transpilePackages: ["@milo/shared"],
   images: {

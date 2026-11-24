@@ -13,6 +13,7 @@ node_modules/
 .next-redesign-production/
 .next-vintage-qa/
 .next-vintage-final/
+.next-try-on-test/
 .next-benchmark/
 .next-performance-*/
 dist/

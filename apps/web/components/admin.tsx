@@ -1,4 +1,5 @@
 "use client";
+import {GrowthAdmin} from "./growth-admin";
 import { Select } from "./ui/select";
 import { useState, useEffect, useRef, FormEvent } from "react";
 import { AdminDialog as Modal } from "./ui/admin-dialog";
@@ -25,11 +26,13 @@ import { BannerFields } from "./configured-banners";
 import { ProductPhoto } from "./product-media";
 import { miloDesignText } from "../lib/milo-design";
 import { isUnreleasedDesign } from "../lib/product-preview";
+const growthTabs=["size-guides","metrics","operations","purchasing"];
 const menus = [
   ["dashboard", "Tổng quan"],
   ["orders", "Đơn hàng"],
   ["products", "Sản phẩm"],
   ["inventory", "Tồn kho"],
+  ["size-guides", "Bảng size"], ["metrics", "Hành trình mua"], ["operations", "Vận hành"], ["purchasing", "Nhập hàng"],
   ["categories", "Danh mục"],
   ["collections", "Bộ sưu tập"],
   ["styles", "Tag phong cách"],
@@ -46,7 +49,7 @@ const menus = [
   ["security", "Xác thực lại"],
 ];
 const menuIcons: Record<string, typeof Package> = {
-  dashboard: LayoutDashboard, orders: ShoppingBag, products: Package, inventory: Boxes,
+  "size-guides": Package, metrics: LayoutDashboard, operations: Workflow, purchasing: Boxes, dashboard: LayoutDashboard, orders: ShoppingBag, products: Package, inventory: Boxes,
   categories: Tag, collections: Layers3, styles: Tags, coupons: TicketPercent,
   payments: CreditCard, refunds: Banknote, returns: RotateCcw, exchanges: ArrowLeftRight,
   users: Users, reviews: Star, settings: Settings2, audit: ScrollText, jobs: Workflow, security: ShieldCheck,
@@ -126,7 +129,7 @@ function AdminWorkspace() {
             : ["products", "inventory"].includes(tab)
               ? `/admin/${tab}`
               : `/admin/data/${tab}`;
-      if (!["security", "exchanges", "inventory"].includes(tab)) {
+      if (!["security", "exchanges", "inventory", ...growthTabs].includes(tab)) {
         const result = await api(path);
         if (version === requestVersion.current && currentTab.current === tab) { setData(result); setLoadedFor(tab); }
       }
@@ -301,8 +304,8 @@ function AdminWorkspace() {
                       <p>{date(o.createdAt)}</p>
                     </>,
                     <>
-                      {o.user.name}
-                      <p>{o.user.email}</p>
+                      {o.user?.name || o.address?.recipient || 'Khách mua không tài khoản'}
+                      <p>{o.user?.email || 'Đơn mua không tài khoản'}</p>
                       <p>{o.address.phone}</p>
                     </>,
                     <span className="badge" data-status={o.status}>{statusText(o.status)}</span>,
@@ -513,7 +516,7 @@ function AdminWorkspace() {
                   u.role,
                   u.verifiedAt ? "Đã xác minh" : "Chờ xác minh",
                   u.disabled ? "Đã khóa" : "Hoạt động",
-                  <button
+                  <><button
                     onClick={() =>
                       act(
                         `/admin/users/${u.id}`,
@@ -523,7 +526,7 @@ function AdminWorkspace() {
                     }
                   >
                     {u.disabled ? "Mở khóa" : "Khóa tài khoản"}
-                  </button>,
+                  </button>{u.role !== 'ADMIN' && <button onClick={() => act(`/admin/users/${u.id}/role`, { role: u.role === 'SELLER' ? 'USER' : 'SELLER' }, 'PATCH')}>{u.role === 'SELLER' ? 'Thu hồi quyền Người bán' : 'Cấp quyền Người bán'}</button>}</>,
                 ])}
               />
             )}
@@ -604,6 +607,7 @@ function AdminWorkspace() {
                 onSave={(d) => act("/admin/settings", d)}
               />
             )}
+            {growthTabs.includes(tab) && <GrowthAdmin key={tab} tab={tab}/>}
             {tab === "exchanges" && <AdminExchanges />}
             {tab === "security" && (
               <div className="admin-panel">
@@ -1438,7 +1442,7 @@ function AdminAction({
       <>
         <div className="admin-order-address">
           <b>
-            {i.user.name} · {i.user.email}
+            {i.user?.name || i.address?.recipient || 'Khách mua không tài khoản'} · {i.user?.email || ''}
           </b>
           <p>
             {i.address.recipient} · {i.address.phone}

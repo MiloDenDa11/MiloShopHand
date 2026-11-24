@@ -17,8 +17,15 @@ import {
 import { CommerceService } from "../../api/src/commerce";
 import { payments, shipping } from "../../api/src/providers";
 import { validateRuntimeConfig } from "../../api/src/security-policy";
+import { TryOnService } from "../../api/src/try-on-service";
+import { cloudinaryAvatars } from '../../api/src/avatar';
+import { SellerOperations } from '../../api/src/seller-operations';
+import { OperationsMonitor, workerHeartbeatKey } from '../../api/src/operations-health';
+import { TRY_ON_KIND } from "../../api/src/try-on-policy";
 const db = new Db();
 const commerce = new CommerceService(db);
+const tryOn = new TryOnService(db);
+const sellerOperations = new SellerOperations(db);
 const redis = new Redis(env.REDIS_URL || "redis://localhost:6379", {
   maxRetriesPerRequest: null,
   lazyConnect: true,
@@ -26,6 +33,10 @@ const redis = new Redis(env.REDIS_URL || "redis://localhost:6379", {
 });
 redis.on("error", () => {});
 async function email(data: any) {
+  if (data.recoveryChallengeId) {
+    const challenge = await db.passwordRecovery.findUnique({ where: { id: data.recoveryChallengeId } });
+    if (!challenge || challenge.consumedAt || challenge.verifiedAt || challenge.expiresAt <= new Date()) return;
+  }
   const text = data.encryptedText ? unseal(data.encryptedText) : data.text;
   if (env.EMAIL_PROVIDER === "file" && !production) {
     const dir = resolve(projectRoot, ".local/mail");
@@ -46,11 +57,11 @@ async function email(data: any) {
       : undefined,
     connectionTimeout: 10000,
     socketTimeout: 15000,
-    requireTLS: production && env.SMTP_SECURE !== 'true',
+    requireTLS: (production || env.SMTP_HOST === 'smtp.gmail.com') && env.SMTP_SECURE !== 'true',
     tls: { minVersion: 'TLSv1.2', rejectUnauthorized: true },
   });
   await transport.sendMail({
-    from: env.MAIL_FROM,
+    from: env.SMTP_HOST === 'smtp.gmail.com' && env.SMTP_USER ? { name: env.BRAND_NAME || 'MiloShopHand', address: env.SMTP_USER } : env.MAIL_FROM,
     to: data.to,
     subject: data.subject,
     text,
@@ -59,7 +70,8 @@ async function email(data: any) {
 }
 async function handle(event: any) {
   const data = event.payload as any;
-  if (event.kind === "EMAIL") await email({ ...data, eventId: event.id });
+  if (event.kind === 'AVATAR_DELETE') await cloudinaryAvatars().remove(data.publicId);
+  else if (event.kind === "EMAIL") await email({ ...data, eventId: event.id });
   else if (event.kind === "PAYMENT_CREATE") {
     const o = await db.order.findUniqueOrThrow({
       where: { id: data.orderId },
@@ -252,20 +264,21 @@ async function handle(event: any) {
     await transaction(db, async (tx) => {
       const o = await tx.order.findUniqueOrThrow({
         where: { id: data.orderId },
-        include: { user: { select: { email: true } } },
+        include: { user: { select: { email: true } }, guestContact: { select: {email:true} } },
       });
-      await tx.notification.upsert({
+      if (o.userId) await tx.notification.upsert({
         where: { key: event.key },
         create: {
           key: event.key,
           userId: o.userId,
           title: data.title,
           body: data.body,
+            href: `/don-hang/${o.id}`,
         },
         update: {},
       });
       await outbox(tx, "EMAIL", `email:${event.key}`, {
-        to: o.user.email,
+        to: o.user?.email || o.guestContact?.email,
         subject: data.title,
         text: data.body,
       });
@@ -279,6 +292,9 @@ async function handle(event: any) {
 async function execute(id: string) {
   const e = await db.outboxEvent.findUnique({ where: { id } });
   if (!e || e.status === "DONE") return;
+  // Image requests have their own at-most-once state machine. Never let the
+  // generic outbox/BullMQ retry loop send another billable request.
+  if (e.kind === TRY_ON_KIND) { await tryOn.execute(e.id); return; }
   const claimed = await db.outboxEvent.updateMany({
     where: {
       id,
@@ -327,7 +343,7 @@ async function dispatch() {
   polling = true;
   try {
     await db.outboxEvent.updateMany({
-      where: { status: "RUNNING", nextAttemptAt: { lt: new Date() } },
+      where: { kind: { not: TRY_ON_KIND }, status: "RUNNING", nextAttemptAt: { lt: new Date() } },
       data: { status: "PENDING" },
     });
     const events = await db.outboxEvent.findMany({
@@ -345,7 +361,7 @@ async function dispatch() {
           { id: e.id },
           {
             jobId: `${e.id}-${e.attempts}`,
-            attempts: 5,
+            attempts: e.kind === TRY_ON_KIND ? 1 : 5,
             backoff: { type: "exponential", delay: 3000 },
             removeOnComplete: true,
             removeOnFail: 100,
@@ -372,6 +388,11 @@ async function expiry() {
   if (expiring) return;
   expiring = true;
   try {
+    await tryOn.maintenance().catch(() => console.warn(JSON.stringify({ event: 'try_on_cleanup_failed' })));
+    await sellerOperations.reminders().catch(() => console.warn(JSON.stringify({ event: 'seller_reminders_failed' })));
+    await db.storeSetting.deleteMany({ where: { key: { startsWith: 'mfa-setup:' }, value: { path: ['expiresAt'], lt: Date.now() } } });
+    await db.storeSetting.deleteMany({ where: { key: { startsWith: 'google-state:' }, value: { path: ['expiresAt'], lt: Date.now() } } });
+    await db.passwordRecovery.deleteMany({ where: { expiresAt: { lt: new Date(Date.now() - 86400000) } } }).catch(() => console.warn(JSON.stringify({ event: 'password_recovery_cleanup_failed' })));
     const orders = await db.order.findMany({
       where: {
         status: { in: ["PENDING_PAYMENT", "PENDING_CONFIRMATION"] },
@@ -505,14 +526,20 @@ async function main() {
     );
   }
   console.log("Worker ready");
+  const heartbeat=async()=>{await db.storeSetting.upsert({where:{key:workerHeartbeatKey},create:{key:workerHeartbeatKey,value:{at:new Date().toISOString()}},update:{value:{at:new Date().toISOString()}}});};
+  await heartbeat();
+  const operationsMonitor=new OperationsMonitor(db);
   await dispatch();
   await expiry();
   const a = setInterval(dispatch, 3000),
-    b = setInterval(expiry, 30000);
+    b = setInterval(expiry, 30000),
+    c = setInterval(()=>void heartbeat().catch(()=>console.warn(JSON.stringify({event:'worker_heartbeat_failed'}))),30000),
+    d = setInterval(()=>void operationsMonitor.sample().catch(()=>console.warn(JSON.stringify({event:'operations_sample_failed'}))),60000);
   for (const signal of ["SIGINT", "SIGTERM"])
     process.on(signal, async () => {
       clearInterval(a);
       clearInterval(b);
+      clearInterval(c); clearInterval(d);
       await worker?.close();
       await queue?.close();
       redis.disconnect();

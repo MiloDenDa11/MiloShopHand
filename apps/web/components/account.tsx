@@ -26,6 +26,11 @@ import { ProductPhoto, realProductImages } from "./product-media";
 import { ReturnPhotos } from "./return-photos";
 import { MyExchanges } from "./exchanges";
 import { safeLocalRedirect } from "../../../packages/shared/src/security";
+import { cancellationReasons, buyerCanCancel } from '../../../packages/shared/src';
+import { AvatarEditor } from './avatar-editor';
+import { AdminDialog } from './ui/admin-dialog';
+import { TwoFactorSettings } from './two-factor-settings';
+import { GoogleSignIn, GoogleLoginFinish, GoogleAccountSettings, googleMessages } from './google-sign-in';
 const labels: Record<string, string> = {
   PENDING_PAYMENT: "Chờ thanh toán",
   PENDING_CONFIRMATION: "Chờ xác nhận",
@@ -75,6 +80,7 @@ export function AuthForm({
     [error, setError] = useState(""),
     [message, setMessage] = useState(""),
     [fields, setFields] = useState<any>({});
+  const [otpRequired, setOtpRequired] = useState(false);
   const titles = {
     login: "Chào bạn, lại là Milo.",
     register: "Bắt đầu chất riêng.",
@@ -94,6 +100,7 @@ export function AuthForm({
         data = {
           email: f.get("email"),
           password: f.get("password"),
+          ...(f.get('otp') ? { otp: f.get('otp') } : {}),
         };
         path = "/auth/login";
       } else if (mode === "register") {
@@ -124,10 +131,12 @@ export function AuthForm({
     } catch (e: any) {
       setError(e.message);
       setFields(e.fieldErrors || {});
+      if (['MFA_REQUIRED', 'MFA_INVALID'].includes(e.code)) setOtpRequired(true);
     } finally {
       setBusy(false);
     }
   }
+  if (mode === 'login' && params.get('google_step') === 'verify') return <GoogleLoginFinish next={params.get('next')} />;
   return (
     <div className="auth-layout container">
       <div className="auth-art">
@@ -156,6 +165,8 @@ export function AuthForm({
               ? "Tạo tài khoản. Xác minh email. Sẵn sàng lên đồ."
               : "Bảo vệ tài khoản của bạn bằng các bước xác minh an toàn."}
         </p>
+        {['login', 'register'].includes(mode) && <><GoogleSignIn next={params.get('next')} /><div className="auth-divider"><span>hoặc dùng tài khoản Milo</span></div></>}
+        {params.get('google_error') && <ErrorBox message={googleMessages[params.get('google_error')!] || 'Chưa hoàn tất đăng nhập Google. Vui lòng thử lại.'} />}
         {message ? (
           <div className="success-box" role="status">
             <Check />
@@ -221,6 +232,9 @@ export function AuthForm({
               </label>
             )}
             {mode === "login" && (
+              <><button type="button" className="text-link small" onClick={() => setOtpRequired(value => !value)}>{otpRequired ? 'Ẩn ô mã xác thực' : 'Tôi dùng xác thực 2 bước'}</button>{otpRequired && <label>Mã 2FA hoặc mã khôi phục<input name="otp" autoComplete="one-time-code" maxLength={100} required /></label>}</>
+            )}
+            {mode === "login" && (
               <Link className="text-link small" href="/quen-mat-khau">
                 Quên mật khẩu?
               </Link>
@@ -281,6 +295,10 @@ export function Account() {
     ["notifications", "Thông báo", Bell],
     ["security", "Bảo mật", LockKeyhole],
   ] as const;
+  useEffect(() => { if (new URLSearchParams(window.location.search).get('google_linked') === '1') { setTab('security'); notify('Đã liên kết Google.'); } }, []);
+  useEffect(() => { if (new URLSearchParams(window.location.search).get('tab') === 'notifications') setTab('notifications'); }, []);
+  useEffect(() => { const open = () => setTab('notifications'); window.addEventListener('milo:notifications-open', open); return () => window.removeEventListener('milo:notifications-open', open); }, []);
+  useEffect(() => { const refresh = (event: Event) => { const value = (event as CustomEvent).detail; if ((tab === 'notifications' && ['notifications','resync'].includes(value.kind)) || (tab === 'orders' && ['orders','resync'].includes(value.kind))) void load(); }; window.addEventListener('milo:change', refresh); return () => window.removeEventListener('milo:change', refresh); }, [tab, user?.id]);
   async function load() {
     setError("");
     if (["profile", "security", "recent"].includes(tab)) {
@@ -350,7 +368,8 @@ export function Account() {
     <div className="container section">
       <p className="eyebrow">YOUR PERSONAL SPACE</p>
       <div className="row between">
-        <div className="account-greeting"><span className="account-avatar" aria-hidden="true">{user.name.trim().split(/\s+/).slice(0,2).map((part: string) => part[0]).join("").toUpperCase()}</span><h1>Xin chào, {user.name.split(" ").at(-1)}.</h1></div>
+        <div className="account-greeting"><span className="account-avatar" aria-hidden="true">{user.avatarUrl ? <img src={user.avatarUrl} alt="" width={56} height={56} referrerPolicy="no-referrer" /> : user.name.trim().split(/\s+/).slice(0,2).map((part: string) => part[0]).join("").toUpperCase()}</span><h1>Xin chào, {user.name.split(" ").at(-1)}.</h1></div>
+        {['ADMIN', 'SELLER'].includes(user.role) && <Link className="button secondary" href="/nguoi-ban">Khu vực người bán <ArrowUpRight size={17} /></Link>}
         {user.role === "ADMIN" && (
           <Link className="button secondary" href="/admin">
             Trang quản trị <ArrowUpRight size={17} />
@@ -382,7 +401,7 @@ export function Account() {
           {error && <ErrorBox message={error} retry={load} />}
           <h2>{tabs.find((t) => t[0] === tab)?.[1]}</h2>
           {tab === "profile" && (
-            <form onSubmit={profile}>
+            <><AvatarEditor /><form onSubmit={profile}>
               <p className="small">
                 {user.email} ·{" "}
                 {user.verifiedAt
@@ -444,7 +463,7 @@ export function Account() {
                   </Link>
                 </p>
               )}
-            </form>
+            </form></>
           )}
           {tab === "orders" &&
             data &&
@@ -609,6 +628,7 @@ export function Account() {
                   <div>
                     <b>{n.title}</b>
                     <p>{n.body}</p>
+                      {n.href && n.href.startsWith('/') && !n.href.startsWith('//') && <Link className="text-link" href={n.href}>Xem chi tiết <ArrowRight size={14} /></Link>}
                     <small>{date(n.createdAt)}</small>
                   </div>
                 </div>
@@ -635,6 +655,7 @@ export function SecurityForm() {
           try {
             await send("/auth/reauth", {
               password: f.get("password"),
+              ...(f.get('otp') ? { otp: f.get('otp') } : {}),
             });
             notify("Đã xác thực lại trong 10 phút.");
           } catch (e: any) {
@@ -652,6 +673,7 @@ export function SecurityForm() {
             required
           />
         </label>
+        <label>Mã 2FA hoặc mã khôi phục (nếu đã bật)<input name="otp" autoComplete="one-time-code" maxLength={100} /></label>
         <button className="button secondary">Xác thực lại</button>
       </form>
       <form
@@ -695,6 +717,8 @@ export function SecurityForm() {
         <button className="button">Lưu mật khẩu mới</button>
       </form>
       {error && <ErrorBox message={error} />}
+      <TwoFactorSettings />
+      <GoogleAccountSettings />
     </>
   );
 }
@@ -798,23 +822,26 @@ function AddressForm({ onSaved }: { onSaved: () => void }) {
     </details>
   );
 }
-export function OrderDetail({ id }: { id: string }) {
-  const { data: o, error, loading, retry } = useResource(`/orders/${id}`);
-  const { notify } = useShop();
+export function OrderDetail({ id, guest=false }: { id: string; guest?: boolean }) {
+  const basePath=guest?"/guest/orders":"/orders";
+  const { data:o,error,loading,retry }=useResource(`${basePath}/${id}`);
+  const {notify,user}=useShop();
   const [checking, setChecking] = useState(true);
+  const [cancelling, setCancelling] = useState(false), [cancelBusy, setCancelBusy] = useState(false), [cancelError, setCancelError] = useState('');
+  useEffect(() => { let timer: ReturnType<typeof setTimeout>; const refresh = (event: Event) => { const value = (event as CustomEvent).detail; if (value.kind === 'resync' || value.kind === 'orders' && value.orderId === id) { clearTimeout(timer); timer = setTimeout(retry, 200); } }; window.addEventListener('milo:change', refresh); return () => { clearTimeout(timer); window.removeEventListener('milo:change', refresh); }; }, [id]);
   useEffect(() => {
-    if (!o || o.payment?.status !== "PENDING") return;
+    if (!o || ['COMPLETED', 'CANCELLED'].includes(o.status)) return;
     let count = 0;
     const timer = setInterval(() => {
-      if (++count >= 60) {
+      if (++count >= 60 && o.payment?.status === 'PENDING') {
         clearInterval(timer);
         setChecking(false);
         return;
       }
-      retry();
-    }, 5000);
+      if (document.visibilityState === 'visible') retry();
+    }, o.payment?.status === 'PENDING' ? 5000 : 15000);
     return () => clearInterval(timer);
-  }, [o?.payment?.status, id]);
+  }, [o?.payment?.status, o?.status, id]);
   if (loading && !o)
     return <div className="container section">Đang tải đơn hàng…</div>;
   if (error)
@@ -826,6 +853,8 @@ export function OrderDetail({ id }: { id: string }) {
   if (!o) return null;
   return (
     <div className="container section order-detail">
+      {guest&&<div className="form-panel"><h2>Đơn mua không tài khoản</h2><p>Giữ lại trình duyệt này để tra cứu. Mã đơn một mình không cấp quyền xem dữ liệu.</p>{user?<button className="button secondary" onClick={async()=>{try{await send(`/guest/orders/${id}/claim`,{});location.assign(`/don-hang/${id}`);}catch(error:any){notify(error.message);}}}>Liên kết vào tài khoản đã xác minh đúng email</button>:<Link className="text-link" href={`/dang-nhap?next=${encodeURIComponent(`/don-khach/${id}`)}`}>Đăng nhập để lưu đơn vào tài khoản</Link>}</div>}
+      <p><Link className="text-link" href={`/ho-tro?order=${encodeURIComponent(id)}`}>Cần hỗ trợ về đơn hàng này →</Link></p>
       <div className="breadcrumb">
         <Link href="/tai-khoan">Tài khoản</Link>
         <span>/</span>
@@ -839,6 +868,19 @@ export function OrderDetail({ id }: { id: string }) {
         </div>
         <span className="badge large-badge" data-status={o.status}>{statusText(o.status)}</span>
       </div>
+      {cancelling && <AdminDialog title="Hủy đơn hàng" busy={cancelBusy} onClose={() => setCancelling(false)}>
+        <p>Chọn lý do để Milo ghi nhận. Bạn chỉ có thể hủy trước khi người bán duyệt đơn.</p>
+        <form onSubmit={async event => {
+          event.preventDefault(); const data = new FormData(event.currentTarget); setCancelBusy(true); setCancelError('');
+          try { await send(`${basePath}/${id}/cancel`, { reasonCode: data.get('reasonCode'), detail: data.get('detail') || '' }); setCancelling(false); notify('Đã hủy đơn và giải phóng hàng đang giữ. Nếu đã thanh toán, yêu cầu hoàn tiền sẽ được xử lý riêng.'); retry(); }
+          catch (error: any) { setCancelError(error.message); retry(); } finally { setCancelBusy(false); }
+        }}>
+          <label>Lý do hủy<Select name="reasonCode" required defaultValue=""><option value="" disabled>Chọn lý do</option>{Object.entries(cancellationReasons).map(([code, label]) => <option key={code} value={code}>{label}</option>)}</Select></label>
+          <label>Ghi chú thêm (bắt buộc với lý do khác)<textarea name="detail" maxLength={300} rows={3} /></label>
+          {cancelError && <ErrorBox message={cancelError} />}<button className="button" disabled={cancelBusy || !buyerCanCancel(o.status)}>Xác nhận hủy đơn</button>
+          {!buyerCanCancel(o.status) && <p role="alert">Đơn vừa được duyệt. Vui lòng đóng cửa sổ này và liên hệ Milo để được hỗ trợ.</p>}
+        </form>
+      </AdminDialog>}
       <div className="checkout-layout">
         <section>
           <div className="form-panel">
@@ -855,22 +897,16 @@ export function OrderDetail({ id }: { id: string }) {
                 </li>
               ))}
             </ol>
-            {["PENDING_PAYMENT", "PENDING_CONFIRMATION"].includes(o.status) && (
+            {buyerCanCancel(o.status) && (
               <button
                 className="button secondary"
-                onClick={async () => {
-                  try {
-                    await send(`/orders/${id}/cancel`, {});
-                    notify("Đã hủy đơn và giải phóng hàng đang giữ.");
-                    retry();
-                  } catch (e: any) {
-                    notify(e.message);
-                  }
-                }}
+                onClick={() => { setCancelError(''); setCancelling(true); }}
               >
                 Hủy đơn hàng
               </button>
             )}
+            {!buyerCanCancel(o.status) && !['CANCELLED', 'COMPLETED'].includes(o.status) && <p className="small muted">Đơn đã được người bán duyệt nên không thể tự hủy. Bạn có thể liên hệ Milo nếu cần hỗ trợ.</p>}
+            {o.status === 'DELIVERED' && <button type="button" className="button" disabled={cancelBusy} onClick={async () => { setCancelBusy(true); try { await send(`${basePath}/${id}/complete`, {}); notify('Cảm ơn bạn đã xác nhận nhận hàng.'); retry(); } catch (error: any) { notify(error.message); } finally { setCancelBusy(false); } }}>Tôi đã nhận được hàng</button>}
           </div>
           {o.method === "QR" && (
             <div className="form-panel payment-panel">
@@ -994,7 +1030,7 @@ export function OrderDetail({ id }: { id: string }) {
             ))}
           </div>
           {["DELIVERED", "COMPLETED"].includes(o.status) && (
-            <ReturnForm order={o} onSaved={retry} />
+            guest ? <Link className="button secondary" href={`/ho-tro?order=${encodeURIComponent(id)}`}>Gửi yêu cầu đổi trả cho Milo</Link> : <ReturnForm order={o} onSaved={retry} />
           )}
         </section>
         <aside>

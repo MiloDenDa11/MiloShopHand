@@ -1,23 +1,61 @@
 import { test, expect, type Page } from "@playwright/test";
 import sharp from "sharp";
 import { mkdirSync } from "node:fs";
+import { readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import { polos } from "../fixtures/try-on-catalog.mjs";
+import sources from "../../apps/web/content/prepared-media.json";
 
-const slug = "ml-tee-heavy-box";
+test.skip(!process.env.TRY_ON_FIXTURES, "Run npm run test:try-on with the isolated read-only catalog.");
+
+const slug = polos[0].slug;
 const stage = (page: Page) => page.locator(".try-on-main:visible");
 const runtimeErrors = new WeakMap<Page, string[]>();
-test.beforeEach(async ({ page }) => {
+const externalRequests = new WeakMap<Page, string[]>();
+const mutations = new WeakMap<Page, string[]>();
+test.beforeEach(async ({ page, context, baseURL }) => {
   const errors: string[] = [];
   runtimeErrors.set(page, errors);
+  const external: string[] = [], writes: string[] = [];
+  externalRequests.set(page, external); mutations.set(page, writes);
+  await context.route("**/*", route => {
+    const url = new URL(route.request().url());
+    if (["http:", "https:"].includes(url.protocol) && url.origin !== new URL(baseURL!).origin) {
+      external.push(url.toString());
+      return route.abort();
+    }
+    return route.continue();
+  });
+  page.on("request", request => { if (["POST", "PUT", "PATCH", "DELETE"].includes(request.method())) writes.push(request.url()); });
   page.on("pageerror", (error) => errors.push(error.message));
-  page.on("console", (message) => { if (/hydration|cannot be a descendant|cannot contain/i.test(message.text())) errors.push(message.text()); });
+  page.on("console", (message) => { if (/hydration|cannot be a descendant|cannot contain|TypeError|ReferenceError|Unhandled/i.test(message.text())) errors.push(message.text()); });
 });
-test.afterEach(async ({ page }) => expect(runtimeErrors.get(page)).toEqual([]));
+test.afterEach(async ({ page }) => {
+  expect(runtimeErrors.get(page)).toEqual([]);
+  expect(externalRequests.get(page), "No unsolicited external traffic").toEqual([]);
+  expect(mutations.get(page), "No photo upload, AI call, or catalog write").toEqual([]);
+});
 async function fixturePhoto(width = 640, height = 960) {
   return { name: "test-photo.png", mimeType: "image/png", buffer: await sharp({ create: { width, height, channels: 3, background: "#c7c2b5" } }).png().toBuffer() };
 }
 async function upload(page: Page) {
   await stage(page).getByLabel("Chọn ảnh của bạn", { exact: true }).setInputFiles(await fixturePhoto());
   await expect(page.getByAltText("Ảnh bạn đã chọn để dùng thử", { exact: true })).toBeVisible();
+}
+async function handoff(page: Page) {
+  await stage(page).getByRole("button", { name: "Tiếp tục", exact: true }).click();
+  await page.getByRole("checkbox").check();
+  await stage(page).getByRole("button", { name: "Chuẩn bị ảnh & prompt", exact: true }).click();
+  await expect(page.getByLabel("Prompt thử áo", { exact: true })).toBeVisible();
+}
+async function snapshot(page: Page, name: string) {
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    await new Promise<void>(resolve => requestAnimationFrame(() => resolve()));
+  });
+  mkdirSync(".local/try-on-manual", { recursive: true });
+  await page.screenshot({ path: `.local/try-on-manual/${name}.png`, fullPage: true, caret: "initial" });
 }
 
 test("nút dùng thử trên thẻ và chi tiết giữ đúng sản phẩm, màu và size", async ({ page, request }) => {
@@ -37,28 +75,24 @@ test("nút dùng thử trên thẻ và chi tiết giữ đúng sản phẩm, mà
   await expect(page.getByRole("button", { name: variant.size, exact: true })).toHaveAttribute("aria-pressed", "true");
 });
 
-test("chọn ảnh, đồng ý và xem kết quả chờ AI; không gửi ảnh hoặc lưu dữ liệu cá nhân", async ({ page }) => {
-  const mutations: string[] = [];
-  page.on("request", (request) => { if (["POST", "PUT", "PATCH"].includes(request.method())) mutations.push(request.url()); });
+test("chuẩn bị ảnh và prompt thủ công; không gửi ảnh hoặc lưu dữ liệu cá nhân", async ({ page }) => {
   await page.goto(`/dung-thu/${slug}`);
-  await expect(stage(page).getByRole("button", { name: "Tiếp tục", exact: true })).toBeDisabled();
-  mkdirSync(".local/try-on", { recursive: true });
-  await page.screenshot({ path: ".local/try-on/desktop-upload.png", fullPage: true });
+  await expect(page.getByText("Thao tác thủ công · AI chưa kết nối", { exact: true })).toBeVisible();
+  await snapshot(page, "desktop-upload");
   await upload(page);
   await stage(page).getByRole("button", { name: "Tiếp tục", exact: true }).click();
-  const confirm = stage(page).getByRole("button", { name: "Xác nhận & xem bước kết quả", exact: true });
+  const confirm = stage(page).getByRole("button", { name: "Chuẩn bị ảnh & prompt", exact: true });
   await expect(confirm).toBeDisabled();
   await page.getByRole("checkbox").check();
   await confirm.click();
-  await expect(page.getByText("CHƯA CÓ ẢNH KẾT QUẢ", { exact: true })).toBeVisible();
-  await expect(page.getByRole("button", { name: /Tạo ảnh dùng thử/ })).toBeDisabled();
-  await expect(page.getByText(/Hiện chưa tạo ảnh bạn mặc sản phẩm/)).toBeVisible();
-  await page.screenshot({ path: ".local/try-on/desktop-result.png", fullPage: true });
-  expect(mutations).toEqual([]);
+  await expect(page.getByLabel("Prompt thử áo", { exact: true })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Tạo ảnh dùng thử/ })).toHaveCount(0);
+  await expect(page.getByText(/AI trên website chưa kết nối/)).toBeVisible();
+  await snapshot(page, "desktop-handoff");
   expect(await page.evaluate(() => Object.keys(localStorage).filter((key) => /try.?on|photo|dung.?thu/i.test(key)))).toEqual([]);
   await page.reload();
   await expect(page.getByAltText("Ảnh bạn đã chọn để dùng thử", { exact: true })).toHaveCount(0);
-  await expect(stage(page).getByRole("button", { name: "Tiếp tục", exact: true })).toBeDisabled();
+  await expect(stage(page).getByRole("button", { name: "Tiếp tục", exact: true })).toBeEnabled();
 });
 
 test("tệp giả dạng ảnh, ảnh hỏng, quá nhỏ và quá dung lượng có phản hồi", async ({ page }) => {
@@ -87,7 +121,7 @@ test("đổi màu hủy xác nhận trước đó, thiếu ảnh riêng chặn b
   await expect(stage(page).getByRole("heading", { name: "Bắt đầu từ ảnh của bạn.", exact: true })).toBeVisible();
   await stage(page).getByRole("button", { name: "Tiếp tục", exact: true }).click();
   await expect(page.getByRole("checkbox")).not.toBeChecked();
-  await page.goto("/dung-thu/ml-hoodie-minimal-no-pocket?color=Tr%E1%BA%AFng");
+  await page.goto("/dung-thu/fixture-missing-color?color=Tr%E1%BA%AFng");
   await upload(page);
   await expect(page.locator(".try-on-product-panel:visible .try-on-missing-image")).toContainText("Trắng");
   await expect(stage(page).getByRole("button", { name: "Tiếp tục", exact: true })).toBeDisabled();
@@ -134,8 +168,91 @@ test("phòng thử 360 px không tràn ngang, thao tác bàn phím và ảnh th�
   await page.keyboard.press("Enter");
   await expect(page.getByRole("heading", { name: "Đúng bạn. Đúng thiết kế.", exact: true })).toBeFocused();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  mkdirSync(".local/try-on", { recursive: true });
-  await page.screenshot({ path: ".local/try-on/mobile-confirm.png", fullPage: true });
+  await snapshot(page, "mobile-confirm");
+  await page.getByRole("checkbox").check();
+  await stage(page).getByRole("button", { name: "Chuẩn bị ảnh & prompt", exact: true }).click();
+  await expect(stage(page).getByRole("heading", { name: "Mang thiết kế vào ChatGPT.", exact: true })).toBeFocused();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await snapshot(page, "mobile-handoff");
+});
+
+test("không cần chọn ảnh cá nhân trên website để lấy ảnh sản phẩm và prompt", async ({ page }) => {
+  await page.goto(`/dung-thu/${slug}`);
+  await handoff(page);
+  await expect(page.getByRole("link", { name: "Tải ảnh sản phẩm", exact: true })).toBeVisible();
+  await expect(page.getByLabel("Prompt thử áo", { exact: true })).toHaveValue(/MiloShopHand/);
+  await expect(page.getByText(/Milo không kiểm tra hoặc kiểm soát hạn mức/)).toBeVisible();
+  await page.getByRole("button", { name: "Xóa ảnh của tôi", exact: true }).click();
+  await expect(stage(page).getByRole("heading", { name: "Bắt đầu từ ảnh của bạn.", exact: true })).toBeVisible();
+});
+
+test("sao chép prompt và chọn văn bản thủ công khi clipboard bị từ chối", async ({ page }) => {
+  await page.goto(`/dung-thu/${slug}`);
+  await handoff(page);
+  await page.evaluate(() => Object.defineProperty(navigator, "clipboard", { configurable: true, value: { writeText: async (value: string) => { (window as any).copiedTryOnPrompt = value; } } }));
+  await page.getByRole("button", { name: "Sao chép prompt", exact: true }).click();
+  const value = await page.getByLabel("Prompt thử áo", { exact: true }).inputValue();
+  expect(await page.evaluate(() => (window as any).copiedTryOnPrompt)).toBe(value);
+  await expect(page.getByRole("status").filter({ hasText: "Đã sao chép prompt" })).toBeVisible();
+  await page.evaluate(() => Object.defineProperty(navigator, "clipboard", { configurable: true, value: { writeText: async () => { throw new Error("Permission denied fixture"); } } }));
+  await page.getByRole("button", { name: "Sao chép prompt", exact: true }).click();
+  const textarea = page.getByLabel("Prompt thử áo", { exact: true });
+  await expect(textarea).toBeFocused();
+  expect(await textarea.evaluate((element: HTMLTextAreaElement) => element.selectionEnd - element.selectionStart)).toBe(value.length);
+  await expect(page.getByText(/Không thể sao chép tự động/)).toBeVisible();
+});
+
+test("link ChatGPT chỉ mở sau khi bấm, không kèm prompt, ảnh, tài khoản hay referrer", async ({ page, context }) => {
+  await page.goto(`/dung-thu/${slug}`);
+  await upload(page);
+  await handoff(page);
+  const link = page.getByRole("link", { name: "Mở ChatGPT", exact: true });
+  await expect(link).toHaveAttribute("href", "https://chatgpt.com/");
+  await expect(link).toHaveAttribute("rel", "noopener noreferrer");
+  const requests: { method: string; body: string | null; referer?: string }[] = [];
+  await context.route("https://chatgpt.com/**", async route => {
+    const request = route.request();
+    requests.push({ method: request.method(), body: request.postData(), referer: request.headers().referer });
+    await route.fulfill({ contentType: "text/html", body: "<html><body>Local navigation fixture</body></html>" });
+  });
+  const popupPromise = page.waitForEvent("popup");
+  await link.click();
+  const popup = await popupPromise;
+  await popup.waitForLoadState("domcontentloaded");
+  expect(popup.url()).toBe("https://chatgpt.com/");
+  expect(await popup.evaluate(() => window.opener === null)).toBe(true);
+  expect(requests).toEqual([{ method: "GET", body: null, referer: undefined }]);
+  await popup.close();
+});
+
+for (const product of polos) test(`polo ${product.slug}: tải đúng ảnh và prompt của đủ 4 màu`, async ({ page, request }) => {
+  await page.goto(`/dung-thu/${product.slug}`);
+  for (const image of product.images) {
+    await page.getByRole("button", { name: `Dùng thử màu ${image.color}`, exact: true }).click();
+    await handoff(page);
+    const source = image.url.split("?")[0];
+    const hash = sources[source as keyof typeof sources][0];
+    const expected = `/product-media/${hash}-v1-front-768.webp`;
+    const link = page.getByRole("link", { name: "Tải ảnh sản phẩm", exact: true });
+    await expect(link).toHaveAttribute("href", expected);
+    const response = await request.get(expected);
+    expect(response.status()).toBe(200);
+    expect(response.headers()["content-type"]).toContain("image/webp");
+    const bytes = await response.body();
+    expect(bytes.equals(await readFile(resolve("apps/web/public", expected.slice(1))))).toBe(true);
+    const metadata = await sharp(bytes).metadata();
+    expect([metadata.width, metadata.height]).toEqual([768, 1024]);
+    const prompt = await page.getByLabel("Prompt thử áo", { exact: true }).inputValue();
+    expect(prompt).toContain(product.name); expect(prompt).toContain(`Màu đã chọn: ${image.color}.`);
+    if (image === product.images[0]) {
+      const downloadPromise = page.waitForEvent("download");
+      await link.click();
+      const download = await downloadPromise;
+      expect(await download.failure()).toBeNull();
+      expect(download.suggestedFilename()).toContain(product.slug);
+      expect((await readFile((await download.path())!)).equals(bytes)).toBe(true);
+    }
+  }
 });
 
 test("sản phẩm không tồn tại có đường quay về danh mục", async ({ page }) => {

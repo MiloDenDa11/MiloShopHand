@@ -10,7 +10,7 @@ export function proxy(request: NextRequest) {
     `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${development ? " 'unsafe-eval'" : ''} https://maps.googleapis.com https://maps.gstatic.com`,
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
-    `img-src 'self' data: blob: ${storage} https://*.googleapis.com https://*.gstatic.com https://*.google.com`,
+    `img-src 'self' data: blob: ${storage} https://res.cloudinary.com https://*.googleapis.com https://*.gstatic.com https://*.google.com`,
     "connect-src 'self' blob: https://*.googleapis.com https://*.gstatic.com",
     "worker-src 'self' blob:", "object-src 'none'", "frame-ancestors 'none'", "base-uri 'self'", "form-action 'self'",
     ...(!development && https ? ['upgrade-insecure-requests'] : []),

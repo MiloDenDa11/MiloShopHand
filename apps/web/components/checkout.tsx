@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { useShop, send, api, money, Quantity, Empty, ErrorBox } from "./client";
 import AddressMap from "./address-map";
+import {trackExperience} from "../lib/experience";
 import { VariantSwitcher } from "./variant-switcher";
 import { ProductPhoto, isRealPhoto } from "./product-media";
 const emptyAddress = {
@@ -94,15 +95,13 @@ export function CartPage() {
               </b>
             </div>
             <p className="muted small">
-              Giá, tồn kho, phí vận chuyển và ưu đãi được backend kiểm tra lại
-              tại checkout. Giỏ hàng chưa giữ kho.
+              Giá và phí giao hàng được xác nhận ở bước thanh toán. Giỏ hàng chưa giữ hàng.
             </p>
             <Link className="button full" href="/thanh-toan">
               Đến thanh toán <ArrowRight size={17} />
             </Link>
             <p className="small muted">
-              <LockKeyhole size={14} /> Cần đăng nhập và xác minh email để đặt
-              hàng.
+              <LockKeyhole size={14} /> Bạn có thể đặt hàng không cần tạo tài khoản.
             </p>
           </aside>
         </div>
@@ -114,6 +113,10 @@ export function Checkout() {
   const { cart, user, ready, notify, changeCart, config, authError, loadUser } =
     useShop();
   const router = useRouter();
+  const [guestEmail,setGuestEmail]=useState(""),[guestReady,setGuestReady]=useState(false);
+  const tracked=useRef(false);
+  useEffect(()=>{if(!tracked.current){tracked.current=true;trackExperience("BEGIN_CHECKOUT");}},[]);
+  useEffect(()=>{if(ready&&!user)void send("/guest/session",{}).then(()=>setGuestReady(true)).catch(error=>setError(error.message));},[ready,user?.id]);
   const [address, setAddress] = useState<any>(emptyAddress),
     [saved, setSaved] = useState<any[]>([]),
     [method, setMethod] = useState("QR"),
@@ -134,6 +137,7 @@ export function Checkout() {
     })),
     address,
     method,
+    ...(!user?{email:guestEmail}:{}),
     ...(coupon.trim() ? { coupon: coupon.trim() } : {}),
   });
   useEffect(() => {
@@ -167,7 +171,7 @@ export function Checkout() {
     setBusy(true);
     setError("");
     try {
-      const q = await send("/checkout/quote", payload());
+      const q = await send(user ? "/checkout/quote" : "/guest/quote", payload());
       setQuote(q);
     } catch (e: any) {
       setError(
@@ -192,13 +196,13 @@ export function Checkout() {
         "milo-checkout-key",
         JSON.stringify({ key, content }),
       );
-      const o = await send("/checkout", body, "POST", {
+      const o = await send(user ? "/checkout" : "/guest/checkout", body, "POST", {
         "Idempotency-Key": key,
       });
       await changeCart([]);
       sessionStorage.removeItem("milo-checkout-key");
       notify("Đã tạo đơn hàng.");
-      router.push(`/don-hang/${o.id}`);
+      router.push(`/${user?"don-hang":"don-khach"}/${o.id}`);
     } catch (e: any) {
       setError(e.message);
       if (["PRICE_CHANGED", "OUT_OF_STOCK", "COUPON_LIMIT"].includes(e.code))
@@ -213,17 +217,6 @@ export function Checkout() {
     return (
       <div className="container section">
         <ErrorBox message={authError} retry={loadUser} />
-      </div>
-    );
-  if (!user)
-    return (
-      <div className="container section">
-        <h1>Hoàn tất phong cách của bạn.</h1>
-        <Empty
-          title="Đăng nhập để đặt hàng an toàn và theo dõi đơn."
-          href="/dang-nhap?next=/thanh-toan"
-          text="Đăng nhập"
-        />
       </div>
     );
   if (!cart.length)
@@ -246,11 +239,12 @@ export function Checkout() {
           <LockKeyhole size={16} /> Thông tin được bảo vệ
         </span>
       </div>
-      {!user.verifiedAt && (
+      {user && !user.verifiedAt && (
         <ErrorBox message="Email của bạn chưa được xác minh. Hãy mở email xác minh trước khi xác nhận đơn." />
       )}
       <div className="checkout-layout">
         <form id="checkout-form" onSubmit={getQuote} className="checkout-form">
+          {!user&&<section className="form-panel guest-checkout-intro"><h2>Đặt hàng không cần tài khoản</h2><p>Giữ trình duyệt này để tra cứu đơn. Bạn có thể liên kết đơn sau khi đăng nhập và xác minh đúng email.</p><Link className="text-link" href="/dang-nhap?next=%2Fthanh-toan">Đăng nhập nếu đã có tài khoản</Link><label>Email nhận thông tin đơn<input type="email" required maxLength={254} value={guestEmail} onChange={event=>{setGuestEmail(event.target.value);setQuote(null);}} autoComplete="email" /></label></section>}
           <section className="form-panel">
             <h2>
               <span>01</span> Địa chỉ nhận hàng
@@ -429,7 +423,7 @@ export function Checkout() {
               />{" "}
               Tôi đã kiểm tra và xác nhận địa chỉ giao hàng cuối cùng.
             </label>
-            <button
+            {user&&<button
               type="button"
               className="text-link small"
               onClick={async () => {
@@ -442,7 +436,7 @@ export function Checkout() {
               }}
             >
               Lưu địa chỉ vào tài khoản <PlusIcon />
-            </button>
+            </button>}
           </section>
           <section className="form-panel">
             <h2>
@@ -499,11 +493,12 @@ export function Checkout() {
               Mã ưu đãi
               <input
                 value={coupon}
+                disabled={!user}
                 onChange={(e) => {
                   setCoupon(e.target.value);
                   setQuote(null);
                 }}
-                placeholder="Ví dụ: HELLOMILO"
+                placeholder={user?"Nhập mã ưu đãi":"Đăng nhập để sử dụng mã theo tài khoản"}
                 maxLength={40}
               />
             </label>
@@ -561,7 +556,7 @@ export function Checkout() {
               <p className="small muted">{quote.shipping.label}</p>
               <button
                 className="button full"
-                aria-busy={busy} disabled={busy || !user.verifiedAt}
+                aria-busy={busy} disabled={busy || (user ? !user.verifiedAt : !guestReady)}
                 onClick={place}
               >
                 {busy ? "Đang tạo đơn…" : "Xác nhận đặt hàng"}{" "}

@@ -37,13 +37,43 @@ import {
   audit,
 } from "./core";
 import { securityEvent, securityIdentity } from "./request-security";
-const email = z
+import { accessToken, ACCESS_SECONDS, SESSION_MILLISECONDS } from './jwt';
+import { verifySecondFactor } from './two-factor';
+import type { Prisma, User } from '@prisma/client';
+import { invalidateAccountChallenges } from './auth-lifecycle';
+
+export async function createLoginSession(db: Db, userId: string, r: AppRequest, res: Response, options: { otp?: string; passwordHash?: string; authorize?: (tx: Prisma.TransactionClient, user: User) => Promise<void> } = {}) {
+  const raw = secret(), csrf = csrfToken(), expiresAt = new Date(Date.now() + SESSION_MILLISECONDS);
+  const user = await transaction(db, async tx => {
+    await tx.$queryRaw`SELECT id FROM "User" WHERE id=${userId} FOR UPDATE`;
+    const current = await tx.user.findUniqueOrThrow({ where: { id: userId } });
+    if (current.disabled || options.passwordHash && current.passwordHash !== options.passwordHash) fail('LOGIN_FAILED', 'Thông tin đăng nhập không đúng.', 401);
+    await options.authorize?.(tx, current);
+    await verifySecondFactor(tx, current.id, options.otp);
+    if (r.session) await tx.session.deleteMany({ where: { id: r.session.id } });
+    await tx.session.create({ data: { id: `jwt:${hash(raw)}`, userId: current.id, csrf, expiresAt, agent: String(r.headers['user-agent'] || 'Unknown').slice(0, 200) } });
+    return current;
+  });
+  r.actor = { id: user.id, email: user.email, name: user.name, role: user.role, verifiedAt: user.verifiedAt, disabled: user.disabled };
+  await securityEvent(db, r, 'LOGIN_SUCCESS');
+  setLoginCookies(res, raw, `jwt:${hash(raw)}`, user.id, expiresAt); setCsrf(res, csrf);
+  return { user: { id: user.id, name: user.name, email: user.email, role: user.role, verified: !!user.verifiedAt }, csrf, auth: { type: 'JWT', accessExpiresIn: ACCESS_SECONDS } };
+}
+
+export function setLoginCookies(res: Response, raw: string, sessionId: string, userId: string, expiresAt: Date) {
+  const maxAge = Math.max(0, expiresAt.getTime() - Date.now());
+  res.cookie('milo_sid', raw, { ...cookieOptions, maxAge });
+  // Keep the expired JWT cookie until the refresh session expires, so a missing
+  // access cookie cannot silently downgrade a JWT session to legacy auth.
+  res.cookie('milo_access', accessToken(userId, sessionId, env), { ...cookieOptions, maxAge });
+}
+export const email = z
   .string()
   .trim()
   .email("Email không hợp lệ.")
   .max(254)
   .transform((v) => v.toLowerCase());
-const password = z
+export const password = z
   .string()
   .min(15, "Mật khẩu cần ít nhất 15 ký tự.")
   .max(256, "Mật khẩu tối đa 256 ký tự.");
@@ -201,13 +231,42 @@ export class AuthController {
     });
     return { message: "Email đã được xác minh. Bạn có thể đăng nhập." };
   }
+  @UseGuards(AuthGuard)
+  @Post('verify/resend') async resendVerification(@Req() r: AppRequest, @Body() body: unknown) {
+    parse(z.object({}).strict(), body);
+    const alreadyVerified = await transaction(this.db, async tx => {
+      const bucket = `verify-resend:${hash(r.actor!.id)}`;
+      await tx.$queryRaw`SELECT 1 AS locked FROM pg_advisory_xact_lock(hashtextextended(${bucket},0))`;
+      const user = await tx.user.findUnique({ where: { id: r.actor!.id }, select: { id: true, email: true, verifiedAt: true, disabled: true } });
+      if (!user || user.disabled) fail('UNAUTHENTICATED', 'Vui lòng đăng nhập.', 401);
+      if (user.verifiedAt) return true;
+      const saved = await tx.storeSetting.findUnique({ where: { key: bucket } });
+      const previous = saved?.value as { count?: number; resetAt?: number; until?: number } | undefined;
+      const now = Date.now();
+      const count = previous?.resetAt && previous.resetAt > now ? previous.count || 0 : 0;
+      if ((previous?.until || 0) > now || count >= 3)
+        fail('VERIFY_RESEND_LIMIT', 'Vui lòng chờ ít nhất một phút giữa các lần gửi lại; tối đa 3 yêu cầu trong 15 phút.', 429);
+      const token = secret();
+      await tx.authToken.updateMany({ where: { userId: user.id, purpose: 'VERIFY', usedAt: null }, data: { usedAt: new Date(now) } });
+      await tx.authToken.create({ data: { userId: user.id, purpose: 'VERIFY', hash: hash(token), expiresAt: new Date(now + 86400000) } });
+      const value = { count: count + 1, until: now + 60000, resetAt: count ? previous!.resetAt! : now + 900000 };
+      await tx.storeSetting.upsert({ where: { key: bucket }, create: { key: bucket, value }, update: { value } });
+      await outbox(tx, 'EMAIL', `verify-resend:${user.id}:${hash(token).slice(0, 16)}`, {
+        userId: user.id, to: user.email, subject: 'Xác minh email MILOSHOPHAND',
+        text: `Mở ${env.APP_URL}/xac-minh?token=${token} để xác minh email (24 giờ). Liên kết mới thay thế các liên kết xác minh trước đó.`,
+      });
+      return false;
+    });
+    const local = !production && env.EMAIL_PROVIDER === 'file';
+    return { alreadyVerified, delivery: local ? 'local' : 'email', message: alreadyVerified ? 'Email đã được xác minh. Hãy kiểm tra lại trạng thái tài khoản.' : local ? 'Yêu cầu xác minh đã được tạo. Môi trường phát triển đang lưu thư tại .local/mail, chưa gửi email ra ngoài. Mở liên kết trong thư cục bộ mới nhất để xác minh.' : 'Đã yêu cầu gửi lại email xác minh. Hãy kiểm tra hộp thư và thư rác; sử dụng liên kết mới nhất.' };
+  }
   async credentials(value: any, request?: AppRequest) {
     const d = parse(
       z
         .object({
           email,
           password: z.string().max(256),
-          // Accept and ignore this legacy field for already-open login forms.
+          // Optional until this account explicitly enables 2FA.
           otp: z.string().max(100).optional(),
         })
         .strict(),
@@ -245,36 +304,24 @@ export class AuthController {
     @Res({ passthrough: true }) res: Response,
   ) {
     const checked = await this.credentials(body, r);
-    const raw = secret(),
-      csrf = csrfToken();
-    const u = await transaction(this.db, async tx => {
-      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${checked.id} FOR UPDATE`;
-      const current = await tx.user.findUniqueOrThrow({ where: { id: checked.id } });
-      if (current.disabled || current.passwordHash !== checked.passwordHash) fail('LOGIN_FAILED', 'Thông tin đăng nhập không đúng.', 401);
-      if (r.session) await tx.session.deleteMany({ where: { id: r.session.id } });
-      await tx.session.create({ data: {
-        id: hash(raw),
-        userId: current.id,
-        csrf,
-        expiresAt: new Date(Date.now() + 7 * 86400000),
-        agent: String(r.headers["user-agent"] || "Unknown").slice(0, 200),
-      } });
-      return current;
+    return createLoginSession(this.db, checked.id, r, res, { passwordHash: checked.passwordHash, otp: (body as { otp?: string }).otp });
+  }
+  @UseGuards(AuthGuard) @Post('refresh') async refresh(
+    @Req() r: AppRequest, @Res({ passthrough: true }) res: Response, @Body() body: unknown,
+  ) {
+    parse(z.object({}).strict(), body);
+    const raw = secret(), id = `jwt:${hash(raw)}`;
+    const session = await transaction(this.db, async tx => {
+      await tx.$queryRaw`SELECT id FROM "Session" WHERE id=${r.session.id} FOR UPDATE`;
+      const current = await tx.session.findUnique({ where: { id: r.session.id }, include: { user: true } });
+      if (!current || current.user.disabled || current.expiresAt <= new Date() || current.lastSeenAt.getTime() <= Date.now() - 30 * 60000)
+        fail('UNAUTHENTICATED', 'Phiên đăng nhập đã hết hạn.', 401);
+      await tx.session.delete({ where: { id: current.id } });
+      return tx.session.create({ data: { id, userId: current.userId, csrf: current.csrf, expiresAt: current.expiresAt, agent: current.agent, createdAt: current.createdAt, reauthenticatedAt: current.reauthenticatedAt } });
     });
-    r.actor = { id: u.id, email: u.email, name: u.name, role: u.role, verifiedAt: u.verifiedAt, disabled: u.disabled };
-    await securityEvent(this.db, r, 'LOGIN_SUCCESS');
-    res.cookie("milo_sid", raw, { ...cookieOptions, maxAge: 7 * 86400000 });
-    setCsrf(res, csrf);
-    return {
-      user: {
-        id: u.id,
-        name: u.name,
-        email: u.email,
-        role: u.role,
-        verified: !!u.verifiedAt,
-      },
-      csrf,
-    };
+    setLoginCookies(res, raw, id, session.userId, session.expiresAt);
+    setCsrf(res, session.csrf);
+    return { message: 'Đã làm mới phiên đăng nhập.', accessExpiresIn: ACCESS_SECONDS };
   }
   @UseGuards(AuthGuard) @Post("logout") async logout(
     @Req() r: AppRequest,
@@ -282,24 +329,30 @@ export class AuthController {
   ) {
     await this.db.session.deleteMany({ where: { id: r.session.id } });
     res.clearCookie("milo_sid", cookieOptions);
+    res.clearCookie('milo_access', cookieOptions);
     return { message: "Đã đăng xuất." };
   }
   @UseGuards(AuthGuard) @Post("reauth") async reauthenticate(
     @Body() body: any,
     @Req() r: AppRequest,
   ) {
-    await this.credentials({ ...body, email: r.actor!.email }, r);
-    await this.db.session.update({
-      where: { id: r.session.id },
-      data: { reauthenticatedAt: new Date() },
+    const checked = await this.credentials({ ...body, email: r.actor!.email }, r);
+    await transaction(this.db, async tx => {
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${checked.id} FOR UPDATE`;
+      const current = await tx.user.findUniqueOrThrow({ where: { id: checked.id } });
+      if (current.disabled || current.passwordHash !== checked.passwordHash) fail('LOGIN_FAILED', 'Thông tin đăng nhập không đúng.', 401);
+      await verifySecondFactor(tx, current.id, body.otp);
+      await tx.session.update({ where: { id: r.session.id }, data: { reauthenticatedAt: new Date() } });
     });
     return { message: "Đã xác thực lại." };
   }
   @Post("forgot") async forgot(@Body() body: unknown) {
     const d = parse(z.object({ email }).strict(), body);
     const u = await this.db.user.findUnique({ where: { email: d.email } });
-    if (u) {
+    if (u && !u.disabled) {
       await transaction(this.db, async (tx) => {
+        await tx.$queryRaw`SELECT id FROM "User" WHERE id=${u.id} FOR UPDATE`;
+        await tx.passwordRecovery.updateMany({ where: { userId: u.id, consumedAt: null }, data: { consumedAt: new Date() } });
         await tx.authToken.updateMany({
           where: { userId: u.id, purpose: "RESET", usedAt: null },
           data: { usedAt: new Date() },
@@ -335,11 +388,14 @@ export class AuthController {
     await passwordPolicy(d.password);
     const ph = await passwordHash(d.password);
     await transaction(this.db, async (tx) => {
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${candidate.userId} FOR UPDATE`;
       const t = await tx.authToken.findUnique({
         where: { hash: hash(d.token) },
       });
       if (!t || t.purpose !== "RESET" || t.usedAt || t.expiresAt < new Date())
         fail("TOKEN_INVALID", "Liên kết không hợp lệ hoặc đã hết hạn.");
+      const current = await tx.user.findUnique({ where: { id: t.userId } });
+      if (!current || current.disabled) fail('TOKEN_INVALID', 'Liên kết không hợp lệ hoặc đã hết hạn.');
       await tx.authToken.updateMany({
         where: { userId: t.userId, purpose: "RESET", usedAt: null },
         data: { usedAt: new Date() },
@@ -349,6 +405,8 @@ export class AuthController {
         data: { passwordHash: ph },
       });
       await tx.session.deleteMany({ where: { userId: t.userId } });
+      await invalidateAccountChallenges(tx, t.userId);
+      await tx.externalIdentity.updateMany({ where: { userId: t.userId }, data: { passwordEnabled: true } });
       await audit(tx, t.userId, 'PASSWORD_RESET', 'User', t.userId);
     });
     return { message: "Đã đặt lại mật khẩu và thu hồi các phiên đăng nhập." };
@@ -370,7 +428,12 @@ export class AuthController {
     await passwordPolicy(d.password);
     const ph = await passwordHash(d.password);
     await transaction(this.db, async (tx) => {
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${u.id} FOR UPDATE`;
+      const current = await tx.user.findUniqueOrThrow({ where: { id: u.id } });
+      if (current.disabled || current.passwordHash !== u.passwordHash) fail('PASSWORD_CHANGED', 'Thông tin tài khoản vừa thay đổi. Vui lòng đăng nhập lại.', 409);
       await tx.user.update({ where: { id: u.id }, data: { passwordHash: ph } });
+      await invalidateAccountChallenges(tx, u.id);
+      await tx.externalIdentity.updateMany({ where: { userId: u.id }, data: { passwordEnabled: true } });
       await tx.session.deleteMany({
         where: { userId: u.id, id: { not: r.session.id } },
       });
@@ -393,6 +456,7 @@ export class MeController {
         name: true,
         email: true,
         phone: true,
+        avatarUrl: true,
         role: true,
         verifiedAt: true,
         preferences: true,

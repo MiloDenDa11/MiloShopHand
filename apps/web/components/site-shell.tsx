@@ -17,6 +17,7 @@ import {
 import { api, useShop, brand, money } from "./client";
 import { ProductPhoto, realProductImages } from "./product-media";
 import { editorialAssets } from "../content/brand";
+import { NotificationBell } from './notification-bell';
 const links = [
   ["/", "Trang chủ"],
   ["/san-pham", "Cửa hàng"],
@@ -57,7 +58,7 @@ export function SiteHeader() {
       <div className="announcement">
         <span>
           {config?.announcement ||
-            "FREE SHIPPING CHO ĐƠN TỪ 699K · ĐỔI SIZE TRONG 14 NGÀY"}
+            (typeof config?.freeShippingMin === "number" ? `MIỄN PHÍ GIAO HÀNG TỪ ${money(config.freeShippingMin)}` : "MILOSHOPHAND · EVERYDAY WEAR")}
         </span>
         <ArrowUpRight size={13} />
       </div>
@@ -84,6 +85,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="header-actions">
+          <NotificationBell />
           <button
             type="button"
             aria-label="Tìm kiếm"
@@ -99,7 +101,7 @@ export function SiteHeader() {
             data-tooltip={user ? "Tài khoản" : "Đăng nhập"}
             className={user ? "has-account" : ""}
           >
-            <UserRound size={21} />
+            {user?.avatarUrl ? <img className="header-avatar" src={user.avatarUrl} alt="" width={24} height={24} referrerPolicy="no-referrer" /> : <UserRound size={21} />}
           </Link>
           <button
             type="button"
@@ -373,6 +375,7 @@ export function SiteFooter() {
           </div>
           <div>
             <h3>Luôn ở đây để hỗ trợ</h3>
+            <Link href="/ho-tro">Gửi yêu cầu hỗ trợ</Link>
             <Link href="/chinh-sach?tab=giao-hang">Giao hàng & thanh toán</Link>
             <Link href="/chinh-sach?tab=doi-tra">Đổi trả & chọn size</Link>
             <Link href="/chinh-sach?tab=bao-mat">Quyền riêng tư</Link>

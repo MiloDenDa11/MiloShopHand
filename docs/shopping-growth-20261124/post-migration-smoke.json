@@ -1,0 +1,29 @@
+{
+  "at": "2026-11-24T13:32:11.521Z",
+  "localShopDatabase": true,
+  "onlyPublicGets": true,
+  "providersDisabledInProbe": true,
+  "workerNotStarted": true,
+  "outcomes": [
+    {
+      "path": "/config",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/catalog",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/products",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/experience/size-guides/no-such-product",
+      "method": "GET",
+      "status": 200
+    }
+  ]
+}

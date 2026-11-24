@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-24",
+  "scope": "Shopping growth steps 2–8; no real provider calls.",
+  "tests": [
+    {
+      "name": "Baseline unit/domain/media/security",
+      "command": "npm test",
+      "passed": 68,
+      "failed": 0
+    },
+    {
+      "name": "Guest checkout, guides, measurement, support, purchasing, alerts, backup/SEO",
+      "command": "npm run test:shopping-growth",
+      "passed": 15,
+      "failed": 0
+    },
+    {
+      "name": "Authentication/recovery/Google mocked",
+      "command": "npm run test:auth-upgrade",
+      "passed": 20,
+      "failed": 0
+    },
+    {
+      "name": "Packing and realtime backend",
+      "command": "npm run test:fulfillment",
+      "passed": 16,
+      "failed": 0
+    },
+    {
+      "name": "Commerce/JWT/avatar/assignment/MFA and seller backend",
+      "command": "npm run test:seller-ops",
+      "passed": 31,
+      "failed": 0
+    },
+    {
+      "name": "Catalog, checkout, stock concurrency, permissions and security integration",
+      "command": "node scripts/test-integration.mjs --database=milo_integration_growth14_test",
+      "passed": 42,
+      "failed": 0
+    },
+    {
+      "name": "New shopping/Admin browser flows",
+      "command": "node scripts/test-try-on.mjs --growth-only --reporter=list --trace=off",
+      "passed": 7,
+      "failed": 0
+    },
+    {
+      "name": "Existing account/seller/mobile/MFA browser flows",
+      "command": "node scripts/test-try-on.mjs --commerce-only --reporter=list --trace=off",
+      "passed": 12,
+      "failed": 0
+    },
+    {
+      "name": "Existing packing/realtime/order browser flows",
+      "command": "node scripts/test-try-on.mjs --fulfillment-only --reporter=list --trace=off",
+      "passed": 10,
+      "failed": 0
+    }
+  ],
+  "totalDistinctCases": 221,
+  "rerunsNotDoubleCounted": [
+    "Six growth unit cases rerun after backup/SEO changes.",
+    "One support browser case rerun after pagination and stale-response protection."
+  ],
+  "typecheck": "passed: npm run typecheck after restoring original next-env.d.ts",
+  "build": {
+    "shared": "passed",
+    "api": "passed",
+    "worker": "passed",
+    "web": "passed: npm run build -w @milo/web after preserving old cache",
+    "firstAttempt": "EPERM on old generated .next directory; cache preserved under .local/build-cache-before-growth-20261124-1326",
+    "generatedMedia": {
+      "sourcesUnchanged": 1573,
+      "newDerivatives": 0
+    },
+    "firstAttemptResolved": true,
+    "productionRoutes": [
+      "/",
+      "/_not-found",
+      "/admin",
+      "/bo-suu-tap",
+      "/chinh-sach",
+      "/dang-ky",
+      "/dang-nhap",
+      "/dat-lai-mat-khau",
+      "/don-hang/[id]",
+      "/don-khach/[id]",
+      "/dung-thu/[slug]",
+      "/gio-hang",
+      "/ho-tro",
+      "/nguoi-ban",
+      "/phong-cach",
+      "/quen-mat-khau",
+      "/robots.txt",
+      "/san-pham",
+      "/san-pham/[slug]",
+      "/sitemap.xml",
+      "/tai-khoan",
+      "/thanh-toan",
+      "/xac-minh"
+    ],
+    "checkedProductionRouteCount": 23
+  },
+  "dependencyAudit": {
+    "command": "npm audit --omit=dev --audit-level=high --json",
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0
+    },
+    "note": "Snapshot of published advisory data at execution, not a guarantee of no vulnerabilities."
+  },
+  "migrationRehearsal": "migration-rehearsal.json",
+  "shopMigrationApplied": true,
+  "backupScheduleEnabled": false,
+  "externalCalls": {
+    "openAI": false,
+    "cloudinary": false,
+    "googleOAuth": false,
+    "smtp": false,
+    "payment": false,
+    "shipping": false
+  },
+  "initialFailuresAndFixes": [
+    "Browser fixture cart syntax corrected before first meaningful run.",
+    "Guest address-confirmation selector aligned with existing label.",
+    "Admin dashboard fixture completed and select accessibility names clarified; browser suite passed.",
+    "Initial OneDrive generated-cache build EPERM; old cache retained and clean rebuild started."
+  ],
+  "createdFiles": [
+    "apps/api/src/experience.ts",
+    "apps/api/src/guest-checkout.ts",
+    "apps/api/src/customer-support.ts",
+    "apps/api/src/operations-health.ts",
+    "apps/api/src/purchasing.ts",
+    "apps/web/components/experience-consent.tsx",
+    "apps/web/components/product-size-guide.tsx",
+    "apps/web/components/growth-admin.tsx",
+    "apps/web/components/support-desk.tsx",
+    "apps/web/lib/experience.ts",
+    "apps/web/lib/product-seo.ts",
+    "apps/web/app/don-khach/[id]/page.tsx",
+    "apps/web/app/ho-tro/page.tsx",
+    "apps/web/app/growth.css",
+    "prisma/migrations/202611240014_shopping_growth/migration.sql",
+    "scripts/managed-backup.mjs",
+    ".github/workflows/quality.yml",
+    "tests/shopping-growth.test.ts",
+    "tests/shopping-growth.integration.test.ts",
+    "tests/e2e/shopping-growth.spec.ts",
+    "docs/shopping-growth-20261124/configuration.json",
+    "docs/shopping-growth-20261124/migration-rehearsal.json",
+    "docs/shopping-growth-20261124/verification.json",
+    "docs/shopping-growth-20261124/migration-application.json",
+    "docs/shopping-growth-20261124/post-migration-smoke.json"
+  ],
+  "modifiedForThisUpgrade": [
+    "apps/api/src/admin.ts",
+    "apps/api/src/catalog.ts",
+    "apps/api/src/commerce.ts",
+    "apps/api/src/main.ts",
+    "apps/api/src/providers.ts",
+    "apps/api/src/request-security.ts",
+    "apps/api/src/realtime.ts",
+    "apps/api/src/seller.ts",
+    "apps/worker/src/main.ts",
+    "apps/web/app/layout.tsx",
+    "apps/web/app/robots.ts",
+    "apps/web/app/san-pham/[slug]/page.tsx",
+    "apps/web/components/account.tsx",
+    "apps/web/components/admin.tsx",
+    "apps/web/components/checkout.tsx",
+    "apps/web/components/client.tsx",
+    "apps/web/components/customer-care.tsx",
+    "apps/web/components/fashion-product.tsx",
+    "apps/web/components/site-shell.tsx",
+    "apps/web/package.json",
+    "package.json",
+    "package-lock.json",
+    "prisma/schema.prisma",
+    ".env.example",
+    "playwright.config.ts",
+    "scripts/test-integration.mjs",
+    "scripts/test-try-on-api.mjs",
+    "scripts/test-try-on.mjs",
+    "tests/fixtures/try-on-catalog.mjs",
+    "docs/OPERATIONS.md"
+  ],
+  "dependencyAdded": {
+    "name": "web-vitals",
+    "version": "6.2.3"
+  },
+  "changesOutsideScope": false,
+  "diffWhitespaceCheck": "passed",
+  "finalCodeVerificationAt": "2026-11-24T13:29:40.510Z",
+  "migrationApplication": "migration-application.json",
+  "postMigrationSmoke": {
+    "report": "post-migration-smoke.json",
+    "publicGetEndpointsPassed": 4,
+    "notIncludedInUnitIntegrationCaseCount": true,
+    "realProviderCalls": false
+  },
+  "completedAt": "2026-11-24T13:32:50.905Z"
+}

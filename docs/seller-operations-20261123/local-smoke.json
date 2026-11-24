@@ -1,0 +1,39 @@
+{
+  "pages": [
+    {
+      "path": "/nguoi-ban",
+      "status": 200
+    },
+    {
+      "path": "/tai-khoan",
+      "status": 200
+    },
+    {
+      "path": "/dang-nhap",
+      "status": 200
+    }
+  ],
+  "guards": [
+    {
+      "path": "/seller/staff",
+      "status": 401,
+      "privateCache": true
+    },
+    {
+      "path": "/seller/overview",
+      "status": 401,
+      "privateCache": true
+    },
+    {
+      "path": "/auth/mfa/status",
+      "status": 401,
+      "privateCache": true
+    }
+  ],
+  "approvedPolicy": {
+    "enabled": true,
+    "packingMinutes": 240,
+    "pendingMinutes": 30
+  },
+  "cloudinaryConfigured": false
+}

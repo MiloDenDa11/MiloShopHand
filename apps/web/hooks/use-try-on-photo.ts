@@ -4,7 +4,8 @@ import { tryOnDimensionsError, tryOnImageSignature, tryOnPhotoError } from "../l
 
 type LocalPhoto = { file: File; url: string; width: number; height: number };
 
-// Photos never enter storage, a request body, or the shared shopping context.
+// This hook only previews locally. The authenticated AI flow can explicitly
+// submit its File after consent; never persist the photo in browser storage.
 export function useTryOnPhoto() {
   const [photo, setPhoto] = useState<LocalPhoto | null>(null);
   const [error, setError] = useState("");

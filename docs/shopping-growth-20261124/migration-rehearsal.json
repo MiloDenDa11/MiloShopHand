@@ -1,0 +1,443 @@
+{
+  "at": "2026-11-24T13:15:54.571Z",
+  "migration": "202611240014_shopping_growth",
+  "sqlSha256": "c1081b4d2991cb18f450e07eb39dcfd42e4a867a9665a3a0ae9e94ecafbbbaa7",
+  "backup": ".local/backups/milo-2026-11-24T13-14-10-057Z.dump",
+  "backupSha256": "ac61455150c8ab7ff88411cfda8fadbe9f15e24070158489a0b01e907347e833",
+  "restoredDatabase": "milo_growth_restore_20261124_1314",
+  "oldTableCount": 46,
+  "allExistingRowsPreserved": true,
+  "before": {
+    "Address": {
+      "count": 1,
+      "checksum": "c83cc40577c587c40bbd92b6eeb21c6f"
+    },
+    "AuditLog": {
+      "count": 75,
+      "checksum": "0fc08367e947f3d20d554481fd184502"
+    },
+    "AuthToken": {
+      "count": 2,
+      "checksum": "6de620dd9f75943325a77c21c013c4b7"
+    },
+    "CODSettlement": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Cart": {
+      "count": 6,
+      "checksum": "596259c2da88af912b3497a7d9be4dae"
+    },
+    "CartItem": {
+      "count": 4,
+      "checksum": "d7cb675940ec4794fda404ce924c850e"
+    },
+    "Category": {
+      "count": 5,
+      "checksum": "45081bcdf406ba5648a3cb5efb07b592"
+    },
+    "Collection": {
+      "count": 5,
+      "checksum": "56fdb21e4769ff308054f4bf09dd3a66"
+    },
+    "Coupon": {
+      "count": 1,
+      "checksum": "e9a63c2fd2960c0cb9f9670955804625"
+    },
+    "CouponRedemption": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Exchange": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ExchangeReceipt": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ExternalIdentity": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Inventory": {
+      "count": 1720,
+      "checksum": "a913c9e13caab71186a6552ad0e66fca"
+    },
+    "InventoryReservation": {
+      "count": 4,
+      "checksum": "f4a98772572f0a1ca6ef7c2b1e802363"
+    },
+    "MFA": {
+      "count": 1,
+      "checksum": "08d9015dfdc7d77753d8b1dbcfcf5c52"
+    },
+    "Notification": {
+      "count": 41,
+      "checksum": "c932cf814e644b2c38051f526188c117"
+    },
+    "Order": {
+      "count": 4,
+      "checksum": "0935f50a12844c0d4c38597b00f462f8"
+    },
+    "OrderAssignment": {
+      "count": 1,
+      "checksum": "98df92fafd6ec73fb0c556e79325ca54"
+    },
+    "OrderItem": {
+      "count": 4,
+      "checksum": "d84c08a560c30a904f3638789aeba6f9"
+    },
+    "OrderPacking": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "OrderStatusHistory": {
+      "count": 11,
+      "checksum": "7561ff5252f60f17df63820ee6930370"
+    },
+    "OutboxEvent": {
+      "count": 28,
+      "checksum": "e801bd33ab1dd2450c35573ba56cc016"
+    },
+    "PackingScan": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "PasswordRecovery": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Payment": {
+      "count": 4,
+      "checksum": "96d0b285d6fbafe288a06168a900e9a1"
+    },
+    "PaymentEvent": {
+      "count": 2,
+      "checksum": "86be7d2cc37e233d1c0d060d749df276"
+    },
+    "PaymentTransaction": {
+      "count": 2,
+      "checksum": "b58b8b30d51cf9b6e8f514122361bfcc"
+    },
+    "Product": {
+      "count": 100,
+      "checksum": "e70cc5ca0251a22430971437ff99d476"
+    },
+    "ProductImage": {
+      "count": 722,
+      "checksum": "1225f14498cbd8ef8974179d9a3a7199"
+    },
+    "ProductVariant": {
+      "count": 1720,
+      "checksum": "1a9eb0bf58400e58c2d872e5f887464c"
+    },
+    "Refund": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ReturnItem": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ReturnRequest": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Review": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Session": {
+      "count": 15,
+      "checksum": "91a136d3d5d3e59d6ad47c9ceb0f8f08"
+    },
+    "Shipment": {
+      "count": 4,
+      "checksum": "d32ee7f6c170ecb22d67f77d7939169f"
+    },
+    "ShipmentEvent": {
+      "count": 1,
+      "checksum": "b3dd03b4566c6197bb9ce19e98a6a4c2"
+    },
+    "StockMovement": {
+      "count": 1684,
+      "checksum": "5b1a26908fe24a4f2f40008401fa862e"
+    },
+    "StoreSetting": {
+      "count": 2,
+      "checksum": "ab07ab31f10d3cd38b052d6d7a102846"
+    },
+    "StyleTag": {
+      "count": 4,
+      "checksum": "b9cb55ea6a79a1f2ac8965ff319d0793"
+    },
+    "User": {
+      "count": 10,
+      "checksum": "ce73d1e1b13cd647cb207b871b6fef60"
+    },
+    "UserUpload": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Wishlist": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_CollectionToProduct": {
+      "count": 100,
+      "checksum": "d62dea355906cc5b8fa5d5730a8a0ed2"
+    },
+    "_ProductToStyleTag": {
+      "count": 100,
+      "checksum": "84dc2b9b29aa8e2b5f5abb8e332acd46"
+    }
+  },
+  "after": {
+    "Address": {
+      "count": 1,
+      "checksum": "c83cc40577c587c40bbd92b6eeb21c6f"
+    },
+    "AuditLog": {
+      "count": 75,
+      "checksum": "0fc08367e947f3d20d554481fd184502"
+    },
+    "AuthToken": {
+      "count": 2,
+      "checksum": "6de620dd9f75943325a77c21c013c4b7"
+    },
+    "CODSettlement": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Cart": {
+      "count": 6,
+      "checksum": "596259c2da88af912b3497a7d9be4dae"
+    },
+    "CartItem": {
+      "count": 4,
+      "checksum": "d7cb675940ec4794fda404ce924c850e"
+    },
+    "Category": {
+      "count": 5,
+      "checksum": "45081bcdf406ba5648a3cb5efb07b592"
+    },
+    "Collection": {
+      "count": 5,
+      "checksum": "56fdb21e4769ff308054f4bf09dd3a66"
+    },
+    "Coupon": {
+      "count": 1,
+      "checksum": "e9a63c2fd2960c0cb9f9670955804625"
+    },
+    "CouponRedemption": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Exchange": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ExchangeReceipt": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ExternalIdentity": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Inventory": {
+      "count": 1720,
+      "checksum": "a913c9e13caab71186a6552ad0e66fca"
+    },
+    "InventoryReservation": {
+      "count": 4,
+      "checksum": "f4a98772572f0a1ca6ef7c2b1e802363"
+    },
+    "MFA": {
+      "count": 1,
+      "checksum": "08d9015dfdc7d77753d8b1dbcfcf5c52"
+    },
+    "Notification": {
+      "count": 41,
+      "checksum": "c932cf814e644b2c38051f526188c117"
+    },
+    "Order": {
+      "count": 4,
+      "checksum": "0935f50a12844c0d4c38597b00f462f8"
+    },
+    "OrderAssignment": {
+      "count": 1,
+      "checksum": "98df92fafd6ec73fb0c556e79325ca54"
+    },
+    "OrderItem": {
+      "count": 4,
+      "checksum": "d84c08a560c30a904f3638789aeba6f9"
+    },
+    "OrderPacking": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "OrderStatusHistory": {
+      "count": 11,
+      "checksum": "7561ff5252f60f17df63820ee6930370"
+    },
+    "OutboxEvent": {
+      "count": 28,
+      "checksum": "e801bd33ab1dd2450c35573ba56cc016"
+    },
+    "PackingScan": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "PasswordRecovery": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Payment": {
+      "count": 4,
+      "checksum": "96d0b285d6fbafe288a06168a900e9a1"
+    },
+    "PaymentEvent": {
+      "count": 2,
+      "checksum": "86be7d2cc37e233d1c0d060d749df276"
+    },
+    "PaymentTransaction": {
+      "count": 2,
+      "checksum": "b58b8b30d51cf9b6e8f514122361bfcc"
+    },
+    "Product": {
+      "count": 100,
+      "checksum": "e70cc5ca0251a22430971437ff99d476"
+    },
+    "ProductImage": {
+      "count": 722,
+      "checksum": "1225f14498cbd8ef8974179d9a3a7199"
+    },
+    "ProductVariant": {
+      "count": 1720,
+      "checksum": "1a9eb0bf58400e58c2d872e5f887464c"
+    },
+    "Refund": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ReturnItem": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "ReturnRequest": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Review": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Session": {
+      "count": 15,
+      "checksum": "91a136d3d5d3e59d6ad47c9ceb0f8f08"
+    },
+    "Shipment": {
+      "count": 4,
+      "checksum": "d32ee7f6c170ecb22d67f77d7939169f"
+    },
+    "ShipmentEvent": {
+      "count": 1,
+      "checksum": "b3dd03b4566c6197bb9ce19e98a6a4c2"
+    },
+    "StockMovement": {
+      "count": 1684,
+      "checksum": "5b1a26908fe24a4f2f40008401fa862e"
+    },
+    "StoreSetting": {
+      "count": 2,
+      "checksum": "ab07ab31f10d3cd38b052d6d7a102846"
+    },
+    "StyleTag": {
+      "count": 4,
+      "checksum": "b9cb55ea6a79a1f2ac8965ff319d0793"
+    },
+    "User": {
+      "count": 10,
+      "checksum": "ce73d1e1b13cd647cb207b871b6fef60"
+    },
+    "UserUpload": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "Wishlist": {
+      "count": 0,
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "_CollectionToProduct": {
+      "count": 100,
+      "checksum": "d62dea355906cc5b8fa5d5730a8a0ed2"
+    },
+    "_ProductToStyleTag": {
+      "count": 100,
+      "checksum": "84dc2b9b29aa8e2b5f5abb8e332acd46"
+    }
+  },
+  "newTables": [
+    {
+      "name": "ExperienceDaily",
+      "count": 0
+    },
+    {
+      "name": "ExperienceEvent",
+      "count": 0
+    },
+    {
+      "name": "GuestContact",
+      "count": 0
+    },
+    {
+      "name": "GuestSession",
+      "count": 0
+    },
+    {
+      "name": "OperationAlert",
+      "count": 0
+    },
+    {
+      "name": "PerformanceDaily",
+      "count": 0
+    },
+    {
+      "name": "ProductSizeGuide",
+      "count": 0
+    },
+    {
+      "name": "PurchaseReceipt",
+      "count": 0
+    },
+    {
+      "name": "ReceiptLine",
+      "count": 0
+    },
+    {
+      "name": "Supplier",
+      "count": 0
+    },
+    {
+      "name": "SupportMessage",
+      "count": 0
+    },
+    {
+      "name": "SupportTicket",
+      "count": 0
+    }
+  ],
+  "triggerCount": 13,
+  "triggersPreserved": true,
+  "constraints": [
+    "Order_owner_check",
+    "ReceiptLine_quantity_cost_check",
+    "SupportTicket_owner_check"
+  ],
+  "shopApplied": false,
+  "shopApprovalRequired": true,
+  "applicationResult": "migration-application.json",
+  "note": "shopApplied=false records the state at rehearsal time; owner subsequently approved and the application report records the live result."
+}

@@ -4,8 +4,8 @@ import { serverApi } from "../../../lib/server-api";
 import "../../try-on.css";
 
 export const metadata: Metadata = {
-  title: "Phòng thử đồ AI",
-  description: "Chọn ảnh của bạn và chuẩn bị một lượt dùng thử cùng thiết kế Milo yêu thích.",
+  title: "Phòng thử đồ Milo",
+  description: "Thử thiết kế và màu áo bạn đang xem, hoặc chuẩn bị ảnh sản phẩm và prompt để tự dùng trong ChatGPT.",
   robots: { index: false, follow: false },
 };
 

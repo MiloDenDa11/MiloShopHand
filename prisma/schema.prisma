@@ -10,6 +10,7 @@ datasource db {
 enum Role {
   USER
   ADMIN
+  SELLER
 }
 
 enum OrderStatus {
@@ -58,6 +59,8 @@ model User {
   verifiedAt       DateTime?
   disabled         Boolean        @default(false)
   phone            String?
+  avatarUrl        String?
+  avatarPublicId   String?
   preferences      String[]       @default([])
   marketingConsent Boolean        @default(false)
   createdAt        DateTime       @default(now())
@@ -69,7 +72,11 @@ model User {
   wishlist         Wishlist[]
   orders           Order[]
   notifications    Notification[]
+  assignedOrders   OrderAssignment[]
   audits           AuditLog[]
+  externalIdentities ExternalIdentity[]
+  passwordRecoveries PasswordRecovery[]
+  supportTickets     SupportTicket[]
 }
 
 model Session {
@@ -84,6 +91,40 @@ model Session {
   agent             String
 
   @@index([userId])
+  @@index([expiresAt])
+}
+
+model ExternalIdentity {
+  id              String   @id @default(cuid())
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  provider        String
+  subject         String
+  email           String
+  passwordEnabled Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([provider, subject])
+  @@unique([userId, provider])
+}
+
+model PasswordRecovery {
+  id               String    @id
+  emailHash        String
+  userId           String?
+  user             User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  codeHash         String
+  attempts         Int       @default(0)
+  expiresAt        DateTime
+  verifiedAt       DateTime?
+  resetTokenHash   String?   @unique
+  resetExpiresAt   DateTime?
+  consumedAt       DateTime?
+  createdAt        DateTime  @default(now())
+
+  @@index([emailHash, createdAt])
+  @@index([userId, consumedAt])
   @@index([expiresAt])
 }
 
@@ -105,6 +146,7 @@ model MFA {
   encryptedSecret String
   recoveryHashes  String[]
   lastCounter     Int      @default(0)
+  enabledAt       DateTime?
 }
 
 model Address {
@@ -177,6 +219,7 @@ model Product {
   images        ProductImage[]
   wishlist      Wishlist[]
   createdAt     DateTime         @default(now())
+  sizeGuide     ProductSizeGuide?
 
   @@index([active, createdAt])
   @@index([categoryId])
@@ -222,6 +265,7 @@ model Inventory {
   lowThreshold Int                    @default(5)
   reservations InventoryReservation[]
   movements    StockMovement[]
+  receiptLines ReceiptLine[]
 
   @@unique([variantId, warehouse])
 }
@@ -288,8 +332,12 @@ model Wishlist {
 model Order {
   id               String                 @id @default(cuid())
   code             String                 @unique
-  userId           String
-  user             User                   @relation(fields: [userId], references: [id])
+  userId           String?
+  user             User?                  @relation(fields: [userId], references: [id], onDelete: Restrict)
+  guestSessionId   String?
+  guestSession     GuestSession?          @relation(fields: [guestSessionId], references: [id])
+  guestContact     GuestContact?
+  supportTickets   SupportTicket[]
   idempotencyKey   String
   requestHash      String
   status           OrderStatus
@@ -312,10 +360,187 @@ model Order {
   shipment         Shipment?
   redemption       CouponRedemption?
   returns          ReturnRequest[]
+  assignment       OrderAssignment?
+  packing          OrderPacking?
 
   @@unique([userId, idempotencyKey])
+  @@unique([guestSessionId, idempotencyKey])
   @@index([userId, createdAt])
   @@index([status, expiresAt])
+}
+
+model GuestSession {
+  id        String @id @default(cuid())
+  tokenHash String @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  orders    Order[]
+}
+
+model GuestContact {
+  orderId String @id
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  email String
+  phoneHash String
+  claimedAt DateTime?
+  @@index([phoneHash])
+}
+
+model ProductSizeGuide {
+  productId String @id
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  rows Json
+  kind String
+  note String @default("")
+  model Json?
+  published Boolean @default(false)
+  revision Int @default(1)
+  updatedAt DateTime @updatedAt
+}
+
+model ExperienceEvent {
+  key String @id
+  event String
+  source String
+  productId String?
+  createdAt DateTime @default(now())
+  @@index([createdAt, event])
+}
+
+model ExperienceDaily {
+  day DateTime @db.Date
+  event String
+  source String
+  count Int @default(0)
+  @@id([day,event,source])
+}
+
+model PerformanceDaily {
+  day DateTime @db.Date
+  page String
+  metric String
+  good Int @default(0)
+  needsImprovement Int @default(0)
+  poor Int @default(0)
+  @@id([day,page,metric])
+}
+
+model OperationAlert {
+  key String @id
+  code String
+  entityId String?
+  active Boolean @default(true)
+  revision Int @default(1)
+  openedAt DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+  resolvedAt DateTime?
+}
+
+model SupportTicket {
+  id String @id @default(cuid())
+  userId String?
+  user User? @relation(fields: [userId], references: [id])
+  orderId String?
+  order Order? @relation(fields: [orderId], references: [id])
+  subject String
+  topic String
+  status String @default("OPEN")
+  assigneeId String?
+  revision Int @default(1)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  messages SupportMessage[]
+  @@index([userId,createdAt])
+  @@index([status,updatedAt])
+}
+
+model SupportMessage {
+  id String @id @default(cuid())
+  ticketId String
+  ticket SupportTicket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  authorId String
+  authorRole String
+  body String
+  internal Boolean @default(false)
+  requestId String
+  createdAt DateTime @default(now())
+  @@unique([ticketId,requestId])
+}
+
+model Supplier {
+  id String @id @default(cuid())
+  name String
+  email String?
+  phone String?
+  note String @default("")
+  active Boolean @default(true)
+  createdAt DateTime @default(now())
+  receipts PurchaseReceipt[]
+}
+
+model PurchaseReceipt {
+  id String @id @default(cuid())
+  key String @unique
+  requestHash String
+  supplierId String
+  supplier Supplier @relation(fields: [supplierId], references: [id])
+  reference String
+  note String @default("")
+  status String @default("DRAFT")
+  revision Int @default(1)
+  createdBy String
+  confirmedBy String?
+  confirmedAt DateTime?
+  createdAt DateTime @default(now())
+  lines ReceiptLine[]
+}
+
+model ReceiptLine {
+  id String @id @default(cuid())
+  receiptId String
+  receipt PurchaseReceipt @relation(fields: [receiptId], references: [id])
+  inventoryId String
+  inventory Inventory @relation(fields: [inventoryId], references: [id])
+  quantity Int
+  unitCost Int
+  @@unique([receiptId,inventoryId])
+}
+
+model OrderAssignment {
+  orderId    String   @id
+  order      Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  assigneeId String?
+  assignee   User?    @relation(fields: [assigneeId], references: [id], onDelete: SetNull)
+  assignedAt DateTime?
+  revision   Int      @default(0)
+  updatedAt  DateTime @updatedAt
+
+  @@index([assigneeId, assignedAt])
+}
+
+model OrderPacking {
+  orderId     String   @id
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  fingerprint String
+  checked     Json     @default("{}")
+  revision    Int      @default(0)
+  updatedAt   DateTime @updatedAt
+  scans       PackingScan[]
+}
+
+model PackingScan {
+  id          String       @id @default(cuid())
+  orderId     String
+  packing     OrderPacking @relation(fields: [orderId], references: [orderId], onDelete: Cascade)
+  requestId   String
+  requestHash String
+  actorId     String
+  action      String
+  sku         String?
+  createdAt   DateTime     @default(now())
+
+  @@unique([orderId, requestId])
+  @@index([orderId, createdAt])
 }
 
 model OrderItem {
@@ -523,6 +748,7 @@ model Notification {
   key       String    @unique
   title     String
   body      String
+  href      String?
   readAt    DateTime?
   createdAt DateTime  @default(now())
 

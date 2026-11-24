@@ -8,6 +8,7 @@ export default defineConfig({
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
     baseURL: process.env.PLAYWRIGHT_BASE_URL || "http://localhost:3000",
+    storageState: { cookies: [], origins: [{ origin: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:3000', localStorage: [{ name: 'milo-experience-consent:v1', value: 'no' }] }] },
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },

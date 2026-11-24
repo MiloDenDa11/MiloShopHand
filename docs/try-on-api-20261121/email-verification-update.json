@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-21",
+  "scope": "Tạm bỏ yêu cầu xác minh email riêng cho thử đồ AI theo yêu cầu chủ shop",
+  "policy": {
+    "requireVerifiedEmail": false,
+    "restore": "Đặt TRY_ON_REQUIRE_VERIFIED_EMAIL=true trên API và worker, rồi khởi động lại hai dịch vụ.",
+    "loginRequired": true,
+    "consentRequired": true,
+    "dailyImagesPerAccount": 2,
+    "disabledAccountsRejected": true,
+    "verificationStateInDatabaseChanged": false,
+    "checkoutVerificationChanged": false
+  },
+  "validation": {
+    "typecheck": "PASS: API, worker, web",
+    "unitTests": { "passed": 7, "failed": 0 },
+    "isolatedApiIntegrationTests": { "passed": 13, "failed": 0 },
+    "browserTests": { "passed": 13, "failed": 0 },
+    "provider": "Chỉ giả lập; không gọi OpenAI thật, không gửi email thật",
+    "liveLocalConfig": { "enabled": true, "requireVerifiedEmail": false },
+    "coverage": [
+      "Tài khoản chưa xác minh tạo được hai ảnh giả lập sau consent, tại cả UI và worker",
+      "Hết hạn mức vẫn bị chặn; không tự gửi hoặc gửi lại request tạo ảnh",
+      "Khách chưa đăng nhập và tài khoản bị khóa vẫn bị chặn",
+      "Bật lại cờ xác minh chặn ở cả admission và worker trước khi gọi provider",
+      "Ảnh riêng tư chỉ chủ sở hữu đọc được; CSRF, idempotency và kiểm tra input giữ nguyên"
+    ]
+  },
+  "changedFiles": [
+    ".env.example",
+    "apps/api/src/try-on-policy.ts",
+    "apps/api/src/try-on-service.ts",
+    "apps/web/hooks/use-direct-try-on.ts",
+    "apps/web/components/try-on.tsx",
+    "tests/try-on-api.test.ts",
+    "tests/try-on-jobs.integration.test.ts",
+    "tests/e2e/try-on-api.spec.ts",
+    "docs/try-on-api-20261121/verification.json",
+    "docs/try-on-api-20261121/email-verification-update.json"
+  ]
+}

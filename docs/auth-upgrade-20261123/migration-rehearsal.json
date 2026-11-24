@@ -1,0 +1,90 @@
+{
+  "backup": ".local/backups/milo-2026-11-23T15-11-09-949Z.dump",
+  "restoredDatabase": "milo_auth_restore_20261123_1511",
+  "migration": "202611230012_google_recovery",
+  "unchanged": true,
+  "before": {
+    "User": {
+      "count": 10,
+      "digest": "45d868174660a2cbb5ec55a4ffa2a9a4"
+    },
+    "Session": {
+      "count": 15,
+      "digest": "324e2f7a81c9b1ab03659ae887ce32d1"
+    },
+    "Order": {
+      "count": 4,
+      "digest": "e6c677a8398098cfefd2b680f4a8d0e0"
+    },
+    "OrderItem": {
+      "count": 4,
+      "digest": "3570e3b13891e10b95eab308d56686d3"
+    },
+    "Inventory": {
+      "count": 1720,
+      "digest": "a29557279513f554440d39dce68ac3d9"
+    },
+    "Notification": {
+      "count": 41,
+      "digest": "b1efae9013259483c59f35d2589e9b26"
+    },
+    "Product": {
+      "count": 100,
+      "digest": "43d998ab7327d44b56b4e225860a2b62"
+    },
+    "ProductVariant": {
+      "count": 1720,
+      "digest": "557379d7bfee949b082ccfc1a167236d"
+    },
+    "MFA": {
+      "count": 1,
+      "digest": "df9297c544f1c2f108b75398ede7d257"
+    },
+    "StoreSetting": {
+      "count": 2,
+      "digest": "7c714ce0b8ad7bab15bbab41f307a927"
+    }
+  },
+  "after": {
+    "User": {
+      "count": 10,
+      "digest": "45d868174660a2cbb5ec55a4ffa2a9a4"
+    },
+    "Session": {
+      "count": 15,
+      "digest": "324e2f7a81c9b1ab03659ae887ce32d1"
+    },
+    "Order": {
+      "count": 4,
+      "digest": "e6c677a8398098cfefd2b680f4a8d0e0"
+    },
+    "OrderItem": {
+      "count": 4,
+      "digest": "3570e3b13891e10b95eab308d56686d3"
+    },
+    "Inventory": {
+      "count": 1720,
+      "digest": "a29557279513f554440d39dce68ac3d9"
+    },
+    "Notification": {
+      "count": 41,
+      "digest": "b1efae9013259483c59f35d2589e9b26"
+    },
+    "Product": {
+      "count": 100,
+      "digest": "43d998ab7327d44b56b4e225860a2b62"
+    },
+    "ProductVariant": {
+      "count": 1720,
+      "digest": "557379d7bfee949b082ccfc1a167236d"
+    },
+    "MFA": {
+      "count": 1,
+      "digest": "df9297c544f1c2f108b75398ede7d257"
+    },
+    "StoreSetting": {
+      "count": 2,
+      "digest": "7c714ce0b8ad7bab15bbab41f307a927"
+    }
+  }
+}

@@ -41,11 +41,15 @@ import {
   amounts,
   allocateDiscount,
   assertTransition,
+  cancellationSchema, cancellationReasons, buyerCanCancel, sellerTransitions, orderLabels,
 } from "../../../packages/shared/src";
 import { phone } from "./auth";
 import { payments, shipping } from "./providers";
+import { checkAssignee } from './seller-operations';
+import { requirePacked } from './packing';
+import { recordCommerceEvent } from './experience';
 import { randomBytes } from "node:crypto";
-const userOrderInclude = {
+export const userOrderInclude = {
   items: true,
   payment: true,
   shipment: {
@@ -54,8 +58,12 @@ const userOrderInclude = {
   history: { orderBy: { createdAt: "asc" as const } },
   returns: { include: { items: true } },
 };
+async function notifySellers(tx: any, order: { id: string; code: string }, suffix: string, title: string, body: string) {
+  const staff = await tx.user.findMany({ where: { role: { in: ['ADMIN', 'SELLER'] }, disabled: false }, select: { id: true } });
+  if (staff.length) await tx.notification.createMany({ data: staff.map((user: { id: string }) => ({ userId: user.id, key: `seller:${order.id}:${suffix}:${user.id}`, title, body, href: `/nguoi-ban?order=${encodeURIComponent(order.id)}` })), skipDuplicates: true });
+}
 export function orderDto(o: any) {
-  const { internalNote, requestHash, idempotencyKey, ...publicFields } = o;
+  const { internalNote, requestHash, idempotencyKey, guestSessionId, guestSession, guestContact, ...publicFields } = o;
   return json({
     ...publicFields,
     items: o.items?.map(({ cost, ...i }: any) => i),
@@ -196,8 +204,8 @@ export class CommerceService {
         "Giá và tồn kho sẽ được kiểm tra lại khi xác nhận. Thêm vào giỏ chưa giữ hàng.",
     };
   }
-  async checkout(user: any, body: unknown, key: string) {
-    if (!user.verifiedAt)
+  async checkout(user: any, body: unknown, key: string, guest?: { sessionId: string; email: string; phoneHash: string }) {
+    if (!guest && !user?.verifiedAt)
       fail(
         "EMAIL_UNVERIFIED",
         "Vui lòng xác minh email trước khi đặt hàng.",
@@ -206,14 +214,15 @@ export class CommerceService {
     if (!key || key.length < 16 || key.length > 100)
       fail("IDEMPOTENCY_REQUIRED", "Yêu cầu mã chống đặt hàng trùng.");
     const d = parse(checkoutSchema, body);
+    if (guest && (user || d.coupon)) fail('GUEST_COUPON_LOGIN','Mã ưu đãi theo tài khoản cần đăng nhập. Bạn vẫn có thể đặt hàng không dùng mã.',422);
+    const buyerId = user?.id as string | undefined;
+    const ownerWhere = guest ? { guestSessionId: guest.sessionId, userId: null, idempotencyKey: key } : { userId: buyerId!, idempotencyKey: key };
     d.items = this.canonical(d.items);
     d.address.phone = phone(d.address.phone);
     d.coupon = d.coupon?.toUpperCase();
-    const requestHash = hash(JSON.stringify(d));
-    const prior = await this.db.order.findUnique({
-      where: {
-        userId_idempotencyKey: { userId: user.id, idempotencyKey: key },
-      },
+    const requestHash = hash(JSON.stringify({ ...d, ...(guest ? { guestEmail: guest.email } : {}) }));
+    const prior = await this.db.order.findFirst({
+      where: ownerWhere,
       include: userOrderInclude,
     });
     if (prior) {
@@ -226,7 +235,7 @@ export class CommerceService {
       return orderDto(prior);
     }
     if (d.method === "QR") payments();
-    const preview = await this.price(this.db, d.items, d.coupon, user.id);
+    const preview = await this.price(this.db, d.items, d.coupon, buyerId || 'guest');
     const quote = await shipping().quote(
       d.address,
       preview.subtotal - preview.discount,
@@ -236,10 +245,14 @@ export class CommerceService {
       ),
     );
     const result = await transaction(this.db, async (tx) => {
-      const exists = await tx.order.findUnique({
-        where: {
-          userId_idempotencyKey: { userId: user.id, idempotencyKey: key },
-        },
+      if (guest) {
+        await tx.$queryRaw`SELECT id FROM "GuestSession" WHERE id=${guest.sessionId} FOR UPDATE`;
+        const session = await tx.guestSession.findUnique({ where:{id:guest.sessionId} });
+        if (!session || session.expiresAt <= new Date()) fail('GUEST_SESSION_EXPIRED','Phiên đặt hàng đã hết hạn. Vui lòng tải lại.',401);
+        await tx.$queryRaw`SELECT 1 AS locked FROM pg_advisory_xact_lock(hashtextextended(${guest.phoneHash},0))`;
+      }
+      const exists = await tx.order.findFirst({
+        where: ownerWhere,
         include: userOrderInclude,
       });
       if (exists) {
@@ -251,7 +264,7 @@ export class CommerceService {
           );
         return exists;
       }
-      const p = await this.price(tx, d.items, d.coupon, user.id, true);
+      const p = await this.price(tx, d.items, d.coupon, buyerId || 'guest', true);
       if (p.subtotal !== preview.subtotal || p.discount !== preview.discount)
         fail(
           "PRICE_CHANGED",
@@ -266,7 +279,7 @@ export class CommerceService {
         fail("COD_LIMIT", "Đơn COD vượt giới hạn cho phép. Vui lòng chọn QR.");
       const activeCod = await tx.order.count({
         where: {
-          userId: user.id,
+          ...(guest ? { guestContact: { is: { phoneHash: guest.phoneHash } } } : { userId: buyerId! }),
           method: "COD",
           status: {
             in: [
@@ -301,7 +314,8 @@ export class CommerceService {
       const o = await tx.order.create({
         data: {
           code: `MS${new Date().getUTCFullYear().toString().slice(-2)}${randomBytes(5).toString("hex").toUpperCase()}`,
-          userId: user.id,
+          userId: buyerId || null,
+          ...(guest ? { guestSessionId:guest.sessionId, guestContact:{create:{email:guest.email,phoneHash:guest.phoneHash}} } : {}),
           idempotencyKey: key,
           requestHash,
           status:
@@ -347,7 +361,7 @@ export class CommerceService {
             create: {
               to:
                 d.method === "QR" ? "PENDING_PAYMENT" : "PENDING_CONFIRMATION",
-              actor: user.id,
+              actor: buyerId || `guest:${guest!.sessionId}`,
               reason: "Tạo đơn hàng",
             },
           },
@@ -376,7 +390,7 @@ export class CommerceService {
             delta: 0,
             reason: `Giữ ${i.quantity} cho ${o.code}`,
             reference: `reserve:${o.id}:${i.inventoryId}`,
-            actorId: user.id,
+            actorId: buyerId,
           },
         });
       }
@@ -389,7 +403,7 @@ export class CommerceService {
         await tx.couponRedemption.create({
           data: {
             couponId: p.coupon.id,
-            userId: user.id,
+            userId: buyerId!,
             orderId: o.id,
             amount: p.discount,
           },
@@ -404,7 +418,9 @@ export class CommerceService {
         title: "Đặt hàng thành công",
         body: `Đơn ${o.code} đã được ghi nhận.`,
       });
-      await tx.cartItem.deleteMany({ where: { cart: { userId: user.id } } });
+      await notifySellers(tx, o, 'created', `Đơn mới ${o.code}`, d.method === 'QR' ? 'Khách đã đặt đơn, đang chờ thanh toán.' : 'Khách đã đặt đơn COD, đang chờ duyệt.');
+      if (buyerId) await tx.cartItem.deleteMany({ where: { cart: { userId: buyerId } } });
+      await recordCommerceEvent(tx,`order-created:${o.id}`,'ORDER_CREATED');
       return tx.order.findUniqueOrThrow({
         where: { id: o.id },
         include: userOrderInclude,
@@ -418,6 +434,7 @@ export class CommerceService {
     actor: string,
     reason: string,
     isUser = false,
+    options: { expectedFrom?: string; seller?: boolean; buyerComplete?: boolean; cancellationCode?: string; guestSessionId?: string } = {},
   ) {
     return transaction(this.db, async (tx) => {
       await tx.$queryRaw`SELECT id FROM "Order" WHERE id=${id} FOR UPDATE`;
@@ -426,10 +443,22 @@ export class CommerceService {
         include: { payment: true, shipment: true, reservations: true },
       });
       if (!o) fail("NOT_FOUND", "Không tìm thấy đơn.", 404);
+      const buyerOwns = options.guestSessionId ? !o.userId && o.guestSessionId === options.guestSessionId : o.userId === actor;
+      if (options.seller) {
+        const staff = await tx.user.findUnique({ where: { id: actor }, select: { role: true, disabled: true } });
+        if (!staff || staff.disabled || !['ADMIN', 'SELLER'].includes(staff.role)) fail('FORBIDDEN', 'Bạn không có quyền xử lý đơn hàng.', 403);
+        await checkAssignee(tx, id, actor, staff.role);
+        if (o.status !== options.expectedFrom) fail('ORDER_CHANGED', 'Đơn đã được người khác cập nhật. Vui lòng tải lại.', 409);
+        if (!sellerTransitions[o.status]?.includes(to)) fail('INVALID_STATE', 'Thao tác người bán không phù hợp trạng thái đơn.', 409);
+      }
+      if (options.buyerComplete && (!buyerOwns || !['DELIVERED', 'COMPLETED'].includes(o.status) || to !== 'COMPLETED'))
+        fail('INVALID_STATE', 'Chỉ xác nhận nhận hàng sau khi đơn được giao.', 409);
+      if (isUser && buyerOwns && o.status === 'CANCELLED' && to === 'CANCELLED')
+        return tx.order.findUniqueOrThrow({ where: { id }, include: userOrderInclude });
       if (
         isUser &&
-        (o.userId !== actor ||
-          !["PENDING_PAYMENT", "PENDING_CONFIRMATION"].includes(o.status) ||
+        (!buyerOwns ||
+          !buyerCanCancel(o.status) ||
           to !== "CANCELLED")
       )
         fail(
@@ -439,10 +468,11 @@ export class CommerceService {
         );
       try {
         if (!assertTransition(o.status, to, o.method, o.payment!.status))
-          return o;
+          return tx.order.findUniqueOrThrow({ where: { id }, include: userOrderInclude });
       } catch (e: any) {
         fail("INVALID_STATE", e.message, 409);
       }
+      if (to === 'READY_TO_SHIP') await requirePacked(tx, id);
       if (
         to === "PENDING_CONFIRMATION" &&
         o.method === "QR" &&
@@ -556,27 +586,49 @@ export class CommerceService {
           where: { orderId: id },
           data: { status: "DELIVERED" },
         });
+      if (to === 'SHIPPED' && o.shipment && ['NOT_CREATED', 'CREATED'].includes(o.shipment.status)) {
+        await tx.shipment.update({ where: { id: o.shipment.id }, data: { status: 'PICKED_UP' } });
+        await tx.shipmentEvent.upsert({ where: { key: `handoff:${id}` }, create: { key: `handoff:${id}`, shipmentId: o.shipment.id, status: 'PICKED_UP', source: actor.startsWith('system:') ? 'system' : 'seller', payload: { reason } }, update: {} });
+      }
       await tx.order.update({ where: { id }, data: { status: to as any } });
       await tx.orderStatusHistory.create({
         data: { orderId: id, from: o.status, to, actor, reason },
       });
       await audit(
         tx,
-        actor.startsWith("system:") ? undefined : actor,
+        actor.startsWith("system:") || actor.startsWith('guest:') ? undefined : actor,
         "ORDER_TRANSITION",
         "Order",
         id,
-        { from: o.status, to, reason },
+        { from: o.status, to, reason, ...(options.cancellationCode ? { cancellationCode: options.cancellationCode } : {}) },
       );
       await outbox(tx, "ORDER_NOTIFY", `status:${id}:${to}`, {
         orderId: id,
         title: "Cập nhật đơn hàng",
-        body: `Đơn ${o.code}: ${to}`,
+        body: `Đơn ${o.code}: ${orderLabels[to] || to}`,
       });
+      await notifySellers(tx, o, to, `Cập nhật ${o.code}`, `Đơn ${o.code}: ${orderLabels[to] || to}.`);
       return tx.order.findUniqueOrThrow({
         where: { id },
         include: userOrderInclude,
       });
+    });
+  }
+  async requestShipment(id: string, actor: string) {
+    shipping(); // Validate configuration without calling the carrier.
+    return transaction(this.db, async tx => {
+      const staff = await tx.user.findUnique({ where: { id: actor }, select: { role: true, disabled: true } });
+      if (!staff || staff.disabled || !['ADMIN', 'SELLER'].includes(staff.role)) fail('FORBIDDEN', 'Bạn không có quyền tạo vận đơn.', 403);
+      await tx.$queryRaw`SELECT id FROM "Order" WHERE id=${id} FOR UPDATE`;
+      await checkAssignee(tx, id, actor, staff.role);
+      const order = await tx.order.findUnique({ where: { id }, include: { payment: true, shipment: true } });
+      if (!order) fail('NOT_FOUND', 'Không tìm thấy đơn.', 404);
+      if (order.status !== 'READY_TO_SHIP') fail('INVALID_STATE', 'Đơn cần sẵn sàng giao trước khi tạo vận đơn.', 409);
+      if (order.method === 'QR' && order.payment?.status !== 'PAID') fail('PAYMENT_REQUIRED', 'Đơn QR chưa thanh toán.', 409);
+      if (order.shipment?.trackingCode) return { message: 'Đơn đã có mã vận đơn.', queued: false };
+      await outbox(tx, 'SHIPMENT_CREATE', `shipment-create:${id}`, { orderId: id });
+      await audit(tx, actor, 'SHIPMENT_REQUEST', 'Order', id);
+      return { message: 'Đã yêu cầu tạo vận đơn. Chờ nhà vận chuyển trả mã trước khi bàn giao.', queued: true };
     });
   }
   async receive(data: any, source: string) {
@@ -657,6 +709,7 @@ export class CommerceService {
         },
       });
       if (accepted) {
+        await recordCommerceEvent(tx,`payment-confirmed:${p.id}`,'PAYMENT_CONFIRMED');
         await tx.order.update({
           where: { id: p.orderId },
           data: { status: "PENDING_CONFIRMATION" },
@@ -827,7 +880,9 @@ export class CommerceController {
   @Post("orders/:id/cancel") async cancel(
     @Param("id") id: string,
     @Req() r: AppRequest,
+    @Body() body: unknown,
   ) {
+    const data = parse(cancellationSchema, body);
     const o = await this.db.order.findFirst({
       where: { id, userId: r.actor!.id },
     });
@@ -837,10 +892,16 @@ export class CommerceController {
         id,
         "CANCELLED",
         r.actor!.id,
-        "Khách yêu cầu hủy",
+        `Người mua hủy: ${cancellationReasons[data.reasonCode]}${data.detail ? ` — ${data.detail}` : ''}`,
         true,
+        { cancellationCode: data.reasonCode },
       ),
     );
+  }
+  @Post('orders/:id/complete') async complete(@Param('id') id: string, @Req() r: AppRequest, @Body() body: unknown) {
+    parse(z.object({}).strict(), body);
+    if (!await this.db.order.findFirst({ where: { id, userId: r.actor!.id }, select: { id: true } })) fail('NOT_FOUND', 'Không tìm thấy đơn.', 404);
+    return orderDto(await this.commerce.transition(id, 'COMPLETED', r.actor!.id, 'Người mua xác nhận đã nhận hàng', false, { buyerComplete: true }));
   }
   @Get("addresses") addresses(@Req() r: AppRequest) {
     return this.db.address.findMany({

@@ -1,0 +1,121 @@
+{
+  "preparedAt": "2026-11-23T16:29:10.068Z",
+  "scope": "Thông báo đơn hàng tức thời, phiếu đóng gói và kiểm SKU trước hoàn tất đóng gói",
+  "status": "Hoàn tất mã nguồn, kiểm thử và áp dụng migration vào database shop trên máy",
+  "implemented": {
+    "realtime": "SSE xác thực session/JWT; PostgreSQL LISTEN/NOTIFY sau commit từ 6 bảng; phân luồng khách/nhân viên; không gửi PII/giá/token qua stream; tự kết nối lại và polling 15 giây khi mất SSE",
+    "notifications": "Chuông, số chưa đọc, mở đúng đơn, đánh dấu đọc theo user, âm báo tùy chọn mặc định tắt; điều hướng tab thông báo cả khi đã ở trang tài khoản",
+    "packing": "Đối chiếu OrderItem snapshot theo SKU/màu/size/số lượng; mỗi lần một sản phẩm; kiểm người phụ trách, khóa Order, revision, idempotency; hoàn tác/kiểm lại có audit; không thay đổi tồn kho khi quét",
+    "completion": "Chặn vào READY_TO_SHIP tại CommerceService dùng chung cho Seller và Admin khi chưa kiểm đủ. Đơn đã qua READY_TO_SHIP từ trước không bị backfill hoặc chặn tiếp tục giao.",
+    "print": "Phiếu A5 có QR mã đơn và dữ liệu đúng snapshot; POST có CSRF và audit tạo phiếu; preview/print tách khỏi toàn bộ giao diện; không chứa giá bán/giá vốn; ghi chú được escape",
+    "asyncUpdates": "Shipment/Payment có trigger để cập nhật mã vận đơn, tiền/trạng thái thanh toán ngay cả khi Order chưa đổi; vai trò bị thu hồi sẽ đóng stream và cập nhật lại quyền giao diện"
+  },
+  "database": {
+    "migration": "202611230013_fulfillment_realtime",
+    "backup": ".local/backups/milo-2026-11-23T16-34-58-749Z.dump",
+    "rehearsal": "milo_fulfillment_restore_20261123_v2",
+    "originalTablesUnchanged": 44,
+    "newTables": [
+      "OrderPacking",
+      "PackingScan"
+    ],
+    "triggers": 6,
+    "rehearsed": true,
+    "userApproved": true,
+    "applied": true,
+    "details": "migration-applied.json",
+    "rehearsalBackup": ".local/backups/milo-2026-11-23T16-01-00-236Z.dump",
+    "verified": true,
+    "newTablesInitiallyEmpty": true,
+    "rehearsalDetails": "migration-rehearsal.json"
+  },
+  "verification": {
+    "groups": {
+      "base": 68,
+      "commerceSeller": 31,
+      "existingIntegration": 42,
+      "auth": 20,
+      "fulfillment": 16,
+      "fulfillmentBrowser": 10,
+      "commerceBrowser": 12,
+      "authBrowser": 6
+    },
+    "uniquePassingCases": 205,
+    "allGroupsPassed": true,
+    "existingIntegrationDatabase": "milo_integration_fulfillment_13_test (fresh final migration, fake data only)",
+    "typecheck": "PASS",
+    "apiBuild": "PASS",
+    "workerBuild": "PASS",
+    "webProductionBuild": "PASS",
+    "nginxSyntax": "PASS (network disabled)",
+    "productionDependencyAudit": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "gitDiffWhitespace": "PASS",
+    "visualQA": [
+      ".local/fulfillment/seller-desktop.png",
+      ".local/fulfillment/seller-mobile.png",
+      ".local/fulfillment/packing-print.png"
+    ],
+    "initialIssuesResolved": [
+      "Kiểm thử cũ phát hiện thay đổi shape verifyAccess: đã giữ nguyên helper hiện có và tách metadata hết hạn cho SSE.",
+      "Header mobile có thêm chuông bị tràn ngang; đã điều chỉnh riêng màn hình nhỏ và kiểm tra lại 360px.",
+      "CSS in cũ ẩn footer; đã scope vùng in và giữ phần hướng dẫn phiếu in hiển thị.",
+      "Bổ sung trigger vận đơn/thanh toán sau khi rà soát worker bất đồng bộ; kiểm thử thêm khi Order không thay đổi."
+    ],
+    "isolation": "Toàn bộ request ngoài dự án bị chặn/giả lập. Không gọi OpenAI, Cloudinary, Google OAuth, Gmail SMTP, payOS hoặc GHN thật. Không chạy DoS hoặc kiểm thử trên Production."
+  },
+  "dependencies": {
+    "runtime": "pg 8.16.3 được khai báo trong workspace API để LISTEN ở production (phiên bản đã có trong bộ test)",
+    "development": "@types/pg 8.23.1"
+  },
+  "changedFiles": [
+    "apps/api/src/packing.ts",
+    "apps/api/src/realtime.ts",
+    "apps/api/src/commerce.ts",
+    "apps/api/src/main.ts",
+    "apps/api/src/core.ts",
+    "apps/api/src/jwt.ts",
+    "apps/api/src/request-security.ts",
+    "apps/api/package.json",
+    "apps/web/hooks/use-shop-realtime.ts",
+    "apps/web/components/notification-bell.tsx",
+    "apps/web/components/packing-desk.tsx",
+    "apps/web/components/client.tsx",
+    "apps/web/components/site-shell.tsx",
+    "apps/web/components/seller.tsx",
+    "apps/web/components/account.tsx",
+    "apps/web/app/fulfillment.css",
+    "apps/web/app/layout.tsx",
+    "prisma/schema.prisma",
+    "prisma/migrations/202611230013_fulfillment_realtime/migration.sql",
+    "infra/nginx.conf",
+    "package.json",
+    "package-lock.json",
+    "scripts/test-try-on-api.mjs",
+    "scripts/test-try-on.mjs",
+    "scripts/test-integration.mjs",
+    "tests/fulfillment.test.ts",
+    "tests/fulfillment.integration.test.ts",
+    "tests/e2e/fulfillment.spec.ts",
+    "tests/commerce-upgrade.integration.test.ts",
+    "tests/integration.test.ts",
+    "tests/inventory.integration.test.ts",
+    "tests/e2e/commerce-upgrade.spec.ts",
+    "docs/fulfillment-upgrade-20261123/*"
+  ],
+  "usageAndDeployment": "configuration.json",
+  "limits": [
+    "Migration đã áp dụng trên máy này; môi trường triển khai khác cần chạy migration tương ứng trước khi vận hành.",
+    "Đã kiểm Chromium desktop/mobile emulation và CSS print; chưa thử máy quét/máy in vật lý hoặc tải lớn/nhiều API replicas.",
+    "SSE chỉ hoạt động khi website mở; browser có thể hạn chế âm thanh/tab nền.",
+    "LISTEN cần kết nối DB giữ phiên; hạ tầng pool transaction cần cấu hình phù hợp."
+  ],
+  "productionDeployed": false,
+  "completedAt": "2026-11-23T16:35:54.290Z"
+}

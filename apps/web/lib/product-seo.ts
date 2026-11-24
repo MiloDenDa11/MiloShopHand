@@ -1,0 +1,9 @@
+import {productSelectionHref} from './product-selection';
+export function productStructuredData(product:any,brand:string,origin:string,preview=false){
+  const base=new URL(`/san-pham/${product.slug}`,origin).href;
+  const absoluteImage=(image:any)=>{try{if(typeof image.url!=='string'||image.url.startsWith('//'))return null;const url=new URL(image.url,origin);return ['https:','http:'].includes(url.protocol)?url.href:null;}catch{return null;}};
+  const images=(product.images||[]).map(absoluteImage).filter(Boolean);
+  const variantImages=(color:string)=>(product.images||[]).filter((image:any)=>!image.color||image.color===color).map(absoluteImage).filter(Boolean);
+  const group={'@type':'ProductGroup',name:product.name,description:product.description,brand:{'@type':'Brand',name:brand},productGroupID:product.id,url:base,variesBy:['https://schema.org/color','https://schema.org/size'],...(images.length?{image:images}:{})};
+  return {'@context':'https://schema.org','@graph':[{...group,hasVariant:(product.variants||[]).map((variant:any)=>({'@type':'Product',name:`${product.name} · ${variant.color} · ${variant.size}`,sku:variant.sku,color:variant.color,size:variant.size,url:new URL(productSelectionHref(product.slug,variant.color,variant.size),origin).href,brand:group.brand,...(variantImages(variant.color).length?{image:variantImages(variant.color)}:{}),...(!preview?{offers:{'@type':'Offer',url:new URL(productSelectionHref(product.slug,variant.color,variant.size),origin).href,priceCurrency:'VND',price:variant.price??product.price,availability:variant.available>0?'https://schema.org/InStock':'https://schema.org/OutOfStock'}}:{})}))},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'Trang chủ',item:origin},{'@type':'ListItem',position:2,name:product.category.name,item:new URL(`/san-pham?category=${encodeURIComponent(product.category.slug)}`,origin).href},{'@type':'ListItem',position:3,name:product.name,item:base}]}]};
+}

@@ -45,15 +45,16 @@ services:
   environment:
    DATABASE_URL: postgresql://milo:${POSTGRES_PASSWORD:-milo_local}@postgres:5432/milo?schema=public
    REDIS_URL: redis://redis:6379
-   SMTP_HOST: mailpit
-   EMAIL_PROVIDER: smtp
+   SMTP_HOST: ${SMTP_HOST:-mailpit}
+   EMAIL_PROVIDER: ${EMAIL_PROVIDER:-smtp}
    UPLOAD_DIR: /app/uploads
    RETURN_UPLOAD_DIR: /app/return-uploads
+   TRY_ON_PRIVATE_DIR: /app/try-on-private
    NODE_ENV: development
    API_HOST: 0.0.0.0
   working_dir: /app/apps/api
   command: node dist/apps/api/src/main.js
-  volumes: ["uploads:/app/uploads", "return_uploads:/app/return-uploads"]
+  volumes: ["uploads:/app/uploads", "return_uploads:/app/return-uploads", "try_on_private:/app/try-on-private"]
   depends_on: {migrate: {condition: service_completed_successfully},redis: {condition: service_healthy}}
  worker:
   build: {context: .., dockerfile: infra/Dockerfile.api}
@@ -61,11 +62,13 @@ services:
   environment:
    DATABASE_URL: postgresql://milo:${POSTGRES_PASSWORD:-milo_local}@postgres:5432/milo?schema=public
    REDIS_URL: redis://redis:6379
-   SMTP_HOST: mailpit
-   EMAIL_PROVIDER: smtp
+   SMTP_HOST: ${SMTP_HOST:-mailpit}
+   EMAIL_PROVIDER: ${EMAIL_PROVIDER:-smtp}
+   TRY_ON_PRIVATE_DIR: /app/try-on-private
    NODE_ENV: development
   working_dir: /app/apps/worker
   command: node ../api/dist/apps/worker/src/main.js
+  volumes: ["try_on_private:/app/try-on-private"]
   depends_on: {migrate: {condition: service_completed_successfully},redis: {condition: service_healthy}}
  web:
   build:
@@ -88,3 +91,4 @@ volumes:
  redis_data:
  uploads:
  return_uploads:
+ try_on_private:

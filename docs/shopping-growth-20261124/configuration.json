@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-24",
+  "language": "vi",
+  "scope": {
+    "implementedSteps": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "deferredStep1": "Google/Gmail, thanh toán và vận chuyển thật do chủ shop thực hiện sau."
+  },
+  "features": [
+    {
+      "step": 2,
+      "name": "Bảng size riêng từng sản phẩm",
+      "details": [
+        "Admin nhập số đo thực tế, lưu nháp/công bố có revision.",
+        "Cần đủ size đang bán trước khi công bố; không lấy số đo mẫu chung.",
+        "Thông tin người mẫu tùy chọn, không sinh dữ liệu giả."
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Đặt hàng không cần tài khoản",
+      "details": [
+        "Phiên khách HttpOnly ngẫu nhiên 30 ngày, chỉ lưu hash token.",
+        "Đặt COD/QR qua nghiệp vụ kho và thanh toán hiện có; chống gửi lặp.",
+        "Không tạo User giả; giới hạn COD theo HMAC số điện thoại.",
+        "Tra cứu trong phiên gốc; liên kết cần phiên gốc, cùng email đã xác minh, xác thực gần đây.",
+        "Giữ quy tắc người mua chỉ tự hủy trước khi người bán duyệt."
+      ]
+    },
+    {
+      "step": 4,
+      "name": "Mua hàng trên mobile",
+      "details": [
+        "Thanh mua cố định hiển thị giá, màu, size đang chọn.",
+        "Bảng size cuộn ngang bên trong nếu cần; đã kiểm tra viewport 360px."
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Đo trải nghiệm có đồng ý",
+      "details": [
+        "Mặc định chưa ghi sự kiện trình duyệt; có đồng ý/từ chối và đổi lựa chọn.",
+        "Tôn trọng DNT/GPC, không gắn mã theo dõi khách hàng.",
+        "Sự kiện trình duyệt tách khỏi đơn/thanh toán ghi tại server.",
+        "LCP/INP/CLS lưu phân bố rating, không nhận URL hay PII."
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Giám sát, công cụ backup mã hóa và CI",
+      "details": [
+        "Heartbeat worker, DB/Redis, tác vụ lỗi/chậm, giao dịch ngoại lệ.",
+        "Cảnh báo nội bộ theo đợt, không lặp thông báo liên tục.",
+        "AES-256-GCM, checksum, không ghi đè, không tự xóa bản sao.",
+        "Workflow kiểm tra mã đã tạo, chưa push hoặc chạy trên GitHub."
+      ]
+    },
+    {
+      "step": 7,
+      "name": "Bàn hỗ trợ và nhập hàng",
+      "details": [
+        "Khách chọn đơn của mình; guest mở hỗ trợ từ đơn trong phiên gốc.",
+        "Phân công nhân viên, trạng thái và ghi chú nội bộ, backend lọc ghi chú.",
+        "Admin quản lý nhà cung cấp/phiếu nhập nháp và xác nhận thực nhận.",
+        "Xác nhận phiếu cộng kho bằng transaction, chống cộng lặp, ghi StockMovement và AuditLog.",
+        "Nhân viên xem SKU sắp hết; không thấy giá vốn hoặc doanh thu qua chức năng mới."
+      ]
+    },
+    {
+      "step": 8,
+      "name": "SEO biến thể",
+      "details": [
+        "ProductGroup, Product từng SKU, màu/size, giá/khả dụng riêng.",
+        "Ảnh đúng màu hoặc ảnh dùng chung, breadcrumb và URL lựa chọn biến thể.",
+        "Bản chưa bán không quảng bá Offer; không tự bịa đánh giá hoặc chính sách."
+      ]
+    }
+  ],
+  "backup": {
+    "destination": null,
+    "encryptionKeyConfiguredByThisTask": false,
+    "scheduleEnabled": false,
+    "reason": "Chủ shop trả lời chưa có nơi lưu ngoài dự án.",
+    "tool": "scripts/managed-backup.mjs",
+    "command": "npm run db:backup:encrypted",
+    "requires": [
+      "BACKUP_DESTINATION: đường dẫn tuyệt đối ngoài dự án, nên nằm trên ổ/NAS độc lập.",
+      "BACKUP_ENCRYPTION_KEY: hex ngẫu nhiên 32 byte, lưu kín và sao lưu khóa riêng."
+    ],
+    "scope": "Database Docker của workspace; chưa tự sao lưu upload/secret.",
+    "noRemoteUpload": true,
+    "noAutomaticDeletion": true
+  },
+  "activation": {
+    "migration": "202611240014_shopping_growth",
+    "shopApplied": true,
+    "ownerApprovalRequired": true,
+    "rehearsal": "migration-rehearsal.json",
+    "databaseChanges": "12 bảng mới, Order.userId nullable, thêm guestSessionId, unique/foreign key/check constraints; không sửa giá/tồn/người dùng hiện có.",
+    "stepsAfterApproval": [
+      "Sao lưu mới và đối chiếu checksum migration đã rehearsal.",
+      "npm run db:migrate, không seed shop.",
+      "npm run build rồi khởi động lại đúng một API, web và worker.",
+      "Mở Admin kiểm tra Vận hành; nhập số đo thật và nhà cung cấp thật nếu cần."
+    ],
+    "approvalReceived": true,
+    "appliedAt": "2026-11-24T13:32:12.518Z",
+    "applicationResult": "migration-application.json",
+    "pendingLocalAction": "Khởi động lại API/web/worker bằng quy trình hiện có nếu đang chạy phiên cũ; chưa tự chạy stack nền."
+  },
+  "limitations": [
+    "Chưa kiểm thử Google/Gmail/payment/shipping provider thật, không bật các tích hợp đó.",
+    "Khách mất phiên chưa có tra cứu qua OTP vì chưa bật gửi email thật.",
+    "Mã ưu đãi theo tài khoản yêu cầu đăng nhập.",
+    "Chưa có p75/Lighthouse thực địa hoặc cam kết cải thiện tỷ lệ chuyển đổi.",
+    "Chưa tự purge bảng đo trải nghiệm hoặc dữ liệu kinh doanh; cần chính sách lưu trữ được duyệt.",
+    "Bàn hỗ trợ không thay thế quy trình duyệt trả hàng/hoàn tiền hiện có.",
+    "Phiếu nhập chưa có đảo phiếu đã xác nhận, công nợ nhà cung cấp hoặc kế toán giá vốn bình quân.",
+    "Giám sát nội bộ chưa thay thế cảnh báo hạ tầng bên ngoài.",
+    "Chưa có backup ngoài dự án hoặc lịch backup; chưa đánh dấu diễn tập restore cho công cụ mã hóa trên dữ liệu shop.",
+    "Chưa push, deploy hoặc chạy GitHub Actions."
+  ],
+  "rollback": [
+    "Giữ nguyên backup trước migration và bản build/source trước nâng cấp.",
+    "Nếu cần khôi phục, restore backup vào database mới rồi đối chiếu trước khi đổi kết nối theo quy trình được duyệt.",
+    "Không tự drop bảng mới hay ghi đè database shop; phải bảo toàn đơn phát sinh sau migration."
+  ],
+  "sources": [
+    "https://developers.google.com/search/docs/appearance/structured-data/product-variants",
+    "https://github.com/GoogleChrome/web-vitals",
+    "https://github.com/actions/checkout/commit/11bd71901bbe5b1630ceea73d27597364c9af683",
+    "https://github.com/actions/setup-node/commit/49933ea5288caeca8642d1e84afbd3f7d6820020"
+  ],
+  "buildCache": {
+    "initialFailure": "Next EPERM khi unlink cache .next cũ trong OneDrive.",
+    "preservedAt": ".local/build-cache-before-growth-20261124-1326",
+    "sourceOrBusinessDataDeleted": false,
+    "action": "Chuyển cache sinh tự động vào .local, build lại .next sạch."
+  }
+}

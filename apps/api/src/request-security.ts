@@ -3,6 +3,7 @@ import { createHmac } from 'node:crypto';
 import type { Response, NextFunction } from 'express';
 import { HttpException } from '@nestjs/common';
 import { Db, AppRequest, env, production, hash, safeEqual, fail } from './core';
+import { verifyAccessClaims, isExpiredAccess } from './jwt';
 
 type SecurityDetails = { code?: string; scope?: string; accountHash?: string; count?: number };
 const logWindows = new Map<string, number>();
@@ -52,32 +53,69 @@ export async function requestSecurity(db: Db) {
   }
   return async (r: AppRequest, res: Response, next: NextFunction) => {
     const pathname = r.path.toLowerCase().replace(/\/+$/, '');
-    const scope = /^\/api\/v1\/(admin|auth|me|orders|returns|exchanges|addresses)(?:\/|$)/.exec(pathname)?.[1] || 'api';
+    const scope = /^\/api\/v1\/(admin|seller|auth|me|orders|returns|exchanges|addresses|try-on|guest|support)(?:\/|$)/.exec(pathname)?.[1] || 'api';
     if (scope !== 'api') { res.setHeader('Cache-Control', 'private, no-store'); res.setHeader('Pragma', 'no-cache'); }
     r.securityLog = (event, details) => securityEvent(db, r, event, details);
     res.once('finish', () => {
       if ([401, 403, 404, 429].includes(res.statusCode)) void securityEvent(db, r, res.statusCode === 429 ? 'RATE_LIMITED' : 'ACCESS_DENIED', { scope, code: String(res.statusCode) });
     });
     try {
-      const isAuth = /^\/api\/v1\/auth\/(login|register|forgot|reset|verify|reauth|password)$/.test(pathname);
+      const isAuth = /^\/api\/v1\/auth\/(login|register|forgot|reset|verify|reauth|password|recovery\/(request|verify|reset)|google\/(start|complete))$/.test(pathname);
       await limit(`${securityIdentity(r.ip || 'unknown')}:${isAuth ? 'auth' : 'api'}`, isAuth ? 30 : 300, 60000, res);
       const raw = r.cookies?.milo_sid;
-      if (typeof raw === 'string' && /^[a-f0-9]{64}$/.test(raw)) {
-        const session = await db.session.findUnique({ where: { id: hash(raw) }, include: { user: { select: { id: true, email: true, name: true, role: true, verifiedAt: true, disabled: true } } } });
+      const refreshing = /^\/api\/v1\/auth\/(refresh|logout|csrf|login|register|forgot|reset|verify|recovery\/(request|verify|reset)|google\/(start|callback|complete))$/.test(pathname);
+      const authorization = r.headers.authorization;
+      const token = authorization ? (/^Bearer ([A-Za-z0-9_.-]+)$/.exec(authorization)?.[1] || 'invalid') : r.cookies?.milo_access;
+      let sessionId: string | undefined, tokenUser: string | undefined;
+      if (token && !refreshing) {
+        try { const claims = verifyAccessClaims(token, env); sessionId = claims.sessionId; tokenUser = claims.userId; r.accessUntil = claims.expiresAt; }
+        catch (error) { r.accessError = isExpiredAccess(error) ? 'ACCESS_TOKEN_EXPIRED' : 'ACCESS_TOKEN_INVALID'; }
+      } else if (typeof raw === 'string' && /^[a-f0-9]{64}$/.test(raw)) {
+        const legacy = hash(raw);
+        if (refreshing) {
+          const current = await db.session.findFirst({ where: { id: { in: [`jwt:${legacy}`, legacy] } }, select: { id: true } });
+          sessionId = current?.id;
+        } else sessionId = legacy; // Existing sessions keep working until expiry.
+      }
+      if (sessionId) {
+        const session = await db.session.findUnique({ where: { id: sessionId }, include: { user: { select: { id: true, email: true, name: true, role: true, verifiedAt: true, disabled: true } } } });
+        if (tokenUser && session && tokenUser !== session.userId) fail('ACCESS_TOKEN_INVALID', 'Phiên không hợp lệ.', 401);
         if (session && session.expiresAt.getTime() > Date.now() && session.lastSeenAt.getTime() > Date.now() - 30 * 60000 && !session.user.disabled) {
           r.actor = session.user; r.session = session;
           res.setHeader('Cache-Control', 'private, no-store'); res.setHeader('Pragma', 'no-cache');
           if (session.lastSeenAt.getTime() < Date.now() - 60000) await db.session.updateMany({ where: { id: session.id }, data: { lastSeenAt: new Date() } });
         }
       }
+      if (tokenUser && !r.actor) r.accessError = 'ACCESS_TOKEN_REVOKED';
+      if (r.actor && r.method === 'POST' && pathname === '/api/v1/auth/refresh')
+        await limit(`refresh:${r.actor.id}`, 30, 60000, res);
+      if (r.actor && pathname === '/api/v1/me/events') await limit(`events:${r.actor.id}`, 20, 60000, res);
+      if (r.method === 'POST' && pathname.startsWith('/api/v1/guest/')) await limit(`guest:${securityIdentity(r.ip||'unknown')}`,20,600000,res);
+      if (r.method === 'POST' && /^\/api\/v1\/experience\/(events|performance)$/.test(pathname)) await limit(`measurement:${securityIdentity(r.ip||'unknown')}`,60,60000,res);
+      if (r.method === 'POST' && /^\/api\/v1\/support(?:\/|$)/.test(pathname)) await limit(`support:${securityIdentity(r.ip||'unknown')}`,20,600000,res);
+      if (r.actor && r.method === 'POST' && pathname === '/api/v1/me/avatar')
+        await limit(`avatar:${r.actor.id}`, 10, 3600000, res);
       if (isAuth) {
         const suppliedEmail = typeof r.body?.email === 'string' ? r.body.email.trim().toLowerCase().slice(0, 254) : undefined;
-        const identity = /\/(login|forgot|register)$/.test(pathname) ? suppliedEmail : r.actor?.id || suppliedEmail;
-        if (identity) await limit(`account:${securityIdentity(identity)}:${pathname.endsWith('/forgot') ? 'recovery' : 'credentials'}`, pathname.endsWith('/forgot') ? 3 : 10, pathname.endsWith('/forgot') ? 900000 : 60000, res);
+        const recoverySend = pathname.endsWith('/forgot') || pathname.endsWith('/recovery/request');
+        let identity = /\/(login|forgot|register)$/.test(pathname) || recoverySend ? suppliedEmail : pathname.includes('/auth/recovery/') && typeof r.body?.challengeId === 'string' ? r.body.challengeId.slice(0, 100) : r.actor?.id || suppliedEmail;
+        if (pathname.endsWith('/google/complete') && typeof r.cookies?.milo_google_login === 'string' && /^[a-f0-9]{64}$/.test(r.cookies.milo_google_login)) {
+          const pending = await db.authToken.findUnique({ where: { hash: hash(r.cookies.milo_google_login) }, select: { userId: true, purpose: true } });
+          if (pending?.purpose === 'GOOGLE_LOGIN') identity = `google:${pending.userId}`;
+        }
+        if (identity) await limit(`account:${securityIdentity(identity)}:${recoverySend ? 'recovery' : 'credentials'}`, recoverySend ? 3 : 10, recoverySend ? 900000 : 60000, res);
+        if (identity && typeof r.body?.otp === 'string') await limit(`mfa-login:${securityIdentity(identity)}`, 5, 300000, res);
         res.setHeader('Cache-Control', 'no-store');
       }
+      if (r.method === 'POST' && pathname === '/api/v1/auth/google/start') await limit(`google-start:${securityIdentity(r.ip || 'unknown')}`, 10, 900000, res);
+      if (r.actor && !['GET', 'HEAD', 'OPTIONS'].includes(r.method) && pathname.startsWith('/api/v1/auth/mfa'))
+        await limit(`mfa-manage:${r.actor.id}`, 10, 300000, res);
       if (r.actor && r.method === 'POST' && /^\/api\/v1\/(returns\/attachments|admin\/uploads)$/.test(pathname))
         await limit(`uploads:${r.actor.id}`, 20, 900000, res);
+      if (r.actor && r.method === 'POST' && pathname === '/api/v1/try-on/jobs')
+        await limit(`try-on:${r.actor.id}`, 4, 60000, res);
+      if (r.actor && r.method === 'POST' && pathname === '/api/v1/auth/verify/resend')
+        await limit(`verify-resend:${r.actor.id}`, 3, 900000, res);
       const webhook = /^\/api\/v1\/webhooks\/(payos|ghn)$/.test(pathname);
       if (!['GET', 'HEAD', 'OPTIONS'].includes(r.method) && !webhook) {
         if (r.headers.origin !== new URL(env.APP_URL!).origin) fail('CSRF_ORIGIN', 'Nguồn yêu cầu không hợp lệ.', 403);

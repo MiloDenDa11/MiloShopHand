@@ -1,0 +1,67 @@
+{
+  "feature": "MiloShopHand — Bàn Người bán, thông báo tức thời và kiểm SKU đóng gói",
+  "usage": [
+    "Đăng nhập bằng ADMIN/SELLER, mở /nguoi-ban, chọn đơn và duyệt/bắt đầu đóng gói theo luồng hiện có.",
+    "Trong Kiểm hàng trước khi đóng gói: quét SKU bằng máy quét dạng bàn phím hoặc nhập đúng mã rồi nhấn Enter. Mỗi lần xác nhận tính một sản phẩm.",
+    "Đủ tất cả SKU/số lượng mới bật Đóng gói xong. Backend áp dụng cùng điều kiện cho cả API Admin và Người bán.",
+    "Nếu nhập sai thao tác, dùng Hoàn tác hoặc Bắt đầu kiểm lại; thay đổi được lưu audit. Nếu mất phản hồi mạng, dùng Gửi lại thao tác chưa xác nhận để giữ nguyên mã thao tác chống đếm trùng.",
+    "Chọn Phiếu đóng gói → xem trước → In phiếu đóng gói. Phiếu dùng khổ A5, QR chứa mã đơn, có SKU/màu/size/số lượng và thông tin nhận hàng, không có giá bán hay giá vốn.",
+    "Chuông ở Header hiển thị số chưa đọc, mở thông báo để đi tới đơn; có Đọc tất cả và âm báo tùy chọn. Âm báo mặc định tắt.",
+    "Thông báo tức thời chạy trên website đang mở. Khi SSE mất kết nối, website thử nối lại và chuyển về cập nhật định kỳ 15 giây."
+  ],
+  "securityAndConsistency": [
+    "GET SSE xác thực cookie/JWT hiện có, không đưa token vào URL. Đối chiếu session, vai trò, khóa tài khoản trước mỗi nhóm sự kiện và mỗi heartbeat.",
+    "Khách chỉ nhận sự kiện đơn của mình và thông báo của mình. Nhân viên nhận sự kiện vận hành theo quyền đang có; dữ liệu SSE chỉ gồm loại sự kiện và ID đơn, không gồm người nhận, địa chỉ, giá, nội dung thông báo hoặc secret.",
+    "Mỗi user tối đa 3 kết nối SSE/API instance; tối đa 1000 kết nối/instance. Heartbeat 10 giây, nối lại tối đa sau 5 phút hoặc khi JWT hết hạn.",
+    "Thông báo đọc/đã đọc giới hạn theo user phía server, có CSRF/Origin cho PATCH. Âm báo chỉ bật sau thao tác của người dùng và được lưu dạng tùy chọn boolean.",
+    "Thao tác kiểm hàng giữ khóa Order, kiểm người phụ trách, revision và requestId. Yêu cầu phát lại đúng nội dung không đếm thêm; dùng lại requestId cho nội dung/người thao tác khác bị từ chối.",
+    "Đối chiếu theo OrderItem snapshot. Đổi SKU/màu/size/số lượng của dòng đơn làm mất hiệu lực biên bản cũ và yêu cầu kiểm lại.",
+    "Kiểm hàng, hoàn tác, kiểm lại và tạo phiếu được audit; audit không lưu địa chỉ/điện thoại hay secret. Audit tạo phiếu xác nhận đã tạo bản xem trước, không khẳng định máy in đã in.",
+    "Kiểm SKU không nhập/xuất/giải phóng tồn kho. Xuất kho và giao vận vẫn đi theo transaction nghiệp vụ hiện có."
+  ],
+  "database": [
+    "Migration 202611230013_fulfillment_realtime thêm OrderPacking và PackingScan, cùng function/6 triggers phát sự kiện tối thiểu bằng PostgreSQL NOTIFY.",
+    "Không backfill hoặc sửa bảng dữ liệu kinh doanh hiện có. Đơn đã READY_TO_SHIP/giao hàng từ trước không bị yêu cầu kiểm lại để tiếp tục; không tự ghi rằng những đơn đó đã có kiểm SKU.",
+    "Đơn CONFIRMED/PACKING hiện tại phải thực hiện kiểm SKU trước lần chuyển tiếp sang READY_TO_SHIP.",
+    "NOTIFY chỉ được chuyển sau commit; rollback không phát sự kiện. Notification vẫn được lưu DB, SSE chỉ báo để client đọc lại dữ liệu có quyền truy cập.",
+    "Shipment và Payment có trigger riêng: kết quả vận đơn/thanh toán bất đồng bộ vẫn cập nhật màn hình ngay cả khi Order chưa đổi trạng thái."
+  ],
+  "deployment": [
+    "Trên máy này, backup mới đã restore vào milo_fulfillment_restore_20261123_1601, migration chạy thử và đối chiếu giữ nguyên 44 bảng cũ; xem migration-rehearsal.json.",
+    "Chủ shop đã xác nhận. Migration đã áp dụng vào database Milo trên máy; dữ liệu 44 bảng cũ được đối chiếu giữ nguyên. Xem migration-applied.json.",
+    "Trên một môi trường khác, sao lưu và restore-test trước khi chạy prisma migrate deploy. Cập nhật API/worker/web cùng phiên bản và restart một stack duy nhất.",
+    "Driver pg sử dụng DATABASE_URL và cần một kết nối giữ phiên để LISTEN. Nếu dùng pool transaction như PgBouncer transaction mode, bố trí kết nối trực tiếp/giữ phiên cho dịch vụ API trước khi bật SSE.",
+    "Nginx có location riêng /api/v1/me/events: tắt buffering/cache, proxy timeout 75 giây. Reverse proxy/CDN khác cần cấu hình tương đương.",
+    "Không cần thêm API key/dịch vụ thông báo bên ngoài. Google/Gmail SMTP được cấu hình riêng và không phải điều kiện để thông báo trong website hoạt động.",
+    "Production dùng HTTPS, cấu hình hiện có và tài khoản DB quyền tối thiểu. Giới hạn DB phải dự trù một kết nối LISTEN cho mỗi API instance.",
+    "Rollback ứng dụng có thể giữ hai bảng/triggers bổ sung; không tự DROP dữ liệu. Khôi phục backup vào DB mới và đối chiếu trước khi đổi kết nối; không ghi đè dữ liệu shop đang phát sinh.",
+    "Backup ngay trước khi áp dụng: .local/backups/milo-2026-11-23T16-34-58-749Z.dump. Backup diễn tập và bằng chứng khôi phục vẫn được giữ lại."
+  ],
+  "limitations": [
+    "SSE là kênh báo thay đổi, không phải lịch sử sự kiện bền vững. Client tải lại khi nối lại và dùng polling dự phòng.",
+    "Không có Web Push khi đóng website, không gửi SMS, không tự bật thông báo trình duyệt hoặc mua dịch vụ.",
+    "Browser có thể hạn chế âm thanh/tab nền. Âm báo không thay thế việc xem danh sách đơn và nhắc việc nội bộ.",
+    "Kiểm thử dùng dữ liệu giả lập, máy quét được mô phỏng bằng nhập bàn phím/Enter; chưa kiểm máy quét, máy in vật lý hoặc bài tải lớn/nhiều API replicas.",
+    "Bản in được kiểm tra trên Chromium ở chế độ print và kích thước gần vùng in A5; phần cứng/margins thực tế còn phụ thuộc máy in."
+  ],
+  "verificationCommands": [
+    "npm run test:fulfillment",
+    "node scripts/test-try-on.mjs --fulfillment-only",
+    "npm test",
+    "npm run test:seller-ops",
+    "npm run test:integration",
+    "npm run test:auth-upgrade",
+    "node scripts/test-try-on.mjs --commerce-only",
+    "node scripts/test-try-on.mjs --auth-only",
+    "npm run typecheck",
+    "npm run build -w @milo/api",
+    "npm run build -w @milo/worker",
+    "npm run build -w @milo/web",
+    "node scripts/test-integration.mjs --database=milo_integration_fulfillment_13_test"
+  ],
+  "references": [
+    "https://www.postgresql.org/docs/18/sql-notify.html",
+    "https://node-postgres.com/apis/client",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events"
+  ]
+}

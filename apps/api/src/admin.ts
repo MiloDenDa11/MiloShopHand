@@ -17,6 +17,7 @@ import {
 import { FileInterceptor } from "@nestjs/platform-express";
 import { ApiTags, ApiCookieAuth, ApiOperation } from "@nestjs/swagger";
 import { z } from "zod";
+import { recordCommerceEvent } from './experience';
 import { Response } from "express";
 import {
   projectRoot,
@@ -39,6 +40,7 @@ import { fold } from "../../../packages/shared/src";
 import { shipping } from "./providers";
 import { imageUpload, uploadLimits } from "./upload-policy";
 import { safeLocalRedirect } from "../../../packages/shared/src/security";
+import { TRY_ON_KIND } from "./try-on-policy";
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { randomUUID } from "node:crypto";
@@ -604,7 +606,7 @@ export class AdminController {
       });
     if (kind === "settings")
       return this.db.storeSetting.findMany({
-        where: { key: { not: { startsWith: "login:" } } },
+        where: { NOT: ['login:', 'mfa-setup:', 'google-state:'].map(prefix => ({ key: { startsWith: prefix } })) },
       });
     if (kind === "jobs")
       return this.db.outboxEvent.findMany({
@@ -719,6 +721,21 @@ export class AdminController {
       return { message: "Đã cập nhật trạng thái tài khoản." };
     });
   }
+  @Patch('users/:id/role') async setSellerRole(@Param('id') id: string, @Body() body: unknown, @Req() r: AppRequest) {
+    reauth(r);
+    const input = parse(z.object({ role: z.enum(['USER', 'SELLER']) }).strict(), body);
+    if (id === r.actor!.id) fail('SELF_ROLE', 'Không thể tự thay đổi vai trò của mình.', 409);
+    return transaction(this.db, async tx => {
+      await tx.$queryRaw`SELECT id FROM "User" WHERE id=${id} FOR UPDATE`;
+      const user = await tx.user.findUnique({ where: { id } });
+      if (!user) fail('NOT_FOUND', 'Không tìm thấy tài khoản.', 404);
+      if (user.role === 'ADMIN') fail('ADMIN_ROLE_PROTECTED', 'Không thay đổi vai trò Admin qua chức năng nhân viên.', 403);
+      await tx.user.update({ where: { id }, data: { role: input.role } });
+      if (user.role !== input.role) await tx.session.deleteMany({ where: { userId: id } });
+      await audit(tx, r.actor!.id, 'SELLER_ROLE_CHANGED', 'User', id, { from: user.role, to: input.role });
+      return { message: 'Đã cập nhật quyền. Nhân viên cần đăng nhập lại.' };
+    });
+  }
   @Post("reviews/:id/moderate") async moderate(
     @Param("id") id: string,
     @Body() b: any,
@@ -772,6 +789,7 @@ export class AdminController {
         where: { orderId: s.orderId },
         data: { status: "PAID", received: d.amount },
       });
+      await recordCommerceEvent(tx,`payment-confirmed:${s.order.payment!.id}`,'PAYMENT_CONFIRMED');
       await tx.paymentTransaction.create({
         data: {
           paymentId: s.order.payment!.id,
@@ -1077,6 +1095,9 @@ export class AdminController {
     @Param("id") id: string,
     @Req() r: AppRequest,
   ) {
+    const event = await this.db.outboxEvent.findUnique({ where: { id }, select: { kind: true } });
+    if (event?.kind === TRY_ON_KIND)
+      fail('TRY_ON_NO_RETRY', 'Lượt thử đồ AI không được đưa lại vào hàng đợi bằng chức năng thử lại tác vụ.', 409);
     await this.db.outboxEvent.update({
       where: { id },
       data: { status: "PENDING", nextAttemptAt: new Date(), lastError: null },

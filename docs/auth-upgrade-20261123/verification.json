@@ -1,0 +1,170 @@
+{
+  "completedAt": "2026-11-23T15:38:04.482Z",
+  "scope": "Đăng nhập Google/Gmail và khôi phục mật khẩu bằng mã email",
+  "outcome": "Mã nguồn, migration và kiểm thử đã hoàn tất. Kết nối Google/Gmail thật chờ chủ shop cấu hình credentials.",
+  "implemented": [
+    "Nút Google/Gmail ở đăng nhập và đăng ký; Authorization Code, PKCE S256, nonce, state gắn cookie HttpOnly; Google SDK xác minh ID token.",
+    "Dùng Google subject làm định danh. Không tự gộp theo email. Liên kết/bỏ liên kết tại Tài khoản → Bảo mật yêu cầu xác thực lại; chặn bỏ phương thức đăng nhập cuối cùng.",
+    "Tài khoản Google mới có vai trò USER. Đăng nhập vẫn kiểm tra 2FA đã bật trước khi tạo JWT/session.",
+    "Trang quên mật khẩu theo ba bước email → mã sáu số → mật khẩu mới, kèm xác nhận mật khẩu và thời gian chờ gửi lại.",
+    "Mã có hiệu lực 10 phút, tối đa năm lần sai, chờ gửi lại 60 giây, tối đa ba mã/email/15 phút và giới hạn request theo IP.",
+    "Mã lưu dưới dạng HMAC, nội dung email mã hóa trong outbox. Reset proof ngẫu nhiên 256 bit, băm ở DB, dùng một lần, tối đa năm phút trong hạn mã gốc.",
+    "Mã mới vô hiệu mã cũ; reset thu hồi toàn bộ phiên và các lượt khôi phục/Google login đang chờ; giữ nguyên 2FA. Link reset cũ vẫn được hỗ trợ và chỉ dùng một lần.",
+    "Gmail SMTP TLS và App Password được chuẩn bị. Worker kiểm tra mã còn hiệu lực trước khi gửi và không tự chuyển nhà cung cấp.",
+    "Callback trả no-store/no-referrer, ẩn query nhạy cảm khỏi default Next development incoming logging và Nginx access log; ẩn trạng thái OAuth/MFA tạm khỏi cấu hình Admin."
+  ],
+  "database": {
+    "migration": "202611230012_google_recovery",
+    "userApproved": true,
+    "backup": ".local/backups/milo-2026-11-23T15-11-09-949Z.dump",
+    "restoredAndRehearsed": true,
+    "rehearsalTablesUnchanged": 10,
+    "applied": true,
+    "allOriginalTablesUnchanged": 42,
+    "newTables": [
+      "ExternalIdentity",
+      "PasswordRecovery"
+    ],
+    "newTablesInitiallyEmpty": true,
+    "details": [
+      "migration-rehearsal.json",
+      "migration-applied.json"
+    ]
+  },
+  "tests": {
+    "uniquePassingCases": 167,
+    "base": {
+      "passed": 68,
+      "command": "npm test"
+    },
+    "auth": {
+      "unit": 6,
+      "integration": 14,
+      "passed": 20,
+      "command": "npm run test:auth-upgrade"
+    },
+    "authBrowser": {
+      "passed": 6,
+      "command": "node scripts/test-try-on.mjs --auth-only",
+      "coverage": [
+        "đăng nhập/đăng ký Google chưa cấu hình",
+        "redirect Google giả lập",
+        "Google login + 2FA và chống gọi complete hai lần",
+        "mã sai, gửi lại, xác nhận mật khẩu, không lưu reset proof trong localStorage/sessionStorage/URL",
+        "email chưa cấu hình, màn hình 360px không tràn ngang",
+        "liên kết tài khoản cũ, bảo vệ phương thức đăng nhập cuối"
+      ]
+    },
+    "commerceSeller": {
+      "passed": 31,
+      "groups": [
+        5,
+        5,
+        12,
+        9
+      ],
+      "command": "npm run test:seller-ops"
+    },
+    "existingIntegration": {
+      "uniquePassed": 42,
+      "initial": {
+        "passed": 41,
+        "failed": 1,
+        "reason": "CLI child process exceeded its old 30-second timeout on Windows"
+      },
+      "recheck": {
+        "passed": 1,
+        "failed": 0,
+        "timeoutSeconds": 90,
+        "command": "node scripts/test-integration.mjs --test-name-pattern=CLI --test-file=tests/integration.test.ts"
+      },
+      "note": "Tổng 42 ca qua từ lượt đầu và lượt chạy lại riêng ca CLI; không trình bày là một lượt full suite 42/42 sạch."
+    },
+    "finalCallbackProbe": {
+      "passed": true,
+      "coverage": "HTTP redirect callback thất bại không lộ dữ liệu provider; headers no-store và no-referrer"
+    },
+    "typecheck": "PASS",
+    "apiBuild": "PASS",
+    "workerBuild": "PASS",
+    "webProductionBuild": "PASS",
+    "nginxSyntax": "PASS (local image; network disabled)",
+    "nextSensitiveLogPatterns": "PASS",
+    "gitDiffWhitespace": "PASS",
+    "productionDependencyAudit": {
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "moderate": 0,
+      "low": 0
+    },
+    "isolation": "Cơ sở dữ liệu kiểm thử riêng, Google provider giả lập, browser API fixtures; không gửi Gmail, không gọi Google OAuth thật, không gọi OpenAI/Cloudinary/thanh toán/vận chuyển thật.",
+    "harnessNotes": [
+      "Tăng thời gian chờ CLI trên Windows từ 30 lên 90 giây; hỗ trợ chọn riêng file khi lọc test; dọn cây tiến trình test API trên Windows.",
+      "Một lượt PostgreSQL test dừng chậm hơn 20 giây; đã kiểm tra postmaster.pid được gỡ, không giữ cluster đó chạy. Tăng thời gian chờ dừng lên 60 giây cho các lượt sau."
+    ]
+  },
+  "configuration": {
+    "EMAIL_PROVIDER": "file",
+    "gmailTlsPrepared": true,
+    "googleOAuthConfigured": false,
+    "smtpCredentialsConfigured": false,
+    "externalConnectionsTested": false,
+    "ownerNeeds": [
+      "GOOGLE_CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET",
+      "SMTP_USER",
+      "SMTP_PASSWORD (Gmail App Password)",
+      "EMAIL_PROVIDER=smtp sau khi credentials đã sẵn sàng"
+    ],
+    "callback": "http://localhost:3000/api/v1/auth/google/callback",
+    "details": "configuration.json"
+  },
+  "changedFiles": [
+    ".env (ignored; chỉ chuẩn bị SMTP TLS và biến Google rỗng, giữ nguyên secret hiện có)",
+    ".env.example",
+    "apps/api/package.json",
+    "package-lock.json",
+    "package.json",
+    "apps/api/src/auth-lifecycle.ts",
+    "apps/api/src/google-auth.ts",
+    "apps/api/src/password-recovery.ts",
+    "apps/api/src/mail-policy.ts",
+    "apps/api/src/auth.ts",
+    "apps/api/src/main.ts",
+    "apps/api/src/request-security.ts",
+    "apps/api/src/security-policy.ts",
+    "apps/api/src/admin.ts",
+    "apps/worker/src/main.ts",
+    "apps/web/components/google-sign-in.tsx",
+    "apps/web/components/password-recovery.tsx",
+    "apps/web/components/account.tsx",
+    "apps/web/app/quen-mat-khau/page.tsx",
+    "apps/web/app/seller.css",
+    "apps/web/next.config.mjs",
+    "prisma/schema.prisma",
+    "prisma/migrations/202611230012_google_recovery/migration.sql",
+    "infra/compose.yaml",
+    "infra/nginx.conf",
+    "scripts/test-try-on-api.mjs",
+    "scripts/test-try-on.mjs",
+    "scripts/test-integration.mjs",
+    "tests/auth-upgrade.test.ts",
+    "tests/auth-upgrade.integration.test.ts",
+    "tests/e2e/auth-upgrade.spec.ts",
+    "tests/integration.test.ts",
+    "docs/auth-upgrade-20261123/*"
+  ],
+  "dependency": {
+    "added": "google-auth-library 11.3.4 (official Google SDK)",
+    "productionAuditVulnerabilities": 0
+  },
+  "limits": [
+    "Chưa xác minh Google consent/token exchange và Gmail delivery thật vì chưa có credentials.",
+    "EMAIL_PROVIDER=file chỉ lưu thư cục bộ. Chưa có mã nào được gửi tới Gmail thật trong phiên triển khai này.",
+    "Cần restart tiến trình API và worker đang dùng sau khi điền .env; chỉ chạy một stack để tránh trùng port.",
+    "Cấu hình Production và các hệ thống log/hosting ngoài ứng dụng vẫn cần kiểm tra theo configuration.json."
+  ],
+  "productionDeployed": false,
+  "existingBusinessData": "Giữ nguyên dữ liệu 42 bảng cũ; không thay đổi nghiệp vụ giỏ hàng, đơn hàng, thanh toán, tồn kho hoặc phân quyền Người bán."
+}

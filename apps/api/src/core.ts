@@ -96,6 +96,8 @@ export type AppRequest = Request & {
     disabled: boolean;
   };
   session?: any;
+  accessError?: 'ACCESS_TOKEN_EXPIRED' | 'ACCESS_TOKEN_INVALID' | 'ACCESS_TOKEN_REVOKED';
+  accessUntil?: number;
   requestId: string;
   securityLog?: (event: string, details?: { code?: string; scope?: string; accountHash?: string; count?: number }) => Promise<void>;
 };
@@ -168,7 +170,7 @@ export class AuthGuard implements CanActivate {
   canActivate(ctx: ExecutionContext) {
     const r = ctx.switchToHttp().getRequest<AppRequest>();
     if (!r.actor || r.actor.disabled)
-      fail("UNAUTHENTICATED", "Vui lòng đăng nhập.", 401);
+      fail(r.accessError || "UNAUTHENTICATED", "Vui lòng đăng nhập.", 401);
     return true;
   }
 }
@@ -179,6 +181,15 @@ export class AdminGuard extends AuthGuard {
     const r = ctx.switchToHttp().getRequest<AppRequest>();
     if (r.actor!.role !== "ADMIN")
       fail("FORBIDDEN", "Bạn không có quyền quản trị.", 403);
+    return true;
+  }
+}
+@Injectable()
+export class SellerGuard extends AuthGuard {
+  canActivate(ctx: ExecutionContext) {
+    super.canActivate(ctx);
+    const r = ctx.switchToHttp().getRequest<AppRequest>();
+    if (!['ADMIN', 'SELLER'].includes(r.actor!.role)) fail('FORBIDDEN', 'Bạn không có quyền xử lý đơn hàng.', 403);
     return true;
   }
 }

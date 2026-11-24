@@ -29,5 +29,5 @@ export default async function Page({
   const { slug } = await params;
   const query = await searchParams;
   const product = await serverApi(`/products/${encodeURIComponent(slug)}`);
-  return <ProductDetail key={slug} slug={slug} initialData={product} nonce={(await headers()).get('x-nonce') || undefined} initialColor={typeof query.color === "string" ? query.color : ""} initialSize={typeof query.size === "string" ? query.size : ""} />;
+  return <ProductDetail key={slug} slug={slug} initialData={product} siteOrigin={process.env.APP_URL || "http://localhost:3000"} nonce={(await headers()).get('x-nonce') || undefined} initialColor={typeof query.color === "string" ? query.color : ""} initialSize={typeof query.size === "string" ? query.size : ""} />;
 }

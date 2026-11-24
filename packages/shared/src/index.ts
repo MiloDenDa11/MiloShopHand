@@ -54,6 +54,24 @@ export const transitions: Record<string, string[]> = {
   COMPLETED: [],
   CANCELLED: [],
 };
+export const cancellationReasons = {
+  WRONG_SIZE: 'Muốn đổi size',
+  WRONG_COLOR: 'Muốn đổi màu hoặc sản phẩm',
+  CHANGE_ADDRESS: 'Muốn thay đổi địa chỉ nhận hàng',
+  CHANGE_PAYMENT: 'Muốn đổi phương thức thanh toán',
+  DUPLICATE: 'Đặt trùng đơn',
+  NO_LONGER_NEEDED: 'Không còn nhu cầu',
+  OTHER: 'Lý do khác',
+} as const;
+export const cancellationSchema = z.object({
+  reasonCode: z.enum(['WRONG_SIZE', 'WRONG_COLOR', 'CHANGE_ADDRESS', 'CHANGE_PAYMENT', 'DUPLICATE', 'NO_LONGER_NEEDED', 'OTHER']),
+  detail: z.string().trim().max(300).default(''),
+}).strict().refine(value => value.reasonCode !== 'OTHER' || value.detail.length >= 5, { path: ['detail'], message: 'Vui lòng nhập lý do ít nhất 5 ký tự.' });
+export const buyerCanCancel = (status: string) => ['PENDING_PAYMENT', 'PENDING_CONFIRMATION'].includes(status);
+export const sellerTransitions: Record<string, string[]> = {
+  PENDING_CONFIRMATION: ['CONFIRMED', 'CANCELLED'],
+  CONFIRMED: ['PACKING'], PACKING: ['READY_TO_SHIP'], READY_TO_SHIP: ['SHIPPED'],
+};
 export function assertTransition(
   from: string,
   to: string,

@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-21",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "feature": "Thử đồ AI trực tiếp tại MiloShopHand",
+  "snapshotScope": "Trạng thái kết nối và kết quả kiểm thử bên dưới ghi nhận lúc hoàn thiện tích hợp ban đầu. Cập nhật xác minh email và kiểm thử mới: email-verification-update.json.",
+  "status": {
+    "implemented": true,
+    "liveProviderConnected": false,
+    "realOpenAIImageRequests": 0,
+    "credentialsConfigured": false,
+    "enabledByDefault": false,
+    "productionDeployed": false
+  },
+  "approvedBehavior": {
+    "scope": "Đúng sản phẩm và màu khách đang xem; giữ lựa chọn size và giỏ hàng.",
+    "imagesPerRequest": 2,
+    "imagesPerAccountPerDay": 2,
+    "emailVerificationRequiredByDefault": false,
+    "resetTime": "00:00 giờ Việt Nam",
+    "requires": [
+      "Tài khoản Milo đã đăng nhập",
+      "Ảnh hợp lệ",
+      "Xác nhận đồng ý gửi ảnh tới OpenAI",
+      "Còn hạn mức"
+    ],
+    "provider": "OpenAI Images API /v1/images/edits",
+    "defaultModel": "gpt-image-2.5-sunburst",
+    "generation": {
+      "n": 2,
+      "quality": "medium",
+      "size": "1024x1536",
+      "output_format": "webp",
+      "retries": 0
+    },
+    "reference": "Backend tự lấy ảnh đúng màu từ catalog và dùng bản cắt một mặt/một góc đã chuẩn bị. Không nhận URL ảnh sản phẩm hoặc prompt tự do từ client.",
+    "shopDailyAdmissionCap": 20,
+    "capNote": "Có thể đổi TRY_ON_SHOP_DAILY_IMAGES. Đây là giới hạn số ảnh được nhận xử lý theo ngày, không phải cam kết trần USD của tài khoản OpenAI.",
+    "billing": "API tính phí riêng với ChatGPT Plus. Hai ảnh đầu ra vẫn có chi phí theo mô hình và lượng sử dụng."
+  },
+  "implementation": {
+    "emailVerification": "Theo yêu cầu chủ shop, tạm bỏ xác minh email riêng cho thử đồ AI. TRY_ON_REQUIRE_VERIFIED_EMAIL=false (mặc định) trên API và worker. Đặt true và khởi động lại cả hai để yêu cầu xác minh trở lại; giao diện nhận chính sách qua config. Không cập nhật verifiedAt, không đổi đăng nhập hoặc quy tắc checkout.",
+    "persistence": "Tận dụng bảng OutboxEvent hiện có với kind TRY_ON_GENERATE. Không thêm bảng hoặc migration cho tính năng này.",
+    "quota": "Giữ trước 2 ảnh trong transaction PostgreSQL với advisory lock dùng chung; kiểm tra hạn mức tài khoản và shop trong cùng vùng khóa.",
+    "idempotency": "Khóa theo tài khoản + UUID, kiểm tra fingerprint ảnh/lựa chọn. Gửi trùng trả lại cùng job; đổi dữ liệu với cùng mã bị từ chối.",
+    "worker": "Xử lý nền trong worker hiện có, tối đa một lượt AI đang chạy chung trên database. Đánh dấu lần gửi trước khi gọi provider.",
+    "atMostOnce": "Không retry HTTP hoặc tạo ảnh bù. Worker chạy trùng, timeout, job stale và kết quả đến muộn không gửi thêm request AI. Admin không được đưa tác vụ AI về hàng đợi bằng retry chung.",
+    "uncertainOutcome": "Một lượt đã đánh dấu gửi tới provider vẫn giữ hạn mức khi kết quả không xác định, kể cả khi lỗi hoặc xóa kết quả. Lượt chắc chắn chưa gửi có thể hoàn hạn mức.",
+    "accountRecovery": "Tải lại trang đọc lại job của chính tài khoản; chỉ hiển thị ảnh khi trùng sản phẩm và màu. Lượt mới sau khi hạn mức đặt lại dùng UUID mới.",
+    "privacy": [
+      "Chỉ tải ảnh sau khi bấm tạo và đã đồng ý. Không giữ ảnh trong localStorage hoặc sessionStorage.",
+      "Kiểm tra MIME với nội dung decode, từ 512 px, tối đa 8 MB và 32 megapixel; chuyển WebP và bỏ metadata.",
+      "Ảnh lưu trong vùng riêng tư, ngoài public/uploads, tên UUID, quyền file hạn chế.",
+      "GET ảnh và DELETE job đều yêu cầu session và đúng chủ tài khoản; không có ngoại lệ Admin để xem ảnh của người khác.",
+      "Ảnh nguồn xóa sau xử lý; kết quả hết hạn theo TTL, mặc định 24 giờ kể từ khi nhận job. Worker dọn file hết hạn và file mồ côi.",
+      "Xóa ảnh không xóa ledger hoặc đặt lại số lượt đã gửi.",
+      "Không log key, ảnh, prompt, token/cookie hoặc body lỗi upstream. Chỉ lưu usage dạng số.",
+      "Dữ liệu gửi OpenAI chịu chính sách của nhà cung cấp; xóa file ở Milo không phải cam kết xóa dữ liệu phía OpenAI."
+    ],
+    "infrastructure": "Compose chia sẻ volume try_on_private cho API/worker. Nginx cho phép body 9 MB riêng tại endpoint tạo job; các đường dẫn khác giữ giới hạn cũ.",
+    "existingManualMode": "Giữ lựa chọn tải ảnh/sao chép prompt để khách tự dùng ChatGPT. Khi chưa cấu hình AI, chế độ trực tiếp bị khóa."
+  },
+  "activation": {
+    "secretName": "OPENAI_API_KEY",
+    "additionalOpenAISecretRequired": false,
+    "place": "Biến môi trường của API và worker, hoặc .env riêng của máy chủ đã được Git ignore. Không dùng NEXT_PUBLIC_ và không commit key.",
+    "flags": [
+      "OPENAI_API_KEY=<đặt key riêng trên máy chủ>",
+      "TRY_ON_ENABLED=true"
+    ],
+    "defaults": {
+      "TRY_ON_REQUIRE_VERIFIED_EMAIL": false,
+      "TRY_ON_MODEL": "gpt-image-2.5-sunburst",
+      "TRY_ON_SHOP_DAILY_IMAGES": 20,
+      "TRY_ON_RETENTION_HOURS": 24,
+      "TRY_ON_TIMEOUT_MS": 180000,
+      "TRY_ON_PRIVATE_DIR": ".local/try-on-private"
+    },
+    "steps": [
+      "Chủ tài khoản kiểm tra API billing/credit và quyền sử dụng mô hình ảnh trong project OpenAI. Plus không tự cấp ngân sách API cho shop.",
+      "Đặt key và cờ bật trên cả API và worker; giữ tắt cho đến khi sẵn sàng dùng API tính phí.",
+      "API và worker cần cùng filesystem riêng tư. Trong Compose đã có volume /app/try-on-private; không mount vùng này vào web/public hoặc uploads.",
+      "Triển khai bản build API/worker/web và cấu hình proxy tương ứng qua quy trình hiện có; khởi động lại API/worker để nhận biến môi trường.",
+      "Không cần migration hoặc seed dữ liệu shop chỉ để bật tính năng này.",
+      "GET /api/v1/try-on/config để kiểm tra trạng thái cấu hình. enabled=true chỉ xác nhận cấu hình phía shop, chưa chứng minh key có credit hoặc quyền mô hình.",
+      "Sau khi chủ shop sẵn sàng chịu phí, thực hiện một lượt thật có kiểm soát để đánh giá 2 ảnh, độ giống người, màu/kiểu áo/logo và chi phí thực tế.",
+      "Theo dõi worker và việc dọn ảnh hết hạn; giữ nguyên ledger TRY_ON_GENERATE khi xử lý sự cố, không dùng retry chung để gửi lại tác vụ đã thử gọi provider."
+    ],
+    "disable": "Đặt TRY_ON_ENABLED=false trên API và worker rồi khởi động lại. Lượt đã gửi tới OpenAI không thể được hoàn tiền hoặc hủy phí chỉ bằng cách tắt tính năng."
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/v1/try-on/config",
+      "auth": "public; không trả key"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/try-on/quota",
+      "auth": "session"
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/try-on/jobs",
+      "auth": "session + CSRF + Origin; email verified chỉ bắt buộc khi TRY_ON_REQUIRE_VERIFIED_EMAIL=true",
+      "body": "multipart photo, productSlug, color, mode, consent; Idempotency-Key header UUID"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/try-on/jobs/:id",
+      "auth": "đúng chủ tài khoản"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/try-on/jobs/:id/images/:index",
+      "auth": "đúng chủ tài khoản, index 0/1, chưa hết hạn; private no-store"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/v1/try-on/jobs/:id",
+      "auth": "đúng chủ tài khoản + CSRF"
+    }
+  ],
+  "validation": {
+    "unit": {
+      "command": "npm test",
+      "passed": 67,
+      "failed": 0
+    },
+    "focusedProviderAndStorage": {
+      "command": "node --import tsx --test tests/try-on-api.test.ts",
+      "passed": 6,
+      "includedInUnitTotal": true
+    },
+    "postgresIntegration": {
+      "command": "npm run test:try-on:api",
+      "passed": 10,
+      "failed": 0,
+      "environment": "PostgreSQL mới trong .local/try-on-api-test trên cổng riêng, database milo_try_on_test. HTTP Nest API thật; provider ảnh giả lập, không chạy worker gọi OpenAI.",
+      "checks": [
+        "Key/cờ thiếu không tạo job hoặc giữ quota",
+        "Hai request đồng thời chỉ nhận một lượt",
+        "Idempotency replay và thay dữ liệu cùng key",
+        "Worker trùng không gửi lần hai",
+        "IDOR/BOLA ảnh/job/xóa",
+        "Lỗi chưa xác nhận giữ quota và không retry",
+        "Hủy trước khi gửi hoàn quota",
+        "Email và màu không hợp lệ",
+        "Giới hạn chung giữa hai tài khoản",
+        "Stale worker và kết quả tới muộn",
+        "TTL dọn ảnh nhưng giữ ledger",
+        "Session + CSRF + chặn n/prompt/imageUrl",
+        "Admin retry AI bị chặn"
+      ],
+      "cleanup": "Dừng PostgreSQL test bằng pg_ctl fast trên Windows, xác minh không còn tiến trình test/PostgreSQL do tác vụ để lại."
+    },
+    "browser": {
+      "manualScenariosPassed": 21,
+      "directScenariosPassed": 10,
+      "distinctScenariosVerified": 31,
+      "browser": "Chromium; desktop và 360px",
+      "commands": [
+        {
+          "command": "npm run test:try-on -- --max-failures=1",
+          "passed": 29,
+          "note": "21 manual + 8 direct tại lượt chạy đầy đủ"
+        },
+        {
+          "command": "npm run test:try-on -- --direct-only --max-failures=1",
+          "passed": 9,
+          "note": "Thêm ca đặt lại hạn mức/ngày mới"
+        },
+        {
+          "command": "npm run test:try-on -- --direct-only --grep 'phản hồi POST|lượt cũ' --max-failures=1",
+          "passed": 2,
+          "note": "Kiểm tra lại khôi phục phản hồi mất và thêm ca không lấy kết quả cũ báo thành công; ca trùng không cộng hai lần"
+        }
+      ],
+      "provider": "Tất cả phản hồi ảnh và điều hướng dịch vụ ngoài đều giả lập; ảnh xám trong screenshot là fixture, không phải kết quả AI thật.",
+      "checks": [
+        "Consent trước upload",
+        "Đúng sản phẩm/màu/size",
+        "Bấm đôi một POST",
+        "Hiển thị 2 ảnh tại website",
+        "Tải lại trang khôi phục kết quả",
+        "Không lưu ảnh cá nhân vào storage trình duyệt",
+        "Hết quota và email/login chưa đủ điều kiện",
+        "Chưa có key khóa AI",
+        "POST mất phản hồi không tự gửi mới",
+        "Không dùng kết quả cũ cho POST mới thất bại",
+        "Ngày mới dùng lại cùng ảnh nhận mã mới",
+        "Lỗi provider không tự tạo bù",
+        "Mobile không tràn ngang",
+        "Không có lỗi runtime/hydration"
+      ],
+      "screenshots": [
+        ".local/try-on-api/desktop-result.png",
+        ".local/try-on-api/mobile-result.png"
+      ]
+    },
+    "typecheck": "PASS — API, worker, web",
+    "apiBuild": "PASS",
+    "workerBuild": "PASS",
+    "webProductionWebpackBuild": "PASS",
+    "compiledApiModuleImport": "PASS",
+    "composeConfig": "PASS — docker compose --env-file .env.example -f infra/compose.yaml config -q",
+    "dockerImageBuildOrContainerDeployment": "Chưa chạy; Docker daemon không hoạt động trong phiên này.",
+    "diffCheck": "PASS"
+  },
+  "changedForThisFollowUp": [
+    ".env.example",
+    ".dockerignore",
+    "apps/api/src/try-on-policy.ts",
+    "apps/api/src/try-on-provider.ts",
+    "apps/api/src/try-on-storage.ts",
+    "apps/api/src/try-on-service.ts",
+    "apps/api/src/try-on.ts",
+    "apps/api/src/main.ts",
+    "apps/api/src/request-security.ts",
+    "apps/api/src/admin.ts",
+    "apps/worker/src/main.ts",
+    "apps/web/hooks/use-direct-try-on.ts",
+    "apps/web/hooks/use-try-on-photo.ts",
+    "apps/web/components/direct-try-on.tsx",
+    "apps/web/components/try-on.tsx",
+    "apps/web/app/try-on.css",
+    "apps/web/app/dung-thu/[slug]/page.tsx",
+    "infra/compose.yaml",
+    "infra/Dockerfile.api",
+    "infra/nginx.conf",
+    "package.json",
+    "scripts/test-try-on-api.mjs",
+    "scripts/test-try-on.mjs",
+    "tests/try-on-api.test.ts",
+    "tests/try-on-jobs.integration.test.ts",
+    "tests/e2e/try-on-api.spec.ts",
+    "docs/try-on-api-20261121/verification.json"
+  ],
+  "limitations": [
+    "Chưa có key thật, chưa gọi mô hình thật, chưa xác nhận credit/quyền truy cập của project hoặc đánh giá chất lượng ảnh và chi phí thực tế.",
+    "Không cam kết AI giữ chính xác khuôn mặt, logo, màu vải hoặc độ vừa size; dùng ảnh gốc và bảng size làm căn cứ mua hàng.",
+    "Giới hạn 2 ảnh/ngày áp dụng theo tài khoản Milo, không phải 2 ảnh miễn phí từ Plus.",
+    "Lượt gửi có kết quả không xác định vẫn tính hạn mức; không tự retry hoặc tạo bù để tránh phí trùng.",
+    "Worker và private filesystem phải hoạt động và được giám sát để xử lý hàng đợi/dọn file; triển khai nhiều máy cần storage dùng chung.",
+    "Chỉ dùng ảnh catalog cục bộ đã chuẩn bị, không tự tải ảnh tham chiếu từ CDN/URL bên ngoài.",
+    "Không sửa .env thật, nạp tiền, đổi billing, cập nhật thư viện, seed/migrate database shop, commit/push hoặc deploy Production trong tác vụ."
+  ],
+  "sources": [
+    "https://developers.openai.com/api/docs/guides/image-generation",
+    "https://developers.openai.com/api/reference/typescript/resources/images/methods/edit",
+    "https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform"
+  ]
+}

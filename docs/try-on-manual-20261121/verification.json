@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-21",
+  "timezone": "Asia/Saigon",
+  "feature": "MiloShopHand — thử đồ thủ công trong ChatGPT",
+  "decision": {
+    "websiteAIConnected": false,
+    "mode": "manual-only",
+    "reason": "Chưa có bằng chứng dự án được cấp quyền tích hợp thương mại dùng hạn mức Plus. Tài liệu công khai về luồng sử dụng gói ChatGPT hiện liệt kê công cụ tạo ảnh là chưa được hỗ trợ trong bản preview. Không kết nối hoặc thử gọi dịch vụ AI.",
+    "verifiedSources": [
+      "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+      "https://developers.openai.com/siwc/request-client-id",
+      "https://developers.openai.com/siwc/token-sharing-open-source/preview-limitations"
+    ]
+  },
+  "implemented": [
+    "Ba bước: chuẩn bị ảnh tùy chọn, kiểm tra sản phẩm, tải ảnh và sao chép prompt để tự thao tác trong ChatGPT.",
+    "Tệp tải giữ đúng sản phẩm và màu; dùng ảnh đã cắt một mặt/một góc, không xuất toàn bộ tấm ảnh ghép hoặc tự thay màu.",
+    "Hỗ trợ áo polo cùng áo phông, hoodie, áo khoác và bomber.",
+    "Prompt theo tên, màu, chất liệu, phom và chế độ ảnh; yêu cầu bám theo logo gốc, không bảo đảm độ vừa size.",
+    "Clipboard bị từ chối thì chọn sẵn văn bản để khách sao chép thủ công.",
+    "Link ChatGPT thông thường chỉ mở sau khi bấm; không kèm prompt, ảnh, token hay referrer.",
+    "Ảnh cá nhân chỉ xem trước trên thiết bị, không lưu storage hoặc gửi request; giải phóng URL tạm khi thay, xóa hoặc rời trang.",
+    "Chặn bước tiếp nếu thiếu ảnh đúng màu hoặc chưa có tệp tải phù hợp."
+  ],
+  "costAndPrivacy": {
+    "aiProviderRequestsMade": 0,
+    "newPaidProvidersOrDependencies": 0,
+    "customerPhotoUploadsByWebsite": 0,
+    "apiKeyConfiguredOrUsed": false,
+    "openAIBillingSettingsChanged": false,
+    "paidFallbackImplemented": false,
+    "customerAccountAccessImplemented": false,
+    "limitation": "Website không đọc hoặc kiểm soát hạn mức, credit hay thanh toán trong tài khoản ChatGPT của khách. Khách tự tải ảnh và gửi yêu cầu; khi hết hạn mức thì dừng và chờ, không mua credit hoặc nâng cấp. Prompt không phải cơ chế chặn thanh toán phía dịch vụ ngoài."
+  },
+  "validation": {
+    "fullUnitSuite": {
+      "command": "npm test",
+      "passed": 61,
+      "failed": 0
+    },
+    "focusedMediaAndTryOn": {
+      "command": "node --import tsx --test tests/try-on.test.ts tests/media.test.ts",
+      "passed": 18,
+      "failed": 0,
+      "includedInFullUnitSuite": true
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "scope": [
+        "apps/api",
+        "apps/worker",
+        "apps/web"
+      ]
+    },
+    "browser": {
+      "command": "npm run test:try-on -- --max-failures=1",
+      "browser": "Chromium",
+      "passed": 21,
+      "failed": 0,
+      "skipped": 0,
+      "environment": "Next.js dev riêng, catalog HTTP giả lập chỉ đọc, không chạy application API/worker hay kết nối database.",
+      "poloDesigns": 10,
+      "poloColors": 40,
+      "downloadVerification": "40 đường dẫn trả HTTP 200, MIME WebP, kích thước 768x1024, byte khớp tệp tham chiếu đúng màu. Thử tải qua trình duyệt cho từng mẫu polo.",
+      "privacyVerification": "Không có request POST/PUT/PATCH/DELETE từ luồng và không có request ngoài origin tự phát. Điều hướng ChatGPT được chặn và trả dữ liệu giả lập trong test; không truy cập dịch vụ thật.",
+      "otherChecks": [
+        "Giữ sản phẩm/màu/size qua card và chi tiết",
+        "Giỏ khách giữ đúng biến thể",
+        "Không bắt buộc chọn ảnh cá nhân",
+        "Xóa/thay/rời trang giải phóng URL ảnh",
+        "Chặn ảnh hỏng, MIME giả, quá nhỏ, quá lớn",
+        "Sao chép và fallback khi clipboard bị từ chối",
+        "Bàn phím và mobile 360px không tràn ngang",
+        "Không có lỗi thực thi hoặc hydration trong các ca kiểm thử"
+      ]
+    },
+    "diffWhitespace": "PASS",
+    "screenshots": [
+      ".local/try-on-manual/desktop-upload.png",
+      ".local/try-on-manual/desktop-handoff.png",
+      ".local/try-on-manual/mobile-confirm.png",
+      ".local/try-on-manual/mobile-handoff.png"
+    ],
+    "developmentFindingsResolved": [
+      "Bỏ điều kiện cũ bắt buộc phải chọn ảnh trước khi tiếp tục.",
+      "Bổ sung trường related trong fixture để trang chi tiết nhận đúng cấu trúc dữ liệu.",
+      "Chỉnh thao tác chụp QA để header cố định không xuất hiện giữa ảnh dài; không dùng sai số vị trí cuộn làm tiêu chí chức năng."
+    ]
+  },
+  "changedFiles": [
+    {
+      "path": "apps/web/components/try-on.tsx",
+      "change": "Luồng và giao diện thao tác thủ công."
+    },
+    {
+      "path": "apps/web/lib/try-on.ts",
+      "change": "Tải ảnh đúng màu, prompt, tên tệp, hỗ trợ polo và kiểm tra màu hợp lệ."
+    },
+    {
+      "path": "apps/web/lib/product-photo-source.ts",
+      "change": "Tách nguyên logic xác định mặt/góc ảnh để dùng chung, không đổi cách hiển thị."
+    },
+    {
+      "path": "apps/web/components/product-media.tsx",
+      "change": "Dùng và tái xuất helper đã tách; giữ tương thích các nơi gọi cũ."
+    },
+    {
+      "path": "apps/web/app/dung-thu/[slug]/page.tsx",
+      "change": "Metadata mô tả đúng chế độ thủ công."
+    },
+    {
+      "path": "apps/web/app/try-on.css",
+      "change": "Bố cục hướng dẫn, prompt, trạng thái sao chép và khoảng cuộn cho tiêu đề."
+    },
+    {
+      "path": "tests/try-on.test.ts",
+      "change": "Kiểm tra tệp tải, màu, atlas, prompt và tên tệp."
+    },
+    {
+      "path": "tests/e2e/try-on.spec.ts",
+      "change": "21 ca kiểm thử với fixture, chặn request ngoài và xác minh ảnh tải."
+    },
+    {
+      "path": "tests/fixtures/try-on-catalog.mjs",
+      "change": "Dữ liệu kiểm thử riêng, không nhập database hoặc thay dữ liệu thật."
+    },
+    {
+      "path": "scripts/test-try-on.mjs",
+      "change": "Khởi chạy catalog giả lập chỉ đọc và web QA, dừng tiến trình sở hữu và khôi phục next-env.d.ts khi xong."
+    },
+    {
+      "path": "package.json",
+      "change": "Thêm lệnh test:try-on; không thêm thư viện."
+    },
+    {
+      "path": ".gitignore",
+      "change": "Bỏ qua thư mục build riêng của kiểm thử."
+    },
+    {
+      "path": "docs/try-on-manual-20261121/verification.json",
+      "change": "Báo cáo xác minh và giới hạn."
+    }
+  ],
+  "scopeAndLimits": {
+    "databaseMigrationsOrWrites": false,
+    "loginCartCheckoutOrderInventoryLogicChanged": false,
+    "sourceProductArtworkChanged": false,
+    "productionDeployed": false,
+    "productionBuildRun": false,
+    "actualAIGenerationTested": false,
+    "notes": [
+      "Kết quả thử áo được tạo/xem thủ công trong ChatGPT; không tự đưa kết quả về shop.",
+      "Không xác minh số dư, gói hoặc quyền tạo ảnh của tài khoản khách.",
+      "Không bảo đảm AI giữ chính xác logo, màu hoặc số đo; chưa gọi tạo ảnh để đánh giá chất lượng theo yêu cầu không phát sinh phí.",
+      "Ảnh bên ngoài, SVG hoặc ảnh ghép chưa có bản cắt phù hợp sẽ không được dùng làm tệp tải.",
+      "Chưa kiểm thử trên thiết bị thật hoặc trình duyệt ngoài Chromium.",
+      "Không commit, push hay triển khai Production trong tác vụ này."
+    ]
+  }
+}

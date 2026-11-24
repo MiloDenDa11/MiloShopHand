@@ -234,7 +234,7 @@ export class CatalogController {
         rating: r.rating,
         content: r.content,
         createdAt: r.createdAt,
-        name: r.orderItem.order.user.name,
+        name: r.orderItem.order.user?.name || 'Người mua đã nhận hàng',
         color: r.orderItem.color,
         size: r.orderItem.size,
       })),

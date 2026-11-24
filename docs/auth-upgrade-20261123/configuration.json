@@ -1,0 +1,77 @@
+{
+  "scope": "Google/Gmail sign-in and email-code password recovery",
+  "status": "Implemented; Google OAuth and Gmail delivery await owner credentials",
+  "localEnvironment": {
+    "EMAIL_PROVIDER": "file",
+    "SMTP_HOST": "smtp.gmail.com",
+    "SMTP_PORT": 465,
+    "SMTP_SECURE": true,
+    "GOOGLE_CLIENT_ID": "not configured",
+    "GOOGLE_CLIENT_SECRET": "not configured",
+    "SMTP_USER": "not configured",
+    "SMTP_PASSWORD": "not configured"
+  },
+  "googleSetup": [
+    "Create an OAuth client of type Web application in your Google Cloud project. Configure consent and test users if the application is in Testing.",
+    "Register the exact redirect URI http://localhost:3000/api/v1/auth/google/callback for local APP_URL=http://localhost:3000. For Production, use https://<your-domain>/api/v1/auth/google/callback and matching APP_URL.",
+    "Put GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in the ignored .env file on the server; never NEXT_PUBLIC_, source code, browser storage, logs or chat.",
+    "Restart the existing API process. /api/v1/auth/google/config will report enabled only when the required configuration is present. Validate real sign-in manually after configuring the Google client.",
+    "Existing Milo customers sign in with their password first, then choose Tài khoản → Bảo mật, reauthenticate and link Google with the same email. No automatic email merge.",
+    "New Google accounts have USER role. To enable password reauthentication or unlink their last Google login method, create a local password using the email-code recovery flow first."
+  ],
+  "gmailSetup": [
+    "Use the shop-owned Gmail sender account with Google 2-Step Verification enabled. Create a Google App Password if the account supports it; use this instead of the normal Gmail password.",
+    "Set SMTP_USER to the complete sender Gmail address and SMTP_PASSWORD to its App Password without grouping spaces. Set EMAIL_PROVIDER=smtp only when credentials are ready. SMTP_HOST=smtp.gmail.com, SMTP_PORT=465, SMTP_SECURE=true are already prepared locally.",
+    "Restart the existing API and worker once. Keep only one running application stack. Email sending needs the worker, Redis and database.",
+    "Google sign-in credentials and Gmail SMTP credentials are separate. A customer signing in with Google does not grant Milo access to their mailbox.",
+    "Run an owner-controlled delivery check after configuring SMTP; check Inbox/Spam and Outbox job status. No external email was sent by this implementation session.",
+    "Gmail imposes delivery/sending limits. Failed delivery retries the existing email outbox; it does not switch to another provider or purchase services. Expired, replaced, verified or consumed recovery codes are skipped."
+  ],
+  "security": {
+    "passwordHash": "Argon2id (existing policy)",
+    "emailCode": "Six digits; 10 minutes; five wrong attempts; replacement invalidates previous code",
+    "resend": "60-second minimum; 3/email/15 minutes; additional IP/API throttling",
+    "resetProof": "Random 256-bit, hashed at rest, one use, at most 5 minutes within original code expiry",
+    "mfa": "Retained during reset and required during Google login when enabled",
+    "sessions": "JWT/session revocation unchanged; all revoked after recovery",
+    "oauth": "Authorization code + PKCE S256 + state bound to HttpOnly browser cookie + nonce; SDK verifies ID token; stable provider subject; pending login in HttpOnly cookie; no provider tokens retained",
+    "storage": "Email-code HMAC at rest; email text encrypted in outbox; only development file mail contains readable code inside ignored .local/mail",
+    "business": "Existing cart, payment, order, inventory and seller workflows preserved",
+    "logging": "Callback returns no-store and no-referrer; default Next development incoming logging and Nginx access logging exclude OAuth callback credentials. Temporary OAuth and MFA setup entries are excluded from Admin settings."
+  },
+  "deployment": [
+    "Install lockfile dependencies, run Prisma generate, build API/worker/web and execute the documented tests in isolated databases.",
+    "For another deployment, back up and restore-test its database before running prisma migrate deploy. Migration 202611230012_google_recovery adds two tables and does not rewrite existing business data.",
+    "Local migration was explicitly approved and applied after backup and clone rehearsal. migration-applied.json records unchanged fingerprints for all 42 original tables.",
+    "Production uses HTTPS and matching APP_URL, trusted reverse proxy, private no-store auth responses and the existing production provider/DB role checks.",
+    "The provided Compose file is a development stack (NODE_ENV=development). Its mail overrides now respect .env; configure Production separately using existing runtime checks. Do not run the development seed command against Production.",
+    "Rollback application code without dropping the additive authentication tables. For data recovery, restore the backup into a fresh database first and inspect before switching connections. Do not delete current shop data.",
+    "Configure query-string redaction for OAuth callback credentials in any additional hosting, reverse-proxy, monitoring or error logs outside these application settings."
+  ],
+  "limitations": [
+    "No Google Client ID/Secret or Gmail sender/App Password was supplied; live Google consent, token exchange and real SMTP delivery were not verified.",
+    "No real Google/Gmail, payment, shipping, Cloudinary or OpenAI requests were performed by the tests. Google provider and browser API responses were synthetic.",
+    "SMTP delivery can be delayed or rejected independently of website request success; the request response acknowledges queueing rather than guaranteeing receipt.",
+    "Code recovery changes the password, not the email address or active MFA. Losing both the second factor and backup codes still requires a separately verified support process."
+  ],
+  "officialSources": [
+    "https://developers.google.com/identity/openid-connect/openid-connect",
+    "https://developers.google.com/identity/sign-in/web/backend-auth",
+    "https://developers.google.com/identity/protocols/oauth2/web-server",
+    "https://support.google.com/accounts/answer/185833",
+    "https://developers.google.com/workspace/gmail/imap/imap-smtp"
+  ],
+  "verificationCommands": [
+    "npm run typecheck",
+    "npm test",
+    "npm run test:auth-upgrade",
+    "node scripts/test-try-on.mjs --auth-only",
+    "npm run test:integration",
+    "node scripts/test-integration.mjs --test-name-pattern=CLI --test-file=tests/integration.test.ts",
+    "npm run test:seller-ops",
+    "npm run build -w @milo/api",
+    "npm run build -w @milo/worker",
+    "npm run build -w @milo/web",
+    "npm audit --omit=dev"
+  ]
+}

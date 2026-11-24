@@ -9,6 +9,9 @@ import {
 } from "react";
 import Link from "next/link";
 import { useWishlist } from "../hooks/use-wishlist";
+import { useShopRealtime } from '../hooks/use-shop-realtime';
+import { ExperienceConsent } from './experience-consent';
+import { trackExperience } from '../lib/experience';
 import { ProductPhoto, realProductImages, productImagesForColor } from "./product-media";
 import { usePathname } from "next/navigation";
 import {
@@ -33,6 +36,14 @@ export const money = (n: number) =>
   new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(
     n,
   );
+let refreshingAccess: Promise<boolean> | null = null;
+function refreshAccess(csrf: string) {
+  if (!refreshingAccess) {
+    refreshingAccess = fetch('/api/v1/auth/refresh', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': csrf }, body: '{}', signal: AbortSignal.timeout(20000) })
+      .then(response => response.ok).catch(() => false).finally(() => { refreshingAccess = null; });
+  }
+  return refreshingAccess;
+}
 export async function api(path: string, options: RequestInit = {}) {
   const headers = new Headers(options.headers);
   if (options.body && !(options.body instanceof FormData))
@@ -54,15 +65,23 @@ export async function api(path: string, options: RequestInit = {}) {
     }
     headers.set("X-CSRF-Token", csrf);
   }
-  const r = await fetch(`/api/v1${path}`, {
+  const request = () => fetch(`/api/v1${path}`, {
     ...options,
     headers,
     credentials: "same-origin",
     signal: options.signal || AbortSignal.timeout(20000),
   });
-  const b = await r
+  let r = await request();
+  let b = await r
     .json()
     .catch(() => ({ message: "Máy chủ chưa sẵn sàng. Vui lòng thử lại." }));
+  if (r.status === 401 && ['ACCESS_TOKEN_EXPIRED', 'ACCESS_TOKEN_REVOKED'].includes(b.code) && !headers.has('Authorization') && path !== '/auth/refresh') {
+    let csrf = headers.get('X-CSRF-Token') || decodeURIComponent(document.cookie.split('; ').find(value => value.startsWith('milo_csrf='))?.slice('milo_csrf='.length) || '');
+    if (csrf && await refreshAccess(csrf)) {
+      r = await request();
+      b = await r.json().catch(() => ({ message: 'Máy chủ chưa sẵn sàng. Vui lòng thử lại.' }));
+    }
+  }
   if (!r.ok) {
     const error = Object.assign(new Error(b.message), {
       code: b.code,
@@ -103,6 +122,7 @@ export function Providers({ children }: { children: ReactNode }) {
     [toast, setToast] = useState(""),
     [config, setConfig] = useState<any>(null);
   const wishlist = useWishlist(user?.id);
+  const realtime = useShopRealtime(user, api, () => { void loadUser(); });
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const userRequest = useRef(0), cartRequest = useRef(0);
   function notify(message: string) {
@@ -239,6 +259,7 @@ export function Providers({ children }: { children: ReactNode }) {
         ];
     const saved = await changeCart(lines);
     if (saved === false) return false;
+    trackExperience('ADD_TO_CART',product.id);
     if (options.openDrawer !== false) setDrawer(true);
     notify("Đã thêm vào giỏ hàng.");
     return true;
@@ -272,9 +293,11 @@ export function Providers({ children }: { children: ReactNode }) {
         logout,
         loadUser,
         config,
+        realtime,
       }}
     >
       {children}
+      <ExperienceConsent />
       <CartDrawer />
       {toast && (
         <div className="toast" role="status">

@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-23",
+  "scope": "JWT, ảnh đại diện Cloudinary tối đa 5 MB, bàn xử lý đơn cho MiloShopHand và nhân viên",
+  "finalChecks": "PASS",
+  "implemented": {
+    "jwt": {
+      "algorithm": "HS256",
+      "accessLifetimeSeconds": 900,
+      "storage": "Cookie HttpOnly, SameSite=Lax; Secure khi API chạy production HTTPS. Không lưu token trong localStorage.",
+      "refresh": "milo_sid là refresh token ngẫu nhiên 32 byte, chỉ lưu hash phía server. Làm mới xoay refresh token và thu hồi token cũ; thời hạn tuyệt đối 7 ngày và idle timeout 30 phút giữ nguyên.",
+      "authorization": "Mỗi request được xác thực với phiên còn tồn tại và vai trò hiện tại trong database. JWT không chứa email, giá vốn hoặc quyền do client tự khai.",
+      "revocation": "Logout, reset mật khẩu, khóa tài khoản, đổi vai trò và thu hồi phiên vô hiệu hóa JWT qua kiểm tra session phía server.",
+      "compatibility": "Phiên cookie cũ tiếp tục dùng đến hết hạn. Phiên JWT không thể hạ về legacy chỉ bằng cách xóa access cookie.",
+      "csrf": "Mutation tiếp tục bắt buộc Origin và CSRF, gồm cả refresh và upload. Client chỉ làm mới một lần cho request bị hết hạn/thu hồi; refresh thất bại không lặp vô hạn.",
+      "recovery": "JWT cũ không ngăn người dùng đăng nhập lại, khôi phục mật khẩu hoặc xem catalog công khai."
+    },
+    "avatar": {
+      "maximumBytes": 5242880,
+      "formats": [
+        "JPEG",
+        "PNG",
+        "WebP",
+        "AVIF"
+      ],
+      "validation": "Kiểm tra cả browser và server; decode nội dung thật, giới hạn 24 megapixel, chuyển WebP tối đa 512 px, bỏ EXIF, tên ngẫu nhiên. Không nhận SVG hoặc URL tải tùy ý.",
+      "provider": "Cloudinary SDK, upload có ký ở server; secret không được đưa ra browser.",
+      "replacement": "Thay/xóa ảnh lưu hồ sơ trong transaction và xếp hàng AVATAR_DELETE cho worker dọn ảnh Cloudinary cũ.",
+      "rateLimit": "10 lượt upload/tài khoản/giờ, cộng giới hạn request chung.",
+      "configuredOnLocalMachine": false,
+      "realProviderTested": false
+    },
+    "seller": {
+      "path": "/nguoi-ban",
+      "roles": [
+        "ADMIN",
+        "SELLER"
+      ],
+      "businessModel": "Một cửa hàng MiloShopHand, nhiều nhân viên; không phải marketplace đa shop.",
+      "permissions": "Xem đơn, thông tin người mua/người nhận, xử lý xác nhận, đóng gói, yêu cầu vận đơn và bàn giao. Không truy cập Admin, giá vốn, báo cáo doanh thu, tài khoản nhân viên hoặc thay giá/tồn kho.",
+      "newOrder": "Đơn từ checkout xuất hiện trong cùng database và tạo thông báo nội bộ cho Admin/SELLER ngay trong transaction. Bàn người bán làm mới mỗi 15 giây khi tab đang hiển thị.",
+      "workflow": [
+        "Chờ thanh toán (QR)",
+        "Chờ duyệt",
+        "Đã duyệt",
+        "Đang đóng gói",
+        "Sẵn sàng giao",
+        "Có mã vận đơn",
+        "Đã bàn giao",
+        "Nhà vận chuyển xác nhận giao",
+        "Người mua xác nhận nhận hàng"
+      ],
+      "cancellation": "Người mua chọn lý do và chỉ tự hủy ở PENDING_PAYMENT/PENDING_CONFIRMATION. Ngay khi CONFIRMED, quyền tự hủy bị khóa ở backend. Sau duyệt cần liên hệ hỗ trợ, không có đường tắt từ UI.",
+      "consistency": "Khóa dòng Order trong transaction Serializable; expectedFrom ngăn thao tác dựa trên trạng thái cũ. Chỉ một bên thắng khi hủy/duyệt đồng thời; giải phóng/xuất kho chống lặp.",
+      "payment": "QR chưa được xác nhận trả tiền không duyệt/xuất. Hủy đơn đã trả tiền tạo Refund REQUESTED để xử lý riêng, không tự tuyên bố đã hoàn tiền.",
+      "shipment": "Nhân viên cần mã vận đơn hợp lệ và xác nhận bàn giao thực tế. Tạo vận đơn qua hàng đợi hiện có; không gọi vận chuyển trong kiểm thử thật.",
+      "audit": "Lịch sử đơn và AuditLog cho các thay đổi trạng thái, lý do hủy, vận đơn, cấp/thu hồi quyền và ảnh đại diện.",
+      "grantRole": "Admin → Khách hàng → Cấp quyền Người bán. Yêu cầu xác thực lại trong 10 phút; không đổi vai trò Admin hoặc tự đổi vai trò. Nhân viên đăng nhập lại sau khi được cấp/thu hồi quyền."
+    }
+  },
+  "migration": "Xem migration-verification.json: backup đã khôi phục thử, chạy migration trên bản sao và database shop sau khi người dùng xác nhận; dữ liệu 8 bảng giữ nguyên.",
+  "setup": {
+    "cloudinary": [
+      "Điền CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET vào .env riêng của máy chủ/API và worker.",
+      "Khởi động lại API và worker. GET /api/v1/me/avatar/config (cần đăng nhập) trả enabled=true khi đủ cấu hình; trạng thái này chưa chứng minh credential hợp lệ.",
+      "Một upload thật chỉ nên thực hiện sau khi chủ tài khoản xác nhận cấu hình/quyền sử dụng của Cloudinary. Chưa thực hiện cuộc gọi Cloudinary thật trong tác vụ này."
+    ],
+    "jwt": "JWT_SECRET là tùy chọn với ít nhất 64 ký tự ngẫu nhiên. Khi để trống, khóa JWT riêng được suy ra từ SESSION_SECRET hiện có; không cần thay secret hoặc đăng xuất toàn bộ tài khoản để nâng cấp.",
+    "production": [
+      "Sao lưu và kiểm tra restore trước migration tại từng môi trường.",
+      "npm ci; npm run db:generate; npm run db:migrate; npm run build.",
+      "Triển khai đồng bộ API, web và worker; bật HTTPS, NODE_ENV=production và các adapter thanh toán/vận chuyển production hiện có.",
+      "Kiểm tra đăng nhập/refresh/logout, cấp quyền SELLER, đơn COD/QR thử hợp lệ và webhook vận chuyển trong môi trường được phép.",
+      "Theo dõi hàng đợi email/vận đơn/AVATAR_DELETE và đơn bị kẹt trạng thái; không tự mở rộng quyền tài chính của SELLER."
+    ],
+    "rollback": "Có thể quay về mã ứng dụng trước, giữ nguyên các cột nullable và giá trị enum đã thêm để bảo toàn dữ liệu. Không tự DROP cột, xóa nhân viên hoặc restore đè bản backup lên đơn mới. Khi cần phục hồi, restore sang database riêng và đối soát thay đổi phát sinh rồi mới chuyển kết nối có xác nhận."
+  },
+  "validation": {
+    "baselineUnitAndRegression": 68,
+    "featureUnit": 5,
+    "featureIntegration": 12,
+    "browserDesktopAndMobile": 8,
+    "commerceAndSecurityIntegration": 42,
+    "existingTryOnIntegration": 13,
+    "realCloudinaryOpenAIShippingPaymentCalls": 0,
+    "totalPassed": 148,
+    "failed": 0,
+    "build": {
+      "api": "PASS",
+      "worker": "PASS",
+      "web": "PASS"
+    },
+    "dependencyAudit": {
+      "total": 0,
+      "high": 0,
+      "critical": 0,
+      "patchedIndirectDependency": "effect@3.22.1"
+    },
+    "schemaValidation": "PASS"
+  },
+  "dependenciesAdded": {
+    "jsonwebtoken": "9.0.3",
+    "cloudinary": "2.11.0",
+    "@types/jsonwebtoken": "9.0.10"
+  },
+  "remaining": [
+    "Chưa có credential Cloudinary trên máy, nên upload thật đang khóa với thông báo rõ. Bộ kiểm thử dùng provider giả lập.",
+    "Production chưa được triển khai; môi trường hiện tại dùng adapter thanh toán và vận chuyển mô phỏng, email lưu file.",
+    "Thông báo Người bán trong website dùng chu kỳ 15 giây, chưa có push notification hoặc WebSocket/SSE.",
+    "Tranh chấp sau khi duyệt và giao thất bại/hoàn hàng vẫn theo luồng hỗ trợ, vận chuyển, đổi trả và đối soát hiện có; không tự bổ sung cam kết đổi trả hoặc thời gian hoàn tiền.",
+    "Refresh xoay vòng và chặn token cũ; chưa bổ sung quản lý refresh token theo family/reuse detection cho mô hình OAuth nhiều ứng dụng."
+  ],
+  "proposedNextSteps": [
+    "Phân công nhân viên phụ trách từng đơn và nhắc đơn chờ duyệt/đóng gói quá hạn theo SLA do Milo tự chốt.",
+    "Thông báo tức thời bằng SSE/Web Push nếu cần nhận đơn khi rời màn hình Người bán.",
+    "Bổ sung 2FA tùy chọn cho Admin và người bán, cùng quy trình khôi phục phù hợp.",
+    "Quy trình xác nhận đơn COD có dấu hiệu rủi ro và báo cáo nguyên nhân hủy/giao thất bại; không tự quyết định phí/phạt hoặc gọi SMS trả phí."
+  ],
+  "officialReferences": [
+    "https://github.com/auth0/node-jsonwebtoken/blob/master/README.md",
+    "https://cloudinary.com/documentation/node_image_and_video_upload",
+    "https://cloudinary.com/documentation/image_upload_api_reference"
+  ],
+  "dependencyHardening": {
+    "effect": {
+      "from": "3.21.0",
+      "to": "3.22.1",
+      "via": "@prisma/config",
+      "advisory": "https://github.com/advisories/GHSA-7589-6fvf-x4pw",
+      "scope": "Override nhánh 3.x, không thay phiên bản Prisma hoặc kiến trúc database."
+    }
+  },
+  "localRuntime": {
+    "api": "http://localhost:4000",
+    "web": "http://localhost:3000",
+    "seller": "http://localhost:3000/nguoi-ban",
+    "worker": "RUNNING",
+    "productionDeployed": false,
+    "smoke": {
+      "pages200": [
+        "/nguoi-ban",
+        "/tai-khoan",
+        "/san-pham"
+      ],
+      "unauthenticated401": [
+        "/seller/orders",
+        "/me/avatar/config",
+        "/admin/orders"
+      ],
+      "privateCache": true,
+      "existingTryOnConfigPreserved": true
+    }
+  },
+  "changedFiles": [
+    ".env.example",
+    "package.json",
+    "package-lock.json",
+    "apps/api/package.json",
+    "apps/api/src/jwt.ts",
+    "apps/api/src/avatar.ts",
+    "apps/api/src/seller.ts",
+    "apps/api/src/auth.ts",
+    "apps/api/src/core.ts",
+    "apps/api/src/commerce.ts",
+    "apps/api/src/admin.ts",
+    "apps/api/src/main.ts",
+    "apps/api/src/request-security.ts",
+    "apps/api/src/security-policy.ts",
+    "apps/web/app/nguoi-ban/page.tsx",
+    "apps/web/app/seller.css",
+    "apps/web/app/layout.tsx",
+    "apps/web/app/robots.ts",
+    "apps/web/components/avatar-editor.tsx",
+    "apps/web/components/seller.tsx",
+    "apps/web/components/account.tsx",
+    "apps/web/components/admin.tsx",
+    "apps/web/components/client.tsx",
+    "apps/web/components/site-shell.tsx",
+    "apps/web/proxy.ts",
+    "apps/worker/src/main.ts",
+    "packages/shared/src/index.ts",
+    "prisma/schema.prisma",
+    "prisma/migrations/202611230010_seller_avatar/migration.sql",
+    "scripts/test-try-on-api.mjs",
+    "scripts/test-try-on.mjs",
+    "tests/commerce-upgrade.test.ts",
+    "tests/commerce-upgrade.integration.test.ts",
+    "tests/e2e/commerce-upgrade.spec.ts",
+    "tests/security.integration.test.ts",
+    "docs/commerce-upgrade-20261123/verification.json",
+    "docs/commerce-upgrade-20261123/migration-verification.json"
+  ],
+  "followUpReport": "../seller-operations-20261123/verification.json",
+  "followUpSummary": "Đã bổ sung phân công, nhắc việc và 2FA tùy chọn. Khi rollback phải xem lưu ý 2FA trong báo cáo mới."
+}

@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { PackingService } from '../apps/api/src/packing';
 import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import { randomBytes } from "node:crypto";
@@ -135,7 +136,10 @@ test("kho: giữ hàng khi tạo đơn, xuất một lần khi giao vận và s�
   const order = await commerce.checkout(buyer, { items: [{ variantId: v.id, quantity: 1 }], method: "COD", address: { recipient: "Khách kho", phone: "0901234567", text: "123 Đường Kiểm Thử, Thành phố Hồ Chí Minh", detail: "Tầng 1", instructions: "Gọi trước", confirmed: true, isDefault: false } }, key());
   let actual = await db.inventory.findUniqueOrThrow({ where: { id: inv.id } });
   assert.deepEqual([actual.onHand, actual.reserved], [15, 1]);
-  for (const state of ["CONFIRMED", "PACKING", "READY_TO_SHIP"]) await commerce.transition(order.id, state, admin.id, "Quy trình kho kiểm thử");
+  for (const state of ["CONFIRMED", "PACKING", "READY_TO_SHIP"]) {
+    if (state === 'READY_TO_SHIP') { let revision = 0; const lines = await db.orderItem.findMany({ where: { orderId: order.id } }); for (const line of lines) for (let piece = 0; piece < line.quantity; piece++) await new PackingService(db as any).change(order.id, admin.id, { action: 'SCAN', sku: line.sku, expectedRevision: revision++, requestId: crypto.randomUUID() }); }
+    await commerce.transition(order.id, state, admin.id, "Quy trình kho kiểm thử");
+  }
   actual = await db.inventory.findUniqueOrThrow({ where: { id: inv.id } });
   assert.equal(actual.onHand, 15, "confirmation must retain the existing reservation workflow");
   await db.shipment.update({ where: { orderId: order.id }, data: { trackingCode: key(), status: "CREATED" } });

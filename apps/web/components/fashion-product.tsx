@@ -1,5 +1,7 @@
 "use client";
-import { sampleSizeGuide } from "../content/size-guide";
+import { ProductSizeGuide } from './product-size-guide';
+import { trackExperience } from '../lib/experience';
+import { productStructuredData } from '../lib/product-seo';
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -36,12 +38,14 @@ import { tryOnHref, tryOnSupports } from "../lib/try-on";
 import { isUnreleasedDesign } from "../lib/product-preview";
 import { serializeJsonLd } from "../../../packages/shared/src/security";
 import "../app/product-360.css";
-export function FashionProductDetail({ slug, initialData, initialColor, initialSize, nonce }: { slug: string; initialData?: any; initialColor?: string; initialSize?: string; nonce?: string }) {
+export function FashionProductDetail({ slug, initialData, initialColor, initialSize, nonce, siteOrigin = "http://localhost:3000" }: { slug: string; initialData?: any; initialColor?: string; initialSize?: string; nonce?: string; siteOrigin?: string }) {
   const { data: p, error, loading, retry } = useResource(`/products/${slug}`, initialData);
   const { add, notify, config } = useShop();
   const router = useRouter();
   const [viewRequest, setViewRequest] = useState({ serial: 0, view: "front" });
   const [interactive,setInteractive]=useState(false);
+  const viewedProduct=useRef('');
+  useEffect(()=>{if(p&&viewedProduct.current!==p.id){viewedProduct.current=p.id;trackExperience('VIEW_PRODUCT',p.id);}},[p?.id]);
   useEffect(()=>setInteractive(true),[]);
   const [color, setColor] = useState(selectedProductColor(initialData, initialColor)),
     [size, setSize] = useState(selectedProductSize(initialData, selectedProductColor(initialData, initialColor), initialSize)),
@@ -188,6 +192,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
                   title={c}
                   className={c === color ? "selected" : ""}
                   onClick={() => {
+                    trackExperience('SELECT_VARIANT',p.id);
                     setColor(c);
                     setSize("");
                     setQuantity(1);
@@ -231,6 +236,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
                     aria-pressed={size === v.size}
                     className={size === v.size ? "selected" : ""}
                     onClick={() => {
+                      trackExperience('SELECT_VARIANT',p.id);
                       setSize(v.size);
                       setQuantity(1);
                     }}
@@ -281,6 +287,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
               <ArrowUpRight size={19} />
             </button>}
           </div>
+          {!preview && <div className="mobile-purchase-bar"><div><b>{money(price)}</b><small>{color} · {size || "Chưa chọn size"}</small></div><button type="button" className="button" disabled={busy || variant?.available===0} onClick={()=>void purchase(false)}>{size ? "Thêm vào giỏ" : "Chọn size"}</button></div>}
           <div className="detail-perks">
             {tryOnSupports(p) && <Link className="button secondary full product-try-on-detail" href={tryOnHref(p.slug, color, size)}>
               <Sparkles size={18} /> Dùng thử cùng ảnh của bạn <ArrowUpRight size={18} />
@@ -320,34 +327,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
             <summary>Hướng dẫn bảo quản</summary>
             <p>{p.care}</p>
           </details>
-          {!preview && <details id="size-guide">
-            <summary>Bảng size & cách chọn</summary>
-            <p>
-              Số đo mẫu (cm). So với một chiếc áo bạn đang mặc thoải mái; tham
-              khảo hướng dẫn và liên hệ Milo khi cần hỗ trợ chọn size.
-            </p>
-            <div className="size-table-wrap">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Size</th>
-                    <th>Vòng ngực</th>
-                    <th>Dài áo</th>
-                    <th>Vai</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {sampleSizeGuide.map((row) => (
-                    <tr key={row.size}>
-                      {[row.size, row.chest, row.length, row.shoulder].map((cell, i) => (
-                        <td key={i}>{cell}</td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </details>}
+          {!preview && <ProductSizeGuide productId={p.id} />}
           <details>
             <summary>Giao hàng & đổi trả</summary>
             <p>
@@ -414,21 +394,7 @@ export function FashionProductDetail({ slug, initialData, initialColor, initialS
         type="application/ld+json"
         nonce={nonce}
         dangerouslySetInnerHTML={{
-          __html: serializeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Product",
-            name: p.name,
-            description: miloDesignText(p.description),
-            ...(photos.length ? { image: photos.map((i: any) => i.url) } : {}),
-            offers: preview ? undefined : {
-              "@type": "Offer",
-              price: p.price,
-              priceCurrency: "VND",
-              availability: p.variants.some((v: any) => v.available)
-                ? "https://schema.org/InStock"
-                : "https://schema.org/OutOfStock",
-            },
-          }),
+          __html: serializeJsonLd(productStructuredData(p, config?.brand || 'MILOSHOPHAND', siteOrigin, preview)),
         }}
       />
     </div>

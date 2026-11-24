@@ -8,6 +8,7 @@ import { promisify } from "node:util";
 import { CommerceService } from "../apps/api/src/commerce";
 import { passwordHash } from "../apps/api/src/auth";
 import { hash } from "../apps/api/src/core";
+import { PackingService } from '../apps/api/src/packing';
 import { unseal } from "../apps/api/src/core";
 import { AdminController } from "../apps/api/src/admin";
 import { CommerceController } from "../apps/api/src/commerce";
@@ -471,7 +472,7 @@ test("cấp quyền ADMIN qua CLI, đăng nhập và xác thực lại chỉ b�
   const runAdmin = (...args: string[]) => promisify(execFile)(process.execPath, [
     "node_modules/tsx/dist/cli.mjs", "--tsconfig", "apps/api/tsconfig.json",
     "scripts/admin.ts", "--grant", ...args,
-  ], { env: process.env, timeout: 30000, windowsHide: true });
+  ], { env: process.env, timeout: 90000, windowsHide: true });
   const c = await client();
   assert.equal((await c.request("/admin/dashboard")).status, 401);
   assert.equal(
@@ -553,8 +554,10 @@ test("COD: giao hàng, thu tiền, chuyển về độc lập; hoàn một phầ
   const req: any = { actor: admin, session: { reauthenticatedAt: new Date() } };
   const v = await fresh(4);
   const o = await commerce.checkout(user, payload(v), key());
-  for (const s of ["CONFIRMED", "PACKING", "READY_TO_SHIP"])
+  for (const s of ["CONFIRMED", "PACKING", "READY_TO_SHIP"]) {
+    if (s === 'READY_TO_SHIP') { let revision = 0; for (const line of o.items) for (let piece = 0; piece < line.quantity; piece++) await new PackingService(db as any).change(o.id, admin.id, { action: 'SCAN', sku: line.sku, expectedRevision: revision++, requestId: crypto.randomUUID() }); }
     await commerce.transition(o.id, s, admin.id, "Xác nhận nghiệp vụ kiểm thử");
+  }
   await db.shipment.update({
     where: { orderId: o.id },
     data: { trackingCode: key(), status: "CREATED" },

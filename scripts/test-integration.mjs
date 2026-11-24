@@ -1,8 +1,10 @@
 import "dotenv/config";
-import { spawn } from "node:child_process";
+import { spawn, spawnSync } from "node:child_process";
 import pg from "pg";
+const databaseName = process.argv.find(value => value.startsWith('--database='))?.slice('--database='.length) || 'milo_integration_test';
+if (!/^milo_integration(?:_[a-z0-9]+)*_test$/.test(databaseName)) throw new Error('Use an isolated milo_integration_*_test database');
 const url = new URL(process.env.DATABASE_URL);
-url.pathname = "/milo_integration_test";
+url.pathname = `/${databaseName}`;
 const redisUrl = new URL(process.env.REDIS_URL || "redis://localhost:6379");
 redisUrl.pathname = "/1";
 const testEnv = {
@@ -14,6 +16,17 @@ const testEnv = {
   PAYMENT_PROVIDER: "mock",
   SHIPPING_PROVIDER: "mock",
   EMAIL_PROVIDER: "file",
+  TRY_ON_ENABLED: 'false',
+  OPENAI_API_KEY: '',
+  CLOUDINARY_CLOUD_NAME: '',
+  CLOUDINARY_API_KEY: '',
+  CLOUDINARY_API_SECRET: '',
+  CLOUDINARY_URL: '',
+  GOOGLE_CLIENT_ID: '',
+  GOOGLE_CLIENT_SECRET: '',
+  SMTP_HOST: '',
+  SMTP_USER: '',
+  SMTP_PASSWORD: '',
   SKIP_BREACH_CHECK: "true",
   NODE_ENV: "development",
   API_HOST: '127.0.0.1',
@@ -26,11 +39,11 @@ adminUrl.pathname = "/postgres";
 const c = new pg.Client({ connectionString: adminUrl.toString() });
 await c.connect();
 const exists = await c.query(
-  "SELECT 1 FROM pg_database WHERE datname='milo_integration_test'",
+  "SELECT 1 FROM pg_database WHERE datname=$1", [databaseName],
 );
 if (!exists.rowCount)
   await c.query(
-    "CREATE DATABASE milo_integration_test ENCODING 'UTF8' TEMPLATE template0 LC_COLLATE 'C' LC_CTYPE 'C'",
+    `CREATE DATABASE "${databaseName}" ENCODING 'UTF8' TEMPLATE template0 LC_COLLATE 'C' LC_CTYPE 'C'`,
   );
 await c.end();
 function command(bin, args, env = testEnv) {
@@ -47,6 +60,9 @@ function command(bin, args, env = testEnv) {
   });
 }
 let api;
+const testFiles = ['tests/integration.test.ts', 'tests/catalog.integration.test.ts', 'tests/inventory.integration.test.ts', 'tests/security.integration.test.ts'];
+const selectedTest = process.argv.find(value => value.startsWith('--test-file='))?.slice('--test-file='.length);
+if (selectedTest && !testFiles.includes(selectedTest)) throw new Error('Unknown integration test file');
 try {
   await command("node_modules/prisma/build/index.js", ["migrate", "deploy"]);
   await command("node_modules/tsx/dist/cli.mjs", ["prisma/seed.ts"]);
@@ -83,14 +99,15 @@ try {
     "apps/api/tsconfig.json",
     "--test",
     "--test-concurrency=1",
-    "tests/integration.test.ts",
-    "tests/catalog.integration.test.ts",
-    "tests/inventory.integration.test.ts",
-    "tests/security.integration.test.ts",
+    ...process.argv.slice(2).filter(value => value.startsWith('--test-name-pattern=')),
+    ...(selectedTest ? [selectedTest] : testFiles),
   ]);
 } catch (e) {
   console.error(e.message);
   process.exitCode = 1;
 } finally {
-  api?.kill();
+  if (api?.pid && api.exitCode === null) {
+    if (process.platform === 'win32') spawnSync('taskkill', ['/PID', String(api.pid), '/T', '/F'], { windowsHide: true, stdio: 'ignore' });
+    else api.kill();
+  }
 }

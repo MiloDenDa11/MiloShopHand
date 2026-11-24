@@ -6,9 +6,10 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: [
         "/admin",
+        '/nguoi-ban',
         "/api/",
         "/tai-khoan",
-        "/don-hang",
+        "/don-hang", "/don-khach", "/ho-tro",
         "/thanh-toan",
         "/gio-hang",
         "/dung-thu",

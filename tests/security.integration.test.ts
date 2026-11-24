@@ -80,7 +80,7 @@ test('SEC-05: anonymous and USER roles cannot read or mutate any Admin family', 
 });
 test('SEC-06: IDOR and mass assignment cannot read other orders, revoke sessions or grant Admin', async () => {
   assert.equal((await request(`/orders/${order.id}`, stranger)).status, 404);
-  assert.equal((await request(`/orders/${order.id}/cancel`, stranger, {})).status, 404);
+  assert.equal((await request(`/orders/${order.id}/cancel`, stranger, { reasonCode: 'DUPLICATE' })).status, 404);
   assert.equal((await request('/me', owner, { name: 'Buyer', role: 'ADMIN' }, 'PATCH')).status, 422);
   assert.equal((await db.user.findUniqueOrThrow({ where: { id: buyer.id } })).role, 'USER');
   await request(`/me/sessions/${hash(owner.raw)}`, stranger, undefined, 'DELETE');

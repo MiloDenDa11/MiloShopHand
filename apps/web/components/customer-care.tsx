@@ -8,7 +8,7 @@ import { useResource } from "../hooks/use-resource";
 import { useEditorialFragment } from "../hooks/use-editorial-fragment";
 import { EditorialPhoto } from "./editorial-photo";
 import { careSections, careVisuals, careFaqs, policyDetails } from "../content/customer-care";
-import { sampleSizeGuide } from "../content/size-guide";
+
 
 const menuIcons = [Truck, RotateCcw, ShieldCheck, CircleHelp, MessageCircle];
 function publicEmail(value: unknown): string | null {
@@ -43,18 +43,15 @@ function Steps({ title, steps, id }: { title: string; steps: { title: string; te
 function SizeGuide() {
   return <section className="care-size-guide" id="size-guide" aria-labelledby="care-size-title">
     <div className="care-section-title"><Ruler size={21} aria-hidden="true" /><h3 id="care-size-title">Tìm một phom áo vừa ý.</h3></div>
-    <p>Bảng size sản phẩm mẫu dùng cm; đo một chiếc áo bạn đang mặc thoải mái để so sánh.</p>
+    <p>Số đo riêng của sản phẩm dùng cm; đo một chiếc áo bạn đang mặc thoải mái để so sánh.</p>
     <div className="care-measure-tips">
       <div><span>A / VAI</span><p>Đo ngang giữa hai đường may vai.</p></div>
       <div><span>B / NGỰC</span><p>Đo ngang từ nách này sang nách kia; nhân đôi để so với vòng ngực.</p></div>
       <div><span>C / DÀI ÁO</span><p>Đo từ điểm vai cạnh cổ xuống gấu áo.</p></div>
     </div>
-    <div className="care-size-table" role="region" aria-label="Bảng số đo áo mẫu, đơn vị cm" tabIndex={0}>
-      <table><caption>Số đo mẫu · cm</caption><thead><tr><th scope="col">Size</th><th scope="col">Vòng ngực</th><th scope="col">Dài áo</th><th scope="col">Vai</th></tr></thead>
-        <tbody>{sampleSizeGuide.map(row => <tr key={row.size}><th scope="row">{row.size}</th><td>{row.chest}</td><td>{row.length}</td><td>{row.shoulder}</td></tr>)}</tbody>
-      </table>
-    </div>
-    <p className="care-fine-print">Đây là bảng số đo mẫu đang dùng trên trang sản phẩm. Ưu tiên thông tin riêng của sản phẩm và liên hệ cửa hàng khi cần hỗ trợ chọn size.</p>
+    <p className="care-fine-print">Mỗi mẫu có số đo riêng. Mở sản phẩm bạn đang chọn để xem bảng size đã được cửa hàng công bố; nếu chưa có số đo, hãy gửi yêu cầu hỗ trợ.</p>
+    <Link className="text-link" href="/san-pham">Xem sản phẩm & bảng size riêng →</Link>
+
   </section>;
 }
 

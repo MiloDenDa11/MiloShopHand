@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-23",
+  "migration": "202611230010_seller_avatar",
+  "applied": true,
+  "userApproved": true,
+  "backup": ".local/backups/milo-2026-11-23T10-21-03-327Z.dump",
+  "backupRestored": true,
+  "restoreDatabase": "milo_upgrade_restore_20261123_102103",
+  "originalDataUnchanged": {
+    "User": true,
+    "Session": true,
+    "Order": true,
+    "OrderItem": true,
+    "Inventory": true,
+    "Notification": true,
+    "Product": true,
+    "ProductVariant": true
+  },
+  "realCloudinaryCalls": 0
+}

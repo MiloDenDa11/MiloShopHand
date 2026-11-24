@@ -1,0 +1,38 @@
+{
+  "migration": "202611230011_seller_operations",
+  "backup": ".local/backups/milo-2026-11-23T13-36-11-702Z.dump",
+  "restoredDatabase": "milo_ops_restore_20261123_133611",
+  "restoredCopyMigration": "PASS",
+  "preserved": {
+    "User": true,
+    "Session": true,
+    "Order": true,
+    "OrderItem": true,
+    "Inventory": true,
+    "Notification": true,
+    "Product": true,
+    "ProductVariant": true,
+    "MFA": true,
+    "StoreSetting": true
+  },
+  "appliedToShop": true,
+  "userApproved": true,
+  "originalDataUnchanged": {
+    "User": true,
+    "Session": true,
+    "Order": true,
+    "OrderItem": true,
+    "Inventory": true,
+    "Notification": true,
+    "Product": true,
+    "ProductVariant": true,
+    "MFA": true,
+    "StoreSetting": true
+  },
+  "approvedPolicy": {
+    "enabled": true,
+    "pendingMinutes": 30,
+    "packingMinutes": 240
+  },
+  "automaticallyEnabledMfa": false
+}
